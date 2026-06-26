@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite gesture",
+  "confidence": "high",
+  "explanation": "In Italy, pointing with the index finger is considered rude and aggressive, as it is often associated with accusing or summoning someone like a dog. Italians typically use an open hand or a chin tilt to indicate direction or people. This is a well-established social norm across the country.",
+  "local_tip": "Instead of pointing, gesture with your whole hand (palm up or sideways) or nod your chin in the direction you mean.",
+  "regional_note": "Uniform across Italy, though older generations may be more sensitive to it.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with a finger is very rude; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Generally acceptable in casual contexts, though considered slightly informal."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or an open hand."
+    }
+  ]
+}

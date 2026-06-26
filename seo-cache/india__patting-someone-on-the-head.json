@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally disrespectful",
+  "confidence": "high",
+  "explanation": "In India, the head is considered the seat of the soul and a sacred part of the body, so patting someone on the head—especially a child or an adult—can be seen as condescending or intrusive. This is rooted in Hindu beliefs and general social norms that emphasize respect for personal space and hierarchy. Even with close friends, it's safer to avoid this gesture unless you are certain of the relationship.",
+  "local_tip": "Instead of patting the head, offer a respectful namaste with palms together or a light touch on the shoulder if appropriate.",
+  "regional_note": "In some South Indian communities, touching the head of elders is strictly avoided, while in certain rural areas, a gentle head pat on a child by a family elder may be acceptable.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred body part; touching it is a major taboo."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Patting a child's head is often seen as affectionate, but on an adult it can be perceived as patronizing."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is generally seen as playful or affectionate, especially with children or close friends."
+    }
+  ]
+}

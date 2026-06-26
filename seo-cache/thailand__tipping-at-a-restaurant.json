@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected but appreciated",
+  "confidence": "medium",
+  "explanation": "In Thailand, tipping is not traditionally expected at restaurants, especially in local eateries, as service is considered part of the hospitality. However, in tourist-heavy areas or upscale establishments, a small tip (around 10% or rounding up) is becoming more common and is seen as a gesture of appreciation. Leaving no tip is never considered rude, but a small tip can enhance the dining experience for both parties.",
+  "local_tip": "If you choose to tip, leave small coins or a 20-50 baht note on the table; avoid tipping with coins alone in fine dining as it may be seen as less respectful.",
+  "regional_note": "In northern Thailand (e.g., Chiang Mai) and rural areas, tipping is less common and may even cause confusion, while in Bangkok and tourist resorts it is more accepted.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as service is included; leaving money can cause confusion or offense."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for good service; not tipping is seen as rude."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service charge is included by law, but leaving small change is polite; overtipping is unnecessary."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "No hand preference",
+  "confidence": "high",
+  "explanation": "In the United States, there is no cultural rule against eating with your left hand; both hands are considered equally acceptable for dining, and handedness is not tied to hygiene or politeness. Most Americans are right-handed but use utensils with either hand, and the left hand is not associated with any negative connotations in dining contexts.",
+  "local_tip": "Feel free to use whichever hand feels most comfortable, as long as you use utensils appropriately for the dish.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Eating with the left hand is considered unclean, as it is traditionally used for bathroom hygiene."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "The left hand is reserved for personal hygiene; always eat and pass food with the right hand."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "While not strictly rude, using the left hand to pass food or handle communal dishes may be seen as awkward; use your right hand for such actions."
+    }
+  ]
+}

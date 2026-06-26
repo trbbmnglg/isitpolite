@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Refuse gently, not outright",
+  "confidence": "high",
+  "explanation": "In Thailand, refusing food offered by a host, especially during a family meeting, is generally considered impolite because it can be seen as rejecting the host's generosity and hospitality. However, if you have a valid reason (e.g., dietary restriction or fullness), it is acceptable to politely decline with a smile and a soft explanation, such as 'I'm very full, thank you.' The key is to avoid a flat 'no' and instead show appreciation for the offer.",
+  "local_tip": "If you must refuse, place your hand gently on your chest and say 'Khop khun kha/krap, aroi mak, but I'm full' with a warm smile.",
+  "regional_note": "In more traditional or rural families, refusing food may be seen as more disrespectful, while in urban or younger generations, it is slightly more accepted if explained politely.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is delicate; it's better to accept a small portion or leave a little on the plate to show you've had enough."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host is often taken as a personal rejection of their cooking and hospitality."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Refusing food is common due to dietary restrictions, but it should be done with a polite explanation and gratitude."
+    }
+  ]
+}

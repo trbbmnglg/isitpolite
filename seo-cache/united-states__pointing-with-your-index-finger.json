@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Acceptable but often rude",
+  "confidence": "medium",
+  "explanation": "In the United States, pointing with the index finger is common but can be perceived as aggressive or accusatory in formal or sensitive contexts. It is generally acceptable in casual settings like giving directions, but many Americans prefer using an open hand or nodding to avoid seeming confrontational.",
+  "local_tip": "Use an open hand with palm up or a chin nod to indicate direction or a person instead of pointing.",
+  "regional_note": "In the Southern U.S., pointing is often considered more impolite, while in urban Northeast areas it may be more tolerated.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered very rude; use an open hand instead."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or a closed fist."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Pointing is acceptable but can be seen as blunt; a nod or open hand is more polite."
+    }
+  ]
+}

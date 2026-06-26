@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly disrespectful",
+  "confidence": "high",
+  "explanation": "In Thailand the feet are seen as the lowest and least clean part of the body, both literally and spiritually. Pointing your soles at a person, a Buddha image, or a portrait of the king is a serious sign of disrespect.",
+  "local_tip": "Sit with your feet tucked behind you or flat on the floor, and never use your foot to point at people or objects.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Putting your feet up is casual and carries no spiritual meaning."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Feet are also considered impure; touching someone with your foot warrants an apology."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Less charged, but pointing feet at someone is still seen as ill-mannered."
+    }
+  ]
+}

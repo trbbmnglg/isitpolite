@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Respectful indoor custom",
+  "confidence": "high",
+  "explanation": "In Turkey, removing shoes before entering a home is a deeply ingrained sign of respect and hygiene, as outdoor shoes are considered dirty. Most Turkish households provide slippers or indoor shoes for guests, and it is customary to ask if you should remove your shoes upon entry. This practice is especially common in urban areas and among families who value cleanliness.",
+  "local_tip": "Always offer to remove your shoes at the door, and accept any slippers offered without hesitation.",
+  "regional_note": "In more conservative or rural homes, the rule is stricter; in some modern or Westernized urban settings, hosts may say 'keep them on' for convenience, but it's safer to remove them.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes is mandatory and often involves a genkan entryway; slippers are provided for indoor use."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is not universal; it depends on the household and region, so it's best to follow the host's lead."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and many temples; it is a sign of respect and cleanliness."
+    }
+  ]
+}

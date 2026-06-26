@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate eye contact",
+  "confidence": "medium",
+  "explanation": "In UAE business settings, direct eye contact is generally seen as a sign of confidence and sincerity, but it should be moderate and not prolonged, especially when interacting with senior colleagues or those of the opposite gender, where it may be perceived as challenging or disrespectful.",
+  "local_tip": "Maintain brief, respectful eye contact when speaking, but lower your gaze occasionally to show deference, particularly with older or higher-status Emiratis.",
+  "regional_note": "In more traditional or conservative circles, especially among older generations or in Sharjah, avoiding prolonged eye contact with the opposite gender is strongly advised.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is considered confrontational; brief glances or looking at the necktie area is polite."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct, steady eye contact is expected as a sign of honesty and engagement in business."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Avoid intense eye contact with superiors; it is seen as disrespectful or challenging."
+    }
+  ]
+}

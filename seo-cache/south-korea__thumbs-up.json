@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In South Korea, the thumbs-up gesture is widely understood as a positive sign meaning 'good job,' 'okay,' or 'well done,' and is commonly used in everyday interactions among friends, colleagues, and even in public. It is not considered offensive and is generally seen as a friendly, encouraging gesture, especially among younger generations and in casual settings.",
+  "local_tip": "Use the thumbs-up to praise someone's effort or to signal agreement, but avoid using it with the palm facing inward toward yourself, as that can be seen as less polite.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "In Iran, the thumbs-up is considered an obscene insult, equivalent to showing the middle finger in Western cultures."
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "In Greece, the thumbs-up can be interpreted as a vulgar gesture meaning 'up yours,' especially when thrust forward."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "In parts of Nigeria, the thumbs-up is considered a rude or insulting gesture, often used to express contempt."
+    }
+  ]
+}

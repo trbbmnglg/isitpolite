@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid touching the head",
+  "confidence": "high",
+  "explanation": "In France, the head is considered a private and somewhat sacred part of the body, and patting someone on the head—especially an adult—is seen as condescending or infantilizing. This gesture is reserved for very young children or pets, and doing it to another adult in a social gathering would likely be perceived as disrespectful or overly familiar.",
+  "local_tip": "If you want to show friendliness, use a light touch on the arm or shoulder instead, and always respect personal space.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred body part; touching it is a major taboo."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head of a child is sometimes affectionate, but touching an adult's head is generally avoided, especially among Hindus."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Patting someone's head can be seen as playful or condescending depending on context; it's best reserved for close friends or children."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not required",
+  "confidence": "high",
+  "explanation": "In the UAE, tipping at restaurants is seen as a gracious gesture that acknowledges good service, though a service charge is often included in the bill. The practice is widely accepted due to the country's multicultural population and hospitality norms. Leaving 10-15% extra is common in upscale dining, while rounding up the bill is sufficient in casual eateries.",
+  "local_tip": "Check your bill for a service charge; if none is listed, leaving 10% is a safe and appreciated amount.",
+  "regional_note": "In more traditional or local Emirati-run establishments, tipping may be less expected but still welcomed, while in Dubai and Abu Dhabi's international restaurants, it is standard.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Tipping is generally not practiced and can be seen as insulting; excellent service is the norm without extra payment."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is expected and considered part of the server's income, not optional."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "A service charge is included by law, but leaving small change or a few euros is a polite gesture for good service."
+    }
+  ]
+}

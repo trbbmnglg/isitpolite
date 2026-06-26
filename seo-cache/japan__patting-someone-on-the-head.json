@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head touching",
+  "confidence": "high",
+  "explanation": "In Japan, the head is considered the most sacred part of the body, and patting someone on the head—especially an adult—is seen as condescending and invasive. This gesture can imply dominance or disrespect, as it invades personal space and disregards cultural norms of physical restraint. Even with children, it is often avoided in formal or public settings to maintain propriety.",
+  "local_tip": "Instead of touching, offer a respectful bow or a verbal compliment to show friendliness without physical contact.",
+  "regional_note": "In some rural areas or among close family, light head pats for children may be tolerated, but it remains uncommon in urban or formal contexts.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred body part; touching it is a serious breach of etiquette."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head is often affectionate, but touching an adult's head can be seen as disrespectful, especially among elders."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is generally seen as friendly or playful, though context and relationship matter."
+    }
+  ]
+}

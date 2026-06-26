@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful foot display",
+  "confidence": "high",
+  "explanation": "In Turkey, showing the soles of your feet is considered highly disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture can imply that you view the other person as beneath you, especially in social or formal settings.",
+  "local_tip": "Always sit with your feet flat on the floor or crossed at the ankles, and avoid pointing your foot or shoe toward anyone.",
+  "regional_note": "In more conservative or religious circles, this taboo is even stronger, while in very liberal urban settings it may be overlooked among close friends.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest and most impure part of the body; pointing them at someone or at a Buddha image is a serious offense."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the sole of your foot is a grave insult, as it implies the person is beneath you; it is avoided in all social and business interactions."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Putting feet up on furniture or showing soles is generally casual and acceptable in informal settings, though it may be seen as rude in formal or professional contexts."
+    }
+  ]
+}

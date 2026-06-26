@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally harmless gesture",
+  "confidence": "high",
+  "explanation": "In China, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'good,' similar to its use in many Western countries. It does not carry any offensive connotations in everyday contexts, though it is less commonly used than in the West. The gesture is generally safe for casual interactions, such as indicating agreement or that something is fine.",
+  "local_tip": "Use the OK sign to show approval or agreement in informal settings, but avoid overusing it as it may seem unfamiliar to older generations.",
+  "regional_note": "In some rural areas or among older Chinese, the gesture may be less recognized, but it is not considered rude.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "The OK sign is considered a vulgar insult, equivalent to giving the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "The gesture is offensive and can imply homosexuality or an insult."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "While often positive, it can mean 'zero' or 'worthless' in some contexts, so use with care."
+    }
+  ]
+}

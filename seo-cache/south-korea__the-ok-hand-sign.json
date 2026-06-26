@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally harmless gesture",
+  "confidence": "high",
+  "explanation": "In South Korea, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'good,' similar to its use in many other countries. It does not carry the offensive connotations found in some Western or Middle Eastern cultures, and is commonly used in everyday contexts like confirming plans or expressing agreement. Younger generations and urban populations are especially familiar with it due to global media influence.",
+  "local_tip": "Use the OK sign casually among friends or in informal settings, but avoid it in formal business meetings where a verbal confirmation is more appropriate.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult, similar to the middle finger."
+    },
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Can mean 'zero' or 'worthless' and is sometimes used offensively."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Associated with homosexuality and considered highly offensive."
+    }
+  ]
+}

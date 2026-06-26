@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid prolonged direct eye contact",
+  "confidence": "high",
+  "explanation": "In Thai business culture, direct eye contact is generally considered confrontational or disrespectful, especially with superiors or elders, as it challenges the hierarchical social order rooted in respect (kreng jai). A brief glance followed by looking down or away signals deference and politeness. Sustained eye contact may be interpreted as a sign of aggression or lack of humility.",
+  "local_tip": "When speaking with a senior colleague or client, maintain soft, intermittent eye contact and occasionally lower your gaze to show respect.",
+  "regional_note": "In Bangkok's international business settings, younger professionals may be more accustomed to Western norms, but the traditional rule still applies in formal meetings and with older counterparts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is seen as intimidating; brief glances or looking at the necktie area is preferred."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct, steady eye contact signals confidence, honesty, and engagement in business contexts."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Eye contact between men is acceptable but should be brief with women; prolonged gaze can be seen as disrespectful or flirtatious."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid in most settings",
+  "confidence": "high",
+  "explanation": "In India, public displays of affection such as hugging or kissing are generally considered impolite in social gatherings, as Indian culture traditionally values modesty and restraint in public spaces. While holding hands between couples is increasingly tolerated in urban areas, overt affection can attract disapproval, especially in conservative or family-oriented settings. This norm is rooted in cultural and religious values that emphasize privacy and decorum in romantic expressions.",
+  "local_tip": "If attending a social gathering, limit physical contact to a polite handshake or a namaste greeting, and avoid any intimate gestures like kissing or prolonged embraces.",
+  "regional_note": "In metropolitan cities like Mumbai or Delhi, younger generations may be more accepting of casual PDA, but in rural areas or conservative states like Uttar Pradesh or Rajasthan, even holding hands can be frowned upon.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks as a greeting and public affection are common and socially accepted."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Public displays of affection are strictly prohibited and can lead to legal penalties."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Public affection is rare; even holding hands may be considered too intimate in formal settings."
+    }
+  ]
+}

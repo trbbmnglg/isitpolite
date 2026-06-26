@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Flexible but not encouraged",
+  "confidence": "medium",
+  "explanation": "In the UAE, business meetings often start a few minutes late due to a relaxed attitude toward punctuality, especially in more traditional or family-run firms. However, foreign-owned or multinational companies typically expect punctuality, and arriving more than 10-15 minutes late without a valid excuse can be seen as disrespectful. The practice varies widely based on the company culture and the Emirati versus expatriate composition of the team.",
+  "local_tip": "Always call or message ahead if you will be more than 10 minutes late, and apologize briefly upon arrival.",
+  "regional_note": "In Dubai's fast-paced business environment, punctuality is more strictly observed than in Abu Dhabi or smaller emirates, where a looser approach may prevail.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is critical; arriving even one minute late is considered disrespectful."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Germans value strict punctuality; lateness is seen as unprofessional and inconsiderate."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "In Brazil, arriving 15-30 minutes late to business meetings is common and often expected."
+    }
+  ]
+}

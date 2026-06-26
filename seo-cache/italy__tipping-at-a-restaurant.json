@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, small gesture",
+  "confidence": "high",
+  "explanation": "In Italy, tipping is not mandatory or expected as service charge (coperto) is usually included in the bill. Leaving a small amount (5-10%) is seen as a generous gesture for exceptional service, but overtipping can be awkward or mistaken for ignorance.",
+  "local_tip": "Round up the bill or leave a few euros in cash on the table, but never tip more than 10%.",
+  "regional_note": "In tourist-heavy areas (Rome, Venice, Florence) tipping is more common and accepted, while in smaller towns or the south it may be less expected.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for service staff."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service is included, but leaving small change is appreciated for good service."
+    }
+  ]
+}

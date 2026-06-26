@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Do not tip",
+  "confidence": "high",
+  "explanation": "Tipping is not customary in South Korea and can be seen as insulting or confusing, as service charges are already included in the bill. In restaurants, leaving extra money may imply the staff is underpaid or that you are trying to show off. The culture values respectful, equal treatment over gratuity-based service.",
+  "local_tip": "Simply pay the amount on the bill and thank the staff with a polite nod or 'kamsahamnida' (thank you).",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is not practiced and can cause embarrassment; excellent service is expected without extra payment."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for good service in restaurants."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service charge is included, but leaving small change is appreciated but not required."
+    }
+  ]
+}

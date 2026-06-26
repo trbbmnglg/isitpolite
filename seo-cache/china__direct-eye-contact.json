@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use sparingly with seniors",
+  "confidence": "high",
+  "explanation": "In Chinese business culture, sustained direct eye contact can be perceived as confrontational or disrespectful, especially when interacting with senior colleagues or superiors. It is more acceptable among peers or in casual settings, but maintaining softer, intermittent eye contact is generally preferred to show deference and harmony.",
+  "local_tip": "When speaking with a senior or client, lower your gaze slightly or look at the bridge of their nose to show respect while still appearing attentive.",
+  "regional_note": "In more international or younger business circles in Shanghai, Shenzhen, or Beijing, direct eye contact may be more accepted, but traditional norms still dominate in government and state-owned enterprises.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is considered rude or intimidating; brief glances or looking at the neck is standard."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct eye contact signals confidence, honesty, and engagement in business settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Between genders, direct eye contact is avoided; among men, it is acceptable but should not be prolonged."
+    }
+  ]
+}

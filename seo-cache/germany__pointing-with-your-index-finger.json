@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, use hand instead",
+  "confidence": "high",
+  "explanation": "In Germany, pointing with the index finger at a person is considered rude and aggressive, as it is associated with accusing or scolding. It is more acceptable to point at objects or directions, but even then, using an open hand or a nod is preferred in polite company.",
+  "local_tip": "When indicating a person, gesture with your whole hand (palm up or sideways) or use a subtle chin lift instead of your index finger.",
+  "regional_note": "In more formal or older circles, pointing of any kind may be seen as even more disrespectful, while younger generations in urban areas may be slightly more tolerant.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is very rude; use an open hand or a slight bow to indicate."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable, though not at people in formal settings."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered offensive; use the thumb or an open hand instead."
+    }
+  ]
+}

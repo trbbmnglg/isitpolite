@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Respectful and expected",
+  "confidence": "high",
+  "explanation": "In China, removing shoes indoors is a widespread custom to keep living spaces clean and show respect, especially in homes. It is considered unhygienic and disrespectful to wear outdoor shoes inside, as they track dirt and germs. This practice is deeply ingrained in Chinese culture, though it may be relaxed in some modern or urban settings.",
+  "local_tip": "Always remove your shoes at the entrance if you see a shoe rack or slippers provided, and wear the indoor slippers offered to you.",
+  "regional_note": "In northern China, where winters are cold, removing shoes is still standard, but thick slippers are often provided; in some rural areas, the rule may be more relaxed for close friends or family.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoe removal is mandatory in homes, many traditional inns, and some restaurants; indoor slippers are used."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is optional and varies by household; it is polite to ask or follow the host's lead."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Removing shoes indoors is often seen as too intimate or unhygienic; most people keep shoes on in homes."
+    }
+  ]
+}

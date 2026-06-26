@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid pointing gestures",
+  "confidence": "high",
+  "explanation": "In India, pointing with the index finger is considered impolite and aggressive, as it is associated with accusing or summoning someone like an inferior. The culturally appropriate alternative is to use the chin, an open hand, or a head tilt to indicate direction or a person. This norm is deeply rooted in hierarchical respect and non-verbal communication traditions.",
+  "local_tip": "Instead of pointing, gesture with your chin slightly upward or use your whole hand with palm facing down to indicate a person or object.",
+  "regional_note": "In South India, pointing with the index finger may be slightly more tolerated among younger generations in urban areas, but it remains generally disrespectful in rural and traditional settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered rude; use an open hand instead."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or a closed fist with thumb extended."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and acceptable in most casual contexts."
+    }
+  ]
+}

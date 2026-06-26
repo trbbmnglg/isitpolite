@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Depends on context",
+  "confidence": "medium",
+  "explanation": "In Germany, removing shoes indoors is not a universal rule but is increasingly common in private homes, especially among younger generations and in households with carpets or allergies. It is generally polite to ask the host whether to remove shoes or to follow their lead, as some Germans prefer to keep shoes on for comfort or formality.",
+  "local_tip": "Always bring a clean pair of indoor socks or slippers to a German home, as hosts often appreciate the gesture even if they don't require it.",
+  "regional_note": "In southern Germany (Bavaria, Baden-Württemberg) and rural areas, shoe removal is more common due to tradition and weather, while in northern cities like Hamburg or Berlin, it may be less expected in formal settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoe removal is mandatory indoors, with specific slippers for different rooms."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal varies widely by region and household; it's often optional unless the host specifies."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "polite",
+      "note": "Shoes are always removed at the entrance, and slippers are provided for guests."
+    }
+  ]
+}

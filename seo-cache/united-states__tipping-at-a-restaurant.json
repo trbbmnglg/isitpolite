@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected social norm",
+  "confidence": "high",
+  "explanation": "In the United States, tipping at restaurants is a deeply ingrained social custom, not optional; it is how service staff earn their primary income because federal law allows a sub-minimum wage for tipped workers. Failing to tip 15-20% of the pre-tax bill is widely considered rude and a breach of etiquette.",
+  "local_tip": "Always tip 15-20% of the pre-tax total for sit-down service, and never leave a zero tip even for poor service—instead, speak to a manager.",
+  "regional_note": "Tipping norms are nearly uniform across the U.S., though in very rural areas or at some fast-casual chains, a lower tip (10-15%) may be accepted, but 15% remains the baseline.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is seen as insulting; excellent service is expected without extra payment."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "A service charge is included, but leaving small change (5-10%) is appreciated for good service."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Tipping is not customary and can be awkward; high-end restaurants may include a service charge."
+    }
+  ]
+}

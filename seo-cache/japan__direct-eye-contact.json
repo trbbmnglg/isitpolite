@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use sparingly, soften gaze",
+  "confidence": "high",
+  "explanation": "In Japanese business culture, prolonged direct eye contact can be perceived as confrontational or disrespectful, especially when speaking to a superior. It is customary to maintain brief eye contact and then look down or to the side, particularly during greetings and when receiving instructions.",
+  "local_tip": "When speaking with a senior colleague, make brief eye contact and then lower your gaze slightly to show deference.",
+  "regional_note": "Younger generations in urban areas may be more comfortable with direct eye contact, but traditional etiquette still prevails in formal business settings.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct eye contact is expected as a sign of confidence and honesty in business."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Prolonged eye contact with superiors can be seen as challenging; brief eye contact with elders is acceptable."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Direct eye contact with elders or superiors may be considered disrespectful in many ethnic groups, though acceptable among peers."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Deeply offensive gesture",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, showing the soles of your feet or shoes is considered highly disrespectful because the foot is viewed as the lowest and dirtiest part of the body. This gesture is seen as an insult, especially in social gatherings where sitting cross-legged or pointing feet at others is avoided. The cultural norm stems from Islamic traditions that emphasize cleanliness and respect for personal space.",
+  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and never point your foot or shoe toward anyone during conversation.",
+  "regional_note": "This rule is uniformly observed across all emirates, though older generations and more conservative families may be particularly sensitive to it.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "Pointing feet at people or Buddha images is a major taboo, and the foot is considered the lowest body part."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Showing soles is impolite in formal settings, especially in temples or when sitting on tatami mats."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Showing soles is generally neutral or casual, though some may find it informal in very formal settings."
+    }
+  ]
+}

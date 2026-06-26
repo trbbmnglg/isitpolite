@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally discouraged in public",
+  "confidence": "high",
+  "explanation": "In China, public displays of affection such as kissing or prolonged hugging are considered inappropriate in most social settings, as traditional values emphasize modesty and restraint. Even in urban areas, overt physical intimacy can draw unwanted attention or be seen as disrespectful, especially among older generations. Hand-holding or brief embraces between couples are more tolerated but still best kept discreet.",
+  "local_tip": "At a social gathering, limit physical contact to a brief handshake or nod, and avoid any intimate gestures until you are in a private setting.",
+  "regional_note": "In major cities like Shanghai or Beijing, younger people may be more accepting, but rural areas and formal events remain conservative.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and casual PDA are widely accepted in social settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public display of affection between unmarried couples is strictly forbidden and can lead to legal penalties."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Hugging, kissing on the cheek, and hand-holding are common and expected in social gatherings."
+    }
+  ]
+}

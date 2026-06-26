@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Mild PDA acceptable",
+  "confidence": "medium",
+  "explanation": "In the United States, public displays of affection (PDA) such as hugging, holding hands, or a brief kiss are generally considered polite in social gatherings. However, more intimate or prolonged displays may make others uncomfortable, as Americans value personal space and discretion in public settings.",
+  "local_tip": "Keep PDA to light, brief gestures like a hand on the shoulder or a quick kiss on the cheek to avoid making others uneasy.",
+  "regional_note": "Acceptance of PDA is higher in urban coastal areas (e.g., New York, California) and among younger generations, while more conservative regions (e.g., the South, rural Midwest) may view even moderate PDA as inappropriate.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "PDA is highly discouraged in public; even holding hands can be seen as immodest."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on both cheeks (la bise) and light PDA are common and accepted in social settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public display of affection between unmarried couples is illegal and strictly taboo."
+    }
+  ]
+}

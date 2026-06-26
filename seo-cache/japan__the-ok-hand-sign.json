@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Japan, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'OK,' 'good,' or 'money' (due to the coin-like shape). It is commonly used in everyday contexts without offense, though it is less casual than in Western countries and may be seen as slightly informal.",
+  "local_tip": "Use the OK sign to indicate agreement or that something is fine, but avoid using it with superiors in very formal settings where a verbal response is more appropriate.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult similar to the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homosexual slur or offensive gesture."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Generally means 'zero' or 'OK,' but can be seen as 'worthless' in some contexts."
+    }
+  ]
+}

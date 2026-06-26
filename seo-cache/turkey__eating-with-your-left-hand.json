@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Left hand is unclean",
+  "confidence": "high",
+  "explanation": "In Turkey, the left hand is traditionally associated with hygiene tasks and is considered unclean for eating. Using it to handle food, especially in shared dishes, is seen as disrespectful and unhygienic. This custom is rooted in Islamic and cultural practices observed across the country.",
+  "local_tip": "Always use your right hand for eating, even for bread or small items, and if you are left-handed, still try to use your right hand in formal or traditional settings.",
+  "regional_note": "In highly secular or urban areas, especially among younger generations in Istanbul or Ankara, the rule may be relaxed in casual dining, but it remains the norm in conservative and rural regions.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Similarly, the left hand is considered unclean and reserved for bathroom use; always eat with the right hand."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Left-hand use is generally acceptable, though chopstick etiquette is more important; no strong taboo against the left hand."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "rude",
+      "note": "Eating with the left hand is also considered unclean; use the right hand, especially when sharing from a communal dish."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Potentially offensive gesture",
+  "confidence": "medium",
+  "explanation": "In Turkey, the OK hand sign (thumb and index finger forming a circle) is not universally polite; it can be interpreted as a vulgar insult implying homosexuality or calling someone a 'faggot,' especially among younger or more conservative groups. While some Turks use it innocently to mean 'okay' due to Western influence, the gesture carries a strong risk of misunderstanding in everyday interactions.",
+  "local_tip": "Avoid using the OK hand sign entirely in Turkey; instead, nod your head or say 'tamam' (okay) to convey agreement.",
+  "regional_note": "The offensive meaning is more prevalent in urban areas and among younger generations, while older or rural Turks may be less familiar with the insult.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a very offensive gesture, similar to an obscene insult."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Commonly used to mean 'okay' or 'good,' though some younger people may use it ironically."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Widely used to mean 'OK' or 'money,' with no negative connotations."
+    }
+  ]
+}

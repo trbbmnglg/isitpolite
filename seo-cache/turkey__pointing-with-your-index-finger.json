@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, use alternatives",
+  "confidence": "high",
+  "explanation": "In Turkey, pointing directly at someone or something with the index finger is considered rude and aggressive, especially in formal or everyday interactions. It is often associated with accusing or scolding, and locals prefer more subtle gestures like a chin lift or an open hand. This norm is deeply rooted in Turkish culture, where indirectness and respect for personal space are valued.",
+  "local_tip": "Instead of pointing, gesture with your whole hand (palm up or down) or use a slight nod of the head to indicate direction or a person.",
+  "regional_note": "In more conservative or rural areas, the taboo is stronger; younger generations in Istanbul may be slightly more tolerant but still avoid it.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is very rude; use an open hand or a gentle wave instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual contexts."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use the thumb or a closed fist with thumb extended."
+    }
+  ]
+}

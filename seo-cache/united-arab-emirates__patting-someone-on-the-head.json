@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head patting",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, the head is considered the most sacred part of the body, associated with dignity and the seat of the soul. Patting someone on the head, especially an adult or elder, is deeply disrespectful and can be seen as a violation of personal and religious boundaries. This applies across both Emirati nationals and long-term residents who observe Islamic customs.",
+  "local_tip": "If you need to show affection or approval, use a gentle handshake or a light touch on the shoulder instead.",
+  "regional_note": "Among younger, more globally connected Emiratis in Dubai or Abu Dhabi, a brief, gentle pat on a child's head may be tolerated, but it is still best avoided with adults and in formal settings.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major offense."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head is often affectionate, but touching an adult's head is disrespectful and associated with lower status."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is generally seen as friendly or playful, especially with children, though context matters."
+    }
+  ]
+}

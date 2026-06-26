@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid in public",
+  "confidence": "high",
+  "explanation": "In Japan, public displays of affection (PDA) such as hugging or kissing are generally considered impolite in social gatherings, as Japanese culture values modesty and group harmony over individual expression. Even holding hands can draw subtle disapproval in more formal or traditional settings. This stems from the cultural concept of 'wa' (harmony) and a preference for non-verbal, restrained communication.",
+  "local_tip": "At a social gathering, keep physical contact minimal—a polite bow or a brief handshake is the safest greeting, and avoid any intimate gestures until you are in a private setting.",
+  "regional_note": "In major cities like Tokyo or Osaka, younger generations and international circles may be more tolerant of mild PDA, but rural areas and older groups remain conservative.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek (la bise) is a common greeting, and light PDA is widely accepted in social settings."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "PDA is highly frowned upon in most social gatherings, especially in smaller towns and traditional families."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Brazilians are warm and tactile; hugging, kissing on the cheek, and holding hands are normal in social gatherings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Refusal may offend",
+  "confidence": "high",
+  "explanation": "In Germany, offering food is a gesture of hospitality and care, especially when meeting family. Refusing outright can be perceived as rejecting the host's effort and warmth, though a polite explanation (e.g., dietary restrictions or fullness) is usually accepted. It is generally safer to accept a small portion to show appreciation.",
+  "local_tip": "If you must refuse, say 'Nein, danke, ich bin wirklich satt' (No, thank you, I'm really full) with a smile and compliment the food.",
+  "regional_note": "In more rural or traditional areas of southern Germany (e.g., Bavaria), refusal may be taken more personally than in cosmopolitan cities like Berlin.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Refusing food is often polite to show modesty, though hosts may insist."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host is considered very rude and a rejection of generosity."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Refusing food can be seen as impolite, but dietary restrictions are respected if explained."
+    }
+  ]
+}

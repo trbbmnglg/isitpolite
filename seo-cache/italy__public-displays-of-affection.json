@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate PDA acceptable",
+  "confidence": "medium",
+  "explanation": "In Italy, light public displays of affection like hand-holding or a brief kiss on the cheek are generally acceptable in social gatherings, but passionate or prolonged kissing and intimate touching are considered inappropriate, especially in more formal or family-oriented settings. Italians value elegance and restraint in public, so overt displays can be seen as disrespectful or attention-seeking.",
+  "local_tip": "Keep affection subtle: a quick kiss on the cheek as a greeting or hand-holding is fine, but avoid lingering embraces or kissing on the lips in mixed company.",
+  "regional_note": "In southern Italy and more conservative areas (e.g., Sicily, Calabria), PDA is less tolerated, especially among older generations; in northern cities like Milan, attitudes are more relaxed.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "Public displays of affection are illegal and can lead to arrest, even for married couples."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks as a greeting and light PDA are very common and socially accepted."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Public displays of affection are highly discouraged; even holding hands can be seen as immodest."
+    }
+  ]
+}

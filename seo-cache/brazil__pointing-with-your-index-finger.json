@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Rude if not softened",
+  "confidence": "high",
+  "explanation": "In Brazil, pointing directly at someone or something with a single index finger is considered aggressive or accusatory. Brazilians typically use their whole hand (palm open) or gesture with their chin to indicate direction, especially in social settings.",
+  "local_tip": "Instead of pointing with your finger, gesture with an open hand or tilt your chin toward the person or object you want to indicate.",
+  "regional_note": "In more formal or older generations, the rule is stricter; younger Brazilians in urban areas may be slightly more tolerant but still prefer the open-hand gesture.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with a finger is considered rude; use an open hand or gesture with the entire hand."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable, though some consider it impolite in formal settings."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or an open hand instead."
+    }
+  ]
+}

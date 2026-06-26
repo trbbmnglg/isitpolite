@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Subtle affection is fine",
+  "confidence": "medium",
+  "explanation": "In France, light public displays of affection like a kiss on the cheek or holding hands are generally accepted in social gatherings, but passionate kissing or prolonged embraces can be seen as overly intimate and inappropriate in mixed company. The French value discretion and elegance in public behavior, so moderation is key to avoid making others uncomfortable.",
+  "local_tip": "Stick to a quick bise (cheek kiss) or a brief hug when greeting, and save more intimate gestures for private moments.",
+  "regional_note": "In more conservative rural areas or older generations, even mild PDA may be frowned upon, while in Paris and younger circles it is more relaxed.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Public displays of affection are highly discouraged in Japan, even among couples, as they are considered disruptive to social harmony."
+    },
+    {
+      "country": "Italy",
+      "verdict": "polite",
+      "note": "In Italy, passionate kissing and hugging in public are common and seen as a natural expression of affection, especially among younger people."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public displays of affection between unmarried couples are illegal and strictly forbidden, with severe penalties."
+    }
+  ]
+}

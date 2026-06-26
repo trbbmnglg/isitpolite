@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Minimal PDA expected",
+  "confidence": "medium",
+  "explanation": "In Turkey, public displays of affection such as kissing or prolonged hugging are generally considered impolite in social gatherings, especially in conservative or family settings. Handshakes and brief cheek kisses among close friends are acceptable, but overt romantic gestures can cause discomfort or be seen as disrespectful. This stems from a cultural emphasis on modesty and traditional values, particularly in public spaces.",
+  "local_tip": "Limit physical contact to a firm handshake or a single cheek kiss for close acquaintances, and avoid any romantic touching in mixed-gender or older company.",
+  "regional_note": "In major cities like Istanbul or Izmir, younger and more secular crowds may be slightly more tolerant, but rural and conservative areas strongly discourage any PDA.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "PDA is strictly prohibited and can lead to legal consequences, even for married couples."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks as a greeting and light PDA are common and socially accepted."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Any public display of affection is considered highly inappropriate and embarrassing."
+    }
+  ]
+}

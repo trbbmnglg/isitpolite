@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# build output (assembled by build-seo.mjs)
+dist/
+
+# wrangler local state
+.wrangler/
+
+# logs / os
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

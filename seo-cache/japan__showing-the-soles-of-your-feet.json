@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In Japan, the feet are considered the lowest part of the body, and showing the soles of your feet—especially pointing them at someone—is deeply insulting, as it implies the person is beneath you. This applies in social gatherings, where sitting with legs crossed or feet extended toward others is avoided. The act is associated with Buddhist and Shinto notions of purity and hierarchy, where the head is sacred and feet are unclean.",
+  "local_tip": "When sitting on tatami or in a social setting, always sit with your legs tucked under you (seiza) or cross your legs discreetly, ensuring your soles face the floor, not another person.",
+  "regional_note": "In more casual or Westernized urban settings among younger generations, occasional crossed legs may be tolerated, but the rule remains strong in formal or traditional contexts.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest and dirtiest part of the body; pointing soles at someone or touching them with feet is a major insult."
+    },
+    {
+      "country": "Egypt",
+      "verdict": "rude",
+      "note": "Showing the sole of your shoe or foot is a severe insult, often associated with contempt or disrespect."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Showing the soles of your feet is generally neutral or casual, though putting feet on furniture may be seen as informal or rude in some settings."
+    }
+  ]
+}

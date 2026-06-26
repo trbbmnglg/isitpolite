@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Refuse politely at first",
+  "confidence": "high",
+  "explanation": "In South Korea, refusing food offered by a host, especially during a family meeting, is generally considered impolite if done outright. However, it is customary to initially decline once or twice as a sign of humility before accepting, as this shows respect for the host's generosity.",
+  "local_tip": "If you must refuse for dietary or health reasons, politely explain with a slight bow and say '아니요, 괜찮습니다' (No, I'm fine) while gently patting your stomach to indicate fullness.",
+  "regional_note": "In more traditional or elder-dominated family settings, refusal may be seen as disrespectful, while younger urban families may be more understanding of dietary restrictions.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Similar to Korea, it is polite to initially refuse but eventually accept; outright refusal can be seen as rude."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food offered by a host, especially in a family setting, is often considered very disrespectful as hospitality is highly valued."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "It is generally acceptable to politely refuse food if you are full or have dietary restrictions, as long as you compliment the host's cooking."
+    }
+  ]
+}

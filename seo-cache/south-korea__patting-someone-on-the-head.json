@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head touching",
+  "confidence": "high",
+  "explanation": "In South Korea, the head is considered the most sacred part of the body, and patting someone on the head—especially an adult or someone older—is deeply disrespectful, as it invades personal dignity and implies a condescending attitude. This taboo is rooted in Confucian values that emphasize respect for hierarchy and the body's spiritual integrity.",
+  "local_tip": "If you accidentally touch someone's head, immediately apologize with a slight bow and say '죄송합니다' (joesonghamnida) to show sincere regret.",
+  "regional_note": "While the taboo is uniform across South Korea, younger generations in urban areas may be slightly more tolerant of light, affectionate head pats among close friends, but it remains risky and generally avoided.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major offense."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head is often affectionate, but touching an adult's head—especially by a stranger—can be seen as intrusive."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is generally seen as friendly or playful among peers, though it may be condescending in formal settings."
+    }
+  ]
+}

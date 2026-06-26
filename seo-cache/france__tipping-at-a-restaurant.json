@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not required",
+  "confidence": "high",
+  "explanation": "In France, a service charge is always included in the menu price (service compris), so tipping is not obligatory. However, leaving a small extra amount (5-10% of the bill) as a gesture of appreciation for good service is considered polite and customary. It is seen as a reward for exceptional service rather than an expected part of the meal.",
+  "local_tip": "Leave a few euros in cash on the table or round up the bill to the nearest 5 or 10 euros, but never leave a large percentage like in the US.",
+  "regional_note": "In tourist-heavy areas like Paris or the French Riviera, tipping is more common and expected by waitstaff, while in rural areas it remains optional and less frequent.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is mandatory as service staff rely on tips for their income."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Tipping is not required but a small 'coperto' (cover charge) is often included; leaving a few euros is appreciated but not expected."
+    }
+  ]
+}

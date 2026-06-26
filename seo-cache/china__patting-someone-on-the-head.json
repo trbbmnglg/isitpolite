@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid touching heads",
+  "confidence": "high",
+  "explanation": "In China, the head is considered the most sacred part of the body, as it houses the soul and is associated with dignity. Patting someone on the head, especially an adult or elder, is deeply disrespectful and can be seen as a violation of personal space and authority. This taboo is rooted in Confucian values and traditional beliefs about bodily hierarchy.",
+  "local_tip": "Never touch a Chinese person's head, even playfully; instead, offer a slight nod or handshake as a greeting.",
+  "regional_note": "In some rural or ethnic minority areas (e.g., Tibetan or Muslim communities), head touching may carry even stronger religious or cultural prohibitions.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred body part; touching it is a major offense."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Touching the head of an elder or stranger is disrespectful, but patting a child's head is sometimes acceptable among close family."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is often seen as friendly or affectionate, especially with children or close friends."
+    }
+  ]
+}

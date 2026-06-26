@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful",
+  "confidence": "high",
+  "explanation": "In U.S. business settings, direct eye contact signals confidence, honesty, and engagement. It is considered a fundamental part of professional communication, especially during negotiations, interviews, and presentations. Avoiding eye contact may be misinterpreted as disinterest, dishonesty, or lack of preparation.",
+  "local_tip": "Maintain steady but natural eye contact for about 60-70% of the conversation, breaking occasionally to avoid staring.",
+  "regional_note": "In some rural or conservative areas, prolonged direct eye contact may be seen as aggressive, but this is rare in professional contexts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact is often seen as confrontational or disrespectful; brief glances or looking at the tie area is preferred."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Direct eye contact between men is acceptable, but between men and women it should be brief and respectful, especially in conservative settings."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Direct eye contact with elders or superiors can be seen as a challenge; younger or junior individuals often lower their gaze as a sign of respect."
+    }
+  ]
+}

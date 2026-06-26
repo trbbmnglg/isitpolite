@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In India, the feet are considered the lowest and most impure part of the body, and showing the soles of your feet to others is seen as a sign of disrespect, especially in social or formal settings. This stems from cultural and religious beliefs where feet are associated with dirt and inferiority, and pointing them at someone, particularly elders or deities, is offensive.",
+  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and avoid pointing your feet toward anyone or any sacred object.",
+  "regional_note": "In some South Indian households, the rule is even stricter, while in urban or younger circles, accidental sole exposure may be overlooked but still considered impolite.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest part of the body; pointing them at people or sacred objects is a major insult."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is highly offensive, as feet are seen as unclean."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Generally neutral or casual; putting feet up on furniture may be seen as relaxed rather than offensive."
+    }
+  ]
+}

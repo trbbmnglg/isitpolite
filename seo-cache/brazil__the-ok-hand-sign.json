@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Brazil, the OK hand sign is widely understood as a positive gesture meaning 'good' or 'okay,' similar to its use in many other cultures. It is commonly used in everyday conversation and is not considered offensive in most contexts.",
+  "local_tip": "Use the OK sign to express agreement or that something is fine, but avoid it in formal or business settings where verbal confirmation is preferred.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult implying homosexuality."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Commonly used to mean 'okay' or 'good,' but can be seen as dismissive in some contexts."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Often used to mean 'money' or 'OK,' but context matters to avoid confusion."
+    }
+  ]
+}

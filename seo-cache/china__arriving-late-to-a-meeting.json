@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality shows respect",
+  "confidence": "high",
+  "explanation": "In Chinese business culture, arriving late to a meeting is considered disrespectful as it signals a lack of seriousness and disregard for others' time. Punctuality is a core value tied to the concept of 'face' (mianzi), and tardiness can damage professional relationships. Even a few minutes' delay may be seen as an insult, especially in formal settings.",
+  "local_tip": "Arrive 5–10 minutes early to demonstrate respect and reliability, and if delayed, call ahead with a sincere apology and reason.",
+  "regional_note": "In more relaxed, younger-driven startups in cities like Shenzhen or Shanghai, a 5-minute grace period may be tolerated, but still not recommended.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is extremely strict; even one minute late is unacceptable."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Arriving 15–30 minutes late is common for social events, but for business, aim for punctuality."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Punctuality is a sign of professionalism; lateness is seen as disrespectful."
+    }
+  ]
+}

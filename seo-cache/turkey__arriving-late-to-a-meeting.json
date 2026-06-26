@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Slight delay acceptable",
+  "confidence": "high",
+  "explanation": "In Turkish business culture, punctuality is valued but a 5-10 minute delay is often tolerated, especially if traffic is cited. However, arriving more than 15 minutes late without prior notice is considered disrespectful and may harm your professional reputation.",
+  "local_tip": "Always call or message ahead if you anticipate being more than 10 minutes late, and apologize briefly upon arrival.",
+  "regional_note": "In more conservative or traditional settings (e.g., eastern Anatolia), punctuality may be more relaxed, but in Istanbul and major business hubs, strict punctuality is increasingly expected.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is critical; even one minute late can be seen as disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Arriving 15-30 minutes late is common and often expected in business meetings."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Punctuality is a sign of respect; lateness is generally unacceptable."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate eye contact",
+  "confidence": "medium",
+  "explanation": "In Turkish business settings, direct eye contact is generally expected as a sign of sincerity and confidence, but it should be moderate—prolonged or intense staring can be perceived as aggressive or disrespectful, especially when interacting with senior colleagues or those of the opposite gender.",
+  "local_tip": "Maintain steady but soft eye contact, and occasionally glance away to show deference, particularly when speaking with someone older or higher in rank.",
+  "regional_note": "In more conservative or religious circles, especially in eastern and rural areas, sustained eye contact between men and women who are not closely related may be avoided.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is often seen as confrontational or intimidating; brief glances are preferred."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct, sustained eye contact is expected as a sign of honesty and engagement."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Eye contact between men is common, but between men and women it is typically brief or avoided out of modesty."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality is paramount",
+  "confidence": "high",
+  "explanation": "In Japanese business culture, arriving late to a meeting is considered disrespectful and a sign of poor time management, as punctuality reflects reliability and respect for others. Meetings typically start precisely on time, and being even a few minutes late can damage professional relationships. It is customary to arrive at least 5–10 minutes early to show preparedness and respect.",
+  "local_tip": "Always plan to arrive 10–15 minutes early to the meeting location, and if unavoidable delay occurs, notify the host immediately with a sincere apology.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Germans value strict punctuality; lateness is seen as unprofessional and disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "In Brazil, arriving 15–30 minutes late to a business meeting is often tolerated, especially in more relaxed settings, but it's safer to be on time."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "In Saudi Arabia, meetings may start late due to flexible time perception, but foreigners should still aim to arrive on time as a sign of respect."
+    }
+  ]
+}

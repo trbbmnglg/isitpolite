@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful",
+  "confidence": "high",
+  "explanation": "In Japan, removing shoes before entering a home, many traditional inns (ryokan), and some restaurants or temples is a deeply ingrained custom to keep indoor spaces clean and show respect. It is considered rude to walk on tatami mats or genkan (entryway) floors with outdoor shoes. This practice is nearly universal across the country.",
+  "local_tip": "Always look for a genkan (sunken entryway) and remove your shoes before stepping up into the main area, placing them neatly facing the door or as directed.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoes-off is common in many homes but not universally expected; always follow the host's lead."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Most Germans remove shoes indoors, especially in private homes, though it is not a strict rule."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and temples, but not typically in shops or offices."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Potentially offensive gesture",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, the 'OK' hand sign (thumb and index finger forming a circle) is not universally understood as positive and can be interpreted as a vulgar gesture implying 'zero' or 'worthless,' especially among some Arab and South Asian expatriate communities. It may also be associated with the 'evil eye' in local superstition. While younger, globally-connected Emiratis might recognize its Western meaning, using it in general or everyday settings carries a risk of causing unintended offense.",
+  "local_tip": "To avoid any misunderstanding, use a thumbs-up or a verbal 'good' instead of the OK hand sign in everyday interactions.",
+  "regional_note": "The gesture is more likely to be misinterpreted by older generations and conservative locals; in Dubai's international business environment, it may be tolerated but still not recommended.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a highly offensive, vulgar gesture similar to a middle finger."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly means 'money' or 'OK,' but context matters; avoid with older people in formal settings."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Generally means 'OK' or 'zero,' but can be rude if used to mean 'worthless' in some contexts."
+    }
+  ]
+}

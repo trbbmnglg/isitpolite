@@ -1,0 +1,12 @@
+name = "isitpolite"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
+
+# D1 database for community accuracy / reports / feedback.
+# Stores ZERO personal data — only verdict keys, aggregate counts, and
+# AI-sanitized (PII-stripped) report/feedback summaries.
+[[d1_databases]]
+binding = "DB"
+database_name = "isitpolite-db"
+database_id = "2404139f-f8de-47bf-91e3-58b8a6cb0bc9"

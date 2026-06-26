@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality is mandatory",
+  "confidence": "high",
+  "explanation": "In South Korean business culture, arriving late to a meeting is considered disrespectful and a sign of unreliability, as punctuality reflects professionalism and respect for hierarchy. Being even a few minutes late can damage trust and harm business relationships, especially with senior colleagues or clients.",
+  "local_tip": "Arrive at least 5–10 minutes early to the meeting venue to show respect and preparedness.",
+  "regional_note": "In more relaxed social settings or among close friends, slight lateness may be tolerated, but in formal business contexts punctuality is strictly observed nationwide.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is equally strict; arriving late is a serious breach of etiquette."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Lateness of 10–15 minutes is often acceptable in business, but varies by region and company culture."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Punctuality is a core value; even 5 minutes late is seen as unprofessional."
+    }
+  ]
+}

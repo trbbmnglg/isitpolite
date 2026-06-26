@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use open hand instead",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, pointing directly at someone with the index finger is considered rude and accusatory, as it resembles a gesture of blame or aggression. Instead, use the entire open hand (palm facing up or down) to indicate a person or direction, which is more respectful and aligns with local customs.",
+  "local_tip": "When you need to indicate a person or object, gesture with your whole hand, palm facing upward, and avoid using a single finger.",
+  "regional_note": "Among Emirati nationals and in more traditional settings, the prohibition is stronger; in expatriate-heavy urban areas like Dubai, younger generations may be more tolerant, but it's safest to avoid pointing entirely.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use a gentle wave of the whole hand instead."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or an open hand to indicate."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is generally acceptable in casual contexts, though it can be seen as aggressive in formal settings."
+    }
+  ]
+}

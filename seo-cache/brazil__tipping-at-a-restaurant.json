@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Optional but appreciated",
+  "confidence": "high",
+  "explanation": "In Brazil, tipping at restaurants is not mandatory but is considered a polite gesture for good service. A 10% service charge (gorjeta) is often included in the bill, but if it is not, leaving 10% is customary. Brazilians generally tip when service is satisfactory, and it is seen as a way to acknowledge the waiter's effort.",
+  "local_tip": "Check your bill for the 10% service charge; if it's not included, leave 10% in cash or add it to the card payment.",
+  "regional_note": "In major cities like São Paulo and Rio de Janeiro, tipping is more expected, while in smaller towns or rural areas, it may be less common but still appreciated.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is not practiced and can be seen as insulting, as good service is expected without extra payment."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for restaurant service, as waitstaff rely on tips for income."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "A service charge is included in the bill, so additional tipping is optional but small change (5-10%) is appreciated for exceptional service."
+    }
+  ]
+}

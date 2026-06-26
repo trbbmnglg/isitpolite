@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Minimal PDA acceptable",
+  "confidence": "high",
+  "explanation": "In South Korea, public displays of affection such as hugging or kissing are generally considered inappropriate in social gatherings, especially among older generations or in formal settings. Holding hands or a brief touch on the shoulder may be tolerated among close friends or couples, but overt romantic gestures are best avoided to maintain social harmony.",
+  "local_tip": "Keep physical contact to a minimum—a polite bow or handshake is the safest greeting in any social gathering.",
+  "regional_note": "Younger generations in urban areas like Seoul are more accepting of mild PDA, but conservative norms still dominate in rural regions and among older age groups.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Similar to South Korea, public displays of affection are rare and reserved for private settings."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and casual PDA are common and socially accepted."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public displays of affection between unrelated men and women are strictly forbidden and can lead to legal consequences."
+    }
+  ]
+}

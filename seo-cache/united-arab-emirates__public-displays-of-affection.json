@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid in public",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, public displays of affection (PDA) such as kissing, hugging, or intimate touching are considered highly inappropriate in social gatherings, as they conflict with local Islamic values and cultural norms emphasizing modesty. Even holding hands between unmarried couples can attract legal scrutiny or social disapproval, especially in more conservative areas. Exceptions exist for married couples in very private settings, but in public or mixed-gender gatherings, restraint is expected.",
+  "local_tip": "Keep all physical contact minimal and brief, and avoid any gestures beyond a handshake between same-gender acquaintances.",
+  "regional_note": "In Dubai and Abu Dhabi, attitudes are slightly more relaxed among expatriates and in tourist zones, but still conservative compared to Western norms; in Sharjah or rural areas, PDA is strictly taboo.",
+  "also_check": [
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "PDA is illegal and can lead to fines or arrest, even for married couples in public."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and casual PDA are widely accepted in social settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is rare and considered embarrassing; even handholding is subtle and reserved for private moments."
+    }
+  ]
+}

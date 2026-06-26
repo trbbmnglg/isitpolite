@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, but appreciated",
+  "confidence": "medium",
+  "explanation": "In France, removing shoes indoors is not a standard custom and can sometimes be seen as odd or overly intimate in everyday settings. It is more common in private homes where the host explicitly requests it, especially to protect delicate floors or in rural areas. Doing so without being asked may imply the floor is dirty, which could be taken as a mild insult.",
+  "local_tip": "Always wait for the host to suggest removing shoes, or politely ask 'Dois-je enlever mes chaussures?' before doing so.",
+  "regional_note": "In some rural or older homes with carpet or tiled floors, hosts may expect it, while in urban apartments it is less common.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes is mandatory before entering the genkan entryway."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally not expected unless the host specifies or the home has white carpets."
+    },
+    {
+      "country": "Sweden",
+      "verdict": "polite",
+      "note": "It is standard to remove shoes at the door in most homes, regardless of weather."
+    }
+  ]
+}

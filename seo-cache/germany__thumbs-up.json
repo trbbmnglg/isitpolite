@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Germany, the thumbs-up gesture is widely understood as a positive sign meaning 'okay,' 'good,' or 'agreement,' and is commonly used in everyday interactions without causing offense. It is considered polite and friendly, especially among younger generations and in casual settings.",
+  "local_tip": "Use a thumbs-up to express approval or agreement in informal conversations, but avoid using it in very formal or hierarchical situations where a verbal response might be more appropriate.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "Thumbs-up is seen as a rude or insulting gesture in some regions."
+    },
+    {
+      "country": "Australia",
+      "verdict": "polite",
+      "note": "Thumbs-up is generally positive, but can be considered sarcastic or dismissive in certain contexts."
+    }
+  ]
+}

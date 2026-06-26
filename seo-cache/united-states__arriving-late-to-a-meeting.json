@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality is expected",
+  "confidence": "high",
+  "explanation": "In the United States, punctuality is a sign of respect and professionalism in business settings. Arriving late to a meeting is generally considered rude and can imply disorganization or lack of regard for others' time.",
+  "local_tip": "Always aim to arrive 5 minutes early to a meeting, and if you are delayed, notify the organizer immediately with an estimated arrival time.",
+  "regional_note": "In some parts of the South or in more relaxed industries (e.g., tech startups), a 5–10 minute grace period may be tolerated, but it is still safer to be on time.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is extremely important; arriving even a minute late can be seen as disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "In São Paulo and Rio, business meetings often start 10–15 minutes late, but it is safer to arrive on time."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "While some business meetings may start late due to traffic or flexible scheduling, arriving on time is still appreciated."
+    }
+  ]
+}

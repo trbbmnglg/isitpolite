@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid pointing with finger",
+  "confidence": "high",
+  "explanation": "In South Korea, pointing with the index finger is considered rude and aggressive, as it resembles a gesture used to scold or accuse. Instead, use an open hand or gesture with your chin or head to indicate direction or a person. This is rooted in Confucian values of respect and harmony.",
+  "local_tip": "When indicating someone or something, extend your whole hand with palm up or nod your head in the direction instead of using a single finger.",
+  "regional_note": "Older generations and those in more traditional settings are stricter about this rule, while younger South Koreans in urban areas may be more tolerant of foreign visitors making the gesture unintentionally.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Pointing with the index finger is also considered rude; use an open hand instead."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is very offensive, especially with the left hand; use the thumb or an open hand."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual contexts, though it can be seen as blunt in formal settings."
+    }
+  ]
+}

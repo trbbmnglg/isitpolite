@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected in homes",
+  "confidence": "high",
+  "explanation": "In Thailand, removing shoes before entering a home is a deeply ingrained custom rooted in respect for cleanliness and the belief that the feet are the lowest and most unclean part of the body. It is considered impolite to track outdoor dirt inside, and most Thai homes will have a designated area for shoe removal at the entrance. This practice extends to many temples and some shops or guesthouses as well.",
+  "local_tip": "Always look for a pile of shoes at the entrance or ask 'Should I take off my shoes?' before stepping inside.",
+  "regional_note": "In rural areas or traditional homes, the rule is even stricter, while some modern urban condos may be more relaxed, but it's safer to always remove them.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoe removal is mandatory in most homes, traditional inns, and temples; indoor slippers are often provided."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is optional and varies by household; many hosts will say 'keep them on' unless you see a shoe rack."
+    },
+    {
+      "country": "Sweden",
+      "verdict": "polite",
+      "note": "It is standard etiquette to remove shoes at the door in private homes, especially during winter or wet weather."
+    }
+  ]
+}

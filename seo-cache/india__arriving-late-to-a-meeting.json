@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Flexible but not encouraged",
+  "confidence": "medium",
+  "explanation": "In Indian business culture, punctuality is increasingly valued, especially in multinational companies and urban centers, but a 5-10 minute delay is often tolerated due to traffic and hierarchical flexibility. However, arriving late without prior notice or for a meeting with senior executives can be seen as disrespectful. The expectation varies widely by industry and company culture.",
+  "local_tip": "Always inform the host if you anticipate being late, and aim to arrive on time for meetings with senior leaders or external clients.",
+  "regional_note": "In South India (e.g., Bengaluru, Chennai) and in tech hubs, punctuality is stricter; in smaller towns or traditional family-run businesses, a more relaxed attitude prevails.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is critical; even one minute late is considered disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Arriving 15-30 minutes late is common and accepted in business settings."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Punctuality is a sign of professionalism; lateness is seen as unreliable."
+    }
+  ]
+}

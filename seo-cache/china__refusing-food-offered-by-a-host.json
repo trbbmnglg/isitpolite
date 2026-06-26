@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Politely refuse initially",
+  "confidence": "high",
+  "explanation": "In China, refusing food offered by a host is generally considered polite as a first gesture, because it shows humility and respect for the host's generosity. However, the host will typically insist multiple times, and you should eventually accept to avoid causing offense or implying the food is unappetizing. This custom is rooted in the cultural value of 'keqi' (politeness through modesty).",
+  "local_tip": "If you are full or have dietary restrictions, gently decline once or twice with a smile and a phrase like 'I'm truly full, thank you,' then accept a small portion if the host insists again.",
+  "regional_note": "In more rural or traditional settings, refusal may be expected to be more persistent, while in urban or younger families, a simple 'no, thank you' may be accepted without further insistence.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is polite initially but can be seen as rejecting hospitality if done too firmly; it's common to leave a little food on the plate to show satisfaction."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food offered by a host is often considered rude, as it may be interpreted as rejecting the host's care and generosity."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Refusing food is generally polite as a first gesture, especially in Hindu families, but hosts will insist; accepting after a few refusals is expected."
+    }
+  ]
+}

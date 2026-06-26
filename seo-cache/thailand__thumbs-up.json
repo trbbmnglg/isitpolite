@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally accepted as positive",
+  "confidence": "high",
+  "explanation": "In Thailand, the thumbs-up gesture is widely understood as a sign of approval, agreement, or 'good job,' similar to its use in many Western cultures. It is considered polite and friendly in everyday contexts, such as expressing thanks or acknowledging a job well done. However, it is not used for counting (e.g., 'one') as in some cultures, and it should be avoided in very formal or hierarchical settings where a wai is more appropriate.",
+  "local_tip": "Use the thumbs-up casually with friends or in informal settings, but always pair it with a smile to ensure warmth and avoid any perception of sarcasm.",
+  "regional_note": "In more traditional or rural areas, older generations may be less familiar with the gesture, but it is still not offensive; the wai remains the safest default for showing respect.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "The thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "The gesture is highly offensive and vulgar, especially in the northern regions."
+    },
+    {
+      "country": "Australia",
+      "verdict": "polite",
+      "note": "Commonly used as a positive sign, but can be interpreted as sarcastic or dismissive in some contexts."
+    }
+  ]
+}

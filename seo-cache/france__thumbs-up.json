@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In France, the thumbs-up gesture is widely understood as a positive sign meaning 'okay' or 'good job,' similar to its use in many Western cultures. It is considered polite and friendly in everyday contexts, such as expressing approval or agreement. However, avoid using it in very formal situations where verbal communication is preferred.",
+  "local_tip": "Use the thumbs-up casually with friends or colleagues to show approval, but in formal meetings or with elders, opt for a verbal compliment instead.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "In Greece, the thumbs-up is an offensive insult equivalent to a raised middle finger."
+    },
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "In Iran, the thumbs-up is considered a vulgar insult, similar to showing the middle finger."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "In parts of Nigeria, the thumbs-up can be interpreted as a rude or dismissive gesture."
+    }
+  ]
+}

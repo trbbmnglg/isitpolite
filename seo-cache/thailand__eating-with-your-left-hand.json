@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid if possible",
+  "confidence": "high",
+  "explanation": "In Thailand, the left hand is traditionally considered unclean because it is used for personal hygiene. While modern Thais are generally understanding of foreigners, using the left hand to eat, especially in formal or rural settings, can be seen as disrespectful. It is best to use the right hand or utensils.",
+  "local_tip": "If you must use your left hand, pair it with a utensil like a fork or spoon to avoid causing offense.",
+  "regional_note": "In southern Thailand, where Muslim communities are larger, the left-hand taboo is more strictly observed due to Islamic customs.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Eating with the left hand is considered highly impolite, as it is reserved for bathroom use."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "rude",
+      "note": "The left hand is avoided for eating, especially in traditional settings, for the same hygiene reasons."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Using the left hand is generally acceptable, as chopsticks are the norm and hand use is rare."
+    }
+  ]
+}

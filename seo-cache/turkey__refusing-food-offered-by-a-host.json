@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Refusing may offend",
+  "confidence": "high",
+  "explanation": "In Turkish culture, offering food is a deep expression of hospitality and respect, especially when meeting family. Refusing outright can be seen as rejecting the host's generosity and may cause embarrassment or offense. It is better to accept a small portion or politely decline with a warm excuse, such as being full from a previous meal.",
+  "local_tip": "If you must refuse, say 'Çok teşekkür ederim, ama çok tokum' (Thank you very much, but I am very full) and place your hand on your heart to show sincerity.",
+  "regional_note": "In more conservative or rural areas, refusal is even more strongly discouraged; in urban, younger circles, a polite no may be more accepted.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is polite if done with proper excuses, but outright refusal can still be awkward; it's better to accept a small amount."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host, especially in a family setting, is often seen as a personal rejection and can be deeply insulting."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "A simple 'No, thank you' is generally accepted without offense, though insisting once or twice is common in some regions."
+    }
+  ]
+}

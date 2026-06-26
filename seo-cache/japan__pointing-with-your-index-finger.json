@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, use alternatives",
+  "confidence": "high",
+  "explanation": "In Japan, pointing directly at someone or something with your index finger is considered rude and confrontational, as it resembles a gesture used to accuse or scold. Instead, it is customary to gesture with an open hand or use a gentle nod of the head to indicate direction or objects. This reflects the broader cultural emphasis on indirectness and harmony in communication.",
+  "local_tip": "When you need to indicate something, extend your whole hand with palm facing up and fingers together, or gently gesture with your chin.",
+  "regional_note": "Younger generations in urban areas may be more tolerant of pointing in casual settings, but it remains widely avoided in formal or traditional contexts.",
+  "also_check": [
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered very rude; use the thumb or an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual or instructional contexts."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use your chin or an open hand to indicate."
+    }
+  ]
+}

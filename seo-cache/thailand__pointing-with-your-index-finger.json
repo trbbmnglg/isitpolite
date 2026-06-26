@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid pointing with finger",
+  "confidence": "high",
+  "explanation": "In Thailand, pointing with the index finger is considered impolite and aggressive, as it is associated with accusing or summoning someone like a dog. The culturally appropriate way to indicate direction or an object is to use your whole hand with the palm facing up, or to gesture with your chin. This norm is deeply rooted in Thai concepts of respect and non-confrontational social interaction.",
+  "local_tip": "Instead of pointing, gesture with your chin or use an open hand, palm up, to indicate a person or object.",
+  "regional_note": "In more rural or traditional areas, the taboo against pointing is even stronger, while in very touristy or urban settings, locals may be more tolerant of foreign visitors' mistakes.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered rude; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is generally acceptable in casual contexts, though it can be seen as blunt in formal settings."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use the thumb or an open hand."
+    }
+  ]
+}

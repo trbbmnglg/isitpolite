@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In Italy, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay', 'good', or 'perfect', and is considered polite in everyday contexts. It is commonly used in casual conversation, dining, and business settings without causing offense. Unlike in some other cultures, it does not carry vulgar or negative connotations in Italy.",
+  "local_tip": "Use the OK sign confidently when agreeing with someone or indicating that something is fine, but avoid making it too large or exaggerated to maintain naturalness.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "The OK sign is considered offensive and vulgar, similar to an obscene gesture."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "It can be interpreted as a homophobic insult or a vulgar reference to a body part."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Generally means 'zero' or 'okay', but context matters; it is not offensive."
+    }
+  ]
+}

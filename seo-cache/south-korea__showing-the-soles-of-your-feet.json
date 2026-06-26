@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In South Korea, showing the soles of your feet is considered deeply insulting because the foot is viewed as the lowest and dirtiest part of the body. This gesture, especially when directed at someone older or of higher status, implies contempt and is a serious breach of social etiquette.",
+  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and avoid pointing your feet at anyone, especially elders or authority figures.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest part of the body; pointing them at someone or showing soles is a major insult."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is offensive as the foot is considered unclean in Arab culture."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "In casual settings, putting feet up on furniture or showing soles is generally acceptable, though context matters."
+    }
+  ]
+}

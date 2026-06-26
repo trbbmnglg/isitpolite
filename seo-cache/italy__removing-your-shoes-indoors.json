@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not standard, follow host",
+  "confidence": "medium",
+  "explanation": "In Italy, removing shoes indoors is not a universal custom and is generally reserved for homes where the host explicitly requests it or where floors are particularly clean or delicate. Most Italians wear indoor shoes or slippers, and removing shoes without being asked can be seen as odd or overly familiar.",
+  "local_tip": "Always wait for the host to indicate whether to remove shoes, or politely ask 'Devo togliere le scarpe?' (Should I remove my shoes?) upon entering.",
+  "regional_note": "In some northern regions, especially in rural or mountain homes, removing shoes is more common to keep floors clean, while in the south it is less frequent.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes is mandatory before entering the genkan (entryway) and is a deeply ingrained custom."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Removing shoes is optional and varies by household; it is often seen as informal or hygienic but not expected."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Removing shoes is common and often expected in private homes, especially in winter or with light-colored floors."
+    }
+  ]
+}

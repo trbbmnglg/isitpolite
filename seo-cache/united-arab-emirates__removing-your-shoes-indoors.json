@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected in homes",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, removing your shoes before entering a home is a deeply ingrained sign of respect and cleanliness, rooted in Islamic tradition and local hospitality customs. It is considered impolite to walk into a living area with outdoor shoes, as floors are often used for sitting and dining. This practice is nearly universal in private residences, though less common in public buildings or offices.",
+  "local_tip": "Always remove your shoes at the entrance if you see a pile of shoes or a shoe rack, and follow your host's lead if they offer slippers.",
+  "regional_note": "In more traditional or religious households, especially in Sharjah or rural areas, the rule is stricter; in ultra-modern Dubai apartments, some hosts may allow shoes if they have a separate guest area.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoe removal is mandatory before entering any home, and often in traditional inns and some restaurants."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is optional and varies by household; many hosts do not expect it unless the home has a 'no shoes' policy."
+    },
+    {
+      "country": "Sweden",
+      "verdict": "polite",
+      "note": "It is standard to remove shoes at the door in most homes, especially during winter or wet weather."
+    }
+  ]
+}

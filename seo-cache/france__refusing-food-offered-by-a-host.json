@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing food is rude",
+  "confidence": "high",
+  "explanation": "In France, sharing a meal is a cornerstone of hospitality and family bonding. Refusing food offered by a host, especially during a family gathering, can be seen as a rejection of their generosity and effort. It is expected that you accept at least a small portion to show appreciation.",
+  "local_tip": "If you have dietary restrictions, politely mention them in advance or take a tiny portion and leave it on your plate rather than refusing outright.",
+  "regional_note": "In more formal or traditional families, especially in rural areas, refusal is even more strongly discouraged.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Refusing food is often polite to avoid appearing greedy, though hosts may insist."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food, especially in a family setting, is considered disrespectful to the host's hospitality."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Refusing is generally acceptable if explained politely, but can be seen as impolite in very formal or traditional family settings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Considered insulting",
+  "confidence": "high",
+  "explanation": "Tipping is not part of Japanese service culture and can come across as insulting, implying staff are not already paid fairly or take pride in their work. Excellent service is the standard, not something that needs a bonus.",
+  "local_tip": "Skip the tip entirely — a sincere \"gochisousama deshita\" after a meal is the polite way to show appreciation.",
+  "regional_note": "Some high-end international hotels and tour guides catering to foreigners now quietly accept tips, but it remains unusual.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15–20% is expected and a core part of service workers' income."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service is included by law; rounding up is a small, optional gesture."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Traditionally not expected and sometimes refused, though changing in tourist hubs."
+    }
+  ]
+}

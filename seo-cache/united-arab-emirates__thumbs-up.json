@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Ambiguous, context-dependent",
+  "confidence": "medium",
+  "explanation": "In the UAE, the thumbs-up gesture is generally understood as positive or affirming, especially among younger, globally connected Emiratis and expatriates. However, in some traditional or conservative contexts, it can be interpreted as an offensive or vulgar insult, akin to raising the middle finger in Western cultures. This risk is higher in more religious or older circles, so caution is advised in formal or unfamiliar settings.",
+  "local_tip": "When in doubt, use a verbal 'yes' or a nod instead of the thumbs-up, especially with older Emiratis or in religious settings.",
+  "regional_note": "In Sharjah and more conservative areas, the gesture is more likely to be seen as rude; in Dubai and Abu Dhabi, it's usually safe among younger or international crowds.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Thumbs up is considered a grave insult, equivalent to 'up yours'."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Generally positive, but avoid using it with feet or in a mocking tone."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "Considered a rude, insulting gesture in many parts of the country."
+    }
+  ]
+}

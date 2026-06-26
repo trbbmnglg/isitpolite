@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In India, the thumbs-up gesture is widely understood as a positive sign of approval, agreement, or encouragement, similar to its use in many Western cultures. It is commonly used in everyday interactions, including among friends, colleagues, and in casual settings. However, it is not used in formal or hierarchical contexts where a verbal acknowledgment or a namaste is more appropriate.",
+  "local_tip": "Use thumbs-up with a smile to show approval in casual conversations, but avoid it in formal meetings or with elders, where a respectful nod or namaste is better.",
+  "regional_note": "In some rural areas or among older generations, the gesture may be less familiar, but it is still generally perceived as positive.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "Often interpreted as a rude or offensive gesture, especially in the northern regions."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Generally positive, but used mainly among younger people; older Thais may prefer a wai."
+    }
+  ]
+}

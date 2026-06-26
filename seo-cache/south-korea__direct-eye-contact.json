@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid prolonged eye contact",
+  "confidence": "high",
+  "explanation": "In South Korean business culture, direct eye contact can be perceived as confrontational or challenging, especially when interacting with senior colleagues or superiors. It is more respectful to maintain soft, intermittent eye contact or to look slightly down when speaking with someone of higher status. This practice reflects the hierarchical and collectivist values that emphasize deference and harmony.",
+  "local_tip": "When greeting a senior or elder, briefly meet their eyes and then lower your gaze slightly as a sign of respect.",
+  "regional_note": "Younger generations in urban areas like Seoul may be more comfortable with direct eye contact, but traditional norms still dominate in formal business settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is considered rude; brief glances or looking at the necktie area is preferred."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct eye contact signals confidence and honesty in business interactions."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Eye contact between men is acceptable but should be less intense; between genders, it is avoided to maintain modesty."
+    }
+  ]
+}

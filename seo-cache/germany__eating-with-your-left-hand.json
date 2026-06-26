@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Left hand is fine",
+  "confidence": "high",
+  "explanation": "In Germany, there is no cultural stigma against eating with the left hand; both hands are used interchangeably at the table, and cutlery is the norm for most meals. The left-hand taboo is primarily associated with Islamic and Hindu cultures, not German customs.",
+  "local_tip": "Feel free to use either hand for bread or snacks, but always use a knife and fork for main courses, holding the fork in your left hand and knife in your right.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Using the left hand for eating is considered unclean, as it is traditionally used for hygiene purposes."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "rude",
+      "note": "Eating with the left hand is avoided in traditional settings, especially when sharing communal dishes."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "caution",
+      "note": "In Muslim-majority areas, the left hand is considered impure for eating, though in urban or non-religious contexts it may be overlooked."
+    }
+  ]
+}

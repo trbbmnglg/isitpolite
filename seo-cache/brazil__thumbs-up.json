@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Brazil, the thumbs-up gesture is widely used and understood as a positive sign of approval, agreement, or 'okay.' It is common in everyday interactions, from casual conversations to business settings, and is considered friendly and polite.",
+  "local_tip": "Use the thumbs-up freely to express agreement or satisfaction, but avoid pairing it with an overly aggressive or sarcastic tone.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "The thumbs-up is considered an offensive insult, similar to a middle finger."
+    },
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "It is interpreted as an obscene gesture, equivalent to 'up yours.'"
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "In some regions, it is seen as a rude or dismissive gesture, though usage varies."
+    }
+  ]
+}

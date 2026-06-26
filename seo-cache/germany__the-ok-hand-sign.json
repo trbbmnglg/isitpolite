@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally harmless gesture",
+  "confidence": "high",
+  "explanation": "In Germany, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive signal meaning 'everything is fine' or 'okay,' with no offensive connotations in everyday contexts. It is commonly used in casual conversation and business settings without causing offense.",
+  "local_tip": "Use it freely to indicate agreement or that something is satisfactory, but avoid overusing it in formal situations where verbal confirmation is preferred.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered an offensive gesture similar to a certain body part."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a vulgar insult implying homosexuality."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Universally understood as 'OK' or 'money' in some contexts, but not offensive."
+    }
+  ]
+}

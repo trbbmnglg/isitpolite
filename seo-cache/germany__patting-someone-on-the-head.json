@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head patting",
+  "confidence": "high",
+  "explanation": "In Germany, patting someone on the head is considered patronizing and invasive of personal space, especially among adults. It is often associated with treating someone like a child or a pet, which can cause offense in social settings. Physical contact is generally reserved for handshakes or brief touches on the arm among friends.",
+  "local_tip": "Instead of a head pat, offer a firm handshake or a friendly nod to show respect and warmth.",
+  "regional_note": "In some parts of southern Germany (e.g., Bavaria), older generations may be slightly more tolerant of affectionate head touches with close family, but it remains inappropriate with acquaintances or strangers.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred body part, and touching it is a serious breach of etiquette."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head is often acceptable, but doing so to an adult can be seen as condescending or disrespectful."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Head patting is generally reserved for children or close friends; with adults it can be seen as patronizing or overly familiar."
+    }
+  ]
+}

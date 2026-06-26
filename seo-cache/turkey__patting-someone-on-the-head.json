@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally rude, especially for adults",
+  "confidence": "high",
+  "explanation": "In Turkey, patting someone on the head is considered condescending and disrespectful, as the head is viewed as a sacred and private part of the body. This gesture is typically reserved for young children or very close family members, and doing it to an adult or acquaintance can cause offense.",
+  "local_tip": "Avoid touching anyone's head entirely; instead, use a handshake or a slight nod to greet or show affection.",
+  "regional_note": "In more conservative or religious circles, the head is especially sacred, and any touching is even more strongly discouraged.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major taboo."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head is generally reserved for children or close family; doing so to an adult may be seen as patronizing."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is often seen as friendly or affectionate, especially among friends or family."
+    }
+  ]
+}

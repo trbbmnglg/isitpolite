@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected but not mandatory",
+  "confidence": "high",
+  "explanation": "In Germany, tipping (Trinkgeld) is a polite gesture showing appreciation for good service, but it is not obligatory. Service charges are always included in the bill, so tips are given directly to the server, typically by rounding up the bill or adding 5-10% for excellent service.",
+  "local_tip": "Round up the bill to the nearest euro or add 5-10% when paying, and hand the cash directly to the server while saying 'stimmt so' (keep the change).",
+  "regional_note": "In eastern Germany, tipping is slightly less common and amounts may be smaller, but the practice is still appreciated.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as good service is expected without extra payment."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is mandatory and socially enforced, as servers rely on tips for income."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service is included, but leaving small change (5-10%) is customary for good service."
+    }
+  ]
+}

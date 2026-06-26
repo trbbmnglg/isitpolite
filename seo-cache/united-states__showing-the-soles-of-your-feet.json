@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, not offensive",
+  "confidence": "high",
+  "explanation": "In the United States, showing the soles of your feet is not a major taboo but is considered mildly impolite or disrespectful in social settings, especially if your feet are dirty or pointed directly at someone. It is often seen as a sign of casualness or lack of consideration, particularly in formal gatherings or when seated with others. The gesture does not carry the strong religious or cultural offense found in some other countries.",
+  "local_tip": "Keep your feet flat on the floor or crossed at the ankles, and avoid pointing the soles of your shoes or bare feet toward anyone during conversations.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest and dirtiest part of the body; showing soles is highly offensive, especially toward Buddha images or elders."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is a serious insult, as feet are considered unclean and pointing them at someone is disrespectful."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing the soles of your feet toward someone, especially in a formal setting or while seated, is considered rude and disrespectful."
+    }
+  ]
+}

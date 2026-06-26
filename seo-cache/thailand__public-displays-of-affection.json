@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Minimal PDA expected",
+  "confidence": "high",
+  "explanation": "In Thailand, public displays of affection, especially in social gatherings, are generally considered impolite due to the cultural value of maintaining a modest and reserved demeanor. While holding hands is sometimes acceptable among couples, kissing, hugging, or intimate touching in public is frowned upon and can cause discomfort or embarrassment to others. This stems from traditional Buddhist-influenced norms that prioritize social harmony and non-confrontation.",
+  "local_tip": "Avoid any physical affection beyond a brief hand-hold or a respectful wai greeting, and always observe the behavior of locals around you.",
+  "regional_note": "In more cosmopolitan areas like Bangkok, younger generations may be slightly more accepting of subtle PDA, but in rural or conservative regions, even hand-holding can be seen as inappropriate.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "PDA such as kissing in public is widely accepted and considered normal."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "Public displays of affection are illegal and can lead to fines or arrest."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is generally avoided in public, though holding hands is sometimes acceptable among young couples."
+    }
+  ]
+}

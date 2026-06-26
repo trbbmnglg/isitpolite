@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Remove shoes indoors",
+  "confidence": "high",
+  "explanation": "In South Korea, it is a deeply ingrained custom to remove shoes before entering a home, as the floor is often used for sitting, eating, and sleeping. Wearing shoes indoors is considered unhygienic and disrespectful, and most Korean homes provide a designated entry area (hyun-kwan) for removing footwear. This practice is nearly universal across all households, regardless of region or generation.",
+  "local_tip": "Always look for indoor slippers near the entrance and wear them inside; never step onto the living area with outdoor shoes.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Similar to South Korea, removing shoes is mandatory in homes and many traditional establishments."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is not universal; it depends on the host's preference, and many homes allow shoes indoors."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and temples, but not always in shops or offices."
+    }
+  ]
+}

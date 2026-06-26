@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid left hand use",
+  "confidence": "high",
+  "explanation": "In South Korea, eating with the left hand is not inherently rude, but it is uncommon and may be seen as awkward or inconsiderate because traditional etiquette emphasizes using the right hand for eating and passing objects, especially in formal dining settings. The left hand is typically used to hold the bowl or napkin, not to bring food to the mouth. This stems from historical customs where the left hand was considered less clean or associated with impolite gestures.",
+  "local_tip": "When dining in South Korea, always use your right hand to pick up chopsticks or spoons and to receive or pass dishes, keeping your left hand lightly supporting your bowl or resting on the table.",
+  "regional_note": "Younger generations and urban diners are more relaxed about this rule, but it remains important in formal or traditional settings and among older Koreans.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Eating with the left hand is considered highly impolite because the left hand is traditionally used for personal hygiene."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "While not strictly taboo, using the left hand for chopsticks is uncommon and may be seen as clumsy; the right hand is preferred."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Handedness is not a factor in dining etiquette; using either hand is perfectly acceptable."
+    }
+  ]
+}

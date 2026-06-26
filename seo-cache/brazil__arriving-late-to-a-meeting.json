@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Flexible but not encouraged",
+  "confidence": "medium",
+  "explanation": "In Brazilian business culture, arriving 10–15 minutes late to a meeting is often tolerated, especially in Rio de Janeiro and São Paulo, due to a more relaxed view of time. However, for important meetings with senior executives or foreign partners, punctuality is expected to show respect and professionalism. The practice varies by industry and region, with the Northeast tending to be more relaxed than the South.",
+  "local_tip": "Aim to arrive on time or within 5 minutes for first meetings or with high-level contacts, but expect some flexibility from local counterparts.",
+  "regional_note": "In São Paulo and the South, punctuality is more valued; in the Northeast and Rio, lateness up to 15 minutes is more common.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is strictly observed; even one minute late is considered disrespectful."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Being late is seen as unprofessional and a sign of poor planning."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "polite",
+      "note": "Arriving 15–30 minutes late to social or business meetings is often expected and not seen as rude."
+    }
+  ]
+}

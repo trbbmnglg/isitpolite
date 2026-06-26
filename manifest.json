@@ -1,0 +1,13 @@
+{
+  "name": "IsItPolite.com — Cultural Etiquette Checker",
+  "short_name": "IsItPolite",
+  "description": "Check if any gesture or behavior is polite, rude, or context-dependent across 195 countries.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#EEF2FF",
+  "theme_color": "#4F46E5",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

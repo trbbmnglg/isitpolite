@@ -1,0 +1,10 @@
+{
+  "name": "isitpolite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "IsItPolite.com — Pages Functions dependencies (LangGraph agent)",
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.74",
+    "@langchain/openai": "^0.3.17"
+  }
+}

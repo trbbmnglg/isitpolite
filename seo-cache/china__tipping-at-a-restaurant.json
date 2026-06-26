@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, can confuse",
+  "confidence": "high",
+  "explanation": "Tipping is not customary in China and can be seen as confusing or even insulting, as it implies the server needs extra money. In most restaurants, service is included in the bill, and leaving cash may be refused or chased after you. The practice is mainly limited to high-end international hotels or tourist spots where foreign guests tip, but locals rarely do.",
+  "local_tip": "Do not leave a tip at regular restaurants; if you feel compelled, round up the bill slightly or leave a small amount only at luxury establishments.",
+  "regional_note": "In Hong Kong and Macau, tipping is more common due to Western influence, but in mainland China it remains rare.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for good service."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service charge is included, but leaving small change is a polite gesture."
+    }
+  ]
+}

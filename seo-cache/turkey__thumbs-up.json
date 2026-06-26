@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally positive but ambiguous",
+  "confidence": "medium",
+  "explanation": "In Turkey, the thumbs-up gesture is widely understood as a positive sign meaning 'good' or 'okay,' especially among younger and urban populations. However, it can carry a vulgar connotation in some rural or conservative contexts, where it may be interpreted as an offensive phallic symbol. The gesture is safest in casual, modern settings but should be avoided in formal or traditional interactions.",
+  "local_tip": "Use a simple nod or smile instead of thumbs-up when in doubt, especially with older or rural individuals.",
+  "regional_note": "In conservative eastern and rural areas, the gesture is more likely to be seen as rude; in western cities like Istanbul or Izmir, it is generally accepted.",
+  "also_check": [
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "Thumbs-up is a severe insult, equivalent to a raised middle finger."
+    },
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Considered an obscene gesture, similar to the middle finger in Western cultures."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Thumbs-up means 'good' or 'man' and is positive, though not used for 'okay' as in the West."
+    }
+  ]
+}

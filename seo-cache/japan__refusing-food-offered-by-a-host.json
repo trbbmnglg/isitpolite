@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing is disrespectful",
+  "confidence": "high",
+  "explanation": "In Japan, refusing food offered by a host, especially during a family meeting, is considered impolite because it implies rejection of the host's generosity and effort. It is customary to accept at least a small portion, even if you are not hungry, to show gratitude and maintain harmony (wa).",
+  "local_tip": "If you cannot eat something, take a small amount and leave it on your plate, or politely say 'okini' (thank you) and take a tiny bite to show appreciation.",
+  "regional_note": "In some rural areas or traditional households, the expectation to accept food may be even stronger, while younger generations in urban settings may be more understanding of dietary restrictions.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food is often seen as rejecting hospitality; it's better to accept a small portion."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host, especially at a family meal, can be taken as a personal insult."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "It is generally acceptable to politely decline food if you are full or have dietary restrictions, though some hosts may insist."
+    }
+  ]
+}

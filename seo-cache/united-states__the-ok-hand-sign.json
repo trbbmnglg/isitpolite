@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In the United States, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'everything is fine' in everyday contexts. It is commonly used in casual conversation, dining, and business settings without causing offense. However, be aware that it has been co-opted by some extremist groups in recent years, though this remains rare and context-dependent.",
+  "local_tip": "Use the OK sign freely in most casual or professional interactions, but avoid it in highly polarized political or online spaces where misinterpretation could occur.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult, similar to giving the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homophobic or offensive gesture."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly means 'OK' or 'money' depending on context, but is generally positive."
+    }
+  ]
+}

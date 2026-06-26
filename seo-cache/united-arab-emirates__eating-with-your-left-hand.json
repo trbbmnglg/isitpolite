@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid left hand use",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, the left hand is traditionally considered unclean in Islamic culture, as it is reserved for hygiene purposes. Using it to eat, especially in a dining setting, is seen as disrespectful and unhygienic. This rule applies strongly when eating with hands from shared dishes, common in Emirati cuisine.",
+  "local_tip": "Always use your right hand for eating, passing food, and accepting items at the table, even if you are left-handed.",
+  "regional_note": "In more international or tourist-heavy venues in Dubai or Abu Dhabi, locals may be more lenient, but the custom remains deeply observed in traditional homes and rural areas.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Left hand is used for toilet hygiene; eating and passing food with it is taboo."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Left or right hand is acceptable; chopstick etiquette matters more."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "No cultural stigma; left-handedness is fully accepted in dining."
+    }
+  ]
+}

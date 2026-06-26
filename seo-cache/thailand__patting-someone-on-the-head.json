@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head touching",
+  "confidence": "high",
+  "explanation": "In Thailand, the head is considered the most sacred part of the body, the seat of the soul, and patting someone on the head is deeply disrespectful, even in casual social settings. This taboo applies to both adults and children, as it violates personal spiritual boundaries. Only a parent or monk may touch a child's head in specific contexts, never a stranger or acquaintance.",
+  "local_tip": "If you need to get someone's attention, use a gentle touch on the arm or shoulder, or simply say 'excuse me' with a polite wai (palms together, slight bow).",
+  "regional_note": "In the deep south, where Muslim culture is strong, head patting is also disrespectful but for slightly different religious reasons; the taboo is consistent across all regions and generations.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head is generally avoided as it is considered disrespectful, especially for elders, though it may be acceptable for close family with young children."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Touching someone's head without permission is seen as invasive and rude, as personal space is highly valued."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting a child's head is often seen as affectionate or encouraging, though for adults it can be condescending depending on context."
+    }
+  ]
+}

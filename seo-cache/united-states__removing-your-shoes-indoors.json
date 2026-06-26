@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Optional, not expected",
+  "confidence": "medium",
+  "explanation": "In the United States, removing shoes indoors is generally a matter of personal preference rather than a strict rule. While many hosts appreciate it for cleanliness, especially in homes with light-colored carpets or during inclement weather, it is not a universal expectation and can sometimes make guests feel awkward if not offered the choice.",
+  "local_tip": "Always ask the host if they prefer you to remove your shoes, or watch for a shoe rack or pile of shoes near the door as a cue.",
+  "regional_note": "More common in the Midwest and Pacific Northwest, and in households with young children or strict cleanliness norms; less common in the South and Northeast.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes is mandatory before entering a home, with slippers often provided."
+    },
+    {
+      "country": "Canada",
+      "verdict": "polite",
+      "note": "Very common to remove shoes indoors, especially in winter or in homes with carpets."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Removing shoes is generally considered too intimate or unhygienic in most social settings."
+    }
+  ]
+}
