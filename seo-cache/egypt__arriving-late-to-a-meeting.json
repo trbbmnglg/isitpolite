@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Flexible but not encouraged",
+  "confidence": "medium",
+  "explanation": "In Egyptian business culture, arriving 5-15 minutes late is often tolerated due to a more relaxed view of time (known as 'Insha'Allah time'), but it is not considered polite and may be seen as disrespectful, especially with senior colleagues or foreign partners. Punctuality is increasingly valued in formal corporate settings and international companies. The key is to gauge the specific workplace culture and the seniority of the attendees.",
+  "local_tip": "If you anticipate being late, call or send a message to inform your host, and apologize briefly upon arrival.",
+  "regional_note": "In government offices and traditional family-run businesses, lateness is more common; in multinational corporations and with younger professionals, punctuality is expected.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is strictly observed; even one minute late is considered disrespectful."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Arriving late to a business meeting is seen as unprofessional and a sign of poor planning."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "A 10-15 minute delay is common for social events, but for business meetings, punctuality is appreciated."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In the Philippines, the thumbs-up gesture is widely understood as a positive sign of approval, agreement, or encouragement, largely due to American cultural influence. It is commonly used in everyday interactions, including among friends, colleagues, and in casual settings. However, it is considered less formal than a verbal affirmation and should be used with a smile to convey warmth.",
+  "local_tip": "Use the thumbs-up with a friendly smile to reinforce positivity, but avoid using it in very formal or solemn situations where a verbal response is more appropriate.",
+  "regional_note": "In some rural or older generations, the gesture may be less common, but it is still understood as positive; no significant regional or religious variation.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "In Iran, the thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "In Greece, the thumbs-up can be interpreted as a vulgar gesture meaning 'up yours' or 'sit on it.'"
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "In Nigeria, the thumbs-up is generally positive but can be seen as rude if used with the left hand or in certain ethnic contexts."
+    }
+  ]
+}

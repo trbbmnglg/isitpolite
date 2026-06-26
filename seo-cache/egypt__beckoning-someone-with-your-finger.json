@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Offensive hand gesture",
+  "confidence": "high",
+  "explanation": "In Egypt, beckoning someone with your finger is considered highly impolite and is often interpreted as a gesture used to call a dog or a servant. It can be seen as demeaning and disrespectful, especially in formal or everyday interactions.",
+  "local_tip": "Instead, use the entire hand with palm facing down and wave your fingers toward you in a gentle scooping motion.",
+  "regional_note": "In more rural or conservative areas, the offense may be stronger, while younger, urban Egyptians might be slightly more tolerant but still avoid it.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with the index finger is considered rude and animal-like; use a hand wave with palm down."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "This gesture is used for calling dogs and is highly offensive when directed at a person."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common and informal, it can be seen as condescending or aggressive in professional or formal settings."
+    }
+  ]
+}

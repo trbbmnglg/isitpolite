@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally harmless gesture",
+  "confidence": "high",
+  "explanation": "In Spain, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive signal meaning 'good', 'okay', or 'perfect', with no offensive connotations in everyday contexts. It is commonly used in casual conversation and by all age groups without causing offense.",
+  "local_tip": "Use the OK sign freely to express agreement or that something is fine, but avoid it in formal or business settings where verbal confirmation is preferred.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult equivalent to an offensive hand gesture."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homophobic insult or a crude reference to a body part."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly means 'OK' or 'money' and is used positively in everyday interactions."
+    }
+  ]
+}

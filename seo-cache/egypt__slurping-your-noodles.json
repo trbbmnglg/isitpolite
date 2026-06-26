@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, but tolerated",
+  "confidence": "medium",
+  "explanation": "In Egypt, slurping noodles is considered impolite in most dining settings because it violates the local expectation of eating quietly and with restraint. While some younger or more cosmopolitan Egyptians may be more lenient, traditional etiquette strongly discourages loud eating noises as a sign of poor manners.",
+  "local_tip": "If you must eat noodles, use a spoon and fork to twirl them quietly, and avoid making audible slurping sounds.",
+  "regional_note": "In Upper Egypt and more conservative rural areas, slurping is more strongly frowned upon, while in cosmopolitan Cairo or Alexandria, younger generations may be slightly more tolerant.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is common and indicates you are savoring the food, especially in noodle soups."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very rude and uncivilized in Italian dining culture."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift-giving is welcome",
+  "confidence": "high",
+  "explanation": "In the Philippines, gift-giving in a business context is a common and appreciated gesture that builds trust and strengthens relationships, reflecting the cultural value of 'pakikisama' (smooth interpersonal relations). It is polite to offer a gift, especially during initial meetings or after closing a deal, but avoid giving anything too expensive as it may be seen as a bribe.",
+  "local_tip": "Present the gift with both hands or the right hand, and avoid giving anything in sets of four (associated with bad luck) or sharp objects (symbolizing cutting ties).",
+  "regional_note": "In predominantly Muslim areas of Mindanao, avoid alcohol and pork-related gifts, and consider halal-certified items.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; always present and receive with both hands and refuse once before accepting."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Gifts are appreciated but must avoid alcohol, pork, and anything with religious or intimate connotations; use right hand only."
+    }
+  ]
+}

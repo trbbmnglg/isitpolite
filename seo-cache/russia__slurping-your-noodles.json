@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, but tolerated",
+  "confidence": "medium",
+  "explanation": "In Russia, slurping noodles is typically considered impolite in formal dining settings, as it goes against the cultural norm of eating quietly. However, in casual or home settings, especially when eating Asian cuisine, some Russians may be more lenient, though it is still not a native custom.",
+  "local_tip": "To be safe, avoid slurping in restaurants and instead use your spoon or fork to twirl the noodles quietly.",
+  "regional_note": "In regions with significant Asian influence, such as the Russian Far East (e.g., Vladivostok), slurping may be more accepted in casual noodle shops.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of appreciation and enjoyment, especially for ramen or soba."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is often acceptable and can indicate that the food is delicious, though it varies by region."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+    }
+  ]
+}

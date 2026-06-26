@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, avoid",
+  "confidence": "medium",
+  "explanation": "In the Netherlands, showing the soles of your feet is considered impolite in social settings, as it is seen as a sign of disrespect or carelessness. This stems from broader Western norms where feet are considered dirty and pointing them at others is rude. While not as severe as in some Middle Eastern or Asian cultures, it is still best avoided in polite company.",
+  "local_tip": "Keep your feet flat on the floor or crossed at the ankles, and never rest your feet on furniture or point them toward someone.",
+  "regional_note": "In more formal or older circles, the rule is stricter; among younger generations or in very casual settings, it may be overlooked but still not recommended.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest and most unclean part of the body; pointing them at people or sacred objects is a major offense."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is highly disrespectful, especially if directed at someone, as it implies they are beneath you."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While not as severe, putting feet on furniture or pointing soles at others is seen as rude or overly casual in formal settings."
+    }
+  ]
+}

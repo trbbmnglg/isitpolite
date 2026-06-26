@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally accepted gesture",
+  "confidence": "high",
+  "explanation": "In the United Kingdom, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive signal meaning 'okay' or 'fine' in everyday contexts, such as confirming agreement or indicating something is satisfactory. It carries no offensive connotations in British culture, unlike in some other countries where it may be considered rude. This usage is consistent across most social settings, from casual conversations to professional environments.",
+  "local_tip": "Use the OK sign freely to show agreement or approval, but avoid pairing it with a raised middle finger or other gestures that could alter its meaning.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult similar to the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as an offensive gesture implying homosexuality or an insult."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Generally means 'zero' or 'okay' but can be seen as dismissive in some contexts."
+    }
+  ]
+}

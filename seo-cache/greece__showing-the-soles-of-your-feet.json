@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful foot display",
+  "confidence": "high",
+  "explanation": "In Greece, showing the soles of your feet is considered highly disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture can be interpreted as a sign of contempt or insult, especially in social gatherings where respect for others is paramount.",
+  "local_tip": "Always keep your feet flat on the ground or crossed at the ankles when seated, and never point your feet at someone.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest part of the body; pointing them at someone or showing soles is a major insult."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is offensive as it implies you are unclean and disrespectful."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally not a major issue, but in formal settings it can be seen as casual or slightly rude if done deliberately."
+    }
+  ]
+}

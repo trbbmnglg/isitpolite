@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use with discretion",
+  "confidence": "high",
+  "explanation": "In Egypt, pointing directly at someone with your index finger is considered rude and accusatory, as it resembles a gesture of blame or aggression. Instead, Egyptians often use the whole hand or a subtle head tilt to indicate direction or refer to a person. This norm is rooted in broader Arab cultural values that emphasize indirectness and respect for personal space.",
+  "local_tip": "To point at something or someone, use your entire open hand with palm facing up or gesture with your chin.",
+  "regional_note": "In rural Upper Egypt, the taboo is even stronger, while in cosmopolitan Cairo younger generations may be more tolerant of the gesture in informal settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use the whole hand with palm up instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual contexts."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or an open hand to indicate direction."
+    }
+  ]
+}

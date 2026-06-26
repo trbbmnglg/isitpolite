@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally welcomed but subtle",
+  "confidence": "medium",
+  "explanation": "In Mexican business culture, gift-giving is polite and common, especially after establishing a relationship or closing a deal. However, gifts should be modest and not overly expensive to avoid appearing as a bribe. Practical or branded items are preferred, and gifts are typically opened in private.",
+  "local_tip": "Choose a modest, high-quality item like a nice pen or local specialty, and present it with both hands as a sign of respect.",
+  "regional_note": "In northern Mexico (e.g., Monterrey), business customs may be more direct and less gift-oriented, while in southern regions, personal relationships and gift-giving are more emphasized.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid white or red wrapping, and present with both hands."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; stick to small, practical items."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Gifts are appreciated but must avoid alcohol, pork, or anything with religious imagery; use right hand only."
+    }
+  ]
+}

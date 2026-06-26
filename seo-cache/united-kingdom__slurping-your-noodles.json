@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In the United Kingdom, eating quietly is considered good table manners, and slurping noodles is generally viewed as impolite and disruptive in dining settings. British dining etiquette emphasizes minimal noise while eating, so slurping is associated with a lack of refinement. This norm is consistent across most restaurants, from casual to formal.",
+  "local_tip": "To eat noodles politely in the UK, twirl them discreetly around your fork or spoon and take small, quiet bites.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of appreciation and enhances the flavor, especially for ramen and soba."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping noodles is common and indicates enjoyment, though it may be less acceptable in very formal settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very bad manners; pasta should be eaten silently by twirling it on a fork."
+    }
+  ]
+}

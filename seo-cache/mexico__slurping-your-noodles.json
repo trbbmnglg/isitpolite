@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In Mexico, eating quietly and without excessive noise is considered good table manners. Slurping noodles is seen as disruptive and disrespectful in most dining settings, as it goes against the cultural norm of eating with restraint and consideration for others.",
+  "local_tip": "If you order noodles in Mexico, use your fork to twirl them quietly and take small, silent bites.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is often acceptable and can indicate that the food is delicious."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and a breach of dining etiquette."
+    }
+  ]
+}

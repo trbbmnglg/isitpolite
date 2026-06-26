@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid pointing directly",
+  "confidence": "medium",
+  "explanation": "In the Netherlands, pointing with your index finger is generally considered blunt or mildly impolite, especially in social or formal settings. The Dutch value directness but prefer subtle gestures, such as nodding or using an open hand, to indicate direction or a person. This is rooted in a cultural preference for egalitarian and non-confrontational interaction.",
+  "local_tip": "Instead of pointing, gesture with your whole hand or chin to indicate a person or direction.",
+  "regional_note": "In more rural or conservative areas, pointing may be seen as ruder than in cosmopolitan cities like Amsterdam.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with a finger is very rude; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing is common and acceptable in casual contexts."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or chin."
+    }
+  ]
+}

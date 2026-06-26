@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Respectful and expected",
+  "confidence": "high",
+  "explanation": "In Egypt, removing shoes indoors is a common sign of respect, especially in homes, to keep floors clean and honor the host's space. It is deeply rooted in Islamic and cultural practices where shoes are seen as carrying outside dirt. While not mandatory in all settings, it is widely appreciated and often expected in private residences.",
+  "local_tip": "Always remove your shoes when entering an Egyptian home, but wait for the host to indicate where to place them or if slippers are offered.",
+  "regional_note": "In rural or conservative areas, shoe removal is more strictly observed, while in urban or modern homes, some hosts may allow shoes in certain areas.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Not removing shoes indoors is considered highly disrespectful and unhygienic, with strict customs for entry."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is optional and varies by household; it is often seen as informal or personal preference."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Shoe removal is uncommon in most homes unless explicitly requested, and it may be seen as odd or overly formal."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common among acquaintances",
+  "confidence": "medium",
+  "explanation": "In Russia, a cheek kiss (usually one, sometimes three) is a standard greeting among friends and acquaintances at social gatherings, especially between women or from a man to a woman. However, it is less common between men, who typically shake hands, and may be seen as overly familiar with strangers or in formal settings.",
+  "local_tip": "Wait for the other person to initiate or lean in, and aim for a light air-kiss near the cheek rather than a full contact kiss.",
+  "regional_note": "In more conservative or older circles, cheek kissing may be reserved for close friends and family; younger urban Russians are more likely to use it casually.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Cheek kissing is not customary and can be seen as an invasion of personal space; a bow is the standard greeting."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is very common, but the number of kisses varies by region (typically two to four)."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Cheek kissing between men is common among close friends, but between unrelated men and women it is strictly avoided in public."
+    }
+  ]
+}

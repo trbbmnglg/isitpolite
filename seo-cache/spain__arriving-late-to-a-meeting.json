@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Flexible punctuality expected",
+  "confidence": "high",
+  "explanation": "In Spanish business culture, arriving 5–15 minutes late to a meeting is generally acceptable and often expected, as relationships and informal conversation take precedence over strict punctuality. This reflects a polychronic time orientation where schedules are seen as flexible. However, for very formal meetings or with foreign executives, punctuality may be more valued.",
+  "local_tip": "Arrive 5–10 minutes late to a meeting, but always apologize briefly and warmly to show respect.",
+  "regional_note": "In Catalonia and the Basque Country, punctuality is often taken more seriously, especially in international or corporate settings.",
+  "also_check": [
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Punctuality is strictly observed; even 5 minutes late is considered disrespectful."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Arriving late is a serious breach of etiquette; being early is expected."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Similar to Spain, a 10–15 minute delay is common and seen as normal in business meetings."
+    }
+  ]
+}

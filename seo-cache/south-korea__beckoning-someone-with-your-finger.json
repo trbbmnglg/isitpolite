@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful and Dominant",
+  "confidence": "high",
+  "explanation": "In South Korea, beckoning someone with a single finger is considered highly disrespectful and is associated with summoning a dog or a subordinate. The proper way to call someone is to use the whole hand, palm down, with a gentle waving motion of all fingers together.",
+  "local_tip": "Use your entire hand, palm facing downward, and wave all fingers together to beckon someone politely.",
+  "regional_note": "This is consistent across all regions and generations in South Korea, though younger people may be more tolerant of foreign visitors making the mistake.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is also rude; use the same whole-hand, palm-down gesture."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered very rude and can be seen as a challenge or insult."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual settings, it can be seen as aggressive or condescending in formal or professional contexts."
+    }
+  ]
+}

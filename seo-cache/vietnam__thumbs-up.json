@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Vietnam, the thumbs-up gesture is widely understood as a positive sign, similar to many Western cultures, and is commonly used to indicate approval, agreement, or that something is good. It is considered polite in everyday contexts, especially among younger generations and in urban areas. However, it is not associated with any offensive meaning in Vietnamese culture.",
+  "local_tip": "Use the thumbs-up to show appreciation or agreement in casual settings, but avoid using it with older or more traditional individuals who may interpret it differently.",
+  "regional_note": "In rural areas or among older generations, the gesture may be less common but still not offensive; younger urban Vietnamese are fully familiar with its positive meaning.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Thumbs-up is considered an offensive insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "Thumbs-up is seen as a rude or vulgar gesture in some parts of the country."
+    },
+    {
+      "country": "Australia",
+      "verdict": "polite",
+      "note": "Thumbs-up is a common positive gesture, similar to the US and UK."
+    }
+  ]
+}

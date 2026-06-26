@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusal is offensive",
+  "confidence": "high",
+  "explanation": "In Greek culture, offering food is a fundamental expression of hospitality and affection, especially during family gatherings. Refusing is seen as rejecting the host's generosity and can cause embarrassment or offense. It is customary to accept at least a small portion, even if you are not hungry.",
+  "local_tip": "If you must decline due to dietary restrictions, politely explain with a brief reason and accept a symbolic taste or a small piece of bread to honor the gesture.",
+  "regional_note": "In more traditional rural areas and older generations, refusal is even more strongly discouraged; in urban or younger circles, a polite explanation may be more accepted.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Refusing food is often polite to show modesty, though hosts will insist; a gentle initial refusal is expected."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Refusing food can be seen as rejecting hospitality, but it is acceptable if you cite religious or health reasons."
+    },
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Refusing food offered by a host is generally considered impolite, as it undermines the host's effort and culinary pride."
+    }
+  ]
+}

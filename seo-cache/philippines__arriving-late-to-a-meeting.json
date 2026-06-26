@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Arrive on time, not late",
+  "confidence": "high",
+  "explanation": "In Philippine business culture, punctuality is increasingly valued, especially in formal meetings with foreign partners or in multinational companies. However, 'Filipino time' — a cultural tendency toward relaxed punctuality — still exists in some local contexts, so arriving 5-10 minutes late may be tolerated but is not considered polite. To show respect, it is best to arrive on time or slightly early, as lateness can be perceived as disrespectful or unprofessional.",
+  "local_tip": "Arrive 5-10 minutes early to demonstrate respect and professionalism, especially for meetings with senior executives or foreign clients.",
+  "regional_note": "In more rural areas or traditional family-run businesses, a 10-15 minute grace period is more common, but urban corporate settings expect punctuality.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is strictly observed; arriving even one minute late is considered disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "A 15-minute delay is often acceptable in social settings, but business meetings expect punctuality."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Punctuality is a sign of reliability; lateness is seen as unprofessional and rude."
+    }
+  ]
+}

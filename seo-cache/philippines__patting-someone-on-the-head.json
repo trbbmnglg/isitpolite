@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head touching",
+  "confidence": "high",
+  "explanation": "In the Philippines, the head is considered the most sacred part of the body, home to the soul, so patting someone on the head is deeply disrespectful. This belief is rooted in Filipino Catholic and indigenous animist traditions, where touching the head without permission is seen as an invasion of personal dignity. Even a friendly pat can cause offense, especially among older generations or in more traditional settings.",
+  "local_tip": "Instead of patting the head, offer a friendly nod, smile, or a light touch on the arm or shoulder to show warmth.",
+  "regional_note": "In urban areas among younger, Westernized Filipinos, the taboo may be slightly relaxed, but it remains widely observed across all regions.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major faux pas."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "The head is considered sacred, and patting it, especially on children, can be seen as condescending or disrespectful."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is generally seen as affectionate or playful, especially with children, though context matters."
+    }
+  ]
+}

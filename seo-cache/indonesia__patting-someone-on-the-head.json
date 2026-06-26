@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head patting",
+  "confidence": "high",
+  "explanation": "In Indonesia, the head is considered the most sacred part of the body, housing the soul. Patting someone on the head, especially a child or an adult, is deeply disrespectful and can cause offense, as it implies a violation of personal dignity and spiritual beliefs.",
+  "local_tip": "Instead of patting the head, offer a friendly nod or a gentle touch on the shoulder if you need to get someone's attention.",
+  "regional_note": "In strongly Islamic areas like Aceh, the prohibition is even more strictly observed, while in more secular urban settings younger generations may be slightly more tolerant, but the gesture remains widely inappropriate.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major faux pas."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head is sometimes acceptable, but patting an adult's head is generally seen as condescending or disrespectful."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting a child's head is often seen as affectionate or encouraging, though context matters with adults."
+    }
+  ]
+}

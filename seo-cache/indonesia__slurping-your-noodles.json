@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, but tolerated",
+  "confidence": "medium",
+  "explanation": "In Indonesia, slurping noodles is generally considered impolite as it goes against the local dining etiquette of eating quietly and respectfully. While some younger Indonesians may be more relaxed due to foreign media influence, traditional Javanese and Sundanese customs emphasize quiet eating, especially in formal settings.",
+  "local_tip": "To be safe, eat noodles quietly by twirling them around your spoon or fork, and avoid making loud slurping sounds.",
+  "regional_note": "In more traditional or rural areas of Java and Sumatra, slurping is more strongly frowned upon, whereas in urban centers like Jakarta or Bali, locals may be more accustomed to foreign habits.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is often acceptable and indicates you are savoring the food, though it varies by region."
+    },
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Slurping is generally considered bad table manners and is avoided in most dining settings."
+    }
+  ]
+}

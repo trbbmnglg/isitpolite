@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Considered disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In Japan, beckoning someone with a single finger is seen as rude and demeaning, as it is associated with calling animals or inferiors. The proper way to beckon is to extend your arm with the palm facing down and gently wave all fingers together. This gesture is deeply ingrained in Japanese social hierarchy and politeness norms.",
+  "local_tip": "To call someone politely, extend your arm with palm down and flutter all fingers toward you, or simply approach the person directly.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a single finger is considered very rude and is often used only for dogs."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common among friends, it can be seen as aggressive or dismissive in formal or professional settings."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Using a single finger to beckon is impolite; use the whole hand with palm down instead."
+    }
+  ]
+}

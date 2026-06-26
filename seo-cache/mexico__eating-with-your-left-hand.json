@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally acceptable but not ideal",
+  "confidence": "medium",
+  "explanation": "In Mexico, eating with the left hand is not considered rude per se, as there is no strong cultural taboo against it like in parts of the Middle East or India. However, traditional etiquette favors using the right hand for eating, especially in formal dining settings, as the left hand is historically associated with less clean tasks. Most Mexicans are ambidextrous at the table and will not take offense, but using the right hand is seen as more polished.",
+  "local_tip": "When dining in a formal restaurant or with older Mexicans, use your right hand for eating and reserve the left for holding utensils or bread.",
+  "regional_note": "In indigenous communities or very traditional households, older generations may still view the left hand as less proper for eating, but this is rare in urban areas.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Eating with the left hand is considered unclean and disrespectful, as the left hand is used for bathroom hygiene."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "The left hand is strictly reserved for unclean tasks; eating with it is a serious breach of etiquette."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Both hands are acceptable, but chopsticks are used; left-handed eating is not stigmatized."
+    }
+  ]
+}

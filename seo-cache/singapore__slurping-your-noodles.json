@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Accepted noodle slurping",
+  "confidence": "high",
+  "explanation": "In Singapore, slurping noodles is generally considered a sign of enjoyment and appreciation for the food, especially in hawker centers and casual eateries. It is not seen as rude but rather as a practical way to eat hot noodles and savor the broth. This practice is influenced by Chinese and Japanese dining cultures, which are prevalent in Singapore.",
+  "local_tip": "Slurp confidently but avoid excessive noise in upscale restaurants or when dining with conservative elders.",
+  "regional_note": "Older generations may view loud slurping as slightly uncouth in formal settings, but it is widely accepted in everyday dining.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a compliment to the chef and enhances flavor, though silence is expected in other contexts."
+    },
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Slurping is generally considered impolite and associated with poor table manners in most dining settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping any food, including pasta, is seen as disrespectful and a breach of dining etiquette."
+    }
+  ]
+}

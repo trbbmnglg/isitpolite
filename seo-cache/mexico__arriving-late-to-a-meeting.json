@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Flexible but not encouraged",
+  "confidence": "medium",
+  "explanation": "In Mexican business culture, arriving 10–15 minutes late is often tolerated and sometimes expected for social meetings, but for formal business meetings, punctuality is increasingly valued, especially in international or corporate settings. Tardiness can be seen as a sign of respect for relationships over strict schedules, but it may also be interpreted as unprofessional if excessive. The key is to gauge the formality of the meeting and the region, as northern Mexico tends to be more punctual than southern areas.",
+  "local_tip": "Aim to arrive on time for formal meetings, but if you're running late, call ahead to apologize and give a realistic ETA.",
+  "regional_note": "In Mexico City and Monterrey, punctuality is stricter in corporate environments, while in smaller towns or the south, a 15-minute grace period is more common.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is critical; even one minute late can be seen as disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Similar to Mexico, but lateness up to 30 minutes for social meetings is common; business meetings are more punctual in São Paulo."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Arriving late is considered highly unprofessional and disrespectful of others' time."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use sparingly with seniors",
+  "confidence": "high",
+  "explanation": "In Vietnamese business culture, direct eye contact with superiors or elders can be perceived as confrontational or disrespectful, as it challenges the hierarchical Confucian values. However, with peers or subordinates, moderate eye contact shows sincerity and engagement. Younger, urban professionals may be more comfortable with direct eye contact due to Western influence.",
+  "local_tip": "Maintain brief, soft eye contact with superiors, then look down slightly to show deference; with peers, hold eye contact for a few seconds at a time.",
+  "regional_note": "In rural areas and among older generations, avoiding eye contact with authority figures is more strictly observed; in Ho Chi Minh City and Hanoi, younger businesspeople are more relaxed.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is considered aggressive; brief glances or looking at the neck is polite."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct eye contact signals confidence and honesty in business settings."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Sustained eye contact with elders or superiors is seen as disrespectful; younger people may avoid it."
+    }
+  ]
+}

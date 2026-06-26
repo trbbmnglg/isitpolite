@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Considered impolite gesture",
+  "confidence": "high",
+  "explanation": "In Germany, beckoning someone with your index finger is seen as condescending and disrespectful, akin to calling a dog. It is generally reserved for summoning animals or children, not adults in social or professional settings.",
+  "local_tip": "To call someone over politely, use an open hand with palm facing down and wave all fingers together, or simply approach them directly.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with the index finger is considered very rude; instead, use an open hand with palm down and a gentle waving motion."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is highly offensive and can be seen as a challenge; use a hand gesture with palm down and fingers moving together."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common among friends, it can be perceived as rude or dismissive in formal contexts; a verbal invitation is safer."
+    }
+  ]
+}

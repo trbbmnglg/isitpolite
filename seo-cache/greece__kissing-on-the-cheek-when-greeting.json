@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common greeting practice",
+  "confidence": "high",
+  "explanation": "In Greece, kissing on the cheek (typically one or two kisses, starting on the right) is a standard and warm greeting among friends and acquaintances at social gatherings. It is especially common between women and between men and women, though men may also kiss each other if they are close friends or family. This gesture reflects the Greek value of philotimo (honor and warmth) and is widely accepted in social contexts.",
+  "local_tip": "When greeting, offer your right cheek first and air-kiss or lightly touch cheeks, but avoid loud smacking sounds or lingering.",
+  "regional_note": "In more conservative or older circles, especially in rural areas, men may prefer handshakes over cheek kisses, and younger generations in cities may use two kisses while older generations sometimes use three.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Cheek kissing is not customary and can be seen as invasive; bowing is the standard greeting."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "La bise (cheek kissing) is common, but the number of kisses varies by region (typically two to four)."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Cheek kissing between men is common among close friends, but between unrelated men and women it is strictly avoided in public."
+    }
+  ]
+}

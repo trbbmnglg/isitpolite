@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved for close friends",
+  "confidence": "medium",
+  "explanation": "In the United Kingdom, cheek kissing is not a standard greeting in most social gatherings; it is typically reserved for close friends, family, or very informal settings. A handshake or a simple verbal greeting is far more common, especially among acquaintances or in professional contexts. Attempting a cheek kiss with a new acquaintance may be perceived as overly familiar or intrusive.",
+  "local_tip": "When in doubt, offer a firm handshake or a friendly nod and say 'Hello' or 'Nice to meet you' to avoid awkwardness.",
+  "regional_note": "In London and among younger, more cosmopolitan crowds, a single cheek kiss (right cheek to right cheek) is occasionally used among friends, but it remains less common than in continental Europe.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "La bise (two to four cheek kisses) is a standard greeting among friends and acquaintances, varying by region."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact like kissing is avoided; bowing is the traditional and expected greeting."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "One or two cheek kisses are common even among new acquaintances, especially in social settings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Considered disrespectful",
+  "confidence": "high",
+  "explanation": "In Mexico, beckoning someone with your finger, especially with the palm facing up, is seen as a gesture used for calling animals or inferiors and is considered highly disrespectful in everyday contexts. It implies a lack of respect and can be interpreted as condescending or aggressive.",
+  "local_tip": "Instead, to call someone politely, extend your hand with the palm facing down and make a gentle scooping motion with all fingers together.",
+  "regional_note": "While the gesture is broadly understood as rude nationwide, younger generations in urban areas may be more lenient, but it is still best avoided.",
+  "also_check": [
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered very rude and can even be illegal; use a hand wave with palm down instead."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is seen as demeaning; use a gentle wave with all fingers together and palm facing down."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual settings, it can be seen as rude in formal or professional contexts; a verbal call or hand wave is safer."
+    }
+  ]
+}

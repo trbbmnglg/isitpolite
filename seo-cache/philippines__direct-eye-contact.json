@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate eye contact preferred",
+  "confidence": "medium",
+  "explanation": "In Filipino business culture, direct eye contact is generally acceptable but should be softened, especially when speaking to superiors or elders, as prolonged staring can be seen as confrontational or disrespectful. Filipinos often use a gentle, intermittent gaze to show attentiveness without challenging authority. This reflects the cultural value of 'pakikisama' (smooth interpersonal relations) and respect for hierarchy.",
+  "local_tip": "Maintain brief, soft eye contact when listening, and occasionally look down or to the side when speaking to senior colleagues to show deference.",
+  "regional_note": "In more rural or traditional areas, especially among older generations, avoiding direct eye contact with superiors is more common; in urban, younger, or English-speaking business settings, eye contact may be more direct.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact is often considered rude or intimidating; brief glances or looking at the necktie area is more polite."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct, sustained eye contact is expected as a sign of confidence, honesty, and engagement in business settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Direct eye contact between men is acceptable, but between men and women it should be minimal and respectful to avoid impropriety."
+    }
+  ]
+}

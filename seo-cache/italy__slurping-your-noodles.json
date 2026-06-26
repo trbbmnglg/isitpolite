@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In Italy, dining etiquette emphasizes quiet, composed eating; slurping noodles is considered disruptive and disrespectful to both the chef and fellow diners. Italian cuisine values savoring flavors without noisy distractions, and loud eating is associated with a lack of manners.",
+  "local_tip": "Twirl pasta quietly on your fork against the plate, and take small, silent bites.",
+  "regional_note": "In some southern regions, louder eating may be slightly more tolerated among close family, but in formal or public dining it remains unacceptable.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of appreciation and enhances flavor."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping noodles is common and shows enjoyment of the meal."
+    },
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Slurping is generally considered impolite and noisy eating is frowned upon."
+    }
+  ]
+}

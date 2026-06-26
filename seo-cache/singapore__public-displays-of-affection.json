@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Keep it subtle",
+  "confidence": "high",
+  "explanation": "In Singapore, public displays of affection (PDA) such as hugging, kissing, or holding hands are generally considered acceptable in private or low-key settings, but overt or prolonged displays in public can be seen as disrespectful or inappropriate, especially in more conservative or multi-ethnic social gatherings. The country's diverse cultural and religious norms mean that what is acceptable among close friends may be frowned upon in mixed company or older generations. It is best to err on the side of modesty to avoid causing discomfort or offense.",
+  "local_tip": "Limit PDA to brief hand-holding or a quick peck on the cheek, and avoid any intimate gestures during formal or family-oriented social gatherings.",
+  "regional_note": "Younger Singaporeans in urban areas are more accepting of mild PDA, while older generations and those in more traditional Malay or Indian communities may view any PDA as inappropriate.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is rare and considered impolite; even holding hands is often reserved for private moments."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks as a greeting and casual PDA are common and socially accepted."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any PDA, including holding hands between unmarried couples, is illegal and can lead to severe penalties."
+    }
+  ]
+}

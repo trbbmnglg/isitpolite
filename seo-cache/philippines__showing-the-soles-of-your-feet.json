@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful foot display",
+  "confidence": "high",
+  "explanation": "In the Philippines, showing the soles of your feet is considered highly disrespectful because the feet are viewed as the lowest and dirtiest part of the body. This gesture can be seen as an insult, especially in social gatherings where respect for others is paramount. It is particularly offensive if directed at elders or authority figures.",
+  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and avoid pointing your feet at anyone during conversations or meals.",
+  "regional_note": "In Muslim-majority areas of Mindanao, the prohibition is even stricter due to Islamic teachings that consider feet unclean.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "Feet are considered the lowest part of the body; pointing them at people or Buddha images is a major offense."
+    },
+    {
+      "country": "Egypt",
+      "verdict": "rude",
+      "note": "Showing the sole of your shoe or foot is a grave insult, often associated with contempt."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While generally not a major issue, putting feet on furniture or pointing soles at someone can be seen as informal or rude in formal settings."
+    }
+  ]
+}

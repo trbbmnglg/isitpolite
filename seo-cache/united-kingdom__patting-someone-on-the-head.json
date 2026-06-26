@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head patting",
+  "confidence": "high",
+  "explanation": "In the United Kingdom, patting someone on the head is generally considered patronizing or overly familiar, especially among adults. It invades personal space and can be seen as condescending, akin to treating the person like a child or a pet. This gesture is reserved for very close relationships or young children, and even then it is uncommon in public social settings.",
+  "local_tip": "Instead of a head pat, offer a firm handshake or a brief nod to show friendliness and respect.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred part of the body; touching it is a serious breach of etiquette."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head may be acceptable, but doing so to an adult is disrespectful and intrusive."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact is minimal in public; head patting is seen as overly intimate and inappropriate."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Standard greeting practice",
+  "confidence": "high",
+  "explanation": "In France, kissing on the cheek (la bise) is the standard greeting among friends, family, and acquaintances at social gatherings. The number of kisses varies by region (typically two to four), and it is customary to start with the right cheek. It is considered polite and friendly, though not expected in formal or professional settings.",
+  "local_tip": "When in doubt, follow the lead of the other person or offer a handshake if you are unsure about the number of kisses.",
+  "regional_note": "In some parts of southern France, three or four kisses are common, while in Paris and the north, two is typical; younger generations may also use a simple wave or hug in casual contexts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact, especially kissing, is avoided in greetings; bowing is the norm."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Kissing on the cheek is common, but usually one kiss and often starts with the right cheek."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Kissing on the cheek is reserved for close friends and family; a handshake is more appropriate for acquaintances."
+    }
+  ]
+}

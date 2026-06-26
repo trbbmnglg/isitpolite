@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing is impolite",
+  "confidence": "high",
+  "explanation": "In the Netherlands, refusing food offered by a host, especially during a family meeting, is considered impolite because it can be seen as rejecting the host's hospitality and effort. Dutch culture values directness but also appreciates gracious acceptance of food as a sign of respect and connection. Even a small taste is expected to acknowledge the host's generosity.",
+  "local_tip": "If you must refuse due to dietary restrictions, politely explain briefly and offer to try a small portion or accept a drink instead.",
+  "regional_note": "In more traditional or older generations, refusal may be taken more personally, while younger urban families might be more understanding of dietary preferences.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Refusing food is often polite to show modesty, though hosts may insist; it's common to initially decline."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food is seen as rejecting the host's love and care; always accept at least a small portion."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Refusing food can be seen as rude, but it's acceptable if you explain religious or dietary reasons; hosts may still insist."
+    }
+  ]
+}

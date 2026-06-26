@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Russia, the thumbs-up gesture is widely understood as a positive sign of approval or agreement, similar to many Western cultures. It is commonly used in everyday interactions, including among friends and in casual settings, and does not carry any offensive connotations. However, it is less formal than a verbal affirmation and may be considered slightly informal in very formal situations.",
+  "local_tip": "Use the thumbs-up with a smile to show agreement or encouragement, but avoid using it in highly formal or official contexts where a verbal response is more appropriate.",
+  "regional_note": "No significant regional or generational variation; the gesture is uniformly positive across Russia.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "In Iran, the thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "In Greece, the thumbs-up can be interpreted as a vulgar gesture, especially when accompanied by an extended hand."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "In parts of Nigeria, the thumbs-up is seen as a rude or dismissive gesture, often used to insult someone."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, but appreciated",
+  "confidence": "medium",
+  "explanation": "In Mexico, removing shoes indoors is not a standard custom; most people keep them on in homes. However, it is seen as a respectful gesture in very clean or formal homes, especially if the host does it first or if floors are pristine. Doing so without invitation might make the host feel they need to offer slippers or worry about your comfort.",
+  "local_tip": "Always wait to see if the host removes their shoes first, or politely ask '¿Prefieres que me quite los zapatos?' (Do you prefer I remove my shoes?) before doing so.",
+  "regional_note": "In northern Mexico (e.g., Monterrey) and among upper-class families, removing shoes is slightly more common in carpeted homes, while in rural areas it is rare.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes at the genkan is mandatory and expected in all homes."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally kept on unless the host explicitly asks or it's a no-shoes household."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and many temples as a sign of respect."
+    }
+  ]
+}

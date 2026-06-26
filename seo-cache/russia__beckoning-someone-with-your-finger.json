@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Considered disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In Russia, beckoning someone with your finger is generally perceived as rude and dismissive, akin to calling a dog. It is associated with a lack of respect and is rarely used in polite or formal interactions.",
+  "local_tip": "Instead, use a palm-down hand gesture with all fingers moving together to beckon someone politely.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with the index finger is considered very rude and is used only for animals."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "This gesture is highly offensive and can be seen as a challenge or insult."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual settings, it can be seen as condescending in formal or professional contexts."
+    }
+  ]
+}

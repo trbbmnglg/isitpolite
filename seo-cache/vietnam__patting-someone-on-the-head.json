@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid touching the head",
+  "confidence": "high",
+  "explanation": "In Vietnam, the head is considered the most sacred part of the body, housing the spirit. Patting someone on the head, even playfully, is deeply disrespectful as it implies dominance or violation of personal dignity. This taboo is rooted in Buddhist and animist beliefs and applies to both adults and children in social settings.",
+  "local_tip": "If you need to get someone's attention, gently touch their shoulder or arm instead, and never raise your hand above their head.",
+  "regional_note": "In some northern rural areas, elderly people may pat a child's head as a blessing, but this is a rare exception and not for foreigners.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred body part; touching it is a major offense."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "The head is considered the seat of the soul; touching it is disrespectful, especially for adults."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "While not as severe as in Southeast Asia, patting a stranger's head is seen as overly familiar and condescending."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In the Philippines, beckoning someone with a curled index finger is considered extremely rude and is typically used only for calling animals or inferiors. It is seen as a sign of disrespect, especially toward elders or those in authority, and can cause serious offense.",
+  "local_tip": "To call someone politely, extend your hand with the palm facing down and gently wave all four fingers toward you.",
+  "regional_note": "This is consistent across most regions and generations, though younger urban Filipinos may be more lenient in informal settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered vulgar and animal-like; use a full-hand wave with palm down."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is seen as condescending and is reserved for calling dogs."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual contexts, it can be perceived as aggressive or dismissive in formal or professional settings."
+    }
+  ]
+}

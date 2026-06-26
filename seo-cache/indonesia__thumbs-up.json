@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "medium",
+  "explanation": "In Indonesia, the thumbs-up gesture is widely understood as a positive sign meaning 'good,' 'okay,' or 'well done,' especially among younger generations and in urban areas. However, older or more traditional individuals may still interpret it as a rude or insulting gesture in certain contexts, though this is increasingly rare. It is generally safe to use in casual, everyday situations, but avoid using it in formal or highly traditional settings.",
+  "local_tip": "Use a smile and nod instead of thumbs-up when interacting with older or more traditional Indonesians to ensure politeness.",
+  "regional_note": "In rural areas and among older generations, especially in Java and Sumatra, the thumbs-up may still carry a negative connotation, so caution is advised.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Thumbs-up is considered an obscene insult, equivalent to the middle finger."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Thumbs-up is positive, meaning 'good' or 'okay,' but is less common in formal settings."
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "Thumbs-up is an offensive gesture, especially when thrust upward."
+    }
+  ]
+}

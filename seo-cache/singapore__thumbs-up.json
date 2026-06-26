@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In Singapore, the thumbs-up gesture is widely understood as a positive sign of approval, agreement, or encouragement, largely due to Western influence and its use in local media. It is commonly used in everyday interactions, including among friends, colleagues, and in service settings, without causing offense. However, it is always advisable to use it with a friendly demeanor to avoid any misinterpretation.",
+  "local_tip": "Use the thumbs-up to express agreement or praise, but pair it with a smile to ensure your intent is clear and friendly.",
+  "regional_note": "Among older generations or in more traditional settings, the gesture may be less common, but it is still not considered rude.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "In Iran, the thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "In Greece, the thumbs-up can be interpreted as a vulgar gesture, especially when thrust forward."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "In Nigeria, the thumbs-up is generally positive but can be seen as rude if used in a dismissive or overly casual manner with elders."
+    }
+  ]
+}

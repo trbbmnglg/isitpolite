@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally appreciated but modest",
+  "confidence": "high",
+  "explanation": "In Greek business culture, gift-giving is seen as a kind gesture that builds personal rapport, though it is not expected. Avoid overly expensive gifts, as they may create awkwardness or be perceived as bribery; instead, opt for something small like quality wine, olives, or a book about your region.",
+  "local_tip": "Present the gift with your right hand or both hands, and downplay its value when offering it to avoid making the recipient feel obligated.",
+  "regional_note": "In more traditional or older business circles, gifts may be opened in private rather than in front of others to avoid showing favoritism.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Gift-giving is highly ritualized; avoid white or red wrapping and never give four of anything."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary in formal business settings and may be viewed with suspicion."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Gifts are welcome but must not contain alcohol or pork, and should be offered with the right hand only."
+    }
+  ]
+}

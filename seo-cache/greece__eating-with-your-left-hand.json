@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid left hand use",
+  "confidence": "high",
+  "explanation": "In Greece, eating with the left hand is considered impolite because the left hand is traditionally associated with unclean tasks, such as personal hygiene. This custom is deeply rooted in Mediterranean and Middle Eastern etiquette, and using the left hand for dining is seen as disrespectful, especially in formal or traditional settings. Most Greeks eat with the right hand or use utensils, so sticking to the right hand is expected.",
+  "local_tip": "Always use your right hand for eating bread, olives, or any finger foods, and keep your left hand under the table or resting on your lap.",
+  "regional_note": "In urban areas and among younger generations, the rule is less strictly observed, especially when using utensils, but it remains a strong norm in rural and traditional contexts.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Eating with the left hand is taboo as it is reserved for bathroom hygiene; always use the right hand for eating."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "rude",
+      "note": "The left hand is considered unclean, so use only the right hand for communal dishes and bread."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Left-hand use is generally acceptable when using chopsticks, though passing food with chopsticks is avoided."
+    }
+  ]
+}

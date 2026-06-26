@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, but appreciated",
+  "confidence": "high",
+  "explanation": "In Vietnam, tipping is not traditionally practiced and is not required at restaurants, as service charges are often included in the bill. However, in tourist-heavy areas or upscale establishments, leaving a small tip (5-10%) is seen as a generous gesture and is increasingly common. Locals rarely tip, so doing so is polite but not expected.",
+  "local_tip": "If you wish to tip, leave small change or round up the bill; avoid large tips as they can cause awkwardness.",
+  "regional_note": "In major cities like Ho Chi Minh City and Hanoi, tipping is more accepted in tourist-oriented restaurants, while in rural areas it remains uncommon.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for good service."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service charge is included, but leaving small change (5-10%) is a polite bonus."
+    }
+  ]
+}

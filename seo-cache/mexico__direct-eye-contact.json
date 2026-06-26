@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Respectful but not aggressive",
+  "confidence": "medium",
+  "explanation": "In Mexican business culture, direct eye contact is generally seen as a sign of honesty, confidence, and respect. However, prolonged or intense staring can be perceived as challenging or confrontational, so a softer, intermittent gaze is preferred. This balance reflects the blend of professional assertiveness and the cultural value of personal connection (confianza).",
+  "local_tip": "Maintain steady but soft eye contact, breaking it occasionally to avoid appearing aggressive, especially when speaking with senior colleagues.",
+  "regional_note": "In more indigenous communities or rural areas, direct eye contact with superiors may be considered disrespectful; younger urban professionals tend to be more comfortable with sustained eye contact.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact is often seen as intimidating or disrespectful; brief glances or looking at the necktie area is safer."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct, steady eye contact is expected as a sign of confidence and attentiveness in business settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Direct eye contact between men is acceptable, but between genders it should be minimal to avoid impropriety."
+    }
+  ]
+}

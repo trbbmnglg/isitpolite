@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Gender-specific cheek kissing",
+  "confidence": "high",
+  "explanation": "In the United Arab Emirates, cheek kissing between men is common among close friends or relatives, but between unrelated men and women it is generally avoided due to Islamic modesty norms. At social gatherings, it is safest to wait for the other person to initiate any physical greeting, especially across genders.",
+  "local_tip": "Greet with a polite verbal 'As-salamu alaykum' and a slight nod or hand over heart until the other person extends their hand or cheek.",
+  "regional_note": "In more cosmopolitan cities like Dubai or Abu Dhabi, expatriates and younger Emiratis may be more flexible, but conservative families and older generations strictly observe gender separation in greetings.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is standard among friends and acquaintances, even between men and women, with the number of kisses varying by region."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact in greetings is avoided; bowing is the norm, and cheek kissing would be seen as an invasion of personal space."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Similar to UAE, same-gender cheek kissing is common, but cross-gender kissing in public is strictly prohibited and considered highly inappropriate."
+    }
+  ]
+}

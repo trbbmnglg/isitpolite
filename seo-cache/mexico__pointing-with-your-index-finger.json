@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use with discretion",
+  "confidence": "high",
+  "explanation": "In Mexico, pointing directly at a person with the index finger is considered aggressive and disrespectful, as it mimics a gesture of accusation or confrontation. For objects or directions, it is more acceptable but still less polite than using the whole hand or a chin point. This norm is rooted in a cultural preference for indirectness and respect for personal dignity.",
+  "local_tip": "Instead of pointing with your finger, gesture with your whole hand (palm up or open) or use a subtle chin lift to indicate a person or direction.",
+  "regional_note": "In more rural or indigenous communities, pointing with the finger is even more strongly avoided, while in urban, younger circles it may be slightly more tolerated among peers.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered very rude; use an open hand or a gentle nod instead."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Pointing at people is seen as impolite, but pointing at objects is generally acceptable in casual contexts."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive, especially at people; use the thumb or an open hand."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally harmless gesture",
+  "confidence": "high",
+  "explanation": "In Mexico, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive affirmation meaning 'good' or 'okay,' similar to the U.S. It is not considered offensive in everyday contexts, though it may be less common among older generations who prefer verbal cues.",
+  "local_tip": "Use the OK sign casually to agree or show approval, but avoid using it in formal business settings where a verbal response is more appropriate.",
+  "regional_note": "No significant regional variation; the gesture is universally accepted across Mexico.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult equivalent to the middle finger."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Means 'money' or 'OK,' but context matters; in some situations it can imply 'zero.'"
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homophobic insult or a crude gesture."
+    }
+  ]
+}

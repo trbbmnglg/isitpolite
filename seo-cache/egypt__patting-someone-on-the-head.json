@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head touching",
+  "confidence": "high",
+  "explanation": "In Egypt, the head is considered the most sacred and dignified part of the body, associated with the mind and spirit. Patting someone on the head, especially an adult, is deeply disrespectful and can be seen as a condescending or aggressive act. This taboo is rooted in both Islamic and broader cultural norms that emphasize personal space and respect for the head.",
+  "local_tip": "Instead of patting the head, offer a handshake or a light touch on the shoulder if you need to show friendliness or get someone's attention.",
+  "regional_note": "Among close family or very young children, gentle head touching may be accepted, but it is still best avoided with anyone outside immediate kin.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major breach of etiquette."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head of a child is often seen as affectionate, but touching an adult's head is generally avoided as it can be perceived as patronizing."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Patting someone on the head is usually seen as a friendly, playful gesture, especially among friends or with children, though context matters."
+    }
+  ]
+}

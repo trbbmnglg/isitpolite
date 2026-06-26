@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, but accepted",
+  "confidence": "medium",
+  "explanation": "In Spain, removing shoes indoors is not a standard custom and may be seen as odd or overly familiar in most homes, though it is generally tolerated if you explain you prefer to do so. It is more common in coastal or rural areas where sandy or muddy floors make it practical, but in urban settings it is rarely expected unless the host explicitly requests it.",
+  "local_tip": "Wait to see if the host removes their shoes first, or ask politely if they prefer you to keep them on.",
+  "regional_note": "In the Canary Islands and some coastal Andalusia homes, removing shoes is more common due to sand and dust, but still not a strict rule.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes is mandatory before entering the genkan (entryway) and is a deeply ingrained custom."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal varies by household and region; it is common in some homes but not expected in others, and guests should follow the host's lead."
+    },
+    {
+      "country": "Sweden",
+      "verdict": "polite",
+      "note": "It is standard etiquette to remove shoes upon entering a home, especially in winter or wet weather, and hosts often provide slippers."
+    }
+  ]
+}

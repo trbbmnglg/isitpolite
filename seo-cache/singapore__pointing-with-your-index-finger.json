@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid pointing with finger",
+  "confidence": "high",
+  "explanation": "In Singapore, pointing with the index finger is considered impolite, especially when directed at a person, as it resembles a gesture of accusation or aggression. The culturally preferred method is to use an open hand or a thumb to indicate direction or objects. This norm is rooted in broader Asian etiquette that values indirectness and respect.",
+  "local_tip": "Instead of pointing, gesture with your whole hand (palm up) or use your thumb to indicate something or someone.",
+  "regional_note": "Among younger Singaporeans and in informal settings, pointing may be more tolerated, but it remains generally avoided in formal or multi-ethnic contexts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered rude; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual contexts."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is impolite, especially at people; use the thumb or an open hand."
+    }
+  ]
+}

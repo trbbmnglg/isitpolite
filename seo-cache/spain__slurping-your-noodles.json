@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In Spain, slurping noodles is considered impolite and disruptive in a restaurant setting, as Spanish dining culture values quiet, refined table manners. Unlike in some East Asian countries where slurping signals appreciation, in Spain it is seen as a lack of self-control or disrespect to fellow diners.",
+  "local_tip": "Eat noodles silently by winding them around your fork and bringing them to your mouth without noise.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a compliment to the chef and enhances flavor."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is common and indicates enjoyment, especially in casual settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very bad manners and is avoided."
+    }
+  ]
+}

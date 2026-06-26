@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, but accepted",
+  "confidence": "medium",
+  "explanation": "In the Netherlands, removing shoes indoors is not a standard custom and may be seen as unnecessary or even odd unless the host explicitly requests it or the weather is very wet/muddy. Dutch homes often have a 'schoenen uit' (shoes off) policy only in specific households, particularly those with young children or very clean floors, but it is not a universal expectation.",
+  "local_tip": "Wait to see if the host removes their shoes or offers slippers before taking yours off, and always ask if you're unsure.",
+  "regional_note": "In more rural areas or traditional farmhouses ('boerderijen'), removing shoes may be more common to keep floors clean, while in urban apartments it is less expected.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes at the entrance (genkan) is mandatory and deeply ingrained in etiquette."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoes-off is common in some homes (especially in snowy regions) but not a universal rule; always follow the host's lead."
+    },
+    {
+      "country": "Sweden",
+      "verdict": "polite",
+      "note": "It is standard to remove shoes upon entering a home, often with a designated shoe rack by the door."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Depends on context",
+  "confidence": "medium",
+  "explanation": "In Singapore, eating with the left hand is generally considered unhygienic in formal dining settings, as the left hand is traditionally associated with bathroom use. However, in casual or hawker settings, it is often overlooked, especially among younger generations. The rule is stricter in Malay and Indian Muslim communities due to Islamic customs, where the left hand is reserved for unclean tasks.",
+  "local_tip": "When dining at a Malay or Indian restaurant, always use your right hand for eating and passing dishes, even if you are left-handed.",
+  "regional_note": "Stronger adherence among older generations and in Malay/Muslim households; less observed in Chinese and Westernized contexts.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Using the left hand for eating is considered highly impolite, especially in traditional settings."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "rude",
+      "note": "The left hand is strictly for bathroom hygiene; eating with it is a major faux pas."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Left-hand use is generally acceptable, though chopstick etiquette is more important."
+    }
+  ]
+}

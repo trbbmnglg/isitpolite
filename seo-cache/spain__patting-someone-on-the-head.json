@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, especially for adults",
+  "confidence": "high",
+  "explanation": "In Spain, patting someone on the head is typically reserved for children or very close family members; doing so to an adult, even in a friendly social gathering, can be perceived as condescending or invasive of personal space. Spanish culture values personal autonomy and physical boundaries, and head-patting is often associated with treating someone like a child or pet.",
+  "local_tip": "Avoid patting anyone on the head in Spain; instead, offer a light touch on the arm or shoulder to show friendliness.",
+  "regional_note": "In some rural areas of Andalusia or Catalonia, older generations may be more tolerant of head pats from close friends, but it remains uncommon.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred body part in Thai culture, and touching it is highly disrespectful."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head is acceptable for children but can be seen as patronizing for adults; avoid with strangers or elders."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally reserved for children or very close relationships; patting an adult's head can be seen as condescending or overly familiar."
+    }
+  ]
+}

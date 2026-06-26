@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing is disrespectful",
+  "confidence": "high",
+  "explanation": "In Saudi Arabian culture, especially when meeting a family, offering food is a profound gesture of hospitality and generosity. Refusing it can be seen as a rejection of the host's goodwill and may cause offense, as sharing meals is central to building trust and social bonds.",
+  "local_tip": "Always accept at least a small portion of food or drink, and if you must decline, do so gently with a polite excuse like 'I just ate, but thank you so much.'",
+  "regional_note": "In more conservative or traditional families, especially in rural areas or among older generations, refusal is even more strongly frowned upon; in urban or younger circles, a polite decline may be more tolerated but still best avoided.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is generally impolite, but it can be acceptable if done with elaborate apologies and a clear reason, as hosts often insist multiple times."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food offered by a host, especially in a family setting, is considered very rude because it rejects the host's care and generosity."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "It is generally polite to politely refuse if you are full or have dietary restrictions, and hosts often expect guests to feel free to decline without offense."
+    }
+  ]
+}

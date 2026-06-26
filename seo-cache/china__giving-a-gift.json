@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift giving valued",
+  "confidence": "high",
+  "explanation": "In Chinese business culture, gift-giving is a common and polite gesture that builds guanxi (relationships) and shows respect. However, it must follow strict rules: avoid clocks, umbrellas, or sharp objects, and always present and receive gifts with both hands. Gifts should be modest in value to avoid appearing as bribery, and they are typically not opened in front of the giver.",
+  "local_tip": "Give a high-quality tea or regional specialty in a red or gold wrapper, and always refuse the gift once or twice before accepting graciously.",
+  "regional_note": "In southern China (e.g., Guangdong), gifts of citrus fruits are especially favored, while in northern regions, alcohol or tobacco may be more common; younger urban professionals may be less formal about gift refusal rituals.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid white or brightly colored wrapping, and never give in sets of four or nine."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Gifts are appreciated but must be halal-compliant; avoid alcohol or pork products, and never give with the left hand."
+    }
+  ]
+}

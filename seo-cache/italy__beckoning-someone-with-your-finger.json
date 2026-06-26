@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful and dismissive",
+  "confidence": "high",
+  "explanation": "In Italy, beckoning someone with your finger (especially with the palm up and index finger curling) is considered highly disrespectful, as it is associated with calling a dog or a servant. Italians typically use a hand gesture with all fingers waving downward or a nod of the head to summon someone politely.",
+  "local_tip": "Instead, extend your hand with palm facing down and wave all fingers toward you, or simply say 'Vieni qui' (come here) with a welcoming tone.",
+  "regional_note": "This gesture is universally frowned upon across Italy, though older generations in the South may be particularly offended.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered vulgar and animal-like; use a gentle wave with all fingers pointing down."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "This gesture is used only for calling animals and can be seen as an insult or even lead to legal trouble."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual settings, it can be perceived as condescending or aggressive in formal or professional contexts."
+    }
+  ]
+}

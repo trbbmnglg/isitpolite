@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful foot display",
+  "confidence": "high",
+  "explanation": "In Vietnam, the feet are considered the lowest and dirtiest part of the body, so showing the soles of your feet to others, especially in a social gathering, is seen as a sign of disrespect and contempt. This gesture can offend elders and hosts, as it implies you are looking down on them or treating them as inferior.",
+  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and never point your feet at anyone or any sacred object like an altar.",
+  "regional_note": "This rule is consistent across all regions of Vietnam, though younger generations in urban areas may be slightly more tolerant of accidental exposure.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest part of the body; pointing the soles at someone is a grave insult, especially in temples."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is impolite, particularly in traditional settings like tatami rooms."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally considered casual or rude depending on context; putting feet on furniture or pointing soles at someone can be seen as disrespectful in formal settings."
+    }
+  ]
+}

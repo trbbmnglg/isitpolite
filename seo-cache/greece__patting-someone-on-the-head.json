@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally avoided, especially with adults",
+  "confidence": "high",
+  "explanation": "In Greece, patting someone on the head is considered patronizing and disrespectful, as the head is viewed as sacred and the seat of the soul. This gesture is typically reserved for very young children or close family in private settings, and using it with adults or acquaintances at a social gathering can cause offense.",
+  "local_tip": "Instead of touching the head, offer a firm handshake or a friendly pat on the shoulder or upper arm to show warmth and respect.",
+  "regional_note": "In some rural areas or among older generations, the taboo may be even stronger, while younger, urban Greeks might be slightly more tolerant but still generally avoid it.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred part of the body; touching it is a major taboo, even for children."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head is often seen as condescending or intrusive, especially with adults, though it may be acceptable for close family or young children."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While not a major taboo, patting an adult's head can be perceived as infantilizing or overly familiar; it's generally reserved for children or very close relationships."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In Saudi Arabia, the head is considered the most sacred part of the body, associated with dignity and the seat of the soul. Patting someone on the head, especially an adult or elder, is deeply offensive and implies treating them like a child or animal. This applies across all social gatherings, regardless of gender or familiarity.",
+  "local_tip": "Avoid any physical contact with the head; instead, greet with a right-hand handshake (if same gender) and a verbal 'As-salamu alaykum'.",
+  "regional_note": "Uniform across the kingdom, though younger Saudis in urban settings may be slightly more tolerant of accidental head touches, but it remains strongly discouraged.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the highest and most sacred part of the body; touching it is a major breach of etiquette."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting a child's head is often affectionate, but touching an adult's head is disrespectful, especially if done by a stranger."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Patting an adult's head is generally seen as condescending or overly familiar, but may be acceptable among close friends or in playful contexts."
+    }
+  ]
+}

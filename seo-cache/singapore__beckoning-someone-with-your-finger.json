@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful and commanding",
+  "confidence": "high",
+  "explanation": "In Singapore, beckoning someone with a curled index finger is considered impolite and condescending, as it is associated with calling a dog or a servant. This gesture is seen as disrespectful, especially in a multicultural society where maintaining face and showing mutual respect are highly valued. A more acceptable way to summon someone is to use an open hand with a gentle waving motion.",
+  "local_tip": "Instead of using your finger, wave your hand with the palm facing down and fingers together to beckon someone politely.",
+  "regional_note": "Among older generations and in traditional Chinese families, this gesture is particularly offensive, while younger Singaporeans may be more tolerant but still view it as rude.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered vulgar and is used only for animals; use an open hand with palm down instead."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "This gesture can be seen as a challenge or insult, and may even lead to legal trouble if used toward authorities."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While often used informally among friends, it can be perceived as arrogant or dismissive in formal or professional settings."
+    }
+  ]
+}

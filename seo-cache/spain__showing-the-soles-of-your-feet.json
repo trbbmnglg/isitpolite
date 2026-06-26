@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful gesture",
+  "confidence": "high",
+  "explanation": "In Spain, showing the soles of your feet is considered disrespectful because feet are seen as dirty and lowly. This gesture can be interpreted as a sign of contempt or disregard, especially in social or formal settings.",
+  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and avoid pointing your soles toward anyone.",
+  "regional_note": "This norm is consistent across mainland Spain, though in the Canary Islands and some coastal areas, casual settings may be slightly more relaxed.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The feet are considered the lowest and most impure part of the body; pointing them at someone is a grave insult."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally not a major issue, but putting feet on furniture or pointing soles at others can be seen as rude or overly casual."
+    },
+    {
+      "country": "Egypt",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet is highly offensive, as feet are considered unclean in Arab culture."
+    }
+  ]
+}

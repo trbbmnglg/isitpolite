@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Sign of respect and engagement",
+  "confidence": "high",
+  "explanation": "In Greek business culture, direct eye contact is expected and considered a sign of honesty, confidence, and respect. It demonstrates that you are engaged and trustworthy in negotiations or meetings. Avoiding eye contact may be misinterpreted as evasiveness or lack of interest.",
+  "local_tip": "Maintain steady, natural eye contact during conversations, but avoid staring intensely as that can be perceived as aggressive.",
+  "regional_note": "In more traditional or rural settings, older generations may hold eye contact longer as a sign of sincerity, but younger urban professionals follow similar norms to other Western business cultures.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are preferred."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Direct eye contact with elders or superiors may be considered challenging or rude; younger people often lower their gaze."
+    },
+    {
+      "country": "Finland",
+      "verdict": "polite",
+      "note": "Direct eye contact is valued as a sign of sincerity and directness, similar to Greece, but often with less intensity."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common greeting gesture",
+  "confidence": "high",
+  "explanation": "In Mexico, a single cheek kiss (often air-kiss or light contact) is a standard greeting among women, and between a woman and a man, at social gatherings. Men typically shake hands or give a pat on the back, but cheek kissing is widely accepted in informal or friendly settings.",
+  "local_tip": "When greeting a woman, offer your right cheek and make a light kissing sound; for a man, wait for him to initiate a handshake or hug.",
+  "regional_note": "In northern Mexico, greetings tend to be more reserved, while in central and southern regions, cheek kissing is more common and may include a brief hug.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Cheek kissing is not customary and can be seen as invasive; a bow is the standard greeting."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is the norm, but the number of kisses varies by region (typically two to four)."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Cheek kissing between men is common, but between unrelated men and women it is strictly avoided in public."
+    }
+  ]
+}

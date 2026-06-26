@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In Greece, eating quietly and with restraint is valued in dining settings; slurping noodles is considered noisy and disrespectful, as it disrupts the meal's social harmony. Greek table manners emphasize clean, silent eating, and slurping is associated with a lack of self-control or poor upbringing.",
+  "local_tip": "When eating noodles or pasta in Greece, twirl them quietly around your fork and bring them to your mouth without making noise.",
+  "regional_note": "In some rural areas or among older generations, the expectation for silent eating may be even stricter, but the rule against slurping is uniform across the country.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of appreciation and enjoyment, indicating the food is delicious."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping noodles is often acceptable and can show you are savoring the meal, though it varies by region."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and a breach of proper dining etiquette."
+    }
+  ]
+}

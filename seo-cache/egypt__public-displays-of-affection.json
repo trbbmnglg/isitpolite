@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Minimal PDA expected",
+  "confidence": "high",
+  "explanation": "In Egypt, public displays of affection such as kissing or prolonged hugging are considered inappropriate in most social gatherings, as conservative Islamic values and cultural norms emphasize modesty. Even holding hands may draw disapproving looks in more traditional settings, though it is sometimes tolerated among married couples in upscale areas.",
+  "local_tip": "Avoid any physical affection beyond a brief handshake or verbal greeting, and follow the lead of locals in mixed-gender settings.",
+  "regional_note": "In Cairo and Alexandria, younger, more secular crowds may be slightly more permissive, but rural areas and Upper Egypt are far stricter.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "PDA is illegal and can lead to fines or deportation, even for married couples in public."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and light PDA are widely accepted in social gatherings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Even holding hands is rare in public; overt affection is seen as embarrassing and disruptive."
+    }
+  ]
+}

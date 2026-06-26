@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally harmless gesture",
+  "confidence": "high",
+  "explanation": "In the Netherlands, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'good,' with no offensive connotations in everyday contexts. It is commonly used in casual conversation and business settings without causing offense.",
+  "local_tip": "Use the OK sign freely to indicate agreement or approval, but avoid using it in formal or older company if you want to be extra cautious.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar insult similar to the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homosexual slur or offensive gesture."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Means 'money' or 'OK' depending on context, but is generally positive."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Highly offensive gesture",
+  "confidence": "high",
+  "explanation": "In Egypt, showing the soles of your feet is considered deeply disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture is particularly offensive in social settings, where it implies contempt or disregard for others present. The cultural norm stems from Islamic and Arab traditions that emphasize cleanliness and respect for personal space.",
+  "local_tip": "Always sit with your feet flat on the floor or crossed at the ankles, and avoid pointing your foot or shoe toward anyone.",
+  "regional_note": "In more conservative or rural areas, the offense is even stronger, while in cosmopolitan Cairo among younger generations, it may be slightly less severe but still avoided.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "Considered highly insulting, as the foot is the lowest body part and the head is sacred."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing the soles of your feet at someone is disrespectful, especially in formal or traditional settings."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally seen as casual or relaxed, but can be considered rude in formal or conservative contexts."
+    }
+  ]
+}

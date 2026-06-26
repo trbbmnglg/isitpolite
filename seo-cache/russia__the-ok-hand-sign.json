@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Ambiguous, avoid in serious contexts",
+  "confidence": "medium",
+  "explanation": "In Russia, the OK hand sign is generally understood as a positive gesture meaning 'good' or 'okay,' especially among younger generations and in informal settings. However, it can be perceived as rude or vulgar by older, more conservative Russians who associate it with a crude gesture representing a body part, similar to its offensive meaning in some other cultures. The context matters greatly: it's safe among friends but risky in formal or traditional environments.",
+  "local_tip": "Use a verbal 'хорошо' (khorosho) or a thumbs-up instead to avoid any potential misunderstanding.",
+  "regional_note": "In more traditional or rural areas, especially among older generations, the gesture is more likely to be seen as offensive; in Moscow and St. Petersburg, it's widely accepted as neutral.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a highly offensive gesture, equivalent to an insult."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a vulgar reference to homosexuality."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Universally understood as 'OK' or 'good,' with no negative connotations."
+    }
+  ]
+}

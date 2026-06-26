@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Minimal PDA acceptable",
+  "confidence": "high",
+  "explanation": "In the Philippines, a conservative and predominantly Catholic country, public displays of affection (PDA) beyond holding hands or a quick peck on the cheek are generally considered impolite, especially at social gatherings where modesty and respect for elders are valued. Overt kissing, hugging, or intimate touching can be seen as disrespectful or embarrassing in mixed company. This standard applies broadly across urban and rural settings, though younger generations in cities may be slightly more relaxed.",
+  "local_tip": "Limit physical affection to brief hand-holding or a light touch on the arm, and avoid any kissing or prolonged embraces until you are in a private setting.",
+  "regional_note": "In more conservative provinces (e.g., Mindanao or rural Visayas), even hand-holding may be frowned upon in formal gatherings, while in Metro Manila, young couples might hold hands more openly.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks (la bise) and light PDA are common and socially accepted in social settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any PDA, including hand-holding between unmarried couples, is strictly prohibited and can lead to legal penalties."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is rare in public; even holding hands may be reserved for private moments, and kissing in public is considered inappropriate."
+    }
+  ]
+}

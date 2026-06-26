@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common social greeting",
+  "confidence": "high",
+  "explanation": "In Italy, cheek kissing (usually two kisses, starting with the left cheek) is a standard greeting among friends, family, and acquaintances at social gatherings. It is considered warm and friendly, though it is less common in formal business settings or with strangers. The gesture is widely accepted across most of the country, but the number of kisses can vary regionally (e.g., two in the north, sometimes three in the south).",
+  "local_tip": "When greeting, lean in for two light cheek kisses (air kisses are fine) and always start with your right cheek toward their right cheek to avoid bumping heads.",
+  "regional_note": "In the South, three kisses are sometimes given, while in the North two is standard; younger generations may also hug instead.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Cheek kissing is not customary; bowing or a handshake is preferred, and physical contact can cause discomfort."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Cheek kissing is common, but the number of kisses varies by region (often one or two) and is used among friends and acquaintances."
+    },
+    {
+      "country": "Finland",
+      "verdict": "caution",
+      "note": "Cheek kissing is rare and may feel intrusive; a firm handshake or a nod is the standard greeting, even at social gatherings."
+    }
+  ]
+}

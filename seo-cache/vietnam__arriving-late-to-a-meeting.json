@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful to be late",
+  "confidence": "high",
+  "explanation": "In Vietnamese business culture, punctuality is a sign of respect and professionalism. Arriving late to a meeting is considered rude and may imply that you do not value the other party's time or the relationship.",
+  "local_tip": "Always arrive 5–10 minutes early to show respect and preparedness, especially for meetings with senior or government officials.",
+  "regional_note": "In more rural areas or with older generations, time may be slightly more flexible, but in formal business settings punctuality is strictly observed.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "In Brazil, arriving 15–30 minutes late is often acceptable for social meetings, but for business it's safer to be on time."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "In Japan, lateness is highly disrespectful; arriving even one minute late can damage trust."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "In Saudi Arabia, meetings may start late due to flexible time perception, but foreigners should still arrive on time."
+    }
+  ]
+}

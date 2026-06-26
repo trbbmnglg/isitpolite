@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not expected",
+  "confidence": "medium",
+  "explanation": "Tipping in Saudi Arabia is not mandatory but is seen as a generous gesture, especially in upscale restaurants in major cities like Riyadh and Jeddah. Many locals and expats leave 10-15% for good service, though a service charge is sometimes included in the bill. In more traditional or conservative settings, tipping may be less common but still welcomed.",
+  "local_tip": "Check your bill for a service charge first; if none, leaving 10% in cash directly to the server is a safe and appreciated practice.",
+  "regional_note": "In rural areas or smaller, family-run eateries, tipping is less customary, while in Western-style hotels and restaurants in urban centers it is more expected.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and often expected for good service in restaurants."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service is included by law, but leaving small change (5-10%) is polite for exceptional service."
+    }
+  ]
+}

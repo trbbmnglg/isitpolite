@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid pointing with finger",
+  "confidence": "high",
+  "explanation": "In the Philippines, pointing with the index finger is considered rude and confrontational, as it is associated with accusing or scolding someone. The polite alternative is to use the lips or a gentle chin nod to indicate direction or a person. This practice is deeply rooted in Filipino values of non-confrontation and respect for others.",
+  "local_tip": "Instead of pointing, pucker your lips slightly and tilt your head in the direction you want to indicate.",
+  "regional_note": "In more urbanized or younger circles, pointing with the index finger may be tolerated among close friends, but it remains generally avoided in formal or elder interactions.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use an open hand or gesture with the chin."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or a whole hand gesture instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual contexts, though it can be seen as aggressive in formal settings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid left hand",
+  "confidence": "high",
+  "explanation": "In Indonesia, the left hand is considered unclean because it is traditionally used for personal hygiene. Using it to eat, especially in a restaurant or when sharing food, is seen as disrespectful and unhygienic. This rule applies strongly in both formal dining and everyday meals, particularly when eating with your hands.",
+  "local_tip": "Always use your right hand for eating, passing dishes, and handling food, even if you are left-handed.",
+  "regional_note": "In strongly Islamic areas like Aceh, the left-hand taboo is strictly observed; in more secular or tourist-heavy areas like Bali, some locals may be more lenient with foreigners, but it is still best to use the right hand.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Similarly, the left hand is considered unclean and reserved for bathroom use; always eat and pass items with the right hand."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Using the left hand is not inherently rude, but chopstick etiquette and hand gestures matter more; avoid passing food with chopsticks."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "The left hand is strictly avoided for eating and greeting; always use the right hand for all public interactions involving food or handshakes."
+    }
+  ]
+}

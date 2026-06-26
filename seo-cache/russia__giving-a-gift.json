@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift giving is welcome",
+  "confidence": "high",
+  "explanation": "In Russian business culture, giving a thoughtful gift is seen as a gesture of respect and goodwill, especially when building relationships. It is common to present gifts after a successful meeting or during holidays, but avoid expensive items to prevent any perception of bribery. Practical gifts like quality pens, books, or alcohol are well-received.",
+  "local_tip": "Wrap the gift nicely and present it with both hands, avoiding yellow flowers as they are associated with funerals.",
+  "regional_note": "In more conservative or older circles, gifts are expected to be opened immediately, while younger professionals may open them later.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Gift giving is highly ritualized; avoid white or brightly colored wrapping and never give four of anything."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary in formal business settings; if given, keep it modest and practical."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Avoid alcohol or pork-related items; gifts should be given with the right hand and never to a spouse directly."
+    }
+  ]
+}

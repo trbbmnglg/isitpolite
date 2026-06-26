@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not standard greeting",
+  "confidence": "high",
+  "explanation": "In Vietnam, the traditional greeting is a slight bow or a handshake, not cheek kissing. Cheek kissing is generally reserved for close friends or family, and doing it in a social gathering with acquaintances may be seen as overly familiar or awkward.",
+  "local_tip": "Instead, offer a gentle handshake with both hands or a slight nod and smile when greeting someone new at a social gathering.",
+  "regional_note": "In urban areas and among younger generations, cheek kissing among close friends is becoming more common, but it remains rare in rural settings.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, typically two to four kisses."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact is minimal; bowing is the norm, and cheek kissing is reserved for very intimate relationships or not practiced at all."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Cheek kissing is common in social greetings, often one kiss, but varies by region (e.g., two in Rio)."
+    }
+  ]
+}

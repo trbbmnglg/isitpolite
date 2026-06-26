@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not expected",
+  "confidence": "high",
+  "explanation": "In Greece, tipping at restaurants is a common and appreciated gesture, though not mandatory. Locals often leave small change (5-10% of the bill) as a sign of satisfaction, especially in tourist areas or for good service. The practice is more relaxed than in the US, but it is still considered polite to round up or leave a few euros.",
+  "local_tip": "Leave 5-10% of the bill in cash directly on the table, as tips are often not included in credit card payments.",
+  "regional_note": "On islands and in high-tourism areas, tipping is more expected and may be slightly higher (10-15%), while in rural or traditional tavernas, rounding up the bill is sufficient.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for good service, as servers rely on tips for income."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service charge is included by law, but leaving small change (5-10%) is a polite gesture for good service."
+    }
+  ]
+}

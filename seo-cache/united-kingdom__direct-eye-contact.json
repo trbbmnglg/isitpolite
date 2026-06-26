@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected in business",
+  "confidence": "high",
+  "explanation": "In UK business settings, direct eye contact signals confidence, honesty, and engagement, and is generally expected during conversations and meetings. However, it should be moderate—not staring—to avoid appearing aggressive or confrontational. This aligns with British professional norms of respectful attentiveness.",
+  "local_tip": "Maintain steady but soft eye contact when speaking or listening, and briefly look away every few seconds to keep the interaction comfortable.",
+  "regional_note": "In some parts of Scotland and Northern Ireland, especially in more traditional or rural settings, slightly less direct eye contact may be preferred to avoid seeming overbearing.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are more appropriate."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Direct eye contact between men is a sign of sincerity, but between genders it is often avoided out of modesty."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct eye contact is similarly valued as a sign of confidence and honesty, though Americans may hold it slightly longer than Britons."
+    }
+  ]
+}

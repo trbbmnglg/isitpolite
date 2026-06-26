@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate PDA acceptable",
+  "confidence": "medium",
+  "explanation": "In Greece, public displays of affection such as holding hands or a quick kiss are generally acceptable in social gatherings, but excessive or intimate PDA (e.g., prolonged kissing, groping) is considered disrespectful, especially in more conservative or family-oriented settings. Greeks are warm and expressive, but modesty and respect for the occasion are expected. Younger generations in urban areas are more relaxed, while older or rural communities may frown upon even moderate displays.",
+  "local_tip": "Keep affection subtle—hold hands or offer a brief peck on the cheek, but avoid lingering embraces or passionate kisses in mixed company.",
+  "regional_note": "In rural areas and among older generations, especially in northern Greece or on islands with strong traditional values, PDA is more restricted; in Athens and Thessaloniki, it is more accepted.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Public displays of affection are highly discouraged, even between married couples, as they are seen as private matters."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks (la bise) and light PDA are common and socially accepted in most settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public display of affection between unmarried couples is illegal and strictly taboo, with severe penalties."
+    }
+  ]
+}

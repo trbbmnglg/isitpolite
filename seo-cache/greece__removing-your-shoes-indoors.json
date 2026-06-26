@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not expected, but respected",
+  "confidence": "medium",
+  "explanation": "In Greece, removing shoes indoors is not a standard custom; most Greeks wear outdoor shoes inside. However, it is increasingly seen as a sign of respect in homes with clean floors or when visiting someone with a no-shoes policy, especially in urban or modern households.",
+  "local_tip": "Wait for the host to indicate whether to remove shoes, or politely ask 'Should I take off my shoes?' before entering.",
+  "regional_note": "In rural areas and older generations, keeping shoes on is the norm, while younger, urban Greeks may adopt the practice, especially if they have hardwood floors or rugs.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoes are always removed at the entrance; wearing outdoor shoes inside is considered unclean."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Varies by household; many keep shoes on, but some expect removal, especially in colder regions or with light-colored carpets."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "polite",
+      "note": "Shoes are typically removed at the door, and slippers are offered to guests as a sign of hospitality."
+    }
+  ]
+}

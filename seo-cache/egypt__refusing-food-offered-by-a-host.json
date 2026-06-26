@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing hospitality is offensive",
+  "confidence": "high",
+  "explanation": "In Egypt, offering food is a deeply ingrained sign of generosity and hospitality, especially when meeting family. Refusing is seen as rejecting the host's goodwill and can cause embarrassment or offense. It is customary to accept at least a small portion, even if you are not hungry, to show respect and gratitude.",
+  "local_tip": "Always accept a small amount of food or drink, and if you must decline, do so gently with a polite excuse like 'I just ate, but thank you so much' while still taking a token bite or sip.",
+  "regional_note": "In more conservative or rural areas, refusal is even more strongly discouraged; in urban or younger circles, a polite decline may be more accepted but still best avoided.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is generally polite if done with proper excuses, but accepting is still preferred to show appreciation."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food offered by a host is considered impolite and a rejection of their generosity."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food is seen as disrespectful; hosts insist multiple times, and accepting is a sign of respect."
+    }
+  ]
+}

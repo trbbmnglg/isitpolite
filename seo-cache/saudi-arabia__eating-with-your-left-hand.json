@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid left hand for eating",
+  "confidence": "high",
+  "explanation": "In Saudi Arabia, the left hand is traditionally considered unclean and is reserved for hygiene tasks. Using it to eat, especially in a restaurant or when sharing food, is seen as disrespectful and unhygienic. This custom is rooted in Islamic teachings and deeply observed across the country.",
+  "local_tip": "Always use your right hand for eating, even for picking up bread or small items, and keep your left hand under the table or resting on your lap.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Left hand is considered unclean and used for toilet purposes; eat with right hand only."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Chopsticks are used with either hand, but left-handedness is socially accepted."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "No stigma against left-handed eating; both hands are considered equally acceptable."
+    }
+  ]
+}

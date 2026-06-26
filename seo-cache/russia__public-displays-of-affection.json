@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Keep PDA minimal",
+  "confidence": "high",
+  "explanation": "In Russia, public displays of affection such as kissing or hugging are generally reserved for private settings; while holding hands or a brief peck on the cheek may be tolerated among close friends or couples, more intimate gestures in social gatherings are considered inappropriate and may draw negative attention.",
+  "local_tip": "Limit physical contact to a handshake or a light hug with acquaintances, and avoid any prolonged or romantic displays in mixed company.",
+  "regional_note": "In major cities like Moscow or St. Petersburg, younger generations are more relaxed about mild PDA, but conservative attitudes prevail in rural areas and among older generations.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "PDA is strictly forbidden in public, even between married couples, and can lead to legal penalties."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and casual PDA are widely accepted and common."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is generally avoided in public; even holding hands can be seen as immodest in formal settings."
+    }
+  ]
+}

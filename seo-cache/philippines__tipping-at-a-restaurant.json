@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not required",
+  "confidence": "high",
+  "explanation": "In the Philippines, tipping at restaurants is not mandatory but is widely appreciated as a gesture of gratitude for good service. Many locals leave spare change or 10% of the bill, especially in mid-range to upscale establishments, while fast-food and budget eateries typically do not expect tips.",
+  "local_tip": "Leave 10% of the bill or simply round up the amount as a tip, and hand it directly to the server if possible.",
+  "regional_note": "In tourist-heavy areas like Boracay or Cebu, tipping is more common and sometimes expected, while in rural provinces it is rare and may even be refused.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as service is already included and staff may refuse the money."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for sit-down restaurant service."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service charge is included by law, but leaving small change is a polite gesture."
+    }
+  ]
+}

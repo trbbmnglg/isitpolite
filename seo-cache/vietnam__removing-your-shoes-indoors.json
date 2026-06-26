@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected in homes",
+  "confidence": "high",
+  "explanation": "In Vietnam, removing shoes before entering someone's home is a deeply ingrained custom to keep living spaces clean and show respect, as outdoor footwear is considered dirty. This practice is nearly universal in private residences, though less common in public buildings or shops.",
+  "local_tip": "Always remove your shoes at the entrance if you see a pile of shoes or a shoe rack, and never step onto the tiled or wooden floor with outdoor shoes.",
+  "regional_note": "In rural areas or traditional homes, the rule may be even stricter, while in modern urban apartments some younger families may be more relaxed, but it's safest to always remove them.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoe removal is mandatory in homes, many traditional inns, and some restaurants; indoor slippers are often provided."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and temples, but not typically in shops or offices."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is optional and varies by household; it's polite to ask or follow the host's lead."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, avoid slurping",
+  "confidence": "high",
+  "explanation": "In South Korea, slurping noodles is generally considered impolite and noisy, as Korean dining culture emphasizes quiet, respectful eating. Unlike in Japan or China, where slurping can signal enjoyment, in Korea it is seen as lacking table manners. Exceptions exist for very hot soups where a slight sip is tolerated, but deliberate slurping of noodles is discouraged.",
+  "local_tip": "To show respect, eat noodles quietly by using your spoon or chopsticks to lift and cool them before taking a silent bite.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is considered polite and a compliment to the chef, showing you are enjoying the meal."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping noodles is generally acceptable and can indicate appreciation, though it varies by region."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping any pasta is considered very rude and a sign of poor table manners."
+    }
+  ]
+}

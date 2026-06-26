@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Ambiguous, avoid in public",
+  "confidence": "medium",
+  "explanation": "In Saudi Arabia, the OK hand sign is not inherently offensive but can be misinterpreted due to its association with Western gestures or, in some contexts, linked to the 'evil eye' or negative connotations. It is generally understood as 'okay' among younger, globally exposed Saudis, but older or more conservative individuals may view it with suspicion or as a sign of disrespect. To be safe, avoid using it in formal or traditional settings.",
+  "local_tip": "Use a thumbs-up or a verbal 'tamam' (fine) instead to convey agreement clearly.",
+  "regional_note": "In the Eastern Province, where expatriate influence is stronger, the sign is more accepted, while in rural Najd or conservative areas, it is less common and may cause confusion.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a highly offensive gesture, equivalent to an obscene insult."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly used to mean 'money' or 'OK', but context matters."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Generally means 'zero' or 'worthless', but not offensive in everyday use."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use with care",
+  "confidence": "medium",
+  "explanation": "In Egypt, the thumbs-up gesture generally conveys approval or agreement, similar to many Western cultures, but it can be interpreted as offensive if done with a jerking motion or in a confrontational context. It is widely used in everyday interactions, though older or more conservative individuals may view it as too informal or even vulgar in certain settings. The gesture is generally safe among younger, urban populations but should be avoided in formal or religious contexts.",
+  "local_tip": "Use a verbal affirmation like 'tayyib' (okay) or a nod instead of the thumbs-up when in doubt, especially with elders or in conservative settings.",
+  "regional_note": "In rural Upper Egypt and among older generations, the thumbs-up may be seen as less polite or even rude; younger Cairenes use it freely.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "The thumbs-up is considered an obscene insult, equivalent to the middle finger."
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "The thumbs-up is an offensive gesture, especially when thrust upward."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "The thumbs-up is a positive sign meaning 'good' or 'OK', though less common than in the West."
+    }
+  ]
+}

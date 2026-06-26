@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use with discretion",
+  "confidence": "medium",
+  "explanation": "In Greece, pointing with the index finger is generally considered impolite or aggressive, especially in formal or traditional settings, as it can be seen as a confrontational gesture. Greeks often prefer to point with their whole hand or a nod of the head to indicate direction or a person. This caution is rooted in cultural norms that value indirectness and respect for personal space in everyday interactions.",
+  "local_tip": "Instead of pointing, gesture with an open hand or tilt your head in the intended direction to avoid giving offense.",
+  "regional_note": "In more cosmopolitan areas like Athens, younger generations may be more tolerant of index finger pointing, but it remains risky in rural or older circles.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered very rude; use an open hand or a gentle nod instead."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is taboo, especially with the left hand; use the thumb or an open palm."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Index finger pointing is common and generally acceptable in casual contexts, though it can be seen as blunt in formal settings."
+    }
+  ]
+}

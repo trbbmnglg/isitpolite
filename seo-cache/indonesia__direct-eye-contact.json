@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate eye contact",
+  "confidence": "medium",
+  "explanation": "In Indonesian business culture, direct eye contact is generally acceptable but should be softened, especially when interacting with elders or superiors, as prolonged or intense staring can be perceived as aggressive or disrespectful. Maintaining brief, respectful eye contact while occasionally looking down signals deference and humility, which are highly valued in the hierarchical and collectivist workplace.",
+  "local_tip": "When speaking with a senior colleague or client, hold eye contact for a few seconds then glance down briefly before re-establishing contact to show respect.",
+  "regional_note": "In more traditional or religiously conservative areas (e.g., Aceh), avoiding direct eye contact with the opposite gender is expected; younger urban professionals may be more comfortable with sustained eye contact.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is considered confrontational; brief glances or looking at the necktie area is polite."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct, steady eye contact signals confidence and honesty in business settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Eye contact between men is expected, but between genders it should be minimal and brief to avoid impropriety."
+    }
+  ]
+}

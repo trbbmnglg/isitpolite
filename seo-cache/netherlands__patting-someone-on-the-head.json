@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally reserved for children",
+  "confidence": "medium",
+  "explanation": "In the Netherlands, patting someone on the head is typically seen as a gesture reserved for children or very close relationships, and doing so to an adult in a social gathering can be perceived as patronizing or overly familiar. Dutch culture values personal space and egalitarianism, so unsolicited physical contact to the head may cause discomfort. This is especially true in formal or mixed-company settings.",
+  "local_tip": "If you want to show friendliness, offer a handshake or a brief touch on the shoulder instead.",
+  "regional_note": "In more rural or traditional areas, physical boundaries may be stricter, while in urban or younger circles, casual head pats among close friends might be tolerated but still uncommon.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred body part; touching it is highly offensive."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting an adult on the head can be seen as condescending, though it's acceptable for children."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Generally reserved for children or intimate partners; patting an adult's head may be seen as patronizing."
+    }
+  ]
+}

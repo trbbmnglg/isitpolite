@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite gesture",
+  "confidence": "high",
+  "explanation": "In Russia, pointing with the index finger is considered rude and aggressive, especially when directed at a person. It is associated with accusatory or commanding behavior, and polite Russians prefer to gesture with an open hand or nod their head to indicate a direction or person.",
+  "local_tip": "Instead of pointing, use your whole hand with palm facing up or simply tilt your head in the desired direction.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is very rude; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual settings."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use the thumb or a closed fist with thumb extended."
+    }
+  ]
+}

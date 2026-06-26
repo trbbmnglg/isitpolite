@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected in business",
+  "confidence": "high",
+  "explanation": "In Spanish business culture, direct eye contact signals confidence, sincerity, and engagement. It is considered a sign of respect and trustworthiness, especially during negotiations or meetings.",
+  "local_tip": "Maintain steady but not aggressive eye contact, and avoid prolonged staring as it may be perceived as a challenge.",
+  "regional_note": "In the Basque Country and Catalonia, direct eye contact is similarly valued, though some older generations may find very intense eye contact slightly confrontational.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact is often seen as intimidating or disrespectful; brief glances or looking at the necktie area is more polite."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Direct eye contact with elders or superiors can be considered disrespectful or a sign of defiance, especially in traditional settings."
+    },
+    {
+      "country": "Finland",
+      "verdict": "polite",
+      "note": "Direct eye contact is expected and valued in business, reflecting honesty and directness, similar to Spain."
+    }
+  ]
+}

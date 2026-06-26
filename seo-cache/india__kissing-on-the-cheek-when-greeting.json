@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not customary, avoid",
+  "confidence": "high",
+  "explanation": "In India, cheek kissing as a greeting is not a traditional custom and is generally reserved for close family or very intimate friends in urban, Westernized circles. At a social gathering, it can be perceived as overly familiar or inappropriate, especially across genders or with elders, where the traditional namaste (palms pressed together) or a simple handshake is preferred.",
+  "local_tip": "Use a namaste with a slight bow or a handshake for same-gender greetings, and always wait for the other person to initiate any physical contact.",
+  "regional_note": "In metropolitan areas like Mumbai or Delhi among younger, Westernized crowds, a single cheek kiss may be accepted between close friends, but it remains rare and context-dependent.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "La bise (cheek kissing) is a standard greeting among friends and acquaintances, typically two to four kisses starting on the right cheek."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact in greetings is avoided; bowing is the norm, and cheek kissing would be seen as invasive and inappropriate."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Cheek kissing is common in social greetings, usually one kiss on the right cheek, even among people meeting for the first time in informal settings."
+    }
+  ]
+}

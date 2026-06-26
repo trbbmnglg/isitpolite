@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Slurping shows appreciation",
+  "confidence": "high",
+  "explanation": "In Japan, slurping noodles (especially ramen, soba, or udon) is considered a compliment to the chef, as it indicates you are enjoying the meal and enhances the flavor by aerating the broth. It is also practical for eating hot noodles quickly. This custom is widely accepted and even encouraged in casual to mid-range dining settings.",
+  "local_tip": "Slurp audibly but not aggressively, and avoid dripping broth on your clothes or the table.",
+  "regional_note": "In very formal kaiseki or high-end ryotei settings, slurping may be less common, but it remains acceptable for noodle dishes.",
+  "also_check": [
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Slurping noodles is generally acceptable in casual settings, but in formal dining it may be seen as noisy or impolite."
+    },
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Slurping is typically considered bad table manners and associated with lack of self-control."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is strongly frowned upon; it is seen as uncivilized and disrespectful to the food."
+    }
+  ]
+}

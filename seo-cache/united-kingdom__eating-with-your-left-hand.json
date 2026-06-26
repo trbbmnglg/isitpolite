@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "No left-hand stigma",
+  "confidence": "high",
+  "explanation": "In the United Kingdom, there is no cultural taboo against eating with the left hand. British dining etiquette focuses on using utensils properly, with the fork held in the left hand and knife in the right while cutting, then switching the fork to the right hand to eat (the 'zigzag' method), but the hand itself carries no stigma.",
+  "local_tip": "Hold your fork in your left hand and knife in your right when cutting, then either switch the fork to your right hand to eat or keep it in your left—both are acceptable in modern UK dining.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "The left hand is considered unclean for eating; always use the right hand for handling food."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Eating with the left hand is strongly discouraged; the right hand is used for all eating and greeting."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "No hand preference for eating; chopsticks are used, and left-handedness is accepted without stigma."
+    }
+  ]
+}

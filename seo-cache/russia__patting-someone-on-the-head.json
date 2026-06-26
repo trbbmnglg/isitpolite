@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head patting",
+  "confidence": "high",
+  "explanation": "In Russia, patting someone on the head is considered patronizing and disrespectful, as the head is viewed as a sacred part of the body. This gesture is typically reserved for small children or pets, and doing it to an adult can be seen as an insult to their dignity.",
+  "local_tip": "Instead of touching the head, offer a firm handshake or a nod to show respect in social gatherings.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred part of the body in Thai culture, and touching it is a major taboo."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "While patting a child's head may be acceptable, touching an adult's head is generally avoided due to spiritual beliefs about the head being sacred."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Patting someone on the head can be seen as condescending or overly familiar, though it may be acceptable among close friends or in playful contexts."
+    }
+  ]
+}

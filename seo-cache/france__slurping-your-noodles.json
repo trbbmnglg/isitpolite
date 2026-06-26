@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In France, slurping noodles is considered impolite because it violates the cultural norm of eating quietly and with restraint. French dining etiquette emphasizes savoring food without drawing attention to the act of eating, and loud noises like slurping are seen as uncouth. This applies across most dining settings, from casual bistros to formal restaurants.",
+  "local_tip": "To enjoy noodles politely in France, twirl them discreetly around your fork and eat them silently, avoiding any audible suction.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of appreciation and enjoyment, and it helps cool the noodles."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is often acceptable as it shows you are enjoying the meal, though it can vary by region."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very rude; pasta should be eaten quietly and with a fork."
+    }
+  ]
+}

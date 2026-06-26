@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In Indonesia, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'good,' 'fine,' or 'okay,' similar to its use in many other cultures. It is commonly used in everyday conversation and is not considered offensive or vulgar in mainstream Indonesian society. However, it is always wise to use it with a friendly demeanor to avoid any potential misinterpretation.",
+  "local_tip": "Use the OK sign casually among friends or in informal settings to indicate agreement or that something is good, but avoid pointing it directly at someone's face as a general politeness measure.",
+  "regional_note": "In more conservative or religious areas (e.g., Aceh), hand gestures may be viewed with more caution, but the OK sign itself remains neutral.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered an obscene gesture, similar to the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a vulgar insult implying homosexuality."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Can mean 'zero' or 'worthless' and may be seen as derogatory in some contexts."
+    }
+  ]
+}

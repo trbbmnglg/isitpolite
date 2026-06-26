@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Mexico, the thumbs-up gesture is widely understood as a positive sign meaning 'okay,' 'good,' or 'agreement,' and is commonly used in everyday interactions without negative connotations. It is considered polite and friendly, especially among younger generations and in urban areas.",
+  "local_tip": "Use a thumbs-up to express approval or agreement in casual settings, but avoid overusing it in formal or very traditional contexts where a verbal response may be more appropriate.",
+  "regional_note": "In some rural or indigenous communities, older generations may prefer verbal affirmations, but the gesture is still not offensive.",
+  "also_check": [
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Thumbs up is considered an obscene insult, equivalent to 'up yours.'"
+    },
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "When thrust forward, it is a highly offensive insult meaning 'go to hell.'"
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "Thumbs up is seen as a rude, dismissive gesture in some regions."
+    }
+  ]
+}

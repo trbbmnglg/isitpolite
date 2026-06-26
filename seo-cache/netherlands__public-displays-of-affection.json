@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Subtle affection is fine",
+  "confidence": "medium",
+  "explanation": "In the Netherlands, public displays of affection such as hand-holding or a quick kiss are generally acceptable in social gatherings, but more intimate or prolonged gestures can make locals uncomfortable due to the Dutch value of personal space and modesty. The culture is pragmatic and reserved, so overt romantic displays are often seen as unnecessary or attention-seeking.",
+  "local_tip": "Keep physical affection brief and low-key—a light hug or a peck on the cheek is fine, but avoid passionate kissing or prolonged embraces in group settings.",
+  "regional_note": "In more conservative rural areas or among older generations, even mild PDA may be frowned upon, while in cosmopolitan cities like Amsterdam it is more relaxed.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "Public displays of affection, even hand-holding, are illegal and can lead to fines or arrest."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks as a greeting and casual PDA are widely accepted and common."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Public displays of affection are rare and considered impolite; even hand-holding is discreet."
+    }
+  ]
+}

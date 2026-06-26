@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift giving is polite",
+  "confidence": "high",
+  "explanation": "In Vietnamese business culture, gift-giving is a common and polite gesture that strengthens relationships and shows respect, especially during first meetings or holidays like Tết. Gifts should be modest, wrapped in auspicious colors like red or gold, and presented with both hands. Avoid sharp objects or items associated with bad luck, such as clocks or handkerchiefs.",
+  "local_tip": "Always wrap gifts in red or gold paper and present them with both hands while offering a slight bow.",
+  "regional_note": "In the northern regions, gifts are often more formal and traditional, while in the south, the approach may be slightly more relaxed, but still respectful.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid giving four of anything (death association) and use both hands."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Gifts should not contain alcohol or pork; avoid giving anything too personal, and always use the right hand."
+    }
+  ]
+}

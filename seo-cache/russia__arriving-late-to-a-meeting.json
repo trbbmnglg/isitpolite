@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality is expected",
+  "confidence": "high",
+  "explanation": "In Russian business culture, punctuality is a sign of respect and professionalism. Arriving late to a meeting is generally considered rude and may be interpreted as a lack of seriousness or disrespect for others' time. While a few minutes' delay might be tolerated with a sincere apology, habitual lateness can damage business relationships.",
+  "local_tip": "Always arrive on time or 5 minutes early for business meetings in Russia, and if you anticipate a delay, call or message ahead to inform your counterpart.",
+  "regional_note": "In more remote or less formal regions, such as parts of Siberia, punctuality may be slightly more relaxed, but in major business hubs like Moscow and St. Petersburg, strict punctuality is the norm.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "In Brazil, arriving 10-15 minutes late is often acceptable for business meetings, especially in less formal settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "In Japan, arriving even one minute late is considered disrespectful; punctuality is paramount."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "In Saudi Arabia, business meetings may start later than scheduled, but foreigners are still expected to arrive on time."
+    }
+  ]
+}

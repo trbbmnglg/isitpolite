@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid pointing with finger",
+  "confidence": "high",
+  "explanation": "In Indonesia, pointing with the index finger is considered impolite and aggressive, especially when directed at a person. The culturally appropriate way to indicate something or someone is to use the thumb (with the other fingers curled) or gesture with the whole hand, palm facing down. This practice stems from traditional Javanese and broader Indonesian values of indirectness and respect for personal space.",
+  "local_tip": "Use your right thumb to point at objects or people, or gesture with an open hand, palm down, to avoid causing offense.",
+  "regional_note": "In more urban or younger circles, especially in Jakarta, some people may be more tolerant of index finger pointing, but it remains safer to avoid it across the country.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered rude; use an open hand or a gentle nod instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual contexts, though it can be seen as blunt in formal settings."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use your chin or an open hand to indicate direction."
+    }
+  ]
+}

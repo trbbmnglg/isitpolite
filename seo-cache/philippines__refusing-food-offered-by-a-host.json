@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing hospitality is offensive",
+  "confidence": "high",
+  "explanation": "In the Philippines, offering food is a core expression of hospitality and family bonding. Refusing it, especially during a first meeting, can be seen as rejecting the host's generosity and goodwill, potentially causing shame or offense.",
+  "local_tip": "Always accept at least a small portion or take a symbolic bite, and if you must refuse due to dietary restrictions, politely explain with a smile and offer profuse thanks.",
+  "regional_note": "In more urban or Westernized families, a polite refusal may be accepted, but in traditional or provincial settings, it remains strongly discouraged.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is acceptable if done with polite excuses, but hosts may insist multiple times; it's better to accept a small amount."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host, especially in Southern Italy, is considered an insult to their generosity and cooking."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food, particularly in a Hindu home, can offend the host's sense of hospitality and religious offering (prasad)."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Left hand is unclean",
+  "confidence": "high",
+  "explanation": "In Egypt, the left hand is traditionally considered unclean because it is used for personal hygiene, so eating with it is highly impolite, especially in formal or religious contexts. This custom is rooted in Islamic teachings and is widely observed across the country, even among non-Muslims in mixed settings. Using the right hand for eating is the expected norm in restaurants and homes alike.",
+  "local_tip": "Always use your right hand to eat, and if you are left-handed, still make an effort to use your right hand for food to avoid causing offense.",
+  "regional_note": "In more cosmopolitan areas like Cairo or Alexandria, younger generations or those in international settings may be more lenient, but the rule remains strong in traditional and rural areas.",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Similarly, the left hand is considered unclean for eating, and the right hand is used for all dining."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Left-handed eating is generally acceptable, though chopstick etiquette is more important; no stigma against the left hand."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "No cultural taboo against the left hand; left-handedness is fully accepted in dining."
+    }
+  ]
+}

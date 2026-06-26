@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid in public",
+  "confidence": "high",
+  "explanation": "In Indonesia, public displays of affection such as kissing or prolonged hugging are considered impolite, especially in social gatherings where conservative norms prevail. The country is predominantly Muslim, and modesty in public behavior is highly valued. Even holding hands may be acceptable among married couples, but anything more intimate is likely to draw disapproval.",
+  "local_tip": "At a social gathering, limit physical contact to a polite handshake or a nod, and avoid any romantic gestures until you are in a private setting.",
+  "regional_note": "In more liberal areas like Bali or Jakarta's expat circles, brief displays may be tolerated, but in conservative regions such as Aceh or rural areas, even hand-holding between unmarried couples can be seen as offensive.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and casual PDA are common and socially accepted."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public display of affection between unrelated men and women is strictly forbidden and can lead to legal penalties."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is generally avoided in public; even holding hands may be reserved for private moments."
+    }
+  ]
+}

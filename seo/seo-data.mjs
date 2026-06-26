@@ -20,11 +20,17 @@ export const GESTURES = [
   { display: 'Arriving late to a meeting',     short: 'Arriving late',               context: 'business' },
   { display: 'Refusing food offered by a host',short: 'Refusing offered food',       context: 'family'   },
   { display: 'The OK hand sign',               short: 'The OK hand sign',            context: 'general'  },
+  { display: 'Slurping your noodles',          short: 'Slurping noodles',            context: 'dining'   },
+  { display: 'Kissing on the cheek when greeting', short: 'Cheek-kiss greeting',     context: 'social'   },
+  { display: 'Beckoning someone with your finger', short: 'Beckoning with a finger', context: 'general'  },
+  { display: 'Giving a gift',                  short: 'Giving a gift',               context: 'business' },
 ];
 
 export const COUNTRIES = [
   'Japan', 'China', 'Thailand', 'India', 'South Korea', 'France',
   'Germany', 'Italy', 'United Arab Emirates', 'Turkey', 'Brazil', 'United States',
+  'United Kingdom', 'Spain', 'Mexico', 'Russia', 'Indonesia', 'Vietnam',
+  'Philippines', 'Egypt', 'Saudi Arabia', 'Greece', 'Netherlands', 'Singapore',
 ];
 
 export const CONTEXT_LABELS = {

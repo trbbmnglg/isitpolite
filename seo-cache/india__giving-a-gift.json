@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally appreciated with care",
+  "confidence": "medium",
+  "explanation": "In Indian business culture, gift-giving is polite and common, especially during festivals like Diwali or after closing a deal, but it must be modest and not seen as a bribe. Avoid leather items if the recipient is Hindu, and avoid alcohol if they are Muslim or Jain, as religious sensitivities vary. Gifts are often not opened in front of the giver to avoid embarrassment or perceived obligation.",
+  "local_tip": "Wrap gifts in red, green, or yellow paper (auspicious colors) and avoid white or black, which are associated with mourning.",
+  "regional_note": "In South India, gifts are often given with the right hand only, and in Muslim-majority areas like Hyderabad, avoid any pork-related or alcohol gifts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid white wrapping and always use both hands."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary in business; if given, keep it small and practical."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Avoid alcohol, pork, and any gift that could imply a bribe; gifts are not expected in initial meetings."
+    }
+  ]
+}

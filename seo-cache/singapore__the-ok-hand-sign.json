@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In Singapore, the OK hand sign is widely understood as a positive gesture meaning 'good' or 'okay,' influenced by Western media and English usage. It is commonly used in everyday interactions without negative connotations. However, it is not deeply rooted in local culture and may be seen as informal or casual.",
+  "local_tip": "Use the OK sign in casual settings like hawker centers or with friends, but avoid it in formal business meetings where a verbal confirmation is preferred.",
+  "regional_note": "Among older generations or in more traditional Chinese contexts, the gesture is neutral but less common; no significant regional variation exists.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered an offensive gesture equivalent to a vulgar insult."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homophobic insult."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly used to mean 'OK' or 'money,' but context matters."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Moderate PDA acceptable",
+  "confidence": "medium",
+  "explanation": "In Mexico, light public displays of affection such as hand-holding or brief hugs are generally acceptable in social gatherings, but passionate kissing or prolonged intimate contact is considered impolite, especially in more traditional or conservative settings. The culture values warmth and friendliness, but overt romantic displays can make others uncomfortable and are best reserved for private moments.",
+  "local_tip": "Keep affection to brief hand-holding or a quick hug; save intense displays for private settings to avoid offending older or more conservative attendees.",
+  "regional_note": "In northern Mexico and urban areas like Mexico City, PDA is more accepted among younger generations, while in rural or deeply Catholic communities, even moderate PDA may be frowned upon.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Public displays of affection are very rare and considered inappropriate in most social settings."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheeks as a greeting and light PDA are common and socially accepted."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public displays of affection between unrelated men and women are illegal and severely punished."
+    }
+  ]
+}

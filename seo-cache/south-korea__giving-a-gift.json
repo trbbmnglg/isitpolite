@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift giving expected",
+  "confidence": "high",
+  "explanation": "In South Korean business culture, giving a gift is a polite and often expected gesture, especially during first meetings or holidays like Chuseok and Seollal. It demonstrates respect and helps build relationships (cheonmyeon), but the gift must be presented with both hands and received similarly to avoid offense.",
+  "local_tip": "Always wrap the gift in a neutral color (avoid red or green) and present it with both hands, saying a modest phrase like 'This is a small token of appreciation.'",
+  "regional_note": "In more traditional or hierarchical companies, the gift-giving ritual is stricter; younger generations in startups may be more casual.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid giving in sets of four (unlucky) and use modest wrapping."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Gifts are appreciated but avoid clocks, umbrellas, or sharp objects as they symbolize bad luck or severing relationships."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Business gifts are often seen as potential bribery; keep gifts small and practical, and avoid excessive value."
+    }
+  ]
+}

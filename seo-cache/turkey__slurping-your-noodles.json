@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, but tolerated",
+  "confidence": "medium",
+  "explanation": "In Turkey, slurping noodles is considered impolite because it violates the cultural norm of eating quietly and with restraint. Loud eating sounds, including slurping, are associated with a lack of table manners and respect for fellow diners. However, in casual or street-food settings, especially with younger generations, it may be overlooked.",
+  "local_tip": "To be safe, eat noodles silently by twirling them around your fork or spoon, and avoid making audible sucking noises.",
+  "regional_note": "In more traditional or conservative households, especially in rural areas, slurping is strongly frowned upon, while in cosmopolitan Istanbul among younger crowds it may be more tolerated.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is common and shows you are savoring the food, though it varies by region."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very bad manners and a sign of poor upbringing."
+    }
+  ]
+}

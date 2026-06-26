@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Minimal PDA expected",
+  "confidence": "high",
+  "explanation": "In Vietnam, public displays of affection such as hugging or kissing are generally considered impolite in social gatherings, as traditional values emphasize modesty and restraint. Holding hands is sometimes acceptable among young couples in urban areas, but overt affection can cause discomfort or be seen as disrespectful, especially in the presence of elders or in formal settings.",
+  "local_tip": "Avoid any physical affection beyond a brief handshake or a friendly nod; save intimate gestures for private settings.",
+  "regional_note": "In major cities like Ho Chi Minh City or Hanoi, younger generations are more relaxed, but rural areas and older generations still strongly discourage public affection.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on the cheek as a greeting and moderate PDA are common and socially accepted."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public affection between unrelated men and women is strictly forbidden and can lead to legal consequences."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Public displays of affection are rare; even holding hands may be considered too intimate in many contexts."
+    }
+  ]
+}

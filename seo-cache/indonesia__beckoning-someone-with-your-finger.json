@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Considered disrespectful",
+  "confidence": "high",
+  "explanation": "In Indonesia, beckoning someone with a single finger is considered rude and associated with calling animals or showing disrespect. The culturally appropriate way to summon someone is to use the whole hand with a gentle downward motion of the fingers. This gesture is widely understood across the archipelago, especially in everyday interactions.",
+  "local_tip": "Instead, extend your arm with the palm facing down and curl all four fingers inward repeatedly to beckon someone politely.",
+  "regional_note": "In more traditional or rural areas, the offense may be stronger, while younger urban Indonesians might be slightly more tolerant but still perceive it as impolite.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered very rude and is used only for animals; use the whole hand with palm down."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is extremely offensive and can be punishable by law in some contexts; use a hand gesture with palm down."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Beckoning with a finger is common and generally acceptable in casual settings, though it can be seen as slightly aggressive in formal contexts."
+    }
+  ]
+}

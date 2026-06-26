@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In Vietnam, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'good' or 'okay,' similar to its meaning in many Western cultures. It is commonly used in everyday interactions, especially among younger generations and in urban areas, without negative connotations. However, it is not as deeply embedded in local culture as in some other countries, so its use is generally safe but not overly common in formal settings.",
+  "local_tip": "Use the OK sign casually with friends or in informal contexts to indicate agreement or that something is fine, but avoid it in very formal or traditional situations where a verbal response is more appropriate.",
+  "regional_note": "In rural or older generations, the gesture may be less recognized, but it is still not considered offensive.",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered a vulgar and offensive gesture, similar to the middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a homosexual slur or an insult."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly means 'OK' or 'money,' but can also be used to represent a coin in some contexts."
+    }
+  ]
+}

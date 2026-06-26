@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality is expected",
+  "confidence": "high",
+  "explanation": "In Singapore's business culture, punctuality is a sign of respect and professionalism. Arriving late to a meeting is generally considered rude and can damage your credibility, as Singaporeans value efficiency and time management. This standard applies across most industries, though a few minutes' grace may be given for unforeseen circumstances if communicated in advance.",
+  "local_tip": "Always aim to arrive 5–10 minutes early for a meeting, and if you are delayed, notify the host immediately via message or call.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "In Brazil, arriving 15–30 minutes late to a business meeting is often tolerated, especially in more relaxed settings, but it's safer to be punctual for first meetings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Japan has an even stricter punctuality norm; arriving even one minute late can be seen as disrespectful and may require a formal apology."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "In Saudi Arabia, business meetings may start later than scheduled due to flexible time perceptions, but it's still respectful to arrive on time and wait patiently."
+    }
+  ]
+}

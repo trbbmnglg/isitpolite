@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing is disrespectful",
+  "confidence": "high",
+  "explanation": "In Russian culture, especially when meeting family, offering food is a deep expression of hospitality and care. Refusing can be seen as rejecting the host's generosity and may offend them, as it implies distrust or lack of appreciation for their effort.",
+  "local_tip": "Always accept at least a small portion and compliment the food, even if you are not hungry.",
+  "regional_note": "In more urban and younger generations, a polite refusal with a clear reason (e.g., dietary restriction) may be accepted, but it is still safer to accept.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is generally polite if done with proper excuses, but accepting is still appreciated."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host, especially in a family setting, is often seen as an insult to their cooking and hospitality."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food is considered impolite and may hurt the host's feelings; it's better to accept and eat a little."
+    }
+  ]
+}

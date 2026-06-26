@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common among same gender",
+  "confidence": "medium",
+  "explanation": "In Egypt, cheek kissing is a standard greeting among friends and family of the same gender, typically starting with the left cheek. However, between opposite genders in public, it is less common and may be considered inappropriate unless the individuals are closely related or in very liberal circles.",
+  "local_tip": "When greeting an Egyptian of the same gender at a social gathering, offer a light kiss on each cheek (starting left) if you know them well, but wait for them to initiate first.",
+  "regional_note": "In more conservative or rural areas, same-gender cheek kissing is still common, but opposite-gender kissing in public is rare and may be frowned upon; among younger, urban, and more secular Egyptians, opposite-gender cheek kissing is increasingly accepted.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Cheek kissing is not a traditional greeting and may be seen as an invasion of personal space; bowing is preferred."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Cheek kissing is common among same gender, but strictly avoided between unrelated men and women in public."
+    }
+  ]
+}

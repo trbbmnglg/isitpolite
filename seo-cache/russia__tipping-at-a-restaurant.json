@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not mandatory",
+  "confidence": "high",
+  "explanation": "In Russia, tipping at restaurants is considered polite and a sign of appreciation for good service, though it is not obligatory. The practice has become common in urban areas and upscale establishments, with 10% being the standard amount. However, many locals still tip only when they feel the service was exceptional.",
+  "local_tip": "Leave 10% in cash directly on the table or hand it to the server, as some restaurants may not include it on the card payment.",
+  "regional_note": "In Moscow and Saint Petersburg, tipping is more expected, while in smaller towns or rural areas, it is less common and may be met with surprise.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as good service is expected without extra payment."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is mandatory and socially expected for sit-down service."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Service charge is included, but leaving small change is polite; overtipping can be seen as gauche."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally positive gesture",
+  "confidence": "high",
+  "explanation": "In Spain, the thumbs-up gesture is widely understood as a positive sign meaning 'okay', 'good', or 'well done'. It is commonly used in everyday interactions, including among friends, colleagues, and even in casual service settings, without causing offense.",
+  "local_tip": "Use the thumbs-up to show approval or agreement in casual conversations, but avoid using it in very formal or solemn situations where a verbal response is more appropriate.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Greece",
+      "verdict": "rude",
+      "note": "In Greece, the thumbs-up is considered an offensive insult, similar to showing the middle finger."
+    },
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "In Iran, the thumbs-up is a vulgar insult, equivalent to 'up yours'."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "rude",
+      "note": "In parts of Nigeria, the thumbs-up can be interpreted as a rude or dismissive gesture."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally welcome but modest",
+  "confidence": "medium",
+  "explanation": "In Spanish business culture, gift-giving is polite but should be modest and not overly expensive to avoid appearing as a bribe. A small, thoughtful gift like a quality pen, a book, or regional food/drink is appreciated, especially after a successful meeting or deal. Gifts are typically opened in private, not in front of colleagues.",
+  "local_tip": "If invited to a Spanish colleague's home, bring a bottle of good wine, chocolates, or flowers (avoid dahlias and chrysanthemums, which are associated with funerals).",
+  "regional_note": "In Catalonia and the Basque Country, business gift-giving is slightly more reserved; a simple, high-quality item is preferred over anything flashy.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; wrapping and presentation are critical, and gifts are exchanged with both hands and a bow."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts in business are often seen as unnecessary or even inappropriate; if given, keep it small and practical, like a book or desk accessory."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Gifts are common but must respect Islamic customs—avoid alcohol, pork products, and items with religious symbolism; use the right hand only."
+    }
+  ]
+}

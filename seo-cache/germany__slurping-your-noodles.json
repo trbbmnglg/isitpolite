@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid loud slurping",
+  "confidence": "high",
+  "explanation": "In Germany, dining etiquette emphasizes quiet and controlled eating; loud slurping of noodles is considered impolite and a sign of poor manners. Unlike in some East Asian cultures where slurping signals appreciation, in Germany it disrupts the meal's decorum and may draw disapproving looks.",
+  "local_tip": "If you must eat noodles, twirl them quietly on your fork and take small, silent bites.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a compliment to the chef and enhances flavor."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is common and shows enjoyment, especially with noodles."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and uncivilized."
+    }
+  ]
+}

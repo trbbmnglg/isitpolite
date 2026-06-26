@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Respectful and expected",
+  "confidence": "high",
+  "explanation": "In the Philippines, removing shoes before entering a home is a common sign of respect and cleanliness, deeply rooted in Filipino hospitality. It is especially expected in homes with polished floors or where the family traditionally practices this custom, though some urban households may allow shoes in certain areas.",
+  "local_tip": "Always look for a pile of shoes at the entrance or ask the host 'Sapatos po ba?' (Should I remove my shoes?) to be safe.",
+  "regional_note": "In rural areas and traditional homes, removing shoes is nearly universal; in modern condos or apartments in Metro Manila, some hosts may permit indoor shoes, but it's still polite to offer.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Removing shoes is mandatory before entering any home, with specific slippers for different rooms."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal varies widely by household and region; it's best to ask or observe the host's practice."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and many temples, but not typically in shops or offices."
+    }
+  ]
+}

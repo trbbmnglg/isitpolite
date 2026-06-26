@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Shows appreciation for food",
+  "confidence": "high",
+  "explanation": "In China, slurping noodles is generally considered a compliment to the chef, indicating that you are enjoying the meal. It also helps cool down hot noodles and enhances the flavor through aeration, which is culturally accepted in casual dining settings.",
+  "local_tip": "Slurp audibly but avoid excessive mess or splashing to show proper enjoyment without being disruptive.",
+  "regional_note": "In more formal or high-end restaurants, especially in international contexts, slurping may be seen as less appropriate; younger generations in urban areas may also adopt quieter eating habits.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is highly encouraged as a sign of enjoyment and to enhance flavor."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+    },
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Slurping noodles is generally seen as noisy and disrespectful in most dining settings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid slurping noodles",
+  "confidence": "high",
+  "explanation": "In Saudi Arabia, slurping noodles is considered impolite and disruptive, as it violates the cultural norm of eating quietly and with restraint. Dining etiquette emphasizes modesty and respect for others, especially in shared or public settings. Loud eating sounds are generally frowned upon across the kingdom.",
+  "local_tip": "Eat noodles silently by using a spoon and fork, or twirling them discreetly without making noise.",
+  "regional_note": "In more cosmopolitan cities like Jeddah or Riyadh, younger Saudis may be more tolerant of foreign habits, but traditional etiquette still strongly discourages slurping.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a compliment to the chef and enhances flavor, considered good manners."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping is often acceptable and shows enjoyment, though it varies by region and formality."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+    }
+  ]
+}

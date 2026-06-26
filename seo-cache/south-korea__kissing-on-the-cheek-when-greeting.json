@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid in formal settings",
+  "confidence": "high",
+  "explanation": "In South Korea, cheek kissing is not a traditional greeting and is generally reserved for very close friends or family in private settings; in social gatherings, it can be seen as overly familiar or uncomfortable, especially among older generations or in formal contexts. The standard greeting is a bow or a handshake, with physical distance respected.",
+  "local_tip": "When meeting new people in a social gathering, offer a slight bow or a handshake with both hands (or one hand supporting the other) instead of a cheek kiss.",
+  "regional_note": "Younger, urban South Koreans who have lived abroad may occasionally use cheek kisses among close friends, but it remains uncommon and context-dependent.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact like cheek kissing is avoided in greetings; bowing is the norm, and even handshakes are less common."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Cheek kissing between same-gender friends is common, but between opposite genders it is strictly avoided unless family."
+    }
+  ]
+}

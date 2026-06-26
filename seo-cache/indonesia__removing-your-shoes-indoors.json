@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Respectful and expected",
+  "confidence": "high",
+  "explanation": "In Indonesia, removing shoes before entering a home is a deeply ingrained sign of respect and cleanliness, rooted in both cultural and religious practices, particularly in Muslim-majority areas where prayer spaces are kept pure. It is also common in many traditional and modern households, though some public buildings or modern offices may allow shoes indoors.",
+  "local_tip": "Always look for a pile of shoes at the entrance or ask the host 'Saya lepas sepatu di sini?' (Should I remove my shoes here?) to be sure.",
+  "regional_note": "In Bali, where Hindu customs prevail, shoe removal is also standard, especially when entering temples or family compounds.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shoe removal is nearly universal indoors, with specific slippers for different rooms."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Shoe removal is optional and varies by household; many hosts do not expect it."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Shoes are removed before entering homes and temples, but not typically in shops or offices."
+    }
+  ]
+}

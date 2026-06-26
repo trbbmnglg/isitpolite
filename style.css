@@ -2502,3 +2502,22 @@ select {
   font-size: 1.35rem; line-height: 1; cursor: pointer; padding: 0 0.3rem;
 }
 .donate-nudge-dismiss:hover { color: var(--text); }
+
+/* Homepage "Explore etiquette by country" — internal links to SEO hubs */
+.explore-section { max-width: var(--max-w); margin: 0 auto; padding: 2.75rem 1.25rem; }
+.explore-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; }
+.explore-grid a {
+  display: inline-flex; align-items: center;
+  background: var(--surface); border: 2.5px solid var(--border); border-radius: 50px;
+  padding: 0.5rem 1.05rem; font-size: 0.85rem; font-weight: 600; color: var(--text);
+  box-shadow: var(--clay-shadow-sm);
+  transition: background var(--dur-fast), border-color var(--dur-fast), transform var(--dur-fast), color var(--dur-fast);
+}
+.explore-grid a:hover { background: var(--bg); border-color: var(--primary-light); color: var(--primary); transform: translateY(-2px); text-decoration: none; }
+.explore-all-wrap { text-align: center; margin-top: 1.4rem; }
+.explore-all { font-size: 0.9rem; font-weight: 700; color: var(--primary); }
+.explore-all:hover { text-decoration: underline; }
+
+/* Pair-page FAQ (static, native <details>) */
+.seo-faq { margin-top: 2rem; }
+.seo-faq .faq-item { margin-bottom: 0.6rem; }

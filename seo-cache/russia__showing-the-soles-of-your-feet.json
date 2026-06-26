@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful foot display",
+  "confidence": "high",
+  "explanation": "In Russia, showing the soles of your feet is considered disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture can be interpreted as a sign of contempt or disregard, especially in social settings where mutual respect is expected.",
+  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and avoid pointing the sole of your shoe or foot toward anyone.",
+  "regional_note": "This norm is consistent across most of Russia, though younger generations in urban areas may be slightly more relaxed about it in informal settings.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The foot is considered the lowest part of the body, and pointing the sole at someone is a grave insult."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Showing the soles of your feet is generally not offensive, though it may be seen as casual or relaxed."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the sole of your foot to someone is highly disrespectful, as the foot is considered unclean."
+    }
+  ]
+}

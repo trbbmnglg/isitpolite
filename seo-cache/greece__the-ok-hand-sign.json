@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Offensive insult gesture",
+  "confidence": "high",
+  "explanation": "In Greece, the OK hand sign (thumb and index finger forming a circle) is a deeply offensive insult, equivalent to telling someone to perform a sexual act or calling them a homosexual. It is considered a 'moutza' variant and should never be used in any context.",
+  "local_tip": "Avoid making this gesture entirely; if you need to indicate approval, use a thumbs-up or a verbal 'endaxi' (okay).",
+  "regional_note": "This meaning is consistent across mainland Greece and the islands, though younger Greeks in urban areas may be more aware of its international positive meaning but still consider it rude locally.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "In Japan, the OK sign means 'money' or 'OK' and is generally positive, though context matters."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "In Brazil, it is a vulgar insult similar to Greece, often implying a sexual act."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "In Turkey, the gesture is also offensive, often used to imply homosexuality or as an insult."
+    }
+  ]
+}

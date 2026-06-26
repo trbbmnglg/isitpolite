@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Optional but appreciated",
+  "confidence": "high",
+  "explanation": "In the Netherlands, tipping at restaurants is considered polite but not obligatory, as service charges are typically included in the bill. A small tip of 5-10% or rounding up the total is a common way to show appreciation for good service, especially in sit-down dining. It is not expected for poor service, and leaving no tip is socially acceptable without causing offense.",
+  "local_tip": "Round up the bill or add 5-10% in cash, handing it directly to the server, as this is more personal and ensures they receive it.",
+  "regional_note": "In Amsterdam and other tourist-heavy areas, tipping may be slightly more expected due to international norms, but the same general etiquette applies nationwide.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as service is included and staff are paid a living wage."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is mandatory for service staff, as they rely on tips for income."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "A service charge is included, but leaving small change (5-10%) is customary for good service."
+    }
+  ]
+}

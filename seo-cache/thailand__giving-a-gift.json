@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift giving encouraged",
+  "confidence": "high",
+  "explanation": "In Thai business culture, gift giving is a polite gesture that builds rapport and shows respect, especially when done modestly and with both hands. Avoid overly expensive items, as they may cause embarrassment or be seen as bribery. Wrapping gifts in auspicious colors (e.g., gold, yellow) and avoiding sharp objects or items with negative symbolism (e.g., knives, handkerchiefs) is essential.",
+  "local_tip": "Present your gift with both hands and a slight bow, and do not expect it to be opened immediately, as Thais often wait until after the meeting to avoid appearing greedy.",
+  "regional_note": "In southern Thailand, especially in Muslim-majority areas, avoid alcohol or pork-related gifts; in Bangkok, corporate settings may be more Westernized but still value traditional etiquette.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift giving is highly ritualized; use both hands, avoid white wrapping (funeral color), and never give four of anything (homophone for death)."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary in business; if given, keep it small and practical (e.g., good wine or quality pens), and avoid overly personal items."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Gift giving is acceptable but must align with Islamic values—no alcohol, pork, or images of living beings; use right hand only and avoid gifts that could imply a personal relationship."
+    }
+  ]
+}

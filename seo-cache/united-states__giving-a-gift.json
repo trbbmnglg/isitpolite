@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable with limits",
+  "confidence": "medium",
+  "explanation": "In U.S. business settings, giving a modest gift (e.g., a company-branded item or a small token of appreciation) is generally polite and can strengthen relationships, but overly expensive gifts may be seen as inappropriate or even unethical, especially in government or regulated industries. Many companies have strict gift policies to avoid conflicts of interest, so it's wise to check before giving.",
+  "local_tip": "Keep gifts under $25 USD, avoid cash or personal items, and present them after a deal is closed or during a holiday season to avoid any perception of bribery.",
+  "regional_note": "In the South and Midwest, gift-giving may be slightly more common and warmly received, while in the Northeast and West Coast corporate environments, it can be more restrained and policy-driven.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is a deeply ingrained ritual; presentation and reciprocity are critical, and gifts are often given at first meetings."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are less common in business; a small, practical item is acceptable, but avoid anything that could be seen as bribery."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Gifts are expected in business, but avoid clocks, white flowers, or sharp objects; red envelopes with money are common for special occasions."
+    }
+  ]
+}

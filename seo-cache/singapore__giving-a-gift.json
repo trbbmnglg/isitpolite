@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Gift giving requires care",
+  "confidence": "medium",
+  "explanation": "In Singapore's business culture, gift-giving is generally polite but must be handled with sensitivity to avoid perceptions of bribery, especially in government or regulated sectors. Gifts should be modest, well-presented, and given after a relationship is established, not at the first meeting. Avoid items that may be seen as extravagant or that carry negative symbolism, such as clocks or sharp objects.",
+  "local_tip": "Present a small, high-quality corporate gift like a branded pen or local delicacy with both hands, and avoid giving anything that could be interpreted as a bribe.",
+  "regional_note": "Chinese-majority Singaporeans may prefer red or gold wrapping, while Malay and Indian colleagues may have religious restrictions on alcohol or pork-related items.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized and expected in business, with strict rules on wrapping and presentation."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as inappropriate in formal business settings and may be viewed as an attempt to influence."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Gift-giving is common but must respect Islamic customs, such as avoiding alcohol and using the right hand."
+    }
+  ]
+}

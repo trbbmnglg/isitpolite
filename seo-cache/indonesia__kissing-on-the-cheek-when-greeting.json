@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not customary, avoid",
+  "confidence": "high",
+  "explanation": "In Indonesia, kissing on the cheek when greeting is not a standard practice and can be seen as overly intimate or inappropriate, especially in social gatherings. The traditional greeting involves a handshake (often with a slight bow) or a nod, and physical contact between opposite genders is generally avoided unless initiated by the other person. This norm is rooted in both cultural modesty and Islamic influences, which prioritize non-physical greetings.",
+  "local_tip": "Instead, offer a polite smile, a slight bow, and a handshake (if same gender) or simply place your hand over your heart while nodding.",
+  "regional_note": "In more Westernized or younger circles in Jakarta, a cheek kiss may be accepted among close friends of the same gender, but it remains rare and should not be assumed.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on both cheeks is a standard greeting among friends and acquaintances."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact is avoided; bowing is the proper greeting."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Cheek kissing is common among same-gender friends but strictly avoided between opposite genders in public."
+    }
+  ]
+}

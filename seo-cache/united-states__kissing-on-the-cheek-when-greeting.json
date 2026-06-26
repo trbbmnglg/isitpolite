@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Depends on region and relationship",
+  "confidence": "medium",
+  "explanation": "In the United States, cheek kissing is not a universal greeting; it is common in certain social circles (e.g., coastal urban areas, among friends or family) but may be seen as overly familiar or invasive in more reserved or rural settings. It is generally reserved for close acquaintances or celebratory occasions, not for first meetings or formal business contexts.",
+  "local_tip": "When in doubt, offer a handshake or a friendly wave first, and only initiate a cheek kiss if the other person leans in.",
+  "regional_note": "More common in metropolitan areas like New York, Los Angeles, and Miami, especially among younger, multicultural groups; less common in the Midwest and South, where a handshake or hug is preferred.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact is minimal; bowing is the norm, and cheek kissing is considered inappropriate in most social settings."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Cheek kissing is common, often one kiss on each cheek, even among new acquaintances in social gatherings."
+    }
+  ]
+}

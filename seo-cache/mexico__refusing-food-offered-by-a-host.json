@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing food is impolite",
+  "confidence": "high",
+  "explanation": "In Mexico, offering food is a fundamental gesture of hospitality and affection, especially when meeting a family. Refusing it can be seen as a rejection of the host's generosity and may cause offense, as it implies distrust or dislike of the food or the host. It is customary to accept at least a small portion to show appreciation.",
+  "local_tip": "If you are full or have dietary restrictions, accept a small amount and take a few bites while praising the dish, then politely explain your situation.",
+  "regional_note": "In more urban or northern regions, younger generations may be more understanding of dietary restrictions, but the core expectation of accepting food remains strong.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Refusing food is often polite to avoid imposing, but it can be tricky; a simple 'no thank you' is acceptable if done respectfully."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Refusing food can be seen as rude if the host has prepared a special meal, but it is acceptable if you have a valid reason and express gratitude."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food, especially in a family setting, is considered very disrespectful as it rejects the host's care and generosity."
+    }
+  ]
+}

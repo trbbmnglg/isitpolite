@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally acceptable gesture",
+  "confidence": "high",
+  "explanation": "In the Philippines, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'good,' 'fine,' or 'okay,' similar to its use in many Western countries. It is commonly used in everyday conversation and is not considered offensive. However, it is always wise to use it with a friendly demeanor to avoid any unintended misinterpretation.",
+  "local_tip": "Use the OK sign casually among friends or in informal settings to indicate agreement or that something is fine.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Brazil",
+      "verdict": "rude",
+      "note": "Considered an obscene gesture equivalent to a middle finger."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "Often interpreted as a vulgar insult implying homosexuality."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Commonly used to mean 'money' or 'OK,' but can also represent a coin; generally positive."
+    }
+  ]
+}

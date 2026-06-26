@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Tolerated but not ideal",
+  "confidence": "medium",
+  "explanation": "In Indonesian business culture, punctuality is valued for formal meetings, especially with senior officials or foreign partners, but a relaxed attitude toward time (often called 'jam karet' or rubber time) is common in less formal settings. Arriving 5–15 minutes late may be forgiven, but habitual lateness or arriving more than 15 minutes late without prior notice is considered disrespectful and unprofessional.",
+  "local_tip": "Always aim to arrive on time for meetings with government officials or senior executives, but if you are running late, send a brief apology via message or call at least 10 minutes before the scheduled start.",
+  "regional_note": "In Java, especially Yogyakarta and Surakarta, a more hierarchical and formal approach to time may be expected, while in Bali or outer islands, punctuality may be more relaxed.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is strictly observed; arriving late is a serious breach of etiquette."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Germans value punctuality highly; lateness is seen as disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Lateness of 15–30 minutes is common in social settings but less acceptable for formal business meetings."
+    }
+  ]
+}

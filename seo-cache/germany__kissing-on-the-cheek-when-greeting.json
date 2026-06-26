@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved for close friends",
+  "confidence": "medium",
+  "explanation": "In Germany, cheek kissing is not a standard greeting in social gatherings; it is typically reserved for close friends and family, and even then often limited to one or two kisses. Among acquaintances or at casual parties, a firm handshake or a nod with a smile is more common and avoids awkwardness. Overstepping this boundary can be perceived as overly familiar or intrusive.",
+  "local_tip": "When in doubt, extend your hand for a handshake and follow the other person's lead on physical contact.",
+  "regional_note": "In southern Germany (Bavaria, Baden-Württemberg) and among younger, more cosmopolitan crowds, cheek kissing is slightly more accepted, but still not universal.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Cheek kissing (la bise) is the standard greeting among friends and acquaintances, with number of kisses varying by region."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "caution",
+      "note": "Cheek kissing is common among friends but often limited to one kiss; a handshake or hug is safer for first meetings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Physical contact in greetings is avoided; bowing is the traditional and expected greeting."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use with discretion",
+  "confidence": "medium",
+  "explanation": "In the United Kingdom, pointing with your index finger is generally considered impolite or aggressive in social settings, especially when directed at a person. It is more acceptable in informal contexts or when pointing at objects, but many Britons prefer a nod or an open hand gesture to avoid appearing rude.",
+  "local_tip": "Instead of pointing, gesture with your whole hand or nod your head in the direction you mean.",
+  "regional_note": "In more formal or conservative circles (e.g., older generations or rural areas), pointing is seen as particularly rude; younger urbanites may be more relaxed.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered very rude; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is common and generally acceptable in casual settings."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or an open hand."
+    }
+  ]
+}

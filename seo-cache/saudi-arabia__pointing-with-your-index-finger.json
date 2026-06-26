@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid pointing with finger",
+  "confidence": "high",
+  "explanation": "In Saudi Arabia, pointing directly at someone with the index finger is considered aggressive and disrespectful, as it can be interpreted as an accusation or a challenge. Instead, Saudis typically gesture with the whole hand or use the right hand with palm open to indicate direction or call someone. This norm is rooted in Islamic and Bedouin traditions that emphasize indirectness and respect in interpersonal communication.",
+  "local_tip": "Use your entire right hand with palm facing up to gesture toward someone or something, or nod your head in the desired direction.",
+  "regional_note": "In more conservative regions like Najd or rural areas, pointing is especially frowned upon, while in cosmopolitan cities like Jeddah or Riyadh, younger generations may be slightly more tolerant but still avoid it.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered rude; use an open hand or gesture with the chin instead."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "caution",
+      "note": "Pointing with the index finger is acceptable in informal settings but seen as impolite in formal or rural contexts; use the thumb or open hand."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is generally acceptable in casual and professional settings, though it can be seen as blunt in very formal situations."
+    }
+  ]
+}

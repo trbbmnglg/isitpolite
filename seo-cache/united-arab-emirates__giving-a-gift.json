@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally polite with norms",
+  "confidence": "medium",
+  "explanation": "Gift-giving in UAE business settings is polite and appreciated, but must respect Islamic customs—avoid alcohol or pork, and always use the right hand. Gifts are typically opened privately to avoid embarrassment, and modest, high-quality items like dates or office accessories are safe choices.",
+  "local_tip": "Present the gift with your right hand or both hands, and never give a gift containing alcohol or pigskin leather.",
+  "regional_note": "In Dubai and Abu Dhabi, business gift-giving is more common and Westernized, while in Sharjah or more conservative areas, it may be less expected and should be more modest.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Gift-giving is highly ritualized; avoid giving in sets of four or nine, and present with both hands."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Similar Islamic norms apply but gift-giving is less common in initial meetings; avoid any religious or personal items."
+    }
+  ]
+}

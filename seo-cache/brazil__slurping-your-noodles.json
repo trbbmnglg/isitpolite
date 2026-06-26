@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally impolite, but tolerated",
+  "confidence": "high",
+  "explanation": "In Brazil, slurping noodles is considered impolite because it violates the local dining etiquette that values quiet, discreet eating. Brazilian culture typically views loud eating noises as a lack of manners, especially in formal or semi-formal restaurant settings.",
+  "local_tip": "If you must eat noodles, twirl them quietly on your fork and avoid making any slurping sounds to show respect for local customs.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef in Japan."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Slurping noodles is common and indicates you are savoring the meal, though very loud slurping may be seen as crude in formal settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping any pasta is considered extremely rude and uncivilized in Italy, where quiet, deliberate eating is the norm."
+    }
+  ]
+}

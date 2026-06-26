@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but not expected",
+  "confidence": "high",
+  "explanation": "In Spain, tipping at restaurants is considered a polite gesture but is not mandatory or socially required. Locals typically leave small change (5-10% of the bill) only for exceptional service, as service charges are included in the price. It is more common to tip in tourist-heavy areas or upscale establishments than in casual local eateries.",
+  "local_tip": "Leave a few euros or round up the bill to the nearest 5 or 10 euros if you are satisfied with the service.",
+  "regional_note": "In Catalonia and the Basque Country, tipping is slightly less common than in Madrid or coastal tourist regions.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as it implies the staff is not paid fairly."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is standard and expected for good service."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service charge is included, but leaving small change is appreciated."
+    }
+  ]
+}

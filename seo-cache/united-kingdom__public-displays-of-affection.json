@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Subtle and restrained",
+  "confidence": "high",
+  "explanation": "In the United Kingdom, public displays of affection at social gatherings are generally acceptable but should be subtle and restrained. A brief kiss on the cheek or holding hands is fine, but prolonged or passionate displays can make others uncomfortable, as British social norms value personal space and understated behavior.",
+  "local_tip": "Keep any physical affection brief and low-key, such as a quick hug or a peck on the cheek, and read the room to match the group's comfort level.",
+  "regional_note": "In more conservative rural areas or among older generations, even mild PDA may be viewed with slight disapproval, while in cosmopolitan cities like London it is widely accepted.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Kissing on both cheeks as a greeting is standard, and moderate PDA is common in social settings."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Any public display of affection between unmarried couples is illegal and severely frowned upon."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is very rare; even holding hands can be seen as immodest in many social contexts."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful",
+  "confidence": "high",
+  "explanation": "In Dutch business culture, direct eye contact is a sign of honesty, confidence, and engagement. It is expected during conversations and meetings, as avoiding eye contact may be interpreted as evasiveness or lack of interest.",
+  "local_tip": "Maintain steady but natural eye contact when speaking and listening, and avoid staring intensely to prevent coming across as aggressive.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are preferred."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Direct eye contact with elders or superiors may be considered disrespectful in many ethnic groups."
+    },
+    {
+      "country": "Finland",
+      "verdict": "polite",
+      "note": "Direct eye contact is similarly valued as a sign of sincerity, though Finns may be more reserved in duration."
+    }
+  ]
+}

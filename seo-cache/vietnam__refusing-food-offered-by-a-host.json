@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Refuse gently, accept later",
+  "confidence": "high",
+  "explanation": "In Vietnam, refusing food offered by a host, especially during a family meeting, can be seen as rejecting their hospitality and generosity. However, it is common to politely decline once or twice before accepting, as this shows humility and respect for the host's effort. Directly refusing without a gracious excuse may cause the host to lose face.",
+  "local_tip": "If you must refuse, say 'Cảm ơn, tôi no rồi' (Thank you, I'm full) with a smile, and accept a small portion if the host insists.",
+  "regional_note": "In northern Vietnam, the custom of initial refusal is more pronounced, while in the south, hosts may be more direct and expect immediate acceptance.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Refusing food is common as a polite gesture, but the host will insist; always accept after the second offer."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Refusing food from a host is considered an insult to their generosity and cooking."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Refusing food is polite initially, but persistent refusal may offend; accept after gentle insistence."
+    }
+  ]
+}

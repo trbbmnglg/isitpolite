@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Use sparingly with same gender",
+  "confidence": "high",
+  "explanation": "In Saudi Arabian business culture, direct eye contact between men is a sign of respect and sincerity, but prolonged or intense eye contact with women (including female colleagues) can be seen as disrespectful or intrusive due to conservative gender norms. Among mixed-gender settings, it is safer to lower your gaze slightly to avoid causing discomfort. This reflects the broader cultural emphasis on modesty and hierarchical respect.",
+  "local_tip": "Maintain brief, soft eye contact with male counterparts, but avoid direct eye contact with women unless they initiate it.",
+  "regional_note": "In more liberal urban centers like Jeddah or Riyadh's expatriate circles, direct eye contact with women may be more accepted, but it remains safer to err on the side of caution.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Prolonged eye contact is considered confrontational or rude; brief glances or looking at the necktie area is preferred."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Direct eye contact is expected as a sign of confidence and honesty in business settings."
+    },
+    {
+      "country": "Nigeria",
+      "verdict": "caution",
+      "note": "Sustained eye contact with elders or superiors can be seen as disrespectful or challenging."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "No stigma, but uncommon",
+  "confidence": "high",
+  "explanation": "In the Netherlands, there is no cultural or religious taboo against eating with the left hand; it is simply a matter of personal preference. Most Dutch people are right-handed and naturally use their right hand for eating, but using the left hand is not considered impolite or offensive. The only exception might be in very formal dining settings where traditional European etiquette (holding fork in left hand, knife in right) is observed, but even then, the hand used for actual eating is not judged.",
+  "local_tip": "Feel free to use either hand, but if you want to blend in, hold your fork in your left hand and knife in your right when cutting food, as is common in continental European dining.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Eating with the left hand is considered unclean in many parts of India, especially in traditional or religious contexts."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "rude",
+      "note": "In Morocco, the left hand is reserved for hygiene purposes and should not be used for eating or passing food."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "In Indonesia, particularly in Muslim-majority areas, the left hand is considered impure and should not be used for eating."
+    }
+  ]
+}

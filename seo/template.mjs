@@ -136,7 +136,16 @@ export function renderPairPage(pair, rec) {
 
   const appLink = `/?g=${encodeURIComponent(gesture.display)}&c=${encodeURIComponent(country)}&ctx=${encodeURIComponent(gesture.context)}`;
 
-  const faqAnswer = `${rec.verdict_label}. ${rec.explanation} ${rec.local_tip}`.trim();
+  // FAQ — visible on the page AND mirrored in FAQPage schema (built from data we already have)
+  const faqs = [
+    { q: question.charAt(0).toUpperCase() + question.slice(1), a: `${rec.verdict_label}. ${rec.explanation}` },
+    { q: `What should I do instead in ${country}?`, a: rec.local_tip },
+  ];
+  if (rec.regional_note && String(rec.regional_note).trim()) {
+    faqs.push({ q: `Does ${gesture.short.toLowerCase()} mean the same everywhere in ${country}?`, a: rec.regional_note });
+  }
+  const faqHtml = faqs.map(f => `<details class="faq-item"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
+
   const jsonld = [
     breadcrumbJsonLd([
       { name: 'Home', url: '/' },
@@ -146,7 +155,7 @@ export function renderPairPage(pair, rec) {
     ]),
     {
       '@context': 'https://schema.org', '@type': 'FAQPage',
-      mainEntity: [{ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: faqAnswer } }],
+      mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     },
   ];
 
@@ -164,6 +173,10 @@ ${header()}
       <h1>${esc(question.charAt(0).toUpperCase() + question.slice(1))}</h1>
     </div>
     ${verdictCard(rec)}
+    <section class="seo-faq">
+      <h2 class="seo-related-title">Frequently asked</h2>
+      ${faqHtml}
+    </section>
     <div class="seo-cta">
       <p>Want to check a different gesture, country, or situation?</p>
       <a class="btn-cta" href="${appLink}">Check it on IsItPolite →</a>

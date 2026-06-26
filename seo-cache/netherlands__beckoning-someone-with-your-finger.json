@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Rude if used imperiously",
+  "confidence": "high",
+  "explanation": "In the Netherlands, beckoning someone with a curled index finger is considered condescending and disrespectful, as it mimics how one would call a dog. The gesture is seen as overly direct and presumptuous in a culture that values egalitarianism and personal space.",
+  "local_tip": "Instead, use an open hand with palm up and fingers together in a gentle scooping motion, or simply make eye contact and nod toward the desired direction.",
+  "regional_note": "In more cosmopolitan areas like Amsterdam or Rotterdam, younger generations may be more tolerant of the gesture, but it remains widely frowned upon in formal or older circles.",
+  "also_check": [
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a curled finger is extremely offensive, as it is used for calling animals; use a gentle hand wave with palm down instead."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Beckoning with the index finger is considered rude and childlike; use an open hand with palm down and a gentle waving motion."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual settings, it can be seen as aggressive or dismissive in formal or professional contexts."
+    }
+  ]
+}

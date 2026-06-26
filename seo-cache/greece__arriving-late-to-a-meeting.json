@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Fashionably late expected",
+  "confidence": "high",
+  "explanation": "In Greek business culture, arriving 10–15 minutes late to a meeting is common and often expected, as punctuality is flexible and relationships take precedence over strict schedules. This reflects the polychronic time orientation where social interactions and rapport-building are prioritized over rigid adherence to the clock. However, for very formal meetings with foreign partners or high-level officials, arriving on time shows respect.",
+  "local_tip": "Aim to arrive 10 minutes late for most business meetings, but always call ahead if you will be more than 15 minutes late.",
+  "regional_note": "In northern Greece (e.g., Thessaloniki), punctuality may be slightly more valued due to closer ties with Central European business norms.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Punctuality is critical; even one minute late is disrespectful."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Being late is seen as unprofessional and a sign of poor planning."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Similar to Greece, arriving 15–30 minutes late is common in business settings."
+    }
+  ]
+}

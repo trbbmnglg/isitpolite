@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Gift giving requires care",
+  "confidence": "high",
+  "explanation": "In UK business culture, gift-giving is acceptable but must be modest and not appear as bribery; expensive or lavish gifts can create awkwardness or be seen as inappropriate. It is common to exchange small, thoughtful items like quality chocolates, wine, or branded merchandise, especially after a successful deal or as a thank-you. Always ensure the gift is not overly personal and is presented without ceremony to avoid making the recipient uncomfortable.",
+  "local_tip": "If invited to a colleague's home, bring a bottle of wine, flowers, or a box of chocolates, but avoid red roses or lilies (romantic or funeral connotations).",
+  "regional_note": "In Scotland and Northern Ireland, business gift etiquette is similar, but in more traditional settings (e.g., older generations), gifts may be refused politely to avoid obligation; always follow the recipient's lead.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized and expected in business; presentation and wrapping are crucial."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even suspicious in formal business settings; small, practical items are acceptable only after a relationship is established."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Gift-giving is common and appreciated, but must respect Islamic customs (e.g., no alcohol, no pork, use right hand)."
+    }
+  ]
+}

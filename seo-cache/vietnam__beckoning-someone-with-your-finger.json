@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid finger beckoning",
+  "confidence": "high",
+  "explanation": "In Vietnam, beckoning someone with a single finger is considered extremely rude and is typically used only to call animals or inferiors. It is seen as disrespectful and demeaning, especially in formal or everyday social interactions. Instead, use the whole hand with palm facing down, waving gently, to summon someone politely.",
+  "local_tip": "To call someone, extend your hand with palm down and wiggle all four fingers together.",
+  "regional_note": "In rural areas, the gesture may be even more offensive, while younger urban Vietnamese might be slightly more tolerant but still avoid it.",
+  "also_check": [
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is highly offensive and can even lead to legal trouble in some contexts."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "It is considered impolite and animal-like; use a gentle hand wave with palm down instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While not as offensive, it can be seen as condescending or aggressive in formal settings."
+    }
+  ]
+}

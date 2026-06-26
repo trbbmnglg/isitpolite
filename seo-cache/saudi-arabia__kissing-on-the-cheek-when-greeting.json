@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not for opposite gender",
+  "confidence": "high",
+  "explanation": "In Saudi Arabia, cheek kissing between men is a common greeting among close friends or relatives, but it is strictly avoided between unrelated men and women in public due to conservative Islamic norms. Even among same-gender acquaintances, it is reserved for those with an established close relationship, not for first-time or casual social gatherings.",
+  "local_tip": "When greeting a Saudi man, offer a handshake only if he extends his hand first; for a Saudi woman, wait for her to initiate any physical greeting, and never offer your hand to a woman unless she does so.",
+  "regional_note": "In more cosmopolitan cities like Jeddah or Riyadh, younger Saudis may be slightly more relaxed, but the general rule of avoiding cross-gender physical contact remains widely observed.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Similar to Saudi Arabia, but cheek kissing among same-gender friends is more common; cross-gender greeting still requires caution."
+    },
+    {
+      "country": "Egypt",
+      "verdict": "polite",
+      "note": "Cheek kissing is common between same-gender friends and even between men and women in social settings, though it may be less common in conservative areas."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Cheek kissing is not a traditional greeting and can be seen as an invasion of personal space; a bow or handshake is preferred."
+    }
+  ]
+}

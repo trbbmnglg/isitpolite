@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Insulting and demeaning",
+  "confidence": "high",
+  "explanation": "In Greece, beckoning someone with a curled index finger (palm up) is considered highly insulting and demeaning, as it mimics the gesture used to call dogs or inferiors. This action can provoke anger or offense, especially in traditional or older circles. It is best avoided entirely in everyday interactions.",
+  "local_tip": "To call someone politely, extend your hand with palm facing down and gently wave all fingers together toward you.",
+  "regional_note": "In urban areas among younger generations, the gesture may be less inflammatory but is still widely viewed as rude.",
+  "also_check": [
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a curled finger is considered very rude and can be seen as a challenge or insult."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered disrespectful; use a gentle wave with all fingers together, palm down."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual settings, it can be seen as condescending or aggressive in formal or professional contexts."
+    }
+  ]
+}

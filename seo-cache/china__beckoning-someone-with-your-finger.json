@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Beckoning is offensive",
+  "confidence": "high",
+  "explanation": "In China, beckoning someone with a single finger, especially with the palm facing up, is considered highly disrespectful and is often associated with calling a dog or a servant. The proper way to beckon is to use all four fingers with the palm facing down, in a gentle waving motion.",
+  "local_tip": "To call someone politely, extend your hand with palm down and wave all fingers together toward you.",
+  "regional_note": "Younger urban Chinese may be more tolerant of the finger gesture due to Western influence, but it remains widely offensive in formal and rural settings.",
+  "also_check": [
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "Beckoning with a single finger is extremely rude and can be seen as a challenge or insult."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Beckoning with the index finger is considered rude; use a gentle wave with all fingers and palm down."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Beckoning with the index finger is common and generally acceptable in casual settings."
+    }
+  ]
+}

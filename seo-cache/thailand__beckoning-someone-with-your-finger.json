@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful and aggressive",
+  "confidence": "high",
+  "explanation": "In Thailand, beckoning someone with a curled index finger is considered rude and aggressive, as it is typically used to call animals or inferiors. The proper way to summon someone is to extend your hand palm down and wave all fingers together in a gentle motion. This gesture is deeply rooted in Thai social hierarchy and respect for personal dignity.",
+  "local_tip": "Instead, use a soft downward wave of the whole hand with palm facing down to call someone politely.",
+  "regional_note": "In more rural or traditional areas, the offense may be stronger; in very touristy zones, locals may overlook it but still find it impolite.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with a finger is considered rude and animal-like; use a gentle wave with palm down."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "This gesture is highly offensive and can be seen as a challenge or insult."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "While common in casual contexts, it can be seen as condescending or bossy in formal settings."
+    }
+  ]
+}

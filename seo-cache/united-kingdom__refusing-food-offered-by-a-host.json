@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Politely refuse once",
+  "confidence": "high",
+  "explanation": "In the UK, it is generally polite to initially refuse food offered by a host to show modesty, but the host will often insist, and accepting after a second offer is expected. Refusing outright without a gracious reason can be seen as rude or ungrateful, especially in family settings where hospitality is valued. The custom is to say 'No, thank you, I'm fine' once, then accept if pressed.",
+  "local_tip": "If you're full, say 'That looks lovely, but I couldn't eat another bite' with a warm smile to avoid offense.",
+  "regional_note": "In Northern Ireland and some traditional Scottish households, refusing food may be taken more personally, so it's safer to accept a small portion.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Refusing food offered by a host is considered impolite; it's better to accept even a small amount."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food, especially in a family setting, can be seen as rejecting the host's generosity; accept and eat a little."
+    },
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Refusing food is often viewed as a personal slight; it's polite to accept and compliment the cooking."
+    }
+  ]
+}

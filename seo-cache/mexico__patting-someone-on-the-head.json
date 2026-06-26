@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid head touching",
+  "confidence": "high",
+  "explanation": "In Mexico, patting someone on the head is considered disrespectful and infantilizing, as the head is viewed as a sacred or personal space. This gesture is often reserved for very young children or pets, and doing it to an adult can be seen as a condescending violation of personal boundaries.",
+  "local_tip": "Instead of touching the head, greet with a handshake or a light hug (if familiar) and maintain respectful eye contact.",
+  "regional_note": "In some indigenous communities, such as those in Oaxaca or Chiapas, the head may carry additional spiritual significance, making head patting even more offensive.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "The head is considered the most sacred part of the body in Thai culture; touching it is a major taboo."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Patting the head of a child is often affectionate, but for adults it can be seen as condescending or intrusive, especially among strangers."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Head patting is generally reserved for children or close friends in a playful context; for adults it may be perceived as patronizing or overly familiar."
+    }
+  ]
+}

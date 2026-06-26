@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Disrespectful and dismissive",
+  "confidence": "high",
+  "explanation": "In Spain, beckoning someone with a curled index finger is considered rude and condescending, as it is typically used to call animals or children. This gesture is seen as disrespectful to adults, implying a lack of equality or dignity. A more polite approach is to use an open hand with the palm facing down and fingers together, moving them toward you.",
+  "local_tip": "Instead, gesture with your whole hand, palm down, and wave your fingers toward you in a scooping motion.",
+  "regional_note": "While this is consistent across most of Spain, in the Canary Islands the open-hand gesture is also preferred, but the finger beckon may be slightly less offensive among close friends.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Beckoning with the index finger is considered very rude and is used only for animals; use a palm-down wave instead."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "rude",
+      "note": "This gesture is extremely offensive and can even lead to legal trouble; it is reserved for calling dogs."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "While not as offensive as in Spain, it can be seen as overly familiar or dismissive; a polite verbal call is preferred."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Enjoyed as a compliment",
+  "confidence": "high",
+  "explanation": "In Vietnam, slurping noodles is generally seen as a sign of enjoyment and appreciation for the meal, especially in casual dining settings like street stalls or pho shops. It indicates that the broth is hot and flavorful, and the diner is savoring the experience. However, in very formal or upscale restaurants, quieter eating may be preferred.",
+  "local_tip": "Slurp gently to avoid splashing, and focus on the broth rather than making exaggerated sounds.",
+  "regional_note": "In southern Vietnam, slurping is more common and accepted, while in northern Vietnam, especially in Hanoi, some older generations may consider it slightly less refined in formal settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Slurping noodles is a sign of appreciation and helps cool the noodles; it is fully expected in ramen shops."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Slurping is acceptable in casual settings but may be seen as rude in formal dining; it varies by region."
+    },
+    {
+      "country": "Italy",
+      "verdict": "rude",
+      "note": "Slurping pasta is considered very impolite and a breach of table manners in almost all contexts."
+    }
+  ]
+}

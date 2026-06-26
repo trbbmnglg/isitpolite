@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid all public affection",
+  "confidence": "high",
+  "explanation": "In Saudi Arabia, public displays of affection (PDA) such as hugging, kissing, or even holding hands between unmarried couples are considered highly inappropriate and can lead to legal consequences, including fines or detention. Social gatherings are typically gender-segregated, and any physical contact between unrelated men and women is strictly forbidden under the country's interpretation of Islamic law. Even married couples are expected to refrain from PDA in public settings to maintain modesty and respect local norms.",
+  "local_tip": "When attending a social gathering, greet same-gender individuals with a handshake (if offered) and avoid any physical contact with the opposite gender unless they initiate it.",
+  "regional_note": "In more liberal urban areas like Jeddah or Riyadh's expat communities, very subtle hand-holding among married couples may occasionally be overlooked, but it remains risky and is not the norm.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "PDA is generally frowned upon, but holding hands among married couples is tolerated in tourist areas; kissing in public can lead to fines or deportation."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "caution",
+      "note": "PDA is common in cosmopolitan Istanbul, but in conservative rural areas or during religious periods, it is best avoided."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "PDA is rare in public; even holding hands can make locals uncomfortable, though it is more accepted among young couples in urban settings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Gift giving is polite",
+  "confidence": "high",
+  "explanation": "In Saudi business culture, giving a gift is a polite gesture that builds trust and shows respect, especially when offered modestly and not in front of others to avoid perceived bribery. Gifts should be of good quality but not extravagant, and items like dates, high-quality coffee, or a small token from your home country are appreciated. Avoid alcohol, pork products, or anything with religious imagery, as these violate Islamic norms.",
+  "local_tip": "Present the gift with your right hand or both hands, and never with your left hand, as it is considered unclean.",
+  "regional_note": "In more conservative regions like Najd, gift-giving may be more restrained, while in cosmopolitan cities like Jeddah or Riyadh, it is more common and accepted in business settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid white or black wrapping (funeral colors) and present with both hands."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary in business; if given, keep it small and practical, and avoid overly personal items."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Gifts are expected to build guanxi, but avoid clocks, umbrellas, or sharp objects as they symbolize bad luck or severing relationships."
+    }
+  ]
+}

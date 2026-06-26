@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common social greeting",
+  "confidence": "high",
+  "explanation": "In Spain, kissing on both cheeks (starting with the left) is the standard greeting among friends, family, and acquaintances at social gatherings. It is a warm, informal gesture that signifies closeness and is widely practiced across the country.",
+  "local_tip": "When greeting, lean in and lightly touch cheeks while making a kissing sound—actual lip contact is not required.",
+  "regional_note": "In more formal or business settings, a handshake may be preferred, and some younger generations in urban areas may opt for a single cheek kiss or a hug.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Kissing on the cheek is not customary; bowing or a handshake is the norm."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "La bise (cheek kissing) is common, but the number of kisses varies by region (typically two to four)."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Kissing on the cheek between men is acceptable among close friends, but between opposite genders in public is generally avoided."
+    }
+  ]
+}

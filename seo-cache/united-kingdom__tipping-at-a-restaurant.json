@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Optional but appreciated",
+  "confidence": "high",
+  "explanation": "In the United Kingdom, tipping at a restaurant is considered polite but not mandatory, as service charges are often included in the bill. A tip of 10-15% is customary for good service, though many locals simply round up the bill or leave small change. It is important to check the bill first, as some establishments add a discretionary service charge that can be removed if service was poor.",
+  "local_tip": "Leave 10-12.5% for good service, but always check if a service charge is already included before adding extra.",
+  "regional_note": "In London and other major cities, tipping is more common and expected in higher-end restaurants, while in rural areas or pubs, tipping is less frequent and often just rounding up.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting as it implies the staff is not paid properly; excellent service is the norm."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is expected and a major part of server income; not tipping is seen as very rude."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service charge is included by law, but leaving small change (5-10%) is a polite gesture for good service."
+    }
+  ]
+}

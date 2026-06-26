@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid pointing directly",
+  "confidence": "high",
+  "explanation": "In Vietnam, pointing with your index finger is considered rude and accusatory, especially when directed at a person. It is associated with negative gestures and can be seen as disrespectful. Instead, use your whole hand with palm facing up to gesture toward someone or something.",
+  "local_tip": "When indicating a person or object, gesture with your open hand, palm upward, or use a slight nod of the head.",
+  "regional_note": "In rural areas, pointing with the index finger may be even more strongly frowned upon, while younger urban Vietnamese may be more tolerant of the gesture in informal settings.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is considered impolite; use an open hand instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pointing with the index finger is generally acceptable in casual contexts."
+    },
+    {
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "Pointing with the index finger is offensive; use the thumb or an open hand."
+    }
+  ]
+}

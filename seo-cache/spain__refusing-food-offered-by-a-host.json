@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Refusing is impolite",
+  "confidence": "high",
+  "explanation": "In Spain, especially when meeting family, refusing food offered by a host is considered impolite because it can be interpreted as rejecting the host's generosity and hospitality. Spaniards take pride in offering food as a gesture of warmth and welcome, and a refusal may cause offense or make the host feel their efforts are unappreciated. It is better to accept a small portion or at least taste the food to show respect.",
+  "local_tip": "If you are full or have dietary restrictions, accept a small amount and compliment the host, then politely explain your situation after the first bite.",
+  "regional_note": "In Andalusia and rural areas, insistence on offering food is even stronger, and refusing may be met with repeated offers; in more cosmopolitan cities like Madrid or Barcelona, younger generations may be more understanding of dietary preferences.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Refusing food is often polite to avoid burdening the host, though it can be nuanced; a simple 'no, thank you' is acceptable."
+    },
+    {
+      "country": "India",
+      "verdict": "rude",
+      "note": "Refusing food is generally considered rude as it is seen as rejecting hospitality; hosts may insist multiple times."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Refusing food can be seen as impolite, but it is acceptable if you offer a polite excuse and compliment the host's cooking."
+    }
+  ]
+}

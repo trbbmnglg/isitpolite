@@ -1,0 +1,25 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Punctuality is expected",
+  "confidence": "high",
+  "explanation": "In the Netherlands, punctuality is highly valued in business settings; arriving late is seen as disrespectful and unprofessional. Dutch culture emphasizes efficiency and respect for others' time, so even a few minutes' delay can create a negative impression. It is standard practice to arrive exactly on time or a few minutes early.",
+  "local_tip": "Arrive 5 minutes early to the meeting to show respect and reliability.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Extreme punctuality is expected; lateness is a serious breach of etiquette."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Lateness of up to 15 minutes is often tolerated in business, but it varies by region and company."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Meetings may start late due to flexible time perception, but it is still respectful to arrive on time."
+    }
+  ]
+}

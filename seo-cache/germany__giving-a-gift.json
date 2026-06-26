@@ -1,0 +1,25 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Appropriate but restrained",
+  "confidence": "high",
+  "explanation": "In German business culture, gift-giving is acceptable but must be modest and professional to avoid any perception of bribery or undue influence. Small, thoughtful gifts like quality pens, books, or local specialties are appreciated, but expensive or overly personal items can create discomfort. Gifts are typically exchanged after a deal is concluded or at the end of a meeting, not at the first encounter.",
+  "local_tip": "Choose a modest, high-quality gift (e.g., a branded pen or regional food) and present it without elaborate wrapping or ceremony, as Germans value practicality and directness.",
+  "regional_note": "In southern Germany (Bavaria, Baden-Württemberg), business gift-giving may be slightly more formal and traditional, while in northern regions (Hamburg, Berlin) it tends to be more reserved and pragmatic.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is a deeply ingrained ritual in Japanese business; presentation and reciprocity are critical, and gifts are often exchanged at the first meeting."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Gifts are appreciated but must respect Islamic customs (no alcohol, no pork products); avoid giving with the left hand and be mindful of modesty."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Business gifts are common but should be modest (under $25–$50) to comply with corporate anti-bribery policies; gifts are often given at the end of a successful negotiation."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Appreciated but modest",
+  "confidence": "high",
+  "explanation": "In Turkish business culture, gift-giving is considered polite and a gesture of goodwill, especially when building relationships. It is common to offer a modest, thoughtful gift (e.g., quality local sweets, a small decorative item) at the first meeting or after a successful deal. Avoid expensive or personal gifts, as they may be misinterpreted as bribery or create awkwardness.",
+  "local_tip": "Choose a gift that reflects your home country's culture, such as a specialty food or craft, and present it with both hands or your right hand to show respect.",
+  "regional_note": "In more conservative or religious circles (e.g., eastern Anatolia), avoid alcohol or items with pig imagery; in secular urban centers like Istanbul, such restrictions are less strict.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Gift-giving is highly ritualized; avoid white or red wrapping (funeral colors) and present with both hands."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Gifts are often seen as unnecessary or even suspicious in formal business; if given, keep it small and practical."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Gifts are appreciated but must align with Islamic values (no alcohol, no pigskin); avoid giving to the opposite gender directly."
+    }
+  ]
+}

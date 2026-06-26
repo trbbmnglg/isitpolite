@@ -1,0 +1,25 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and appreciated",
+  "confidence": "high",
+  "explanation": "In Mexico, tipping 10-15% at restaurants is standard and considered polite, as service workers rely heavily on tips due to low base wages. It is a deeply ingrained custom in urban areas and tourist destinations, though less expected in very small, rural eateries.",
+  "local_tip": "Leave 10-15% of the bill as a propina, and for excellent service, 15-20% is generous.",
+  "regional_note": "In tourist-heavy areas like Cancún or Mexico City, tipping expectations mirror U.S. norms, while in remote villages or family-run fondas, rounding up the bill may suffice.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Service charge is included, but leaving small change (5-10%) is a polite gesture for good service."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Tipping 15-20% is mandatory for sit-down service, as servers earn below minimum wage."
+    }
+  ]
+}
