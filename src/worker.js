@@ -2,7 +2,6 @@
 // Routes /api/* to the appropriate handler; everything else is served from
 // the Static Assets binding (the pre-built ./dist folder).
 
-import * as ask        from './api/ask.js';
 import * as lookup     from './api/lookup.js';
 import * as accuracy   from './api/accuracy.js';
 import * as community  from './api/community.js';
@@ -17,7 +16,6 @@ import * as credits       from './api/credits.js';
 import * as generate      from './api/generate.js';
 
 const ROUTES = {
-  '/api/ask':             ask,
   '/api/lookup':          lookup,
   '/api/accuracy':        accuracy,
   '/api/community':       community,

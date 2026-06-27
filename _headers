@@ -1,0 +1,25 @@
+# Cloudflare static-asset response headers.
+#
+# Cache-Control: HTML always revalidates so deploys show up immediately
+# (pages are unversioned; CSS/JS carry ?v=<hash>, so a 304 is cheap + correct).
+#
+# Security headers (every asset):
+#  - HSTS pins HTTPS for a year.  NOTE: the live response may still show
+#    `max-age=0` because a Cloudflare zone SSL/TLS "HSTS" setting OVERRIDES this
+#    header at the edge — fix that toggle in the dashboard, not here.
+#  - CSP: the primary XSS defense is output escaping (esc()/sanitize()/jsonLdSafe);
+#    this CSP is defense-in-depth. script-src MUST allow 'unsafe-inline' +
+#    'unsafe-eval' because the PayPal JS SDK and Cloudflare's injected beacon /
+#    challenge-platform scripts both execute inline code — a stricter script-src
+#    breaks PayPal checkout. The CSP still meaningfully restricts WHERE scripts/
+#    frames/connections may go (domain allow-list), forbids plugins (object-src),
+#    base-tag hijacking (base-uri), and framing (frame-ancestors).
+#  - X-Frame-Options / frame-ancestors stop clickjacking of the buy flow.
+/*
+  Cache-Control: no-cache
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(self "https://www.paypal.com")
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.paypal.com https://*.paypalobjects.com https://static.cloudflareinsights.com; frame-src https://*.paypal.com https://*.paypalobjects.com; connect-src 'self' https://*.paypal.com https://*.paypalobjects.com https://cloudflareinsights.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; base-uri 'none'; object-src 'none'; frame-ancestors 'none'

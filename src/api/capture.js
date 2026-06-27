@@ -8,7 +8,7 @@
 // a richer tier at capture time gets exactly what they paid for, not what they ask.
 import { originAllowed, json, today, sendEmail, newUnlockCode, paypalBase } from '../_shared.js';
 import { rateLimit } from '../_rate.js';
-import { tierById } from '../_credits.js';
+import { tierById, TIER_CURRENCY } from '../_credits.js';
 
 async function getAccessToken(env) {
   const base = paypalBase(env);
@@ -84,6 +84,15 @@ export async function onRequestPost(context) {
     // The order was created without a recognisable tier — don't mint.
     console.error('capture: unresolvable custom_id', customId, 'orderID', orderID);
     return json({ error: 'We could not determine your pack. Your payment was not charged for credits — please contact support.' }, 502);
+  }
+
+  // Defense-in-depth: confirm the amount actually captured matches the tier's
+  // server-side price + currency. custom_id and amount are both fixed at order
+  // creation, but never mint a full grant for an underpaid / mismatched order.
+  const capAmt = captured.purchase_units?.[0]?.payments?.captures?.[0]?.amount;
+  if (!capAmt || capAmt.value !== tier.price || capAmt.currency_code !== TIER_CURRENCY) {
+    console.error('capture: amount mismatch', 'orderID', orderID, 'tier', tier.id);
+    return json({ error: 'Payment amount did not match the selected pack. Your card was not charged for credits — please contact support.' }, 502);
   }
 
   // ── Idempotent code mint ───────────────────────────────────────────────────

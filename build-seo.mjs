@@ -20,9 +20,10 @@
 // Generated content is cached in ./seo-cache so re-runs are incremental.
 // ─────────────────────────────────────────────────────────────────────────
 
-import { mkdirSync, writeFileSync, existsSync, readFileSync, rmSync, copyFileSync, cpSync } from 'fs';
+import { mkdirSync, writeFileSync, existsSync, readFileSync, rmSync, copyFileSync, cpSync, readdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import { createHash } from 'crypto';
 import {
   BASE_URL, GESTURES, COUNTRIES, CONTEXT_LABELS,
   countrySlug, gestureSlug, allPairs,
@@ -36,7 +37,7 @@ const OUT_DIR   = join(DIST, 'etiquette');
 
 // Public files copied verbatim into ./dist (the app shell).
 // app.js and style.css are NOT listed here — they are assembled from src/js/ and src/css/.
-const STATIC_FILES = ['index.html', '404.html', 'privacy.html', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'favicon.ico', 'og-image.png', 'gcash-qr.png', 'icon-192.png', 'icon-512.png'];
+const STATIC_FILES = ['index.html', '404.html', 'privacy.html', '_headers', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'favicon.ico', 'og-image.png', 'gcash-qr.png', 'icon-192.png', 'icon-512.png'];
 
 // JS source modules — concatenated into a single IIFE-wrapped dist/app.js.
 // Order matters: later modules call functions defined in earlier ones.
@@ -52,10 +53,11 @@ const CONCURRENCY = 6;
 
 const API_KEY    = process.env.DEEPSEEK_API_KEY;
 const DIRECT_URL = 'https://api.deepseek.com/v1/chat/completions';
-const PROXY_URL  = `${BASE_URL}/api/ask`;     // deployed Pages Function (holds the key)
-// With a local key → call DeepSeek directly. Without one → route through the
-// deployed proxy (it has the key; server-side calls send no Origin, which it allows).
-const VIA_PROXY  = !API_KEY;
+// Generating NEW pages requires a local DEEPSEEK_API_KEY (called directly here).
+// There is intentionally NO deployed proxy fallback — exposing the key via a
+// public /api/ask endpoint made it an open, billable AI relay (removed). Builds
+// WITHOUT a key still work fully from ./seo-cache (no new pages are generated).
+const CAN_GENERATE = !!API_KEY;
 
 // ── Built-in sample records (used by --sample, no API needed) ────────────
 const SAMPLE_RECORDS = {
@@ -113,9 +115,8 @@ function buildPrompt(gesture, country, context) {
 }
 
 async function callDeepSeek(prompt) {
-  const url = VIA_PROXY ? PROXY_URL : DIRECT_URL;
-  const headers = { 'Content-Type': 'application/json' };
-  if (!VIA_PROXY) headers['Authorization'] = `Bearer ${API_KEY}`;
+  const url = DIRECT_URL;
+  const headers = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${API_KEY}` };
   const res = await fetch(url, {
     method: 'POST',
     headers,
@@ -163,19 +164,59 @@ function assembleBase() {
     else console.warn(`  (skipped missing ${f})`);
   }
 
+  // Read a source partial and strip any leading UTF-8 BOM. A BOM (U+FEFF) is
+  // harmless at the very start of a file, but once these partials are
+  // concatenated each leading BOM lands MID-file — and a stray U+FEFF
+  // invalidates the CSS rule / JS statement that immediately follows it. So we
+  // must strip it from every partial before joining.
+  const readPart = (p) => {
+    const s = readFileSync(p, 'utf8');
+    return s.charCodeAt(0) === 0xFEFF ? s.slice(1) : s;
+  };
+
   // Concatenate JS source modules into a single IIFE-wrapped dist/app.js.
-  const jsContent = JS_MODULES.map(m => readFileSync(join(ROOT, 'src/js', m + '.js'), 'utf8')).join('\n');
+  const jsContent = JS_MODULES.map(m => readPart(join(ROOT, 'src/js', m + '.js'))).join('\n');
   writeFileSync(join(DIST, 'app.js'), `(function () {\n  'use strict';\n${jsContent}\n})();\n`);
   console.log(`  built dist/app.js from ${JS_MODULES.length} modules`);
 
   // Concatenate CSS partials into dist/style.css.
-  const cssContent = CSS_PARTS.map(p => readFileSync(join(ROOT, 'src/css', p + '.css'), 'utf8')).join('\n');
+  const cssContent = CSS_PARTS.map(p => readPart(join(ROOT, 'src/css', p + '.css'))).join('\n');
   writeFileSync(join(DIST, 'style.css'), cssContent);
   console.log(`  built dist/style.css from ${CSS_PARTS.length} partials`);
 
   // NOTE: API/Worker source lives in ./src and is bundled by wrangler at
   // deploy time. Do NOT copy ./functions or ./src into ./dist — dist is
   // pure static assets only.
+}
+
+// ── Asset cache-busting ───────────────────────────────────────────────────
+// Append a short content hash to every style.css / app.js reference so that
+// browsers AND intermediary proxies fetch a fresh copy the moment the asset
+// content changes (a stale cached /style.css is otherwise served indefinitely
+// because the URL never changes). Run AFTER all HTML + assets are written.
+function hash8(buf) { return createHash('sha256').update(buf).digest('hex').slice(0, 8); }
+
+function walkHtml(dir, out) {
+  for (const ent of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, ent.name);
+    if (ent.isDirectory()) walkHtml(full, out);
+    else if (ent.name.endsWith('.html')) out.push(full);
+  }
+  return out;
+}
+
+function versionAssets() {
+  const cssV = hash8(readFileSync(join(DIST, 'style.css')));
+  const jsV  = hash8(readFileSync(join(DIST, 'app.js')));
+  const files = walkHtml(DIST, []);
+  for (const f of files) {
+    let html = readFileSync(f, 'utf8');
+    html = html
+      .replace(/(href=")(\/?)(style\.css)(")/g, `$1$2$3?v=${cssV}$4`)
+      .replace(/(src=")(\/?)(app\.js)(")/g,     `$1$2$3?v=${jsV}$4`);
+    writeFileSync(f, html);
+  }
+  console.log(`  versioned assets across ${files.length} html files (style.css?v=${cssV}, app.js?v=${jsV})`);
 }
 
 // ── Simple promise pool ──────────────────────────────────────────────────
@@ -194,10 +235,10 @@ async function main() {
   if (SAMPLE) {
     pairs = pairs.filter(p => SAMPLE_RECORDS[`${p.countrySlug}|${p.gestureSlug}`]);
     console.log(`[sample] rendering ${pairs.length} built-in pages (no API calls)`);
-  } else if (VIA_PROXY) {
-    console.log(`No local key — generating via deployed proxy: ${PROXY_URL}`);
-  } else {
+  } else if (CAN_GENERATE) {
     console.log('Generating via DeepSeek API directly (local key set).');
+  } else {
+    console.log('No DEEPSEEK_API_KEY — building from ./seo-cache only (no new pages generated).');
   }
 
   console.log('Assembling ./dist (app shell + functions)…');
@@ -217,6 +258,7 @@ async function main() {
     }
     const cached = readCache(p.countrySlug, p.gestureSlug);
     if (cached) { records.set(key, cached); fromCache++; return; }
+    if (!CAN_GENERATE) return;     // no key → cache-only build, skip new pages
     if (newCalls >= LIMIT) return; // leave for a later run
     newCalls++;
     try {
@@ -263,6 +305,9 @@ async function main() {
     urls.map(u => `  <url><loc>${BASE_URL}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +
     `\n</urlset>\n`;
   writeFileSync(join(DIST, 'sitemap.xml'), sitemap);
+
+  // Cache-bust style.css / app.js across every generated HTML file.
+  versionAssets();
 
   console.log('\n── Done ──');
   console.log(`pages written : ${pageCount} pairs + ${countriesWithCounts.length} hubs + 1 index`);

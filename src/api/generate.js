@@ -109,10 +109,12 @@ export async function onRequestPost(context) {
   } else if (code) {
     const paid = await consumeGenerationCredit(env, code);
     if (!paid.ok) {
-      var msg = paid.reason === 'no_credits'
-        ? 'You have no generation credits remaining. Add a pack to make more.'
-        : 'Invalid unlock code. Please check and try again.';
-      return json({ error: msg, reason: paid.reason, upsell: true }, 402);
+      // Identical response whether the code is invalid, depleted, or hit a
+      // transient error — so a code's existence can't be probed (no oracle).
+      return json({
+        error: 'This unlock code has no credits left, or is not valid. Add a pack to make more.',
+        reason: 'no_credits', upsell: true,
+      }, 402);
     }
     charged = { kind: 'paid', code: code, remaining: paid.remaining };
   } else {

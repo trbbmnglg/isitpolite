@@ -10,6 +10,15 @@ export function esc(s) {
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
+// Serialize an object for embedding inside a <script type="application/ld+json">.
+// JSON.stringify does NOT escape < > & — so an AI-generated field containing
+// "</script>" would break out of the tag (stored XSS). Escaping these to \uXXXX
+// keeps the JSON valid (crawlers decode it) and impossible to break out of.
+function jsonLdSafe(obj) {
+  return JSON.stringify(obj)
+    .replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
+}
+
 const VERDICT_CLASS = { polite: 'verdict-polite', caution: 'verdict-caution', rude: 'verdict-rude' };
 function verdictClass(v) { return VERDICT_CLASS[String(v).toLowerCase()] || 'verdict-caution'; }
 function truncate(s, n) { s = String(s || ''); return s.length > n ? s.slice(0, n - 1).trim() + '…' : s; }
@@ -43,15 +52,17 @@ function head(opts) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/style.css" />
-${jsonld.map(j => '  <script type="application/ld+json">' + JSON.stringify(j) + '</script>').join('\n')}
+${jsonld.map(j => '  <script type="application/ld+json">' + jsonLdSafe(j) + '</script>').join('\n')}
 </head>`;
 }
 
 function header() {
   return `<body class="seo-page">
   <header class="site-header" role="banner">
-    <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home">${GLOBE}<span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span></a>
-    <a class="btn-donate" href="${DONATE_URL}" target="_blank" rel="noopener noreferrer">Support</a>
+    <div class="header-inner">
+      <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home">${GLOBE}<span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span></a>
+      <a class="btn-donate" href="/?support=1">Support</a>
+    </div>
   </header>`;
 }
 
