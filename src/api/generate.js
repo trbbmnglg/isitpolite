@@ -1,7 +1,9 @@
-// POST /api/generate — premium artifact orchestrator.
+﻿// POST /api/generate — premium artifact orchestrator.
 // Strict order: originAllowed → rateLimit → validate → credit gate (free then paid)
 // → author (AI) → template → render (Browser Rendering) → deliver + refund on throw.
-import { originAllowed, json, rateLimit, dailyAllowance, refundDaily, consumeGenerationCredit, refundGenerationCredit, sendEmail, normalizeCode, FREE_GEN_PER_DAY } from '../_shared.js';
+import { originAllowed, json, sendEmail, normalizeCode } from '../_shared.js';
+import { rateLimit, dailyAllowance, refundDaily } from '../_rate.js';
+import { consumeGenerationCredit, refundGenerationCredit, FREE_GEN_PER_DAY } from '../_credits.js';
 import {
   buildInfographic, validateInfographic,
   buildDossier, validateDossier,

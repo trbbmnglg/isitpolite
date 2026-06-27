@@ -1,9 +1,11 @@
-// POST /api/checkout → { orderID }
+﻿// POST /api/checkout → { orderID }
 // Creates a PayPal Orders v2 order and returns the order id so the browser
 // can pass it to the PayPal JS SDK onApprove flow.
 // Tier is client-selected but the price/grant are read from server-side TIERS config —
 // the client can never inflate the tier beyond what it paid for.
-import { originAllowed, json, rateLimit, TIER_CURRENCY, TIERS, tierById, paypalBase } from '../_shared.js';
+import { originAllowed, json, paypalBase } from '../_shared.js';
+import { rateLimit } from '../_rate.js';
+import { TIER_CURRENCY, TIERS, tierById } from '../_credits.js';
 
 async function getAccessToken(env) {
   const base = paypalBase(env);

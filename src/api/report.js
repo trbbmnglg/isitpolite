@@ -1,4 +1,5 @@
-import { originAllowed, json, vkeyOf, today, accuracyOf, rateLimit, sendEmail, escHtml, OWNER_EMAIL } from '../_shared.js';
+﻿import { originAllowed, json, vkeyOf, today, accuracyOf, sendEmail, escHtml, OWNER_EMAIL } from '../_shared.js';
+import { rateLimit } from '../_rate.js';
 import { runReportAgent } from '../_agent.js';
 
 const CORROBORATION_THRESHOLD = 3;   // accepted disputes needed before accuracy moves

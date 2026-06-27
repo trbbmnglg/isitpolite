@@ -1,4 +1,4 @@
-// POST /api/paypal-webhook — backstop / reconciliation listener.
+﻿// POST /api/paypal-webhook — backstop / reconciliation listener.
 // Verifies the event with PayPal's server-side signature API, then
 // idempotently mints a tiered license if the capture path somehow missed it.
 // PII-FREE: only stores the opaque event id + capture id + coarse day.
@@ -6,7 +6,8 @@
 // NOTE: the capture endpoint is primary — the webhook only runs if capture failed.
 // The tier is derived from the event's custom_id (set at order creation) so no
 // client value is ever trusted.
-import { json, today, sendEmail, newUnlockCode, tierById, paypalBase } from '../_shared.js';
+import { json, today, sendEmail, newUnlockCode, paypalBase } from '../_shared.js';
+import { tierById } from '../_credits.js';
 
 async function getAccessToken(env) {
   const base = paypalBase(env);

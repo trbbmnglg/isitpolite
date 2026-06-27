@@ -1,10 +1,10 @@
-// GET /api/paypal-config → { clientId, currency, tiers }
+﻿// GET /api/paypal-config → { clientId, currency, tiers }
 // Public and cacheable — lets the front-end load the PayPal JS SDK without
 // hardcoding ids in source. sandbox/live is controlled by PAYPAL_ENV secret.
 //
 // Currency comes from the server-side TIER_CURRENCY constant (single source of
 // truth) so the SDK mount and the checkout order always use the same currency.
-import { TIER_CURRENCY, TIERS } from '../_shared.js';
+import { TIER_CURRENCY, TIERS } from '../_credits.js';
 
 export function onRequestPost() {
   return new Response(JSON.stringify({ error: 'Method not allowed.' }), {

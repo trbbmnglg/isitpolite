@@ -1,4 +1,5 @@
-import { originAllowed, json, today, rateLimit, sendEmail, escHtml, OWNER_EMAIL } from '../_shared.js';
+﻿import { originAllowed, json, today, sendEmail, escHtml, OWNER_EMAIL } from '../_shared.js';
+import { rateLimit } from '../_rate.js';
 import { sanitizeFeedback } from '../_agent.js';
 
 export function onRequestGet() {

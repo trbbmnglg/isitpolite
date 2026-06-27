@@ -10,7 +10,9 @@
 //     // Legacy top-level mirror (keeps existing badge/apply-code working):
 //     valid, remaining, total
 //   }
-import { json, rateLimit, creditStatus, dailyRemaining, nextPacificMidnight, FREE_SEARCH_PER_DAY, FREE_GEN_PER_DAY } from '../_shared.js';
+import { json } from '../_shared.js';
+import { rateLimit, dailyRemaining, nextPacificMidnight } from '../_rate.js';
+import { creditStatus, FREE_SEARCH_PER_DAY, FREE_GEN_PER_DAY } from '../_credits.js';
 
 export function onRequestPost() {
   return json({ error: 'Method not allowed.' }, 405);

@@ -1,4 +1,4 @@
-// POST /api/capture { orderID, email? }
+﻿// POST /api/capture { orderID, email? }
 // Captures a PayPal order and mints a tiered unlock code.
 // PII-FREE: D1 stores only code + pool counters + opaque capture id + coarse day.
 // The email (if supplied) is used ONCE to send the code via Resend, then discarded.
@@ -6,7 +6,9 @@
 // ANTI-TAMPER: the tier (and therefore the credit grant) is read back from the
 // CAPTURED order's custom_id — never from the client request. A client claiming
 // a richer tier at capture time gets exactly what they paid for, not what they ask.
-import { originAllowed, json, rateLimit, today, sendEmail, newUnlockCode, tierById, paypalBase } from '../_shared.js';
+import { originAllowed, json, today, sendEmail, newUnlockCode, paypalBase } from '../_shared.js';
+import { rateLimit } from '../_rate.js';
+import { tierById } from '../_credits.js';
 
 async function getAccessToken(env) {
   const base = paypalBase(env);
