@@ -255,13 +255,13 @@ img, svg { display: block; }
   margin-right: auto;
 }
 .logo:hover { text-decoration: none; }
-.logo-banner-img {
-  height: 36px;
+.logo-svg-img {
+  height: 35px;
   width: auto;
   flex-shrink: 0;
   transition: opacity 0.2s ease;
 }
-.logo:hover .logo-banner-img { opacity: 0.82; }
+.logo:hover .logo-svg-img { opacity: 0.8; }
 .logo-text {
   font-family: var(--font-serif);
   font-size: 1.1rem;
