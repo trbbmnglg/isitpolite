@@ -1,12 +1,39 @@
 name = "isitpolite"
+main = "src/worker.js"
 compatibility_date = "2024-11-01"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = "dist"
 
-# D1 database for community accuracy / reports / feedback.
-# Stores ZERO personal data — only verdict keys, aggregate counts, and
-# AI-sanitized (PII-stripped) report/feedback summaries.
+# Static Assets — serves ./dist as the static site.
+# /api/* has no matching file so those requests fall through to the Worker.
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "404-page"   # serves dist/404.html
+
+# Browser Rendering — requires Workers Paid plan.
+# Used by src/_render.js (htmlToPng / htmlToPdf) for premium artifact generation.
+[browser]
+binding = "BROWSER"
+
+# D1 database for community accuracy / reports / feedback / premium licenses.
+# Stores ZERO personal data — only verdict keys, aggregate counts,
+# AI-sanitized summaries, and coarse (day-level) dates.
+# Premium: random unlock codes + credit counters + opaque PayPal capture ids.
 [[d1_databases]]
 binding = "DB"
 database_name = "isitpolite-db"
 database_id = "2404139f-f8de-47bf-91e3-58b8a6cb0bc9"
+
+# ── Secrets (set via: npx wrangler secret put <NAME>) ──────────────────────
+# Already configured:
+#   DEEPSEEK_API_KEY       — free AI lookups (DeepSeek, via LangChain)
+#   RESEND_API_KEY         — transactional email (feedback + premium unlock codes)
+#   TAVILY_API_KEY         — web-search grounding for the lookup agent
+#
+# Phase 1 — Premium features (add these before deploying Phase 1):
+#   OPENAI_API_KEY         — premium content authoring (GPT-4o / gpt-4o-mini)
+#   PAYPAL_CLIENT_ID       — also served to browser via /api/paypal-config (public by design)
+#   PAYPAL_SECRET          — server-only, used for OAuth token + capture
+#   PAYPAL_WEBHOOK_ID      — from PayPal dashboard webhook settings (for event verification)
+#   PAYPAL_ENV             — "sandbox" | "live"
+#   PAYPAL_CURRENCY        — default "USD" (can be "PHP")

@@ -2618,20 +2618,35 @@ select {
 .premium-btn:hover { opacity: .88; transform: translateY(-1px); }
 .premium-btn:active { transform: translateY(0); }
 
-/* ── Credit badges (search + generation) ──────────────────────────────── */
+/* ── Credit hints (search inside form card; gen inside premium area) ────── */
+.credits-hint {
+  display: none;   /* hidden until JS populates it */
+  text-align: center;
+  font-size: 12px; color: #9CA3AF;
+  margin-top: 10px; line-height: 1.4;
+}
+.credits-hint:not(:empty) { display: block; }
+.credits-hint .hint-count {
+  font-weight: 700; color: var(--primary, #4F46E5);
+}
+.credits-hint .hint-count--warn {
+  font-weight: 700; color: #D97706;   /* amber when ≤2 remaining */
+}
+.credits-hint .hint-count--paid {
+  font-weight: 700; color: #059669;   /* green for purchased balance */
+}
+.credits-hint .hint-sep { color: #D1D5DB; margin: 0 4px; }
+
+/* Gen badge inside the premium modal ready-view — keeps bordered pill style */
 .credits-badge {
   display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
-  padding: 6px 12px; margin: 8px 0;
-  background: #F9FAFB; border: 1px solid #E5E7EB; border-radius: 8px;
-  font-size: 12px; color: #374151;
+  padding: 4px 10px;
+  background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 20px;
+  font-size: 12px; color: #374151; width: fit-content;
 }
 .credits-badge:empty { display: none; }
-.credits-badge--gen { margin: 6px 0 12px; }
 .badge-free { font-weight: 600; color: var(--primary, #4F46E5); }
-.badge-paid {
-  font-weight: 600; color: #059669;
-  background: #D1FAE5; border-radius: 4px; padding: 1px 5px;
-}
+.badge-paid { font-weight: 600; color: #059669; }
 .badge-reset { color: #6B7280; font-size: 11px; }
 
 /* ── Premium tier grid ─────────────────────────────────────────────────── */

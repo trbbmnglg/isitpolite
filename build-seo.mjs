@@ -10,11 +10,13 @@
 //   PowerShell:  $env:DEEPSEEK_API_KEY="sk-..."; node build-seo.mjs
 //   bash:        DEEPSEEK_API_KEY=sk-... node build-seo.mjs
 //
-// Then deploy the assembled folder:
-//   npx wrangler pages deploy dist --project-name isitpolite --branch main
+// Then deploy (Worker + Static Assets):
+//   npx wrangler deploy
 //
-// ./dist contains ONLY public assets (app shell + functions + etiquette pages
-// + sitemap). Build tooling and the AI cache (./seo-cache) never ship.
+// ./dist contains ONLY public/static assets (app shell + etiquette pages
+// + sitemap). API/Worker code lives in ./src and is bundled by wrangler at
+// deploy time — it is NOT copied into ./dist.
+// Build tooling and the AI cache (./seo-cache) never ship.
 // Generated content is cached in ./seo-cache so re-runs are incremental.
 // ─────────────────────────────────────────────────────────────────────────
 
@@ -33,7 +35,15 @@ const DIST      = join(ROOT, 'dist');
 const OUT_DIR   = join(DIST, 'etiquette');
 
 // Public files copied verbatim into ./dist (the app shell).
-const STATIC_FILES = ['index.html', '404.html', 'privacy.html', 'app.js', 'style.css', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'og-image.png', 'gcash-qr.png'];
+// app.js and style.css are NOT listed here — they are assembled from src/js/ and src/css/.
+const STATIC_FILES = ['index.html', '404.html', 'privacy.html', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'favicon.ico', 'og-image.png', 'gcash-qr.png', 'icon-192.png', 'icon-512.png'];
+
+// JS source modules — concatenated into a single IIFE-wrapped dist/app.js.
+// Order matters: later modules call functions defined in earlier ones.
+const JS_MODULES = ['config','init','check','history','guide','quiz','compare','generate','modal','lookup','community','ui'];
+
+// CSS source files — concatenated in order into dist/style.css.
+const CSS_PARTS = ['base','layout','form-result','sections','app-shell','guide','history','compare','community','misc','premium'];
 
 const args   = process.argv.slice(2);
 const SAMPLE = args.includes('--sample');
@@ -152,9 +162,20 @@ function assembleBase() {
     if (existsSync(src)) copyFileSync(src, join(DIST, f));
     else console.warn(`  (skipped missing ${f})`);
   }
-  if (existsSync(join(ROOT, 'functions'))) {
-    cpSync(join(ROOT, 'functions'), join(DIST, 'functions'), { recursive: true });
-  }
+
+  // Concatenate JS source modules into a single IIFE-wrapped dist/app.js.
+  const jsContent = JS_MODULES.map(m => readFileSync(join(ROOT, 'src/js', m + '.js'), 'utf8')).join('\n');
+  writeFileSync(join(DIST, 'app.js'), `(function () {\n  'use strict';\n${jsContent}\n})();\n`);
+  console.log(`  built dist/app.js from ${JS_MODULES.length} modules`);
+
+  // Concatenate CSS partials into dist/style.css.
+  const cssContent = CSS_PARTS.map(p => readFileSync(join(ROOT, 'src/css', p + '.css'), 'utf8')).join('\n');
+  writeFileSync(join(DIST, 'style.css'), cssContent);
+  console.log(`  built dist/style.css from ${CSS_PARTS.length} partials`);
+
+  // NOTE: API/Worker source lives in ./src and is bundled by wrangler at
+  // deploy time. Do NOT copy ./functions or ./src into ./dist — dist is
+  // pure static assets only.
 }
 
 // ── Simple promise pool ──────────────────────────────────────────────────
@@ -247,7 +268,7 @@ async function main() {
   console.log(`pages written : ${pageCount} pairs + ${countriesWithCounts.length} hubs + 1 index`);
   if (!SAMPLE) console.log(`API calls     : ${generated} new, ${fromCache} from cache`);
   console.log(`sitemap URLs  : ${urls.length}`);
-  console.log(`\nDeploy:  npx wrangler pages deploy dist --project-name isitpolite --branch main`);
+  console.log(`\nDeploy:  npx wrangler deploy`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

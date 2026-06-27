@@ -7,6 +7,9 @@ dist/
 # wrangler local state
 .wrangler/
 
+# local secrets — never commit
+.dev.vars
+
 # logs / os
 *.log
 npm-debug.log*

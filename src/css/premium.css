@@ -1,0 +1,169 @@
+﻿/* ── Utility ────────────────────────────────────────────────────────────── */
+.hidden { display: none !important; }
+
+/* ── Premium modal ─────────────────────────────────────────────────────── */
+.modal-box-premium {
+  max-width: 440px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding-right: 1.5rem; /* keep scrollbar outside text */
+}
+.premium-price-badge {
+  display: inline-flex; align-items: baseline; gap: 6px;
+  background: var(--primary-light); border-radius: 12px; padding: 10px 18px;
+  margin-bottom: 16px;
+}
+.price-num { font-size: 28px; font-weight: 800; color: var(--primary); }
+.price-unit { font-size: 13px; color: var(--muted); }
+.premium-delivery-row {
+  display: flex; gap: 16px; margin: 10px 0 6px;
+}
+.premium-radio-label {
+  display: flex; align-items: center; gap: 6px; font-size: 14px; cursor: pointer;
+}
+.premium-email-input {
+  width: 100%; padding: 9px 12px; border: 1px solid #D1D5DB; border-radius: 8px;
+  font-size: 14px; outline: none; transition: border-color .15s;
+}
+.premium-email-input:focus { border-color: var(--primary); }
+.premium-fineprint { font-size: 11px; color: var(--muted); margin-top: 5px; }
+.premium-divider {
+  display: flex; align-items: center; gap: 10px;
+  color: var(--muted); font-size: 12px; margin: 18px 0 12px;
+}
+.premium-divider::before, .premium-divider::after {
+  content: ''; flex: 1; height: 1px; background: #E5E7EB;
+}
+.premium-code-row { display: flex; gap: 8px; }
+.premium-code-input {
+  flex: 1; padding: 9px 12px; border: 1px solid #D1D5DB; border-radius: 8px;
+  font-size: 14px; font-family: monospace; letter-spacing: 0.05em;
+  text-transform: uppercase; outline: none; transition: border-color .15s;
+}
+.premium-code-input:focus { border-color: var(--primary); }
+.btn-cta-sm { padding: 8px 14px; font-size: 13px; }
+.premium-pay-error {
+  margin-top: 8px; font-size: 13px; color: var(--rude);
+}
+.premium-credits-badge {
+  display: flex; align-items: center; gap: 7px;
+  background: var(--primary-light); border-radius: 10px; padding: 9px 14px;
+  font-size: 14px; color: var(--primary-dark); font-weight: 600; margin-bottom: 16px;
+}
+.premium-scenario-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.premium-scenario-textarea {
+  width: 100%; padding: 10px 12px; border: 1px solid #D1D5DB; border-radius: 8px;
+  font-size: 14px; resize: vertical; outline: none; transition: border-color .15s;
+}
+.premium-scenario-textarea:focus { border-color: var(--primary); }
+.premium-generate-btn { width: 100%; margin-top: 12px; justify-content: center; gap: 8px; }
+.premium-link-btn {
+  background: none; border: none; color: var(--muted); font-size: 13px;
+  text-decoration: underline; cursor: pointer; padding: 0; margin-top: 10px;
+  display: block; width: 100%; text-align: center;
+}
+.premium-link-btn:hover { color: var(--primary); }
+
+/* Premium CTA button appended to result cards */
+.premium-action-row {
+  margin-top: 16px; padding-top: 12px;
+  border-top: 1px solid var(--border, #E5E7EB);
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.premium-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px; border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary) 0%, #7C3AED 100%);
+  color: #fff; font-size: 13px; font-weight: 600; border: none; cursor: pointer;
+  transition: opacity .15s, transform .1s;
+}
+.premium-btn:hover { opacity: .88; transform: translateY(-1px); }
+.premium-btn:active { transform: translateY(0); }
+
+/* ── Credit hints (search inside form card; gen inside premium area) ────── */
+.credits-hint {
+  display: none;   /* hidden until JS populates it */
+  text-align: center;
+  font-size: 12px; color: #9CA3AF;
+  margin-top: 10px; line-height: 1.4;
+}
+.credits-hint:not(:empty) { display: block; }
+.credits-hint .hint-count {
+  font-weight: 700; color: var(--primary, #4F46E5);
+}
+.credits-hint .hint-count--warn {
+  font-weight: 700; color: #D97706;   /* amber when ≤2 remaining */
+}
+.credits-hint .hint-count--paid {
+  font-weight: 700; color: #059669;   /* green for purchased balance */
+}
+.credits-hint .hint-sep { color: #D1D5DB; margin: 0 4px; }
+
+/* Gen badge inside the premium modal ready-view — keeps bordered pill style */
+.credits-badge {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  padding: 4px 10px;
+  background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 20px;
+  font-size: 12px; color: #374151; width: fit-content;
+}
+.credits-badge:empty { display: none; }
+.badge-free { font-weight: 600; color: var(--primary, #4F46E5); }
+.badge-paid { font-weight: 600; color: #059669; }
+.badge-reset { color: #6B7280; font-size: 11px; }
+
+/* ── Premium tier grid ─────────────────────────────────────────────────── */
+.premium-tier-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 12px 0;
+}
+@media (min-width: 480px) {
+  .premium-tier-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.premium-tier-card {
+  position: relative;
+  display: flex; flex-direction: column; align-items: center;
+  gap: 4px; padding: 14px 10px 12px;
+  border: 2px solid #E5E7EB; border-radius: 12px;
+  cursor: pointer; text-align: center;
+  transition: border-color .15s, box-shadow .15s;
+  /* ensure ≥44px tall for touch targets */
+  min-height: 44px;
+}
+.premium-tier-card input[type="radio"] {
+  position: absolute; opacity: 0; width: 0; height: 0;
+}
+.premium-tier-card:has(input:checked),
+.premium-tier-card:focus-within {
+  border-color: var(--primary, #4F46E5);
+  box-shadow: 0 0 0 3px rgba(79,70,229,.15);
+}
+.premium-tier-card:hover { border-color: #A5B4FC; }
+.premium-tier-card--best { border-color: #A5B4FC; background: #F5F3FF; }
+
+.tier-best-pill {
+  position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+  background: var(--primary, #4F46E5); color: #fff;
+  font-size: 10px; font-weight: 700; padding: 2px 8px;
+  border-radius: 20px; white-space: nowrap; letter-spacing: .03em;
+}
+.tier-label { font-weight: 700; font-size: 14px; color: #111827; }
+.tier-price  { font-size: 22px; font-weight: 700; color: var(--primary, #4F46E5); }
+.tier-credits { font-size: 11px; color: #6B7280; line-height: 1.4; }
+
+/* ── Premium wall message (shown when a 402 opens the modal) ──────────── */
+.premium-wall-msg {
+  padding: 10px 14px; margin: 0 0 12px;
+  background: #FEF3C7; border: 1px solid #FCD34D; border-radius: 8px;
+  font-size: 13px; color: #92400E; line-height: 1.5;
+}
+
+/* ── "Save your code" notice after purchase ───────────────────────────── */
+.premium-save-notice {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 10px 14px; margin: 0 0 12px;
+  background: #FEF9C3; border: 1px solid #FDE68A; border-radius: 8px;
+  font-size: 13px; color: #713F12; font-weight: 600; line-height: 1.5;
+}

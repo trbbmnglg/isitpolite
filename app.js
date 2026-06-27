@@ -1095,7 +1095,8 @@
   // ═══════════════════════════════════════════════════════════════════════
 
   // Current pending generation request (set by addPremiumButton; read by modal).
-  var _pendingPremium = null; // { kind, params }
+  var _pendingPremium = null;   // { kind, params }
+  var _freeGenRemaining = 1;   // optimistic default; updated by refreshAllBadges()
 
   // Call /api/generate with the unlock code, kind, and params.
   // Returns null (download triggered) or { ok, remaining } (email).
@@ -1171,24 +1172,28 @@
         var freeSearchLimit = (d.free && d.free.search) ? d.free.search.limit : 10;
         var freeGen = (d.free && d.free.generation) ? d.free.generation.remaining : 0;
         var freeGenLimit = (d.free && d.free.generation) ? d.free.generation.limit : 1;
+        _freeGenRemaining = freeGen;  // keep modal gate in sync
         var pSearch = (d.purchased && d.purchased.search) ? d.purchased.search : { remaining: 0, total: 0 };
         var pGen = (d.purchased && d.purchased.generation) ? d.purchased.generation : { remaining: 0, total: 0 };
 
-        // Search badge
+        // Search hint (inside form card — subtle inline text)
         var sBadge = document.getElementById('search-credits-badge');
         if (sBadge) {
-          var sHtml = '<span class="badge-free">Free: ' + freeSearch + '/' + freeSearchLimit + ' today</span>';
-          if (pSearch.total > 0) sHtml += ' <span class="badge-paid">+' + pSearch.remaining + ' paid</span>';
-          sHtml += ' <span class="badge-reset">Resets midnight Pacific</span>';
+          var sCountClass = freeSearch <= 2 ? 'hint-count--warn' : 'hint-count';
+          var sHtml = '<span class="' + sCountClass + '">' + freeSearch + '/' + freeSearchLimit + ' free checks</span>'
+                    + '<span class="hint-sep">·</span>resets midnight Pacific';
+          if (pSearch.total > 0) {
+            sHtml += '<span class="hint-sep">·</span><span class="hint-count--paid">' + pSearch.remaining + ' paid</span>';
+          }
           sBadge.innerHTML = sHtml;
         }
 
-        // Generation badge
+        // Generation badge (inside premium area — keeps pill style)
         var gBadge = document.getElementById('gen-credits-badge');
         if (gBadge) {
-          var gHtml = '<span class="badge-free">Free: ' + freeGen + '/' + freeGenLimit + ' today</span>';
+          var gHtml = '<span class="badge-free">Free: ' + freeGen + '/' + freeGenLimit + '</span>';
           if (pGen.total > 0) gHtml += ' <span class="badge-paid">+' + pGen.remaining + ' paid</span>';
-          gHtml += ' <span class="badge-reset">Resets midnight Pacific</span>';
+          gHtml += ' <span class="badge-reset">· resets midnight Pacific</span>';
           gBadge.innerHTML = gHtml;
         }
 
@@ -1286,7 +1291,7 @@
       else { wallMsg.textContent = ''; wallMsg.classList.add('hidden'); }
     }
 
-    if (!forceBuy && code) {
+    if (!forceBuy && (code || _freeGenRemaining > 0)) {
       switchPremiumView('ready');
       refreshAllBadges();
     } else {
