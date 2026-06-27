@@ -33,7 +33,7 @@ const DIST      = join(ROOT, 'dist');
 const OUT_DIR   = join(DIST, 'etiquette');
 
 // Public files copied verbatim into ./dist (the app shell).
-const STATIC_FILES = ['index.html', '404.html', 'privacy.html', 'app.js', 'style.css', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.ico', 'favicon.png', 'icon-192.png', 'icon-512.png', 'og-image.png', 'gcash-qr.png', 'logo.svg'];
+const STATIC_FILES = ['index.html', '404.html', 'privacy.html', 'app.js', 'style.css', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'og-image.png', 'gcash-qr.png'];
 
 const args   = process.argv.slice(2);
 const SAMPLE = args.includes('--sample');

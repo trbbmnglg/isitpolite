@@ -255,13 +255,23 @@ img, svg { display: block; }
   margin-right: auto;
 }
 .logo:hover { text-decoration: none; }
-.logo-svg-img {
-  height: 35px;
-  width: auto;
+.logo-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--primary) 0%, #6366f1 100%);
   flex-shrink: 0;
-  transition: opacity 0.2s ease;
+  box-shadow: 0 2px 8px rgba(79,70,229,0.35);
 }
-.logo:hover .logo-svg-img { opacity: 0.8; }
+.logo-globe {
+  color: #fff;
+  flex-shrink: 0;
+  transition: transform 0.55s var(--ease-std);
+}
+.logo:hover .logo-globe { transform: rotate(180deg); }
 .logo-text {
   font-family: var(--font-serif);
   font-size: 1.1rem;

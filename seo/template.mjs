@@ -14,7 +14,7 @@ const VERDICT_CLASS = { polite: 'verdict-polite', caution: 'verdict-caution', ru
 function verdictClass(v) { return VERDICT_CLASS[String(v).toLowerCase()] || 'verdict-caution'; }
 function truncate(s, n) { s = String(s || ''); return s.length > n ? s.slice(0, n - 1).trim() + '…' : s; }
 
-const LOGO_IMG = '<img src="/logo.svg" class="logo-svg-img" alt="IsItPolite.com" width="180" height="35" />';
+const GLOBE = '<svg class="logo-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
 
 function head(opts) {
   const { title, description, canonical, jsonld } = opts;
@@ -28,9 +28,7 @@ function head(opts) {
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="${esc(canonical)}" />
   <meta name="theme-color" content="#4F46E5" />
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
-  <link rel="apple-touch-icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="${esc(SITE_NAME)}" />
   <meta property="og:title" content="${esc(title)}" />
@@ -52,7 +50,7 @@ ${jsonld.map(j => '  <script type="application/ld+json">' + JSON.stringify(j) + 
 function header() {
   return `<body class="seo-page">
   <header class="site-header" role="banner">
-    <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home">${LOGO_IMG}</a>
+    <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home">${GLOBE}<span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span></a>
     <a class="btn-donate" href="${DONATE_URL}" target="_blank" rel="noopener noreferrer">Support</a>
   </header>`;
 }
