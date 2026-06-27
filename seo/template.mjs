@@ -28,7 +28,9 @@ function head(opts) {
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="${esc(canonical)}" />
   <meta name="theme-color" content="#4F46E5" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="${esc(SITE_NAME)}" />
   <meta property="og:title" content="${esc(title)}" />
