@@ -1,4 +1,4 @@
-﻿/* ── Chip entrance (applied via JS with animation-delay) ──────────────── */
+/* ── Chip entrance (applied via JS with animation-delay) ──────────────── */
 .chip-enter {
   animation: chipPop 0.35s var(--ease-out) both;
 }

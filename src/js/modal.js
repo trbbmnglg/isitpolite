@@ -1,4 +1,4 @@
-﻿  // ── Premium modal ────────────────────────────────────────────────────────
+  // ── Premium modal ────────────────────────────────────────────────────────
   var _paypalLoaded = false;
   var _paypalLoading = false;
   var selectedTierId = 't1';  // default tier for PayPal createOrder
@@ -71,6 +71,12 @@
     // Show scenario textarea only for scenario kind.
     var scenWrap = document.getElementById('premium-scenario-wrap');
     if (scenWrap) scenWrap.classList.toggle('hidden', kind !== 'scenario');
+
+    // Reset delivery choice to Download and hide the email field on every open.
+    var ppDlRadio   = document.getElementById('pp-dl-radio');
+    var ppEmailField = document.getElementById('pp-email-field');
+    if (ppDlRadio)    ppDlRadio.checked = true;
+    if (ppEmailField) ppEmailField.classList.add('hidden');
 
     // Show the wall message if provided.
     var wallMsg = document.getElementById('premium-wall-msg');
@@ -216,6 +222,8 @@
     if (changeCode) {
       changeCode.addEventListener('click', function () {
         setUnlockCode('');
+        var wm = document.getElementById('premium-wall-msg');
+        if (wm) { wm.textContent = ''; wm.classList.add('hidden'); }
         switchPremiumView('buy');
       });
     }

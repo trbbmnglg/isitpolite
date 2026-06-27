@@ -1,6 +1,5 @@
-﻿
+
   // ── Configuration ──────────────────────────────────────────────────────
-  var API_URL     = '/api/ask';     // legacy proxy (kept for build tooling)
   var API_LOOKUP  = '/api/lookup';  // retrieval-augmented agent (Check/Compare/Trip/Guide/Quiz)
   var PRIVACY_KEY = 'isitpolite_privacy_accepted';
   var HISTORY_KEY = 'isitpolite_history';

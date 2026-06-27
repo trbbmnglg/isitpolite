@@ -1,4 +1,4 @@
-﻿  // ═══════════════════════════════════════════════════════════════════════
+  // ═══════════════════════════════════════════════════════════════════════
   // INIT
   // ═══════════════════════════════════════════════════════════════════════
   function init() {
@@ -68,6 +68,9 @@
     Array.prototype.forEach.call(document.querySelectorAll('.js-donate-open'), function (b) { b.addEventListener('click', openDonate); });
     var dClose = document.getElementById('donate-close');
     if (dClose) dClose.addEventListener('click', closeDonate);
+    // Static SEO/legal pages link their Support button here as /?support=1
+    // (they have no modal of their own) — open it on arrival.
+    try { if (new URLSearchParams(location.search).has('support')) openDonate(); } catch (_) {}
     var gq = document.getElementById('gcash-qr');
     if (gq) gq.addEventListener('error', function () { var g = document.getElementById('donate-gcash'); if (g) g.style.display = 'none'; });
 

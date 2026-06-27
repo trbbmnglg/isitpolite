@@ -1,4 +1,4 @@
-﻿  // ═══════════════════════════════════════════════════════════════════════
+  // ═══════════════════════════════════════════════════════════════════════
   // CUSTOM COMBOBOX — progressively enhances every native <select>
   // The native <select> stays in the DOM (value store + accessible fallback);
   // its `value` setter is intercepted so programmatic changes sync the UI.

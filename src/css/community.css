@@ -1,8 +1,19 @@
-﻿/* ═══════════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════
    PROGRAMMATIC SEO PAGES (/etiquette/**)
    ═══════════════════════════════════════════════════════════════════════ */
+/* SEO / legal headers have only a logo + Support (no app nav), so the app's
+   desktop `.logo { margin-right: 0 }` rule would bunch them together. Spread
+   them to the edges of the header. */
+.seo-page .header-inner { justify-content: space-between; }
+
 .seo-main {
+  /* <main> gets `flex: 1` from layout.css, making it a direct flex child of
+     the column <body>. On a flex item `margin: 0 auto` does NOT center on the
+     cross axis the way it does in normal flow, so add an explicit width +
+     align-self to center the content box reliably. */
+  width: 100%;
   max-width: 820px;
+  align-self: center;
   margin: 0 auto;
   padding: 1.5rem 1.25rem 3rem;
 }

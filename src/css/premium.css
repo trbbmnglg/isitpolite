@@ -1,4 +1,4 @@
-﻿/* ── Utility ────────────────────────────────────────────────────────────── */
+/* ── Utility ────────────────────────────────────────────────────────────── */
 .hidden { display: none !important; }
 
 /* ── Premium modal ─────────────────────────────────────────────────────── */
@@ -6,8 +6,16 @@
   max-width: 440px;
   max-height: 90vh;
   overflow-y: auto;
-  padding-right: 1.5rem; /* keep scrollbar outside text */
+  /* Reserve space for scrollbar without layout shift; Firefox thin bar */
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #D1D5DB transparent;
 }
+/* WebKit thin scrollbar — subtle 4 px track, indigo thumb on hover */
+.modal-box-premium::-webkit-scrollbar { width: 4px; }
+.modal-box-premium::-webkit-scrollbar-track { background: transparent; margin: 8px 0; }
+.modal-box-premium::-webkit-scrollbar-thumb { background: #E5E7EB; border-radius: 99px; }
+.modal-box-premium::-webkit-scrollbar-thumb:hover { background: #A5B4FC; }
 .premium-price-badge {
   display: inline-flex; align-items: baseline; gap: 6px;
   background: var(--primary-light); border-radius: 12px; padding: 10px 18px;
@@ -104,7 +112,8 @@
   display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
   padding: 4px 10px;
   background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 20px;
-  font-size: 12px; color: #374151; width: fit-content;
+  font-size: 12px; color: #374151;
+  width: fit-content; margin: 6px auto 0;
 }
 .credits-badge:empty { display: none; }
 .badge-free { font-weight: 600; color: var(--primary, #4F46E5); }
@@ -159,6 +168,7 @@
   background: #FEF3C7; border: 1px solid #FCD34D; border-radius: 8px;
   font-size: 13px; color: #92400E; line-height: 1.5;
 }
+.premium-wall-msg:empty { display: none !important; }
 
 /* ── "Save your code" notice after purchase ───────────────────────────── */
 .premium-save-notice {
