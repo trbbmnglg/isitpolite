@@ -34,6 +34,9 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is tipping polite in Japan?","acceptedAnswer":{"@type":"Answer","text":"Tipping is considered rude in Japan. Service is a matter of professional pride, already included in the price."}},{"@type":"Question","name":"Is thumbs up offensive in Iran?","acceptedAnswer":{"@type":"Answer","text":"Yes — thumbs up carries the same meaning as the middle finger in Western cultures."}},{"@type":"Question","name":"Is showing the soles of feet rude in Thailand?","acceptedAnswer":{"@type":"Answer","text":"Yes — feet are the lowest, most spiritually unclean part of the body in Thai culture."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"IsItPolite.com","alternateName":"Is It Polite","url":"https://isitpolite.com"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"IsItPolite.com","url":"https://isitpolite.com","logo":"https://isitpolite.com/favicon.svg"}</script>
+  <!-- PayPal SDK is loaded dynamically by app.js after fetching /api/paypal-config
+       so the client-id is never hardcoded in source. The script tag is injected only
+       when the premium modal is first opened. -->
 </head>
 <body>
 
@@ -54,7 +57,10 @@
     <div class="header-inner">
       <a class="logo" href="/" aria-label="IsItPolite.com — Home">
         <span class="logo-badge" aria-hidden="true"><svg class="logo-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="19" height="19"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
-        <span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span>
+        <span class="logo-wordmark">
+          <span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span>
+          <span class="header-tagline">Cultural intelligence for curious travelers.</span>
+        </span>
       </a>
       <nav class="app-nav" role="navigation" aria-label="Main navigation">
         <div class="nav-inner">
@@ -105,9 +111,9 @@
       <h2 id="modal-title">A quick note on your privacy</h2>
       <p>Your gesture, country, and context are sent to a <strong>third-party AI service</strong> to generate a cultural etiquette response.</p>
       <ul class="modal-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> We collect <strong>no personal data</strong> — no accounts, no names, no IP stored, no tracking cookies.</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> If you <strong>report or confirm</strong> a verdict or send feedback, we store only an anonymous, AI-sanitized summary to improve accuracy — never your identity.</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Built to align with <strong>GDPR &amp; global privacy</strong> principles. <a href="/privacy">Read our privacy notice →</a></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>We collect <strong>no personal data</strong> — no accounts, no names, no IP stored, no tracking cookies.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>If you <strong>report or confirm</strong> a verdict or send feedback, we store only an anonymous, AI-sanitized summary to improve accuracy — never your identity.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Built to align with <strong>GDPR &amp; global privacy</strong> principles. <a href="/privacy">Read our privacy notice →</a></span></li>
       </ul>
       <button id="modal-accept" class="btn-cta">I Understand &amp; Agree</button>
     </div>
@@ -172,6 +178,9 @@
           </button>
         </div>
       </section>
+
+      <!-- Search credit badge — updated by refreshAllBadges() in app.js -->
+      <div id="search-credits-badge" class="credits-badge" aria-live="polite"></div>
 
       <section id="result-area" aria-live="polite" aria-atomic="true" class="result-section"></section>
 
@@ -422,7 +431,7 @@
           <svg class="logo-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           <span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span>
         </a>
-        <p class="footer-tagline">Free AI-powered cultural etiquette checker for travelers,<br />business professionals, and curious minds.</p>
+        <p class="footer-tagline">Cultural intelligence for curious travelers.</p>
       </div>
       <div class="footer-support">
         <p>Enjoying the tool? Buy me a coffee.</p>
@@ -485,6 +494,94 @@
       <p class="modal-fineprint">Please don't include personal details — submissions are anonymized automatically and we store no personal data.</p>
       <div id="feedback-result" aria-live="polite"></div>
       <button id="feedback-send" class="btn-cta" type="button">Send feedback</button>
+    </div>
+  </div>
+
+  <!-- Premium Modal — PayPal Checkout + code redemption -->
+  <div id="premium-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="premium-title">
+    <div class="modal-box modal-box-premium">
+      <button type="button" class="modal-close" id="premium-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="modal-globe" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="44" height="44"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+      </div>
+      <h2 id="premium-title">Premium AI Generation</h2>
+
+      <!-- State: need to purchase -->
+      <div id="premium-buy-view">
+        <!-- Wall message (shown when a 402 opens this modal) -->
+        <p id="premium-wall-msg" class="premium-wall-msg hidden" role="alert"></p>
+
+        <p style="margin-bottom:14px">Free users get <strong>10 checks</strong> and <strong>1 creation</strong> each day. Need more? Grab a one-time pack — credits never expire.</p>
+
+        <!-- Tier grid — rendered from /api/paypal-config by app.js -->
+        <div id="premium-tier-grid" class="premium-tier-grid" role="radiogroup" aria-label="Choose a credit pack"></div>
+
+        <!-- Delivery options -->
+        <div class="premium-delivery-row" role="group" aria-label="Delivery method" style="margin-top:16px">
+          <label class="premium-radio-label">
+            <input type="radio" name="pp-delivery" value="download" checked id="pp-dl-radio"> Download to device
+          </label>
+          <label class="premium-radio-label">
+            <input type="radio" name="pp-delivery" value="email" id="pp-email-radio"> Email me a copy
+          </label>
+        </div>
+        <div id="pp-email-field" class="hidden" style="margin-top:8px">
+          <input type="email" id="pp-email-input" class="premium-email-input" placeholder="your@email.com" autocomplete="email" aria-label="Email address for delivery">
+          <p class="premium-fineprint">Your email is used once to deliver the file. Never stored or shared.</p>
+        </div>
+
+        <!-- PayPal Smart Buttons mount point -->
+        <div id="paypal-button-container" style="margin-top:18px"></div>
+        <p id="premium-pay-error" class="premium-pay-error hidden" role="alert"></p>
+
+        <div class="premium-divider"><span>or enter an existing code</span></div>
+        <div class="premium-code-row">
+          <input type="text" id="premium-code-input" class="premium-code-input" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="19" autocomplete="off" aria-label="Unlock code" spellcheck="false">
+          <button type="button" id="premium-code-apply" class="btn-cta btn-cta-sm">Apply</button>
+        </div>
+        <p id="premium-code-error" class="premium-pay-error hidden" role="alert"></p>
+      </div>
+
+      <!-- State: code loaded, ready to generate -->
+      <div id="premium-ready-view" class="hidden">
+        <!-- "Save your code" notice — shown once after a successful purchase -->
+        <p id="premium-save-notice" class="premium-save-notice hidden" role="status">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Save this code — it is your only receipt. Credits never expire.
+        </p>
+        <div class="premium-credits-badge" id="premium-credits-display" aria-live="polite">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span id="premium-credits-text">Loading credits…</span>
+        </div>
+        <!-- Generation credit badge — updated by refreshAllBadges() -->
+        <div id="gen-credits-badge" class="credits-badge credits-badge--gen" aria-live="polite"></div>
+        <!-- Scenario Coach input (only visible when kind=scenario) -->
+        <div id="premium-scenario-wrap" class="hidden">
+          <label class="premium-scenario-label" for="premium-scenario-input">Describe your situation</label>
+          <textarea id="premium-scenario-input" class="premium-scenario-textarea" rows="3" maxlength="600" placeholder="e.g. I'm attending a wedding in Japan and unsure how to greet the family..." aria-label="Describe your scenario"></textarea>
+          <p id="premium-scenario-pii-msg" class="premium-pay-error hidden" role="alert"></p>
+        </div>
+        <!-- Delivery options (repeated for ready state) -->
+        <div class="premium-delivery-row" role="group" aria-label="Delivery method">
+          <label class="premium-radio-label">
+            <input type="radio" name="rdy-delivery" value="download" checked id="rdy-dl-radio"> Download to device
+          </label>
+          <label class="premium-radio-label">
+            <input type="radio" name="rdy-delivery" value="email" id="rdy-email-radio"> Email me a copy
+          </label>
+        </div>
+        <div id="rdy-email-field" class="hidden" style="margin-top:8px">
+          <input type="email" id="rdy-email-input" class="premium-email-input" placeholder="your@email.com" autocomplete="email" aria-label="Email address for delivery">
+        </div>
+        <button type="button" id="premium-generate-btn" class="btn-cta premium-generate-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Generate
+        </button>
+        <p id="premium-gen-error" class="premium-pay-error hidden" role="alert"></p>
+        <button type="button" id="premium-change-code" class="premium-link-btn">Use a different code</button>
+      </div>
     </div>
   </div>
 

@@ -40,3 +40,43 @@ CREATE TABLE IF NOT EXISTS rate (
   count        INTEGER NOT NULL,
   window_start INTEGER NOT NULL
 );
+
+-- ── Premium unlock codes (PII-FREE BY DESIGN) ──────────────────────────────
+-- Stores ONLY: a random code, two credit pools, an opaque PayPal capture id,
+-- and a coarse day. No buyer name / email / card / PayPal-id is ever persisted.
+--
+-- Two-currency design (v2):
+--   search_total/search_used  — lookup credits granted by a pack
+--   gen_total/gen_used        — generation credits granted by a pack
+--   credits_total/credits_used — LEGACY (kept inert for old $2.99 codes; do not drop)
+--
+-- LIVE MIGRATION (run ONCE against the existing DB, then never again):
+--   ALTER TABLE licenses ADD COLUMN search_total INTEGER NOT NULL DEFAULT 0;
+--   ALTER TABLE licenses ADD COLUMN search_used  INTEGER NOT NULL DEFAULT 0;
+--   ALTER TABLE licenses ADD COLUMN gen_total    INTEGER NOT NULL DEFAULT 0;
+--   ALTER TABLE licenses ADD COLUMN gen_used     INTEGER NOT NULL DEFAULT 0;
+--   UPDATE licenses SET gen_total = credits_total, gen_used = credits_used
+--    WHERE gen_total = 0 AND gen_used = 0 AND (credits_total > 0 OR credits_used > 0);
+--   UPDATE licenses SET search_total=999, gen_total=999, search_used=0, gen_used=0
+--    WHERE code='TEST-0000-TEST-0000';
+--
+-- Apply schema to a FRESH DB with:
+--   npx wrangler d1 execute isitpolite-db --remote --file=schema.sql
+CREATE TABLE IF NOT EXISTS licenses (
+  code          TEXT PRIMARY KEY,             -- XXXX-XXXX-XXXX-XXXX (Crockford base32, ~80 bits)
+  credits_total INTEGER NOT NULL DEFAULT 5,   -- LEGACY — kept inert; use gen_total for new mints
+  credits_used  INTEGER NOT NULL DEFAULT 0,   -- LEGACY — kept inert; use gen_used for new mints
+  search_total  INTEGER NOT NULL DEFAULT 0,   -- paid lookup credits granted by pack
+  search_used   INTEGER NOT NULL DEFAULT 0,
+  gen_total     INTEGER NOT NULL DEFAULT 0,   -- paid generation credits granted by pack
+  gen_used      INTEGER NOT NULL DEFAULT 0,
+  order_ref     TEXT UNIQUE,                  -- PayPal capture id — idempotency key only (no PII)
+  created_day   TEXT NOT NULL                 -- YYYY-MM-DD (coarse, non-identifying)
+);
+CREATE INDEX IF NOT EXISTS idx_licenses_order ON licenses(order_ref);
+
+-- PayPal webhook event deduplication — prevents double-granting on replay.
+CREATE TABLE IF NOT EXISTS webhook_events (
+  event_id    TEXT PRIMARY KEY,
+  created_day TEXT NOT NULL
+);

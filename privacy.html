@@ -28,7 +28,7 @@
     <div class="seo-hero">
       <p class="seo-kicker">Privacy-first by design</p>
       <h1>Privacy Notice</h1>
-      <p class="seo-hero-sub">IsItPolite.com is built to collect <strong>no personal data</strong>. This notice explains exactly what that means, in plain language. Last updated: 26 June 2026.</p>
+      <p class="seo-hero-sub">IsItPolite.com is built to collect <strong>no personal data</strong>. This notice explains exactly what that means, in plain language. Last updated: 28 June 2026.</p>
     </div>
 
     <div class="privacy-badge" style="margin-bottom:1.5rem">
@@ -50,6 +50,20 @@
     <section class="legal-section">
       <h2>What is sent to the AI service</h2>
       <p>To generate an etiquette answer, the gesture, country, and context you enter are sent to a third-party AI provider for processing. These are query terms, not personal data, and we do not attach any identifier to them. We ask you to avoid entering personal information in free-text fields; report and feedback text is automatically screened and stripped of any personal details before anything is stored.</p>
+      <p><strong>Premium artifact generation</strong> (paid feature): when you generate an infographic, dossier, coaching card, certificate, or phrasebook, the etiquette data from your existing result is sent to a separate AI service for content authoring. The resulting content is then passed through <strong>Cloudflare Browser Rendering</strong> to produce the final image or PDF. Both of these are <strong>transient processors</strong> — they are used in-flight for the generation and do not retain your data after the request completes.</p>
+    </section>
+
+    <section class="legal-section">
+      <h2>Premium payments</h2>
+      <p>One-time credit packs ($10 / $15 / $20) are processed by <strong>PayPal</strong>. IsItPolite.com never sees or stores your payment details (card number, PayPal account, name). The only information we retain after a successful payment is:</p>
+      <ul>
+        <li>A random, computer-generated <strong>unlock code</strong> (e.g. XXXX-XXXX-XXXX-XXXX).</li>
+        <li><strong>Two credit counters</strong> (search and generation), decremented as you use each type.</li>
+        <li>An <strong>opaque PayPal capture ID</strong> — a random reference number, not linked to your identity.</li>
+        <li>A coarse <strong>day-level date</strong>.</li>
+      </ul>
+      <p>Free usage (10 searches and 1 creation per day) is counted via the same short-lived, salted, irreversible token described above — never your IP address — and resets daily. No new personal data or identifier is introduced for free usage.</p>
+      <p>If you enter an email address to receive your unlock code, that email is passed once to our email delivery provider (Resend) and is <strong>never stored</strong> in our database. Unlock codes are stored in your browser's <code>localStorage</code> — we have no copy of which device or person uses a given code.</p>
     </section>
 
     <section class="legal-section">
@@ -60,9 +74,56 @@
         <li>Aggregate counts — how many people confirmed or corroborated-disputed a verdict.</li>
         <li>An AI-sanitized, personal-data-free summary of an accepted report or feedback message.</li>
         <li>A coarse, day-level date (no precise timestamps).</li>
-        <li>A short-lived, salted rate-limit token (an irreversible hash — not your IP) that auto-deletes within minutes.</li>
+        <li>A short-lived, salted rate-limit token (an irreversible hash — not your IP) used for both burst abuse prevention and free daily usage counting; auto-deletes within days.</li>
+        <li>For premium purchases: a random unlock code, two credit counters (search and generation), opaque PayPal capture ID, and coarse day (see "Premium payments" above).</li>
       </ul>
-      <p><strong>Never stored:</strong> names, emails, phone numbers, addresses, IP addresses, device IDs, precise location, cookies, or any other identifier that could single you out.</p>
+      <p><strong>Never stored:</strong> names, emails, phone numbers, payment details, IP addresses, device IDs, precise location, cookies, or any other identifier that could single you out.</p>
+    </section>
+
+    <section class="legal-section">
+      <h2>Third-party processors summary</h2>
+      <table class="privacy-processors-table" style="width:100%;border-collapse:collapse;font-size:14px;margin-top:0.5rem">
+        <thead>
+          <tr style="border-bottom:2px solid var(--border,#E5E7EB)">
+            <th style="text-align:left;padding:8px 10px">Service</th>
+            <th style="text-align:left;padding:8px 10px">Purpose</th>
+            <th style="text-align:left;padding:8px 10px">Data shared</th>
+            <th style="text-align:left;padding:8px 10px">Retains data?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border,#E5E7EB)">
+            <td style="padding:8px 10px">AI provider (free lookups)</td>
+            <td style="padding:8px 10px">Etiquette answer generation</td>
+            <td style="padding:8px 10px">Gesture, country, context (query terms)</td>
+            <td style="padding:8px 10px">Subject to their policy — no identifiers sent</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border,#E5E7EB)">
+            <td style="padding:8px 10px">AI provider (premium)</td>
+            <td style="padding:8px 10px">Premium artifact content authoring</td>
+            <td style="padding:8px 10px">Etiquette result data from your current session</td>
+            <td style="padding:8px 10px">Transient only — not retained after request</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border,#E5E7EB)">
+            <td style="padding:8px 10px">Cloudflare Browser Rendering</td>
+            <td style="padding:8px 10px">Render branded HTML → PNG/PDF</td>
+            <td style="padding:8px 10px">HTML template with artifact content</td>
+            <td style="padding:8px 10px">Transient only — not retained after request</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border,#E5E7EB)">
+            <td style="padding:8px 10px">PayPal</td>
+            <td style="padding:8px 10px">Payment processing (premium credits)</td>
+            <td style="padding:8px 10px">Payment details — we never see them</td>
+            <td style="padding:8px 10px">Subject to PayPal's privacy policy</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 10px">Resend</td>
+            <td style="padding:8px 10px">Email delivery (unlock code or artifact)</td>
+            <td style="padding:8px 10px">Email address + attachment (one-time delivery)</td>
+            <td style="padding:8px 10px">Subject to Resend's policy; we do not store the email</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section class="legal-section">

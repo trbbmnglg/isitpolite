@@ -10,6 +10,11 @@
   var CACHE_TTL   = 7 * 24 * 60 * 60 * 1000; // 7 days
   var PACKS_KEY   = 'isitpolite_packs';      // index of saved offline country packs
   var PACK_PREFIX = 'pack_';                 // pack_[country] → guide data, no expiry
+  var UNLOCK_KEY  = 'isitpolite_unlock';     // premium unlock code (localStorage)
+
+  // ── Premium helpers ────────────────────────────────────────────────────
+  function getUnlockCode() { try { return localStorage.getItem(UNLOCK_KEY) || ''; } catch (_) { return ''; } }
+  function setUnlockCode(code) { try { if (code) localStorage.setItem(UNLOCK_KEY, code); else localStorage.removeItem(UNLOCK_KEY); } catch (_) {} }
 
   // ── Country List ───────────────────────────────────────────────────────
   var COUNTRIES = [
@@ -173,6 +178,18 @@
     });
 
     renderPacksStrip();
+
+    // Premium modal
+    wirePremiumModal();
+
+    // Populate both credit badges on load.
+    refreshAllBadges();
+
+    // Handle ?unlock=success|cancel from PayPal redirect (if browser-redirected flow).
+    var unlockParam = new URLSearchParams(window.location.search).get('unlock');
+    if (unlockParam === 'success' || unlockParam === 'cancel') {
+      history.replaceState({}, '', window.location.pathname);
+    }
   }
 
   // ═══════════════════════════════════════════════════════════════════════
@@ -659,6 +676,17 @@
       '</div>' +
       '<div class="guide-grid">' + tipsHtml + '</div>';
 
+    // Premium CTAs — infographic, dossier, phrasebook for this guide.
+    var guideIntro = guideResult.querySelector('.guide-intro');
+    if (guideIntro) {
+      addPremiumButton(guideIntro, 'Download Infographic', 'infographic', { subkind: 'guide', country: country, result: data });
+    }
+    var guideGrid = guideResult.querySelector('.guide-grid');
+    if (guideGrid) {
+      addPremiumButton(guideGrid, 'Download Country Dossier (PDF)', 'dossier', { country: country, result: data });
+      addPremiumButton(guideGrid, 'Download Phrasebook (PDF)', 'phrasebook', { country: country, result: data });
+    }
+
     var saveBtn = document.getElementById('pack-save-btn');
     if (saveBtn) {
       paintPackButton(saveBtn, country);
@@ -873,6 +901,21 @@
       quizArea.innerHTML = '';
       quizStartBtn.disabled = false;
     });
+
+    // Premium CTA — certificate for passing score (≥4/5).
+    // Also add Scenario Coach button.
+    if (score >= 4) {
+      var scoreCard = quizArea.querySelector('.quiz-score-card');
+      if (scoreCard) {
+        addPremiumButton(scoreCard, 'Download Etiquette Certificate', 'certificate', {
+          country: quizState.country,
+          score: score,
+          totalQuestions: total,
+          answers: quizState.answers.map(function (a) { return a.selected; }),
+          questions: quizState.questions,
+        });
+      }
+    }
   }
 
   // ═══════════════════════════════════════════════════════════════════════
@@ -947,6 +990,14 @@
         '<div class="result-footnote">AI-generated guidance — customs vary between people and regions.</div>' +
       '</div>';
     compareResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+    // Premium CTA — comparison infographic.
+    var cmpWrap = compareResult.querySelector('.cmp-wrap');
+    if (cmpWrap) {
+      addPremiumButton(cmpWrap, 'Download Infographic', 'infographic', {
+        subkind: 'compare', gesture: gesture, result: data,
+      });
+    }
   }
 
   // ═══════════════════════════════════════════════════════════════════════
@@ -1015,6 +1066,14 @@
         '<div class="result-footnote">AI-generated guidance — a helpful starting point, not absolute rules.</div>' +
       '</div>';
     tripResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+    // Premium CTA — infographic for this culture-shift result.
+    var tripWrap = tripResult.querySelector('.trip-wrap');
+    if (tripWrap) {
+      addPremiumButton(tripWrap, 'Download Infographic', 'infographic', {
+        subkind: 'trip', from: data.from, to: data.to, result: data,
+      });
+    }
   }
 
   // Generic TTL cache used by Compare / Trip
@@ -1032,6 +1091,427 @@
   }
 
   // ═══════════════════════════════════════════════════════════════════════
+  // PREMIUM GENERATION
+  // ═══════════════════════════════════════════════════════════════════════
+
+  // Current pending generation request (set by addPremiumButton; read by modal).
+  var _pendingPremium = null; // { kind, params }
+
+  // Call /api/generate with the unlock code, kind, and params.
+  // Returns null (download triggered) or { ok, remaining } (email).
+  // Throws on error; caller shows the error in the modal.
+  async function generatePremium(kind, params, delivery, email) {
+    var code = getUnlockCode();
+    var body = Object.assign({}, params, { kind: kind, unlock: code, delivery: delivery });
+    if (delivery === 'email') body.email = email;
+
+    var res;
+    try {
+      res = await fetch('/api/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+    } catch (_) {
+      throw new Error('No internet connection. Please check your network and try again.');
+    }
+
+    if (res.status === 402) {
+      // Daily exhausted / no credits — open buy modal with the server message.
+      var errData = null;
+      try { errData = await res.json(); } catch (_) {}
+      openPremiumModal(kind, params, true, (errData && errData.error) || null);
+      return null;
+    }
+
+    if (!res.ok) {
+      var errData2 = null;
+      try { errData2 = await res.json(); } catch (_) {}
+      throw new Error((errData2 && errData2.error) || ('Generation failed (' + res.status + '). Please try again.'));
+    }
+
+    // Email delivery → JSON { ok, remaining }
+    var ct = res.headers.get('Content-Type') || '';
+    if (ct.indexOf('application/json') !== -1) {
+      var data = await res.json();
+      refreshAllBadges();
+      return data;
+    }
+
+    // Download delivery → binary blob
+    var blob = await res.blob();
+    var filename = (res.headers.get('Content-Disposition') || '').replace(/.*filename="([^"]+)".*/, '$1') || 'isitpolite-artifact';
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); document.body.removeChild(a); }, 2000);
+    refreshAllBadges();
+    return null;
+  }
+
+  // Refresh the credits text in the modal from /api/credits (legacy, kept for compat).
+  function refreshCreditsBadge(code) {
+    refreshAllBadges();
+  }
+
+  // ── Dual-badge refresh ────────────────────────────────────────────────────
+  // Fetches /api/credits and updates both the search and generation credit badges
+  // plus the modal credits text. Call after any lookup, generate, or purchase.
+  function refreshAllBadges() {
+    var code = getUnlockCode();
+    var url = '/api/credits' + (code ? '?code=' + encodeURIComponent(code) : '');
+    fetch(url)
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d) return;
+
+        var freeSearch = (d.free && d.free.search) ? d.free.search.remaining : 0;
+        var freeSearchLimit = (d.free && d.free.search) ? d.free.search.limit : 10;
+        var freeGen = (d.free && d.free.generation) ? d.free.generation.remaining : 0;
+        var freeGenLimit = (d.free && d.free.generation) ? d.free.generation.limit : 1;
+        var pSearch = (d.purchased && d.purchased.search) ? d.purchased.search : { remaining: 0, total: 0 };
+        var pGen = (d.purchased && d.purchased.generation) ? d.purchased.generation : { remaining: 0, total: 0 };
+
+        // Search badge
+        var sBadge = document.getElementById('search-credits-badge');
+        if (sBadge) {
+          var sHtml = '<span class="badge-free">Free: ' + freeSearch + '/' + freeSearchLimit + ' today</span>';
+          if (pSearch.total > 0) sHtml += ' <span class="badge-paid">+' + pSearch.remaining + ' paid</span>';
+          sHtml += ' <span class="badge-reset">Resets midnight Pacific</span>';
+          sBadge.innerHTML = sHtml;
+        }
+
+        // Generation badge
+        var gBadge = document.getElementById('gen-credits-badge');
+        if (gBadge) {
+          var gHtml = '<span class="badge-free">Free: ' + freeGen + '/' + freeGenLimit + ' today</span>';
+          if (pGen.total > 0) gHtml += ' <span class="badge-paid">+' + pGen.remaining + ' paid</span>';
+          gHtml += ' <span class="badge-reset">Resets midnight Pacific</span>';
+          gBadge.innerHTML = gHtml;
+        }
+
+        // Modal credits text (ready-view)
+        var creditsText = document.getElementById('premium-credits-text');
+        if (creditsText) {
+          if (pGen.total > 0) {
+            creditsText.textContent = pGen.remaining + ' of ' + pGen.total + ' creation credits remaining';
+          } else {
+            creditsText.textContent = freeGen + ' free creation' + (freeGen === 1 ? '' : 's') + ' today';
+          }
+        }
+      })
+      .catch(function () {});
+  }
+
+  // ── Premium modal ────────────────────────────────────────────────────────
+  var _paypalLoaded = false;
+  var _paypalLoading = false;
+  var selectedTierId = 't1';  // default tier for PayPal createOrder
+
+  function loadPaypalSDK(clientId, currency) {
+    return new Promise(function (resolve, reject) {
+      if (_paypalLoaded) { resolve(); return; }
+      if (_paypalLoading) { var t = setInterval(function () { if (_paypalLoaded) { clearInterval(t); resolve(); } }, 100); return; }
+      _paypalLoading = true;
+      var s = document.createElement('script');
+      s.src = 'https://www.paypal.com/sdk/js?client-id=' + encodeURIComponent(clientId) + '&currency=' + encodeURIComponent(currency) + '&enable-funding=card&disable-funding=paylater';
+      s.onload = function () { _paypalLoaded = true; _paypalLoading = false; resolve(); };
+      s.onerror = function () { _paypalLoading = false; reject(new Error('PayPal SDK failed to load.')); };
+      document.head.appendChild(s);
+    });
+  }
+
+  function showPremiumError(elId, msg) {
+    var el = document.getElementById(elId);
+    if (el) { el.textContent = msg; el.classList.remove('hidden'); }
+  }
+  function hidePremiumError(elId) {
+    var el = document.getElementById(elId);
+    if (el) { el.textContent = ''; el.classList.add('hidden'); }
+  }
+
+  function switchPremiumView(view) { // 'buy' | 'ready'
+    var buy = document.getElementById('premium-buy-view');
+    var ready = document.getElementById('premium-ready-view');
+    if (buy)   buy.classList.toggle('hidden',   view !== 'buy');
+    if (ready) ready.classList.toggle('hidden', view !== 'ready');
+  }
+
+  // Render the 3-tier selection cards from server config data.
+  function renderTierCards(tiers) {
+    var grid = document.getElementById('premium-tier-grid');
+    if (!grid || !tiers || !tiers.length) return;
+    grid.innerHTML = '';
+    tiers.forEach(function (t) {
+      var isBest = (t.id === 't2');
+      var card = document.createElement('label');
+      card.className = 'premium-tier-card' + (isBest ? ' premium-tier-card--best' : '');
+      card.setAttribute('for', 'tier-radio-' + t.id);
+      var radio = document.createElement('input');
+      radio.type = 'radio';
+      radio.name = 'premium-tier';
+      radio.id = 'tier-radio-' + t.id;
+      radio.value = t.id;
+      radio.checked = (t.id === selectedTierId);
+      radio.addEventListener('change', function () { if (radio.checked) selectedTierId = t.id; });
+      var pill = isBest ? '<span class="tier-best-pill" aria-label="Best value">Best value</span>' : '';
+      card.innerHTML =
+        pill +
+        '<span class="tier-label">' + sanitize(t.label) + '</span>' +
+        '<span class="tier-price">$' + sanitize(t.price) + '</span>' +
+        '<span class="tier-credits">+' + t.search + ' searches &amp; +' + t.gen + ' creations</span>';
+      card.insertBefore(radio, card.firstChild);
+      grid.appendChild(card);
+    });
+  }
+
+  // Open the premium modal. kind/params can be null when triggered by a 402 wall.
+  // msg: optional server-supplied wall message to display at the top of the buy view.
+  function openPremiumModal(kind, params, forceBuy, msg) {
+    if (kind !== null) _pendingPremium = { kind: kind, params: params };
+    var code = getUnlockCode();
+    var premModal = document.getElementById('premium-modal');
+    if (!premModal) return;
+
+    // Show scenario textarea only for scenario kind.
+    var scenWrap = document.getElementById('premium-scenario-wrap');
+    if (scenWrap) scenWrap.classList.toggle('hidden', kind !== 'scenario');
+
+    // Show the wall message if provided.
+    var wallMsg = document.getElementById('premium-wall-msg');
+    if (wallMsg) {
+      if (msg) { wallMsg.textContent = msg; wallMsg.classList.remove('hidden'); }
+      else { wallMsg.textContent = ''; wallMsg.classList.add('hidden'); }
+    }
+
+    if (!forceBuy && code) {
+      switchPremiumView('ready');
+      refreshAllBadges();
+    } else {
+      switchPremiumView('buy');
+      // Lazy-load PayPal SDK and tier data.
+      fetch('/api/paypal-config')
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (cfg) {
+          if (!cfg || !cfg.clientId) return;
+          // Render tier cards from server config (data-driven — no hardcoded prices).
+          if (cfg.tiers) renderTierCards(cfg.tiers);
+          return loadPaypalSDK(cfg.clientId, cfg.currency || 'USD').then(function () {
+            var container = document.getElementById('paypal-button-container');
+            if (!container || !window.paypal) return;
+            // Clear any previously rendered buttons.
+            container.innerHTML = '';
+            window.paypal.Buttons({
+              style: { layout: 'vertical', color: 'blue', shape: 'rect', label: 'pay' },
+              createOrder: function () {
+                // Send the selected tier — server reads custom_id back at capture.
+                return fetch('/api/checkout', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ tier: selectedTierId }),
+                })
+                  .then(function (r) { return r.json(); })
+                  .then(function (d) {
+                    if (d.error) throw new Error(d.error);
+                    return d.orderID;
+                  });
+              },
+              onApprove: function (data) {
+                var emailInput = document.getElementById('pp-email-input');
+                var emailVal = emailInput ? emailInput.value.trim() : '';
+                var payBody = { orderID: data.orderID };
+                if (emailVal) payBody.email = emailVal;
+                return fetch('/api/capture', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(payBody),
+                }).then(function (r) { return r.json(); }).then(function (d) {
+                  if (d.error) { showPremiumError('premium-pay-error', d.error); return; }
+                  setUnlockCode(d.code);
+                  // Show the "save your code" notice (it's the only receipt).
+                  var saveNotice = document.getElementById('premium-save-notice');
+                  if (saveNotice) saveNotice.classList.remove('hidden');
+                  switchPremiumView('ready');
+                  refreshAllBadges();
+                }).catch(function (e) {
+                  showPremiumError('premium-pay-error', e.message || 'Payment failed. Please try again.');
+                });
+              },
+              onError: function (err) {
+                showPremiumError('premium-pay-error', 'PayPal error. Please try again or use a card.');
+              },
+            }).render('#paypal-button-container');
+          });
+        })
+        .catch(function () {});
+    }
+
+    premModal.classList.remove('hidden');
+    // Return focus to the modal for keyboard users.
+    setTimeout(function () {
+      var firstFocusable = premModal.querySelector('button, input, [tabindex="0"]');
+      if (firstFocusable) firstFocusable.focus();
+    }, 100);
+  }
+
+  function wirePremiumModal() {
+    var premModal   = document.getElementById('premium-modal');
+    var closeBtn    = document.getElementById('premium-close');
+    var applyBtn    = document.getElementById('premium-code-apply');
+    var codeInput   = document.getElementById('premium-code-input');
+    var genBtn      = document.getElementById('premium-generate-btn');
+    var changeCode  = document.getElementById('premium-change-code');
+    var ppEmailRadio = document.getElementById('pp-email-radio');
+    var ppDlRadio   = document.getElementById('pp-dl-radio');
+    var ppEmailField = document.getElementById('pp-email-field');
+    var rdyEmailRadio = document.getElementById('rdy-email-radio');
+    var rdyDlRadio  = document.getElementById('rdy-dl-radio');
+    var rdyEmailField = document.getElementById('rdy-email-field');
+
+    if (!premModal) return;
+
+    if (closeBtn) closeBtn.addEventListener('click', function () { premModal.classList.add('hidden'); });
+    premModal.addEventListener('click', function (e) { if (e.target === premModal) premModal.classList.add('hidden'); });
+    // Escape key closes the modal (a11y: focus trap + Escape).
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !premModal.classList.contains('hidden')) {
+        premModal.classList.add('hidden');
+      }
+    });
+
+    // Email toggle (buy view)
+    if (ppEmailRadio && ppDlRadio && ppEmailField) {
+      function togglePpEmail() { ppEmailField.classList.toggle('hidden', !ppEmailRadio.checked); }
+      ppEmailRadio.addEventListener('change', togglePpEmail);
+      ppDlRadio.addEventListener('change', togglePpEmail);
+    }
+    // Email toggle (ready view)
+    if (rdyEmailRadio && rdyDlRadio && rdyEmailField) {
+      function toggleRdyEmail() { rdyEmailField.classList.toggle('hidden', !rdyEmailRadio.checked); }
+      rdyEmailRadio.addEventListener('change', toggleRdyEmail);
+      rdyDlRadio.addEventListener('change', toggleRdyEmail);
+    }
+
+    // "Apply" an existing code.
+    if (applyBtn && codeInput) {
+      applyBtn.addEventListener('click', function () {
+        hidePremiumError('premium-code-error');
+        var code = (codeInput.value || '').trim();
+        if (!code) { showPremiumError('premium-code-error', 'Please enter your unlock code.'); return; }
+        fetch('/api/credits?code=' + encodeURIComponent(code))
+          .then(function (r) { return r.json(); })
+          .then(function (d) {
+            // Accept if the code has either search OR generation credits remaining.
+            var hasCredits = d.valid || (d.purchased && (
+              (d.purchased.search && d.purchased.search.remaining > 0) ||
+              (d.purchased.generation && d.purchased.generation.remaining > 0)
+            ));
+            if (!hasCredits) {
+              showPremiumError('premium-code-error', 'Code not found or no credits remaining.'); return;
+            }
+            setUnlockCode(code);
+            switchPremiumView('ready');
+            refreshAllBadges();
+          })
+          .catch(function () { showPremiumError('premium-code-error', 'Could not verify code. Please try again.'); });
+      });
+    }
+
+    // "Use a different code"
+    if (changeCode) {
+      changeCode.addEventListener('click', function () {
+        setUnlockCode('');
+        switchPremiumView('buy');
+      });
+    }
+
+    // Scenario PII guard
+    var scenInput = document.getElementById('premium-scenario-input');
+    if (scenInput) {
+      scenInput.addEventListener('input', function () {
+        var msg = piiMessage(scenInput.value);
+        var piiEl = document.getElementById('premium-scenario-pii-msg');
+        if (piiEl) { piiEl.textContent = msg || ''; piiEl.classList.toggle('hidden', !msg); }
+      });
+    }
+
+    // Generate button
+    if (genBtn) {
+      genBtn.addEventListener('click', function () {
+        if (!_pendingPremium) return;
+        hidePremiumError('premium-gen-error');
+
+        var rdyEmail = document.getElementById('rdy-email-radio');
+        var delivery = (rdyEmail && rdyEmail.checked) ? 'email' : 'download';
+        var email = '';
+        if (delivery === 'email') {
+          var rdyEmailInput = document.getElementById('rdy-email-input');
+          email = rdyEmailInput ? rdyEmailInput.value.trim() : '';
+          if (!email) { showPremiumError('premium-gen-error', 'Please enter your email address.'); return; }
+        }
+
+        var params = Object.assign({}, _pendingPremium.params);
+        // Inject scenario text if applicable.
+        if (_pendingPremium.kind === 'scenario') {
+          var scenText = document.getElementById('premium-scenario-input');
+          params.scenario = scenText ? scenText.value.trim() : '';
+          if (!params.scenario) { showPremiumError('premium-gen-error', 'Please describe your scenario.'); return; }
+          var piiCheck = piiMessage(params.scenario);
+          if (piiCheck) { showPremiumError('premium-gen-error', piiCheck); return; }
+        }
+
+        genBtn.disabled = true;
+        genBtn.textContent = 'Generating…';
+
+        generatePremium(_pendingPremium.kind, params, delivery, email)
+          .then(function (result) {
+            genBtn.disabled = false;
+            genBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Generate';
+            if (result && result.ok) {
+              // Email delivered — show confirmation.
+              showPremiumError('premium-gen-error', '✓ Sent! Check your inbox.');
+              document.getElementById('premium-gen-error').classList.remove('hidden');
+              document.getElementById('premium-gen-error').style.color = 'var(--polite)';
+            } else {
+              premModal.classList.add('hidden');
+            }
+          })
+          .catch(function (e) {
+            genBtn.disabled = false;
+            genBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Generate';
+            showPremiumError('premium-gen-error', e.message || 'Generation failed. Please try again.');
+          });
+      });
+    }
+  }
+
+  // ── Premium CTA button factory ───────────────────────────────────────────
+  // Mirrors addShareButton (L389). Appended to the result container.
+  var PREMIUM_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+
+  function addPremiumButton(container, label, kind, params) {
+    if (!container) return;
+    var existing = container.querySelector('.premium-action-row');
+    if (existing) existing.remove();
+
+    var row = document.createElement('div');
+    row.className = 'premium-action-row';
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'premium-btn';
+    btn.innerHTML = PREMIUM_ICON + ' ' + label;
+    btn.addEventListener('click', function () {
+      openPremiumModal(kind, params, false);
+    });
+
+    row.appendChild(btn);
+    container.appendChild(row);
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
   // API
   // ═══════════════════════════════════════════════════════════════════════
   // Calls the server-side retrieval-augmented agent (/api/lookup) and returns
@@ -1042,7 +1522,8 @@
       res = await fetch(API_LOOKUP, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(Object.assign({ mode: mode }, params)),
+        // Send the stored unlock code (may be empty string — server normalises it).
+        body: JSON.stringify(Object.assign({ mode: mode, unlock: getUnlockCode() }, params)),
       });
     } catch (_) {
       throw new Error('No internet connection. Please check your network and try again.');
@@ -1052,11 +1533,18 @@
     try { data = await res.json(); } catch (_) {}
 
     if (!res.ok) {
-      if (res.status === 429) throw new Error('Rate limit reached. Please wait a moment and try again.');
+      // 402 daily_exhausted / no credits → open buy modal with the server message.
+      if (res.status === 402 && data && data.upsell) {
+        openPremiumModal(null, null, true, data.error);
+        return null;
+      }
+      // 429 — surface the server error text (do not swallow it with a hardcoded string).
+      if (res.status === 429) throw new Error((data && data.error) || 'Rate limit reached. Please wait a moment and try again.');
       throw new Error((data && data.error) || ('Service error (' + res.status + '). Please try again.'));
     }
     if (!data) throw new Error('The response could not be parsed. Please try again.');
     if (data.error) throw new Error(data.error);
+    refreshAllBadges();
     return data;
   }
 

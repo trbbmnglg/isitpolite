@@ -1,0 +1,64 @@
+// IsItPolite.com — Cloudflare Worker entry point.
+// Routes /api/* to the appropriate handler; everything else is served from
+// the Static Assets binding (the pre-built ./dist folder).
+
+import * as ask        from './api/ask.js';
+import * as lookup     from './api/lookup.js';
+import * as accuracy   from './api/accuracy.js';
+import * as community  from './api/community.js';
+import * as feedback   from './api/feedback.js';
+import * as report     from './api/report.js';
+// Premium routes (Phase 1)
+import * as paypalConfig  from './api/paypal-config.js';
+import * as checkout      from './api/checkout.js';
+import * as capture       from './api/capture.js';
+import * as paypalWebhook from './api/paypal-webhook.js';
+import * as credits       from './api/credits.js';
+import * as generate      from './api/generate.js';
+
+const ROUTES = {
+  '/api/ask':             ask,
+  '/api/lookup':          lookup,
+  '/api/accuracy':        accuracy,
+  '/api/community':       community,
+  '/api/feedback':        feedback,
+  '/api/report':          report,
+  // Premium
+  '/api/paypal-config':   paypalConfig,
+  '/api/checkout':        checkout,
+  '/api/capture':         capture,
+  '/api/paypal-webhook':  paypalWebhook,
+  '/api/credits':         credits,
+  '/api/generate':        generate,
+};
+
+export default {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
+    // Canonical-host redirect: *.workers.dev → isitpolite.com.
+    // Skipped for the web-rbbjr subdomain, which is used as a staging URL.
+    // (Replaces the old functions/_middleware.js Pages middleware.)
+    if (url.hostname.endsWith('.workers.dev') && !url.hostname.startsWith('isitpolite.web-rbbjr')) {
+      url.hostname = 'isitpolite.com';
+      url.protocol = 'https:';
+      return Response.redirect(url.toString(), 301);
+    }
+
+    // Route API requests to their handlers.
+    const mod = ROUTES[url.pathname];
+    if (mod) {
+      const handler = request.method === 'POST' ? mod.onRequestPost : mod.onRequestGet;
+      if (!handler) {
+        return new Response(JSON.stringify({ error: 'Method not allowed.' }), {
+          status: 405,
+          headers: { 'Content-Type': 'application/json', 'Allow': 'POST' },
+        });
+      }
+      return handler({ request, env, ctx, waitUntil: ctx.waitUntil.bind(ctx) });
+    }
+
+    // Everything else: serve from the pre-built static asset bundle (./dist).
+    return env.ASSETS.fetch(request);
+  },
+};
