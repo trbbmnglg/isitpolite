@@ -255,14 +255,13 @@ img, svg { display: block; }
   margin-right: auto;
 }
 .logo:hover { text-decoration: none; }
-.logo-badge {
-  width: 32px;
-  height: 32px;
-  border-radius: 9px;
+.logo-banner-img {
+  height: 36px;
+  width: auto;
   flex-shrink: 0;
-  transition: transform 0.55s var(--ease-std);
+  transition: opacity 0.2s ease;
 }
-.logo:hover .logo-badge { transform: rotate(20deg) scale(1.08); }
+.logo:hover .logo-banner-img { opacity: 0.82; }
 .logo-text {
   font-family: var(--font-serif);
   font-size: 1.1rem;
