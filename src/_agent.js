@@ -81,7 +81,7 @@ export async function runReportAgent(env, input) {
     const out = await jsonLLM(model,
       'You are a strict content-moderation agent for a cultural-etiquette website. Respond ONLY with valid JSON, no markdown.',
       'Verdict under review: "' + state.gesture + '" in ' + state.country + ' (context: ' + state.context + '). Our current verdict: ' + state.verdict + '.\n\n' +
-      'A visitor submitted this as a correction:\n"""' + state.correction + '"""\n\n' +
+      'A visitor submitted this as a correction:\n' + JSON.stringify(state.correction) + '\n\n' +
       'Return JSON: {"legitimate": true|false (good-faith, on-topic etiquette report — not empty, nonsense, or off-topic), "troll_or_spam": true|false (abuse, trolling, ads, gibberish), "contains_pii": true|false (mentions a private individual\'s name, email, phone, address, or ID)}');
     return { legitimate: !!out.legitimate, trollOrSpam: !!out.troll_or_spam, containsPii: !!out.contains_pii };
   }
@@ -95,7 +95,7 @@ export async function runReportAgent(env, input) {
     const out = await jsonLLM(model,
       'You are a cultural-etiquette fact-checking agent. Cross-check the visitor\'s claimed correction against the provided web sources AND well-established cultural knowledge. Reason about regional and generational variation and how widely the claim actually holds. Remove any personal data. Respond ONLY with valid JSON, no markdown.',
       'Country: ' + state.country + '. Context: ' + state.context + '. Gesture/behavior: "' + state.gesture + '". Our current verdict: ' + state.verdict + (state.verdictLabel ? ' ("' + state.verdictLabel + '")' : '') + '.\n\n' +
-      'Visitor\'s claimed correction:\n"""' + state.correction + '"""\n\n' +
+      'Visitor\'s claimed correction:\n' + JSON.stringify(state.correction) + '\n\n' +
       (srcBlock ? 'Web sources to corroborate against:\n' + srcBlock + '\n\n' : '') +
       'Return JSON: {"plausible": true|false (culturally plausible at all), "corroborated": true|false (supported by the sources / well-established knowledge — NOT fringe, anecdotal, or incorrect), "confidence": "high"|"medium"|"low", "rationale": "<=200 chars of cultural reasoning, referencing the sources where relevant", "sanitized_summary": "<=160 char neutral paraphrase of the correction with ALL personal data removed"}');
     return {
@@ -262,6 +262,6 @@ export async function sanitizeFeedback(env, message) {
   const model = getModel(env);
   return await jsonLLM(model,
     'You sanitize website feedback. Remove ALL personal data and paraphrase neutrally. Respond ONLY with valid JSON, no markdown.',
-    'Visitor feedback:\n"""' + message + '"""\n\n' +
+    'Visitor feedback:\n' + JSON.stringify(message) + '\n\n' +
     'Return JSON: {"sanitized_summary":"<=160 char neutral paraphrase with ALL personal data removed","sentiment":"positive"|"neutral"|"negative","is_spam":true|false}');
 }

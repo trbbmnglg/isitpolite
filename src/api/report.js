@@ -11,7 +11,7 @@ export function onRequestGet() {
 
 export async function onRequestPost(context) {
   const { request, env } = context;
-  if (!originAllowed(request.headers.get('Origin'))) return json({ error: 'Forbidden.' }, 403);
+  if (!originAllowed(request.headers.get('Origin'), request.headers.get('Sec-Fetch-Site'))) return json({ error: 'Forbidden.' }, 403);
 
   const ip = request.headers.get('CF-Connecting-IP') || '';
   if (!(await rateLimit(env, ip, 'report', 8, 60000))) {
@@ -119,7 +119,7 @@ export async function onRequestPost(context) {
     : 'Pending corroboration (' + pendingCount + '/' + CORROBORATION_THRESHOLD + ' independent reports).';
   context.waitUntil(sendEmail(env, {
     to: OWNER_EMAIL,
-    subject: 'IsItPolite report: "' + gesture + '" in ' + country + (promoted ? ' (now corroborated)' : ''),
+    subject: 'IsItPolite report: "' + gesture.replace(/[\r\n]+/g, ' ') + '" in ' + country.replace(/[\r\n]+/g, ' ') + (promoted ? ' (now corroborated)' : ''),
     html:
       '<div style="font-family:Arial,Helvetica,sans-serif;max-width:560px">' +
         '<h2 style="color:#4F46E5;margin:0 0 8px">Inaccuracy report (AI-vetted)</h2>' +

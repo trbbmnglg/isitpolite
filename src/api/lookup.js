@@ -22,7 +22,7 @@ export async function onRequestPost(context) {
   const ip = request.headers.get('CF-Connecting-IP') || '';
 
   // ── 1. Origin guard ───────────────────────────────────────────────────────
-  if (!originAllowed(request.headers.get('Origin'))) return json({ error: 'Forbidden.' }, 403);
+  if (!originAllowed(request.headers.get('Origin'), request.headers.get('Sec-Fetch-Site'))) return json({ error: 'Forbidden.' }, 403);
 
   // ── 2. Burst rate limit (20 / 60s per IP — orthogonal flood control) ──────
   if (!(await rateLimit(env, ip, 'lookup', 20, 60000))) {

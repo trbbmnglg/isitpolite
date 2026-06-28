@@ -5,8 +5,12 @@ const ALLOWED_HOSTS = ['isitpolite.com', 'www.isitpolite.com', 'isitpolite.pages
 
 export const OWNER_EMAIL = 'owner@example.invalid';
 
-export function originAllowed(origin) {
-  if (!origin) return true; // same-origin / server-side requests omit Origin
+export function originAllowed(origin, secFetchSite) {
+  if (!origin) {
+    // No Origin header: allow only if Sec-Fetch-Site: same-origin is present
+    // (browsers always include this for same-origin fetches; plain curl never does)
+    return secFetchSite === 'same-origin';
+  }
   try {
     const host = new URL(origin).hostname;
     return ALLOWED_HOSTS.includes(host) || host.endsWith('.isitpolite.pages.dev');

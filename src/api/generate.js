@@ -49,7 +49,7 @@ export async function onRequestPost(context) {
   const ip = request.headers.get('CF-Connecting-IP') || '';
 
   // ── 1. Origin guard ───────────────────────────────────────────────────────
-  if (!originAllowed(request.headers.get('Origin'))) return json({ error: 'Forbidden.' }, 403);
+  if (!originAllowed(request.headers.get('Origin'), request.headers.get('Sec-Fetch-Site'))) return json({ error: 'Forbidden.' }, 403);
 
   // ── 2. Rate limit (3 generate calls / 60s per IP) ─────────────────────────
   if (!(await rateLimit(env, ip, 'generate', 3, 60000))) {

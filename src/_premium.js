@@ -149,7 +149,7 @@ export async function buildScenario(env, params) {
   const out = await jsonLLM(model,
     'You are a cross-cultural etiquette coach. Give specific, actionable coaching for the described scenario. Respond ONLY with valid JSON, no markdown.',
     `Country: ${str(country, 80)}.
-Scenario: "${str(scenario, 600)}"
+Scenario: ${JSON.stringify(str(scenario, 600))}
 
 Produce a coaching card:
 - situation_summary: 1-sentence neutral restatement of the scenario (no PII)
