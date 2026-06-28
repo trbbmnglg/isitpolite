@@ -37,10 +37,18 @@
     var panelId = sid + '-panel';
     var listId = sid + '-list';
 
-    // Re-point the <label> to the trigger
+    // Wire <label> to the custom trigger.
+    // `for` can only reference labelable elements — <div> is not one, so browsers
+    // flag label[for=triggerId].  Instead: remove `for`, assign an id to the label
+    // so aria-labelledby still works, and proxy clicks so the label opens the dropdown.
     var label = select.id ? document.querySelector('label[for="' + select.id + '"]') : null;
     var labelId = null;
-    if (label) { labelId = sid + '-label'; label.id = labelId; label.setAttribute('for', triggerId); }
+    if (label) {
+      labelId = sid + '-label';
+      label.id = labelId;
+      label.removeAttribute('for');
+      label.addEventListener('click', function () { trigger.focus(); open(); });
+    }
 
     // Trigger (div, not <button> — avoids native Enter/Space activation clashing
     // with our custom keyboard handling)
