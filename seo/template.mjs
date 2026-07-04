@@ -220,6 +220,31 @@ export function renderCountryHub(country, records) {
       </a>`;
   }).join('');
 
+  // Build a "Key highlights" section from real data — picks a rude + a polite + a caution
+  // example (or whatever mix exists) to give the hub page substantive, unique text content.
+  const byVerdict = v => records.filter(r => String(r.rec.verdict||'').toLowerCase() === v);
+  const highlights = [
+    ...byVerdict('rude').slice(0, 1),
+    ...byVerdict('polite').slice(0, 1),
+    ...byVerdict('caution').slice(0, 1),
+  ].slice(0, 3);
+  const highlightsHtml = highlights.length
+    ? `<section class="seo-highlights">
+      <h2>Cultural highlights for ${esc(country)}</h2>
+      <ul class="seo-highlights-list">${highlights.map(({ gesture, rec }) => {
+        const v = String(rec.verdict || 'caution').toLowerCase();
+        const gUrl = `/etiquette/${cSlug}/${gestureSlug(gesture)}/`;
+        return `<li><a href="${esc(gUrl)}" class="seo-highlight-link"><span class="mini-dot ${esc(v)}" aria-hidden="true"></span><strong>${esc(gesture.short)}</strong></a> — ${esc(truncate(rec.explanation, 120))}</li>`;
+      }).join('')}</ul>
+    </section>` : '';
+
+  const politeCount = byVerdict('polite').length;
+  const rudeCount   = byVerdict('rude').length;
+  const totalCount  = records.length;
+  const summaryLine = totalCount > 0
+    ? `This guide covers ${totalCount} common gesture${totalCount !== 1 ? 's' : ''} and custom${totalCount !== 1 ? 's' : ''} in ${esc(country)}: ${politeCount} considered polite, ${rudeCount} potentially rude, and the rest context-dependent.`
+    : '';
+
   const jsonld = [
     breadcrumbJsonLd([
       { name: 'Home', url: '/' },
@@ -247,8 +272,10 @@ ${header()}
     <div class="seo-hero">
       <p class="seo-kicker">Cultural etiquette guide</p>
       <h1>${esc(country)} Etiquette: What's Polite &amp; What's Rude</h1>
-      <p class="seo-hero-sub">Quick verdicts on the gestures and customs travelers ask about most in ${esc(country)}. Tap any topic for the full explanation and a local tip.</p>
+      <p class="seo-hero-sub">${summaryLine || `Quick verdicts on the gestures and customs travelers ask about most in ${esc(country)}.`} Tap any topic for the full explanation and a local tip.</p>
     </div>
+    ${highlightsHtml}
+    <h2 class="seo-related-title">All etiquette guides for ${esc(country)}</h2>
     <div class="seo-gesture-grid">${cards}</div>
     <div class="seo-cta">
       <p>Have a specific question about ${esc(country)}?</p>

@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 Disallow: /api/
+# Block SPA query-string URLs (e.g. /?g=thumbs+up&c=Japan) — the static
+# /etiquette/country/gesture/ pages are the canonical indexed versions.
+Disallow: /?
 
 Sitemap: https://isitpolite.com/sitemap.xml

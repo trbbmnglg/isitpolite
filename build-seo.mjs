@@ -297,12 +297,22 @@ async function main() {
   writePage('', renderSeoIndex(countriesWithCounts));
 
   // Sitemap → dist/sitemap.xml
-  const urls = ['/', '/etiquette/'];
-  for (const { country } of countriesWithCounts) urls.push(`/etiquette/${countrySlug(country)}/`);
-  for (const p of pairs) if (records.get(`${p.countrySlug}|${p.gestureSlug}`)) urls.push(`/etiquette/${p.countrySlug}/${p.gestureSlug}/`);
+  // Entries: [{url, priority, changefreq}] — ordered high-priority first so Googlebot
+  // crawls the most important pages first within crawl-budget limits.
   const today = new Date().toISOString().slice(0, 10);
+  const sitemapEntries = [
+    { url: '/',           priority: '1.0', changefreq: 'weekly'  },
+    { url: '/etiquette/', priority: '0.9', changefreq: 'weekly'  },
+  ];
+  for (const { country } of countriesWithCounts)
+    sitemapEntries.push({ url: `/etiquette/${countrySlug(country)}/`, priority: '0.8', changefreq: 'monthly' });
+  for (const p of pairs)
+    if (records.get(`${p.countrySlug}|${p.gestureSlug}`))
+      sitemapEntries.push({ url: `/etiquette/${p.countrySlug}/${p.gestureSlug}/`, priority: '0.7', changefreq: 'monthly' });
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    urls.map(u => `  <url><loc>${BASE_URL}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +
+    sitemapEntries.map(e =>
+      `  <url><loc>${BASE_URL}${e.url}</loc><lastmod>${today}</lastmod><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority></url>`
+    ).join('\n') +
     `\n</urlset>\n`;
   writeFileSync(join(DIST, 'sitemap.xml'), sitemap);
 
@@ -312,7 +322,7 @@ async function main() {
   console.log('\n── Done ──');
   console.log(`pages written : ${pageCount} pairs + ${countriesWithCounts.length} hubs + 1 index`);
   if (!SAMPLE) console.log(`API calls     : ${generated} new, ${fromCache} from cache`);
-  console.log(`sitemap URLs  : ${urls.length}`);
+  console.log(`sitemap URLs  : ${sitemapEntries.length}`);
   console.log(`\nDeploy:  npx wrangler deploy`);
 }
 

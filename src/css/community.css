@@ -78,6 +78,43 @@
 .seo-cta p { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 1rem; }
 .seo-cta .btn-cta { display: inline-flex; width: auto; padding-left: 1.5rem; padding-right: 1.5rem; }
 
+/* Hub page highlights section */
+.seo-highlights {
+  margin: 1.75rem 0 0.5rem;
+  padding: 1.25rem 1.4rem;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--clay-radius-sm);
+}
+.seo-highlights h2 {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 0.85rem;
+}
+.seo-highlights-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.seo-highlights-list li {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.seo-highlight-link {
+  font-weight: 600;
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.seo-highlight-link:hover { color: var(--primary); }
+
 .seo-related { margin-top: 2.5rem; }
 .seo-related-title {
   font-family: var(--font-serif);
