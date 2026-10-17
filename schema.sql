@@ -57,9 +57,8 @@ CREATE TABLE IF NOT EXISTS rate (
 --   ALTER TABLE licenses ADD COLUMN gen_used     INTEGER NOT NULL DEFAULT 0;
 --   UPDATE licenses SET gen_total = credits_total, gen_used = credits_used
 --    WHERE gen_total = 0 AND gen_used = 0 AND (credits_total > 0 OR credits_used > 0);
---   UPDATE licenses SET search_total=999, gen_total=999, search_used=0, gen_used=0
---    WHERE code='TEST-0000-TEST-0000';
 --
+-- Never commit a working unlock code (test or otherwise) — this repo is public.
 -- Apply schema to a FRESH DB with:
 --   npx wrangler d1 execute isitpolite-db --remote --file=schema.sql
 CREATE TABLE IF NOT EXISTS licenses (

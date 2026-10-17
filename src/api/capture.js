@@ -44,6 +44,10 @@ export async function onRequestPost(context) {
   const orderID = String(body.orderID || '').trim().slice(0, 64);
   const email = String(body.email || '').trim().slice(0, 200) || null;
   if (!orderID) return json({ error: 'Missing orderID.' }, 400);
+  // PayPal order ids are short uppercase alphanumerics. Anything else (e.g.
+  // "../../payments/captures/<id>/refund#") could re-target the authenticated
+  // request at another PayPal endpoint — reject it before building the URL.
+  if (!/^[A-Z0-9]{10,30}$/.test(orderID)) return json({ error: 'Invalid orderID.' }, 400);
 
   // ── Capture the PayPal order ───────────────────────────────────────────────
   let token;
@@ -53,7 +57,7 @@ export async function onRequestPost(context) {
   const base = paypalBase(env);
   let captureRes;
   try {
-    captureRes = await fetch(`${base}/v2/checkout/orders/${orderID}/capture`, {
+    captureRes = await fetch(`${base}/v2/checkout/orders/${encodeURIComponent(orderID)}/capture`, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${token}`,
