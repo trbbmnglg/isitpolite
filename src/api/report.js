@@ -20,6 +20,7 @@ export async function onRequestPost(context) {
 
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: 'Bad request.' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'Bad request.' }, 400);
 
   const kind = body.kind;
   const gesture = String(body.gesture || '').slice(0, 200);

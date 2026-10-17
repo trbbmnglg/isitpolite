@@ -59,6 +59,7 @@ export async function onRequestPost(context) {
   // ── 3. Parse + validate request ───────────────────────────────────────────
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: 'Bad request.' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'Bad request.' }, 400);
 
   const kind = String(body.kind || '');
   if (!VALID_KINDS.includes(kind)) return json({ error: 'Invalid artifact kind.' }, 400);
@@ -180,7 +181,7 @@ export async function onRequestPost(context) {
     const creditsLine = charged.kind === 'paid'
       ? `Credits remaining: ${charged.remaining}`
       : 'Free daily creation used — resets at midnight Pacific.';
-    await sendEmail(env, {
+    const sent = await sendEmail(env, {
       to: email,
       subject: `Your IsItPolite ${kind} is ready`,
       html: `<div style="font-family:Arial,sans-serif;max-width:480px">
@@ -190,6 +191,17 @@ export async function onRequestPost(context) {
       </div>`,
       attachments: [{ filename: cfg.filename, content: b64 }],
     });
+    // A delivery failure (or no email provider configured) must not cost the
+    // visitor a credit.
+    if (!sent || !sent.ok) {
+      if (charged.kind === 'free') {
+        await refundDaily(env, ip, 'free_gen');
+      } else {
+        await refundGenerationCredit(env, charged.code);
+      }
+      console.error('generate email failed', kind, sent && sent.status);
+      return json({ error: 'We could not email your file. Your credit has been refunded — please try the download option.' }, 502);
+    }
     return json({ ok: true, remaining: charged.kind === 'paid' ? charged.remaining : null });
   }
 

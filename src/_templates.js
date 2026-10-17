@@ -78,7 +78,8 @@ function watermark() {
 
 // ── 1. Infographic (Trip / Guide / Compare) ───────────────────────────────────
 export function infographicHtml(data, params) {
-  const kind = params.kind || 'guide';
+  // params.kind is always 'infographic' here; the layout comes from subkind.
+  const kind = params.subkind || 'guide';
 
   if (kind === 'trip') {
     return `${baseHead('Culture Shift: ' + (data.title || ''))}

@@ -253,7 +253,9 @@ export async function runLookupAgent(env, mode, params) {
     .compile();
 
   const res = await graph.invoke({ mode: mode, params: params });
-  if (!res.draft) throw new Error('parse_failed');
+  // After the final reflection an invalid draft must not reach the client as a
+  // 200 — throwing lets the caller refund the credit and return its 502.
+  if (!res.draft || !cfg.valid(res.draft)) throw new Error('parse_failed');
   return res.draft;
 }
 

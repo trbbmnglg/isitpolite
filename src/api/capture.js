@@ -40,6 +40,7 @@ export async function onRequestPost(context) {
 
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: 'Bad request.' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'Bad request.' }, 400);
 
   const orderID = String(body.orderID || '').trim().slice(0, 64);
   const email = String(body.email || '').trim().slice(0, 200) || null;

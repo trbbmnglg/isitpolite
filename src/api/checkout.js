@@ -41,6 +41,7 @@ export async function onRequestPost(context) {
   // ── Tier selection (allow-list — never trust client amounts) ───────────────
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: 'Bad request.' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'Bad request.' }, 400);
 
   // Slice to 8 chars before allow-list lookup so an oversized input can't cause issues.
   const tier = tierById(String(body && body.tier || '').slice(0, 8));

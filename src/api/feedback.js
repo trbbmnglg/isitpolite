@@ -18,6 +18,7 @@ export async function onRequestPost(context) {
 
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: 'Bad request.' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'Bad request.' }, 400);
 
   const message = String(body.message || '').trim().slice(0, 1000);
   if (message.length < 3) return json({ error: 'Please write a little more.' }, 400);
