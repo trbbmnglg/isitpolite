@@ -7,6 +7,7 @@ import * as accuracy   from './api/accuracy.js';
 import * as community  from './api/community.js';
 import * as feedback   from './api/feedback.js';
 import * as report     from './api/report.js';
+import * as stats      from './api/stats.js';
 // Premium routes (Phase 1)
 import * as paypalConfig  from './api/paypal-config.js';
 import * as checkout      from './api/checkout.js';
@@ -21,6 +22,7 @@ const ROUTES = {
   '/api/community':       community,
   '/api/feedback':        feedback,
   '/api/report':          report,
+  '/api/stats':           stats,
   // Premium
   '/api/paypal-config':   paypalConfig,
   '/api/checkout':        checkout,
@@ -46,11 +48,19 @@ export default {
     // Route API requests to their handlers.
     const mod = ROUTES[url.pathname];
     if (mod) {
-      const handler = request.method === 'POST' ? mod.onRequestPost : mod.onRequestGet;
+      // Only GET/HEAD reach onRequestGet and only POST reaches onRequestPost —
+      // OPTIONS/PUT/DELETE etc. never run a real handler.
+      const m = request.method;
+      const handler = m === 'POST' ? mod.onRequestPost
+        : (m === 'GET' || m === 'HEAD') ? mod.onRequestGet
+        : null;
       if (!handler) {
+        const allow = [];
+        if (mod.onRequestGet) allow.push('GET', 'HEAD');
+        if (mod.onRequestPost) allow.push('POST');
         return new Response(JSON.stringify({ error: 'Method not allowed.' }), {
           status: 405,
-          headers: { 'Content-Type': 'application/json', 'Allow': 'POST' },
+          headers: { 'Content-Type': 'application/json', 'Allow': allow.join(', ') },
         });
       }
       return handler({ request, env, ctx, waitUntil: ctx.waitUntil.bind(ctx) });

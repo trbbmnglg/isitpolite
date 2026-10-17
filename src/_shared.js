@@ -5,6 +5,9 @@ const ALLOWED_HOSTS = ['isitpolite.com', 'www.isitpolite.com', 'isitpolite.pages
 
 export const OWNER_EMAIL = 'owner@example.invalid';
 
+// The five /api/lookup modes — single source of truth for validation + usage stats.
+export const LOOKUP_MODE_NAMES = ['check', 'compare', 'trip', 'guide', 'quiz'];
+
 export function originAllowed(origin, secFetchSite) {
   if (!origin) {
     // No Origin header: allow only if Sec-Fetch-Site: same-origin is present

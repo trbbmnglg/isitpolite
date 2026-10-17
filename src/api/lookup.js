@@ -1,9 +1,8 @@
-﻿import { originAllowed, json, normalizeCode } from '../_shared.js';
+﻿import { originAllowed, json, normalizeCode, LOOKUP_MODE_NAMES } from '../_shared.js';
 import { rateLimit, dailyAllowance, refundDaily } from '../_rate.js';
 import { consumeSearchCredit, refundSearchCredit, FREE_SEARCH_PER_DAY } from '../_credits.js';
 import { runLookupAgent } from '../_agent.js';
-
-const MODES = ['check', 'compare', 'trip', 'guide', 'quiz'];
+import { recordAnswered } from '../_usage.js';
 
 export function onRequestGet() {
   return json({ error: 'Method not allowed.' }, 405);
@@ -32,9 +31,10 @@ export async function onRequestPost(context) {
   // ── 3. Parse + validate ───────────────────────────────────────────────────
   let body;
   try { body = await request.json(); } catch (_) { return json({ error: 'Bad request.' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'Bad request.' }, 400);
 
   const mode = body.mode;
-  if (MODES.indexOf(mode) === -1) return json({ error: 'Invalid request.' }, 400);
+  if (LOOKUP_MODE_NAMES.indexOf(mode) === -1) return json({ error: 'Invalid request.' }, 400);
 
   // Optional paid-credit code — normalizeCode returns null if absent/malformed.
   const code = normalizeCode(body.unlock || '');
@@ -78,7 +78,10 @@ export async function onRequestPost(context) {
   // ── 5. Run the lookup agent ───────────────────────────────────────────────
   try {
     const data = await runLookupAgent(env, mode, params);
-    return json(data);
+    const res = json(data);
+    // Aggregate usage count (day + mode only) — never throws, never blocks.
+    recordAnswered(context, mode, res);
+    return res;
   } catch (e) {
     // Refund whichever pool was charged before the agent failed.
     if (charged.kind === 'free') {

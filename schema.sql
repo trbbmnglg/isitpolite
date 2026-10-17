@@ -79,3 +79,12 @@ CREATE TABLE IF NOT EXISTS webhook_events (
   event_id    TEXT PRIMARY KEY,
   created_day TEXT NOT NULL
 );
+
+-- Aggregate daily counts of answered lookups by mode (no identifiers).
+-- Added to the live DB via migrations/0001_usage_daily.sql.
+CREATE TABLE IF NOT EXISTS usage_daily (
+  day TEXT NOT NULL,            -- UTC 'YYYY-MM-DD'
+  mode TEXT NOT NULL,           -- check | compare | trip | guide | quiz
+  answered INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (day, mode)
+);

@@ -2,7 +2,11 @@
   "name": "isitpolite",
   "private": true,
   "version": "1.0.0",
-  "description": "IsItPolite.com — Pages Functions dependencies (LangGraph agent)",
+  "description": "IsItPolite.com — Cloudflare Worker (LangGraph agents) + static site",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --experimental-test-module-mocks \"test/**/*.test.mjs\""
+  },
   "dependencies": {
     "@cloudflare/puppeteer": "^1.1.0",
     "@langchain/langgraph": "^0.2.74",
