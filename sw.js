@@ -1,4 +1,4 @@
-const CACHE = 'isitpolite-v21';
+const CACHE = 'isitpolite-v22';
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
 
 self.addEventListener('install', function (e) {
@@ -20,7 +20,7 @@ self.addEventListener('activate', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
-  // Cache API only supports GET — let everything else (POST /api/*) pass through.
+  // Cache API only supports GET; let everything else (POST /api/*) pass through.
   if (e.request.method !== 'GET') return;
   if (new URL(e.request.url).origin !== self.location.origin) return;
 

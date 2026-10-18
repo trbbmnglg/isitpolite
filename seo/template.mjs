@@ -23,7 +23,7 @@ const VERDICT_CLASS = { polite: 'verdict-polite', caution: 'verdict-caution', ru
 function verdictClass(v) { return VERDICT_CLASS[String(v).toLowerCase()] || 'verdict-caution'; }
 function truncate(s, n) { s = String(s || ''); return s.length > n ? s.slice(0, n - 1).trim() + '…' : s; }
 
-const GLOBE = '<svg class="logo-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
+const GLOBE = '<svg class="logo-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="19" height="19" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
 
 function head(opts) {
   const { title, description, canonical, jsonld } = opts;
@@ -36,7 +36,7 @@ function head(opts) {
   <meta name="description" content="${esc(description)}" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="${esc(canonical)}" />
-  <meta name="theme-color" content="#4F46E5" />
+  <meta name="theme-color" content="#FAF7F2" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="${esc(SITE_NAME)}" />
@@ -50,7 +50,7 @@ function head(opts) {
   <meta name="twitter:image" content="${BASE_URL}/og-image.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/style.css" />
 ${jsonld.map(j => '  <script type="application/ld+json">' + jsonLdSafe(j) + '</script>').join('\n')}
 </head>`;
@@ -60,7 +60,7 @@ function header() {
   return `<body class="seo-page">
   <header class="site-header" role="banner">
     <div class="header-inner">
-      <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home">${GLOBE}<span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span></a>
+      <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home"><span class="logo-badge" aria-hidden="true">${GLOBE}</span><span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span></a>
       <a class="btn-donate" href="/?support=1">Support</a>
     </div>
   </header>`;
