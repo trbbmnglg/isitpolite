@@ -57,7 +57,8 @@ a { color: var(--teal); }
     background: var(--surface); border-top: 1px solid var(--line);
     padding-bottom: env(safe-area-inset-bottom);
   }
-  .nav-inner { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; }
+  .nav-inner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; width: 100%; }
+  .nav-tab.nav-active, .nav-tab.nav-active:hover { font-weight: 500; }
   .nav-tab {
     flex-direction: column; justify-content: center; gap: 2px;
     min-height: 56px; padding: 6px 2px; border-radius: 0;
@@ -161,6 +162,69 @@ fieldset.form-field legend { font-size: 0.875rem; font-weight: 600; color: var(-
 .brief-season li a { font-size: 0.8125rem; color: var(--teal-dark); overflow-wrap: anywhere; }
 .date-tag { font-size: 0.75rem; font-weight: 600; color: var(--caution); background: var(--caution-bg); border: 1px solid var(--caution-border); border-radius: 999px; padding: 0.05rem 0.5rem; margin-left: 0.35rem; }
 .brief-season-none { font-size: 0.9rem; color: var(--ink-muted); }
+
+/* ── Flat verdict tags (colour plus a word; the stamp stays on the hero) ─ */
+.v-tag {
+  display: inline-block; vertical-align: middle; font-size: 0.75rem; font-weight: 600; line-height: 1.4;
+  padding: 0.1rem 0.5rem; border-radius: 4px; border: 1px solid; white-space: nowrap;
+}
+.v-tag.polite  { color: var(--polite);  background: var(--polite-bg);  border-color: var(--polite-border); }
+.v-tag.caution { color: var(--caution); background: var(--caution-bg); border-color: var(--caution-border); }
+.v-tag.rude    { color: var(--rude);    background: var(--rude-bg);    border-color: var(--rude-border); }
+.also-card-header { justify-content: space-between; }
+.history-gesture .v-tag { margin-left: 0.35rem; }
+
+/* ── Legend + numbered citations ─────────────────────────────────────── */
+.verdict-legend { border-top: 2px dotted var(--line); padding-top: 1rem; }
+.verdict-legend summary { cursor: pointer; font-size: 0.875rem; font-weight: 600; color: var(--teal-dark); min-height: 32px; }
+.verdict-legend dl { display: grid; gap: 0.5rem; margin: 0.75rem 0 0; }
+.verdict-legend dl > div { display: grid; grid-template-columns: 9.5rem 1fr; gap: 0.75rem; align-items: baseline; }
+.verdict-legend dd { margin: 0; font-size: 0.875rem; color: var(--ink-muted); line-height: 1.5; }
+@media (max-width: 480px) { .verdict-legend dl > div { grid-template-columns: 1fr; gap: 0.2rem; } }
+.legend-conf { font-size: 0.75rem; font-weight: 600; color: var(--ink); }
+.sup-cite, .cite { font-size: 0.7em; line-height: 0; margin-left: 0.1em; }
+.cite a { font-weight: 700; color: var(--teal-dark); text-decoration: none; padding: 0 0.15em; border-radius: 3px; background: var(--teal-tint); }
+.cite a:hover { text-decoration: underline; }
+ol.seo-source-list.numbered { list-style: decimal; padding-left: 1.25rem; }
+ol.seo-source-list.numbered li:target { background: var(--teal-tint); border-radius: 4px; }
+
+/* ── Briefing: NHS-style do / don't, read progress ───────────────────── */
+.dd-list { margin-top: 0.6rem; }
+.dd-head { display: flex; align-items: center; gap: 0.35rem; font-size: 0.8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.dd-do .dd-head { color: var(--polite); }
+.dd-dont .dd-head { color: var(--rude); }
+.dd-text { font-size: 0.9375rem; line-height: 1.55; margin-top: 0.15rem; padding-left: 1.35rem; }
+.brief-item-foot { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.75rem; }
+.brief-src { margin-top: 0; }
+.brief-read {
+  display: inline-flex; align-items: center; gap: 0.3rem; min-height: 36px; padding: 0 0.75rem;
+  border: 1px solid var(--field-border); border-radius: 999px; background: var(--surface);
+  font: 500 0.8125rem/1 var(--font-sans); color: var(--ink-muted); cursor: pointer;
+}
+.brief-read[aria-pressed="true"] { color: var(--polite); border-color: var(--polite-border); background: var(--polite-bg); }
+.brief-item.is-read { opacity: 0.72; }
+.brief-saved-ok { display: inline-flex; align-items: center; gap: 0.25rem; color: var(--polite); font-weight: 600; }
+.brief-progress { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.6rem; font-size: 0.8125rem; color: var(--ink-muted); }
+.brief-progress-bar { flex: 0 0 120px; height: 6px; border-radius: 999px; background: var(--surface-alt); overflow: hidden; }
+.brief-progress-bar span { display: block; height: 100%; background: var(--teal-solid); transition: width var(--dur-std) var(--ease-std); }
+
+/* ── Saved hub + Compare link ────────────────────────────────────────── */
+.saved-section { margin-top: 1.75rem; }
+.saved-section h3 { font-size: 1.125rem; margin-bottom: 0.6rem; }
+.saved-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.6rem; }
+.saved-head h3 { margin: 0; }
+.saved-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.saved-row {
+  width: 100%; text-align: left; display: flex; flex-direction: column; gap: 0.15rem; min-height: 56px; padding: 0.7rem 1rem;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px; cursor: pointer; font-family: var(--font-sans);
+}
+.saved-row:hover { border-color: var(--teal); background: var(--teal-tint); }
+.saved-row-title { font-weight: 600; color: var(--ink); font-size: 0.9375rem; }
+.saved-row-sub { font-size: 0.8125rem; color: var(--ink-faint); }
+.saved-empty { font-size: 0.9rem; color: var(--ink-muted); }
+.saved-empty a { color: var(--teal-dark); font-weight: 600; }
+.compare-link { text-align: center; margin-top: 1rem; font-size: 0.9375rem; }
+.compare-link a { color: var(--teal-dark); font-weight: 600; }
 
 /* ── The one primary action: terracotta ──────────────────────────────── */
 .btn-cta {

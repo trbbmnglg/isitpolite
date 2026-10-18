@@ -73,18 +73,14 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
         Trip
       </button>
-      <button class="nav-tab" data-view="compare">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
-        Compare
-      </button>
       <button class="nav-tab" data-view="guide">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
         Guide
       </button>
-      <button class="nav-tab" data-view="history">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        History
-        <span class="history-badge hidden" id="history-badge" aria-label="lookup history count"></span>
+      <button class="nav-tab" data-view="saved">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        Saved
+        <span class="history-badge hidden" id="history-badge" aria-label="saved checks count"></span>
       </button>
         </div>
       </nav>
@@ -175,6 +171,7 @@
           <!-- Search credit hint — sits inside the card below the button -->
           <div id="search-credits-badge" class="credits-hint" aria-live="polite"></div>
         </div>
+        <p class="compare-link"><a href="#/compare">Compare a gesture across countries&nbsp;→</a></p>
       </section>
 
       <section id="result-area" aria-live="polite" aria-atomic="true" class="result-section"></section>
@@ -328,6 +325,7 @@
     <!-- ── VIEW: COMPARE ─────────────────────────────────────── -->
     <div id="view-compare" class="view">
       <div class="inner-view-wrap">
+        <p class="view-back"><a href="#/check">← Back to Check</a></p>
         <div class="inner-view-hero">
           <div class="view-icon-wrap" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
@@ -398,27 +396,34 @@
       </div>
     </div><!-- /view-quiz -->
 
-    <!-- ── VIEW: HISTORY ─────────────────────────────────────── -->
-    <div id="view-history" class="view">
+    <!-- ── VIEW: SAVED (history + trip briefings + offline guides) ── -->
+    <div id="view-saved" class="view">
       <div class="inner-view-wrap">
-        <div class="history-view-hero">
-          <div class="history-hero-left">
-            <div class="view-icon-wrap" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <div>
-              <h2>Your History</h2>
-              <p>All your past lookups — click any to re-check.</p>
-            </div>
-          </div>
-          <button id="clear-history-btn" class="btn-danger" type="button" aria-label="Clear all lookup history">
+        <div class="inner-view-hero">
+          <div class="view-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></div>
+          <h2>Saved</h2>
+          <p>Everything here lives on this device and works offline.</p>
+        </div>
+        <section class="saved-section" aria-labelledby="saved-trips-title">
+          <h3 id="saved-trips-title">Trip briefings</h3>
+          <div id="saved-trips"></div>
+        </section>
+        <section class="saved-section" aria-labelledby="saved-packs-title">
+          <h3 id="saved-packs-title">Offline country guides</h3>
+          <div id="saved-packs"></div>
+        </section>
+        <section class="saved-section" aria-labelledby="saved-history-title">
+          <div class="saved-head">
+            <h3 id="saved-history-title">Recent checks</h3>
+            <button id="clear-history-btn" class="btn-danger" type="button" aria-label="Clear all lookup history">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
             Clear All
           </button>
-        </div>
-        <div id="history-list" aria-live="polite"></div>
+          </div>
+          <div id="history-list" aria-live="polite"></div>
+        </section>
       </div>
-    </div><!-- /view-history -->
+    </div><!-- /view-saved -->
 
     
 

@@ -61,8 +61,7 @@
   function renderResult(data, gesture, country, context, fromCache, cacheTs) {
     var cls = verdictClass(data.verdict);
     var alsoCards = (data.also_check || []).map(function (item) {
-      var mc = item.verdict || 'caution';
-      return '<div class="also-card"><div class="also-card-header"><span class="mini-dot ' + sanitize(mc) + '" aria-hidden="true"></span><span class="also-country">' + sanitize(item.country) + '</span></div><p class="also-note">' + sanitize(item.note) + '</p></div>';
+      return '<div class="also-card"><div class="also-card-header"><span class="also-country">' + sanitize(item.country) + '</span>' + verdictTag(item.verdict) + '</div><p class="also-note">' + sanitize(item.note) + '</p></div>';
     }).join('');
 
     var regional = (data.regional_note && String(data.regional_note).trim())
@@ -81,12 +80,13 @@
           confidenceBadge(data.confidence) +
         '</div>' +
         '<div class="card-body">' +
-          '<div class="card-section"><h3>Explanation</h3><p>' + sanitize(data.explanation) + '</p></div>' +
+          '<div class="card-section"><h3>Explanation</h3><p>' + citeLinks(sanitize(data.explanation), data.sources) + '</p></div>' +
           homeNote +
           regional +
           '<div class="card-section"><h3>Local Tip</h3><p class="local-tip-text">' + sanitize(data.local_tip) + '</p></div>' +
           (alsoCards ? '<div class="card-section"><h3>Also Check</h3><div class="also-check-grid">' + alsoCards + '</div></div>' : '') +
           sourcesSection(data.sources) +
+          legendHtml() +
         '</div>' +
         '<div class="result-footnote">AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.</div>' +
       '</article>';
@@ -112,12 +112,39 @@
     if (!list.length) {
       return '<div class="card-section"><h3>Sources</h3><p class="sources-none">No web source directly backed this answer, so treat it with extra care.</p></div>';
     }
-    return '<div class="card-section"><h3>Sources</h3><ul class="seo-source-list">' + list.map(function (s) {
+    return '<div class="card-section"><h3>Sources</h3><ol class="seo-source-list numbered">' + list.map(function (s, i) {
       var host = '';
       try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (_) {}
       var forum = s.kind === 'community';
-      return '<li><a href="' + sanitize(s.url) + '" target="_blank" rel="' + (forum ? 'nofollow ugc noopener' : 'noopener') + '">' + sanitize(s.title) + '</a> <span class="seo-source-host">' + sanitize(host) + (forum ? ' · traveler discussion' : '') + '</span></li>';
-    }).join('') + '</ul></div>';
+      return '<li id="res-src-' + (i + 1) + '"><a href="' + sanitize(s.url) + '" target="_blank" rel="' + (forum ? 'nofollow ugc noopener' : 'noopener') + '">' + sanitize(s.title) + '</a> <span class="seo-source-host">' + sanitize(host) + (forum ? ' · traveler discussion' : '') + '</span></li>';
+    }).join('') + '</ol></div>';
+  }
+
+  // Turn "[2]" markers (already HTML-escaped text) into links to the numbered sources.
+  function citeLinks(html, sources) {
+    var n = Array.isArray(sources) ? sources.length : 0;
+    return html.replace(/\s*\[(\d)\]/g, function (m, d) {
+      var i = parseInt(d, 10);
+      return i >= 1 && i <= n ? '<sup class="cite"><a href="#res-src-' + i + '" aria-label="Source ' + i + '">' + i + '</a></sup>' : '';
+    });
+  }
+
+  function verdictLabelOf(v) {
+    var key = String(v || '').toLowerCase();
+    var hit = VERDICT_LEGEND.filter(function (l) { return l.key === key; })[0];
+    return hit || VERDICT_LEGEND[1];
+  }
+
+  // Flat status tag: colour plus a word, never colour alone.
+  function verdictTag(v) {
+    var l = verdictLabelOf(v);
+    return '<span class="v-tag ' + l.key + '">' + l.label + '</span>';
+  }
+
+  function legendHtml() {
+    var rows = VERDICT_LEGEND.map(function (l) { return '<div><dt>' + verdictTag(l.key) + '</dt><dd>' + sanitize(l.text) + '</dd></div>'; }).join('') +
+      CONFIDENCE_LEGEND.map(function (c) { return '<div><dt><span class="legend-conf">' + sanitize(c.label) + '</span></dt><dd>' + sanitize(c.text) + '</dd></div>'; }).join('');
+    return '<details class="verdict-legend"><summary>What do these labels mean?</summary><dl>' + rows + '</dl></details>';
   }
 
   function renderError(message) {

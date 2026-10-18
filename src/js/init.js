@@ -61,6 +61,8 @@
     briefBtn.addEventListener('click', function () { handleBrief(); });
     briefResult.addEventListener('click', onBriefResultClick);
     briefSavedEl.addEventListener('click', onBriefSavedClick);
+    document.getElementById('saved-trips').addEventListener('click', onSavedTripsClick);
+    document.getElementById('saved-packs').addEventListener('click', onSavedPacksClick);
     compareGestureEl.addEventListener('keydown', function (e) { if (e.key === 'Enter') handleCompare(); });
     document.getElementById('clear-history-btn').addEventListener('click', clearHistory);
 
@@ -115,17 +117,18 @@
   // ═══════════════════════════════════════════════════════════════════════
   // VIEW ROUTER
   // ═══════════════════════════════════════════════════════════════════════
-  // Routes: #/check  #/trip  #/compare  #/guide  #/quiz  #/history
-  // Old links (#/compare/trip, #/community) are mapped onto their new homes.
-  // Quiz has no tab of its own; it is reached from Guide and highlights it.
-  var ROUTE_VIEWS = ['check', 'trip', 'compare', 'guide', 'quiz', 'history'];
-  var TAB_FOR_VIEW = { quiz: 'guide' };
+  // Routes: #/check  #/trip  #/guide  #/saved, plus #/compare and #/quiz.
+  // Old links (#/compare/trip, #/community, #/history) map onto their new homes.
+  // Compare and Quiz have no tab: they open from Check and Guide and highlight them.
+  var ROUTE_VIEWS = ['check', 'trip', 'compare', 'guide', 'quiz', 'saved'];
+  var TAB_FOR_VIEW = { quiz: 'guide', compare: 'check' };
 
   function parseRoute() {
     var parts = (location.hash || '').replace(/^#\/?/, '').split('/');
     var view = parts[0] || 'check', sub = parts[1] || '';
     if (view === 'compare' && sub === 'trip') { view = 'trip'; sub = ''; }
     if (view === 'community') { view = 'check'; sub = 'accuracy'; }
+    if (view === 'history') view = 'saved';
     if (ROUTE_VIEWS.indexOf(view) === -1) { view = 'check'; sub = ''; }
     return { view: view, sub: sub };
   }
@@ -164,7 +167,7 @@
     var tab = document.querySelector('.nav-tab[data-view="' + (TAB_FOR_VIEW[view] || view) + '"]');
     if (tab) { tab.classList.add('nav-active'); tab.setAttribute('aria-current', 'page'); }
 
-    if (view === 'history') renderHistoryView();
+    if (view === 'saved') { renderHistoryView(); renderSavedTrips(); renderSavedPacks(); }
     if (view === 'guide') renderPacksStrip();
     if (view === 'trip') renderBriefSaved();
 

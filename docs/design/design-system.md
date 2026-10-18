@@ -38,9 +38,22 @@ Ratios were computed, not estimated. Keep new colour pairs at 4.5:1 for text and
 
 ## Navigation
 
-Five tabs: Check, Trip, Compare, Guide, History. Quiz has no tab; it opens from Guide (and highlights the Guide tab). Desktop shows them inline in a 64px header. Below 768px they become a fixed bottom tab bar (56px targets) and the header is just the wordmark.
+Four tabs: Check, Trip, Guide, Saved (Material recommends 3-5; labels always visible, the selected label is not bolded on mobile). Compare opens from a link on Check and Quiz from Guide; each highlights its parent tab. Saved collects trip briefings, offline country guides and recent checks. Desktop shows them inline in a 64px header. Below 768px they become a fixed bottom tab bar (56px targets) and the header is just the wordmark.
 
-Hash routes: `#/check`, `#/trip`, `#/compare`, `#/guide`, `#/quiz`, `#/history`. `#/compare/trip` and `#/community` redirect to their new homes. `?g=&c=&ctx=`, `?feedback=1` and `?support=1` still work.
+Hash routes: `#/check`, `#/trip`, `#/guide`, `#/saved`, `#/compare`, `#/quiz`. `#/compare/trip`, `#/community` and `#/history` redirect to their new homes. `?g=&c=&ctx=`, `?feedback=1` and `?support=1` still work.
+
+## Patterns (refined 2026-10-18 after design research)
+
+- **Stamp only on the hero verdict.** Everywhere else (also-check cards, history, lists) use the flat `.v-tag`: colour plus the word Polite / Caution / Rude, never colour alone.
+- **Legend.** Every result and guide page ends with "What do these labels mean?". The text lives in `src/_labels.js`, which also feeds the Check prompt's confidence rules, so the UI and the model use the same definitions.
+- **Numbered citations.** Check answers carry `[n]` markers after the sentences a source supports; they link to a numbered source list. Forum sources are labelled "traveler discussion".
+- **Briefing do / don't.** NHS-style stacked lists headed "Do" and "Don't" (icons decorative); every Don't starts with "Do not". Each point has "Mark as read", with a progress bar saved alongside the briefing, and the header confirms "Saved for offline use".
+
+## Token tiers
+
+1. **Option tokens**: the raw palette (`--paper`, `--teal`, `--terracotta`, verdict colours) in `base.css`, swapped for dark mode.
+2. **Decision tokens**: semantic aliases (`--text`, `--bg`, `--primary`, `--teal-solid`, `--inverse-bg`, `--field-border`).
+3. **Component styles**: `journal.css` and the partials, which must only reference tier 1 or 2 tokens.
 
 ## Rules for new UI
 

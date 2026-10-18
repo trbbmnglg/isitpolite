@@ -130,6 +130,30 @@
     } catch (_) {}
   }
 
+  function renderSavedPacks() {
+    var el = document.getElementById('saved-packs');
+    if (!el) return;
+    var packs = loadPacks();
+    if (!packs.length) {
+      el.innerHTML = '<p class="saved-empty">No offline guides yet. Open a country in <a href="#/guide">Guide</a> and tap "Save for offline".</p>';
+      return;
+    }
+    el.innerHTML = '<ul class="saved-list">' + packs.map(function (c) {
+      return '<li><button type="button" class="saved-row" data-open-pack="' + sanitize(c) + '">' +
+        '<span class="saved-row-title">' + sanitize(c) + '</span><span class="saved-row-sub">Country guide · available offline</span></button></li>';
+    }).join('') + '</ul>';
+  }
+
+  function onSavedPacksClick(e) {
+    var btn = e.target.closest('[data-open-pack]');
+    if (!btn) return;
+    var c = btn.getAttribute('data-open-pack');
+    var data = getPack(c);
+    if (!data) return;
+    navigate('guide');
+    setTimeout(function () { guideCountryEl.value = c; renderGuide(data, true, c); }, 60);
+  }
+
   function renderPacksStrip() {
     if (!offlinePacksEl) return;
     var packs = loadPacks();

@@ -57,9 +57,8 @@
         var ctxLabel = (CONTEXT_LABELS[item.context] || item.context).split(' / ')[0];
         html +=
           '<div class="history-item" role="button" tabindex="0" aria-label="Re-check: ' + sanitize(item.gesture) + ' in ' + sanitize(item.country) + '" data-gesture="' + sanitize(item.gesture) + '" data-country="' + sanitize(item.country) + '" data-context="' + sanitize(item.context) + '">' +
-            '<span class="history-dot ' + sanitize(item.verdict) + '" aria-hidden="true"></span>' +
             '<div class="history-item-body">' +
-              '<div class="history-gesture">' + sanitize(item.gesture) + '</div>' +
+              '<div class="history-gesture">' + sanitize(item.gesture) + ' ' + verdictTag(item.verdict) + '</div>' +
               '<div class="history-meta">' +
                 '<span class="history-country">' + sanitize(item.country) + '</span>' +
                 '<span class="history-ctx">' + sanitize(ctxLabel) + '</span>' +

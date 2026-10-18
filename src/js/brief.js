@@ -112,14 +112,37 @@
     return data.month ? MONTHS[data.month - 1] + ' ' + data.year : '';
   }
 
+  var TICK  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>';
+  var CROSS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+
+  function getBriefRead(key) {
+    var e = getBrief(key);
+    return e && Array.isArray(e.read) ? e.read : [];
+  }
+  function setBriefRead(key, read) {
+    try {
+      var e = getBrief(key);
+      if (!e) return;
+      e.read = read;
+      localStorage.setItem(BRIEF_PREFIX + key, JSON.stringify(e));
+    } catch (_) {}
+  }
+
+  function readProgressText(read, total) {
+    return read + ' of ' + total + ' read';
+  }
+
   function renderBrief(data, key, ts) {
     var route = sanitize(data.from) + ' → ' + sanitize(data.to);
     var meta = [(data.contexts || []).map(shortContext).join(', '), briefWhen(data)].filter(Boolean).map(sanitize).join(' · ');
+    var read = getBriefRead(key);
+    var total = (data.watch_outs || []).length;
 
-    var items = (data.watch_outs || []).map(function (w) {
+    var items = (data.watch_outs || []).map(function (w, i) {
       var sev = SEVERITY_CLASS[w.severity] ? w.severity : 'medium';
       var link = /^\/etiquette\/[a-z0-9-]+\/[a-z0-9-]+\/$/.test(w.link || '') ? w.link : '';
-      return '<li class="brief-item">' +
+      var isRead = read.indexOf(i) !== -1;
+      return '<li class="brief-item' + (isRead ? ' is-read' : '') + '">' +
         '<div class="brief-item-head"><span class="sev-chip ' + SEVERITY_CLASS[sev] + '">' + SEVERITY_LABELS[sev] + '</span>' +
           '<span class="brief-cat">' + sanitize(w.category || shortContext(w.context)) + '</span></div>' +
         '<h4>' + sanitize(w.title) + '</h4>' +
@@ -127,9 +150,13 @@
           '<div><dt>In ' + sanitize(withThe(data.from)) + '</dt><dd>' + sanitize(w.from_norm) + '</dd></div>' +
           '<div><dt>In ' + sanitize(withThe(data.to)) + '</dt><dd>' + sanitize(w.to_norm) + '</dd></div>' +
         '</dl>' +
-        '<p class="brief-do"><strong>Do:</strong> ' + sanitize(w.do) + '</p>' +
-        (w.avoid ? '<p class="brief-avoid"><strong>Avoid:</strong> ' + sanitize(w.avoid) + '</p>' : '') +
-        (link ? '<a class="brief-src" href="' + link + '">See the reviewed guide and sources →</a>' : '') +
+        // NHS-style do and don't lists: stacked, labelled in words, icons decorative.
+        '<div class="dd-list dd-do"><p class="dd-head">' + TICK + 'Do</p><p class="dd-text">' + sanitize(w.do) + '</p></div>' +
+        (w.avoid ? '<div class="dd-list dd-dont"><p class="dd-head">' + CROSS + 'Don\'t</p><p class="dd-text">' + sanitize(w.avoid) + '</p></div>' : '') +
+        '<div class="brief-item-foot">' +
+          (link ? '<a class="brief-src" href="' + link + '">See the reviewed guide and sources →</a>' : '<span></span>') +
+          '<button type="button" class="brief-read" data-read="' + i + '" aria-pressed="' + (isRead ? 'true' : 'false') + '">' + (isRead ? TICK + ' Read' : 'Mark as read') + '</button>' +
+        '</div>' +
       '</li>';
     }).join('');
 
@@ -150,7 +177,8 @@
         '<div class="brief-head">' +
           '<p class="brief-route">' + route + (meta ? ' · ' + meta : '') + '</p>' +
           '<h3 class="brief-headline">' + sanitize(data.headline) + '</h3>' +
-          '<p class="brief-meta">Saved on this device · ' + timeAgo(ts) + ' · <button type="button" class="link-btn" data-act="refresh">Refresh</button></p>' +
+          '<p class="brief-meta"><span class="brief-saved-ok">' + TICK + 'Saved for offline use</span> · ' + timeAgo(ts) + ' · <button type="button" class="link-btn" data-act="refresh">Refresh</button></p>' +
+          '<p class="brief-progress" aria-live="polite"><span class="brief-progress-bar"><span style="width:' + (total ? Math.round(read.length / total * 100) : 0) + '%"></span></span><span class="brief-progress-text">' + readProgressText(read.length, total) + '</span></p>' +
         '</div>' +
         '<ol class="brief-list">' + items + '</ol>' +
         season +
@@ -164,7 +192,23 @@
   }
 
   function onBriefResultClick(e) {
-    if (e.target.closest('[data-act="refresh"]')) handleBrief({ refresh: true });
+    if (e.target.closest('[data-act="refresh"]')) { handleBrief({ refresh: true }); return; }
+    var btn = e.target.closest('[data-read]');
+    if (!btn) return;
+    var key = briefResult.dataset.key;
+    var i = parseInt(btn.getAttribute('data-read'), 10);
+    var read = getBriefRead(key).filter(function (n) { return n !== i; });
+    var nowRead = btn.getAttribute('aria-pressed') !== 'true';
+    if (nowRead) read.push(i);
+    setBriefRead(key, read);
+    btn.setAttribute('aria-pressed', nowRead ? 'true' : 'false');
+    btn.innerHTML = nowRead ? TICK + ' Read' : 'Mark as read';
+    btn.closest('.brief-item').classList.toggle('is-read', nowRead);
+    var total = briefResult.querySelectorAll('.brief-item').length;
+    var bar = briefResult.querySelector('.brief-progress-bar span');
+    if (bar) bar.style.width = (total ? Math.round(read.length / total * 100) : 0) + '%';
+    var txt = briefResult.querySelector('.brief-progress-text');
+    if (txt) txt.textContent = readProgressText(read.length, total);
   }
 
   function renderBriefSaved() {
@@ -177,6 +221,34 @@
         '<button type="button" class="trip-chip-remove" data-remove="' + sanitize(k) + '" aria-label="Remove ' + sanitize(label) + '">&times;</button></span>';
     }).join('') + '</div>';
     briefSavedEl.classList.remove('hidden');
+  }
+
+  // Saved tab: the same briefings, opened in the Trip tab.
+  function renderSavedTrips() {
+    var el = document.getElementById('saved-trips');
+    if (!el) return;
+    var keys = loadBriefIndex().filter(function (k) { return getBrief(k); });
+    if (!keys.length) {
+      el.innerHTML = '<p class="saved-empty">No briefings yet. <a href="#/trip">Make one in Trip</a> and it will be saved here for offline use.</p>';
+      return;
+    }
+    el.innerHTML = '<ul class="saved-list">' + keys.map(function (k) {
+      var e = getBrief(k), d = e.data, read = Array.isArray(e.read) ? e.read.length : 0, total = (d.watch_outs || []).length;
+      var sub = [(d.contexts || []).map(shortContext).join(', '), briefWhen(d), readProgressText(read, total)].filter(Boolean).join(' · ');
+      return '<li><button type="button" class="saved-row" data-open-brief="' + sanitize(k) + '">' +
+        '<span class="saved-row-title">' + sanitize(d.from) + ' → ' + sanitize(d.to) + '</span>' +
+        '<span class="saved-row-sub">' + sanitize(sub) + '</span></button></li>';
+    }).join('') + '</ul>';
+  }
+
+  function onSavedTripsClick(e) {
+    var btn = e.target.closest('[data-open-brief]');
+    if (!btn) return;
+    var key = btn.getAttribute('data-open-brief');
+    var entry = getBrief(key);
+    if (!entry) return;
+    navigate('trip');
+    setTimeout(function () { setBriefForm(entry.data); renderBrief(entry.data, key, entry.ts); }, 60);
   }
 
   function onBriefSavedClick(e) {
