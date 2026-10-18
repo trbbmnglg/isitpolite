@@ -44,11 +44,25 @@ kept as "traveler discussions" but never carry a page alone. Generated records c
 `grounded: <date>` (not `reviewed`), and the page says it is "not yet independently reviewed"
 until a fact-check pass adds `reviewed`.
 
+## "Etiquette for <demonym>" pages
+
+`ORIGIN_PAGES` in `seo/seo-data.mjs` lists origin countries and destinations (now: Filipinos → Japan, South Korea, Singapore, UAE, Saudi Arabia, Qatar). Generate their content with the trip-briefing pipeline, then build:
+
+```powershell
+node scripts/generate-origin-pages.mjs          # missing pages; --force to regenerate
+```
+
+Pages render at `/etiquette/for-filipinos/<dest>/`, link from the country hub and the `/etiquette/` index, and are labelled "not yet independently reviewed".
+
+## Link-preview cards
+
+Every pair page, hub and origin page gets a 1200×630 card at `/og/...png`, rendered at build time by `seo/og.mjs` (satori + resvg, fonts from @fontsource). Cards are cached in `.og-cache/` by content hash, so only changed pages re-render (a cold build of ~520 cards takes about 4 minutes).
+
 ## Build & deploy
 
 ```powershell
-# 1. assemble dist from seo-cache (no key needed; never generates pages from model memory
-#    unless DEEPSEEK_API_KEY is set — prefer scripts/generate-pages.mjs for new pages)
+# 1. assemble dist from seo-cache + preview cards (no key needed; unsourced model-memory
+#    generation only runs with --legacy-generate — use scripts/generate-pages.mjs instead)
 node build-seo.mjs
 
 # 2. test, then deploy the Worker (serves dist/ as static assets)

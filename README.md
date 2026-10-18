@@ -62,6 +62,8 @@ A lone report — or a troll that slips the moderation filter — **never** flip
 | POST | `/api/feedback` | Anonymous feedback (AI-sanitized, emailed to owner) |
 | GET | `/api/accuracy` | Community accuracy for one verdict |
 | GET | `/api/community` | Aggregate community accuracy stats |
+| POST | `/api/event` | Privacy-safe product event counter (`{ event }` from a fixed allowlist; stores day + name only) |
+| POST | `/api/contrast` | "Coming from …" note for an instant, fact-checked answer (only for questions that match a reviewed record) |
 | GET | `/api/stats` | Public usage counter: `{ total, last30Days, byMode, since }` (answered checks only, counted on isitpolite.com, stores only day + mode) |
 
 ---

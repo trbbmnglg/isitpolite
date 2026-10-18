@@ -49,6 +49,11 @@ Hash routes: `#/check`, `#/trip`, `#/guide`, `#/saved`, `#/compare`, `#/quiz`. `
 - **Numbered citations.** Check answers carry `[n]` markers after the sentences a source supports; they link to a numbered source list. Forum sources are labelled "traveler discussion".
 - **Briefing do / don't.** NHS-style stacked lists headed "Do" and "Don't" (icons decorative); every Don't starts with "Do not". Each point has "Mark as read", with a progress bar saved alongside the briefing, and the header confirms "Saved for offline use".
 
+- **Sharing.** Results, briefings and quiz scores use the phone's share sheet (`shareOrCopy` in `src/js/ui.js`) with a copy-link fallback; secondary (teal outline) style, never terracotta.
+- **Briefing extras.** "Three phrases to know" card, "Remind me before I fly" (calendar file built on the device) and an install card offered only after a briefing is saved. All secondary style.
+- **Instant answers.** Fact-checked answers show "Fact-checked guide · reviewed <date> · Full guide →" under the stamp.
+- **Preview cards.** `seo/og.mjs`: paper background, Fraunces question, verdict stamp, teal wordmark; always light.
+
 ## Token tiers
 
 1. **Option tokens**: the raw palette (`--paper`, `--teal`, `--terracotta`, verdict colours) in `base.css`, swapped for dark mode.
