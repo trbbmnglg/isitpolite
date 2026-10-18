@@ -69,7 +69,7 @@ Hash routes: `#/check`, `#/trip`, `#/guide`, `#/saved`, `#/compare`, `#/quiz`. `
 
 ## Dark mode
 
-Automatic from the system setting (`prefers-color-scheme: dark`); there is no manual toggle. The dark palette is a second token block in `src/css/base.css`, and the page also sets `color-scheme: light dark` and a dark `theme-color`. Components only reference tokens, so the few exceptions live at the end of `journal.css`.
+Follows the system setting (`prefers-color-scheme: dark`) until the visitor uses the sun/moon toggle in the header, which sets `data-theme` on `<html>` and remembers it in localStorage (`seo/theme.mjs`; a head script applies it before paint). Write dark styles only inside `@media (prefers-color-scheme: dark)`: `expandDarkMode()` in the build also emits them for a forced dark choice and skips them for a forced light one. The dark palette is a second token block in `src/css/base.css`, and the page also sets `color-scheme: light dark` and a dark `theme-color`. Components only reference tokens, so the few exceptions live at the end of `journal.css`.
 
 Rules that keep it working: use `--teal-solid` (not `--teal`) for fills that carry white text, `--inverse-bg` / `--inverse-fg` for the dark-on-light pill, and `--terracotta-text` for terracotta used as text. All dark pairs were computed to pass AA (text 4.5:1, UI 3:1).
 
@@ -79,4 +79,4 @@ The PNG/PDF templates in `src/_templates.js` use the same palette, Fraunces and 
 
 ## Not done yet
 
-- A manual light/dark toggle.
+- (none)

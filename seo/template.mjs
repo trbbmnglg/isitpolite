@@ -5,6 +5,7 @@
 import { BASE_URL, SITE_NAME, DONATE_URL, GESTURES, COUNTRIES, CONTEXT_LABELS, countrySlug, gestureSlug } from './seo-data.mjs';
 import { VERDICT_LEGEND, CONFIDENCE_LEGEND } from '../src/_labels.js';
 import { withThe } from '../src/_countries.js';
+import { THEME_HEAD, THEME_BUTTON, THEME_SCRIPT } from './theme.mjs';
 
 export function esc(s) {
   return String(s == null ? '' : s)
@@ -41,6 +42,7 @@ function head(opts) {
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="${esc(canonical)}" />
   <meta name="color-scheme" content="light dark" />
+  ${THEME_HEAD}
   <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#14110F" media="(prefers-color-scheme: dark)" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -67,7 +69,7 @@ function header() {
   <header class="site-header" role="banner">
     <div class="header-inner">
       <a class="logo" href="/" aria-label="${esc(SITE_NAME)} — Home"><span class="logo-badge" aria-hidden="true">${GLOBE}</span><span class="logo-text">IsItPolite<span class="logo-dot">.com</span></span></a>
-      <a class="btn-donate" href="/?support=1">Support</a>
+      <span class="header-actions">${THEME_BUTTON}<a class="btn-donate" href="/?support=1">Support</a></span>
     </div>
   </header>`;
 }
@@ -79,6 +81,7 @@ function footer() {
       <p class="copyright">© 2026 ${esc(SITE_NAME)} — AI-powered guidance, not absolute rules. Customs vary between people and regions.</p>
     </div>
   </footer>
+${THEME_SCRIPT}
 </body>
 </html>`;
 }

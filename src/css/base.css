@@ -75,7 +75,12 @@
   --header-h:   64px;
 }
 
-/* Dark palette: same token names, warm near-black. Components only use tokens. */
+/* A forced choice from the header toggle also fixes native controls' scheme. */
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"]  { color-scheme: dark; }
+
+/* Dark palette: same token names, warm near-black. Components only use tokens.
+   build-seo.mjs (expandDarkMode) also emits these for a forced dark choice. */
 @media (prefers-color-scheme: dark) {
   :root {
     --paper:           #14110F;

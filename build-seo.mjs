@@ -30,6 +30,7 @@ import {
 } from './seo/seo-data.mjs';
 import { renderPairPage, renderCountryHub, renderSeoIndex, renderOriginPage } from './seo/template.mjs';
 import { writeOgCard } from './seo/og.mjs';
+import { injectTheme, expandDarkMode } from './seo/theme.mjs';
 import { COUNTRIES as APP_COUNTRIES, CONTEXT_LABELS as APP_CONTEXT_LABELS, MONTHS as APP_MONTHS, THE_COUNTRIES as APP_THE_COUNTRIES, withThe } from './src/_countries.js';
 import { VERDICT_LEGEND, CONFIDENCE_LEGEND } from './src/_labels.js';
 
@@ -230,8 +231,9 @@ function assembleBase() {
   mkdirSync(DIST, { recursive: true });
   for (const f of STATIC_FILES) {
     const src = join(ROOT, f);
-    if (existsSync(src)) copyFileSync(src, join(DIST, f));
-    else console.warn(`  (skipped missing ${f})`);
+    if (!existsSync(src)) { console.warn(`  (skipped missing ${f})`); continue; }
+    if (f.endsWith('.html')) writeFileSync(join(DIST, f), injectTheme(readFileSync(src, 'utf8')));
+    else copyFileSync(src, join(DIST, f));
   }
 
   // Read a source partial and strip any leading UTF-8 BOM. A BOM (U+FEFF) is
@@ -254,7 +256,7 @@ const jsContent = sharedData + JS_MODULES.map(m => readPart(join(ROOT, 'src/js',
 
   // Concatenate CSS partials into dist/style.css.
   const cssContent = CSS_PARTS.map(p => readPart(join(ROOT, 'src/css', p + '.css'))).join('\n');
-  writeFileSync(join(DIST, 'style.css'), cssContent);
+  writeFileSync(join(DIST, 'style.css'), expandDarkMode(cssContent));
   console.log(`  built dist/style.css from ${CSS_PARTS.length} partials`);
 
   // NOTE: API/Worker source lives in ./src and is bundled by wrangler at

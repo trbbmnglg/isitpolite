@@ -35,6 +35,15 @@ a { color: var(--teal); }
 .nav-tab.nav-active, .nav-tab.nav-active:hover { color: var(--teal-dark); background: var(--teal-tint); box-shadow: none; font-weight: 600; }
 .history-badge, .nav-active .history-badge { background: var(--teal-solid); color: #fff; }
 
+/* Light / dark toggle (shows the mode you would switch to) */
+.header-actions { display: inline-flex; align-items: center; gap: 0.25rem; }
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+  width: 44px; height: 44px; border: 0; border-radius: 8px; background: none; color: var(--ink-muted); cursor: pointer;
+}
+.theme-toggle:hover { background: var(--surface-alt); color: var(--ink); }
+.theme-toggle .i-sun { display: none; }
+
 /* Support: a quiet text link, not a pill */
 .btn-donate {
   background: none; border: none; box-shadow: none; border-radius: 8px;
@@ -377,4 +386,6 @@ ol.seo-source-list.numbered li:target { background: var(--teal-tint); border-rad
   .modal-overlay { background: rgba(0,0,0,0.65); }
   .btn-cta:disabled { background: #4A433D; color: #A89F94; }
   ::selection { background: #1F5F59; color: #fff; }
+  .theme-toggle .i-sun { display: inline; }
+  .theme-toggle .i-moon { display: none; }
 }
