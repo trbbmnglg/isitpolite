@@ -3,6 +3,7 @@
 // reuse the site's /style.css, and link back into the interactive app.
 
 import { BASE_URL, SITE_NAME, DONATE_URL, GESTURES, COUNTRIES, CONTEXT_LABELS, countrySlug, gestureSlug } from './seo-data.mjs';
+import { VERDICT_LEGEND, CONFIDENCE_LEGEND } from '../src/_labels.js';
 
 export function esc(s) {
   return String(s == null ? '' : s)
@@ -113,8 +114,7 @@ function confidenceBadge(level) {
 function verdictCard(rec) {
   const cls = verdictClass(rec.verdict);
   const also = (rec.also_check || []).map(item => {
-    const mc = String(item.verdict || 'caution').toLowerCase();
-    return `<div class="also-card"><div class="also-card-header"><span class="mini-dot ${esc(mc)}" aria-hidden="true"></span><span class="also-country">${esc(item.country)}</span></div><p class="also-note">${esc(item.note)}</p></div>`;
+    return `<div class="also-card"><div class="also-card-header"><span class="also-country">${esc(item.country)}</span>${verdictTag(item.verdict)}</div><p class="also-note">${esc(item.note)}</p></div>`;
   }).join('');
   const regional = (rec.regional_note && String(rec.regional_note).trim())
     ? `<div class="card-section"><div class="caveat-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span><strong>Varies locally:</strong> ${esc(rec.regional_note)}</span></div></div>`
@@ -126,6 +126,7 @@ function verdictCard(rec) {
         ${regional}
         <div class="card-section"><h2>Local Tip</h2><p class="local-tip-text">${esc(rec.local_tip)}</p></div>
         ${also ? `<div class="card-section"><h2>How it compares elsewhere</h2><div class="also-check-grid">${also}</div></div>` : ''}
+        ${legendHtml()}
       </div>
       <div class="result-footnote">${rec.reviewed
         ? 'AI-drafted and fact-checked against the sources below — customs vary between people and regions.'
@@ -133,6 +134,18 @@ function verdictCard(rec) {
           ? 'AI-drafted from the sources below and not yet independently reviewed — customs vary between people and regions.'
           : 'AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.'}</div>
     </article>`;
+}
+
+function verdictTag(v) {
+  const key = String(v || '').toLowerCase();
+  const l = VERDICT_LEGEND.find(x => x.key === key) || VERDICT_LEGEND[1];
+  return `<span class="v-tag ${l.key}">${esc(l.label)}</span>`;
+}
+
+function legendHtml() {
+  const rows = VERDICT_LEGEND.map(l => `<div><dt>${verdictTag(l.key)}</dt><dd>${esc(l.text)}</dd></div>`).join('') +
+    CONFIDENCE_LEGEND.map(c => `<div><dt><span class="legend-conf">${esc(c.label)}</span></dt><dd>${esc(c.text)}</dd></div>`).join('');
+  return `<details class="verdict-legend"><summary>What do these labels mean?</summary><dl>${rows}</dl></details>`;
 }
 
 function humanDate(iso) {

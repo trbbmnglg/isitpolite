@@ -4,6 +4,7 @@ import { StateGraph, START, END, Annotation } from '@langchain/langgraph';
 import { ChatOpenAI } from '@langchain/openai';
 import { CONTEXT_LABELS } from './_countries.js';
 import { briefMode } from './_brief.js';
+import { confidenceRules } from './_labels.js';
 
 function getModel(env, maxTokens) {
   return new ChatOpenAI({
@@ -172,21 +173,30 @@ export const LOOKUP_MODES = {
       return 'Question: is "' + p.gesture + '" polite in ' + p.country + '? Context: ' + cl + '.\n' +
         'Be specific to ' + p.country + '; explanation factual (2-3 sentences); local_tip actionable; also_check = 3 countries where it lands differently.' +
         ' regional_note: only regional or generational variation that the sources mention or that is well documented; never invent a region, city or group; otherwise an empty string.' +
-        ' Confidence: "high" = widely documented and consistent across sources; "medium" = generally true but varies by region, generation or setting; "low" = sources are thin or disagree. Use "low" whenever that is the honest answer.' +
-        (src ? ' In "cited", list the numbers of the web sources that directly support the verdict (empty array if none do).' : ' Set "cited" to an empty array.') +
+        ' Confidence: ' + confidenceRules() + '. Use "low" whenever that is the honest answer.' +
+        (src
+          ? ' In "cited", list the numbers of the web sources that directly support the verdict (empty array if none do). In the explanation, put the matching source number in square brackets right after each sentence it supports, e.g. "... is considered rude [2]."'
+          : ' Set "cited" to an empty array and do not put source numbers in the explanation.') +
         home + ground(src) + '\n\n' +
         'Respond ONLY with JSON: {"verdict":"polite"|"caution"|"rude","verdict_label":"3-5 words","confidence":"high"|"medium"|"low","explanation":"2-3 sentences","local_tip":"one sentence","regional_note":"one sentence or empty string"' + homeField + ',"cited":[1],"also_check":[{"country":"..","verdict":"polite"|"caution"|"rude","note":".."},{"country":"..","verdict":"..","note":".."},{"country":"..","verdict":"..","note":".."}]}';
     },
     valid: function (d) { return d && ['polite', 'caution', 'rude'].indexOf(String(d.verdict).toLowerCase()) !== -1 && d.explanation && Array.isArray(d.also_check); },
     // Replace the model's source numbers with the real titles and URLs it was given.
+    // Also renumber the [n] markers in the explanation to match that final list.
     finalize: function (d, p, sources) {
       const used = sources.slice(0, 4);
-      const seen = new Set();
-      const cited = (Array.isArray(d.cited) ? d.cited : []).map(function (n) { return used[(parseInt(n, 10) || 0) - 1]; })
-        .filter(function (s) { return s && /^https:\/\//.test(s.url) && !seen.has(s.url) && seen.add(s.url); })
-        .slice(0, 3)
-        .map(function (s) { return { title: String(s.title || s.url).slice(0, 140), url: s.url, kind: sourceKind(s.url) }; });
-      const out = Object.assign({}, d, { sources: cited });
+      const cited = [], renumber = {};
+      const wanted = (Array.isArray(d.cited) ? d.cited : []).concat((String(d.explanation || '').match(/\[(\d)\]/g) || []).map(function (m) { return m.slice(1, -1); }));
+      wanted.forEach(function (n) {
+        const i = parseInt(n, 10) || 0, s = used[i - 1];
+        if (!s || !/^https:\/\//.test(s.url) || renumber[i] || cited.length >= 3) return;
+        cited.push({ title: String(s.title || s.url).slice(0, 140), url: s.url, kind: sourceKind(s.url) });
+        renumber[i] = cited.length;
+      });
+      const explanation = String(d.explanation || '')
+        .replace(/\s*\[(\d)\]/g, function (m, n) { return renumber[n] ? ' [' + renumber[n] + ']' : ''; })
+        .replace(/(\[\d\])(?:\s*\1)+/g, '$1');
+      const out = Object.assign({}, d, { explanation: explanation, sources: cited });
       delete out.cited;
       return out;
     },

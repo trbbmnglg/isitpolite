@@ -68,7 +68,7 @@ export function briefMode(ground) {
         '"watch_outs":[{"title":"3-7 words","category":"Greetings|Dining|Tipping|Gestures|Dress|Religion|Punctuality|Gift-giving|Communication|Personal space|Business",' +
         '"context":"' + CONTEXT_KEYS.join('|') + '","severity":"high|medium|low",' +
         '"from_norm":"what is normal in ' + p.from + ', one short sentence","to_norm":"what is expected in ' + p.to + ', one short sentence",' +
-        '"do":"one sentence","avoid":"one sentence","gesture_key":""}],' +
+        '"do":"one sentence","avoid":"one sentence that starts with Do not","gesture_key":""}],' +
         '"season":[{"title":"..","note":"one or two sentences","movable":false,"source":1}]}';
     },
     valid: function (d) {

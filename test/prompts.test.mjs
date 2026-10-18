@@ -35,6 +35,26 @@ test('check finalize turns cited numbers into real https sources only', () => {
   assert.deepEqual(LOOKUP_MODES.check.finalize({ verdict: 'polite', explanation: 'x', also_check: [] }, {}, sources).sources, []);
 });
 
+test('citation markers are renumbered to the final source list; unknown ones are dropped', () => {
+  const sources = [
+    { title: 'A', url: 'https://a.example/x', content: '' },
+    { title: 'B', url: 'http://b.example/x', content: '' },
+    { title: 'C', url: 'https://c.example/x', content: '' },
+  ];
+  const out = LOOKUP_MODES.check.finalize({ verdict: 'rude', also_check: [], cited: [], explanation: 'First claim [3]. Second claim [1]. Insecure [2]. Repeat [3] [3]. Ghost [7].' }, {}, sources);
+  assert.deepEqual(out.sources.map((s) => s.title), ['C', 'A']);
+  assert.equal(out.explanation, 'First claim [1]. Second claim [2]. Insecure. Repeat [1]. Ghost.');
+});
+
+test('shared labels drive the prompt and cover every verdict and confidence level', async () => {
+  const { VERDICT_LEGEND, CONFIDENCE_LEGEND, confidenceRules } = await import('../src/_labels.js');
+  assert.deepEqual(VERDICT_LEGEND.map((l) => l.key), ['polite', 'caution', 'rude']);
+  assert.deepEqual(CONFIDENCE_LEGEND.map((l) => l.key), ['high', 'medium', 'low']);
+  const prompt = LOOKUP_MODES.check.prompt({ gesture: 'x', country: 'Japan', context: 'general', home: '' }, '[1] s');
+  assert.ok(prompt.includes(confidenceRules()));
+  assert.match(prompt, /square brackets right after each sentence/);
+});
+
 test('check output stays valid with or without home_contrast', () => {
   const ok = { verdict: 'caution', explanation: 'x', also_check: [] };
   assert.equal(!!LOOKUP_MODES.check.valid(ok), true);
