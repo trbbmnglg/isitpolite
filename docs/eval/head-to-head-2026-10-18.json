@@ -1,0 +1,828 @@
+{
+  "day": "2026-10-18",
+  "n": 20,
+  "summary": {
+    "isitpolite": {
+      "match": 18,
+      "near": 2,
+      "opposite": 0,
+      "no_answer": 0,
+      "accuracy": 90,
+      "with_sources": 20,
+      "cited_isitpolite": 0,
+      "median_ms": 4270
+    },
+    "gpt-4o": {
+      "match": 14,
+      "near": 6,
+      "opposite": 0,
+      "no_answer": 0,
+      "accuracy": 70,
+      "with_sources": 0,
+      "cited_isitpolite": 0,
+      "median_ms": 1631
+    },
+    "gpt-4o-web": {
+      "match": 17,
+      "near": 3,
+      "opposite": 0,
+      "no_answer": 0,
+      "accuracy": 85,
+      "with_sources": 4,
+      "cited_isitpolite": 0,
+      "median_ms": 2861
+    },
+    "deepseek": {
+      "match": 15,
+      "near": 4,
+      "opposite": 1,
+      "no_answer": 0,
+      "accuracy": 75,
+      "with_sources": 0,
+      "cited_isitpolite": 0,
+      "median_ms": 1019
+    }
+  },
+  "rows": [
+    {
+      "country": "Brazil",
+      "gesture": "Thumbs up",
+      "context": "general",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4195,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1504,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 4115,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1023,
+          "grade": "opposite"
+        }
+      }
+    },
+    {
+      "country": "China",
+      "gesture": "Direct eye contact",
+      "context": "business",
+      "expected": "caution",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "caution",
+          "sources": 3,
+          "confidence": "medium",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 3607,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1677,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 1,
+          "ourSite": false,
+          "ms": 2902,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 950,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Egypt",
+      "gesture": "Showing the soles of your feet",
+      "context": "social",
+      "expected": "rude",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 3,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4303,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1122,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2532,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 876,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "France",
+      "gesture": "Tipping at a restaurant",
+      "context": "dining",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4270,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1693,
+          "grade": "near"
+        },
+        "gpt-4o-web": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 3851,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 906,
+          "grade": "near"
+        }
+      }
+    },
+    {
+      "country": "Germany",
+      "gesture": "Public displays of affection",
+      "context": "social",
+      "expected": "caution",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "caution",
+          "sources": 2,
+          "confidence": "medium",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4568,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1656,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1236,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1184,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Greece",
+      "gesture": "The OK hand sign",
+      "context": "general",
+      "expected": "rude",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 1,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 3716,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1438,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2853,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1019,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "India",
+      "gesture": "Tipping at a restaurant",
+      "context": "dining",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 3,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4219,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1831,
+          "grade": "near"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2861,
+          "grade": "near"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1164,
+          "grade": "near"
+        }
+      }
+    },
+    {
+      "country": "Indonesia",
+      "gesture": "Eating with your left hand",
+      "context": "dining",
+      "expected": "rude",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4013,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1760,
+          "grade": "near"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2296,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 853,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Italy",
+      "gesture": "Showing the soles of your feet",
+      "context": "social",
+      "expected": "caution",
+      "expectedConfidence": "low",
+      "answers": {
+        "isitpolite": {
+          "verdict": "caution",
+          "sources": 3,
+          "confidence": "low",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4535,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1800,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 3349,
+          "grade": "near"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1130,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Japan",
+      "gesture": "Eating with your left hand",
+      "context": "dining",
+      "expected": "caution",
+      "expectedConfidence": "medium",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4408,
+          "grade": "near"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1720,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 2,
+          "ourSite": false,
+          "ms": 3752,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 781,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Netherlands",
+      "gesture": "Thumbs up",
+      "context": "general",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 2,
+          "confidence": "low",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 3695,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1591,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 3095,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 798,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Philippines",
+      "gesture": "Beckoning someone with your finger",
+      "context": "general",
+      "expected": "rude",
+      "expectedConfidence": "medium",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 3744,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1767,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2415,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1037,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Russia",
+      "gesture": "Patting someone on the head",
+      "context": "social",
+      "expected": "caution",
+      "expectedConfidence": "low",
+      "answers": {
+        "isitpolite": {
+          "verdict": "caution",
+          "sources": 3,
+          "confidence": "low",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4466,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1703,
+          "grade": "near"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 3169,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1174,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Saudi Arabia",
+      "gesture": "Refusing food offered by a host",
+      "context": "family",
+      "expected": "rude",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 3,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4174,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1222,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 3534,
+          "grade": "near"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1055,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Singapore",
+      "gesture": "Removing your shoes indoors",
+      "context": "general",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 3,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4594,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1292,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "polite",
+          "sources": 1,
+          "ourSite": false,
+          "ms": 2756,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1094,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Spain",
+      "gesture": "Direct eye contact",
+      "context": "business",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 3,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 3745,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1568,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "polite",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2793,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1097,
+          "grade": "near"
+        }
+      }
+    },
+    {
+      "country": "Thailand",
+      "gesture": "Patting someone on the head",
+      "context": "social",
+      "expected": "rude",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 3,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4225,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1413,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2674,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 862,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "Turkey",
+      "gesture": "Arriving late to a meeting",
+      "context": "business",
+      "expected": "caution",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4723,
+          "grade": "near"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1631,
+          "grade": "near"
+        },
+        "gpt-4o-web": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2616,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 800,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "United Arab Emirates",
+      "gesture": "Refusing food offered by a host",
+      "context": "family",
+      "expected": "rude",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "rude",
+          "sources": 2,
+          "confidence": "high",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 4396,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1299,
+          "grade": "match"
+        },
+        "gpt-4o-web": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 2669,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "rude",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 965,
+          "grade": "match"
+        }
+      }
+    },
+    {
+      "country": "United Kingdom",
+      "gesture": "The OK hand sign",
+      "context": "general",
+      "expected": "polite",
+      "expectedConfidence": "high",
+      "answers": {
+        "isitpolite": {
+          "verdict": "polite",
+          "sources": 2,
+          "confidence": "medium",
+          "ourSite": false,
+          "forumOnly": false,
+          "ms": 6527,
+          "grade": "match"
+        },
+        "gpt-4o": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 1597,
+          "grade": "near"
+        },
+        "gpt-4o-web": {
+          "verdict": "polite",
+          "sources": 2,
+          "ourSite": false,
+          "ms": 3941,
+          "grade": "match"
+        },
+        "deepseek": {
+          "verdict": "caution",
+          "sources": 0,
+          "ourSite": false,
+          "ms": 903,
+          "grade": "near"
+        }
+      }
+    }
+  ]
+}
