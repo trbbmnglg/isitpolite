@@ -152,7 +152,7 @@
         if (!data) return;
         guideCountryEl.value = c;
         renderGuide(data, true, c);
-        guideResult.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        guideResult.scrollIntoView({ behavior: scrollMode(), block: 'start' });
       });
     });
   }

@@ -69,7 +69,7 @@
         '<div class="cmp-grid">' + rows + '</div>' +
         '<div class="result-footnote">AI-generated guidance — customs vary between people and regions.</div>' +
       '</div>';
-    compareResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    compareResult.scrollIntoView({ behavior: scrollMode(), block: 'nearest' });
 
     // Premium CTA — comparison infographic.
     var cmpWrap = compareResult.querySelector('.cmp-wrap');

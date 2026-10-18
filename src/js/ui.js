@@ -8,6 +8,11 @@
   var SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
   var openCombobox = null; // only one open at a time
 
+  // Smooth scrolling animates even under "reduce motion" unless we ask.
+  function scrollMode() {
+    return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+  }
+
   function enhanceAllSelects() {
     if (!window.HTMLSelectElement || !document.querySelector) return;
     Array.prototype.forEach.call(document.querySelectorAll('select'), enhanceSelect);

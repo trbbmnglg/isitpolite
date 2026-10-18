@@ -11,8 +11,11 @@
     var chip = wrap.querySelector('.acc-chip');
     if (!chip) return;
     if (!d || d.accuracy === null || d.accuracy === undefined || d.status === 'insufficient') {
+      var n = d && d.confirm ? d.confirm : 0;
       chip.className = 'acc-chip acc-new';
-      chip.textContent = 'Community accuracy: not rated yet';
+      chip.textContent = n
+        ? 'Confirmed by ' + n + ' traveler' + (n === 1 ? '' : 's') + ' · not enough votes for a score yet'
+        : 'No traveler votes yet — be the first';
     } else {
       var cls = d.accuracy >= 80 ? 'acc-high' : (d.accuracy >= 50 ? 'acc-mid' : 'acc-low');
       chip.className = 'acc-chip ' + cls;

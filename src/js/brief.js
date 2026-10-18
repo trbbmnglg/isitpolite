@@ -93,7 +93,7 @@
 
     briefBtn.disabled = true;
     briefBtn.textContent = 'Preparing your briefing…';
-    briefResult.innerHTML = '<div class="loading-state" role="status"><div class="spinner"></div><p>Checking what changes from ' + sanitize(from) + ' to ' + sanitize(to) + '…</p></div>';
+    briefResult.innerHTML = '<div class="loading-state" role="status"><div class="spinner"></div><p>Checking what changes from ' + sanitize(withThe(from)) + ' to ' + sanitize(withThe(to)) + '…</p></div>';
 
     try {
       var data = await callLookup('brief', { from: from, to: to, contexts: contexts, month: month });
@@ -124,8 +124,8 @@
           '<span class="brief-cat">' + sanitize(w.category || shortContext(w.context)) + '</span></div>' +
         '<h4>' + sanitize(w.title) + '</h4>' +
         '<dl class="brief-compare">' +
-          '<div><dt>In ' + sanitize(data.from) + '</dt><dd>' + sanitize(w.from_norm) + '</dd></div>' +
-          '<div><dt>In ' + sanitize(data.to) + '</dt><dd>' + sanitize(w.to_norm) + '</dd></div>' +
+          '<div><dt>In ' + sanitize(withThe(data.from)) + '</dt><dd>' + sanitize(w.from_norm) + '</dd></div>' +
+          '<div><dt>In ' + sanitize(withThe(data.to)) + '</dt><dd>' + sanitize(w.to_norm) + '</dd></div>' +
         '</dl>' +
         '<p class="brief-do"><strong>Do:</strong> ' + sanitize(w.do) + '</p>' +
         (w.avoid ? '<p class="brief-avoid"><strong>Avoid:</strong> ' + sanitize(w.avoid) + '</p>' : '') +
@@ -160,7 +160,7 @@
 
     var wrap = briefResult.querySelector('.brief-wrap');
     if (wrap) addPremiumButton(wrap, 'Download Infographic', 'infographic', { subkind: 'trip', from: data.from, to: data.to, result: data });
-    briefResult.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    briefResult.scrollIntoView({ behavior: scrollMode(), block: 'start' });
   }
 
   function onBriefResultClick(e) {

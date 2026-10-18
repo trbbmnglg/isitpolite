@@ -10,6 +10,11 @@
   var UNLOCK_KEY  = 'isitpolite_unlock';     // premium unlock code (localStorage)
   var HOME_KEY    = 'isitpolite_home';       // traveler's home country, device-only
 
+  // Country names that read with "the" after "in" / "from" ("in the Philippines").
+  var THE_COUNTRIES = ['Bahamas', 'Central African Republic', 'Comoros', 'Czech Republic', 'Dominican Republic', 'Gambia',
+    'Maldives', 'Marshall Islands', 'Netherlands', 'Philippines', 'Solomon Islands', 'United Arab Emirates', 'United Kingdom', 'United States'];
+  function withThe(country) { return THE_COUNTRIES.indexOf(country) !== -1 ? 'the ' + country : country; }
+
   function getHome() {
     try { var h = localStorage.getItem(HOME_KEY) || ''; return COUNTRIES.indexOf(h) !== -1 ? h : ''; } catch (_) { return ''; }
   }

@@ -87,6 +87,9 @@ a { color: var(--teal); }
 input[type="text"], select, #feedback-text, .premium-email-input, .premium-code-input, .premium-scenario-textarea {
   font-size: 1rem; border: 1px solid var(--field-border); border-radius: 8px; background: var(--surface);
 }
+.cbx-trigger { font-size: 1rem; border: 1px solid var(--field-border); border-radius: 8px; background: var(--surface); }
+.cbx-trigger:hover { border-color: var(--teal); }
+.cbx-native.field-error ~ .cbx-trigger { border-color: var(--rude); box-shadow: 0 0 0 3px rgba(159,18,57,0.15); }
 input[type="text"]:focus, select:focus, #feedback-text:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(15,118,110,0.2); }
 input.field-error, select.field-error { border-color: var(--rude); box-shadow: 0 0 0 3px rgba(159,18,57,0.15); }
 
@@ -247,6 +250,10 @@ fieldset.form-field legend { font-size: 0.875rem; font-weight: 600; color: var(-
 .modal-overlay { background: rgba(28,25,23,0.55); backdrop-filter: none; -webkit-backdrop-filter: none; }
 .modal-box { border-radius: 12px; animation: fadeIn var(--dur-slow) var(--ease-std); }
 .modal-close { border: 1px solid var(--line); background: var(--surface); width: 40px; height: 40px; }
+.modal-box:focus { outline: none; }
+.sources-none { font-size: 0.875rem; color: var(--caution); }
+.premium-delivery-row { justify-content: center; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.premium-radio-label { white-space: nowrap; min-height: 40px; }
 
 /* ── Static pages (SEO, privacy, 404) ────────────────────────────────── */
 .seo-page .site-header .header-inner { justify-content: space-between; }

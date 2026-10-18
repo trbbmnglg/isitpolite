@@ -55,7 +55,7 @@
       '<div class="loading-state" role="status" aria-label="Loading">' +
         '<div class="spinner"></div><p>Consulting cultural experts…</p>' +
       '</div>';
-    resultArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    resultArea.scrollIntoView({ behavior: scrollMode(), block: 'nearest' });
   }
 
   function renderResult(data, gesture, country, context, fromCache, cacheTs) {
@@ -70,7 +70,7 @@
       : '';
 
     var homeNote = (data.home && data.home_contrast && String(data.home_contrast).trim())
-      ? '<div class="card-section home-contrast"><h3>Coming from ' + sanitize(data.home) + '</h3><p>' + sanitize(data.home_contrast) + '</p></div>'
+      ? '<div class="card-section home-contrast"><h3>Coming from ' + sanitize(withThe(data.home)) + '</h3><p>' + sanitize(data.home_contrast) + '</p></div>'
       : '';
 
     resultArea.innerHTML =
@@ -86,6 +86,7 @@
           regional +
           '<div class="card-section"><h3>Local Tip</h3><p class="local-tip-text">' + sanitize(data.local_tip) + '</p></div>' +
           (alsoCards ? '<div class="card-section"><h3>Also Check</h3><div class="also-check-grid">' + alsoCards + '</div></div>' : '') +
+          sourcesSection(data.sources) +
         '</div>' +
         '<div class="result-footnote">AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.</div>' +
       '</article>';
@@ -102,13 +103,27 @@
       cachedBanner.classList.remove('hidden');
     }
 
-    resultArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    resultArea.scrollIntoView({ behavior: scrollMode(), block: 'start' });
+  }
+
+  function sourcesSection(sources) {
+    if (!Array.isArray(sources)) return ''; // results cached before sources were returned
+    var list = sources.filter(function (s) { return s && /^https:\/\//.test(s.url); });
+    if (!list.length) {
+      return '<div class="card-section"><h3>Sources</h3><p class="sources-none">No web source directly backed this answer, so treat it with extra care.</p></div>';
+    }
+    return '<div class="card-section"><h3>Sources</h3><ul class="seo-source-list">' + list.map(function (s) {
+      var host = '';
+      try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (_) {}
+      var forum = s.kind === 'community';
+      return '<li><a href="' + sanitize(s.url) + '" target="_blank" rel="' + (forum ? 'nofollow ugc noopener' : 'noopener') + '">' + sanitize(s.title) + '</a> <span class="seo-source-host">' + sanitize(host) + (forum ? ' · traveler discussion' : '') + '</span></li>';
+    }).join('') + '</ul></div>';
   }
 
   function renderError(message) {
     resultArea.innerHTML =
       '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">' + ALERT_ICON + '</p><p class="error-message">' + sanitize(message) + '</p><button class="retry-btn" type="button">Try Again</button></div>';
-    resultArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    resultArea.scrollIntoView({ behavior: scrollMode(), block: 'nearest' });
   }
 
   // ═══════════════════════════════════════════════════════════════════════

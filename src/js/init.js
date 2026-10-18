@@ -169,8 +169,8 @@
     if (view === 'trip') renderBriefSaved();
 
     var anchor = view === 'check' && sub === 'accuracy' ? document.getElementById('accuracy') : null;
-    if (anchor) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    else window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (anchor) anchor.scrollIntoView({ behavior: scrollMode(), block: 'start' });
+    else window.scrollTo({ top: 0, behavior: scrollMode() });
   }
 
   // Load the community stats only once the accuracy section scrolls into view.
@@ -203,9 +203,13 @@
         if (!hidden) {
           opener = document.activeElement;
           document.body.classList.add('modal-open');
+          // Focus the dialog itself (not its first button) so no focus ring
+          // flashes on the close button; Tab then moves into the controls.
           setTimeout(function () {
-            var f = Array.prototype.filter.call(m.querySelectorAll(FOCUSABLE), function (n) { return n.offsetParent !== null; })[0];
-            if (f && !m.contains(document.activeElement)) f.focus();
+            if (m.contains(document.activeElement)) return;
+            var box = m.querySelector('.modal-box') || m;
+            if (!box.hasAttribute('tabindex')) box.setAttribute('tabindex', '-1');
+            box.focus({ preventScroll: true });
           }, 0);
         } else {
           if (!openModalEl()) document.body.classList.remove('modal-open');
@@ -301,7 +305,7 @@
     var home = getHome();
     var toggle = '<button type="button" class="link-btn home-toggle" aria-controls="home-picker" aria-expanded="false">';
     homeLineEl.innerHTML = home
-      ? 'Tailored for travelers from <strong>' + sanitize(home) + '</strong> · ' + toggle + 'Change</button>'
+      ? 'Tailored for travelers from <strong>' + sanitize(withThe(home)) + '</strong> · ' + toggle + 'Change</button>'
       : toggle + 'Add where you\'re from</button> to see what changes for you.';
   }
 
@@ -341,7 +345,7 @@
         contextSelect.value = ex.context;
         gestureInput.classList.remove('field-error');
         countrySelect.classList.remove('field-error');
-        document.querySelector('.form-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        document.querySelector('.form-section').scrollIntoView({ behavior: scrollMode(), block: 'start' });
         setTimeout(handleSubmit, 400);
       });
       frag.appendChild(btn);
