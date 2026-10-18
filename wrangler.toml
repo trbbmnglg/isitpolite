@@ -11,7 +11,9 @@ binding = "ASSETS"
 not_found_handling = "404-page"   # serves dist/404.html
 # Guide pages go through the Worker so its permanentRedirect() can turn the
 # assets layer's temporary 307s (no trailing slash, /index.html) into 301s.
-run_worker_first = ["/etiquette", "/etiquette/*", "/index.html", "/privacy.html"]
+# /api/* MUST stay listed: with not_found_handling = "404-page", an unlisted path
+# that matches no file gets the 404 page and never reaches the Worker.
+run_worker_first = ["/api/*", "/etiquette", "/etiquette/*", "/index.html", "/privacy.html"]
 
 # Browser Rendering — requires Workers Paid plan.
 # Used by src/_render.js (htmlToPng / htmlToPdf) for premium artifact generation.
@@ -39,4 +41,10 @@ database_id = "2404139f-f8de-47bf-91e3-58b8a6cb0bc9"
 #   PAYPAL_SECRET          — server-only, used for OAuth token + capture
 #   PAYPAL_WEBHOOK_ID      — from PayPal dashboard webhook settings (for event verification)
 #   PAYPAL_ENV             — "sandbox" | "live"
-#   PAYPAL_CURRENCY        — default "USD" (can be "PHP")
+#
+# Hardening (2026-10-18):
+#   RL_SALT                — random; salts the hashed rate-limit buckets (kept out of D1)
+#   QUIZ_SECRET            — random; signs quiz answer keys so certificates can't be forged
+#   OWNER_EMAIL            — where feedback / accuracy reports are mailed (optional)
+#   RESEND_FROM            — e.g. "IsItPolite <hello@isitpolite.com>" once the domain is
+#                            verified in Resend; without it only the Resend owner receives mail

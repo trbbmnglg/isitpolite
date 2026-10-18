@@ -30,3 +30,13 @@ test('everything else passes through unchanged', () => {
   assert.equal(permanentRedirect(post.request, post.url, assetRes(307, '/x/')).status, 307);
   assert.equal(permanentRedirect(request, url, assetRes(307)).status, 307);
 });
+
+// Regression (2026-10-18): adding run_worker_first without /api/* sent every API
+// call to the 404 page for ~2 hours, because not_found_handling answers unlisted paths.
+test('wrangler.toml routes /api/* to the Worker first', async () => {
+  const { readFileSync } = await import('node:fs');
+  const toml = readFileSync(new URL('../wrangler.toml', import.meta.url), 'utf8');
+  const line = toml.split('\n').find((l) => /^\s*run_worker_first\s*=/.test(l));
+  assert.ok(line, 'run_worker_first is set');
+  assert.ok(line.includes('"/api/*"'), 'run_worker_first must include "/api/*"');
+});
