@@ -3,64 +3,71 @@
 
 /* ── Design Tokens ────────────────────────────────────────────────────── */
 :root {
-  /* Brand */
-  --primary:         #4F46E5;
-  --primary-light:   #818CF8;
-  --primary-dark:    #3730A3;
-  --accent:          #EA580C;
-  --accent-hover:    #C2410C;
-
-  /* Surface */
-  --bg:              #EEF2FF;
+  /* Travel journal palette */
+  --paper:           #FAF7F2;
   --surface:         #FFFFFF;
-  --surface-muted:   #F8FAFF;
-  --border:          #C7D2FE;
+  --surface-alt:     #F3EEE6;
+  --line:            #E7E1D7;
+  --field-border:    #8C847A;
+  --ink:             #1C1917;
+  --ink-muted:       #57534E;
+  --ink-faint:       #6B635C;
+  --teal:            #0F766E;
+  --teal-dark:       #115E59;
+  --teal-tint:       #E6F2F0;
+  --terracotta:      #B4532A;
+  --terracotta-dark: #9A4522;
 
-  /* Text */
-  --text:            #1E1B4B;
-  --text-muted:      #6B7280;
-  --muted:           var(--text-muted);
-  --text-light:      #9CA3AF;
+  /* Legacy names, remapped so existing components pick up the new palette */
+  --primary:         var(--teal);
+  --primary-light:   #5EAAA3;
+  --primary-dark:    var(--teal-dark);
+  --accent:          var(--terracotta);
+  --accent-hover:    var(--terracotta-dark);
+  --bg:              var(--paper);
+  --surface-muted:   var(--paper);
+  --border:          var(--line);
+  --text:            var(--ink);
+  --text-muted:      var(--ink-muted);
+  --muted:           var(--ink-muted);
+  --text-light:      var(--ink-faint);
 
-  /* Verdicts */
-  --polite:          #16a34a;
-  --polite-light:    #22c55e;
-  --polite-bg:       #f0fdf4;
-  --polite-border:   #86efac;
-  --caution:         #b45309;
-  --caution-light:   #f59e0b;
-  --caution-bg:      #fffbeb;
-  --caution-border:  #fcd34d;
-  --rude:            #b91c1c;
-  --rude-light:      #ef4444;
-  --rude-bg:         #fef2f2;
-  --rude-border:     #fca5a5;
+  /* Verdicts (text on tint >= 6:1) */
+  --polite:          #166534;
+  --polite-light:    #2F8F55;
+  --polite-bg:       #ECF5EE;
+  --polite-border:   #B7D9C2;
+  --caution:         #92400E;
+  --caution-light:   #C98A2B;
+  --caution-bg:      #FBF3E4;
+  --caution-border:  #E9CFA0;
+  --rude:            #9F1239;
+  --rude-light:      #C2415F;
+  --rude-bg:         #FBECEF;
+  --rude-border:     #EDB6C0;
 
-  /* Claymorphism */
-  --clay-radius:     20px;
-  --clay-radius-sm:  14px;
-  --clay-radius-xs:  10px;
-  --clay-border:     3px solid var(--border);
-  --clay-shadow:     5px 5px 14px rgba(79,70,229,0.13),
-                     inset -2px -2px 8px rgba(255,255,255,0.75),
-                     inset 2px 2px 6px rgba(79,70,229,0.06);
-  --clay-shadow-sm:  3px 3px 8px rgba(79,70,229,0.1),
-                     inset -1px -1px 4px rgba(255,255,255,0.7);
+  /* Shape: flat cards, hairline borders, one soft shadow */
+  --clay-radius:     12px;
+  --clay-radius-sm:  8px;
+  --clay-radius-xs:  8px;
+  --clay-border:     1px solid var(--line);
+  --clay-shadow:     0 1px 2px rgba(28,25,23,0.06), 0 6px 20px rgba(28,25,23,0.06);
+  --clay-shadow-sm:  0 1px 2px rgba(28,25,23,0.06);
 
   /* Typography */
-  --font-serif: 'Noto Serif JP', 'Georgia', serif;
-  --font-sans:  'Noto Sans JP', 'Segoe UI', system-ui, sans-serif;
+  --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-sans:  'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
-  /* Motion */
-  --ease-out:   cubic-bezier(0.34, 1.56, 0.64, 1);
+  /* Motion: standard easing only */
+  --ease-out:   cubic-bezier(0.2, 0, 0, 1);
   --ease-std:   cubic-bezier(0.4, 0, 0.2, 1);
   --dur-fast:   150ms;
-  --dur-std:    220ms;
-  --dur-slow:   350ms;
+  --dur-std:    180ms;
+  --dur-slow:   220ms;
 
   /* Layout */
   --max-w:      740px;
-  --header-h:   60px;
+  --header-h:   64px;
 }
 
 /* ── Reset ────────────────────────────────────────────────────────────── */

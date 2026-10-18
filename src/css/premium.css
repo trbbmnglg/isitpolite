@@ -15,13 +15,13 @@
 .modal-box-premium::-webkit-scrollbar { width: 4px; }
 .modal-box-premium::-webkit-scrollbar-track { background: transparent; margin: 8px 0; }
 .modal-box-premium::-webkit-scrollbar-thumb { background: #E5E7EB; border-radius: 99px; }
-.modal-box-premium::-webkit-scrollbar-thumb:hover { background: #A5B4FC; }
+.modal-box-premium::-webkit-scrollbar-thumb:hover { background: #B7D9C2; }
 .premium-price-badge {
   display: inline-flex; align-items: baseline; gap: 6px;
-  background: var(--primary-light); border-radius: 12px; padding: 10px 18px;
+  background: var(--teal-tint); border-radius: 12px; padding: 10px 18px;
   margin-bottom: 16px;
 }
-.price-num { font-size: 28px; font-weight: 800; color: var(--primary); }
+.price-num { font-size: 28px; font-weight: 800; color: var(--teal-dark); }
 .price-unit { font-size: 13px; color: var(--muted); }
 .premium-delivery-row {
   display: flex; gap: 16px; margin: 10px 0 6px;
@@ -55,7 +55,7 @@
 }
 .premium-credits-badge {
   display: flex; align-items: center; gap: 7px;
-  background: var(--primary-light); border-radius: 10px; padding: 9px 14px;
+  background: var(--teal-tint); border-radius: 10px; padding: 9px 14px;
   font-size: 14px; color: var(--primary-dark); font-weight: 600; margin-bottom: 16px;
 }
 .premium-scenario-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
@@ -80,24 +80,24 @@
 }
 .premium-btn {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 7px 14px; border-radius: 8px;
-  background: linear-gradient(135deg, var(--primary) 0%, #7C3AED 100%);
-  color: #fff; font-size: 13px; font-weight: 600; border: none; cursor: pointer;
-  transition: opacity .15s, transform .1s;
+  padding: 0 14px; min-height: 40px; border-radius: 8px;
+  background: var(--surface); color: var(--teal-dark);
+  font-size: 0.875rem; font-weight: 600; border: 1px solid var(--teal); cursor: pointer;
+  transition: background var(--dur-fast) var(--ease-std);
 }
-.premium-btn:hover { opacity: .88; transform: translateY(-1px); }
-.premium-btn:active { transform: translateY(0); }
+.premium-btn:hover { background: var(--teal-tint); }
+.premium-btn:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
 
 /* ── Credit hints (search inside form card; gen inside premium area) ────── */
 .credits-hint {
   display: none;   /* hidden until JS populates it */
   text-align: center;
-  font-size: 12px; color: #9CA3AF;
+  font-size: 0.8125rem; color: var(--ink-faint);
   margin-top: 10px; line-height: 1.4;
 }
 .credits-hint:not(:empty) { display: block; }
 .credits-hint .hint-count {
-  font-weight: 700; color: var(--primary, #4F46E5);
+  font-weight: 700; color: var(--primary, #0F766E);
 }
 .credits-hint .hint-count--warn {
   font-weight: 700; color: #D97706;   /* amber when ≤2 remaining */
@@ -116,9 +116,9 @@
   width: fit-content; margin: 6px auto 0;
 }
 .credits-badge:empty { display: none; }
-.badge-free { font-weight: 600; color: var(--primary, #4F46E5); }
+.badge-free { font-weight: 600; color: var(--primary, #0F766E); }
 .badge-paid { font-weight: 600; color: #059669; }
-.badge-reset { color: #6B7280; font-size: 11px; }
+.badge-reset { color: var(--ink-faint); font-size: 12px; }
 
 /* ── Premium tier grid ─────────────────────────────────────────────────── */
 .premium-tier-grid {
@@ -146,20 +146,20 @@
 }
 .premium-tier-card:has(input:checked),
 .premium-tier-card:focus-within {
-  border-color: var(--primary, #4F46E5);
-  box-shadow: 0 0 0 3px rgba(79,70,229,.15);
+  border-color: var(--primary, #0F766E);
+  box-shadow: 0 0 0 3px rgba(15,118,110,.15);
 }
-.premium-tier-card:hover { border-color: #A5B4FC; }
-.premium-tier-card--best { border-color: #A5B4FC; background: #F5F3FF; }
+.premium-tier-card:hover { border-color: #B7D9C2; }
+.premium-tier-card--best { border-color: #B7D9C2; background: var(--teal-tint); }
 
 .tier-best-pill {
   position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
-  background: var(--primary, #4F46E5); color: #fff;
+  background: var(--primary, #0F766E); color: #fff;
   font-size: 10px; font-weight: 700; padding: 2px 8px;
   border-radius: 20px; white-space: nowrap; letter-spacing: .03em;
 }
 .tier-label { font-weight: 700; font-size: 14px; color: #111827; }
-.tier-price  { font-size: 22px; font-weight: 700; color: var(--primary, #4F46E5); }
+.tier-price  { font-size: 22px; font-weight: 700; color: var(--primary, #0F766E); }
 .tier-credits { font-size: 11px; color: #6B7280; line-height: 1.4; }
 
 /* ── Premium wall message (shown when a 402 opens the modal) ──────────── */

@@ -1,4 +1,4 @@
-// ─────────────────────────────────────────────────────────────────────────
+﻿// ─────────────────────────────────────────────────────────────────────────
 // build-seo.mjs — assemble the deployable ./dist and generate static,
 // crawlable etiquette pages for SEO.
 //
@@ -44,7 +44,7 @@ const STATIC_FILES = ['index.html', '404.html', 'privacy.html', '_headers', 'sw.
 const JS_MODULES = ['config','init','check','history','guide','quiz','compare','generate','modal','lookup','community','ui'];
 
 // CSS source files — concatenated in order into dist/style.css.
-const CSS_PARTS = ['base','layout','form-result','sections','app-shell','guide','history','compare','community','misc','premium'];
+const CSS_PARTS = ['base','layout','form-result','sections','app-shell','guide','history','compare','community','misc','premium','journal'];
 
 const args   = process.argv.slice(2);
 const SAMPLE = args.includes('--sample');

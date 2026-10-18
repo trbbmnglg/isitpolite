@@ -104,9 +104,9 @@
   border-bottom: 2px solid #fde68a;
 }
 .cached-banner {
-  background: #ede9fe;
-  color: #5b21b6;
-  border-bottom: 2px solid #ddd6fe;
+  background: var(--teal-tint);
+  color: var(--teal-dark);
+  border-bottom: 1px solid var(--polite-border);
 }
 .offline-banner.hidden,
 .cached-banner.hidden { display: none; }
@@ -152,14 +152,14 @@
               background var(--dur-fast) var(--ease-std);
 }
 .nav-tab svg { flex-shrink: 0; }
-.nav-tab:hover { color: var(--primary); background: rgba(79,70,229,0.07); }
+.nav-tab:hover { color: var(--primary); background: rgba(15,118,110,0.07); }
 .nav-tab:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 
 .nav-tab.nav-active {
   color: #fff;
   background: var(--primary);
   font-weight: 700;
-  box-shadow: 0 2px 6px rgba(79,70,229,0.3);
+  box-shadow: 0 2px 6px rgba(15,118,110,0.3);
 }
 .nav-tab.nav-active:hover { color: #fff; background: var(--primary); }
 

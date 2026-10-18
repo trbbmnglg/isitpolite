@@ -82,7 +82,7 @@
 .history-item:hover {
   border-color: var(--primary-light);
   transform: translateX(3px);
-  box-shadow: 3px 4px 10px rgba(79,70,229,0.12);
+  box-shadow: 3px 4px 10px rgba(15,118,110,0.12);
 }
 
 .history-dot {
