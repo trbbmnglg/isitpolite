@@ -51,6 +51,20 @@ test('finalize sorts by severity and only links reviewed pages', () => {
   assert.equal(finalizeBrief(draft({ watch_outs: [item({ gesture_key: 'thumbs-up' }), item(), item(), item(), item()] }), { ...P, to: 'Iceland' }, []).watch_outs[0].link, '', 'no reviewed data, no link');
 });
 
+test('phrases are clipped, incomplete ones dropped, English "translations" removed', () => {
+  const out = finalizeBrief(draft({
+    phrases: [
+      { english: 'Hello', local: 'こんにちは', romanization: 'konnichiwa' },
+      { english: 'Thank you', local: '', romanization: 'arigatou' },
+      { english: 'Sorry', local: 'Sorry', romanization: '' },
+      { english: 'Extra', local: 'x', romanization: 'x' },
+    ],
+  }), P, []);
+  assert.deepEqual(out.phrases, [{ english: 'Hello', local: 'こんにちは', romanization: 'konnichiwa' }]);
+  assert.deepEqual(finalizeBrief(draft({ phrases: 'nope' }), P, []).phrases, []);
+  assert.match(mode.prompt(P, ''), /"phrases": exactly these 3/);
+});
+
 test('season notes need a real source, and movable holidays never get exact dates', () => {
   const sources = [
     { title: 'Spring in Japan', url: 'https://example.org/h', content: 'Cherry blossom viewing peaks in spring. Ramadan dates vary.' },

@@ -69,7 +69,9 @@ export function briefMode(ground) {
         '"context":"' + CONTEXT_KEYS.join('|') + '","severity":"high|medium|low",' +
         '"from_norm":"what is normal in ' + p.from + ', one short sentence","to_norm":"what is expected in ' + p.to + ', one short sentence",' +
         '"do":"one sentence","avoid":"one sentence that starts with Do not","gesture_key":""}],' +
-        '"season":[{"title":"..","note":"one or two sentences","movable":false,"source":1}]}';
+        '"season":[{"title":"..","note":"one or two sentences","movable":false,"source":1}],' +
+        '"phrases":[{"english":"Hello","local":"in the main local script","romanization":"Latin letters, or empty if the script is Latin"},{"english":"Thank you","local":"..","romanization":".."},{"english":"Excuse me / Sorry","local":"..","romanization":".."}]}' +
+        '\n"phrases": exactly these 3 in the most widely spoken language of ' + p.to + '; use an empty array if that language is English.';
     },
     valid: function (d) {
       return !!(d && typeof d.headline === 'string' && d.headline.trim() &&
@@ -137,5 +139,8 @@ export function finalizeBrief(d, p, sources) {
     headline: clip(d.headline, 240),
     watch_outs: watchOuts,
     season: verified.concat(modelNotes).slice(0, 4),
+    phrases: (Array.isArray(d.phrases) ? d.phrases : []).slice(0, 3).map(function (ph) {
+      return { english: clip(ph && ph.english, 40), local: clip(ph && ph.local, 60), romanization: clip(ph && ph.romanization, 60) };
+    }).filter(function (ph) { return ph.english && ph.local && ph.local.toLowerCase() !== ph.english.toLowerCase(); }),
   };
 }
