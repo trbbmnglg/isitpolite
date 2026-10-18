@@ -39,7 +39,7 @@
       writeTtlCache(ckey, data);
       renderComparison(data, gesture);
     } catch (e) {
-      compareResult.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">⚠️</p><p class="error-message">' + sanitize(e.message) + '</p></div>';
+      compareResult.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">' + ALERT_ICON + '</p><p class="error-message">' + sanitize(e.message) + '</p></div>';
     } finally {
       compareBtn.disabled = false;
       compareBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="17" height="17" aria-hidden="true"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg> Compare';
@@ -112,7 +112,7 @@
       writeTtlCache(ckey, data);
       renderTrip(data);
     } catch (e) {
-      tripResult.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">⚠️</p><p class="error-message">' + sanitize(e.message) + '</p></div>';
+      tripResult.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">' + ALERT_ICON + '</p><p class="error-message">' + sanitize(e.message) + '</p></div>';
     } finally {
       tripBtn.disabled = false;
       tripBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="17" height="17" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg> Show me the differences';

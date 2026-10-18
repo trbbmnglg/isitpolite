@@ -33,7 +33,7 @@
       if (isPack(country)) saveOfflinePack(country, data); // refresh saved pack
       renderGuide(data, false, country);
     } catch (err) {
-      guideResult.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">⚠️</p><p class="error-message">' + sanitize(err.message) + '</p><button class="retry-btn" type="button" onclick="document.getElementById(\'guide-btn\').click()">Try Again</button></div>';
+      guideResult.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">' + ALERT_ICON + '</p><p class="error-message">' + sanitize(err.message) + '</p><button class="retry-btn" type="button" onclick="document.getElementById(\'guide-btn\').click()">Try Again</button></div>';
     } finally {
       guideBtnEl.disabled = false;
       guideBtnEl.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Generate Guide';

@@ -17,7 +17,7 @@
       var data = await callLookup('quiz', { country: country });
       initQuiz(data, country);
     } catch (err) {
-      quizArea.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">⚠️</p><p class="error-message">' + sanitize(err.message) + '</p></div>';
+      quizArea.innerHTML = '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">' + ALERT_ICON + '</p><p class="error-message">' + sanitize(err.message) + '</p></div>';
     } finally {
       quizStartBtn.disabled = false;
       quizStartBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg> Start Quiz';

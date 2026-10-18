@@ -95,7 +95,7 @@
 
   function renderError(message) {
     resultArea.innerHTML =
-      '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">⚠️</p><p class="error-message">' + sanitize(message) + '</p><button class="retry-btn" type="button">Try Again</button></div>';
+      '<div class="error-card" role="alert"><p class="error-icon" aria-hidden="true">' + ALERT_ICON + '</p><p class="error-message">' + sanitize(message) + '</p><button class="retry-btn" type="button">Try Again</button></div>';
     resultArea.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
@@ -116,7 +116,7 @@
 
   function updateShareURL(gesture, country, context) {
     var params = new URLSearchParams({ g: gesture, c: country, ctx: context });
-    window.history.replaceState({}, '', '?' + params.toString());
+    window.history.replaceState({}, '', '?' + params.toString() + window.location.hash);
   }
 
   function addShareButton(gesture, country, context, verdictLabel) {

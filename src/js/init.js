@@ -34,14 +34,15 @@
     cachedBanner     = document.getElementById('cached-banner');
     cachedBannerText = document.getElementById('cached-banner-text');
 
-    initRouter();
-    checkPrivacyModal();
     populateAllSelects();
     enhanceAllSelects();
     populateExamples();
     updateHistoryBadge();
     initOffline();
     registerSW();
+    initRouter();
+    initAccuracyLazy();
+    initModalA11y();
     loadFromURLParams();
 
     modalAccept.addEventListener('click', acceptPrivacy);
@@ -100,22 +101,52 @@
     // Handle ?unlock=success|cancel from PayPal redirect (if browser-redirected flow).
     var unlockParam = new URLSearchParams(window.location.search).get('unlock');
     if (unlockParam === 'success' || unlockParam === 'cancel') {
-      history.replaceState({}, '', window.location.pathname);
+      history.replaceState({}, '', window.location.pathname + window.location.hash);
     }
   }
 
   // ═══════════════════════════════════════════════════════════════════════
   // VIEW ROUTER
   // ═══════════════════════════════════════════════════════════════════════
-  function initRouter() {
-    document.querySelectorAll('.nav-tab').forEach(function (tab) {
-      tab.addEventListener('click', function () {
-        switchView(tab.dataset.view);
-      });
-    });
+  // Routes: #/check  #/compare  #/compare/trip  #/guide  #/quiz  #/history
+  // Old links (#/trip, #/community) are mapped onto their new homes.
+  var ROUTE_VIEWS = ['check', 'compare', 'guide', 'quiz', 'history'];
+
+  function parseRoute() {
+    var parts = (location.hash || '').replace(/^#\/?/, '').split('/');
+    var view = parts[0] || 'check', sub = parts[1] || '';
+    if (view === 'trip') { view = 'compare'; sub = 'trip'; }
+    if (view === 'community') { view = 'check'; sub = 'accuracy'; }
+    if (ROUTE_VIEWS.indexOf(view) === -1) { view = 'check'; sub = ''; }
+    return { view: view, sub: sub };
   }
 
-  function switchView(view) {
+  function navigate(view, sub) {
+    var hash = '#/' + view + (sub ? '/' + sub : '');
+    if (location.hash === hash) applyRoute(); else location.hash = hash;
+  }
+
+  function applyRoute() {
+    var r = parseRoute();
+    showView(r.view, r.sub);
+  }
+
+  function initRouter() {
+    document.querySelectorAll('.nav-tab').forEach(function (tab) {
+      tab.addEventListener('click', function () { navigate(tab.dataset.view); });
+    });
+    var segAcross = document.getElementById('seg-across');
+    var segTrip = document.getElementById('seg-trip');
+    if (segAcross) segAcross.addEventListener('click', function () { navigate('compare'); });
+    if (segTrip) segTrip.addEventListener('click', function () { navigate('compare', 'trip'); });
+    window.addEventListener('hashchange', applyRoute);
+    applyRoute();
+  }
+
+  // Kept as the single entry point other modules call (e.g. history re-check).
+  function switchView(view, sub) { navigate(view, sub); }
+
+  function showView(view, sub) {
     document.querySelectorAll('.view').forEach(function (v) { v.classList.remove('view-active'); });
     document.querySelectorAll('.nav-tab').forEach(function (t) {
       t.classList.remove('nav-active');
@@ -125,21 +156,88 @@
     var el = document.getElementById('view-' + view);
     if (el) el.classList.add('view-active');
 
-    var tab = document.querySelector('[data-view="' + view + '"]');
+    var tab = document.querySelector('.nav-tab[data-view="' + view + '"]');
     if (tab) { tab.classList.add('nav-active'); tab.setAttribute('aria-current', 'page'); }
+
+    if (view === 'compare') {
+      var trip = sub === 'trip';
+      [['seg-across', 'cmp-panel-across', !trip], ['seg-trip', 'cmp-panel-trip', trip]].forEach(function (row) {
+        var btn = document.getElementById(row[0]), panel = document.getElementById(row[1]);
+        if (btn) { btn.setAttribute('aria-selected', row[2] ? 'true' : 'false'); btn.tabIndex = row[2] ? 0 : -1; }
+        if (panel) panel.hidden = !row[2];
+      });
+    }
 
     if (view === 'history') renderHistoryView();
     if (view === 'guide') renderPacksStrip();
-    if (view === 'community') renderCommunity();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    var anchor = view === 'check' && sub === 'accuracy' ? document.getElementById('accuracy') : null;
+    if (anchor) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    else window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Load the community stats only once the accuracy section scrolls into view.
+  function initAccuracyLazy() {
+    var el = document.getElementById('accuracy');
+    if (!el) return;
+    var loaded = false;
+    function load() { if (!loaded) { loaded = true; renderCommunity(); } }
+    if (!('IntersectionObserver' in window)) { load(); return; }
+    var io = new IntersectionObserver(function (entries) {
+      if (entries.some(function (e) { return e.isIntersecting; })) { load(); io.disconnect(); }
+    }, { rootMargin: '200px' });
+    io.observe(el);
+  }
+
+  // Shared modal behaviour: scroll lock, focus in/out, Escape, backdrop, Tab trap.
+  var FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])';
+  function openModalEl() { return document.querySelector('.modal-overlay:not(.hidden)'); }
+  function closeModalEl(m) {
+    if (m.id === 'privacy-modal') _pendingConsentAction = null;
+    m.classList.add('hidden');
+  }
+  function initModalA11y() {
+    document.querySelectorAll('.modal-overlay').forEach(function (m) {
+      var wasHidden = m.classList.contains('hidden'), opener = null;
+      new MutationObserver(function () {
+        var hidden = m.classList.contains('hidden');
+        if (hidden === wasHidden) return;
+        wasHidden = hidden;
+        if (!hidden) {
+          opener = document.activeElement;
+          document.body.classList.add('modal-open');
+          setTimeout(function () {
+            var f = Array.prototype.filter.call(m.querySelectorAll(FOCUSABLE), function (n) { return n.offsetParent !== null; })[0];
+            if (f && !m.contains(document.activeElement)) f.focus();
+          }, 0);
+        } else {
+          if (!openModalEl()) document.body.classList.remove('modal-open');
+          if (opener && opener.focus && document.contains(opener)) opener.focus();
+          opener = null;
+        }
+      }).observe(m, { attributes: true, attributeFilter: ['class'] });
+
+      m.addEventListener('click', function (e) {
+        if (e.target === m && m.id !== 'privacy-modal') closeModalEl(m);
+      });
+    });
+
+    document.addEventListener('keydown', function (e) {
+      var m = openModalEl();
+      if (!m) return;
+      if (e.key === 'Escape') { closeModalEl(m); return; }
+      if (e.key !== 'Tab') return;
+      var items = Array.prototype.filter.call(m.querySelectorAll(FOCUSABLE), function (n) { return n.offsetParent !== null; });
+      if (!items.length) return;
+      var first = items[0], last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
   }
 
   // ═══════════════════════════════════════════════════════════════════════
   // PRIVACY MODAL
   // ═══════════════════════════════════════════════════════════════════════
-  function checkPrivacyModal() {
-    if (!localStorage.getItem(PRIVACY_KEY)) privacyModal.classList.remove('hidden');
-  }
   var _pendingConsentAction = null;
   function acceptPrivacy() {
     localStorage.setItem(PRIVACY_KEY, '1');
@@ -190,7 +288,6 @@
       btn.type = 'button';
       btn.className = 'example-chip chip-enter';
       btn.style.animationDelay = (i * 55) + 'ms';
-      btn.setAttribute('role', 'listitem');
       btn.setAttribute('aria-label', ex.gesture + ' in ' + ex.country);
       btn.innerHTML = sanitize(ex.gesture) + ' <span class="chip-country">in ' + sanitize(ex.country) + '</span>';
       btn.addEventListener('click', function () {
