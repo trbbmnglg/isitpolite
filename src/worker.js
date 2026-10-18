@@ -71,6 +71,18 @@ export default {
     }
 
     // Everything else: serve from the pre-built static asset bundle (./dist).
-    return env.ASSETS.fetch(request);
+    const res = await env.ASSETS.fetch(request);
+    return permanentRedirect(request, url, res);
   },
 };
+
+// Static assets answer /page (no slash) and /index.html with a temporary 307.
+// Search engines treat that as "keep both URLs", so make same-site ones 301.
+export function permanentRedirect(request, url, res) {
+  if (res.status !== 307 || (request.method !== 'GET' && request.method !== 'HEAD')) return res;
+  const loc = res.headers.get('Location');
+  if (!loc) return res;
+  const target = new URL(loc, url);
+  if (target.origin !== url.origin) return res;
+  return new Response(null, { status: 301, headers: { Location: target.toString(), 'Cache-Control': 'public, max-age=3600' } });
+}
