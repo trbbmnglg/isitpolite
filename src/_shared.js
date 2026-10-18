@@ -8,6 +8,9 @@ export const OWNER_EMAIL = 'owner@example.invalid';
 // The five /api/lookup modes — single source of truth for validation + usage stats.
 export const LOOKUP_MODE_NAMES = ['check', 'compare', 'trip', 'guide', 'quiz', 'brief'];
 
+// Product events counted per day (name only). Anything else is ignored.
+export const EVENT_NAMES = ['share_result', 'share_brief', 'share_quiz', 'brief_saved', 'reminder_added', 'install_shown', 'installed', 'instant_answer'];
+
 export function originAllowed(origin, secFetchSite) {
   if (!origin) {
     // No Origin header: allow only if Sec-Fetch-Site: same-origin is present

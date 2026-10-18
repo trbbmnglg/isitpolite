@@ -8,6 +8,8 @@ import * as community  from './api/community.js';
 import * as feedback   from './api/feedback.js';
 import * as report     from './api/report.js';
 import * as stats      from './api/stats.js';
+import * as event      from './api/event.js';
+import * as contrast   from './api/contrast.js';
 // Premium routes (Phase 1)
 import * as paypalConfig  from './api/paypal-config.js';
 import * as checkout      from './api/checkout.js';
@@ -23,6 +25,8 @@ const ROUTES = {
   '/api/feedback':        feedback,
   '/api/report':          report,
   '/api/stats':           stats,
+  '/api/event':           event,
+  '/api/contrast':        contrast,
   // Premium
   '/api/paypal-config':   paypalConfig,
   '/api/checkout':        checkout,

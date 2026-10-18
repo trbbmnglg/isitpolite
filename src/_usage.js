@@ -1,7 +1,7 @@
 // Privacy-safe usage counter — aggregate daily counts of answered lookups.
 // PII-FREE BY DESIGN: a row is only (UTC day, mode, count). No IP or hash of
 // it, no user agent, no visitor country, no gesture or request text.
-import { today, LOOKUP_MODE_NAMES } from './_shared.js';
+import { today, LOOKUP_MODE_NAMES, EVENT_NAMES } from './_shared.js';
 
 // Only the production host counts — never localhost, *.pages.dev or
 // *.workers.dev previews/staging.
@@ -42,10 +42,17 @@ export function recordAnswered(context, mode, response) {
 // Aggregates for GET /api/stats. last30Days = the 30 UTC days including today.
 export async function getUsageStats(env, now) {
   const since30 = new Date((now || Date.now()) - 29 * 86400000).toISOString().slice(0, 10);
-  const [modeRes, recentRes] = await env.DB.batch([
+  const [modeRes, recentRes, eventRes] = await env.DB.batch([
     env.DB.prepare('SELECT mode, SUM(answered) AS n, MIN(day) AS first_day FROM usage_daily GROUP BY mode'),
     env.DB.prepare('SELECT COALESCE(SUM(answered), 0) AS n FROM usage_daily WHERE day >= ?1').bind(since30),
+    env.DB.prepare('SELECT event, SUM(n) AS n FROM events_daily GROUP BY event'),
   ]);
+
+  const events = {};
+  EVENT_NAMES.forEach(function (e) { events[e] = 0; });
+  ((eventRes && eventRes.results) || []).forEach(function (r) {
+    if (Object.prototype.hasOwnProperty.call(events, r.event)) events[r.event] = Number(r.n) || 0;
+  });
 
   const byMode = {};
   LOOKUP_MODE_NAMES.forEach(function (m) { byMode[m] = 0; });
@@ -58,5 +65,5 @@ export async function getUsageStats(env, now) {
     if (r.first_day && (!since || r.first_day < since)) since = r.first_day;
   });
   const recent = (recentRes.results && recentRes.results[0]) || {};
-  return { total: total, last30Days: Number(recent.n) || 0, byMode: byMode, since: since };
+  return { total: total, last30Days: Number(recent.n) || 0, byMode: byMode, since: since, events: events };
 }

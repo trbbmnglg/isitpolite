@@ -88,3 +88,11 @@ CREATE TABLE IF NOT EXISTS usage_daily (
   answered INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (day, mode)
 );
+
+-- Aggregate daily event counts (day + event name only). Added via migrations/0002_events_daily.sql.
+CREATE TABLE IF NOT EXISTS events_daily (
+  day   TEXT NOT NULL,
+  event TEXT NOT NULL,
+  n     INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (day, event)
+);

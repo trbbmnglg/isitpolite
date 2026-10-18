@@ -67,7 +67,7 @@ async function runLookup({ url = `https://${PROD_HOST}/api/lookup`, body, header
 
 const usageWrites = (db) => db.calls.filter((c) => c.sql.includes('INTO usage_daily'));
 const today = () => new Date().toISOString().slice(0, 10);
-const CHECK = { mode: 'check', gesture: 'Thumbs up', country: 'Japan', context: 'general' };
+const CHECK = { mode: 'check', gesture: 'Whistling indoors', country: 'Japan', context: 'general' };
 
 // ── Pure counting rule ─────────────────────────────────────────────────────
 test('shouldCountLookup: only 2xx answers for a known mode on the production host', () => {
@@ -169,6 +169,7 @@ test('getUsageStats zero-fills every mode and returns since=null when empty', as
   assert.deepEqual(stats, {
     total: 0, last30Days: 0, since: null,
     byMode: { check: 0, compare: 0, trip: 0, guide: 0, quiz: 0, brief: 0 },
+    events: { share_result: 0, share_brief: 0, share_quiz: 0, brief_saved: 0, reminder_added: 0, install_shown: 0, installed: 0, instant_answer: 0 },
   });
 });
 
@@ -185,5 +186,6 @@ test('GET /api/stats aggregates totals and sends public cache + CORS headers', a
   assert.deepEqual(await res.json(), {
     total: 9, last30Days: 9, since: '2026-10-18',
     byMode: { check: 7, compare: 0, trip: 0, guide: 0, quiz: 2, brief: 0 },
+    events: { share_result: 0, share_brief: 0, share_quiz: 0, brief_saved: 0, reminder_added: 0, install_shown: 0, installed: 0, instant_answer: 0 },
   });
 });
