@@ -1,6 +1,6 @@
 # IsItPolite.com — AI Cultural Etiquette Checker
 
-Is that gesture polite, rude, or context-dependent **in that country**? IsItPolite.com answers etiquette questions across **195 countries** — grounded in **live web sources**, not just model memory. It also builds country cheat-sheets, scenario quizzes, side-by-side country comparisons, and "from → to" trip culture-diffs, and tracks **community-verified accuracy** for every verdict.
+Is that gesture polite, rude, or context-dependent **in that country**? IsItPolite.com answers etiquette questions across **195 countries** — grounded in **live web sources**, not just model memory. Answers are **origin-aware**: set your home country and each verdict says what changes for someone from there. A **trip briefing** lists the etiquette points most likely to catch you out on a specific from → to trip (grounded first in the fact-checked guide records, with sourced seasonal notes), saved on your device for offline use. It also builds country cheat-sheets, quizzes and side-by-side comparisons, and tracks **community-verified accuracy** for every verdict.
 
 Built edge-native: a single **Cloudflare Worker** serving a static front-end (assets from `dist/`) and running **LangGraph.js** agents (DeepSeek via LangChain's OpenAI-compatible client, grounded with **Tavily** web search) and **Cloudflare D1** for community data. Privacy-first: no accounts, no tracking cookies, no personal data stored (Cloudflare adds cookieless aggregate analytics and bot protection, disclosed in `/privacy`).
 
@@ -12,7 +12,7 @@ Built edge-native: a single **Cloudflare Worker** serving a static front-end (as
 
 Two LangGraph state machines run server-side inside the Worker (`src/_agent.js`).
 
-**1. Lookup agent** — Check / Compare / Trip / Guide / Quiz. Retrieval-augmented and self-correcting:
+**1. Lookup agent** — Check / Trip briefing / Compare / Guide / Quiz (briefing mode lives in `src/_brief.js`; reviewed facts come from the generated `src/_reviewed.js`). Retrieval-augmented and self-correcting:
 
 ```
 retrieve (Tavily) → generate (grounded LLM) → reflect (validate)

@@ -38,9 +38,9 @@ Ratios were computed, not estimated. Keep new colour pairs at 4.5:1 for text and
 
 ## Navigation
 
-Five views: Check, Compare, Guide, Quiz, History. Desktop shows them inline in a 64px header. Below 768px they become a fixed bottom tab bar (56px targets) and the header is just the wordmark.
+Five tabs: Check, Trip, Compare, Guide, History. Quiz has no tab; it opens from Guide (and highlights the Guide tab). Desktop shows them inline in a 64px header. Below 768px they become a fixed bottom tab bar (56px targets) and the header is just the wordmark.
 
-Hash routes: `#/check`, `#/compare`, `#/compare/trip`, `#/guide`, `#/quiz`, `#/history`. `#/trip` and `#/community` redirect to their new homes. `?g=&c=&ctx=`, `?feedback=1` and `?support=1` still work.
+Hash routes: `#/check`, `#/trip`, `#/compare`, `#/guide`, `#/quiz`, `#/history`. `#/compare/trip` and `#/community` redirect to their new homes. `?g=&c=&ctx=`, `?feedback=1` and `?support=1` still work.
 
 ## Rules for new UI
 
