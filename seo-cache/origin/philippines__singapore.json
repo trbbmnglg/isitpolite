@@ -1,0 +1,128 @@
+{
+  "from": "Philippines",
+  "to": "Singapore",
+  "contexts": [
+    "general",
+    "dining",
+    "business",
+    "family"
+  ],
+  "month": 0,
+  "year": 0,
+  "headline": "Singapore runs on punctuality and quiet restraint, so dial back Filipino warmth, cheek-kisses and 'Filipino time' while keeping the food-sharing generosity.",
+  "watch_outs": [
+    {
+      "title": "Be on time for meetings",
+      "category": "Punctuality",
+      "context": "business",
+      "severity": "high",
+      "from_norm": "In the Philippines, business meetings expect on-time arrival but social occasions run on relaxed 'Filipino time'.",
+      "to_norm": "In Singapore, punctuality is expected in both business and social settings, and arriving late reads as rude.",
+      "do": "Aim to arrive 5-10 minutes early and message your host the moment you know you'll be late.",
+      "avoid": "Do not treat a Singapore meeting like a Filipino social gathering and drift in 15 minutes late.",
+      "link": "/etiquette/singapore/arriving-late-to-a-meeting/"
+    },
+    {
+      "title": "Handshake, not cheek kiss",
+      "category": "Greetings",
+      "context": "social",
+      "severity": "high",
+      "from_norm": "Filipinos greet friends and family with a light cheek-to-cheek touch and a soft 'mwah'.",
+      "to_norm": "Singaporeans default to a light handshake, and many women, especially Malay or Indian, won't extend a hand to a man.",
+      "do": "Offer a handshake and, if it isn't taken, nod or place your hand over your heart.",
+      "avoid": "Do not lean in for a cheek kiss or hug someone you've just met.",
+      "link": "/etiquette/singapore/kissing-on-the-cheek-when-greeting/"
+    },
+    {
+      "title": "Never touch anyone's head",
+      "category": "Personal space",
+      "context": "general",
+      "severity": "high",
+      "from_norm": "In the Philippines, a light pat on a child's head is a normal affectionate gesture.",
+      "to_norm": "In Singapore, touching anyone's head, even a child's, is rude across Chinese, Malay and Indian communities.",
+      "do": "Show warmth with a smile, a wave or a light touch on the shoulder instead.",
+      "avoid": "Do not pat a colleague's or host's child on the head, however cute.",
+      "link": "/etiquette/singapore/patting-someone-on-the-head/"
+    },
+    {
+      "title": "Beckon with a whole hand",
+      "category": "Gestures",
+      "context": "general",
+      "severity": "high",
+      "from_norm": "Filipinos beckon with a palm-down scratching wave, and a curled index finger is already seen as demeaning.",
+      "to_norm": "In Singapore, curling a single finger to call someone over is read as disrespectful, even hostile.",
+      "do": "Wave the person over with your whole hand, palm facing down.",
+      "avoid": "Do not curl your index finger at waiters, staff or colleagues.",
+      "link": "/etiquette/singapore/beckoning-someone-with-your-finger/"
+    },
+    {
+      "title": "Right hand at Malay/Indian tables",
+      "category": "Dining",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "Filipinos eat kamayan-style with either hand and use fork-and-spoon freely, so handedness rarely matters.",
+      "to_norm": "At Malay or Indian homes in Singapore, use only your right hand to eat, pass dishes and give or receive items.",
+      "do": "Keep your left hand off the food and dishes when eating with your hands.",
+      "avoid": "Do not eat or hand over a plate with your left hand at a Malay or Indian household.",
+      "link": "/etiquette/singapore/eating-with-your-left-hand/"
+    },
+    {
+      "title": "Shoes off, feet tucked",
+      "category": "Personal space",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "Filipinos usually remove shoes at the door, but stretching your legs out at home is unremarkable.",
+      "to_norm": "In Singapore homes, shoes come off, and at Malay or Indian gatherings you tuck your feet under you rather than point soles at others.",
+      "do": "Look for the shoe pile, ask 'should I take my shoes off?', and sit cross-legged on floor seating.",
+      "avoid": "Do not stretch your legs out with soles facing your host or elders.",
+      "link": "/etiquette/singapore/showing-the-soles-of-your-feet/"
+    },
+    {
+      "title": "Tip only beyond the service charge",
+      "category": "Tipping",
+      "context": "dining",
+      "severity": "medium",
+      "from_norm": "Filipinos leave about 10% in cash with the server when no service charge is on the bill.",
+      "to_norm": "In Singapore, tipping isn't expected, and many bills already add a '++' service charge.",
+      "do": "Check the bill for '++' first, and if you tip for excellent service, hand it directly to the staff member.",
+      "avoid": "Do not leave extra cash on the table out of habit.",
+      "link": "/etiquette/singapore/tipping-at-a-restaurant/"
+    },
+    {
+      "title": "Decline food gently, not flatly",
+      "category": "Dining",
+      "context": "social",
+      "severity": "medium",
+      "from_norm": "Filipino hosts press food on guests, and you accept a token portion or ask to take some home.",
+      "to_norm": "Singaporean hosts, especially Chinese, may offer once and take a flat 'no' at face value, so a blunt refusal can seem cold.",
+      "do": "Say 'I'm so full, but it was delicious, thank you' and expect one more offer.",
+      "avoid": "Do not refuse with a flat 'no, I don't want any'.",
+      "link": "/etiquette/singapore/refusing-food-offered-by-a-host/"
+    },
+    {
+      "title": "Choose gifts with care",
+      "category": "Gift-giving",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "Filipinos bring a modest wrapped gift like local sweets or fruit to a home or first business meeting.",
+      "to_norm": "In Singapore, gift rules vary by community: halal food for Malay hosts, red/gold wrapping for Chinese hosts, and clocks, sets of four, leather and alcohol are best avoided.",
+      "do": "Default to a quality food gift, confirmed halal if your host is Malay.",
+      "avoid": "Do not bring alcohol, leather or a clock unless you know your host well.",
+      "link": "/etiquette/singapore/giving-a-gift/"
+    },
+    {
+      "title": "Quiet noodles, open-hand pointing",
+      "category": "Gestures",
+      "context": "dining",
+      "severity": "low",
+      "from_norm": "Filipinos eat mami and batchoy quietly with a spoon, and pointing at objects with an index finger is ordinary.",
+      "to_norm": "In Singapore, slurping noodles at a hawker centre is fine, but pointing an index finger at people is not.",
+      "do": "Slurp freely at hawker centres and gesture with an open palm or a nod toward people.",
+      "avoid": "Do not point your index finger at a person to single them out.",
+      "link": "/etiquette/singapore/pointing-with-your-index-finger/"
+    }
+  ],
+  "season": [],
+  "phrases": [],
+  "grounded": "2026-10-18"
+}

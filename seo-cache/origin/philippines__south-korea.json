@@ -1,0 +1,144 @@
+{
+  "from": "Philippines",
+  "to": "South Korea",
+  "contexts": [
+    "general",
+    "dining",
+    "business",
+    "family"
+  ],
+  "month": 0,
+  "year": 0,
+  "headline": "The biggest adjustment is Korea's strict seniority-based formality — honorifics, two-handed exchanges, and drinking rituals — which goes well beyond the polite deference you're used to at home.",
+  "watch_outs": [
+    {
+      "title": "Pour and receive drinks two-handed",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "high",
+      "from_norm": "In the Philippines everyone pours their own glass and toasts casually with 'tagay' among peers.",
+      "to_norm": "In Korea you never pour your own drink; the youngest pours for elders, glasses are held with both hands, and you turn your head away when drinking in front of a senior.",
+      "do": "Let others fill your glass and refill theirs first, holding the bottle with both hands and turning slightly aside when you drink before an elder.",
+      "avoid": "Do not pour your own soju or clink glasses while looking a senior straight in the eye as you drink.",
+      "link": ""
+    },
+    {
+      "title": "Use honorifics and titles with elders",
+      "category": "Communication",
+      "context": "business",
+      "severity": "high",
+      "from_norm": "In the Philippines you can address seniors by first name or 'Kuya/Ate' and switch easily between formal and casual English.",
+      "to_norm": "Korean speech levels (jondaetmal) and titles like 'sajangnim' or 'seonsaengnim' are expected with anyone older or senior, and casual speech can offend.",
+      "do": "Learn a few honorific greetings and use titles plus the person's surname until invited to speak more casually.",
+      "avoid": "Do not address an older colleague or your host's parents by first name or drop into casual speech.",
+      "link": ""
+    },
+    {
+      "title": "Two hands for cards and gifts",
+      "category": "Business",
+      "context": "business",
+      "severity": "high",
+      "from_norm": "In the Philippines business cards are handed over casually with one hand and often pocketed without reading.",
+      "to_norm": "In Korea cards and gifts are given and received with both hands, and the card is read carefully before being put away respectfully.",
+      "do": "Offer and receive business cards and gifts with both hands, then read the card and place it on the table rather than in your pocket.",
+      "avoid": "Do not hand over a business card one-handed or stuff it straight into your wallet.",
+      "link": ""
+    },
+    {
+      "title": "No tipping at restaurants",
+      "category": "Tipping",
+      "context": "dining",
+      "severity": "medium",
+      "from_norm": "In the Philippines you check for a service charge and otherwise leave about 10% in cash with the server.",
+      "to_norm": "In Korea the menu price is the final price; staff may chase you to return cash left on the table.",
+      "do": "Pay exactly the bill and say 'gamsahamnida' as thanks instead of leaving extra money.",
+      "avoid": "Do not leave a tip on the table at an ordinary Korean restaurant or cafe.",
+      "link": ""
+    },
+    {
+      "title": "Chopsticks never upright in rice",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "medium",
+      "from_norm": "In the Philippines you eat with fork and spoon and rest utensils however is convenient.",
+      "to_norm": "Standing chopsticks upright in rice evokes funeral and ancestral rites and makes Koreans at the table uncomfortable.",
+      "do": "Lay chopsticks flat on the table or a rest between bites.",
+      "avoid": "Do not stick your chopsticks vertically into a bowl of rice.",
+      "link": ""
+    },
+    {
+      "title": "Slurping noodles is welcome",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "medium",
+      "from_norm": "In the Philippines you eat mami or batchoy quietly with a spoon and slurping is a minor faux pas.",
+      "to_norm": "In Korea loud slurping of noodles shows appreciation and is normal at the table.",
+      "do": "Slurp your noodles freely and enjoy the sound as a compliment to the cook.",
+      "avoid": "Do not apologize for or suppress slurping sounds at a Korean noodle restaurant.",
+      "link": ""
+    },
+    {
+      "title": "Beckon with palm down, not finger",
+      "category": "Gestures",
+      "context": "general",
+      "severity": "medium",
+      "from_norm": "In the Philippines curling one finger upward to call someone is seen as demeaning, so you use a palm-down scratching wave.",
+      "to_norm": "In Korea the palm-down wave is also the polite way to call someone, especially someone younger or a server.",
+      "do": "Call people over with your palm facing down and fingers waving toward you.",
+      "avoid": "Do not curl a single index finger upward to beckon anyone.",
+      "link": ""
+    },
+    {
+      "title": "Bow instead of cheek kisses",
+      "category": "Greetings",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "In the Philippines you greet friends and family with a light cheek-to-cheek touch and a 'mwah' sound.",
+      "to_norm": "In Korea greetings with elders and new acquaintances are a bow, often with both hands, and physical contact is minimal.",
+      "do": "Bow slightly to your host's parents and elders, and offer a handshake only if they extend one.",
+      "avoid": "Do not lean in for a cheek kiss or a hug when meeting Korean elders for the first time.",
+      "link": ""
+    },
+    {
+      "title": "Punctuality matters in business",
+      "category": "Punctuality",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "In the Philippines relaxed 'Filipino time' is tolerated socially and sometimes in meetings.",
+      "to_norm": "In Korea arriving on time or a few minutes early for meetings and meals is expected and lateness reads as disrespect.",
+      "do": "Plan to arrive five to ten minutes early for business meetings and family dinners.",
+      "avoid": "Do not treat a business appointment with the relaxed lateness you might use for a social gathering at home.",
+      "link": ""
+    },
+    {
+      "title": "Accept food offered by host",
+      "category": "Dining",
+      "context": "family",
+      "severity": "low",
+      "from_norm": "In the Philippines you might decline outright when full, or accept a small token portion.",
+      "to_norm": "In Korea refusing food a host offers can slight them; accepting at least a little is the gracious move.",
+      "do": "Accept a small portion and eat some, even if you are full.",
+      "avoid": "Do not push the plate away or say you are full before tasting what your host served.",
+      "link": ""
+    }
+  ],
+  "season": [],
+  "phrases": [
+    {
+      "english": "Hello",
+      "local": "안녕하세요",
+      "romanization": "annyeonghaseyo"
+    },
+    {
+      "english": "Thank you",
+      "local": "감사합니다",
+      "romanization": "gamsahamnida"
+    },
+    {
+      "english": "Excuse me / Sorry",
+      "local": "죄송합니다",
+      "romanization": "joesonghamnida"
+    }
+  ],
+  "grounded": "2026-10-18"
+}

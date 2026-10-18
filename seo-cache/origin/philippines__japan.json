@@ -1,0 +1,144 @@
+{
+  "from": "Philippines",
+  "to": "Japan",
+  "contexts": [
+    "general",
+    "dining",
+    "business",
+    "family"
+  ],
+  "month": 0,
+  "year": 0,
+  "headline": "The biggest adjustment is swapping the Philippines' warm, touch-friendly, tip-and-chat style for Japan's quieter, bow-first, no-tipping, order-for-yourself rhythm.",
+  "watch_outs": [
+    {
+      "title": "No tipping at restaurants",
+      "category": "Tipping",
+      "context": "dining",
+      "severity": "high",
+      "from_norm": "In the Philippines you check for a service charge and otherwise leave about 10% in cash with the server.",
+      "to_norm": "In Japan tipping is not customary and is politely declined; service is included in the bill.",
+      "do": "Skip the tip and thank your server with a genuine 'gochisōsama deshita' as you leave.",
+      "avoid": "Do not leave cash on the table or press money into a server's hand.",
+      "link": "/etiquette/japan/tipping-at-a-restaurant/"
+    },
+    {
+      "title": "Bow, don't cheek-kiss",
+      "category": "Greetings",
+      "context": "business",
+      "severity": "high",
+      "from_norm": "In the Philippines a light cheek-to-cheek greeting with a soft 'mwah' is common among friends and family.",
+      "to_norm": "In Japan a bow, or a soft handshake if offered first, is the standard greeting; cheek kisses are not.",
+      "do": "Bow slightly when meeting colleagues and family, deepening the bow for senior people.",
+      "avoid": "Do not lean in for a cheek kiss unless your host clearly initiates it.",
+      "link": "/etiquette/japan/kissing-on-the-cheek-when-greeting/"
+    },
+    {
+      "title": "Order your own dish",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "high",
+      "from_norm": "In the Philippines sharing dishes family-style and ordering a few plates for the table is the norm.",
+      "to_norm": "In many Japanese restaurants, especially small ramen, yakitori and set-meal shops, each person orders at least one item.",
+      "do": "Have every person at the table order their own dish or set.",
+      "avoid": "Do not order one dish to share in a small restaurant with limited seating.",
+      "link": ""
+    },
+    {
+      "title": "Chopstick funeral taboos",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "high",
+      "from_norm": "In the Philippines you eat with fork and spoon, so chopstick rules rarely come up.",
+      "to_norm": "Standing chopsticks upright in rice or passing food chopstick-to-chopstick echoes funeral rituals in Japan.",
+      "do": "Rest chopsticks on the holder or across your bowl when not eating.",
+      "avoid": "Do not stick chopsticks upright in rice or pass food directly between chopsticks.",
+      "link": "/etiquette/japan/eating-with-your-left-hand/"
+    },
+    {
+      "title": "Gift with both hands",
+      "category": "Gift-giving",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "In the Philippines a modest wrapped gift is welcome and it is fine if it isn't opened right away.",
+      "to_norm": "In Japan a modest, nicely wrapped gift such as regional omiyage is expected, presented with both hands and often set aside unopened.",
+      "do": "Bring a small wrapped specialty from home and offer it with both hands.",
+      "avoid": "Do not expect your gift to be opened in front of you or push them to open it.",
+      "link": "/etiquette/japan/giving-a-gift/"
+    },
+    {
+      "title": "Decline food gently",
+      "category": "Dining",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "In the Philippines you hesitate, then accept at least a small portion or ask to take some home rather than refuse outright.",
+      "to_norm": "In Japan you decline softly with a phrase like 'mō kekkō desu' or mention you're full, and close with 'gochisōsama deshita'.",
+      "do": "Accept a little if you can, and thank your host warmly at the end of the meal.",
+      "avoid": "Do not refuse bluntly or leave without thanking your host for the food.",
+      "link": "/etiquette/japan/refusing-food-offered-by-a-host/"
+    },
+    {
+      "title": "Feet tucked on tatami",
+      "category": "Gestures",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "In the Philippines foot position is a minor issue, mainly avoiding feet on furniture at a home visit.",
+      "to_norm": "In Japan, when seated on tatami, tuck your feet under you or sit cross-legged neatly rather than stretching legs toward others or the alcove.",
+      "do": "Sit neatly with feet tucked under you on tatami.",
+      "avoid": "Do not stretch your legs out toward other people or the tokonoma alcove.",
+      "link": "/etiquette/japan/showing-the-soles-of-your-feet/"
+    },
+    {
+      "title": "Punctuality in business",
+      "category": "Punctuality",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "In the Philippines relaxed 'Filipino time' is fine socially, though business meetings expect you on time.",
+      "to_norm": "In Japan arriving a few minutes early for meetings and appointments is the standard.",
+      "do": "Plan to arrive five minutes early for every business meeting.",
+      "avoid": "Do not treat a business meeting with the relaxed timing you might use for a social gathering.",
+      "link": ""
+    },
+    {
+      "title": "Slurping is a compliment",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "low",
+      "from_norm": "In the Philippines you eat noodle soup quietly with a spoon, and loud slurping isn't a compliment.",
+      "to_norm": "In Japan audible slurping in a casual noodle shop is a compliment to the chef.",
+      "do": "Slurp naturally if it feels comfortable in a casual noodle shop.",
+      "avoid": "Do not force loud slurping if it feels unnatural, and keep it quiet in formal settings.",
+      "link": "/etiquette/japan/slurping-your-noodles/"
+    },
+    {
+      "title": "Head-pats only for kids",
+      "category": "Personal space",
+      "context": "social",
+      "severity": "low",
+      "from_norm": "In the Philippines head-patting is fine with children you know but risky with adults, especially elders.",
+      "to_norm": "In Japan head-pats are fine for children you know well but too familiar with adults.",
+      "do": "Use a nod, bow or verbal compliment with adults instead.",
+      "avoid": "Do not pat an adult colleague or elder on the head.",
+      "link": "/etiquette/japan/patting-someone-on-the-head/"
+    }
+  ],
+  "season": [],
+  "phrases": [
+    {
+      "english": "Hello",
+      "local": "こんにちは",
+      "romanization": "konnichiwa"
+    },
+    {
+      "english": "Thank you",
+      "local": "ありがとうございます",
+      "romanization": "arigatō gozaimasu"
+    },
+    {
+      "english": "Excuse me / Sorry",
+      "local": "すみません",
+      "romanization": "sumimasen"
+    }
+  ],
+  "grounded": "2026-10-18"
+}

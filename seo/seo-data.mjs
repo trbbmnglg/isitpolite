@@ -44,6 +44,13 @@ export const COUNTRIES = [
 
 export { CONTEXT_LABELS } from '../src/_countries.js';
 
+// "Etiquette for <demonym>" pages: origin-aware briefings as static pages.
+// Content comes from scripts/generate-origin-pages.mjs (seo-cache/origin/).
+export const ORIGIN_PAGES = [
+  { origin: 'Philippines', slug: 'for-filipinos', demonym: 'Filipinos', adjective: 'Filipino',
+    destinations: ['Japan', 'South Korea', 'Singapore', 'United Arab Emirates', 'Saudi Arabia', 'Qatar'] },
+];
+
 export function slugify(s) {
   return String(s)
     .toLowerCase()

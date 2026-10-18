@@ -1,0 +1,144 @@
+{
+  "from": "Philippines",
+  "to": "Saudi Arabia",
+  "contexts": [
+    "general",
+    "dining",
+    "business",
+    "family"
+  ],
+  "month": 0,
+  "year": 0,
+  "headline": "The biggest adjustment is switching from relaxed, touch-friendly Filipino habits to Saudi restraint: right-hand-only dining, no public affection, and careful gestures around elders and the opposite gender.",
+  "watch_outs": [
+    {
+      "title": "Right hand only for food",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "high",
+      "from_norm": "Filipinos eat with fork and spoon in either hand, and left-hand use is rarely noticed.",
+      "to_norm": "In Saudi Arabia the left hand is reserved for hygiene; eat, pass food, and hand over money with the right hand only.",
+      "do": "Keep your left hand in your lap and use your right for every bite and every handover.",
+      "avoid": "Do not hold bread, pass a dish, or hand cash with your left hand.",
+      "link": "/etiquette/saudi-arabia/eating-with-your-left-hand/"
+    },
+    {
+      "title": "No public affection at all",
+      "category": "Personal space",
+      "context": "general",
+      "severity": "high",
+      "from_norm": "Filipino couples hold hands and share brief cheek touches in public, especially in cities.",
+      "to_norm": "Public displays of affection are illegal under Saudi decency law, even for married couples.",
+      "do": "Keep all physical affection, including long hand-holding, for private spaces.",
+      "avoid": "Do not hug, kiss, or hold hands with a partner in malls, restaurants, or streets.",
+      "link": "/etiquette/saudi-arabia/public-displays-of-affection/"
+    },
+    {
+      "title": "Feet flat, never soles toward others",
+      "category": "Gestures",
+      "context": "social",
+      "severity": "high",
+      "from_norm": "Filipinos treat foot position as a minor faux pas and rarely think about it day to day.",
+      "to_norm": "In Saudi Arabia showing the soles of your feet is rude; keep feet flat or crossed at the ankles.",
+      "do": "Sit with both feet on the floor and tuck them away when sitting on floor cushions.",
+      "avoid": "Do not cross an ankle over your knee or point a foot toward anyone.",
+      "link": "/etiquette/saudi-arabia/showing-the-soles-of-your-feet/"
+    },
+    {
+      "title": "Greet opposite gender cautiously",
+      "category": "Greetings",
+      "context": "business",
+      "severity": "high",
+      "from_norm": "Filipino cheek-to-cheek greetings are common with friends and family of either gender.",
+      "to_norm": "In Saudi Arabia cheek-kissing is common between men but not across genders; with women, default to a verbal greeting.",
+      "do": "Greet with words and a nod, and offer a hand only if the other person extends first.",
+      "avoid": "Do not lean in for a cheek touch or extend your hand to a Saudi woman unless she offers hers.",
+      "link": "/etiquette/saudi-arabia/kissing-on-the-cheek-when-greeting/"
+    },
+    {
+      "title": "Accept host food and coffee",
+      "category": "Dining",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "Filipinos hesitate then accept a small token portion, and can decline politely if full.",
+      "to_norm": "Refusing a Saudi host's coffee or food is rude; accept the first offer and shake the cup lightly to signal enough.",
+      "do": "Take the first cup or plate offered, and shake the cup gently when returning it to stop refills.",
+      "avoid": "Do not say no outright to the first offer of coffee, dates, or a meal.",
+      "link": "/etiquette/saudi-arabia/refusing-food-offered-by-a-host/"
+    },
+    {
+      "title": "Shoes off, prayer rug respected",
+      "category": "Religion",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "Filipinos commonly remove shoes at home but often keep them on in some households.",
+      "to_norm": "Shoes are expected off in most Saudi homes, and a prayer rug must never be stepped on with shoes.",
+      "do": "Watch your host at the entrance and remove your shoes before stepping inside.",
+      "avoid": "Do not walk across a prayer rug or into a carpeted sitting room with shoes on.",
+      "link": "/etiquette/saudi-arabia/removing-your-shoes-indoors/"
+    },
+    {
+      "title": "Point with open hand, not finger",
+      "category": "Gestures",
+      "context": "general",
+      "severity": "medium",
+      "from_norm": "Filipinos avoid pointing at people but use a regular index finger for objects and directions.",
+      "to_norm": "In Saudi Arabia single-finger pointing is avoided; gesture with a whole open hand.",
+      "do": "Indicate people and things with an open palm and all fingers.",
+      "avoid": "Do not jab a single index finger at a person or across a room.",
+      "link": "/etiquette/saudi-arabia/pointing-with-your-index-finger/"
+    },
+    {
+      "title": "Skip thumbs-up with elders",
+      "category": "Gestures",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "Filipinos use the thumbs-up freely as a friendly sign of approval.",
+      "to_norm": "In Saudi formal and religious settings the thumbs-up has shifted meaning; use words instead with elders.",
+      "do": "Say a verbal 'tamam' or 'good' when agreeing with senior colleagues or officials.",
+      "avoid": "Do not flash a thumbs-up to an elder, a sheikh, or in a mosque setting.",
+      "link": "/etiquette/saudi-arabia/thumbs-up/"
+    },
+    {
+      "title": "Modest dress, no shorts",
+      "category": "Dress",
+      "context": "general",
+      "severity": "medium",
+      "from_norm": "Filipinos wear shorts, sleeveless tops, and casual wear freely in malls and streets.",
+      "to_norm": "Saudi public dress is modest; men avoid sleeveless tops and short shorts, women wear loose covering clothing.",
+      "do": "Pack loose long trousers and long-sleeved tops, and carry a light scarf or abaya for conservative areas.",
+      "avoid": "Do not wear shorts, tank tops, or tight or revealing clothing in public.",
+      "link": ""
+    },
+    {
+      "title": "Punctuality in business, patience in waits",
+      "category": "Punctuality",
+      "context": "business",
+      "severity": "low",
+      "from_norm": "Filipinos treat 'Filipino time' as fine socially but aim to be on time for business.",
+      "to_norm": "Saudi meetings expect you to arrive on time, but hosts may keep you waiting without it being an insult.",
+      "do": "Arrive on time or early and wait calmly, using the time for small talk.",
+      "avoid": "Do not show irritation or leave because a Saudi counterpart is late.",
+      "link": "/etiquette/saudi-arabia/arriving-late-to-a-meeting/"
+    }
+  ],
+  "season": [],
+  "phrases": [
+    {
+      "english": "Hello",
+      "local": "مرحبا",
+      "romanization": "marhaba"
+    },
+    {
+      "english": "Thank you",
+      "local": "شكرا",
+      "romanization": "shukran"
+    },
+    {
+      "english": "Excuse me / Sorry",
+      "local": "عفوا",
+      "romanization": "afwan"
+    }
+  ],
+  "grounded": "2026-10-18"
+}

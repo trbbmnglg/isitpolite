@@ -1,0 +1,144 @@
+{
+  "from": "Philippines",
+  "to": "Qatar",
+  "contexts": [
+    "general",
+    "dining",
+    "business",
+    "family"
+  ],
+  "month": 0,
+  "year": 0,
+  "headline": "The biggest adjustment is that Qatar's public and business life runs on stricter modesty, punctuality and gender-aware greeting rules than the relaxed, harmony-first style you know from the Philippines.",
+  "watch_outs": [
+    {
+      "title": "Wait for a handshake cue",
+      "category": "Greetings",
+      "context": "business",
+      "severity": "high",
+      "from_norm": "In the Philippines you greet with a smile and handshake, and a light cheek-to-cheek greeting is common with friends and family.",
+      "to_norm": "In Qatar some people, especially women, prefer not to shake hands with the opposite sex and may place a hand on the heart instead.",
+      "do": "Offer a smile and a verbal greeting, and extend your hand only if the other person offers theirs first.",
+      "avoid": "Do not reach out to shake a Qatari woman's hand unless she extends hers first.",
+      "link": ""
+    },
+    {
+      "title": "Dress modestly in public",
+      "category": "Dress",
+      "context": "general",
+      "severity": "high",
+      "from_norm": "In the Philippines shorts and sleeveless tops are everyday wear, with modest dress mainly expected in churches and rural areas.",
+      "to_norm": "In Qatar shoulders and knees should be covered in public, and shorts, skirts and sleeveless tops are prohibited in government buildings and mosques, where women must also cover their hair.",
+      "do": "Pack loose clothing that covers shoulders and knees, and carry a scarf for mosque visits.",
+      "avoid": "Do not wear shorts or sleeveless tops to government offices or mosques.",
+      "link": ""
+    },
+    {
+      "title": "Greet elders and women first",
+      "category": "Greetings",
+      "context": "family",
+      "severity": "high",
+      "from_norm": "In the Philippines younger people address elders with titles and respect, but greeting order is usually casual and flexible.",
+      "to_norm": "When entering a Qatari home, greet people by status and age, with the elderly and those of higher status first, and also greet the women.",
+      "do": "On entering a home, greet the oldest and most senior people first, then the women, before settling in.",
+      "avoid": "Do not walk in and greet only the person you know best.",
+      "link": ""
+    },
+    {
+      "title": "Keep public affection restrained",
+      "category": "Personal space",
+      "context": "general",
+      "severity": "high",
+      "from_norm": "In the Philippines brief hand-holding is fine and kissing or long embraces are saved for private settings, especially around elders.",
+      "to_norm": "Qatar is more conservative in public, so keep physical affection between couples minimal in malls, streets and family gatherings.",
+      "do": "Limit affection to brief hand-holding and save embraces for private settings.",
+      "avoid": "Do not kiss or embrace your partner in public places.",
+      "link": ""
+    },
+    {
+      "title": "Don't offer your left hand",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "medium",
+      "from_norm": "In the Philippines eating with a fork and spoon in either hand is completely normal and goes unnoticed.",
+      "to_norm": "In Qatar the right hand is used for eating, greeting and giving or receiving items, and the left hand is considered unclean.",
+      "do": "Use your right hand for food, handshakes and passing dishes or gifts.",
+      "avoid": "Do not eat, greet or hand over items with your left hand.",
+      "link": ""
+    },
+    {
+      "title": "Leave a little food when full",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "medium",
+      "from_norm": "In the Philippines you hesitate and then accept at least a small portion when a host offers food, and clearing your plate is normal.",
+      "to_norm": "In Qatar a host may press you to eat more, and leaving a tiny portion of food signals that you are full and the host was generous.",
+      "do": "Accept the food offered, and when full leave a small amount on the plate rather than refusing outright.",
+      "avoid": "Do not refuse food outright or scrape your plate completely clean if you want to signal you are full.",
+      "link": ""
+    },
+    {
+      "title": "Arrive on time for work",
+      "category": "Punctuality",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "In the Philippines relaxed 'Filipino time' is fine socially, though business meetings call for arriving on time.",
+      "to_norm": "In Qatar business meetings and official appointments expect punctuality, and arriving late reads as disrespectful.",
+      "do": "Arrive on time or a few minutes early for meetings and work commitments.",
+      "avoid": "Do not treat Qatari business appointments with the relaxed timing you might use for a social gathering.",
+      "link": ""
+    },
+    {
+      "title": "Keep feet off furniture and away from people",
+      "category": "Gestures",
+      "context": "social",
+      "severity": "medium",
+      "from_norm": "In the Philippines showing the soles of your feet is a minor faux pas, mainly avoided by not propping feet on furniture at someone's home.",
+      "to_norm": "In Qatar showing the soles of your feet toward others, or placing feet toward people, is considered disrespectful during meals and visits.",
+      "do": "Keep both feet flat on the floor and pointed away from others when sitting.",
+      "avoid": "Do not cross your ankle over your knee so a sole faces someone, or put your feet on a table.",
+      "link": ""
+    },
+    {
+      "title": "Tip where service charge is absent",
+      "category": "Tipping",
+      "context": "dining",
+      "severity": "low",
+      "from_norm": "In the Philippines tipping is appreciated but not mandatory, and you check the bill for a service charge before leaving about 10% in cash.",
+      "to_norm": "In Qatar tipping is not always expected, but in restaurants a tip of around 10% is welcome when no service charge is already added.",
+      "do": "Check the bill for a service charge and, if none is included, leave a modest cash tip.",
+      "avoid": "Do not assume a tip is required or leave one on top of an included service charge.",
+      "link": ""
+    },
+    {
+      "title": "Bring a modest gift to a home",
+      "category": "Gift-giving",
+      "context": "family",
+      "severity": "low",
+      "from_norm": "In the Philippines a modest, well-wrapped gift such as sweets or fruit is welcome when invited to a home, and it may not be opened right away.",
+      "to_norm": "In Qatar bringing something small such as dates or sweets when invited to a home is a nice gesture, and gifts may also not be opened immediately.",
+      "do": "Bring a modest gift such as dates or sweets, and offer it with your right hand.",
+      "avoid": "Do not bring alcohol or anything containing pork as a gift.",
+      "link": ""
+    }
+  ],
+  "season": [],
+  "phrases": [
+    {
+      "english": "Hello",
+      "local": "مرحبا",
+      "romanization": "marhaba"
+    },
+    {
+      "english": "Thank you",
+      "local": "شكرا",
+      "romanization": "shukran"
+    },
+    {
+      "english": "Excuse me / Sorry",
+      "local": "عفوا",
+      "romanization": "afwan"
+    }
+  ],
+  "grounded": "2026-10-18"
+}

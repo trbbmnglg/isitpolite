@@ -1,0 +1,144 @@
+{
+  "from": "Philippines",
+  "to": "United Arab Emirates",
+  "contexts": [
+    "general",
+    "dining",
+    "business",
+    "family"
+  ],
+  "month": 0,
+  "year": 0,
+  "headline": "The biggest adjustment is that everyday warmth — cheek kisses, the OK sign, left-handed eating, feet up — reads very differently in the UAE, so switch to right-hand, verbal, and modest defaults.",
+  "watch_outs": [
+    {
+      "title": "Left hand at the table",
+      "category": "Dining",
+      "context": "dining",
+      "severity": "high",
+      "from_norm": "In the Philippines, eating with a fork and spoon in either hand is completely normal and won't be noticed.",
+      "to_norm": "In the UAE, the left hand is considered unclean; eat, pass dishes, and accept food with your right hand.",
+      "do": "Use your right hand for all food, drinks, and passing plates, even if you are left-handed.",
+      "avoid": "Do not reach for a shared platter or hand a dish to your host with your left hand.",
+      "link": "/etiquette/united-arab-emirates/eating-with-your-left-hand/"
+    },
+    {
+      "title": "Cheek-kiss greetings",
+      "category": "Greetings",
+      "context": "social",
+      "severity": "high",
+      "from_norm": "In the Philippines, a light cheek-to-cheek greeting with a soft 'mwah' is common among friends and family.",
+      "to_norm": "In the UAE, mirror a same-gender cheek greeting only if the other person leads; with the opposite gender, default to a verbal greeting and a nod.",
+      "do": "Greet with words and a nod, and follow your host's lead before any physical contact.",
+      "avoid": "Do not lean in for a cheek touch with someone of the opposite gender unless they clearly initiate it.",
+      "link": "/etiquette/united-arab-emirates/kissing-on-the-cheek-when-greeting/"
+    },
+    {
+      "title": "Soles pointing at people",
+      "category": "Personal space",
+      "context": "social",
+      "severity": "high",
+      "from_norm": "In the Philippines, foot position is a minor faux pas; just avoid propping feet on furniture in someone's home.",
+      "to_norm": "In the UAE, showing the soles of your feet is rude; keep both feet flat or tucked beneath you.",
+      "do": "Sit with both feet on the floor or tucked under you, especially in a majlis or family home.",
+      "avoid": "Do not cross an ankle over your knee so your sole points at anyone.",
+      "link": "/etiquette/united-arab-emirates/showing-the-soles-of-your-feet/"
+    },
+    {
+      "title": "Public affection and dress",
+      "category": "Dress",
+      "context": "general",
+      "severity": "high",
+      "from_norm": "In the Philippines, brief hand-holding is fine and public affection is kept modest, especially around elders.",
+      "to_norm": "In the UAE, public kissing or hugging carries legal risk, and modest dress is expected in malls, government offices, and traditional areas.",
+      "do": "Save affection for private settings and wear loose clothing covering shoulders and knees in public places.",
+      "avoid": "Do not assume tourist zones exempt you from the law, and do not wear very short shorts, low-cut tops, or sheer fabrics in streets or lobbies.",
+      "link": "/etiquette/united-arab-emirates/public-displays-of-affection/"
+    },
+    {
+      "title": "Thumbs-up and OK sign",
+      "category": "Gestures",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "In the Philippines, thumbs-up and the OK sign are friendly, positive gestures used freely.",
+      "to_norm": "In the UAE, both are risky with older Emiratis and in business settings; a verbal thank-you or nod is safer.",
+      "do": "Say 'shukran' or give a simple nod of approval instead.",
+      "avoid": "Do not flash a thumbs-up or OK sign to a senior Emirati colleague or client.",
+      "link": "/etiquette/united-arab-emirates/thumbs-up/"
+    },
+    {
+      "title": "Beckoning and pointing",
+      "category": "Gestures",
+      "context": "general",
+      "severity": "medium",
+      "from_norm": "In the Philippines, a palm-down finger wave is already the polite way to call someone over, and pointing at people is avoided.",
+      "to_norm": "In the UAE, a curled index finger is seen as a gesture for animals, and pointing at people should be done with the whole hand.",
+      "do": "Call people with a palm-down wave and indicate with your whole open hand.",
+      "avoid": "Do not curl one finger upward to beckon or jab your index finger at a person.",
+      "link": "/etiquette/united-arab-emirates/beckoning-someone-with-your-finger/"
+    },
+    {
+      "title": "Refusing host's food",
+      "category": "Dining",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "In the Philippines, you hesitate then accept a small token portion or ask to take some home rather than refuse outright.",
+      "to_norm": "In the UAE, refusing food offered by a host is rude; accept at least a small portion or a sip before declining more.",
+      "do": "Take a little of whatever is offered, plus a sip of gahwa or tea, before politely saying you are full.",
+      "avoid": "Do not wave away the tray or say no before tasting anything.",
+      "link": "/etiquette/united-arab-emirates/refusing-food-offered-by-a-host/"
+    },
+    {
+      "title": "Eye contact across genders",
+      "category": "Communication",
+      "context": "business",
+      "severity": "medium",
+      "from_norm": "In the Philippines, friendly eye contact is normal, though juniors may glance down as a sign of respect.",
+      "to_norm": "In the UAE, hold steady eye contact with your own gender but keep it brief and polite with the opposite gender in business.",
+      "do": "Meet your counterpart's eyes briefly and warmly, then let your gaze rest naturally.",
+      "avoid": "Do not hold a long, unbroken stare with an opposite-gender colleague or client.",
+      "link": "/etiquette/united-arab-emirates/direct-eye-contact/"
+    },
+    {
+      "title": "Shoes at the door",
+      "category": "Greetings",
+      "context": "family",
+      "severity": "medium",
+      "from_norm": "In the Philippines, you look for a pile of shoes or ask your host before taking shoes off.",
+      "to_norm": "In the UAE, removing shoes is expected in most homes; watch your host and other guests at the entrance.",
+      "do": "Check for a shoe rack or pile at the door and remove your shoes when you see one.",
+      "avoid": "Do not walk past the entrance into a carpeted sitting room with your shoes still on.",
+      "link": "/etiquette/united-arab-emirates/removing-your-shoes-indoors/"
+    },
+    {
+      "title": "Tipping and service charge",
+      "category": "Tipping",
+      "context": "dining",
+      "severity": "low",
+      "from_norm": "In the Philippines, you check for a service charge line, then leave about 10% in cash with the server.",
+      "to_norm": "In the UAE, tipping is appreciated but not obligatory; check the bill for a service charge, then leave about 10-15% in cash directly to staff.",
+      "do": "Read the bill first, then hand cash to your server if you want it to reach them.",
+      "avoid": "Do not add a tip on the card and assume the staff will receive it.",
+      "link": "/etiquette/united-arab-emirates/tipping-at-a-restaurant/"
+    }
+  ],
+  "season": [],
+  "phrases": [
+    {
+      "english": "Hello",
+      "local": "مرحبا",
+      "romanization": "marhaba"
+    },
+    {
+      "english": "Thank you",
+      "local": "شكراً",
+      "romanization": "shukran"
+    },
+    {
+      "english": "Excuse me / Sorry",
+      "local": "عفواً",
+      "romanization": "afwan"
+    }
+  ],
+  "grounded": "2026-10-18"
+}
