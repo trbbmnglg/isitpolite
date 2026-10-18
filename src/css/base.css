@@ -17,6 +17,11 @@
   --teal-tint:       #E6F2F0;
   --terracotta:      #B4532A;
   --terracotta-dark: #9A4522;
+  --terracotta-text: #B4532A;
+  --teal-solid:      #0F766E;
+  --inverse-bg:      #1C1917;
+  --inverse-fg:      #FFFFFF;
+  color-scheme: light dark;
 
   /* Legacy names, remapped so existing components pick up the new palette */
   --primary:         var(--teal);
@@ -68,6 +73,43 @@
   /* Layout */
   --max-w:      740px;
   --header-h:   64px;
+}
+
+/* Dark palette: same token names, warm near-black. Components only use tokens. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:           #14110F;
+    --surface:         #1D1916;
+    --surface-alt:     #26211D;
+    --line:            #3A332D;
+    --field-border:    #8F867B;
+    --ink:             #F3EEE6;
+    --ink-muted:       #CFC6BA;
+    --ink-faint:       #A89F94;
+    --teal:            #5EC4B8;
+    --teal-dark:       #8EDBD1;
+    --teal-tint:       #172B29;
+    --terracotta-text: #E8946C;
+    --inverse-bg:      #F3EEE6;
+    --inverse-fg:      #14110F;
+    --primary-light:   #3F8F86;
+
+    --polite:          #7FD39B;
+    --polite-light:    #3FA76A;
+    --polite-bg:       #14301F;
+    --polite-border:   #2B5A3B;
+    --caution:         #F0B866;
+    --caution-light:   #D99A2B;
+    --caution-bg:      #33260F;
+    --caution-border:  #5C4519;
+    --rude:            #F28BA3;
+    --rude-light:      #D8566F;
+    --rude-bg:         #38141F;
+    --rude-border:     #6A2A3B;
+
+    --clay-shadow:     0 1px 2px rgba(0,0,0,0.4), 0 6px 20px rgba(0,0,0,0.35);
+    --clay-shadow-sm:  0 1px 2px rgba(0,0,0,0.4);
+  }
 }
 
 /* ── Reset ────────────────────────────────────────────────────────────── */

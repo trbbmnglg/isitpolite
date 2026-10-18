@@ -42,7 +42,7 @@
   width: 28px;
   height: 28px;
   min-width: 28px;
-  background: var(--primary);
+  background: var(--teal-solid);
   color: #fff;
   border-radius: 50%;
   display: flex;

@@ -99,9 +99,9 @@
   text-align: center;
 }
 .offline-banner {
-  background: #fef3c7;
-  color: #92400e;
-  border-bottom: 2px solid #fde68a;
+  background: var(--caution-bg);
+  color: var(--caution);
+  border-bottom: 1px solid var(--caution-border);
 }
 .cached-banner {
   background: var(--teal-tint);
@@ -170,7 +170,7 @@
   min-width: 18px;
   height: 18px;
   padding: 0 4px;
-  background: var(--primary);
+  background: var(--teal-solid);
   color: #fff;
   font-size: 0.65rem;
   font-weight: 800;
@@ -256,6 +256,6 @@
 .share-btn:hover { background: var(--surface); border-color: var(--primary-light); transform: translateY(-1px); }
 .share-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .share-btn.copied { color: var(--polite); border-color: var(--polite-border); background: var(--polite-bg); }
-.share-btn.share-x { background: #0f1419; color: #fff; border-color: #0f1419; }
-.share-btn.share-x:hover { background: #272c30; border-color: #272c30; color: #fff; }
+.share-btn.share-x { background: var(--inverse-bg); color: var(--inverse-fg); border-color: var(--inverse-bg); }
+.share-btn.share-x:hover { background: var(--inverse-bg); color: var(--inverse-fg); opacity: .88; }
 

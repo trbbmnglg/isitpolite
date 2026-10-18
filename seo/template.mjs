@@ -36,7 +36,9 @@ function head(opts) {
   <meta name="description" content="${esc(description)}" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="${esc(canonical)}" />
-  <meta name="theme-color" content="#FAF7F2" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14110F" media="(prefers-color-scheme: dark)" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="${esc(SITE_NAME)}" />

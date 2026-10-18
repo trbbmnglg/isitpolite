@@ -9,13 +9,13 @@
   /* Reserve space for scrollbar without layout shift; Firefox thin bar */
   scrollbar-gutter: stable;
   scrollbar-width: thin;
-  scrollbar-color: #D1D5DB transparent;
+  scrollbar-color: var(--field-border) transparent;
 }
 /* WebKit thin scrollbar — subtle 4 px track, indigo thumb on hover */
 .modal-box-premium::-webkit-scrollbar { width: 4px; }
 .modal-box-premium::-webkit-scrollbar-track { background: transparent; margin: 8px 0; }
-.modal-box-premium::-webkit-scrollbar-thumb { background: #E5E7EB; border-radius: 99px; }
-.modal-box-premium::-webkit-scrollbar-thumb:hover { background: #B7D9C2; }
+.modal-box-premium::-webkit-scrollbar-thumb { background: var(--line); border-radius: 99px; }
+.modal-box-premium::-webkit-scrollbar-thumb:hover { background: var(--field-border); }
 .premium-price-badge {
   display: inline-flex; align-items: baseline; gap: 6px;
   background: var(--teal-tint); border-radius: 12px; padding: 10px 18px;
@@ -30,7 +30,7 @@
   display: flex; align-items: center; gap: 6px; font-size: 14px; cursor: pointer;
 }
 .premium-email-input {
-  width: 100%; padding: 9px 12px; border: 1px solid #D1D5DB; border-radius: 8px;
+  width: 100%; padding: 9px 12px; border: 1px solid var(--field-border); border-radius: 8px;
   font-size: 14px; outline: none; transition: border-color .15s;
 }
 .premium-email-input:focus { border-color: var(--primary); }
@@ -40,11 +40,11 @@
   color: var(--muted); font-size: 12px; margin: 18px 0 12px;
 }
 .premium-divider::before, .premium-divider::after {
-  content: ''; flex: 1; height: 1px; background: #E5E7EB;
+  content: ''; flex: 1; height: 1px; background: var(--line);
 }
 .premium-code-row { display: flex; gap: 8px; }
 .premium-code-input {
-  flex: 1; padding: 9px 12px; border: 1px solid #D1D5DB; border-radius: 8px;
+  flex: 1; padding: 9px 12px; border: 1px solid var(--field-border); border-radius: 8px;
   font-size: 14px; font-family: monospace; letter-spacing: 0.05em;
   text-transform: uppercase; outline: none; transition: border-color .15s;
 }
@@ -60,7 +60,7 @@
 }
 .premium-scenario-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
 .premium-scenario-textarea {
-  width: 100%; padding: 10px 12px; border: 1px solid #D1D5DB; border-radius: 8px;
+  width: 100%; padding: 10px 12px; border: 1px solid var(--field-border); border-radius: 8px;
   font-size: 14px; resize: vertical; outline: none; transition: border-color .15s;
 }
 .premium-scenario-textarea:focus { border-color: var(--primary); }
@@ -75,7 +75,7 @@
 /* Premium CTA button appended to result cards */
 .premium-action-row {
   margin-top: 16px; padding-top: 12px;
-  border-top: 1px solid var(--border, #E5E7EB);
+  border-top: 1px solid var(--line);
   display: flex; flex-wrap: wrap; gap: 8px;
 }
 .premium-btn {
@@ -100,24 +100,24 @@
   font-weight: 700; color: var(--primary, #0F766E);
 }
 .credits-hint .hint-count--warn {
-  font-weight: 700; color: #D97706;   /* amber when ≤2 remaining */
+  font-weight: 700; color: var(--caution);   /* amber when ≤2 remaining */
 }
 .credits-hint .hint-count--paid {
-  font-weight: 700; color: #059669;   /* green for purchased balance */
+  font-weight: 700; color: var(--polite);   /* green for purchased balance */
 }
-.credits-hint .hint-sep { color: #D1D5DB; margin: 0 4px; }
+.credits-hint .hint-sep { color: var(--field-border); margin: 0 4px; }
 
 /* Gen badge inside the premium modal ready-view — keeps bordered pill style */
 .credits-badge {
   display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
   padding: 4px 10px;
-  background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 20px;
-  font-size: 12px; color: #374151;
+  background: var(--polite-bg); border: 1px solid var(--polite-border); border-radius: 20px;
+  font-size: 12px; color: var(--ink);
   width: fit-content; margin: 6px auto 0;
 }
 .credits-badge:empty { display: none; }
 .badge-free { font-weight: 600; color: var(--primary, #0F766E); }
-.badge-paid { font-weight: 600; color: #059669; }
+.badge-paid { font-weight: 600; color: var(--polite); }
 .badge-reset { color: var(--ink-faint); font-size: 12px; }
 
 /* ── Premium tier grid ─────────────────────────────────────────────────── */
@@ -135,7 +135,7 @@
   position: relative;
   display: flex; flex-direction: column; align-items: center;
   gap: 4px; padding: 14px 10px 12px;
-  border: 2px solid #E5E7EB; border-radius: 12px;
+  border: 1px solid var(--line); border-radius: 12px;
   cursor: pointer; text-align: center;
   transition: border-color .15s, box-shadow .15s;
   /* ensure ≥44px tall for touch targets */
@@ -149,24 +149,24 @@
   border-color: var(--primary, #0F766E);
   box-shadow: 0 0 0 3px rgba(15,118,110,.15);
 }
-.premium-tier-card:hover { border-color: #B7D9C2; }
-.premium-tier-card--best { border-color: #B7D9C2; background: var(--teal-tint); }
+.premium-tier-card:hover { border-color: var(--teal); }
+.premium-tier-card--best { border-color: var(--teal); background: var(--teal-tint); }
 
 .tier-best-pill {
   position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
-  background: var(--primary, #0F766E); color: #fff;
+  background: var(--teal-solid); color: #fff;
   font-size: 10px; font-weight: 700; padding: 2px 8px;
   border-radius: 20px; white-space: nowrap; letter-spacing: .03em;
 }
-.tier-label { font-weight: 700; font-size: 14px; color: #111827; }
+.tier-label { font-weight: 700; font-size: 14px; color: var(--ink); }
 .tier-price  { font-size: 22px; font-weight: 700; color: var(--primary, #0F766E); }
-.tier-credits { font-size: 11px; color: #6B7280; line-height: 1.4; }
+.tier-credits { font-size: 12px; color: var(--ink-faint); line-height: 1.4; }
 
 /* ── Premium wall message (shown when a 402 opens the modal) ──────────── */
 .premium-wall-msg {
   padding: 10px 14px; margin: 0 0 12px;
-  background: #FEF3C7; border: 1px solid #FCD34D; border-radius: 8px;
-  font-size: 13px; color: #92400E; line-height: 1.5;
+  background: var(--caution-bg); border: 1px solid var(--caution-border); border-radius: 8px;
+  font-size: 13px; color: var(--caution); line-height: 1.5;
 }
 .premium-wall-msg:empty { display: none !important; }
 
@@ -174,6 +174,6 @@
 .premium-save-notice {
   display: flex; align-items: flex-start; gap: 8px;
   padding: 10px 14px; margin: 0 0 12px;
-  background: #FEF9C3; border: 1px solid #FDE68A; border-radius: 8px;
-  font-size: 13px; color: #713F12; font-weight: 600; line-height: 1.5;
+  background: var(--caution-bg); border: 1px solid var(--caution-border); border-radius: 8px;
+  font-size: 13px; color: var(--caution); font-weight: 600; line-height: 1.5;
 }

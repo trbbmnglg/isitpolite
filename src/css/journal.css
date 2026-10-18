@@ -20,7 +20,7 @@ a { color: var(--teal); }
   border-bottom: 1px solid var(--line);
 }
 .header-inner { flex-wrap: nowrap; gap: 1rem; padding: 0 1.25rem; min-height: var(--header-h); }
-.logo-badge { width: 32px; height: 32px; border-radius: 8px; background: var(--teal); box-shadow: none; }
+.logo-badge { width: 32px; height: 32px; border-radius: 8px; background: var(--teal-solid); box-shadow: none; }
 .logo-globe { color: #fff; }
 .logo:hover .logo-globe { transform: none; }
 .logo-text { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); }
@@ -33,7 +33,7 @@ a { color: var(--teal); }
 .nav-tab svg { width: 18px; height: 18px; }
 .nav-tab:hover { color: var(--teal-dark); background: var(--teal-tint); }
 .nav-tab.nav-active, .nav-tab.nav-active:hover { color: var(--teal-dark); background: var(--teal-tint); box-shadow: none; font-weight: 600; }
-.history-badge, .nav-active .history-badge { background: var(--teal); color: #fff; }
+.history-badge, .nav-active .history-badge { background: var(--teal-solid); color: #fff; }
 
 /* Support: a quiet text link, not a pill */
 .btn-donate {
@@ -73,7 +73,7 @@ a { color: var(--teal); }
 .hero::after, .hero-blobs { display: none; }
 .hero-title, .hero-sub, .hero-badge, .form-card { animation: none; }
 .hero-title { font-size: clamp(2rem, 6vw, 3rem); font-weight: 600; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
-.hero-gradient { background: none; -webkit-text-fill-color: currentColor; color: var(--terracotta); animation: none; }
+.hero-gradient { background: none; -webkit-text-fill-color: currentColor; color: var(--terracotta-text); animation: none; }
 .hero-sub { font-size: 1rem; line-height: 1.6; color: var(--ink-muted); }
 @media (min-width: 768px) { .hero { padding: 2.5rem 1.25rem 1.25rem; } .form-card { padding: 1.75rem; } }
 @media (max-width: 767px) { .field-hint { display: none; } }
@@ -131,7 +131,6 @@ input.field-error, select.field-error { border-color: var(--rude); box-shadow: 0
 .retry-btn:hover { transform: none; }
 .acc-btn, .share-btn { border: 1px solid var(--field-border); border-radius: 8px; min-height: 40px; box-shadow: none; }
 .acc-btn:hover, .share-btn:hover { transform: none; }
-.share-btn.share-x { background: var(--ink); border-color: var(--ink); }
 .chip-enter { animation: none; }
 .example-chip { border: 1px solid var(--line); box-shadow: none; min-height: 40px; }
 .example-chip:hover { background: var(--teal-tint); border-color: var(--teal); transform: none; box-shadow: none; }
@@ -179,3 +178,11 @@ input.field-error, select.field-error { border-color: var(--rude); box-shadow: 0
 .seo-rel-link { border: 1px solid var(--line); }
 .seo-rel-link:hover { transform: none; background: var(--teal-tint); border-color: var(--teal); color: var(--teal-dark); }
 .seo-source-list a { color: var(--teal-dark); }
+
+/* ── Dark mode: only what tokens can't express ───────────────────────── */
+@media (prefers-color-scheme: dark) {
+  select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235EC4B8' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); }
+  .modal-overlay { background: rgba(0,0,0,0.65); }
+  .btn-cta:disabled { background: #4A433D; color: #A89F94; }
+  ::selection { background: #1F5F59; color: #fff; }
+}

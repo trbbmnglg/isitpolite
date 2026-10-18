@@ -116,7 +116,7 @@
   transform: translateX(-50%);
   width: 28px;
   height: 28px;
-  background: var(--primary);
+  background: var(--teal-solid);
   color: #fff;
   font-size: 0.78rem;
   font-weight: 800;
