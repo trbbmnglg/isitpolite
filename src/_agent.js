@@ -3,6 +3,7 @@
 import { StateGraph, START, END, Annotation } from '@langchain/langgraph';
 import { ChatOpenAI } from '@langchain/openai';
 import { CONTEXT_LABELS } from './_countries.js';
+import { briefMode } from './_brief.js';
 
 function getModel(env, maxTokens) {
   return new ChatOpenAI({
@@ -42,11 +43,11 @@ async function tavilySearch(env, query) {
   }
 }
 
-function sourcesBlock(sources) {
+function sourcesBlock(sources, count, chars) {
   if (!sources || !sources.length) return '';
-  return sources.slice(0, 4)
+  return sources.slice(0, count || 4)
     .map(function (s, i) { return '[' + (i + 1) + '] ' + s.title + ': ' + s.content; })
-    .join('\n').slice(0, 2800);
+    .join('\n').slice(0, chars || 2800);
 }
 
 // ── Report adjudication graph: screen → corroborate → decide ─────────────
@@ -209,6 +210,7 @@ export const LOOKUP_MODES = {
     },
     valid: function (d) { return d && Array.isArray(d.differences) && d.differences.length >= 1; },
   },
+  brief: briefMode(ground),
 };
 
 const LookupState = Annotation.Root({
@@ -226,12 +228,22 @@ export async function runLookupAgent(env, mode, params) {
   const model = getModel(env, cfg.tokens);
 
   async function retrieve(state) {
-    const sources = await tavilySearch(env, cfg.query(params));
+    const q = cfg.query(params);
+    const results = await Promise.all((Array.isArray(q) ? q : [q]).map(function (s) { return tavilySearch(env, s); }));
+    // Interleave results so every query keeps sources inside the prompt's cap.
+    const seen = new Set(), sources = [];
+    const longest = Math.max.apply(null, results.map(function (l) { return l.length; }).concat(0));
+    for (let i = 0; i < longest; i++) {
+      results.forEach(function (list) {
+        const s = list[i];
+        if (s && s.url && !seen.has(s.url)) { seen.add(s.url); sources.push(s); }
+      });
+    }
     return { sources: sources, attempts: 0 };
   }
   async function generate(state) {
     let draft = null;
-    try { draft = await jsonLLM(model, cfg.system, cfg.prompt(params, sourcesBlock(state.sources))); }
+    try { draft = await jsonLLM(model, cfg.system, cfg.prompt(params, sourcesBlock(state.sources, cfg.sourceCount, cfg.sourceChars))); }
     catch (_) { draft = null; }
     return { draft: draft, attempts: (state.attempts || 0) + 1 };
   }
@@ -255,7 +267,7 @@ export async function runLookupAgent(env, mode, params) {
   // After the final reflection an invalid draft must not reach the client as a
   // 200 — throwing lets the caller refund the credit and return its 502.
   if (!res.draft || !cfg.valid(res.draft)) throw new Error('parse_failed');
-  return res.draft;
+  return cfg.finalize ? cfg.finalize(res.draft, params, res.sources || []) : res.draft;
 }
 
 // ── Feedback sanitizer (LangChain single call) ───────────────────────────

@@ -48,6 +48,10 @@ export async function onRequestPost(context) {
     to:        String(body.to        || '').slice(0, 80),
     countries: Array.isArray(body.countries) ? body.countries.slice(0, 3).map(function (c) { return String(c).slice(0, 80); }) : [],
     home:      isCountry(body.home) ? body.home : '',
+    contexts:  Array.isArray(body.contexts)
+      ? body.contexts.filter(function (c, i, a) { return Object.prototype.hasOwnProperty.call(CONTEXT_LABELS, c) && a.indexOf(c) === i; }).slice(0, 6)
+      : [],
+    month:     (function (m) { return m >= 1 && m <= 12 ? m : 0; })(parseInt(body.month, 10)),
   };
   if (params.home && params.home === params.country) params.home = '';
 
@@ -55,6 +59,9 @@ export async function onRequestPost(context) {
   // malformed — and rejecting it keeps free text out of the prompt.
   const named = [params.country, params.from, params.to].concat(params.countries).filter(Boolean);
   if (!named.every(isCountry)) return json({ error: 'Invalid request.' }, 400);
+  if (mode === 'brief' && (!params.from || !params.to || params.from === params.to)) {
+    return json({ error: 'Pick two different countries for your briefing.' }, 400);
+  }
 
   // ── 4. Credit gate ────────────────────────────────────────────────────────
   var charged;  // { kind: 'free' } | { kind: 'paid', code }

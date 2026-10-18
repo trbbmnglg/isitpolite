@@ -72,7 +72,7 @@ const CHECK = { mode: 'check', gesture: 'Thumbs up', country: 'Japan', context: 
 // ── Pure counting rule ─────────────────────────────────────────────────────
 test('shouldCountLookup: only 2xx answers for a known mode on the production host', () => {
   assert.equal(shouldCountLookup('https://isitpolite.com/api/lookup', 200, 'check'), true);
-  for (const m of ['compare', 'trip', 'guide', 'quiz']) {
+  for (const m of ['compare', 'trip', 'guide', 'quiz', 'brief']) {
     assert.equal(shouldCountLookup('https://isitpolite.com/api/lookup', 200, m), true, m);
   }
   for (const status of [400, 402, 403, 405, 429, 500, 502]) {
@@ -168,7 +168,7 @@ test('getUsageStats zero-fills every mode and returns since=null when empty', as
   const stats = await getUsageStats({ DB: fakeDB() });
   assert.deepEqual(stats, {
     total: 0, last30Days: 0, since: null,
-    byMode: { check: 0, compare: 0, trip: 0, guide: 0, quiz: 0 },
+    byMode: { check: 0, compare: 0, trip: 0, guide: 0, quiz: 0, brief: 0 },
   });
 });
 
@@ -184,6 +184,6 @@ test('GET /api/stats aggregates totals and sends public cache + CORS headers', a
   assert.equal(res.headers.get('Access-Control-Allow-Origin'), '*');
   assert.deepEqual(await res.json(), {
     total: 9, last30Days: 9, since: '2026-10-18',
-    byMode: { check: 7, compare: 0, trip: 0, guide: 0, quiz: 2 },
+    byMode: { check: 7, compare: 0, trip: 0, guide: 0, quiz: 2, brief: 0 },
   });
 });

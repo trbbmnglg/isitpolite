@@ -53,6 +53,11 @@ export const CONTEXT_LABELS = {
   family: "Meeting family",
 };
 
+export const MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
 const COUNTRY_SET = new Set(COUNTRIES);
 
 export function isCountry(name) {

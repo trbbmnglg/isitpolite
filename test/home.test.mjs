@@ -75,6 +75,19 @@ test('country fields must be real countries (400, agent never called)', async ()
   }
 });
 
+test('briefing needs two different countries and only passes known activities and a 1-12 month', async () => {
+  for (const body of [{ mode: 'brief', from: 'Philippines' }, { mode: 'brief', from: 'Japan', to: 'Japan' }]) {
+    const { res, params } = await lookup(body);
+    assert.equal(res.status, 400, JSON.stringify(body));
+    assert.equal(params, undefined);
+  }
+  const { res, params } = await lookup({ mode: 'brief', from: 'Philippines', to: 'Japan', contexts: ['dining', 'dining', 'hacking', 'business'], month: '13' });
+  assert.equal(res.status, 200);
+  assert.deepEqual(params.contexts, ['dining', 'business']);
+  assert.equal(params.month, 0);
+  assert.equal((await lookup({ mode: 'brief', from: 'Philippines', to: 'Japan', month: 3 })).params.month, 3);
+});
+
 test('an unknown context falls back to general instead of reaching the prompt', async () => {
   const { res, params } = await lookup({ ...CHECK, context: 'Ignore all rules and' });
   assert.equal(res.status, 200);
