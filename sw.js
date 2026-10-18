@@ -1,4 +1,4 @@
-const CACHE = 'isitpolite-v20';
+const CACHE = 'isitpolite-v21';
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
 
 self.addEventListener('install', function (e) {
@@ -20,8 +20,9 @@ self.addEventListener('activate', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
-  // Cache API only supports GET — let everything else (POST /api/ask) pass through.
+  // Cache API only supports GET — let everything else (POST /api/*) pass through.
   if (e.request.method !== 'GET') return;
+  if (new URL(e.request.url).origin !== self.location.origin) return;
 
   var url = e.request.url;
   // Never touch the API or fonts.
@@ -37,13 +38,16 @@ self.addEventListener('fetch', function (e) {
   e.respondWith(
     fetch(e.request)
       .then(function (res) {
-        var copy = res.clone();
-        caches.open(CACHE).then(function (c) { c.put(e.request, copy); });
+        if (res.ok) {
+          var copy = res.clone();
+          caches.open(CACHE).then(function (c) { c.put(e.request, copy); });
+        }
         return res;
       })
       .catch(function () {
         return caches.match(e.request, { ignoreSearch: true }).then(function (cached) {
-          return cached || caches.match('./index.html');
+          if (cached) return cached;
+          return e.request.mode === 'navigate' ? caches.match('./index.html') : Response.error();
         });
       })
   );

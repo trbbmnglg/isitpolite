@@ -2,7 +2,7 @@
   // CHECK — FEATURE 1 CORE
   // ═══════════════════════════════════════════════════════════════════════
   async function handleSubmit() {
-    if (!localStorage.getItem(PRIVACY_KEY)) { privacyModal.classList.remove('hidden'); return; }
+    if (!requireConsent(handleSubmit)) return;
 
     var gesture = gestureInput.value.trim();
     var country = countrySelect.value;
@@ -13,7 +13,7 @@
     var hasErr = false;
     if (!gesture) { gestureInput.classList.add('field-error'); hasErr = true; }
     if (!country) { countrySelect.classList.add('field-error'); hasErr = true; }
-    if (hasErr) { if (!gesture) gestureInput.focus(); else countrySelect.focus(); return; }
+    if (hasErr) { if (!gesture) gestureInput.focus(); else focusField(countrySelect); return; }
 
     var piiMsg = piiMessage(gesture);
     if (piiMsg) { flashFieldMsg(gestureInput, piiMsg); gestureInput.focus(); return; }
@@ -22,7 +22,7 @@
     var cached = getCachedResult(gesture, country, context);
     if (cached) {
       hideCachedBanner();
-      renderResult(cached.data, gesture, country, context, true, cached.timestamp);
+      renderResult(cached.data, gesture, country, context, true, cached.ts);
       updateShareURL(gesture, country, context);
       return;
     }
@@ -105,10 +105,11 @@
   function loadFromURLParams() {
     var params = new URLSearchParams(window.location.search);
     var g = params.get('g'), c = params.get('c'), ctx = params.get('ctx');
+    // Country hubs link with just ?c= — preselect it and let the visitor type.
+    if (c && COUNTRIES.indexOf(c) !== -1) countrySelect.value = c;
+    if (ctx && CONTEXT_LABELS[ctx]) contextSelect.value = ctx;
     if (g && c) {
       gestureInput.value = g;
-      countrySelect.value = c;
-      if (ctx && CONTEXT_LABELS[ctx]) contextSelect.value = ctx;
       setTimeout(handleSubmit, 300);
     }
   }

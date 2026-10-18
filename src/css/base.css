@@ -19,6 +19,7 @@
   /* Text */
   --text:            #1E1B4B;
   --text-muted:      #6B7280;
+  --muted:           var(--text-muted);
   --text-light:      #9CA3AF;
 
   /* Verdicts */
@@ -106,10 +107,13 @@ img, svg { display: block; }
   justify-content: center;
   z-index: 9000;
   padding: 1.25rem;
+  overflow-y: auto;
 }
 .modal-overlay.hidden { display: none; }
 
 .modal-box {
+  position: relative;
+  margin: auto;
   background: var(--surface);
   border: var(--clay-border);
   border-radius: var(--clay-radius);

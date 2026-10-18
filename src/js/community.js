@@ -90,7 +90,12 @@
   function sendReport(payload, wrap, vkey, msgEl, btn) {
     if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
     fetch('/api/report', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
-      .then(function (r) { return r.json(); })
+      .then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (d) {
+          if (!r.ok) throw new Error((d && d.error) || 'Could not submit. Please try again.');
+          return d;
+        });
+      })
       .then(function (d) {
         markVoted(vkey);
         if (d && typeof d.accuracy !== 'undefined') paintAccChip(wrap, d);
@@ -98,9 +103,11 @@
         var actions = wrap.querySelector('.acc-actions');
         if (actions) { actions.style.display = ''; actions.innerHTML = '<span class="acc-voted">✓ Thanks — your input was recorded</span>'; }
       })
-      .catch(function () {
-        if (msgEl) msgEl.textContent = 'Could not submit. Please try again.';
-        if (btn) { btn.disabled = false; btn.textContent = 'Submit report'; }
+      .catch(function (e) {
+        var text = (e && e.message) || 'Could not submit. Please try again.';
+        if (msgEl) msgEl.textContent = text;
+        else if (btn) btn.title = text;
+        if (btn) { btn.disabled = false; btn.textContent = msgEl ? 'Submit report' : 'Accurate'; }
       });
   }
 
@@ -206,13 +213,18 @@
     if (fPii) { resEl.style.color = 'var(--rude)'; resEl.textContent = fPii; return; }
     btn.disabled = true; btn.textContent = 'Sending…';
     fetch('/api/feedback', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: msg }) })
-      .then(function (r) { return r.json(); })
+      .then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (d) {
+          if (!r.ok) throw new Error((d && d.error) || 'Could not send. Please try again.');
+        });
+      })
       .then(function () {
+        resEl.style.color = '';
         resEl.innerHTML = '<span class="acc-voted">✓ Thank you! Your feedback was received.</span>';
         t.value = '';
         setTimeout(closeFeedback, 1600);
       })
-      .catch(function () { resEl.textContent = 'Could not send. Please try again.'; })
+      .catch(function (e) { resEl.style.color = 'var(--rude)'; resEl.textContent = (e && e.message) || 'Could not send. Please try again.'; })
       .finally(function () { btn.disabled = false; btn.textContent = 'Send feedback'; });
   }
 

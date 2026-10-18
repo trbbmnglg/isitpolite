@@ -2,7 +2,7 @@
   // FEATURE 5: QUIZ MODE
   // ═══════════════════════════════════════════════════════════════════════
   async function handleQuizStart() {
-    if (!localStorage.getItem(PRIVACY_KEY)) { privacyModal.classList.remove('hidden'); return; }
+    if (!requireConsent(handleQuizStart)) return;
 
     var country = quizCountryEl.value;
     if (!country) { quizCountryEl.classList.add('field-error'); quizCountryEl.focus(); return; }

@@ -13,6 +13,14 @@
     Array.prototype.forEach.call(document.querySelectorAll('select'), enhanceSelect);
   }
 
+  // Focus the visible control for a field: the custom combobox trigger when a
+  // <select> has been enhanced (the native one is hidden + aria-hidden).
+  function focusField(el) {
+    if (!el) return;
+    var trigger = el.id ? document.getElementById(el.id + '-cbx') : null;
+    (trigger || el).focus();
+  }
+
   function enhanceSelect(select) {
     if (select.dataset.cbx) return;
     select.dataset.cbx = '1';
@@ -59,7 +67,7 @@
     trigger.setAttribute('aria-haspopup', 'listbox');
     trigger.setAttribute('aria-expanded', 'false');
     trigger.setAttribute('aria-controls', panelId);
-    if (!searchable) trigger.setAttribute('role', 'combobox');
+    trigger.setAttribute('role', searchable ? 'button' : 'combobox');
     if (labelId) trigger.setAttribute('aria-labelledby', labelId);
     else if (select.getAttribute('aria-label')) trigger.setAttribute('aria-label', select.getAttribute('aria-label'));
     trigger.innerHTML = '<span class="cbx-value"></span>' + CHEVRON;

@@ -2,7 +2,7 @@
   // FEATURE: COMPARE COUNTRIES
   // ═══════════════════════════════════════════════════════════════════════
   async function handleCompare() {
-    if (!localStorage.getItem(PRIVACY_KEY)) { privacyModal.classList.remove('hidden'); return; }
+    if (!requireConsent(handleCompare)) return;
 
     var gesture = compareGestureEl.value.trim();
     var countries = [compareC1.value, compareC2.value, compareC3.value]
@@ -84,7 +84,7 @@
   // FEATURE: TRIP CULTURE SHIFT (from → to)
   // ═══════════════════════════════════════════════════════════════════════
   async function handleTrip() {
-    if (!localStorage.getItem(PRIVACY_KEY)) { privacyModal.classList.remove('hidden'); return; }
+    if (!requireConsent(handleTrip)) return;
 
     var from = tripFromEl.value, to = tripToEl.value;
     tripFromEl.classList.remove('field-error');
@@ -162,11 +162,12 @@
       var raw = localStorage.getItem(key);
       if (!raw) return null;
       var entry = JSON.parse(raw);
-      if (Date.now() - entry.ts > CACHE_TTL) { localStorage.removeItem(key); return null; }
+      if (!entry || !entry.data || Date.now() - entry.ts > CACHE_TTL) { localStorage.removeItem(key); return null; }
       return entry.data;
     } catch (_) { return null; }
   }
   function writeTtlCache(key, data) {
+    if (!data) return;
     try { localStorage.setItem(key, JSON.stringify({ data: data, ts: Date.now() })); } catch (_) {}
   }
 

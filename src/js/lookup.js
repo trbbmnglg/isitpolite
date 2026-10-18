@@ -4,22 +4,25 @@
 
   function addPremiumButton(container, label, kind, params) {
     if (!container) return;
-    var existing = container.querySelector('.premium-action-row');
-    if (existing) existing.remove();
-
-    var row = document.createElement('div');
-    row.className = 'premium-action-row';
+    var row = container.querySelector(':scope > .premium-action-row');
+    if (!row) {
+      row = document.createElement('div');
+      row.className = 'premium-action-row';
+      container.appendChild(row);
+    }
+    var dup = Array.prototype.find.call(row.querySelectorAll('.premium-btn'), function (b) { return b.dataset.kind === kind; });
+    if (dup) dup.remove();
 
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'premium-btn';
+    btn.dataset.kind = kind;
     btn.innerHTML = PREMIUM_ICON + ' ' + label;
     btn.addEventListener('click', function () {
       openPremiumModal(kind, params, false);
     });
 
     row.appendChild(btn);
-    container.appendChild(row);
   }
 
   // ═══════════════════════════════════════════════════════════════════════
@@ -44,10 +47,13 @@
     try { data = await res.json(); } catch (_) {}
 
     if (!res.ok) {
-      // 402 daily_exhausted / no credits → open buy modal with the server message.
+      // 402 daily_exhausted / no credits → open buy modal with the server message,
+      // then throw so no caller ever caches or renders a non-result.
       if (res.status === 402 && data && data.upsell) {
         openPremiumModal(null, null, true, data.error);
-        return null;
+        var upsellErr = new Error(data.error || 'You have used your free checks for today.');
+        upsellErr.upsell = true;
+        throw upsellErr;
       }
       // 429 — surface the server error text (do not swallow it with a hardcoded string).
       if (res.status === 429) throw new Error((data && data.error) || 'Rate limit reached. Please wait a moment and try again.');

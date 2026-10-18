@@ -68,11 +68,18 @@
     Array.prototype.forEach.call(document.querySelectorAll('.js-donate-open'), function (b) { b.addEventListener('click', openDonate); });
     var dClose = document.getElementById('donate-close');
     if (dClose) dClose.addEventListener('click', closeDonate);
-    // Static SEO/legal pages link their Support button here as /?support=1
-    // (they have no modal of their own) — open it on arrival.
-    try { if (new URLSearchParams(location.search).has('support')) openDonate(); } catch (_) {}
-    var gq = document.getElementById('gcash-qr');
-    if (gq) gq.addEventListener('error', function () { var g = document.getElementById('donate-gcash'); if (g) g.style.display = 'none'; });
+    // Static SEO/legal pages link here as /?support=1 or /?feedback=1 (they
+    // have no modals of their own) — open the modal, then drop the param.
+    try {
+      var qp = new URLSearchParams(location.search);
+      var openOnArrival = qp.has('support') ? openDonate : qp.has('feedback') ? openFeedback : null;
+      if (openOnArrival) {
+        qp.delete('support'); qp.delete('feedback');
+        var qs = qp.toString();
+        history.replaceState({}, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+        openOnArrival();
+      }
+    } catch (_) {}
 
     // FAQ: single-open accordion — opening one closes the others.
     var faqItems = document.querySelectorAll('.faq-item');
@@ -133,10 +140,22 @@
   function checkPrivacyModal() {
     if (!localStorage.getItem(PRIVACY_KEY)) privacyModal.classList.remove('hidden');
   }
+  var _pendingConsentAction = null;
   function acceptPrivacy() {
     localStorage.setItem(PRIVACY_KEY, '1');
     privacyModal.classList.add('hidden');
-    gestureInput.focus();
+    var pending = _pendingConsentAction;
+    _pendingConsentAction = null;
+    if (pending) pending(); else gestureInput.focus();
+  }
+  // Gate any data-submitting action on consent. Returns true if the caller
+  // should proceed now; if consent hasn't been given, shows the modal and
+  // re-runs `action` automatically once the visitor accepts.
+  function requireConsent(action) {
+    if (localStorage.getItem(PRIVACY_KEY)) return true;
+    _pendingConsentAction = action || null;
+    privacyModal.classList.remove('hidden');
+    return false;
   }
 
   // ═══════════════════════════════════════════════════════════════════════

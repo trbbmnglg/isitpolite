@@ -243,6 +243,7 @@
       genBtn.addEventListener('click', function () {
         if (!_pendingPremium) return;
         hidePremiumError('premium-gen-error');
+        document.getElementById('premium-gen-error').style.color = '';
 
         var rdyEmail = document.getElementById('rdy-email-radio');
         var delivery = (rdyEmail && rdyEmail.checked) ? 'email' : 'download';
@@ -275,7 +276,7 @@
               showPremiumError('premium-gen-error', '✓ Sent! Check your inbox.');
               document.getElementById('premium-gen-error').classList.remove('hidden');
               document.getElementById('premium-gen-error').style.color = 'var(--polite)';
-            } else {
+            } else if (result && result.downloaded) {
               premModal.classList.add('hidden');
             }
           })

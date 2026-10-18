@@ -127,13 +127,30 @@
       var raw = localStorage.getItem(cacheKey(g, c, ctx));
       if (!raw) return null;
       var entry = JSON.parse(raw);
-      if (Date.now() - entry.ts > CACHE_TTL) { localStorage.removeItem(cacheKey(g, c, ctx)); return null; }
+      // Expired, or a bad entry (e.g. a null result cached by an older build) → drop it.
+      if (!entry || !entry.data || Date.now() - entry.ts > CACHE_TTL) { localStorage.removeItem(cacheKey(g, c, ctx)); return null; }
       return entry;
     } catch (_) { return null; }
   }
 
   function setCachedResult(g, c, ctx, data) {
+    if (!data) return;
     try { localStorage.setItem(cacheKey(g, c, ctx), JSON.stringify({ data: data, ts: Date.now() })); } catch (_) {}
+  }
+
+  // Opportunistic cleanup of expired lookup caches so localStorage never fills up.
+  var CACHE_PREFIXES = ['cache_', 'cmp_', 'trip_', GUIDE_CACHE_KEY];
+  function pruneExpiredCaches() {
+    try {
+      var now = Date.now();
+      for (var i = localStorage.length - 1; i >= 0; i--) {
+        var k = localStorage.key(i);
+        if (!k || !CACHE_PREFIXES.some(function (p) { return k.indexOf(p) === 0; })) continue;
+        var entry = null;
+        try { entry = JSON.parse(localStorage.getItem(k)); } catch (_) {}
+        if (!entry || !entry.data || now - entry.ts > CACHE_TTL) localStorage.removeItem(k);
+      }
+    } catch (_) {}
   }
 
   function hideCachedBanner() { cachedBanner.classList.add('hidden'); }

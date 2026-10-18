@@ -30,7 +30,7 @@
       var errData = null;
       try { errData = await res.json(); } catch (_) {}
       openPremiumModal(kind, params, true, (errData && errData.error) || null);
-      return null;
+      return { upsell: true };
     }
 
     if (!res.ok) {
@@ -57,7 +57,7 @@
     a.click();
     setTimeout(function () { URL.revokeObjectURL(a.href); document.body.removeChild(a); }, 2000);
     refreshAllBadges();
-    return null;
+    return { downloaded: true };
   }
 
   // Refresh the credits text in the modal from /api/credits (legacy, kept for compat).

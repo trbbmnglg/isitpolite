@@ -2,7 +2,7 @@
   // FEATURE 2: COUNTRY GUIDE
   // ═══════════════════════════════════════════════════════════════════════
   async function handleGuideGenerate() {
-    if (!localStorage.getItem(PRIVACY_KEY)) { privacyModal.classList.remove('hidden'); return; }
+    if (!requireConsent(handleGuideGenerate)) return;
 
     var country = guideCountryEl.value;
     if (!country) { guideCountryEl.classList.add('field-error'); guideCountryEl.focus(); return; }
@@ -17,7 +17,7 @@
       var raw = localStorage.getItem(ckey);
       if (raw) {
         var cached = JSON.parse(raw);
-        if (Date.now() - cached.ts < CACHE_TTL) { renderGuide(cached.data, true, country); return; }
+        if (cached && cached.data && Date.now() - cached.ts < CACHE_TTL) { renderGuide(cached.data, true, country); return; }
         localStorage.removeItem(ckey);
       }
     } catch (_) {}
