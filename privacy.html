@@ -31,7 +31,7 @@
     <div class="seo-hero">
       <p class="seo-kicker">Privacy-first by design</p>
       <h1>Privacy Notice</h1>
-      <p class="seo-hero-sub">IsItPolite.com is built to collect <strong>no personal data</strong>. This notice explains exactly what that means, in plain language. Last updated: 28 June 2026.</p>
+      <p class="seo-hero-sub">IsItPolite.com is built to collect <strong>no personal data</strong>. This notice explains exactly what that means, in plain language. Last updated: 18 October 2026.</p>
     </div>
 
     <div class="privacy-badge" style="margin-bottom:1.5rem">
@@ -44,6 +44,7 @@
       <ul>
         <li>No accounts, no sign-ups, no names, no email addresses.</li>
         <li>No tracking cookies, no advertising trackers, no analytics profiling.</li>
+        <li>Our host, <strong>Cloudflare</strong>, runs cookieless, aggregate page-view analytics and automated bot protection on every page. See "Cloudflare (hosting)" below.</li>
         <li>We don't store your IP address. For abuse prevention it's briefly processed to compute a short-lived, irreversible rate-limit token (auto-deleted within minutes) — never linked to you or your lookups.</li>
         <li>Your lookups, history, and cached results stay <strong>on your device</strong> (browser localStorage) — they are never sent to us.</li>
         <li>When you report, confirm, or send feedback, we store only an <strong>anonymous, AI-sanitized summary</strong> — never your identity.</li>
@@ -77,6 +78,7 @@
         <li>Aggregate counts — how many people confirmed or corroborated-disputed a verdict.</li>
         <li>An AI-sanitized, personal-data-free summary of an accepted report or feedback message.</li>
         <li>A coarse, day-level date (no precise timestamps).</li>
+        <li>Aggregate daily counts of answered checks by mode (for example, "42 Check answers on 18 Oct 2026") — no identifiers of any kind.</li>
         <li>A short-lived, salted rate-limit token (an irreversible hash — not your IP) used for both burst abuse prevention and free daily usage counting; auto-deletes within days.</li>
         <li>For premium purchases: a random unlock code, two credit counters (search and generation), opaque PayPal capture ID, and coarse day (see "Premium payments" above).</li>
       </ul>
@@ -95,6 +97,12 @@
           </tr>
         </thead>
         <tbody>
+          <tr style="border-bottom:1px solid var(--border,#E5E7EB)">
+            <td style="padding:8px 10px">Cloudflare (hosting)</td>
+            <td style="padding:8px 10px">Serving the site, cookieless aggregate page-view analytics (Web Analytics), and bot/abuse protection</td>
+            <td style="padding:8px 10px">Standard request data every website receives (IP address, browser user-agent, page URL, referrer, load timings). Bot protection may set a strictly-necessary security cookie</td>
+            <td style="padding:8px 10px">Processed by Cloudflare under its privacy policy; we only see aggregate counts and never receive or store your IP</td>
+          </tr>
           <tr style="border-bottom:1px solid var(--border,#E5E7EB)">
             <td style="padding:8px 10px">AI provider (free lookups)</td>
             <td style="padding:8px 10px">Etiquette answer generation</td>
@@ -158,7 +166,7 @@
 
     <section class="legal-section">
       <h2>Changes &amp; contact</h2>
-      <p>If this notice changes, the "last updated" date above will change with it. Questions or privacy requests? Use the <a href="/#" onclick="return false;">in-app feedback form</a> (linked from the site footer) — it's anonymous, so please don't include personal details.</p>
+      <p>If this notice changes, the "last updated" date above will change with it. Questions or privacy requests? Use the <a href="/?feedback=1">in-app feedback form</a> (linked from the site footer) — it's anonymous, so please don't include personal details.</p>
     </section>
 
     <p class="seo-hub-link"><a href="/">← Back to IsItPolite</a></p>
