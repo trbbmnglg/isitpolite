@@ -187,34 +187,13 @@
 /* PII guard inline warning */
 .pii-msg { font-size: 0.78rem; color: var(--rude); margin-top: 0.35rem; line-height: 1.45; }
 
-/* Donate modal (PayPal + GCash QR) */
-.donate-gcash { margin-top: 1.25rem; }
-.donate-divider {
-  display: flex; align-items: center; gap: 0.6rem;
-  color: var(--text-light); font-size: 0.78rem; font-weight: 600;
-  margin-bottom: 0.9rem;
-}
-.donate-divider::before, .donate-divider::after {
-  content: ''; flex: 1; height: 1.5px; background: var(--border);
-}
-.gcash-qr {
-  width: 200px; height: 200px; max-width: 80%;
-  border: 3px solid var(--border); border-radius: var(--clay-radius-sm);
-  background: #fff; padding: 8px; box-shadow: var(--clay-shadow-sm);
-}
-.donate-fine { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.7rem; line-height: 1.5; }
-.donate-fine strong { color: var(--text); }
-
-/* Donate modal buttons (Ko-fi / PayPal) + centered QR + post-check nudge */
+/* Donate modal buttons (Ko-fi / PayPal) + post-check nudge */
 .donate-btns { display: flex; flex-direction: column; gap: 0.6rem; }
 .donate-btns .btn-cta { width: 100%; margin: 0; display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem; }
 .btn-cta.btn-kofi { background: #FF5E5B; }
 .btn-cta.btn-kofi:hover { background: #e54e4b; }
 .btn-cta.btn-paypal { background: #0070BA; }
 .btn-cta.btn-paypal:hover { background: #005c99; }
-
-.donate-gcash { text-align: center; }
-.gcash-qr { display: block; margin: 0 auto; }
 
 .donate-nudge {
   display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; flex-wrap: wrap;
@@ -257,6 +236,13 @@
 .explore-all:hover { text-decoration: underline; }
 
 /* Pair-page FAQ (static, native <details>) */
+.seo-sources { margin-top: 1.5rem; }
+.seo-sources-sub { font-size: 0.9rem; font-weight: 700; color: var(--text); margin: 1rem 0 0.4rem; }
+.seo-source-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.45rem; }
+.seo-source-list li { font-size: 0.9rem; line-height: 1.45; overflow-wrap: anywhere; }
+.seo-source-list a { color: var(--primary); font-weight: 600; }
+.seo-source-host { color: var(--text-muted); font-size: 0.8rem; }
+.seo-reviewed { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.75rem; }
 .seo-faq { margin-top: 2rem; }
 .seo-faq .faq-item { margin-bottom: 0.6rem; }
 
