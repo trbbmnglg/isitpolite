@@ -8,59 +8,25 @@
   var PACKS_KEY   = 'isitpolite_packs';      // index of saved offline country packs
   var PACK_PREFIX = 'pack_';                 // pack_[country] → guide data, no expiry
   var UNLOCK_KEY  = 'isitpolite_unlock';     // premium unlock code (localStorage)
+  var HOME_KEY    = 'isitpolite_home';       // traveler's home country, device-only
+
+  function getHome() {
+    try { var h = localStorage.getItem(HOME_KEY) || ''; return COUNTRIES.indexOf(h) !== -1 ? h : ''; } catch (_) { return ''; }
+  }
+  function setHome(country) {
+    try {
+      if (country && COUNTRIES.indexOf(country) !== -1) localStorage.setItem(HOME_KEY, country);
+      else localStorage.removeItem(HOME_KEY);
+    } catch (_) {}
+  }
 
   // ── Premium helpers ────────────────────────────────────────────────────
   function getUnlockCode() { try { return localStorage.getItem(UNLOCK_KEY) || ''; } catch (_) { return ''; } }
   function setUnlockCode(code) { try { if (code) localStorage.setItem(UNLOCK_KEY, code); else localStorage.removeItem(UNLOCK_KEY); } catch (_) {} }
 
-  // ── Country List ───────────────────────────────────────────────────────
-  var COUNTRIES = [
-    'Afghanistan','Albania','Algeria','Andorra','Angola',
-    'Antigua and Barbuda','Argentina','Armenia','Australia','Austria',
-    'Azerbaijan','Bahamas','Bahrain','Bangladesh','Barbados',
-    'Belarus','Belgium','Belize','Benin','Bhutan',
-    'Bolivia','Bosnia and Herzegovina','Botswana','Brazil','Brunei',
-    'Bulgaria','Burkina Faso','Burundi','Cabo Verde','Cambodia',
-    'Cameroon','Canada','Central African Republic','Chad','Chile',
-    'China','Colombia','Comoros','Congo (Democratic Republic)','Congo (Republic)',
-    'Costa Rica','Croatia','Cuba','Cyprus','Czech Republic',
-    'Denmark','Djibouti','Dominica','Dominican Republic','Ecuador',
-    'Egypt','El Salvador','Equatorial Guinea','Eritrea','Estonia',
-    'Eswatini','Ethiopia','Fiji','Finland','France',
-    'Gabon','Gambia','Georgia','Germany','Ghana',
-    'Greece','Grenada','Guatemala','Guinea','Guinea-Bissau',
-    'Guyana','Haiti','Honduras','Hungary','Iceland',
-    'India','Indonesia','Iran','Iraq','Ireland',
-    'Israel','Italy','Jamaica','Japan','Jordan',
-    'Kazakhstan','Kenya','Kiribati','Kuwait','Kyrgyzstan',
-    'Laos','Latvia','Lebanon','Lesotho','Liberia',
-    'Libya','Liechtenstein','Lithuania','Luxembourg','Madagascar',
-    'Malawi','Malaysia','Maldives','Mali','Malta',
-    'Marshall Islands','Mauritania','Mauritius','Mexico','Micronesia',
-    'Moldova','Monaco','Mongolia','Montenegro','Morocco',
-    'Mozambique','Myanmar','Namibia','Nauru','Nepal',
-    'Netherlands','New Zealand','Nicaragua','Niger','Nigeria',
-    'North Korea','North Macedonia','Norway','Oman','Pakistan',
-    'Palau','Palestine','Panama','Papua New Guinea','Paraguay',
-    'Peru','Philippines','Poland','Portugal','Qatar',
-    'Romania','Russia','Rwanda','Saint Kitts and Nevis','Saint Lucia',
-    'Saint Vincent and the Grenadines','Samoa','San Marino','Sao Tome and Principe','Saudi Arabia',
-    'Senegal','Serbia','Seychelles','Sierra Leone','Singapore',
-    'Slovakia','Slovenia','Solomon Islands','Somalia','South Africa',
-    'South Korea','South Sudan','Spain','Sri Lanka','Sudan',
-    'Suriname','Sweden','Switzerland','Syria','Taiwan',
-    'Tajikistan','Tanzania','Thailand','Timor-Leste','Togo',
-    'Tonga','Trinidad and Tobago','Tunisia','Turkey','Turkmenistan',
-    'Tuvalu','Uganda','Ukraine','United Arab Emirates','United Kingdom',
-    'United States','Uruguay','Uzbekistan','Vanuatu','Vatican City',
-    'Venezuela','Vietnam','Yemen','Zambia','Zimbabwe',
-  ];
+  // COUNTRIES and CONTEXT_LABELS are injected at the top of this bundle by
+  // build-seo.mjs from src/_countries.js (shared with the Worker).
 
-  var CONTEXT_LABELS = {
-    general: 'General / everyday', business: 'Business / work',
-    dining: 'Dining / restaurant', religion: 'Religious setting',
-    social: 'Social gathering', family: 'Meeting family',
-  };
 
   var EXAMPLES = [
     { gesture: 'Thumbs up',                     country: 'Iran',         context: 'general'  },

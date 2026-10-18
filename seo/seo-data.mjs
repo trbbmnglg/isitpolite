@@ -33,11 +33,7 @@ export const COUNTRIES = [
   'Philippines', 'Egypt', 'Saudi Arabia', 'Greece', 'Netherlands', 'Singapore',
 ];
 
-export const CONTEXT_LABELS = {
-  general: 'General / everyday', business: 'Business / work',
-  dining: 'Dining / restaurant', religion: 'Religious setting',
-  social: 'Social gathering',    family: 'Meeting family',
-};
+export { CONTEXT_LABELS } from '../src/_countries.js';
 
 export function slugify(s) {
   return String(s)

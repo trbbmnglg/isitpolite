@@ -3,6 +3,7 @@ import { rateLimit, dailyAllowance, refundDaily } from '../_rate.js';
 import { consumeSearchCredit, refundSearchCredit, FREE_SEARCH_PER_DAY } from '../_credits.js';
 import { runLookupAgent } from '../_agent.js';
 import { recordAnswered } from '../_usage.js';
+import { isCountry, CONTEXT_LABELS } from '../_countries.js';
 
 export function onRequestGet() {
   return json({ error: 'Method not allowed.' }, 405);
@@ -42,11 +43,18 @@ export async function onRequestPost(context) {
   const params = {
     gesture:   String(body.gesture   || '').slice(0, 200),
     country:   String(body.country   || '').slice(0, 80),
-    context:   String(body.context   || 'general').slice(0, 40),
+    context:   Object.prototype.hasOwnProperty.call(CONTEXT_LABELS, body.context) ? body.context : 'general',
     from:      String(body.from      || '').slice(0, 80),
     to:        String(body.to        || '').slice(0, 80),
     countries: Array.isArray(body.countries) ? body.countries.slice(0, 3).map(function (c) { return String(c).slice(0, 80); }) : [],
+    home:      isCountry(body.home) ? body.home : '',
   };
+  if (params.home && params.home === params.country) params.home = '';
+
+  // Every country field is picked from a list in the UI, so anything else is
+  // malformed — and rejecting it keeps free text out of the prompt.
+  const named = [params.country, params.from, params.to].concat(params.countries).filter(Boolean);
+  if (!named.every(isCountry)) return json({ error: 'Invalid request.' }, 400);
 
   // ── 4. Credit gate ────────────────────────────────────────────────────────
   var charged;  // { kind: 'free' } | { kind: 'paid', code }

@@ -29,6 +29,7 @@ import {
   countrySlug, gestureSlug, allPairs,
 } from './seo/seo-data.mjs';
 import { renderPairPage, renderCountryHub, renderSeoIndex } from './seo/template.mjs';
+import { COUNTRIES as APP_COUNTRIES, CONTEXT_LABELS as APP_CONTEXT_LABELS } from './src/_countries.js';
 
 const ROOT      = dirname(fileURLToPath(import.meta.url));
 const CACHE_DIR = join(ROOT, 'seo-cache');
@@ -175,7 +176,8 @@ function assembleBase() {
   };
 
   // Concatenate JS source modules into a single IIFE-wrapped dist/app.js.
-  const jsContent = JS_MODULES.map(m => readPart(join(ROOT, 'src/js', m + '.js'))).join('\n');
+  const sharedData = `  var COUNTRIES = ${JSON.stringify(APP_COUNTRIES)};\n  var CONTEXT_LABELS = ${JSON.stringify(APP_CONTEXT_LABELS)};\n`;
+const jsContent = sharedData + JS_MODULES.map(m => readPart(join(ROOT, 'src/js', m + '.js'))).join('\n');
   writeFileSync(join(DIST, 'app.js'), `(function () {\n  'use strict';\n${jsContent}\n})();\n`);
   console.log(`  built dist/app.js from ${JS_MODULES.length} modules`);
 

@@ -2,6 +2,7 @@
 // Model: DeepSeek through LangChain's OpenAI-compatible ChatOpenAI.
 import { StateGraph, START, END, Annotation } from '@langchain/langgraph';
 import { ChatOpenAI } from '@langchain/openai';
+import { CONTEXT_LABELS } from './_countries.js';
 
 function getModel(env, maxTokens) {
   return new ChatOpenAI({
@@ -47,12 +48,6 @@ function sourcesBlock(sources) {
     .map(function (s, i) { return '[' + (i + 1) + '] ' + s.title + ': ' + s.content; })
     .join('\n').slice(0, 2800);
 }
-
-const CONTEXT_LABELS = {
-  general: 'General / everyday', business: 'Business / work',
-  dining: 'Dining / restaurant', religion: 'Religious setting',
-  social: 'Social gathering', family: 'Meeting family',
-};
 
 // ── Report adjudication graph: screen → corroborate → decide ─────────────
 const ReportState = Annotation.Root({
@@ -156,16 +151,20 @@ function ground(srcBlock) {
     : '\n\n(No web sources available — use your own expert knowledge.)';
 }
 
-const LOOKUP_MODES = {
+export const LOOKUP_MODES = {
   check: {
     tokens: 800,
     query: function (p) { return 'is "' + p.gesture + '" considered polite or rude in ' + p.country + '? cultural etiquette ' + (CONTEXT_LABELS[p.context] || ''); },
     system: 'You are a world-class cultural etiquette expert. Respond ONLY with valid JSON, no markdown.',
     prompt: function (p, src) {
       const cl = CONTEXT_LABELS[p.context] || p.context;
+      const home = p.home
+        ? ' The traveler is from ' + p.home + '. home_contrast = one sentence on how this differs from what someone from ' + p.home + ' would expect at home and what to adjust; use an empty string if it is essentially the same there.'
+        : '';
+      const homeField = p.home ? ',"home_contrast":"one sentence or empty string"' : '';
       return 'Question: is "' + p.gesture + '" polite in ' + p.country + '? Context: ' + cl + '.\n' +
-        'Be specific to ' + p.country + '; explanation factual (2-3 sentences); local_tip actionable; confidence reflects how universal the norm is; regional_note flags variation or empty; also_check = 3 countries where it lands differently.' + ground(src) + '\n\n' +
-        'Respond ONLY with JSON: {"verdict":"polite"|"caution"|"rude","verdict_label":"3-5 words","confidence":"high"|"medium"|"low","explanation":"2-3 sentences","local_tip":"one sentence","regional_note":"one sentence or empty string","also_check":[{"country":"..","verdict":"polite"|"caution"|"rude","note":".."},{"country":"..","verdict":"..","note":".."},{"country":"..","verdict":"..","note":".."}]}';
+        'Be specific to ' + p.country + '; explanation factual (2-3 sentences); local_tip actionable; confidence reflects how universal the norm is; regional_note flags variation or empty; also_check = 3 countries where it lands differently.' + home + ground(src) + '\n\n' +
+        'Respond ONLY with JSON: {"verdict":"polite"|"caution"|"rude","verdict_label":"3-5 words","confidence":"high"|"medium"|"low","explanation":"2-3 sentences","local_tip":"one sentence","regional_note":"one sentence or empty string"' + homeField + ',"also_check":[{"country":"..","verdict":"polite"|"caution"|"rude","note":".."},{"country":"..","verdict":"..","note":".."},{"country":"..","verdict":"..","note":".."}]}';
     },
     valid: function (d) { return d && ['polite', 'caution', 'rude'].indexOf(String(d.verdict).toLowerCase()) !== -1 && d.explanation && Array.isArray(d.also_check); },
   },
