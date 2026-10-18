@@ -102,7 +102,7 @@
         <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="52" height="52"><circle cx="24" cy="24" r="20"/><line x1="4" y1="24" x2="44" y2="24"/><path d="M24 4a30 30 0 0 1 8 20 30 30 0 0 1-8 20 30 30 0 0 1-8-20 30 30 0 0 1 8-20z"/></svg>
       </div>
       <h2 id="modal-title">A quick note on your privacy</h2>
-      <p>Your gesture, country, and context are sent to a <strong>third-party AI service</strong> to generate a cultural etiquette response.</p>
+      <p>Your gesture, country, and context (plus your home country, if you set one) are sent to a <strong>third-party AI service</strong> to generate a cultural etiquette response.</p>
       <ul class="modal-points">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>We collect <strong>no personal data</strong> — no accounts, no names, no IP stored, no tracking cookies. Our host, Cloudflare, counts page views anonymously.</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>If you <strong>report or confirm</strong> a verdict or send feedback, we store only an anonymous, AI-sanitized summary to improve accuracy — never your identity.</span></li>
@@ -158,6 +158,14 @@
                 <option value="social">Social gathering</option>
                 <option value="family">Meeting family</option>
               </select>
+            </div>
+          </div>
+          <div class="home-row">
+            <p class="home-line" id="home-line" aria-live="polite"></p>
+            <div class="form-field home-picker hidden" id="home-picker">
+              <label for="home-select">Where are you from?</label>
+              <select id="home-select" aria-label="Your home country"><option value="">— Not set —</option></select>
+              <span class="field-hint">Saved on this device only. It's sent with your lookups so answers can say what changes for you.</span>
             </div>
           </div>
           <button id="check-btn" class="btn-cta btn-check" type="button">

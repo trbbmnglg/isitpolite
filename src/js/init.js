@@ -36,6 +36,8 @@
 
     populateAllSelects();
     enhanceAllSelects();
+    initHome();
+    pruneExpiredCaches();
     populateExamples();
     updateHistoryBadge();
     initOffline();
@@ -269,6 +271,53 @@
     el.appendChild(frag);
   }
 
+  // ═══════════════════════════════════════════════════════════════════════
+  // HOME COUNTRY (device-only; tailors answers to where the traveler is from)
+  // ═══════════════════════════════════════════════════════════════════════
+  var homeSelectEl, homeLineEl, homePickerEl;
+
+  function initHome() {
+    homeSelectEl = document.getElementById('home-select');
+    homeLineEl   = document.getElementById('home-line');
+    homePickerEl = document.getElementById('home-picker');
+    if (!homeSelectEl || !homeLineEl || !homePickerEl) return;
+
+    homeSelectEl.value = getHome();
+    homeSelectEl.addEventListener('change', function () {
+      setHome(homeSelectEl.value);
+      homePickerEl.classList.add('hidden');
+      renderHomeLine();
+      applyHomeDefaults();
+      var toggle = homeLineEl.querySelector('.home-toggle');
+      if (toggle) toggle.focus();
+    });
+    homeLineEl.addEventListener('click', function (e) {
+      if (!e.target.closest('.home-toggle')) return;
+      var opening = homePickerEl.classList.contains('hidden');
+      homePickerEl.classList.toggle('hidden', !opening);
+      e.target.setAttribute('aria-expanded', opening ? 'true' : 'false');
+      if (opening) focusField(homeSelectEl);
+    });
+    renderHomeLine();
+    applyHomeDefaults();
+  }
+
+  function renderHomeLine() {
+    var home = getHome();
+    var toggle = '<button type="button" class="link-btn home-toggle" aria-controls="home-picker" aria-expanded="false">';
+    homeLineEl.innerHTML = home
+      ? 'Tailored for travelers from <strong>' + sanitize(home) + '</strong> · ' + toggle + 'Change</button>'
+      : toggle + 'Add where you\'re from</button> to see what changes for you.';
+  }
+
+  // Prefill (never overwrite) the other "from" fields with the saved home country.
+  function applyHomeDefaults() {
+    var home = getHome();
+    if (!home) return;
+    if (compareC1 && !compareC1.value) compareC1.value = home;
+    if (tripFromEl && !tripFromEl.value) tripFromEl.value = home;
+  }
+
   function populateAllSelects() {
     populateSelectWithCountries(countrySelect);
     populateSelectWithCountries(guideCountryEl);
@@ -278,6 +327,8 @@
     populateSelectWithCountries(compareC3);
     populateSelectWithCountries(tripFromEl);
     populateSelectWithCountries(tripToEl);
+    var homeSel = document.getElementById('home-select');
+    if (homeSel) populateSelectWithCountries(homeSel);
   }
 
   function populateExamples() {

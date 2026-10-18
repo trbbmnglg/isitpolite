@@ -90,6 +90,18 @@ input[type="text"], select, #feedback-text, .premium-email-input, .premium-code-
 input[type="text"]:focus, select:focus, #feedback-text:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(15,118,110,0.2); }
 input.field-error, select.field-error { border-color: var(--rude); box-shadow: 0 0 0 3px rgba(159,18,57,0.15); }
 
+/* ── Home country line + picker ──────────────────────────────────────── */
+.link-btn {
+  background: none; border: 0; padding: 0; font: inherit; cursor: pointer; min-height: 24px;
+  color: var(--teal-dark); font-weight: 600; text-decoration: underline; text-underline-offset: 2px;
+}
+.home-row { display: flex; flex-direction: column; gap: 0.6rem; }
+.home-line { font-size: 0.875rem; color: var(--ink-muted); line-height: 1.5; }
+.home-line strong { color: var(--ink); }
+.home-picker .field-hint { display: block; }
+.home-contrast { background: var(--surface-alt); border-radius: 8px; padding: 0.85rem 1rem; }
+.card-body > .card-section.home-contrast { border-top: 0; padding-top: 0.85rem; }
+
 /* ── The one primary action: terracotta ──────────────────────────────── */
 .btn-cta {
   background: var(--terracotta); border: 0; border-radius: 8px; box-shadow: none;

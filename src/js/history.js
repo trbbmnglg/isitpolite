@@ -120,7 +120,11 @@
   // ═══════════════════════════════════════════════════════════════════════
   // FEATURE 4: OFFLINE CACHE
   // ═══════════════════════════════════════════════════════════════════════
-  function cacheKey(g, c, ctx) { return 'cache_' + (g || '').toLowerCase().trim() + '|' + c + '|' + ctx; }
+  // The home country changes the answer, so it is part of the key.
+  function cacheKey(g, c, ctx) {
+    var home = getHome();
+    return 'cache_' + (g || '').toLowerCase().trim() + '|' + c + '|' + ctx + (home && home !== c ? '|from:' + home : '');
+  }
 
   function getCachedResult(g, c, ctx) {
     try {

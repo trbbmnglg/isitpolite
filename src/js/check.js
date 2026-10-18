@@ -33,7 +33,10 @@
     showLoading();
 
     try {
-      var data = await callLookup('check', { gesture: gesture, country: country, context: context });
+      var home = getHome();
+      if (home === country) home = '';
+      var data = await callLookup('check', { gesture: gesture, country: country, context: context, home: home });
+      if (home) data.home = home;
       setCachedResult(gesture, country, context, data);
       saveToHistory(gesture, country, context, data);
       renderResult(data, gesture, country, context, false, null);
@@ -66,6 +69,10 @@
       ? '<div class="card-section"><div class="caveat-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span><strong>Varies locally:</strong> ' + sanitize(data.regional_note) + '</span></div></div>'
       : '';
 
+    var homeNote = (data.home && data.home_contrast && String(data.home_contrast).trim())
+      ? '<div class="card-section home-contrast"><h3>Coming from ' + sanitize(data.home) + '</h3><p>' + sanitize(data.home_contrast) + '</p></div>'
+      : '';
+
     resultArea.innerHTML =
       '<article class="result-card ' + cls + '" aria-label="Etiquette verdict">' +
         '<div class="verdict-badge">' +
@@ -75,6 +82,7 @@
         '</div>' +
         '<div class="card-body">' +
           '<div class="card-section"><h3>Explanation</h3><p>' + sanitize(data.explanation) + '</p></div>' +
+          homeNote +
           regional +
           '<div class="card-section"><h3>Local Tip</h3><p class="local-tip-text">' + sanitize(data.local_tip) + '</p></div>' +
           (alsoCards ? '<div class="card-section"><h3>Also Check</h3><div class="also-check-grid">' + alsoCards + '</div></div>' : '') +
