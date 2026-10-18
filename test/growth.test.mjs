@@ -120,3 +120,20 @@ test('shared trip links are validated before they prefill anything', () => {
   assert.equal(parse('g=x&c=Japan'), null);
   assert.match(ctx.tripLink({ from: 'Philippines', to: 'Japan', contexts: ['dining'], month: 3 }), /^https:\/\/isitpolite\.com\/\?tf=Philippines&tt=Japan&tc=dining&tm=3#\/trip$/);
 });
+
+test('calendar reminder: valid .ics, 2 days before departure, never in the past', () => {
+  const ctx = vm.createContext({ COUNTRIES, CONTEXT_LABELS, MONTHS, URLSearchParams });
+  vm.runInContext(readFileSync(new URL('../src/js/ui.js', import.meta.url), 'utf8').match(/function slugify[\s\S]*?\n  }\n/)[0], ctx);
+  vm.runInContext(readFileSync(new URL('../src/js/brief.js', import.meta.url), 'utf8'), ctx);
+  const data = { from: 'Philippines', to: 'Japan', headline: 'Quieter, more formal; tip nothing.', watch_outs: [{ title: 'No tipping', do: 'Thank staff, pay the bill' }] };
+  const ics = ctx.buildIcs(data, '2026-12-20', '2026-10-18');
+  assert.match(ics, /^BEGIN:VCALENDAR\r\n/);
+  assert.match(ics, /DTSTART;VALUE=DATE:20261218\r\n/);
+  assert.match(ics, /DTEND;VALUE=DATE:20261219\r\n/);
+  assert.match(ics, /SUMMARY:Read your Japan etiquette briefing/);
+  assert.match(ics, /formal\\; tip nothing\./, 'semicolons are escaped');
+  assert.match(ics, /TRIGGER:PT9H/);
+  assert.ok(ics.split('\r\n').every((l) => l.length <= 61), 'lines are folded');
+  assert.match(ctx.buildIcs(data, '2026-10-19', '2026-10-18'), /DTSTART;VALUE=DATE:20261018/, 'clamped to today');
+  assert.equal(ctx.buildIcs(data, 'not-a-date', '2026-10-18'), '');
+});

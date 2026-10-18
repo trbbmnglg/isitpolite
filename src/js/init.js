@@ -1,4 +1,47 @@
   // ═══════════════════════════════════════════════════════════════════════
+  // INSTALL PROMPT — offered after a briefing is saved, never on page load
+  // ═══════════════════════════════════════════════════════════════════════
+  var INSTALL_DISMISSED_KEY = 'isitpolite_install_dismissed';
+  var deferredInstall = null;
+  var installShownThisVisit = false;
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferredInstall = e; });
+  window.addEventListener('appinstalled', function () { deferredInstall = null; trackEvent('installed'); });
+
+  function isStandalone() {
+    return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true;
+  }
+  function isIosSafari() {
+    var ua = navigator.userAgent || '';
+    return /iphone|ipad|ipod/i.test(ua) && /safari/i.test(ua) && !/crios|fxios|edgios/i.test(ua);
+  }
+
+  function maybeShowInstallCard(el) {
+    if (!el || isStandalone()) return;
+    try { if (localStorage.getItem(INSTALL_DISMISSED_KEY)) return; } catch (_) {}
+    var ios = !deferredInstall && isIosSafari();
+    if (!deferredInstall && !ios) return;
+    el.innerHTML =
+      '<p><strong>Keep this briefing on your phone.</strong> Install IsItPolite so it opens offline on your trip.</p>' +
+      (ios
+        ? '<p class="install-ios">Tap the Share button, then <strong>Add to Home Screen</strong>.</p>'
+        : '<button type="button" class="share-btn" data-install="go">Install IsItPolite</button>') +
+      '<button type="button" class="install-dismiss" data-install="dismiss" aria-label="Dismiss">&times;</button>';
+    el.classList.remove('hidden');
+    if (!installShownThisVisit) { installShownThisVisit = true; trackEvent('install_shown'); }
+    el.onclick = function (e) {
+      var act = e.target.closest('[data-install]');
+      if (!act) return;
+      if (act.getAttribute('data-install') === 'go' && deferredInstall) {
+        deferredInstall.prompt();
+        deferredInstall.userChoice.finally(function () { deferredInstall = null; el.classList.add('hidden'); });
+        return;
+      }
+      try { localStorage.setItem(INSTALL_DISMISSED_KEY, '1'); } catch (_) {}
+      el.classList.add('hidden');
+    };
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
   // INIT
   // ═══════════════════════════════════════════════════════════════════════
   function init() {

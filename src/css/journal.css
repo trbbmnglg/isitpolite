@@ -238,6 +238,32 @@ ol.seo-source-list.numbered li:target { background: var(--teal-tint); border-rad
 .seo-quiz-link { margin-top: 0.75rem; font-size: 0.9375rem; }
 .seo-quiz-link a { color: var(--teal-dark); font-weight: 600; }
 
+/* ── Briefing extras: phrases, reminder, install card ────────────────── */
+.brief-phrases { margin-top: 1rem; padding: 0.9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.brief-phrases h4 { font-family: var(--font-serif); font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; }
+.brief-phrases ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.5rem; }
+.brief-phrases li { display: grid; grid-template-columns: 7rem 1fr; gap: 0.1rem 0.75rem; align-items: baseline; }
+.ph-en { font-size: 0.8125rem; font-weight: 600; color: var(--ink-faint); grid-row: span 2; }
+.ph-local { font-size: 1.125rem; font-weight: 600; color: var(--ink); }
+.ph-rom { font-size: 0.875rem; color: var(--ink-muted); font-style: italic; }
+.ph-note { font-size: 0.75rem; color: var(--ink-faint); margin-top: 0.5rem; }
+.brief-remind { margin-top: 0.75rem; padding: 0.85rem 1rem; background: var(--surface-alt); border-radius: 10px; }
+.brief-remind label { display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.4rem; }
+.brief-remind-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.brief-remind input[type="date"] {
+  min-height: 44px; padding: 0 0.75rem; font: 1rem var(--font-sans); color: var(--ink);
+  background: var(--surface); border: 1px solid var(--field-border); border-radius: 8px;
+}
+.brief-remind .field-hint { display: block; margin-top: 0.4rem; }
+.brief-remind-msg { font-size: 0.8125rem; color: var(--polite); margin-top: 0.3rem; }
+.install-card {
+  position: relative; margin-top: 0.75rem; padding: 0.9rem 2.5rem 0.9rem 1rem;
+  background: var(--teal-tint); border: 1px solid var(--teal); border-radius: 12px; font-size: 0.9rem;
+}
+.install-card p { margin-bottom: 0.5rem; line-height: 1.5; }
+.install-card .btn-cta-sm { min-height: 40px; }
+.install-dismiss { position: absolute; top: 0.4rem; right: 0.4rem; width: 36px; height: 36px; border: 0; background: none; font-size: 1.3rem; color: var(--ink-muted); cursor: pointer; }
+
 /* ── The one primary action: terracotta ──────────────────────────────── */
 .btn-cta {
   background: var(--terracotta); border: 0; border-radius: 8px; box-shadow: none;

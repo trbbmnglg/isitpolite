@@ -20,6 +20,62 @@
     return { from: from, to: to, contexts: contexts.length ? contexts : ['general'], month: m >= 1 && m <= 12 ? m : 0 };
   }
 
+  // ── Calendar reminder (.ics), built on the device; nothing is sent anywhere ──
+  function icsEscape(s) {
+    return String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
+  }
+  // RFC 5545 folds lines at 75 octets; 60 characters keeps multi-byte text safe.
+  function icsFold(line) {
+    var out = [];
+    while (line.length > 60) { out.push(line.slice(0, 60)); line = ' ' + line.slice(60); }
+    out.push(line);
+    return out.join('\r\n');
+  }
+  function ymd(d) {
+    return d.getUTCFullYear() + String(d.getUTCMonth() + 1).padStart(2, '0') + String(d.getUTCDate()).padStart(2, '0');
+  }
+  // departure: 'YYYY-MM-DD'. Reminder is an all-day event 2 days before (never before today).
+  function buildIcs(data, departure, today) {
+    var dep = new Date(departure + 'T00:00:00Z');
+    if (isNaN(dep)) return '';
+    var now = today ? new Date(today + 'T00:00:00Z') : new Date(Date.UTC(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()));
+    var start = new Date(Math.max(dep.getTime() - 2 * 86400000, now.getTime()));
+    var end = new Date(start.getTime() + 86400000);
+    var top = (data.watch_outs || []).slice(0, 3).map(function (w) { return '• ' + w.title + ': ' + w.do; }).join('\n');
+    var summary = 'Read your ' + data.to + ' etiquette briefing';
+    var lines = [
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//IsItPolite//Trip briefing//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+      'BEGIN:VEVENT',
+      'UID:' + ymd(start) + '-' + slugify(data.from) + '-' + slugify(data.to) + '@isitpolite.com',
+      'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''),
+      'DTSTART;VALUE=DATE:' + ymd(start),
+      'DTEND;VALUE=DATE:' + ymd(end),
+      'SUMMARY:' + icsEscape(summary),
+      'DESCRIPTION:' + icsEscape('You fly to ' + data.to + ' on ' + departure + '.\n' + data.headline + '\n\n' + top + '\n\nOpen your saved briefing (works offline): https://isitpolite.com/#/saved'),
+      'URL:https://isitpolite.com/#/saved',
+      'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + icsEscape(summary), 'TRIGGER:PT9H', 'END:VALARM',
+      'END:VEVENT', 'END:VCALENDAR',
+    ];
+    return lines.map(icsFold).join('\r\n') + '\r\n';
+  }
+
+  function downloadIcs(data, departure) {
+    var ics = buildIcs(data, departure);
+    if (!ics) return false;
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar;charset=utf-8' }));
+    a.download = 'isitpolite-' + slugify(data.to) + '-briefing.ics';
+    document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 2000);
+    trackEvent('reminder_added');
+    return true;
+  }
+
+  function todayIso() {
+    var d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
   function tripLink(data) {
     var q = new URLSearchParams({ tf: data.from, tt: data.to });
     if (data.contexts && data.contexts.length) q.set('tc', data.contexts.join(','));
@@ -160,6 +216,15 @@
     } catch (_) {}
   }
 
+  function phrasesHtml(data) {
+    var list = (data.phrases || []).filter(function (p) { return p && p.english && p.local; });
+    if (!list.length) return '';
+    return '<section class="brief-phrases" aria-label="Three phrases to know"><h4>Three phrases to know</h4><ul>' + list.map(function (p) {
+      return '<li><span class="ph-en">' + sanitize(p.english) + '</span><span class="ph-local">' + sanitize(p.local) + '</span>' +
+        (p.romanization ? '<span class="ph-rom">' + sanitize(p.romanization) + '</span>' : '') + '</li>';
+    }).join('') + '</ul><p class="ph-note">Pronunciation is approximate.</p></section>';
+  }
+
   function readProgressText(read, total) {
     return read + ' of ' + total + ' read';
   }
@@ -210,7 +275,18 @@
           '<p class="brief-route">' + route + (meta ? ' · ' + meta : '') + '</p>' +
           '<h3 class="brief-headline">' + sanitize(data.headline) + '</h3>' +
           '<p class="brief-meta"><span class="brief-saved-ok">' + TICK + 'Saved for offline use</span> · ' + timeAgo(ts) + ' · <button type="button" class="link-btn" data-act="refresh">Refresh</button></p>' +
-          '<div class="brief-actions"><button type="button" class="share-btn" data-act="share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Send to family</button></div>' +
+          '<div class="brief-actions">' +
+            '<button type="button" class="share-btn" data-act="share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Send to family</button>' +
+            '<button type="button" class="share-btn" data-act="remind" aria-expanded="false" aria-controls="brief-remind"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Remind me before I fly</button>' +
+          '</div>' +
+          '<div class="brief-remind hidden" id="brief-remind">' +
+            '<label for="brief-date">When do you fly?</label>' +
+            '<div class="brief-remind-row"><input type="date" id="brief-date" min="' + todayIso() + '" /><button type="button" class="share-btn" data-act="ics">Add to calendar</button></div>' +
+            '<p class="field-hint">Adds a reminder 2 days before, as a calendar file on your device. Nothing is sent to us.</p>' +
+            '<p class="brief-remind-msg" aria-live="polite"></p>' +
+          '</div>' +
+          '<div class="install-card hidden" id="install-card" aria-live="polite"></div>' +
+          phrasesHtml(data) +
           '<p class="brief-progress" aria-live="polite"><span class="brief-progress-bar"><span style="width:' + (total ? Math.round(read.length / total * 100) : 0) + '%"></span></span><span class="brief-progress-text">' + readProgressText(read.length, total) + '</span></p>' +
         '</div>' +
         '<ol class="brief-list">' + items + '</ol>' +
@@ -222,6 +298,7 @@
 
     var wrap = briefResult.querySelector('.brief-wrap');
     if (wrap) addPremiumButton(wrap, 'Download Infographic', 'infographic', { subkind: 'trip', from: data.from, to: data.to, result: data });
+    maybeShowInstallCard(document.getElementById('install-card'));
     briefResult.scrollIntoView({ behavior: scrollMode(), block: 'start' });
   }
 
@@ -229,6 +306,22 @@
     if (e.target.closest('[data-act="refresh"]')) { handleBrief({ refresh: true }); return; }
     var share = e.target.closest('[data-act="share"]');
     if (share) { if (briefResult._briefData) shareBrief(briefResult._briefData, share); return; }
+    var remind = e.target.closest('[data-act="remind"]');
+    if (remind) {
+      var panel = document.getElementById('brief-remind');
+      var open = panel.classList.contains('hidden');
+      panel.classList.toggle('hidden', !open);
+      remind.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) document.getElementById('brief-date').focus();
+      return;
+    }
+    if (e.target.closest('[data-act="ics"]')) {
+      var date = document.getElementById('brief-date').value;
+      var msg = briefResult.querySelector('.brief-remind-msg');
+      if (!date) { msg.textContent = 'Pick your departure date first.'; return; }
+      msg.textContent = downloadIcs(briefResult._briefData, date) ? 'Calendar file downloaded. Open it to add the reminder.' : 'That date does not look right.';
+      return;
+    }
     var btn = e.target.closest('[data-read]');
     if (!btn) return;
     var key = briefResult.dataset.key;
