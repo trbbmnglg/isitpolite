@@ -226,6 +226,18 @@ ol.seo-source-list.numbered li:target { background: var(--teal-tint); border-rad
 .compare-link { text-align: center; margin-top: 1rem; font-size: 0.9375rem; }
 .compare-link a { color: var(--teal-dark); font-weight: 600; }
 
+/* ── Sharing + instant answers ───────────────────────────────────────── */
+.instant-line {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.3rem; margin: 0 1.25rem 0.75rem;
+  font-size: 0.8125rem; font-weight: 600; color: var(--polite);
+}
+.instant-line a { color: var(--teal-dark); }
+.home-contrast.is-loading p { color: var(--ink-faint); font-style: italic; }
+.brief-actions { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.quiz-score-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
+.seo-quiz-link { margin-top: 0.75rem; font-size: 0.9375rem; }
+.seo-quiz-link a { color: var(--teal-dark); font-weight: 600; }
+
 /* ── The one primary action: terracotta ──────────────────────────────── */
 .btn-cta {
   background: var(--terracotta); border: 0; border-radius: 8px; box-shadow: none;

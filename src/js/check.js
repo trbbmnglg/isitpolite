@@ -24,6 +24,7 @@
       hideCachedBanner();
       renderResult(cached.data, gesture, country, context, true, cached.ts);
       updateShareURL(gesture, country, context);
+      if (cached.data.instant && cached.data.home && !cached.data.home_contrast && navigator.onLine) fillHomeContrast(cached.data, gesture, country, context);
       return;
     }
 
@@ -42,12 +43,36 @@
       renderResult(data, gesture, country, context, false, null);
       updateShareURL(gesture, country, context);
       maybeShowDonateNudge();
+      if (data.instant && home && !data.home_contrast) fillHomeContrast(data, gesture, country, context);
     } catch (err) {
       renderError(err.message);
     } finally {
       checkBtn.disabled = false;
       checkBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="17" height="17" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Check It';
     }
+  }
+
+  // Instant (fact-checked) answers arrive without the "Coming from …" note;
+  // fetch it separately and slot it in, then update the cached copy.
+  function fillHomeContrast(data, gesture, country, context) {
+    var slot = resultArea.querySelector('#home-contrast-slot');
+    fetch('/api/contrast', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gesture: gesture, country: country, context: context, home: data.home }),
+    }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      var note = d && d.home_contrast ? String(d.home_contrast).trim() : '';
+      if (!slot || !document.contains(slot)) return;
+      if (!note) { slot.remove(); return; }
+      slot.querySelector('p').textContent = note;
+      slot.classList.remove('is-loading');
+      data.home_contrast = note;
+      setCachedResult(gesture, country, context, data);
+    }).catch(function () { if (slot) slot.remove(); });
+  }
+
+  function formatReviewDate(iso) {
+    var d = new Date(String(iso) + 'T00:00:00Z');
+    return isNaN(d) ? '' : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
   }
 
   function showLoading() {
@@ -70,6 +95,15 @@
 
     var homeNote = (data.home && data.home_contrast && String(data.home_contrast).trim())
       ? '<div class="card-section home-contrast"><h3>Coming from ' + sanitize(withThe(data.home)) + '</h3><p>' + sanitize(data.home_contrast) + '</p></div>'
+      : (data.instant && data.home)
+        ? '<div class="card-section home-contrast is-loading" id="home-contrast-slot"><h3>Coming from ' + sanitize(withThe(data.home)) + '</h3><p>Checking what changes for you…</p></div>'
+        : '';
+
+    var guideUrl = /^\/etiquette\/[a-z0-9-]+\/[a-z0-9-]+\/$/.test(data.guide_url || '') ? data.guide_url : '';
+    var instantLine = data.instant
+      ? '<p class="instant-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>' +
+        'Fact-checked guide' + (data.reviewed ? ' · reviewed ' + sanitize(formatReviewDate(data.reviewed)) : '') +
+        (guideUrl ? ' · <a href="' + guideUrl + '">Full guide →</a>' : '') + '</p>'
       : '';
 
     resultArea.innerHTML =
@@ -79,6 +113,7 @@
           '<span class="badge-label">' + sanitize(data.verdict_label) + '</span>' +
           confidenceBadge(data.confidence) +
         '</div>' +
+        instantLine +
         '<div class="card-body">' +
           '<div class="card-section"><h3>Explanation</h3><p>' + citeLinks(sanitize(data.explanation), data.sources) + '</p></div>' +
           homeNote +
@@ -91,7 +126,7 @@
         '<div class="result-footnote">AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.</div>' +
       '</article>';
 
-    addShareButton(gesture, country, context, data.verdict_label);
+    addShareButton(gesture, country, context, data.verdict_label, guideUrl);
     addReportControls(gesture, country, context, data.verdict, data.verdict_label);
     // Keep the disclaimer as the card's last line, below the actions.
     var card = resultArea.querySelector('.result-card');
@@ -158,6 +193,18 @@
   // ═══════════════════════════════════════════════════════════════════════
   function loadFromURLParams() {
     var params = new URLSearchParams(window.location.search);
+    // Shared trip briefings: /?tf=From&tt=To&tc=ctx,ctx&tm=3#/trip
+    var trip = parseTripParams(params);
+    if (trip) {
+      setBriefForm(trip);
+      navigate('trip');
+      setTimeout(function () { handleBrief(); }, 300);
+      return;
+    }
+    // Quiz challenges: /?quiz=Japan#/quiz
+    var qc = params.get('quiz');
+    if (qc && COUNTRIES.indexOf(qc) !== -1) quizCountryEl.value = qc;
+
     var g = params.get('g'), c = params.get('c'), ctx = params.get('ctx');
     // Country hubs link with just ?c= — preselect it and let the visitor type.
     if (c && COUNTRIES.indexOf(c) !== -1) countrySelect.value = c;
@@ -173,7 +220,7 @@
     window.history.replaceState({}, '', '?' + params.toString() + window.location.hash);
   }
 
-  function addShareButton(gesture, country, context, verdictLabel) {
+  function addShareButton(gesture, country, context, verdictLabel, guideUrl) {
     var card = resultArea.querySelector('.result-card');
     if (!card) return;
 
@@ -182,25 +229,22 @@
     var row = document.createElement('div');
     row.className = 'share-row';
 
-    // Copy link
+    // Share sheet (Messenger, Viber, WhatsApp...) with a copy-link fallback.
+    // Fact-checked answers share the static guide page, which has its own preview card.
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'share-btn';
-    btn.innerHTML = copyIcon + ' Share link';
+    btn.innerHTML = copyIcon + ' Share';
     btn.addEventListener('click', function () {
-      var url = window.location.href;
-      var done = function () {
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Link Copied!';
+      var url = guideUrl ? 'https://isitpolite.com' + guideUrl : window.location.href;
+      var text = 'Is "' + gesture + '" polite in ' + country + '?' + (verdictLabel ? ' ' + verdictLabel + '.' : '');
+      shareOrCopy({ title: 'IsItPolite', text: text, url: url }, function (how) {
+        trackEvent('share_result');
+        if (how !== 'copied') return;
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Link copied';
         btn.classList.add('copied');
-        setTimeout(function () { btn.innerHTML = copyIcon + ' Share link'; btn.classList.remove('copied'); }, 2500);
-      };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(done);
-      } else {
-        var tmp = document.createElement('input');
-        tmp.value = url; document.body.appendChild(tmp); tmp.select();
-        document.execCommand('copy'); document.body.removeChild(tmp); done();
-      }
+        setTimeout(function () { btn.innerHTML = copyIcon + ' Share'; btn.classList.remove('copied'); }, 2500);
+      });
     });
 
     // Share on X

@@ -335,6 +335,7 @@ ${header()}
     <div class="seo-cta">
       <p>Have a specific question about ${esc(country)}?</p>
       <a class="btn-cta" href="/?c=${encodeURIComponent(country)}">Ask it on IsItPolite →</a>
+      <p class="seo-quiz-link"><a href="/?quiz=${encodeURIComponent(country)}#/quiz">Take the 5-question ${esc(country)} quiz →</a></p>
     </div>
   </main>
 ${footer()}`;

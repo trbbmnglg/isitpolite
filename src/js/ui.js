@@ -8,6 +8,37 @@
   var SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
   var openCombobox = null; // only one open at a time
 
+  // Privacy-safe product counter: only the event name is sent; failures are ignored.
+  function trackEvent(name) {
+    try {
+      fetch('/api/event', { method: 'POST', keepalive: true, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ event: name }) }).catch(function () {});
+    } catch (_) {}
+  }
+
+  // The phone's own share sheet (Messenger, Viber, WhatsApp...), else copy the link.
+  // Calls done(method) with 'shared' or 'copied'; resolves silently if the user cancels.
+  function shareOrCopy(payload, done) {
+    if (navigator.share) {
+      navigator.share(payload).then(function () { done && done('shared'); }).catch(function () {});
+      return;
+    }
+    var textToCopy = (payload.text ? payload.text + '\n' : '') + payload.url;
+    function fallback() {
+      var tmp = document.createElement('textarea');
+      tmp.value = textToCopy; document.body.appendChild(tmp); tmp.select();
+      try { document.execCommand('copy'); } catch (_) {}
+      document.body.removeChild(tmp);
+      done && done('copied');
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(textToCopy).then(function () { done && done('copied'); }, fallback);
+    else fallback();
+  }
+
+  // Same rules as seo/seo-data.mjs slugify, for links to the static guide pages.
+  function slugify(s) {
+    return String(s).toLowerCase().replace(/['"’]/g, '').replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  }
+
   // Smooth scrolling animates even under "reduce motion" unless we ask.
   function scrollMode() {
     return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';

@@ -127,12 +127,28 @@
         '<h3 class="score-msg">' + sanitize(msg) + '</h3>' +
         '<p class="score-sub">You answered ' + score + ' out of ' + total + ' questions correctly about <strong>' + sanitize(quizState.country) + '</strong>.</p>' +
         '<div class="score-breakdown">' + rowsHtml + '</div>' +
-        '<button class="btn-cta" type="button" id="quiz-restart">Play Again</button>' +
+        '<div class="quiz-score-actions">' +
+          '<button class="btn-cta" type="button" id="quiz-restart">Play Again</button>' +
+          '<button class="share-btn" type="button" id="quiz-share">Challenge a friend</button>' +
+        '</div>' +
       '</div>';
 
     document.getElementById('quiz-restart').addEventListener('click', function () {
       quizArea.innerHTML = '';
       quizStartBtn.disabled = false;
+    });
+    var shareBtn = document.getElementById('quiz-share');
+    shareBtn.addEventListener('click', function () {
+      var country = quizState.country;
+      // Countries with a guide page share that page (it has a preview card and a quiz link).
+      var url = GUIDE_COUNTRIES.indexOf(country) !== -1
+        ? 'https://isitpolite.com/etiquette/' + slugify(country) + '/'
+        : 'https://isitpolite.com/?quiz=' + encodeURIComponent(country) + '#/quiz';
+      var text = 'I scored ' + score + '/' + total + ' on ' + country + ' etiquette on IsItPolite. Can you beat me?';
+      shareOrCopy({ title: 'IsItPolite quiz', text: text, url: url }, function (how) {
+        trackEvent('share_quiz');
+        if (how === 'copied') { shareBtn.textContent = 'Copied: send it to a friend'; setTimeout(function () { shareBtn.textContent = 'Challenge a friend'; }, 2500); }
+      });
     });
 
     // Premium CTA — certificate for passing score (≥4/5).

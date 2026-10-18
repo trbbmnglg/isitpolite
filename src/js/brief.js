@@ -9,6 +9,37 @@
 
   function shortContext(c) { return (CONTEXT_LABELS[c] || c).split(' / ')[0]; }
 
+  // Validate a shared-trip link. Pure (no DOM), so it can be unit-tested.
+  function parseTripParams(params) {
+    var from = params.get('tf'), to = params.get('tt');
+    if (!from || !to || from === to || COUNTRIES.indexOf(from) === -1 || COUNTRIES.indexOf(to) === -1) return null;
+    var contexts = String(params.get('tc') || '').split(',').filter(function (c, i, a) {
+      return Object.prototype.hasOwnProperty.call(CONTEXT_LABELS, c) && a.indexOf(c) === i;
+    });
+    var m = parseInt(params.get('tm'), 10);
+    return { from: from, to: to, contexts: contexts.length ? contexts : ['general'], month: m >= 1 && m <= 12 ? m : 0 };
+  }
+
+  function tripLink(data) {
+    var q = new URLSearchParams({ tf: data.from, tt: data.to });
+    if (data.contexts && data.contexts.length) q.set('tc', data.contexts.join(','));
+    if (data.month) q.set('tm', String(data.month));
+    return 'https://isitpolite.com/?' + q.toString() + '#/trip';
+  }
+
+  function shareBrief(data, btn) {
+    var top = (data.watch_outs || []).slice(0, 3).map(function (w) { return '• ' + w.title + ': ' + w.do; }).join('\n');
+    var text = data.from + ' → ' + data.to + ' etiquette briefing\n' + data.headline + '\n\n' + top + '\n\nGet the full briefing:';
+    shareOrCopy({ title: 'Trip briefing: ' + data.to, text: text, url: tripLink(data) }, function (how) {
+      trackEvent('share_brief');
+      if (how === 'copied' && btn) {
+        var label = btn.innerHTML;
+        btn.textContent = 'Copied: paste it into Messenger or Viber';
+        setTimeout(function () { btn.innerHTML = label; }, 2500);
+      }
+    });
+  }
+
   function populateBriefControls() {
     populateSelectWithCountries(briefFromEl);
     populateSelectWithCountries(briefToEl);
@@ -98,6 +129,7 @@
     try {
       var data = await callLookup('brief', { from: from, to: to, contexts: contexts, month: month });
       saveBrief(key, data);
+      trackEvent('brief_saved');
       renderBrief(data, key, Date.now());
       renderBriefSaved();
     } catch (e) {
@@ -178,6 +210,7 @@
           '<p class="brief-route">' + route + (meta ? ' · ' + meta : '') + '</p>' +
           '<h3 class="brief-headline">' + sanitize(data.headline) + '</h3>' +
           '<p class="brief-meta"><span class="brief-saved-ok">' + TICK + 'Saved for offline use</span> · ' + timeAgo(ts) + ' · <button type="button" class="link-btn" data-act="refresh">Refresh</button></p>' +
+          '<div class="brief-actions"><button type="button" class="share-btn" data-act="share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Send to family</button></div>' +
           '<p class="brief-progress" aria-live="polite"><span class="brief-progress-bar"><span style="width:' + (total ? Math.round(read.length / total * 100) : 0) + '%"></span></span><span class="brief-progress-text">' + readProgressText(read.length, total) + '</span></p>' +
         '</div>' +
         '<ol class="brief-list">' + items + '</ol>' +
@@ -185,6 +218,7 @@
         '<div class="result-footnote">Drafted by AI from web sources and our reviewed country guides. Customs vary between people and regions.</div>' +
       '</div>';
     briefResult.dataset.key = key;
+    briefResult._briefData = data;
 
     var wrap = briefResult.querySelector('.brief-wrap');
     if (wrap) addPremiumButton(wrap, 'Download Infographic', 'infographic', { subkind: 'trip', from: data.from, to: data.to, result: data });
@@ -193,6 +227,8 @@
 
   function onBriefResultClick(e) {
     if (e.target.closest('[data-act="refresh"]')) { handleBrief({ refresh: true }); return; }
+    var share = e.target.closest('[data-act="share"]');
+    if (share) { if (briefResult._briefData) shareBrief(briefResult._briefData, share); return; }
     var btn = e.target.closest('[data-read]');
     if (!btn) return;
     var key = briefResult.dataset.key;
