@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Moderate PDA acceptable",
+  "verdict_label": "Common but modesty expected",
   "confidence": "medium",
-  "explanation": "In Greece, public displays of affection such as holding hands or a quick kiss are generally acceptable in social gatherings, but excessive or intimate PDA (e.g., prolonged kissing, groping) is considered disrespectful, especially in more conservative or family-oriented settings. Greeks are warm and expressive, but modesty and respect for the occasion are expected. Younger generations in urban areas are more relaxed, while older or rural communities may frown upon even moderate displays.",
-  "local_tip": "Keep affection subtle—hold hands or offer a brief peck on the cheek, but avoid lingering embraces or passionate kisses in mixed company.",
-  "regional_note": "In rural areas and among older generations, especially in northern Greece or on islands with strong traditional values, PDA is more restricted; in Athens and Thessaloniki, it is more accepted.",
+  "explanation": "Greece is a tactile, warm culture — friends (including male friends) commonly touch arms or shoulders, and light affection like hand-holding or a quick kiss between couples is broadly unremarkable in cities and tourist areas. More passionate or prolonged PDA can draw disapproval, especially around family, in religious settings, or in more conservative/rural communities, so moderation is the safer approach.",
+  "local_tip": "Hand-holding and a brief kiss are fine in most places, but save more intimate affection for private settings, especially around religious sites or older relatives.",
+  "regional_note": "Rural areas, smaller islands, and older generations tend to be more conservative about PDA than Athens or Thessaloniki.",
   "also_check": [
-    {
-      "country": "Japan",
-      "verdict": "rude",
-      "note": "Public displays of affection are highly discouraged, even between married couples, as they are seen as private matters."
-    },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheeks (la bise) and light PDA are common and socially accepted in most settings."
+      "note": "La bise and light PDA like hand-holding or a kiss are broadly accepted in most settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "PDA is generally discouraged in public, even between spouses."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public display of affection between unmarried couples is illegal and strictly taboo, with severe penalties."
+      "note": "Any public display of affection between unmarried couples is illegal and strictly taboo."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greece Guide (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/greece-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Public display of affection",
+      "url": "https://en.wikipedia.org/wiki/Public_display_of_affection",
+      "kind": "reference"
     }
   ]
 }

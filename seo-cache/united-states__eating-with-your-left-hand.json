@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "No hand preference",
+  "verdict_label": "No hand-use rule at all",
   "confidence": "high",
-  "explanation": "In the United States, there is no cultural rule against eating with your left hand; both hands are considered equally acceptable for dining, and handedness is not tied to hygiene or politeness. Most Americans are right-handed but use utensils with either hand, and the left hand is not associated with any negative connotations in dining contexts.",
-  "local_tip": "Feel free to use whichever hand feels most comfortable, as long as you use utensils appropriately for the dish.",
+  "explanation": "There is no cultural rule in the US about which hand you eat with - handedness is purely personal preference, not a matter of hygiene or etiquette, unlike in parts of South Asia, the Middle East, and Africa where the left hand is reserved for hygiene and the right for eating. American table-manners guidance focuses on fork/knife handling, not which hand touches food.",
+  "local_tip": "Use whichever hand is comfortable; American dining etiquette cares more about handling cutlery correctly (e.g., the 'zig-zag' fork-switching style) than about left-versus-right hand symbolism.",
   "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is considered unclean, as it is traditionally used for bathroom hygiene."
+      "note": "Eating with the left hand is considered unclean, as it is traditionally reserved for bathroom hygiene."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "The left hand is reserved for personal hygiene; always eat and pass food with the right hand."
+      "note": "The left hand is reserved for personal hygiene; food should be eaten and passed with the right hand."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "While not strictly rude, using the left hand to pass food or handle communal dishes may be seen as awkward; use your right hand for such actions."
+      "note": "Not strictly rude, but using the left hand for shared/communal dishes can look awkward since the right hand is customary there."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global USA Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/usa-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Left-handedness - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Left-handedness",
+      "kind": "reference"
     }
   ]
 }

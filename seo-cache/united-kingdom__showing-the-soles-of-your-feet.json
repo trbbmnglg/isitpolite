@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful foot display",
-  "confidence": "high",
-  "explanation": "In the United Kingdom, showing the soles of your feet is considered impolite, especially in social settings, as it is associated with disrespect and uncleanliness. This gesture can be interpreted as a sign of contempt or carelessness, particularly if directed at someone. The custom stems from traditional British etiquette that values keeping feet flat on the floor and avoiding pointing feet at others.",
-  "local_tip": "Keep both feet flat on the floor or crossed at the ankles, and never point the sole of your shoe or foot toward anyone during conversation.",
+  "verdict": "caution",
+  "verdict_label": "Feet on furniture looks careless",
+  "confidence": "medium",
+  "explanation": "The UK has no specific cultural taboo against showing the soles of your feet or pointing them at someone, unlike the strong body-part taboos found in Thailand or parts of the Middle East and South Asia. The actual British faux pas is more mundane: putting your feet up on a chair, sofa, table, or train seat is seen as inconsiderate, careless of shared furniture, or unhygienic, rather than as a grave insult to another person.",
+  "local_tip": "Keep your feet and shoes off seats, tables, and other furniture out of consideration for cleanliness, not because of any specific taboo about the soles themselves.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and dirtiest part of the body; showing soles is deeply offensive."
-    },
-    {
-      "country": "United States",
-      "verdict": "caution",
-      "note": "Generally less offensive but can be seen as casual or rude in formal settings; context matters."
+      "note": "Feet are considered the lowest and most unclean part of the body; pointing the soles at a person or a Buddha image is genuinely offensive."
     },
     {
       "country": "Egypt",
       "verdict": "rude",
-      "note": "Showing the sole of your foot or shoe is a serious insult, especially in Arab cultures."
+      "note": "Showing the sole of your foot or shoe to someone is a real insult in much of the Arab world."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Similar to the UK, feet on furniture is seen as careless or rude in formal settings rather than taboo."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global - United Kingdom Country Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/uk-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette",
+      "kind": "reference"
     }
   ]
 }

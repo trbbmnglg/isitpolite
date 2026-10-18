@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not customary, avoid",
+  "verdict_label": "Not the standard greeting",
   "confidence": "high",
-  "explanation": "In Singapore, cheek kissing is not a standard greeting practice, especially among the multi-ethnic population of Chinese, Malay, and Indian communities. It may be perceived as overly intimate or awkward in most social gatherings, where a handshake or a simple nod is preferred. Exceptions exist among close friends or in Western-influenced circles, but it is not the norm.",
-  "local_tip": "Stick to a friendly handshake or a smile and nod when greeting someone for the first time at a social gathering.",
-  "regional_note": "Among younger, Western-educated Singaporeans or in expatriate-heavy settings, cheek kissing may occasionally be accepted, but it remains rare.",
+  "explanation": "Cheek kissing is not a standard greeting in Singapore; a handshake is the default across all communities, and some Malay or Indian Singaporeans may prefer not to shake hands with the opposite gender at all for religious or cultural reasons. Cheek kissing does happen among close friends in more Westernized or expatriate circles, but it isn't the norm for a first meeting.",
+  "local_tip": "Default to a light handshake; if someone of the opposite gender doesn't extend their hand, follow their lead and offer a nod or a hand over your heart instead.",
+  "regional_note": "Malay and Indian Singaporeans may avoid cross-gender handshakes for religious reasons; Chinese Singaporeans may add a slight nod to a handshake. None of these groups treat cheek kissing as a standard greeting.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, varying by region in number of kisses."
+      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact is minimal; bowing is the traditional greeting, and cheek kissing is considered invasive."
+      "verdict": "caution",
+      "note": "Physical greetings are minimal; a bow is standard and cheek kissing would be seen as unusually intimate."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "Cheek kissing is common, even among new acquaintances, often with one kiss on each cheek."
+      "note": "Cheek kissing is a common greeting, even between new acquaintances."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Greetings (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-greetings",
+      "kind": "reference"
+    },
+    {
+      "title": "Top 5 Tips for Proper Singapore Etiquette - Absolute Internship",
+      "url": "https://absoluteinternship.com/blog/top-5-tips-for-proper-singapore-etiquette/",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Minimal PDA acceptable",
-  "confidence": "high",
-  "explanation": "In the Philippines, a conservative and predominantly Catholic country, public displays of affection (PDA) beyond holding hands or a quick peck on the cheek are generally considered impolite, especially at social gatherings where modesty and respect for elders are valued. Overt kissing, hugging, or intimate touching can be seen as disrespectful or embarrassing in mixed company. This standard applies broadly across urban and rural settings, though younger generations in cities may be slightly more relaxed.",
-  "local_tip": "Limit physical affection to brief hand-holding or a light touch on the arm, and avoid any kissing or prolonged embraces until you are in a private setting.",
-  "regional_note": "In more conservative provinces (e.g., Mindanao or rural Visayas), even hand-holding may be frowned upon in formal gatherings, while in Metro Manila, young couples might hold hands more openly.",
+  "verdict_label": "Conservative, keep it modest",
+  "confidence": "medium",
+  "explanation": "The Philippines' Catholic, Spanish-colonial heritage shaped a conservative dating culture in which couples are generally expected not to show overt public affection — Wikipedia's entry on Filipino courtship explicitly notes couples are 'expected to be conservative and not perform public displays of affection,' a trait traced to the Spanish-era 'Maria Clara' ideal of reserved comportment. Holding hands or a quick peck is usually fine; prolonged kissing or embracing in public is not.",
+  "local_tip": "Limit physical affection to brief hand-holding, and save kissing or prolonged embraces for private settings, especially around elders or in conservative provinces.",
+  "regional_note": "In more conservative provinces (parts of Mindanao or rural Visayas), even hand-holding may draw attention in formal gatherings, while in Metro Manila younger couples are more openly affectionate.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheeks (la bise) and light PDA are common and socially accepted in social settings."
+      "note": "Light PDA such as hand-holding or a kiss hello (la bise, though that's a greeting, not romantic PDA) is socially unremarkable."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any PDA, including hand-holding between unmarried couples, is strictly prohibited and can lead to legal penalties."
+      "note": "Any PDA, including hand-holding between unmarried couples, is restricted and can draw legal consequences."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "PDA is rare in public; even holding hands may be reserved for private moments, and kissing in public is considered inappropriate."
+      "note": "PDA is uncommon in public; even hand-holding is often reserved for more private moments."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Filipino courtship",
+      "url": "https://en.wikipedia.org/wiki/Filipino_courtship",
+      "kind": "reference"
+    },
+    {
+      "title": "Philippines Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/philippines-guide",
+      "kind": "reference"
     }
   ]
 }

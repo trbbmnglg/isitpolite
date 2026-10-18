@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
+  "verdict_label": "Feet should stay down",
   "confidence": "high",
-  "explanation": "In Saudi Arabia, showing the soles of your feet or shoes is considered deeply insulting because the foot is viewed as unclean. This gesture implies contempt or disrespect toward the person facing your feet, especially in social or formal gatherings.",
-  "local_tip": "Always sit with your feet flat on the floor or crossed at the ankles, and avoid pointing your foot or shoe at anyone.",
-  "regional_note": "This rule is consistent across all regions and generations in Saudi Arabia, though younger Saudis in more cosmopolitan settings may be slightly more tolerant of accidental exposure.",
+  "explanation": "The sole of the foot is viewed as the dirtiest part of the body across the Gulf, so deliberately pointing it at someone is read as a strong insult rather than a religious rule. This matters in majlis seating and any formal gathering in Saudi Arabia where people sit on low cushions or face each other directly.",
+  "local_tip": "Sit with both feet flat on the floor or crossed at the ankles, never pointed toward another person.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and most impure part of the body; pointing them at someone or touching them with feet is a major insult."
+      "note": "The feet are considered the lowest and most impure part of the body, making it a serious insult to point them at someone."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Sitting with soles facing others is disrespectful, especially in traditional settings like tatami rooms."
+      "note": "Sitting with soles facing others is disrespectful, particularly in traditional settings."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Showing the soles of your feet is generally not considered offensive and may be seen as casual or relaxed in informal settings."
+      "note": "Showing the soles of your feet is generally neutral and only seems informal in unusually formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "What behaviours are rude in the Middle East",
+      "url": "https://commisceo-global.com/blog/what-behaviours-are-rude-in-the-middle-east",
+      "kind": "reference"
+    },
+    {
+      "title": "Ask Ali: Why it is rude to show the soles of your feet",
+      "url": "https://www.thenationalnews.com/arts-culture/ask-ali-why-it-is-rude-to-show-the-soles-of-your-feet-1.295633/",
+      "kind": "reference"
     }
   ]
 }

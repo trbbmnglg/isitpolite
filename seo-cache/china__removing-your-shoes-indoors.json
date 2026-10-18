@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Respectful and expected",
+  "verdict_label": "Expected, hygiene-driven norm",
   "confidence": "high",
-  "explanation": "In China, removing shoes indoors is a widespread custom to keep living spaces clean and show respect, especially in homes. It is considered unhygienic and disrespectful to wear outdoor shoes inside, as they track dirt and germs. This practice is deeply ingrained in Chinese culture, though it may be relaxed in some modern or urban settings.",
-  "local_tip": "Always remove your shoes at the entrance if you see a shoe rack or slippers provided, and wear the indoor slippers offered to you.",
-  "regional_note": "In northern China, where winters are cold, removing shoes is still standard, but thick slippers are often provided; in some rural areas, the rule may be more relaxed for close friends or family.",
+  "explanation": "Removing shoes before entering a Chinese home is the norm nationwide, rooted in keeping floors clean, and hosts typically provide indoor slippers for guests. It isn't a strict rule everywhere, though—some rural households with hard or concrete flooring are more relaxed about it.",
+  "local_tip": "Take your shoes off at the entryway if you see a shoe rack or slippers laid out, and wear whatever indoor slippers your host offers.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is mandatory in homes, many traditional inns, and some restaurants; indoor slippers are used."
+      "note": "Removing shoes is mandatory in homes and many traditional inns, with indoor slippers provided."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; it is polite to ask or follow the host's lead."
+      "note": "Shoe removal is optional and varies by household, so it's best to follow the host's lead."
     },
     {
       "country": "Brazil",
-      "verdict": "rude",
-      "note": "Removing shoes indoors is often seen as too intimate or unhygienic; most people keep shoes on in homes."
+      "verdict": "caution",
+      "note": "Many households keep shoes on indoors, so removing them isn't automatically expected, though some hosts do prefer it."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Shoes or no shoes inside, Chinese haven't always agreed - South China Morning Post",
+      "url": "https://www.scmp.com/magazines/post-magazine/short-reads/article/2187916/shoes-or-inside-chinese-havent-always-been",
+      "kind": "reference"
+    },
+    {
+      "title": "Shoes Off - The World of Chinese",
+      "url": "https://www.theworldofchinese.com/post/shoes-off",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable gesture",
+  "verdict_label": "Positive, rarely misread",
   "confidence": "high",
-  "explanation": "In the United States, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'everything is fine' in everyday contexts. It is commonly used in casual conversation, dining, and business settings without causing offense. However, be aware that it has been co-opted by some extremist groups in recent years, though this remains rare and context-dependent.",
-  "local_tip": "Use the OK sign freely in most casual or professional interactions, but avoid it in highly polarized political or online spaces where misinterpretation could occur.",
+  "explanation": "In everyday American use, the OK sign (thumb and index finger forming a circle) means approval or 'all good' and has carried that meaning for roughly two centuries. Since 2017 the same shape has also been co-opted, ironically and then sincerely, by a small extremist fringe online, but the Anti-Defamation League notes it 'in most contexts is entirely innocuous' - most Americans still read it as the ordinary positive gesture.",
+  "local_tip": "Use it normally; context is what matters, and an isolated hateful usage is the rare exception, not the rule.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a vulgar insult, similar to giving the middle finger."
+      "note": "Considered a vulgar insult, roughly equivalent to giving someone the middle finger."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a homophobic or offensive gesture."
+      "note": "Can carry an offensive connotation there and is best avoided."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly means 'OK' or 'money' depending on context, but is generally positive."
+      "note": "Commonly understood to mean 'OK' or 'money,' and generally reads as a positive gesture."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "OK gesture - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OK_gesture",
+      "kind": "reference"
+    },
+    {
+      "title": "Hand gesture - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hand_gesture",
+      "kind": "reference"
     }
   ]
 }

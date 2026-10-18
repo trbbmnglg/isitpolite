@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
-  "confidence": "medium",
-  "explanation": "In the Philippines, slurping noodles is not considered polite or a sign of enjoyment as it is in some East Asian cultures. Filipino dining etiquette values quiet, respectful eating, and loud slurping may be seen as lacking refinement or manners. However, in casual settings or among close friends, it is often overlooked.",
-  "local_tip": "If you must slurp, do so quietly and apologize lightly if you make noise, especially in formal or family-oriented restaurants.",
-  "regional_note": "In more Westernized urban areas like Metro Manila, younger generations may be more tolerant, while in rural or traditional settings, older Filipinos may find it more offensive.",
+  "verdict_label": "Not a compliment here, but minor",
+  "confidence": "low",
+  "explanation": "No Philippines-specific source was found that directly addresses slurping noodles. Unlike in Japan or Korea, where slurping signals enjoyment, Filipino table manners lean more Western — a legacy of Spanish and American colonial influence that established spoon-and-fork dining as the norm — so quiet eating is generally seen as more refined. This is a soft social preference rather than a hard rule, and it's rarely treated as a real breach, especially among family or close friends.",
+  "local_tip": "Try to eat soup-based noodle dishes like mami or batchoy quietly with a spoon, saving enthusiastic slurping for places where it's a compliment to the chef.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a compliment to the chef and enhances flavor."
+      "note": "Slurping noodles is a compliment to the chef and is thought to enhance the flavor."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is common and shows appreciation, though not as formal as in Japan."
+      "note": "Slurping is common and shows appreciation, though less ritualized than in Japan."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+      "note": "Slurping pasta is considered poor table manners."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Filipino cuisine",
+      "url": "https://en.wikipedia.org/wiki/Filipino_cuisine",
+      "kind": "reference"
     }
   ]
 }

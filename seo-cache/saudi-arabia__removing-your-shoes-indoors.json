@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Respectful indoor custom",
-  "confidence": "high",
-  "explanation": "In Saudi Arabia, removing shoes before entering a home is a deeply ingrained sign of respect and cleanliness, as outdoor footwear is considered to carry dirt and impurities. This practice is especially common in private residences, where the floor may be used for sitting, eating, or praying. Guests are typically expected to follow the host's lead, and shoes are often left at the entrance.",
-  "local_tip": "Always watch what your host does at the door and follow suit; if they remove their shoes, you should too, and never step onto a prayer rug with shoes on.",
-  "regional_note": "In more traditional or conservative households, especially in rural areas or among older generations, shoe removal is strictly observed, while in some modern urban homes or formal gatherings, hosts may allow shoes if they indicate it is fine.",
+  "verdict_label": "Expected in most homes",
+  "confidence": "medium",
+  "explanation": "Removing your shoes before entering a home is a widely observed courtesy in Saudi Arabia, tied to floor seating and respect for the host's space. There is no single universal rule enforced everywhere, so the safest approach is to follow your host's lead at the door and avoid stepping onto a prayer rug with shoes on.",
+  "local_tip": "Watch what your host does at the entrance, and never step onto a prayer rug with your shoes on.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is mandatory in most homes, with specific slippers for different rooms."
+      "note": "Shoe removal is mandatory in most homes, often with dedicated slippers for different rooms."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; many hosts do not expect it unless specified."
+      "note": "Shoe removal is optional and depends on the individual household."
     },
     {
       "country": "Thailand",
       "verdict": "polite",
-      "note": "Removing shoes before entering a home is standard, and it is also required in temples and some shops."
+      "note": "Removing shoes before entering a home is standard, and also required at temples and some shops."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tips for women travelling to Saudi",
+      "url": "https://visitsaudi.com/en/stories/tips-for-women-traveling-to-saudi",
+      "kind": "reference"
+    },
+    {
+      "title": "Countries That Always Take Their Shoes Off Inside",
+      "url": "https://dailypassport.com/countries-always-take-shoes-off-inside/",
+      "kind": "community"
     }
   ]
 }

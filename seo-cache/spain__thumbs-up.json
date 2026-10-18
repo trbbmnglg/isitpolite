@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Safe, positive gesture",
   "confidence": "high",
-  "explanation": "In Spain, the thumbs-up gesture is widely understood as a positive sign meaning 'okay', 'good', or 'well done'. It is commonly used in everyday interactions, including among friends, colleagues, and even in casual service settings, without causing offense.",
-  "local_tip": "Use the thumbs-up to show approval or agreement in casual conversations, but avoid using it in very formal or solemn situations where a verbal response is more appropriate.",
+  "explanation": "The thumbs-up is understood in Spain much as across most of Western Europe and Latin America: approval, agreement, or 'all good.' It's used casually among friends, service staff, and even in business settings without negative connotation, unlike in Greece or parts of the Middle East where it can be read as vulgar.",
+  "local_tip": "Use it freely to signal approval or that everything's fine; it's one of the safest hand gestures to use in Spain.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
       "verdict": "rude",
-      "note": "In Greece, the thumbs-up is considered an offensive insult, similar to showing the middle finger."
+      "note": "Historically read as an insulting gesture roughly equivalent to showing a middle finger, though younger Greeks increasingly use it to mean 'OK'."
     },
     {
-      "country": "Iran",
-      "verdict": "rude",
-      "note": "In Iran, the thumbs-up is a vulgar insult, equivalent to 'up yours'."
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "In some traditional Gulf Arab contexts it can be seen as a crude or insulting gesture, so it's safer to avoid it in formal or conservative settings."
     },
     {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "In parts of Nigeria, the thumbs-up can be interpreted as a rude or dismissive gesture."
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Germans commonly use the raised thumb to mean the number 'one' when counting, in addition to its approval meaning."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Understanding European Gestures",
+      "url": "https://www.ricksteves.com/travel-tips/sightseeing/european-gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Offensive International Travel Hand Gestures",
+      "url": "https://www.globalrescue.com/es/common/blog/detail/offensive-international-travel-hand-gestures/",
+      "kind": "reference"
     }
   ]
 }

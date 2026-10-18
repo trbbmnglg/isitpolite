@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
+  "verdict_label": "Fine casually, not formally",
   "confidence": "medium",
-  "explanation": "In the Netherlands, slurping noodles is typically considered impolite in formal dining settings, as Dutch table manners emphasize quiet eating and minimal noise. However, in casual or informal contexts, especially at Asian restaurants where slurping is understood as a compliment to the chef, it may be overlooked or even appreciated. The Dutch are generally pragmatic and tolerant, so while not standard, it is rarely met with strong disapproval.",
-  "local_tip": "If you are in a Dutch restaurant serving Asian cuisine, it is safer to avoid slurping unless you see locals doing it first.",
-  "regional_note": "In larger, multicultural cities like Amsterdam or Rotterdam, slurping is more accepted in Asian eateries, while in rural or traditional Dutch restaurants it remains frowned upon.",
+  "explanation": "Dutch table manners generally favor quiet, tidy eating, so slurping noodles at a typical formal meal can come across as poor manners. At Asian restaurants, though, where slurping is understood as a nod to the chef, it's generally tolerated or simply unremarkable, especially in the more multicultural cities.",
+  "local_tip": "Save the slurping for casual Asian noodle spots, and eat quietly at more formal Dutch restaurants.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is considered a sign of enjoyment and appreciation for the chef."
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef, not bad manners."
     },
     {
       "country": "United States",
       "verdict": "rude",
-      "note": "Slurping is generally seen as bad table manners and disruptive in most dining settings."
+      "note": "Slurping is generally seen as poor table manners and out of place in most dining settings."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping noodles is often acceptable and can indicate that the food is delicious."
+      "note": "Slurping noodles is common and can signal that the food is delicious."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Are there any cultural do's and don'ts in the Netherlands?",
+      "url": "https://debollenstreek.com/general-questions/cultural-dos-and-donts-the-netherlands/",
+      "kind": "community"
+    },
+    {
+      "title": "Dutch Business Etiquette Guide",
+      "url": "https://trykaiwa.com/blog/dutch-business-etiquette-guide-2026",
+      "kind": "community"
     }
   ]
 }

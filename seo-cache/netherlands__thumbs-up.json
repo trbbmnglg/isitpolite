@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Positive, widely understood gesture",
   "confidence": "high",
-  "explanation": "In the Netherlands, the thumbs-up gesture is widely understood as a sign of approval, agreement, or encouragement, similar to its use in many Western cultures. It is commonly used in everyday interactions, including among friends, colleagues, and in casual public settings. However, it is less formal than a verbal affirmation and may be considered too casual in very formal or traditional contexts.",
-  "local_tip": "Use the thumbs-up to quickly show you agree or like something, but avoid it in formal business meetings or with older, conservative individuals where a verbal response is more appropriate.",
-  "regional_note": "No significant regional variation; the gesture is uniformly understood across the country, though older generations may prefer more traditional forms of acknowledgment.",
+  "explanation": "The thumbs-up is a positive, casual sign of approval across Western Europe, and the Netherlands is no exception — it's used freely among friends, colleagues, and even in business messaging. In a culture that values directness and informality, it is not seen as rude, though it remains a casual gesture best paired with words in very formal settings.",
+  "local_tip": "Use it freely for quick, informal approval, but back it up with words in a formal business setting.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
-      "verdict": "rude",
-      "note": "In Greece, the thumbs-up can be interpreted as an offensive insult, similar to showing the middle finger."
+      "verdict": "caution",
+      "note": "The thumbs-up has historically carried a dismissive or rude connotation in some Greek contexts, though it is now widely used positively, especially among younger people."
     },
     {
-      "country": "Iran",
-      "verdict": "rude",
-      "note": "In Iran, the thumbs-up is considered a vulgar and insulting gesture, equivalent to an obscene hand sign."
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "A raised thumb can simply mean the number 'one' in context, which can cause brief confusion rather than offense."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "In Japan, the thumbs-up generally means 'good' or 'OK,' but it can be seen as slightly informal or even aggressive in very polite company."
+      "note": "The thumbs-up generally reads as 'good' or 'OK', though it's a casual gesture best avoided in very formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thumb signal",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "kind": "reference"
+    },
+    {
+      "title": "List of gestures",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
     }
   ]
 }

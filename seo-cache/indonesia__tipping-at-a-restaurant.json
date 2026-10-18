@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not expected",
-  "confidence": "high",
-  "explanation": "In Indonesia, tipping at restaurants is not mandatory but is considered a kind gesture, especially in urban areas and tourist destinations. Service charges are often included in the bill (usually 5-10%), so additional tipping is optional but welcomed for exceptional service. The practice is more common in upscale or Western-style restaurants than in local warungs (small eateries).",
-  "local_tip": "Leave spare change or round up the bill (e.g., 5,000–20,000 IDR) as a tip if no service charge is added, or simply hand it directly to the server.",
-  "regional_note": "In Bali and other tourist-heavy areas, tipping is more expected due to international influence, while in rural or traditional settings, tipping may be less common or even refused politely.",
+  "verdict_label": "Appreciated but optional",
+  "confidence": "medium",
+  "explanation": "Tipping is not obligatory in Indonesia, and many restaurants already add a 5-10% service charge to the bill. Leaving small change or rounding up is a welcomed, polite gesture for good service, especially in tourist-oriented restaurants in places like Jakarta or Bali. Small local warungs (eateries) generally neither expect nor require a tip.",
+  "local_tip": "Check the bill for an already-included service charge; if there isn't one, rounding up or leaving a modest amount in cash for good service is a nice, optional gesture.",
+  "regional_note": "Tipping is more common and expected in tourist hubs like Bali and Jakarta than at small local warungs or in rural areas.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is generally considered insulting; excellent service is the standard and no extra payment is expected."
+      "note": "Tipping can be seen as insulting; excellent service is the baseline, not something extra to pay for."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is standard and expected for sit-down restaurant service, as waitstaff rely on tips for income."
+      "note": "15-20% is the standard expected tip for sit-down restaurant service."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Service charge is included by law, but leaving small change (5-10%) is a polite gesture for good service."
+      "note": "Service is included by law, but leaving small extra change for good service is a nice touch."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tipping in Indonesia",
+      "url": "https://www.rukita.co/stories/tipping-in-indonesia",
+      "kind": "community"
+    },
+    {
+      "title": "Tipping in Bali: When and How Much to Tip",
+      "url": "https://www.baliholidaysecrets.com/tipping-in-bali/",
+      "kind": "community"
     }
   ]
 }

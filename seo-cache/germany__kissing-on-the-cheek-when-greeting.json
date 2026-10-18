@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Reserved for close friends",
+  "verdict_label": "Handshake is the norm",
   "confidence": "medium",
-  "explanation": "In Germany, cheek kissing is not a standard greeting in social gatherings; it is typically reserved for close friends and family, and even then often limited to one or two kisses. Among acquaintances or at casual parties, a firm handshake or a nod with a smile is more common and avoids awkwardness. Overstepping this boundary can be perceived as overly familiar or intrusive.",
-  "local_tip": "When in doubt, extend your hand for a handshake and follow the other person's lead on physical contact.",
-  "regional_note": "In southern Germany (Bavaria, Baden-Württemberg) and among younger, more cosmopolitan crowds, cheek kissing is slightly more accepted, but still not universal.",
+  "explanation": "A firm handshake is the standard German greeting, used both at first meetings and in ongoing professional relationships. Cheek kissing does happen - usually one or two kisses - but mainly among close friends and family, or more commonly in the southwest near the French border; it isn't a default greeting, so it's best to follow the other person's lead.",
+  "local_tip": "Offer a handshake by default, and let the other person initiate a cheek kiss or hug if that's how they prefer to greet you.",
+  "regional_note": "In the southwest, near the French border, two-cheek-kiss greetings are somewhat more common than in the rest of Germany.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Cheek kissing (la bise) is the standard greeting among friends and acquaintances, with number of kisses varying by region."
+      "note": "Cheek kissing ('la bise') is the standard greeting among friends and acquaintances, with the number of kisses varying by region."
     },
     {
       "country": "United Kingdom",
       "verdict": "caution",
-      "note": "Cheek kissing is common among friends but often limited to one kiss; a handshake or hug is safer for first meetings."
+      "note": "A single cheek kiss is common among friends, but a handshake is the safer choice for first meetings or formal settings."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact in greetings is avoided; bowing is the traditional and expected greeting."
+      "verdict": "caution",
+      "note": "Physical greetings like cheek kissing are unusual and can cause visible discomfort; a bow is the traditional and expected greeting."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Germany Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/germany-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "German Culture - Greetings - Cultural Atlas",
+      "url": "https://culturalatlas.sbs.com.au/German-culture/German-culture-greetings",
+      "kind": "reference"
     }
   ]
 }

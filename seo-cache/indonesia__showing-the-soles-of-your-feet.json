@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In Indonesia, the feet are considered the lowest and dirtiest part of the body, and showing the soles of your feet to someone is a serious insult, especially in social gatherings. This stems from cultural and religious beliefs (predominantly Islamic) that emphasize respect for others by keeping feet pointed away. Even accidentally pointing your foot toward someone or a sacred object is seen as offensive.",
-  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and never point your feet toward another person, especially elders or religious items.",
-  "regional_note": "In strongly Islamic areas like Aceh, the rule is even stricter; in more secular or tourist-heavy regions like Bali, locals may be more forgiving of foreigners but still appreciate the effort.",
+  "verdict_label": "Keep feet pointed away",
+  "confidence": "medium",
+  "explanation": "Indonesians traditionally regard the feet as the lowest and least respectful part of the body, so showing the soles of your feet to someone, resting your feet on furniture, or pointing your feet at a person is seen as disrespectful. The custom is rooted in broader Islamic and Southeast Asian etiquette around keeping feet out of view in social settings. It's treated as a genuine breach of manners rather than a minor slip.",
+  "local_tip": "Sit with your feet flat on the floor or with knees stacked rather than ankle-over-knee, and never rest your feet on tables or chairs.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest body part; pointing the soles at someone or touching them with feet is deeply offensive."
+      "note": "The feet are the lowest body part; pointing the soles at someone or touching them with a foot is deeply offensive."
     },
     {
       "country": "Egypt",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is a grave insult, as feet are seen as unclean in Arab culture."
+      "note": "Showing the soles of your feet is a serious insult, as feet are seen as unclean."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "While less severe than in Southeast Asia, pointing your feet at someone in a formal setting (e.g., during a bow) is considered disrespectful."
+      "note": "Pointing feet at someone or at religious objects is considered poor manners, though less severe than in Southeast Asia."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Indonesian Culture - Gestures (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Indonesian Etiquette: How You Can Avoid Causing Offense",
+      "url": "https://www.worldnomads.com/explore/southeast-asia/indonesia/indonesia-etiquette-how-you-can-avoid-causing-offence",
+      "kind": "reference"
     }
   ]
 }

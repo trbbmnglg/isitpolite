@@ -1,25 +1,33 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Refusing food is impolite",
-  "confidence": "high",
-  "explanation": "In Indonesia, especially when visiting a family, refusing food offered by a host is considered deeply impolite because hospitality and sharing meals are central to social bonding. It can be interpreted as rejecting the host's generosity or friendship. Even if you are full, it is customary to accept at least a small portion to show respect.",
-  "local_tip": "Always accept a small amount of food or drink, and if you must decline, do so politely by saying 'Terima kasih, sudah kenyang' (Thank you, I'm full) after initially accepting a bite.",
-  "regional_note": "In strongly Muslim areas like Aceh, refusal may be seen as even more offensive due to the religious emphasis on generosity; in urban, younger families, a polite decline may be more tolerated but still best avoided.",
+  "verdict": "caution",
+  "verdict_label": "Decline gently, not bluntly",
+  "confidence": "low",
+  "explanation": "Indonesian social etiquette places a high value on indirectness and avoiding anything that could embarrass either party, so an abrupt, blunt refusal of food from a host can come across as impolite. Accepting a small portion, or declining warmly with thanks rather than a flat no, is the safer approach. Dedicated sourcing on food-refusal customs specifically was thin this session, so this is treated as an application of a broader, better-documented etiquette principle rather than a hard rule.",
+  "local_tip": "If you're full, accept a small token amount or decline warmly with thanks rather than a flat, blunt no.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Refusing food is generally polite if done with proper excuses, but accepting is still preferred to show appreciation."
+      "note": "A polite refusal with a proper excuse is acceptable, though accepting is still often preferred."
     },
     {
       "country": "Italy",
-      "verdict": "rude",
-      "note": "Refusing food from a host, especially in a family setting, is often seen as rejecting their hospitality and affection."
+      "verdict": "caution",
+      "note": "Refusing food from a host, especially family, can feel like rejecting their hospitality."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "It is generally acceptable to politely decline food, especially if you have dietary restrictions or are full, without causing offense."
+      "note": "Politely declining food, including for dietary reasons, is generally fine and not taken personally."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette in Indonesia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Indonesia",
+      "kind": "reference"
     }
   ]
 }

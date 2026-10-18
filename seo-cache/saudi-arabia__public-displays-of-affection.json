@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Avoid all public affection",
-  "confidence": "high",
-  "explanation": "In Saudi Arabia, public displays of affection (PDA) such as hugging, kissing, or even holding hands between unmarried couples are considered highly inappropriate and can lead to legal consequences, including fines or detention. Social gatherings are typically gender-segregated, and any physical contact between unrelated men and women is strictly forbidden under the country's interpretation of Islamic law. Even married couples are expected to refrain from PDA in public settings to maintain modesty and respect local norms.",
-  "local_tip": "When attending a social gathering, greet same-gender individuals with a handshake (if offered) and avoid any physical contact with the opposite gender unless they initiate it.",
-  "regional_note": "In more liberal urban areas like Jeddah or Riyadh's expat communities, very subtle hand-holding among married couples may occasionally be overlooked, but it remains risky and is not the norm.",
+  "verdict_label": "Illegal under decency law",
+  "confidence": "medium",
+  "explanation": "Saudi Arabia's 2019 Public Decency Regulations explicitly list public displays of affection as a finable offence, alongside immodest dress and unauthorized photography, with reported fines in the range of roughly 50 to 6,000 riyals. This sits alongside a separate track of 2019-era social reforms that relaxed strict gender segregation in cinemas, concerts, and some mixed venues, so 'everything is gender-segregated' is no longer an accurate summary — but affection in public specifically remains a punishable decency violation.",
+  "local_tip": "Keep any physical affection, including extended hand-holding, for private spaces regardless of marital status.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "United Arab Emirates",
       "verdict": "caution",
-      "note": "PDA is generally frowned upon, but holding hands among married couples is tolerated in tourist areas; kissing in public can lead to fines or deportation."
+      "note": "Public affection carries real legal risk, with past cases resulting in arrest and jail time, though enforcement is inconsistent."
     },
     {
       "country": "Turkey",
       "verdict": "caution",
-      "note": "PDA is common in cosmopolitan Istanbul, but in conservative rural areas or during religious periods, it is best avoided."
+      "note": "PDA is common in cosmopolitan Istanbul but best avoided in more conservative or rural areas."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "PDA is rare in public; even holding hands can make locals uncomfortable, though it is more accepted among young couples in urban settings."
+      "note": "Public affection is uncommon and can draw uncomfortable looks even among young couples."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "All you need to know about the new Saudi public decency code",
+      "url": "https://www.arabnews.com/node/1561206/amp",
+      "kind": "reference"
+    },
+    {
+      "title": "Saudi Arabia defangs religious police but plans to enforce 'decency'",
+      "url": "https://www.egyptindependent.com/saudi-de-fangs-religious-police-but-plans-to-enforce-decency/",
+      "kind": "reference"
     }
   ]
 }

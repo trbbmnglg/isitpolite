@@ -2,24 +2,42 @@
   "verdict": "rude",
   "verdict_label": "Considered disrespectful",
   "confidence": "high",
-  "explanation": "In Turkey, beckoning someone with your finger is considered rude and demeaning, as it is associated with calling a dog or a servant. The gesture implies superiority and disrespect, especially when directed at elders or strangers. A more acceptable way to call someone is to use a hand wave with the palm facing down or a nod of the head.",
-  "local_tip": "Instead of using your finger, wave your hand with the palm facing down and fingers together, or simply nod your head to signal someone to come.",
-  "regional_note": "In more rural or conservative areas, the gesture may be even more strongly condemned, while younger, urban Turks might be slightly more tolerant but still find it impolite.",
+  "explanation": "Beckoning someone by curling your index finger palm-up is considered rude in Turkey, since it's associated with calling animals rather than people. The respectful way to call someone over is to extend your hand palm-down and make a scooping or scratching motion toward yourself.",
+  "local_tip": "Use a palm-down scooping motion instead of a curling finger to call someone over.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude and is used only for animals or inferiors; use a full hand wave with palm down."
+      "note": "Beckoning with the index finger is very rude and used only for animals or inferiors; use a full hand wave, palm down."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a finger is highly offensive and can be seen as a challenge; use a gentle hand motion with palm down."
+      "note": "Beckoning with a finger is highly offensive; use a gentle hand motion with palm down instead."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common among friends, it can be seen as aggressive or condescending in formal or professional settings."
+      "note": "Common among friends, but can seem aggressive or condescending in formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish Culture: Communication",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Cultural Gestures & Body Language",
+      "url": "https://trykaiwa.com/blog/turkish-cultural-gestures-body-language-realistic",
+      "kind": "community"
+    },
+    {
+      "title": "7 gestures and phrases in Turkish culture",
+      "url": "https://cumhuriyet.com.tr/cumhuriyet-daily/galeri-7-gestures-and-phrases-in-turkish-culture-2105509",
+      "kind": "reference"
     }
   ]
 }

@@ -125,8 +125,33 @@ function verdictCard(rec) {
         <div class="card-section"><h2>Local Tip</h2><p class="local-tip-text">${esc(rec.local_tip)}</p></div>
         ${also ? `<div class="card-section"><h2>How it compares elsewhere</h2><div class="also-check-grid">${also}</div></div>` : ''}
       </div>
-      <div class="result-footnote">AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.</div>
+      <div class="result-footnote">${rec.reviewed
+        ? 'AI-drafted and fact-checked against the sources below — customs vary between people and regions.'
+        : 'AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.'}</div>
     </article>`;
+}
+
+function humanDate(iso) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return isNaN(d) ? iso : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+}
+
+function sourceItem(s, rel) {
+  let host = '';
+  try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (_) { return ''; }
+  return `<li><a href="${esc(s.url)}" target="_blank" rel="${rel}">${esc(s.title)}</a> <span class="seo-source-host">${esc(host)}</span></li>`;
+}
+
+function sourcesBlock(rec) {
+  if (!rec.reviewed || !Array.isArray(rec.sources) || rec.sources.length === 0) return '';
+  const refs = rec.sources.filter(s => s.kind !== 'community').map(s => sourceItem(s, 'noopener')).join('');
+  const community = rec.sources.filter(s => s.kind === 'community').map(s => sourceItem(s, 'nofollow ugc noopener')).join('');
+  return `<section class="seo-sources" aria-labelledby="sources-title">
+      <h2 class="seo-related-title" id="sources-title">Sources</h2>
+      ${refs ? `<ul class="seo-source-list">${refs}</ul>` : ''}
+      ${community ? `<h3 class="seo-sources-sub">Traveler discussions</h3><ul class="seo-source-list">${community}</ul>` : ''}
+      <p class="seo-reviewed">Last reviewed <time datetime="${esc(rec.reviewed)}">${esc(humanDate(rec.reviewed))}</time></p>
+    </section>`;
 }
 
 // ── Pair page: /etiquette/{country}/{gesture}/ ───────────────────────────
@@ -142,7 +167,10 @@ export function renderPairPage(pair, rec) {
   // Related: other gestures in this country, and same gesture in other countries
   const sameCountry = GESTURES.filter(g => gestureSlug(g) !== gSlug).slice(0, 6).map(g =>
     `<a class="seo-rel-link" href="/etiquette/${cSlug}/${gestureSlug(g)}/">${esc(g.short)} in ${esc(country)}</a>`).join('');
-  const otherCountries = COUNTRIES.filter(c => countrySlug(c) !== cSlug).slice(0, 6).map(c =>
+  // Rotate the start point per page so every country gets inbound links, not just the first six.
+  const others = COUNTRIES.filter(c => countrySlug(c) !== cSlug);
+  const start = (COUNTRIES.findIndex(c => countrySlug(c) === cSlug) * 6 + GESTURES.findIndex(g => gestureSlug(g) === gSlug)) % others.length;
+  const otherCountries = others.slice(start).concat(others.slice(0, start)).slice(0, 6).map(c =>
     `<a class="seo-rel-link" href="/etiquette/${countrySlug(c)}/${gSlug}/">${esc(gesture.short)} in ${esc(c)}</a>`).join('');
 
   const appLink = `/?g=${encodeURIComponent(gesture.display)}&c=${encodeURIComponent(country)}&ctx=${encodeURIComponent(gesture.context)}`;
@@ -169,6 +197,14 @@ export function renderPairPage(pair, rec) {
       mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     },
   ];
+  if (rec.reviewed) {
+    jsonld.push({
+      '@context': 'https://schema.org', '@type': 'WebPage',
+      url: canonical, name: title, dateModified: rec.reviewed,
+      ...(Array.isArray(rec.sources) && rec.sources.length
+        ? { citation: rec.sources.filter(s => s.kind !== 'community').map(s => s.url) } : {}),
+    });
+  }
 
   return `${head({ title, description, canonical, jsonld })}
 ${header()}
@@ -184,6 +220,7 @@ ${header()}
       <h1>${esc(question.charAt(0).toUpperCase() + question.slice(1))}</h1>
     </div>
     ${verdictCard(rec)}
+    ${sourcesBlock(rec)}
     <section class="seo-faq">
       <h2 class="seo-related-title">Frequently asked</h2>
       ${faqHtml}

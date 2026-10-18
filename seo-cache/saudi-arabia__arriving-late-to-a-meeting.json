@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Punctuality expected, but flexibility common",
+  "verdict_label": "Patience expected, punctuality too",
   "confidence": "medium",
-  "explanation": "In Saudi business culture, arriving exactly on time is generally expected for formal meetings, especially with international firms or government officials. However, local customs often allow a 10-15 minute grace period, and meetings may start with extended greetings and coffee. Deliberately arriving late without a valid reason can be seen as disrespectful or unprofessional.",
-  "local_tip": "Aim to arrive on time, but be prepared to wait for your Saudi counterpart if they are delayed, and never show annoyance.",
-  "regional_note": "In more traditional or family-run businesses, especially outside major cities like Riyadh or Jeddah, a looser approach to time may be observed, while multinational companies often enforce strict punctuality.",
+  "explanation": "Saudi business culture is genuinely more flexible about scheduling, and it's common for a meeting to start late or be preceded by extended coffee and conversation before business begins. Foreign visitors are still expected to arrive on time themselves as a sign of respect, even while being patient if their Saudi counterparts run late.",
+  "local_tip": "Arrive on time yourself, and treat any wait as normal rather than a sign of disrespect toward you.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is critical; arriving even one minute late can be seen as a serious lack of respect."
+      "note": "Punctuality is taken very seriously; even a one-minute delay can be seen as disrespectful."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "Arriving 15-30 minutes late to a business meeting is often acceptable and even expected as a sign of flexibility."
+      "note": "Arriving 15-30 minutes late to a meeting is common and generally accepted."
     },
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Punctuality is a strict cultural norm; lateness is considered disrespectful and unprofessional."
+      "note": "Strict punctuality is expected, and lateness is seen as unprofessional."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian Culture – Communication",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "A guide to business etiquette in Saudi Arabia",
+      "url": "https://cibtvisas.com/blog/business-etiquette-saudi-arabia",
+      "kind": "community"
     }
   ]
 }

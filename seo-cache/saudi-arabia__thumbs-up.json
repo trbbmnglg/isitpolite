@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally positive but ambiguous",
-  "confidence": "medium",
-  "explanation": "In Saudi Arabia, the thumbs-up gesture is widely understood as a positive sign due to Western influence, but it can also be interpreted as offensive or vulgar in some traditional or conservative circles, especially if used with a quick upward motion. The gesture is not inherently rude, but its meaning can vary based on context and the relationship between the people involved.",
-  "local_tip": "Use a verbal compliment or a slight nod instead of the thumbs-up when interacting with older or more conservative Saudis to avoid any unintended offense.",
-  "regional_note": "In more liberal urban areas like Jeddah or Riyadh's expat communities, the thumbs-up is generally accepted, while in rural or highly conservative regions it may be viewed with suspicion or as a rude gesture.",
+  "verdict_label": "Meaning has shifted, stay cautious",
+  "confidence": "low",
+  "explanation": "The thumbs-up was historically viewed as a rude, almost obscene gesture in parts of the Arab world, but decades of Western media exposure have made it widely understood as simply positive to many Saudis today. When then-candidate Donald Trump gave a thumbs-up during a 2017 visit to Saudi Arabia, commentary on whether it was offensive came mostly from Western observers rather than Saudis themselves, which illustrates how contested and generation-dependent the gesture's reception really is.",
+  "local_tip": "With elders or in formal and religious settings, use a verbal acknowledgment rather than a thumbs-up to be safe.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "In Iran, the thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+      "note": "The thumbs-up is still widely treated as an obscene insult there."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "In Japan, the thumbs-up means 'good' or 'OK' and is used positively, especially among younger people."
+      "note": "It's understood as 'good' or 'OK' and used positively, especially among younger people."
     },
     {
       "country": "Greece",
-      "verdict": "rude",
-      "note": "In Greece, the thumbs-up is a highly offensive gesture, often used to tell someone to 'go to hell' or as a sexual insult."
+      "verdict": "caution",
+      "note": "An abrupt or thrusting thumbs-up can be read as rude rather than complimentary by some."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Trump Made A 'Rude' Thumbs Up Sign In Saudi Arabia — But Really Everyone Needs To Calm Down",
+      "url": "https://www.buzzfeednews.com/article/davidmack/two-trumps-up",
+      "kind": "reference"
+    },
+    {
+      "title": "Saudi Arabian Culture – Communication",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-communication",
+      "kind": "reference"
     }
   ]
 }

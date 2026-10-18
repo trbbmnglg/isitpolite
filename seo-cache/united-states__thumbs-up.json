@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Clear, positive, everyday gesture",
   "confidence": "high",
-  "explanation": "In the United States, the thumbs-up gesture is widely understood as a sign of approval, agreement, or encouragement in everyday contexts. It is commonly used in casual conversation, social media, and even some professional settings without causing offense.",
-  "local_tip": "Use the thumbs-up freely in casual interactions, but avoid it in very formal or solemn situations where verbal communication is more appropriate.",
+  "explanation": "In the US, the thumbs-up is a universally understood positive gesture meaning approval, agreement, or 'all good,' used casually among friends, coworkers, and strangers alike (e.g., signaling OK to a driver). It carries no negative connotation in any American context and is just as common online as in person.",
+  "local_tip": "Use it freely in casual and most professional settings; it is rarely if ever misread negatively in the US.",
   "regional_note": "",
   "also_check": [
     {
-      "country": "Greece",
-      "verdict": "rude",
-      "note": "Considered an insult similar to the middle finger, especially when thrust upward."
-    },
-    {
       "country": "Iran",
       "verdict": "rude",
-      "note": "Equivalent to an obscene gesture, akin to showing the middle finger."
+      "note": "Traditionally read as a vulgar insult roughly equivalent to an obscene gesture, not as approval."
     },
     {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "Often interpreted as a rude or insulting gesture, especially in the northern regions."
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Can be used to mean the number 'one' when counting, so context determines whether it reads as approval or a numeral."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "Understood the same way as in the US, as a casual sign of approval, with no negative connotation."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thumb signal - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "kind": "reference"
+    },
+    {
+      "title": "Hand gesture - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hand_gesture",
+      "kind": "reference"
     }
   ]
 }

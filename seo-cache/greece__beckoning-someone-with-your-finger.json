@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Insulting and demeaning",
-  "confidence": "high",
-  "explanation": "In Greece, beckoning someone with a curled index finger (palm up) is considered highly insulting and demeaning, as it mimics the gesture used to call dogs or inferiors. This action can provoke anger or offense, especially in traditional or older circles. It is best avoided entirely in everyday interactions.",
-  "local_tip": "To call someone politely, extend your hand with palm facing down and gently wave all fingers together toward you.",
-  "regional_note": "In urban areas among younger generations, the gesture may be less inflammatory but is still widely viewed as rude.",
+  "verdict": "caution",
+  "verdict_label": "Seen as brusque, not codified",
+  "confidence": "medium",
+  "explanation": "Greece doesn't have a single codified, widely-cited taboo against beckoning with a curled index finger the way it does for the moutza or the OK sign — it isn't named in the main Greek-gesture guides. That said, it fits the broader European pattern where a curled 'come here' finger (especially palm-up) can come across as brusque or commanding, with an open-hand, palm-down wave seen as the more polite way to call someone over.",
+  "local_tip": "To call someone over politely, use an open-hand, palm-down wave rather than a single curled finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a curled finger is considered very rude and can be seen as a challenge or insult."
+      "note": "Curled-finger beckoning is considered very rude and can be seen as a challenge."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered disrespectful; use a gentle wave with all fingers together, palm down."
+      "note": "Beckoning with one finger is disrespectful; a palm-down hand wave is preferred."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual settings, it can be seen as condescending or aggressive in formal or professional contexts."
+      "note": "Common casually, but can seem condescending in formal or professional contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "List of gestures",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Avoid This Common American Gesture At All Costs When Traveling In Greece",
+      "url": "https://www.islands.com/1784578/avoid-common-hand-america-gesture-traveling-greece-country/",
+      "kind": "reference"
     }
   ]
 }

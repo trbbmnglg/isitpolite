@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite gesture",
-  "confidence": "high",
-  "explanation": "In France, pointing directly at someone or something with the index finger is considered rude and aggressive, as it resembles an accusatory or commanding gesture. The polite alternative is to gesture with an open hand or use a subtle nod of the head. This norm is widely observed across all social settings in France.",
-  "local_tip": "Instead of pointing, gesture with your whole hand, palm up, or use a slight chin lift to indicate a person or object.",
+  "verdict_label": "Less polite, not taboo",
+  "confidence": "medium",
+  "explanation": "Pointing with a single finger isn't a serious taboo in France, but it's seen as a bit brusque or childish. French etiquette favors gesturing with an open hand, or a subtle nod or chin lift, to indicate people or objects, especially in polite or formal company.",
+  "local_tip": "When indicating someone or something, use an open hand or a slight nod rather than a single pointed finger.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is very rude; use an open hand or a gentle wave instead."
+      "note": "Pointing at a person with the index finger is considered quite rude; gesturing with an open hand is the polite alternative."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Pointing is acceptable in casual contexts but can be seen as confrontational in formal settings."
+      "note": "Pointing is acceptable casually but can read as confrontational or rude in formal settings."
     },
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or an open hand to indicate direction."
+      "note": "Pointing with the index finger is considered offensive; the thumb or an open hand is used instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Must-Know French Gestures and Body Language for Travelers",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/6/21/must-know-french-gestures-and-body-language-for-travelers",
+      "kind": "community"
     }
   ]
 }

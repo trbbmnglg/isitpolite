@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful foot display",
-  "confidence": "high",
-  "explanation": "In Singapore's multicultural society, showing the soles of your feet is considered offensive because the feet are viewed as the lowest and dirtiest part of the body, especially in Malay and Indian cultures. This gesture can imply disrespect, as if you are symbolically 'stamping' on the other person or their space. It is particularly inappropriate in social gatherings where maintaining mutual respect is key.",
-  "local_tip": "Always sit with your feet flat on the floor or crossed at the ankles, and never point your feet at people, religious objects, or food.",
-  "regional_note": "This rule is strongest among Malay-Muslim and Indian-Hindu communities; younger, more Westernized Singaporeans may be less strict but still view it as impolite.",
+  "verdict": "caution",
+  "verdict_label": "Mind your feet, context matters",
+  "confidence": "medium",
+  "explanation": "Showing the soles of your feet or pointing them at someone is considered impolite mainly within Singapore's Malay and Indian communities, where feet are viewed as the lowest, least clean part of the body. It is not a universal taboo across all Singaporeans, especially in casual or Chinese-majority secular settings, but it's safest to keep your feet down and avoid pointing them at people or religious items.",
+  "local_tip": "When sitting on the floor or low seating in a Malay or Indian home, tuck your feet under you or sit cross-legged rather than stretching your legs out toward others.",
+  "regional_note": "The taboo is strongest in Malay-Muslim and Indian-Hindu households (feet seen as unclean, never pointed at people, prayer mats, or images); it is much less observed among Chinese or Westernized Singaporeans in everyday settings.",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest part of the body; pointing them at people or Buddha images is a major taboo."
+      "note": "The feet are the lowest part of the body; pointing them at a person or a Buddha image is a serious taboo."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Showing soles is generally neutral or casual; putting feet up on furniture can be seen as relaxed, not offensive."
+      "note": "Showing the soles of your feet, even on furniture, is seen as casual rather than offensive."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet, especially while sitting cross-legged, is highly insulting as feet are considered unclean."
+      "note": "Showing the soles of your feet to someone, such as while sitting cross-legged, is considered a clear insult."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Malaysian Culture - Communication (Cultural Atlas, shared Malay cultural norms)",
+      "url": "https://culturalatlas.sbs.com.au/malaysian-culture/malaysian-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural etiquette tips for travelling South East Asia - SilverKris (Singapore Airlines)",
+      "url": "https://silverkris.singaporeair.com/inspiration/nature-adventure/travel-tips/cultural-etiquette-tips-travelling-south-east-asia/",
+      "kind": "reference"
     }
   ]
 }

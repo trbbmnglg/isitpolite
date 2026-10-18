@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid pointing directly",
+  "verdict_label": "Fine for directions, not people",
   "confidence": "medium",
-  "explanation": "In the Netherlands, pointing with your index finger is generally considered blunt or mildly impolite, especially in social or formal settings. The Dutch value directness but prefer subtle gestures, such as nodding or using an open hand, to indicate direction or a person. This is rooted in a cultural preference for egalitarian and non-confrontational interaction.",
-  "local_tip": "Instead of pointing, gesture with your whole hand or chin to indicate a person or direction.",
-  "regional_note": "In more rural or conservative areas, pointing may be seen as ruder than in cosmopolitan cities like Amsterdam.",
+  "explanation": "Pointing at objects or to give directions is unremarkable in the Netherlands, much like elsewhere in Western Europe — Dutch culture's famous directness means gesturing plainly isn't seen as impolite. Pointing directly at a person, however, can come across as confrontational, which is a near-universal mild courtesy rather than anything uniquely Dutch.",
+  "local_tip": "Point at objects or directions freely, but avoid pointing your finger directly at a person.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with a finger is very rude; use an open hand instead."
+      "note": "Pointing with a single finger, especially at a person, is considered rude; an open hand is used instead."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Pointing is common and acceptable in casual contexts."
+      "note": "Pointing at objects or directions is common and unremarkable in casual contexts."
     },
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or chin."
+      "note": "Pointing with the index finger, especially at a person, is considered offensive; the thumb is used instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "List of gestures",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Are there any cultural do's and don'ts in the Netherlands?",
+      "url": "https://debollenstreek.com/general-questions/cultural-dos-and-donts-the-netherlands/",
+      "kind": "community"
     }
   ]
 }

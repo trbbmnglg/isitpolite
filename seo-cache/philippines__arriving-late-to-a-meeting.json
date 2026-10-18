@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Arrive on time, not late",
-  "confidence": "high",
-  "explanation": "In Philippine business culture, punctuality is increasingly valued, especially in formal meetings with foreign partners or in multinational companies. However, 'Filipino time' — a cultural tendency toward relaxed punctuality — still exists in some local contexts, so arriving 5-10 minutes late may be tolerated but is not considered polite. To show respect, it is best to arrive on time or slightly early, as lateness can be perceived as disrespectful or unprofessional.",
-  "local_tip": "Arrive 5-10 minutes early to demonstrate respect and professionalism, especially for meetings with senior executives or foreign clients.",
-  "regional_note": "In more rural areas or traditional family-run businesses, a 10-15 minute grace period is more common, but urban corporate settings expect punctuality.",
+  "verdict_label": "Fine socially, not in business",
+  "confidence": "medium",
+  "explanation": "Social gatherings in the Philippines often start later than the stated time — widely known as 'Filipino time' — and arriving around 30 minutes late to a purely social event is culturally tolerated. Business meetings are different: punctuality is increasingly expected, especially with multinational companies or foreign partners, so the stated meeting time should be treated as firm.",
+  "local_tip": "For business meetings, arrive on time or a few minutes early; save the relaxed 'Filipino time' mindset for purely social occasions.",
+  "regional_note": "In more rural areas or traditional family-run businesses, a short grace period is more tolerated, but urban corporate settings expect punctuality.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is strictly observed; arriving even one minute late is considered disrespectful."
+      "note": "Punctuality is strictly observed; arriving even a few minutes late to a meeting is considered disrespectful."
     },
     {
       "country": "Brazil",
       "verdict": "caution",
-      "note": "A 15-minute delay is often acceptable in social settings, but business meetings expect punctuality."
+      "note": "A short delay is often tolerated socially, but business meetings still expect punctuality."
     },
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Punctuality is a sign of reliability; lateness is seen as unprofessional and rude."
+      "note": "Punctuality signals reliability; lateness is seen as unprofessional."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Filipino Culture and Traditions: Complete Guide",
+      "url": "https://bestphilippinestravelguide.com/filipino-culture-and-traditions/",
+      "kind": "community"
+    },
+    {
+      "title": "Philippines Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/philippines-guide",
+      "kind": "reference"
     }
   ]
 }

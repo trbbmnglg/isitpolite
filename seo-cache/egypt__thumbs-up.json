@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use with care",
-  "confidence": "medium",
-  "explanation": "In Egypt, the thumbs-up gesture generally conveys approval or agreement, similar to many Western cultures, but it can be interpreted as offensive if done with a jerking motion or in a confrontational context. It is widely used in everyday interactions, though older or more conservative individuals may view it as too informal or even vulgar in certain settings. The gesture is generally safe among younger, urban populations but should be avoided in formal or religious contexts.",
-  "local_tip": "Use a verbal affirmation like 'tayyib' (okay) or a nod instead of the thumbs-up when in doubt, especially with elders or in conservative settings.",
-  "regional_note": "In rural Upper Egypt and among older generations, the thumbs-up may be seen as less polite or even rude; younger Cairenes use it freely.",
+  "verdict_label": "Context-dependent, use carefully",
+  "confidence": "low",
+  "explanation": "The thumbs-up was historically viewed as a rude, almost obscene gesture in parts of the Arab world, though Western media exposure has since made it widely read as simply positive by many Egyptians. Because its reception genuinely varies by generation, setting, and manner of use, it's best treated as situational rather than clearly safe or clearly risky.",
+  "local_tip": "With elders or in formal or religious settings, use a verbal acknowledgment rather than a thumbs-up.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "The thumbs-up is considered an obscene insult, equivalent to the middle finger."
+      "note": "The thumbs-up is still widely treated there as an obscene insult."
     },
     {
       "country": "Greece",
-      "verdict": "rude",
-      "note": "The thumbs-up is an offensive gesture, especially when thrust upward."
+      "verdict": "caution",
+      "note": "An abrupt, thrusting thumbs-up can be read as rude rather than complimentary by some."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "The thumbs-up is a positive sign meaning 'good' or 'OK', though less common than in the West."
+      "note": "It's understood positively as 'good' or 'OK', though used less often than in the West."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Egyptian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Offensive International Travel Hand Gestures",
+      "url": "https://www.globalrescue.com/common/blog/detail/offensive-international-travel-hand-gestures/",
+      "kind": "community"
     }
   ]
 }

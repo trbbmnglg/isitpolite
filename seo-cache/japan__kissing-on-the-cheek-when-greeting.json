@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid cheek kissing",
-  "confidence": "high",
-  "explanation": "In Japan, greeting customs prioritize bowing or a simple handshake, and kissing on the cheek is not a traditional or common practice. It can be perceived as overly intimate or invasive, especially in a social gathering where personal space is valued. Even among friends, cheek kissing is rare and may cause discomfort unless you are in a very Westernized or international context.",
-  "local_tip": "Stick to a polite bow (with hands at your sides) or a brief handshake, and follow the lead of your Japanese hosts.",
-  "regional_note": "In major cities like Tokyo or among younger, globally connected individuals, a light cheek kiss might be accepted in very informal settings, but it remains the exception.",
+  "verdict_label": "Not a standard greeting",
+  "confidence": "medium",
+  "explanation": "Bowing — sometimes paired with a handshake in business settings — is the standard Japanese greeting, and cheek kissing isn't part of everyday social custom. It mainly appears in formal diplomatic contexts, like meetings between heads of state, so using it in an ordinary social setting can come across as oddly intimate or foreign.",
+  "local_tip": "Default to a bow, or a soft handshake if one is offered first, and don't initiate a cheek kiss unless your host clearly does.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "La bise (cheek kissing) is a standard greeting among friends and acquaintances, typically varying by region in number of kisses."
-    },
-    {
-      "country": "United Arab Emirates",
-      "verdict": "caution",
-      "note": "Cheek kissing between men is common among close friends, but between opposite genders in public is generally avoided unless family."
+      "note": "La bise (cheek kissing) is a standard greeting among friends and acquaintances, varying by region in number of kisses."
     },
     {
       "country": "South Korea",
-      "verdict": "rude",
-      "note": "Cheek kissing is not a traditional greeting and is considered overly familiar; bowing or a handshake is preferred."
+      "verdict": "caution",
+      "note": "Cheek kissing is not a traditional greeting and can feel overly familiar; bowing or a handshake is preferred."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "A single cheek kiss is a common, friendly greeting, especially among women or in social settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cheek kissing",
+      "url": "https://en.wikipedia.org/wiki/Cheek_kissing",
+      "kind": "reference"
+    },
+    {
+      "title": "How to Shake Hands with the Japanese",
+      "url": "https://commisceo-global.com/articles/how-to-shake-hands-with-the-japanese/",
+      "kind": "reference"
     }
   ]
 }

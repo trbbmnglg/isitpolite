@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Avoid head patting",
+  "verdict_label": "Never touch the head",
   "confidence": "high",
-  "explanation": "In Indonesia, the head is considered the most sacred part of the body, housing the soul. Patting someone on the head, especially a child or an adult, is deeply disrespectful and can cause offense, as it implies a violation of personal dignity and spiritual beliefs.",
-  "local_tip": "Instead of patting the head, offer a friendly nod or a gentle touch on the shoulder if you need to get someone's attention.",
-  "regional_note": "In strongly Islamic areas like Aceh, the prohibition is even more strictly observed, while in more secular urban settings younger generations may be slightly more tolerant, but the gesture remains widely inappropriate.",
+  "explanation": "The head is widely considered the most sacred part of the body in Indonesia, believed by many to be where the spirit resides, so touching someone else's head — including a child's — is seen as disrespectful. This view is reinforced by Islamic tradition in the country's Muslim-majority areas. Even a well-meaning pat can cause real offense.",
+  "local_tip": "Avoid touching anyone's head, even affectionately with children; use a smile, a nod, or a light touch on the shoulder instead.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the highest and most sacred part of the body; touching it is a major faux pas."
+      "note": "The head is considered the body's highest and most sacred point; touching it is a major faux pas."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting a child's head is sometimes acceptable, but patting an adult's head is generally seen as condescending or disrespectful."
+      "note": "Patting a child's head is sometimes tolerated, but touching an adult's head is seen as condescending."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Patting a child's head is often seen as affectionate or encouraging, though context matters with adults."
+      "note": "Patting a child's head is often read as affectionate or encouraging."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette in Indonesia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Indonesia",
+      "kind": "reference"
+    },
+    {
+      "title": "Indonesian Culture - Gestures (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-gestures",
+      "kind": "reference"
     }
   ]
 }

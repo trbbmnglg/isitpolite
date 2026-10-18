@@ -1,10 +1,10 @@
 {
   "verdict": "polite",
-  "verdict_label": "Gift-giving is expected",
-  "confidence": "high",
-  "explanation": "In Japanese business culture, gift-giving (o-rei or o-tsukai) is a deeply ingrained custom to express gratitude, build relationships, and show respect. It is considered polite and almost obligatory when meeting a new client, after a successful deal, or at the end of the year (o-seibo) and mid-year (o-chugen). The gift should be modest, beautifully wrapped, and presented with both hands, accompanied by a humble phrase like 'tsumaranai mono desu ga' (this is a trivial thing).",
-  "local_tip": "Always wrap the gift in non-white, non-red paper (avoiding sharp colors like bright red for funerals), and never give a set of four or nine items, as those numbers are associated with death and suffering.",
-  "regional_note": "In Okinawa, gift-giving customs are slightly more relaxed, but the core principles remain the same; younger generations in urban areas may be less formal but still appreciate the gesture.",
+  "verdict_label": "Modest, well-wrapped gifts expected",
+  "confidence": "medium",
+  "explanation": "Gift-giving is a meaningful way to build relationships and show appreciation in Japan, whether as a business courtesy, a seasonal gift, or omiyage (a souvenir brought back for colleagues and family). Presentation matters more than price: gifts are modestly wrapped and usually given and received with both hands, and sets of four or nine items are avoided because those numbers sound like 'death' and 'suffering.'",
+  "local_tip": "Bring a modest, nicely wrapped gift (regional omiyage works well), present it with both hands, and don't be surprised if it's politely set aside unopened rather than opened in front of you.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "China",
@@ -20,6 +20,34 @@
       "country": "United Arab Emirates",
       "verdict": "caution",
       "note": "Gift-giving is polite but avoid alcohol unless you know the recipient's religion; use the right hand only."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Mizuhiki",
+      "url": "https://en.wikipedia.org/wiki/Mizuhiki",
+      "kind": "reference"
+    },
+    {
+      "title": "Old Enough! (Hajimete no Otsukai)",
+      "url": "https://en.wikipedia.org/wiki/Old_Enough!",
+      "kind": "reference"
+    },
+    {
+      "title": "Japanese etiquette",
+      "url": "https://en.wikipedia.org/wiki/Japanese_etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Omiyage",
+      "url": "https://en.wikipedia.org/wiki/Omiyage",
+      "kind": "reference"
+    },
+    {
+      "title": "Japan Guide — Social Etiquette and Cultural Norms",
+      "url": "https://www.commisceo-global.com/resources/country-guides/japan-guide",
+      "kind": "reference"
     }
   ]
 }

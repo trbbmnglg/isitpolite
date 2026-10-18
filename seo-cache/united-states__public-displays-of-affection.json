@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Mild PDA acceptable",
-  "confidence": "medium",
-  "explanation": "In the United States, public displays of affection (PDA) such as hugging, holding hands, or a brief kiss are generally considered polite in social gatherings. However, more intimate or prolonged displays may make others uncomfortable, as Americans value personal space and discretion in public settings.",
-  "local_tip": "Keep PDA to light, brief gestures like a hand on the shoulder or a quick kiss on the cheek to avoid making others uneasy.",
-  "regional_note": "Acceptance of PDA is higher in urban coastal areas (e.g., New York, California) and among younger generations, while more conservative regions (e.g., the South, rural Midwest) may view even moderate PDA as inappropriate.",
+  "verdict": "polite",
+  "verdict_label": "Casual affection widely accepted",
+  "confidence": "high",
+  "explanation": "Mainstream American social norms are quite relaxed about PDA - holding hands, hugging, and a brief kiss between partners are considered normal and accepted in most public settings. The Emily Post Institute's own modern guidance states plainly that 'there's nothing wrong with kissing and hugging in public'; more prolonged or intimate contact is where people start to feel it imposes on bystanders.",
+  "local_tip": "Light, brief affection - hand-holding, hugging, a quick kiss - is fine in almost any public setting; save more intimate moments for somewhere private.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "PDA is highly discouraged in public; even holding hands can be seen as immodest."
+      "verdict": "caution",
+      "note": "Overt affection like hugging or kissing in public is still more reserved than in the US, especially around older generations, though hand-holding among younger couples is increasingly common."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on both cheeks (la bise) and light PDA are common and accepted in social settings."
+      "note": "Cheek kissing (la bise) and light affection between couples are common and accepted in social settings."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public display of affection between unmarried couples is illegal and strictly taboo."
+      "note": "Public affection between unmarried couples is culturally and legally taboo."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette Throwback 1922: Emily Post on PDA - Emily Post Institute",
+      "url": "https://emilypost.substack.com/p/etiquette-throwback-1922-emily-post-7e4",
+      "kind": "reference"
+    },
+    {
+      "title": "USAHello - Be Polite in the US",
+      "url": "https://usahello.org/life-in-usa/culture/be-polite/",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Deeply offensive gesture",
+  "verdict_label": "Feet should stay down",
   "confidence": "high",
-  "explanation": "In the United Arab Emirates, showing the soles of your feet or shoes is considered highly disrespectful because the foot is viewed as the lowest and dirtiest part of the body. This gesture is seen as an insult, especially in social gatherings where sitting cross-legged or pointing feet at others is avoided. The cultural norm stems from Islamic traditions that emphasize cleanliness and respect for personal space.",
-  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and never point your foot or shoe toward anyone during conversation.",
-  "regional_note": "This rule is uniformly observed across all emirates, though older generations and more conservative families may be particularly sensitive to it.",
+  "explanation": "Across the Gulf, the sole of the foot is viewed as the dirtiest part of the body because it touches the ground, so deliberately pointing it at someone is read as a strong insult. This is a regional cultural custom rather than an Islamic legal rule, but it is taken seriously in Emirati homes, majlis seating, and any formal gathering where people sit on low cushions or face each other directly.",
+  "local_tip": "Keep both feet flat on the floor or tucked beneath you, and avoid resting an ankle on a knee in a way that points your sole at anyone.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "Pointing feet at people or Buddha images is a major taboo, and the foot is considered the lowest body part."
+      "note": "The feet are considered the lowest and most impure part of the body, so pointing them at a person or a Buddha image is a serious taboo."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Showing soles is impolite in formal settings, especially in temples or when sitting on tatami mats."
+      "note": "Deliberately showing the soles of your feet, especially on tatami mats or in temples, is seen as careless and disrespectful."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Showing soles is generally neutral or casual, though some may find it informal in very formal settings."
+      "note": "Showing the soles of your feet is generally neutral and only seems informal in unusually formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "What behaviours are rude in the Middle East",
+      "url": "https://commisceo-global.com/blog/what-behaviours-are-rude-in-the-middle-east",
+      "kind": "reference"
+    },
+    {
+      "title": "Ask Ali: Why it is rude to show the soles of your feet",
+      "url": "https://www.thenationalnews.com/arts-culture/ask-ali-why-it-is-rude-to-show-the-soles-of-your-feet-1.295633/",
+      "kind": "reference"
     }
   ]
 }

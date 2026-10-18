@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Offensive insult gesture",
+  "verdict_label": "Vulgar insult, distinct from the moutza",
   "confidence": "high",
-  "explanation": "In Greece, the OK hand sign (thumb and index finger forming a circle) is a deeply offensive insult, equivalent to telling someone to perform a sexual act or calling them a homosexual. It is considered a 'moutza' variant and should never be used in any context.",
-  "local_tip": "Avoid making this gesture entirely; if you need to indicate approval, use a thumbs-up or a verbal 'endaxi' (okay).",
-  "regional_note": "This meaning is consistent across mainland Greece and the islands, though younger Greeks in urban areas may be more aware of its international positive meaning but still consider it rude locally.",
+  "explanation": "Forming a circle with the thumb and index finger (the Western 'OK' sign) carries a vulgar, sexually-charged insult in several Mediterranean countries including Greece and Turkey. It is not the same gesture as the moutza (an open, outstretched palm thrust toward someone), which is Greece's other, unrelated insulting gesture — the two are sometimes mixed up, but they have separate origins and meanings.",
+  "local_tip": "Don't use the OK hand sign to mean 'all good'; say 'endaxi' (okay) or simply nod and smile instead.",
+  "regional_note": "Younger, urban Greeks are often aware the sign means something positive internationally, but it is still widely considered rude to make it locally.",
   "also_check": [
-    {
-      "country": "Japan",
-      "verdict": "polite",
-      "note": "In Japan, the OK sign means 'money' or 'OK' and is generally positive, though context matters."
-    },
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "In Brazil, it is a vulgar insult similar to Greece, often implying a sexual act."
+      "note": "The OK sign is a vulgar insult, similarly to Greece."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "In Turkey, the gesture is also offensive, often used to imply homosexuality or as an insult."
+      "note": "Also considered an offensive, sexually-charged gesture."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Generally understood to mean 'money' or 'OK,' with no offensive meaning."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "18 Gestures That Can Cause Offense Around the World",
+      "url": "https://www.shermanstravel.com/2015/18-gestures-that-can-cause-offense-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Greece: Cultural Differences (CIS Abroad)",
+      "url": "https://go.greece.cisabroad.com/cultural-differences",
+      "kind": "reference"
     }
   ]
 }

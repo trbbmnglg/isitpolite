@@ -1,25 +1,43 @@
 {
-  "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
-  "confidence": "high",
-  "explanation": "In France, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive affirmation meaning 'good' or 'perfect,' similar to its use in many other Western countries. It is commonly used in everyday conversation and is not considered offensive in most contexts. However, it is always wise to be mindful of the setting, as gestures can be interpreted differently in specific subcultures.",
-  "local_tip": "Use the OK sign to agree with someone or indicate that everything is fine, but avoid using it in formal or highly traditional settings where a verbal response might be more appropriate.",
+  "verdict": "caution",
+  "verdict_label": "Can mean 'zero' or 'worthless'",
+  "confidence": "medium",
+  "explanation": "Traditionally in France, the OK circle gesture (thumb and forefinger forming an 'O') represents the number zero and can imply something — or someone — is worthless, not the positive 'okay'/'perfect' meaning it carries in North America. That said, decades of American media exposure mean many French people, especially younger ones, also recognize the US meaning, so interpretation can depend on who you're gesturing to.",
+  "local_tip": "Play it safe with a thumbs-up or a verbal 'd'accord'/'parfait' instead of the OK circle, especially with older French people or in service settings like restaurants.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "The OK sign is considered a vulgar gesture, akin to an insult."
+      "note": "The OK sign is considered a vulgar, offensive gesture, roughly equivalent to an obscene insult."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "It can be interpreted as a homosexual slur or an offensive gesture."
+      "note": "The gesture has historically been used as a derogatory, anti-gay insult and is widely considered offensive."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "The OK sign is commonly used to mean 'money' or 'OK,' but it is generally polite in everyday contexts."
+      "note": "The gesture commonly means 'money' or 'OK' and is generally understood positively in everyday use."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Common Gesture You Should Never Make At A French Restaurant",
+      "url": "https://www.tastingtable.com/1953001/never-make-ok-gesture-french-restaurant",
+      "kind": "reference"
+    },
+    {
+      "title": "10 Common Gestures Easily Misunderstood Abroad — Matador Network",
+      "url": "https://matadornetwork.com/read/hand-signs-meaning/",
+      "kind": "reference"
+    },
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
     }
   ]
 }

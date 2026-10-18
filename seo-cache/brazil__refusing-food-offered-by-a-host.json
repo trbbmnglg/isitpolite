@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Refusing food is impolite",
-  "confidence": "high",
-  "explanation": "In Brazil, offering food is a warm gesture of hospitality and affection, especially when meeting a family. Refusing it can be seen as rejecting the host's care and generosity, potentially causing offense. It is customary to accept at least a small portion to show appreciation and respect.",
-  "local_tip": "If you are full or have dietary restrictions, accept a small amount and take a few bites, or politely explain with a smile that you have a health issue, but never flatly refuse.",
-  "regional_note": "In more formal or urban settings, especially in São Paulo and Rio de Janeiro, hosts may be slightly more understanding of dietary restrictions, but the expectation to accept still holds strong.",
+  "verdict": "caution",
+  "verdict_label": "Can seem impolite, but excuses work",
+  "confidence": "medium",
+  "explanation": "Brazilian hospitality is warm, and hosts often encourage guests to eat more, so an outright refusal can feel like brushing off their generosity. However, Brazil does not carry the strong food-refusal taboo found in some South Asian cultures — politely declining with a smile, a compliment on the food, or a stated reason (fullness, dietary restriction) is generally accepted without real offense.",
+  "local_tip": "If you don't want more food, decline warmly with a compliment about the meal rather than a flat 'no' — most hosts will accept a polite explanation.",
+  "regional_note": "",
   "also_check": [
-    {
-      "country": "Japan",
-      "verdict": "caution",
-      "note": "Refusing food is generally polite if done with proper excuses (e.g., 'I'm full'), but outright refusal can be awkward; it's better to leave a little on the plate."
-    },
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Refusing food, especially in a family setting, is considered very disrespectful as it implies rejection of the host's hospitality."
+      "note": "Refusing food, especially in a family setting, is considered quite disrespectful as it implies rejecting the host's hospitality."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "A polite refusal with a stated reason is accepted; blunt refusal without explanation can feel awkward."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "Refusing food can be seen as impolite, but it is more acceptable if you offer a polite excuse and compliment the cooking; hosts often insist you try a little."
+      "note": "Declining food is more acceptable with a polite excuse and a compliment; hosts often insist you try a little regardless."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

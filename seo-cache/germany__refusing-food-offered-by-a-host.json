@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Refusal may offend",
-  "confidence": "high",
-  "explanation": "In Germany, offering food is a gesture of hospitality and care, especially when meeting family. Refusing outright can be perceived as rejecting the host's effort and warmth, though a polite explanation (e.g., dietary restrictions or fullness) is usually accepted. It is generally safer to accept a small portion to show appreciation.",
-  "local_tip": "If you must refuse, say 'Nein, danke, ich bin wirklich satt' (No, thank you, I'm really full) with a smile and compliment the food.",
-  "regional_note": "In more rural or traditional areas of southern Germany (e.g., Bavaria), refusal may be taken more personally than in cosmopolitan cities like Berlin.",
+  "verdict_label": "A clear 'no' is respected",
+  "confidence": "medium",
+  "explanation": "Germans are direct communicators, so a clear, polite decline - ideally with a short reason like being full - is generally respected and taken at face value; hosts typically won't keep pressing you to eat more, unlike in some hospitality-insistent cultures. A vague or hesitant 'no' offered just to seem polite can backfire, since it may be read as your real answer and nothing more will be offered.",
+  "local_tip": "If you don't want more food, say so plainly once - there's no need for an elaborate excuse, since a direct 'no' is taken seriously rather than as modesty.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "polite",
-      "note": "Refusing food is often polite to show modesty, though hosts may insist."
+      "verdict": "caution",
+      "note": "A polite refusal out of modesty is common, but hosts may still insist once or twice before accepting it."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food from a host is considered very rude and a rejection of generosity."
+      "note": "Refusing home-cooked food can be taken personally, since it's seen as rejecting the host's hospitality and effort."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Refusing food can be seen as impolite, but dietary restrictions are respected if explained."
+      "note": "Hosts often insist multiple times before accepting a refusal, though stated dietary restrictions are generally respected."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "German Culture - Etiquette - Cultural Atlas",
+      "url": "https://culturalatlas.sbs.com.au/german-culture/german-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Germany Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/germany-guide",
+      "kind": "reference"
     }
   ]
 }

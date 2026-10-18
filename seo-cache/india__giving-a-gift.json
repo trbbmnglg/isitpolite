@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally appreciated with care",
+  "verdict_label": "Appreciated with a few key rules",
   "confidence": "medium",
-  "explanation": "In Indian business culture, gift-giving is polite and common, especially during festivals like Diwali or after closing a deal, but it must be modest and not seen as a bribe. Avoid leather items if the recipient is Hindu, and avoid alcohol if they are Muslim or Jain, as religious sensitivities vary. Gifts are often not opened in front of the giver to avoid embarrassment or perceived obligation.",
-  "local_tip": "Wrap gifts in red, green, or yellow paper (auspicious colors) and avoid white or black, which are associated with mourning.",
-  "regional_note": "In South India, gifts are often given with the right hand only, and in Muslim-majority areas like Hyderabad, avoid any pork-related or alcohol gifts.",
+  "explanation": "Gift-giving is a normal and appreciated part of Indian social and business life — sweets, chocolates, or something from your home country are safe choices. Gifts should be given and received with the right hand or both hands, never the left hand alone, and since cows are sacred to Hindus, leather items and anything containing beef should be avoided; alcohol is best avoided for Muslim recipients since it's prohibited in Islam.",
+  "local_tip": "Offer and receive gifts with your right hand or both hands, and skip leather goods or beef-based items for Hindu recipients, or alcohol for Muslim recipients.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; avoid white wrapping and always use both hands."
+      "note": "Gift-giving is highly ritualized; gifts are presented and received with both hands."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary in business; if given, keep it small and practical."
+      "note": "Business gifts are less expected; if given, something small and practical is preferred."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Avoid alcohol, pork, and any gift that could imply a bribe; gifts are not expected in initial meetings."
+      "note": "Avoid alcohol or pork-related gifts, and anything that could be seen as implying a bribe."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "India Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/india-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Alcohol and Islam",
+      "url": "https://en.wikipedia.org/wiki/Alcohol_and_Islam",
+      "kind": "community"
     }
   ]
 }

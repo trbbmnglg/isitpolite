@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful and dismissive",
-  "confidence": "high",
-  "explanation": "In Spain, beckoning someone with a curled index finger is considered rude and condescending, as it is typically used to call animals or children. This gesture is seen as disrespectful to adults, implying a lack of equality or dignity. A more polite approach is to use an open hand with the palm facing down and fingers together, moving them toward you.",
-  "local_tip": "Instead, gesture with your whole hand, palm down, and wave your fingers toward you in a scooping motion.",
-  "regional_note": "While this is consistent across most of Spain, in the Canary Islands the open-hand gesture is also preferred, but the finger beckon may be slightly less offensive among close friends.",
+  "verdict": "caution",
+  "verdict_label": "Better to use an open hand",
+  "confidence": "low",
+  "explanation": "The conventional way to beckon someone in Spain is palm-up with a scooping wave of the fingers or whole hand, not a single curled index finger. Using the curled-finger version isn't a dramatic insult the way it is in places like the Philippines, but it can read as brusque or over-familiar, particularly toward someone older or a stranger, so the open-hand version is the safer, more natural choice.",
+  "local_tip": "Beckon with your palm up and fingers (or whole hand) curling toward you, rather than a single crooked index finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude and is used only for animals; use a palm-down wave instead."
+      "note": "Beckoning with a single finger is considered impolite and is associated with calling animals; a palm-down wave is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture is extremely offensive and can even lead to legal trouble; it is reserved for calling dogs."
+      "note": "This gesture is strongly associated with calling dogs and is considered a serious insult when directed at a person."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "While not as offensive as in Spain, it can be seen as overly familiar or dismissive; a polite verbal call is preferred."
+      "note": "It's less charged than in some other cultures, but can still come across as overly familiar or dismissive rather than a polite way to call someone over."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Insider's Guide to Understanding Spanish Hand Gestures",
+      "url": "https://worldstrides.com/blog/2012/02/insiders-guide-understanding-spanish-hand-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "Offensive International Travel Hand Gestures",
+      "url": "https://www.globalrescue.com/es/common/blog/detail/offensive-international-travel-hand-gestures/",
+      "kind": "reference"
     }
   ]
 }

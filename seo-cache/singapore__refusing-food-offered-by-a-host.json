@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Refuse with care",
-  "confidence": "high",
-  "explanation": "In Singapore, particularly during family gatherings, refusing food offered by a host can be seen as rejecting their hospitality and goodwill. While it is not outright rude, it is often expected that you accept at least a small portion to show appreciation. If you must refuse due to dietary restrictions or fullness, do so politely and with a brief, sincere explanation.",
-  "local_tip": "If you cannot eat the food, accept a small amount and leave it on your plate, or say 'I'm very full, but thank you so much' with a smile.",
-  "regional_note": "Among Chinese Singaporean families, refusal may be more sensitive due to the cultural emphasis on 'face' and generosity; Malay and Indian families may be more understanding of dietary restrictions.",
+  "verdict_label": "Decline gently, not flatly",
+  "confidence": "medium",
+  "explanation": "Repeatedly refusing food offered by a host in Singapore can come across as rejecting their hospitality, since sharing food is central to how relationships are built there. A polite decline with a brief, warm explanation (fullness, dietary restriction) is well understood and won't cause lasting offense, especially given how common dietary restrictions already are across Singapore's communities.",
+  "local_tip": "If you don't want more food, say something like \"I'm so full, but it was delicious, thank you\" rather than a flat \"no\" - and expect your host to offer at least once more before taking your answer at face value.",
+  "regional_note": "Halal, vegetarian, and other dietary restrictions are common and well understood across Malay-Muslim, Hindu, and other communities, so a dietary-based refusal is rarely seen as impolite; it's blunt or repeated refusal without explanation that can land badly.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Refusing food is considered very rude as it implies distrust of the host's cooking or generosity."
+      "note": "Refusing food can be seen as rejecting the host's effort and generosity; it's better to at least taste what's offered."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "It is acceptable and even polite to refuse food if you are full, as overeating is seen as gluttonous."
+      "note": "Declining food when full is unremarkable; overeating to be polite isn't expected."
     },
     {
       "country": "South Korea",
       "verdict": "caution",
-      "note": "Refusing food can be seen as rejecting the host's care, but it is manageable if done with polite excuses."
+      "note": "A polite refusal with a clear reason is accepted, but an outright 'no' without explanation can seem dismissive of the host's care."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singapore Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/singapore-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Top 5 Tips for Proper Singapore Etiquette - Absolute Internship",
+      "url": "https://absoluteinternship.com/blog/top-5-tips-for-proper-singapore-etiquette/",
+      "kind": "community"
     }
   ]
 }

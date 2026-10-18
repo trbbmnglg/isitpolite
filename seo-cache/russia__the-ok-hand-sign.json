@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Ambiguous, avoid in serious contexts",
-  "confidence": "medium",
-  "explanation": "In Russia, the OK hand sign is generally understood as a positive gesture meaning 'good' or 'okay,' especially among younger generations and in informal settings. However, it can be perceived as rude or vulgar by older, more conservative Russians who associate it with a crude gesture representing a body part, similar to its offensive meaning in some other cultures. The context matters greatly: it's safe among friends but risky in formal or traditional environments.",
-  "local_tip": "Use a verbal 'хорошо' (khorosho) or a thumbs-up instead to avoid any potential misunderstanding.",
-  "regional_note": "In more traditional or rural areas, especially among older generations, the gesture is more likely to be seen as offensive; in Moscow and St. Petersburg, it's widely accepted as neutral.",
+  "verdict_label": "Evidence weak, stay cautious",
+  "confidence": "low",
+  "explanation": "Evidence on the OK hand sign in Russia is thin and inconsistent: a few general 'gestures that offend around the world' round-ups list it as vulgar there, but there's no strong, Russia-specific documentation confirming it's a widely recognized insult. Because the evidence is weak in either direction, it's safer to avoid relying on the gesture than to assume it's completely neutral.",
+  "local_tip": "When in doubt, say 'хорошо' (khorosho, 'good') or give a thumbs-up instead of the OK sign.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a highly offensive gesture, equivalent to an insult."
+      "note": "The OK sign is a well-documented, highly offensive gesture there."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a vulgar reference to homosexuality."
+      "note": "The gesture can carry a vulgar, derogatory connotation in some contexts."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Universally understood as 'OK' or 'good,' with no negative connotations."
+      "note": "Widely understood as 'OK' or to represent money, with no negative connotation."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "17 Gestures That Can Cause Offense Around the World",
+      "url": "https://www.shermanstravel.com/advice/18-gestures-that-can-cause-offense-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "10 Common Gestures Easily Misunderstood Abroad",
+      "url": "https://matadornetwork.com/abroad/10-common-gestures-easily-misunderstood-abroad/",
+      "kind": "reference"
     }
   ]
 }

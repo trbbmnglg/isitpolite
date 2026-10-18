@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Offensive in some contexts",
-  "confidence": "high",
-  "explanation": "In Greece, the thumbs-up gesture is not universally polite; it can carry an insulting connotation similar to a raised middle finger in other cultures, especially when used emphatically or in confrontational situations. While younger Greeks and tourists may use it casually without offense, traditional etiquette advises avoiding it in formal or serious interactions.",
-  "local_tip": "Use a simple nod or verbal 'yes' (ne) instead of the thumbs-up to avoid any unintended insult.",
-  "regional_note": "The gesture is more acceptable among younger generations and in tourist-heavy areas, but remains risky in rural or older social circles.",
+  "verdict_label": "Contested: old insult, mixed use now",
+  "confidence": "low",
+  "explanation": "Traditionally in Greece the thumbs-up has carried a vulgar meaning similar to the middle finger, particularly when thrust abruptly or among older Greeks, and some travel-advice sources still list it as an insult to avoid. However, due to international media, texting culture, and younger generations, it is now also very commonly used and understood as plain approval — one Greek gesture guide even recommends it as a safe way to signal agreement. Because reputable sources genuinely disagree, treat this as situational rather than a flat rule.",
+  "local_tip": "With older Greeks, in rural areas, or in any tense moment, skip an emphatic thumbs-up and use a nod or say 'endaxi' (okay) instead; in casual, urban, or tourist-facing settings it's normally read as plain approval.",
+  "regional_note": "Older generations and more traditional or rural communities are more likely to read it as an insult than younger, urban Greeks.",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "Thumbs-up is considered an obscene insult, equivalent to the middle finger."
-    },
-    {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "Thumbs-up is seen as a rude, dismissive gesture in many contexts."
+      "note": "Thumbs-up is a well-known obscene insult, roughly equivalent to the middle finger."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Thumbs-up generally means 'good job' or 'OK' and is positive, though less common than in the West."
+      "note": "Thumbs-up generally reads as 'good job' or 'OK' and is a positive, low-controversy gesture."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Thumbs-up is a universally positive, uncontroversial sign of approval."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "10 Innocent Gestures You Shouldn't Use Overseas",
+      "url": "https://www.smartertravel.com/10-innocent-gestures-you-shouldnt-use-overseas/",
+      "kind": "reference"
+    },
+    {
+      "title": "Avoid This Common American Gesture At All Costs When Traveling In Greece",
+      "url": "https://www.islands.com/1784578/avoid-common-hand-america-gesture-traveling-greece-country/",
+      "kind": "reference"
     }
   ]
 }

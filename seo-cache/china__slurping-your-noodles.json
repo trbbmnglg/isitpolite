@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Shows appreciation for food",
-  "confidence": "high",
-  "explanation": "In China, slurping noodles is generally considered a compliment to the chef, indicating that you are enjoying the meal. It also helps cool down hot noodles and enhances the flavor through aeration, which is culturally accepted in casual dining settings.",
-  "local_tip": "Slurp audibly but avoid excessive mess or splashing to show proper enjoyment without being disruptive.",
-  "regional_note": "In more formal or high-end restaurants, especially in international contexts, slurping may be seen as less appropriate; younger generations in urban areas may also adopt quieter eating habits.",
+  "verdict_label": "Usually fine, context matters",
+  "confidence": "medium",
+  "explanation": "Slurping noodles in China is traditionally read as enjoyment and a compliment to the cook, much like in Japan, and it genuinely does help cool hot noodle soup. But this is contested more than guides often admit: attitudes are shifting, particularly among younger, urban diners and in formal or high-end settings, where quieter eating is increasingly preferred.",
+  "local_tip": "Slurp freely at a casual noodle shop or home meal, but tone it down at a business dinner or upscale restaurant where a quieter style is more expected.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is highly encouraged as a sign of enjoyment and to enhance flavor."
+      "note": "Slurping noodles is traditionally seen as a sign of enjoyment, though younger people increasingly see loud slurping as old-fashioned."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+      "note": "Slurping pasta loudly is considered poor table manners."
     },
     {
       "country": "United States",
-      "verdict": "rude",
-      "note": "Slurping noodles is generally seen as noisy and disrespectful in most dining settings."
+      "verdict": "caution",
+      "note": "Audible slurping is generally seen as a minor breach of table manners rather than a serious offense."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Why Asian Food Is Loud - Tatler Asia",
+      "url": "https://www.tatlerasia.com/dining/food/etiquette-manners-why-asian-food-is-loud",
+      "kind": "reference"
+    },
+    {
+      "title": "The Role of Noises in Chinese Dining Etiquette - ali.mk",
+      "url": "https://ali.mk/posts/the-role-of-noises-in-chinese-dining-etiquette-a-cultural-insight/",
+      "kind": "community"
     }
   ]
 }

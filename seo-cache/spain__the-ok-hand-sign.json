@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally harmless gesture",
-  "confidence": "high",
-  "explanation": "In Spain, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive signal meaning 'good', 'okay', or 'perfect', with no offensive connotations in everyday contexts. It is commonly used in casual conversation and by all age groups without causing offense.",
-  "local_tip": "Use the OK sign freely to express agreement or that something is fine, but avoid it in formal or business settings where verbal confirmation is preferred.",
+  "verdict_label": "Generally fine, minor dispute",
+  "confidence": "medium",
+  "explanation": "The OK sign (thumb and forefinger circle) is understood in Spain the same way as in most of Western Europe — meaning 'fine', 'good', or 'perfect' — and does not carry the vulgar meaning it has in Brazil, Turkey, or parts of the Middle East. A handful of travel-advice lists lump Spain in with Latin America on this gesture, but more detailed sources specifically note Spain (and Portugal) as an exception where it isn't considered offensive.",
+  "local_tip": "Feel free to use the OK sign to mean 'all good' or 'perfect' — it's not read as vulgar in Spain the way it can be in Brazil or Turkey.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a vulgar insult equivalent to an offensive hand gesture."
+      "note": "The same gesture is a well-known vulgar insult, famously causing embarrassment for foreign visitors who used it unknowingly."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a homophobic insult or a crude reference to a body part."
+      "note": "It can be read as a crude insult referencing a derogatory stereotype, so it's best avoided there."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly means 'OK' or 'money' and is used positively in everyday interactions."
+      "note": "Commonly understood to mean 'OK' or sometimes 'money,' and used positively in everyday situations."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Wikivoyage — Gestures",
+      "url": "https://en.wikivoyage.org/wiki/Gestures",
+      "kind": "community"
+    },
+    {
+      "title": "Offensive International Travel Hand Gestures",
+      "url": "https://www.globalrescue.com/es/common/blog/detail/offensive-international-travel-hand-gestures/",
+      "kind": "reference"
     }
   ]
 }

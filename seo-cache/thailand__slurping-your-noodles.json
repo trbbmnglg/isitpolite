@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
-  "confidence": "medium",
-  "explanation": "In Thailand, slurping noodles is not considered polite as it goes against the local custom of eating quietly and with restraint. While it may be overlooked in casual street food settings, especially with tourists, it is generally seen as lacking manners in more formal dining environments.",
-  "local_tip": "Eat noodles quietly by using your spoon and fork to twirl the noodles, and avoid making loud slurping sounds to show respect for Thai dining etiquette.",
-  "regional_note": "In northern Thailand (e.g., Chiang Mai), some locals may be slightly more tolerant of slurping due to influences from neighboring Laos and Myanmar, but it remains uncommon.",
+  "verdict_label": "Mild slurping is fine",
+  "confidence": "low",
+  "explanation": "Noodle soups in Thailand are eaten with a spoon and fork, and some slurping is normal and not considered rude, but Thai dining style generally favors a quieter, more restrained manner than in Japan or China, where loud slurping is treated as a compliment. Vigorous, noisy slurping is more likely to read as a lack of polish than a serious breach of manners, especially outside casual street-food settings.",
+  "local_tip": "It's fine to slurp a little while eating noodle soup, but keep the volume down, especially in a sit-down restaurant rather than a street stall.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is considered a compliment to the chef and enhances the flavor."
+      "note": "Loud slurping is considered a compliment to the chef and part of properly enjoying the noodles."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is often acceptable and shows enjoyment, especially in informal settings."
+      "note": "Slurping is generally acceptable and seen as a sign of enjoyment, especially in casual settings."
     },
     {
       "country": "South Korea",
       "verdict": "caution",
-      "note": "Slurping is generally avoided in formal dining, but may be tolerated in casual contexts; eating quietly is preferred."
+      "note": "Slurping is usually avoided in formal dining but tolerated in casual settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "How to Eat Noodles: The Slurp, the Chilli and the Chopsticks",
+      "url": "https://www.sbs.com.au/food/article/how-to-eat-noodles-the-slurp-the-chilli-and-the-chopsticks/apd208xp8",
+      "kind": "reference"
+    },
+    {
+      "title": "What Not to Do When Eating Noodles",
+      "url": "https://jetstar.com/th/en/inspiration/articles/how-to-eat-noodle-soup-in-asia",
+      "kind": "community"
+    },
+    {
+      "title": "Thai Table Manners: Great Info That Will Have You Eating Thai-Style",
+      "url": "https://culinarylore.com/food-culture:thai-table-manners-great-info/",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use sparingly with seniors",
+  "verdict_label": "Soften gaze with seniors",
   "confidence": "high",
-  "explanation": "In Chinese business culture, sustained direct eye contact can be perceived as confrontational or disrespectful, especially when interacting with senior colleagues or superiors. It is more acceptable among peers or in casual settings, but maintaining softer, intermittent eye contact is generally preferred to show deference and harmony.",
-  "local_tip": "When speaking with a senior or client, lower your gaze slightly or look at the bridge of their nose to show respect while still appearing attentive.",
-  "regional_note": "In more international or younger business circles in Shanghai, Shenzhen, or Beijing, direct eye contact may be more accepted, but traditional norms still dominate in government and state-owned enterprises.",
+  "explanation": "In Chinese business and social settings, sustained direct eye contact—especially toward someone older or more senior—can read as a challenge or confrontation rather than confidence. Chinese people often lower their eyes slightly as a sign of respect, favoring brief, intermittent eye contact over a fixed stare.",
+  "local_tip": "With a senior colleague, client, or elder, use soft, intermittent eye contact rather than a constant direct gaze to signal respect without seeming evasive.",
+  "regional_note": "Younger professionals in cosmopolitan cities like Shanghai and Shenzhen, especially those used to Western business norms, tend to be more comfortable with sustained eye contact.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is considered rude or intimidating; brief glances or looking at the neck is standard."
+      "note": "Prolonged eye contact can feel intimidating; briefer glances or looking near the neck area are more typical."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact signals confidence, honesty, and engagement in business settings."
+      "note": "Direct eye contact is read as a sign of confidence, honesty, and engagement."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Between genders, direct eye contact is avoided; among men, it is acceptable but should not be prolonged."
+      "note": "Direct eye contact between genders is generally avoided, while it's more acceptable, though not prolonged, between men."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Culture - Etiquette (Cultural Atlas, SBS / Multicultural NSW)",
+      "url": "https://culturalatlas.sbs.com.au/chinese-culture/chinese-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Averted Gaze Respect - HI-COM Asia (China business/legal translation)",
+      "url": "https://translate.hicom-asia.com/area/averted-gaze-respect/",
+      "kind": "community"
     }
   ]
 }

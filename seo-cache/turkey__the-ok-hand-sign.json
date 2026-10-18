@@ -1,10 +1,10 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Potentially offensive gesture",
-  "confidence": "medium",
-  "explanation": "In Turkey, the OK hand sign (thumb and index finger forming a circle) is not reliably read as 'okay'; it is traditionally a vulgar gesture used as a homophobic insult. Many Turks, especially younger people in cities, also know the Western 'OK' meaning, but the gesture still carries a real risk of offending.",
-  "local_tip": "Avoid using the OK hand sign entirely in Turkey; instead, nod your head or say 'tamam' (okay) to convey agreement.",
-  "regional_note": "The insulting reading is most familiar to older and more traditional Turks; younger, urban people are more likely to also recognise the Western 'OK' meaning.",
+  "verdict": "rude",
+  "verdict_label": "Serious insult, avoid entirely",
+  "confidence": "high",
+  "explanation": "The OK hand sign (thumb and index finger forming a circle) is not read as 'okay' in Turkey. Multiple independent sources describe it as a serious, vulgar gesture that functions as a homophobic insult. This is understood across generations, though younger, urban Turks are somewhat more likely to also recognize the Western 'OK' meaning.",
+  "local_tip": "Avoid the OK hand sign entirely in Turkey — nod, say 'tamam' (okay), or use a thumbs-up instead.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
@@ -14,12 +14,35 @@
     {
       "country": "Germany",
       "verdict": "polite",
-      "note": "Commonly used to mean 'okay' or 'good,' though some younger people may use it ironically."
+      "note": "Commonly used to mean 'okay' or 'good,' though some younger people use it ironically."
     },
     {
       "country": "Japan",
       "verdict": "polite",
       "note": "Widely used to mean 'OK' or 'money,' with no negative connotations."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Not bad intentions, it's just etiquette in Turkey",
+      "url": "https://www.dailysabah.com/life/2015/01/07/not-bad-intentions-its-just-etiquette-in-turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Culture: Communication",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Gestures — Wikivoyage",
+      "url": "https://en.wikivoyage.org/wiki/Gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish cultural taboos",
+      "url": "https://www.crownrelo.com/article/turkish-cultural-taboos",
+      "kind": "reference"
     }
   ]
 }

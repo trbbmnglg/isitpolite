@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Gift giving is polite",
-  "confidence": "high",
-  "explanation": "In Saudi business culture, giving a gift is a polite gesture that builds trust and shows respect, especially when offered modestly and not in front of others to avoid perceived bribery. Gifts should be of good quality but not extravagant, and items like dates, high-quality coffee, or a small token from your home country are appreciated. Avoid alcohol, pork products, or anything with religious imagery, as these violate Islamic norms.",
-  "local_tip": "Present the gift with your right hand or both hands, and never with your left hand, as it is considered unclean.",
-  "regional_note": "In more conservative regions like Najd, gift-giving may be more restrained, while in cosmopolitan cities like Jeddah or Riyadh, it is more common and accepted in business settings.",
+  "verdict_label": "Welcome, kept modest",
+  "confidence": "medium",
+  "explanation": "Gift-giving in Saudi business culture is a welcomed, trust-building gesture as long as it stays modest and avoids being perceived as a bribe, with items like dates, high-quality coffee, or sweets as safe choices. Gifts should be given and received with the right hand or both hands together, never the left, and should avoid alcohol, pork products, or anything with explicit religious imagery.",
+  "local_tip": "Present the gift with your right hand or both hands, and keep it modest rather than extravagant.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; avoid white or black wrapping (funeral colors) and present with both hands."
+      "note": "Gift-giving is highly ritualized; wrapping and presentation matter greatly, and both hands are used to present a gift."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary in business; if given, keep it small and practical, and avoid overly personal items."
+      "note": "Business gifts are often seen as unnecessary; if given, keep them small and practical."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Gifts are expected to build guanxi, but avoid clocks, umbrellas, or sharp objects as they symbolize bad luck or severing relationships."
+      "note": "Gifts help build relationships, but clocks, umbrellas, or sharp objects are avoided as symbols of bad luck."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Gift Giving Etiquette in the Middle East",
+      "url": "https://commisceo-global.com/blog/gift-giving-in-the-middle-east",
+      "kind": "reference"
+    },
+    {
+      "title": "Saudi Arabian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

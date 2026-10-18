@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Respectful and expected",
+  "verdict_label": "Expected before entering homes",
   "confidence": "high",
-  "explanation": "In Indonesia, removing shoes before entering a home is a deeply ingrained sign of respect and cleanliness, rooted in both cultural and religious practices, particularly in Muslim-majority areas where prayer spaces are kept pure. It is also common in many traditional and modern households, though some public buildings or modern offices may allow shoes indoors.",
-  "local_tip": "Always look for a pile of shoes at the entrance or ask the host 'Saya lepas sepatu di sini?' (Should I remove my shoes here?) to be sure.",
-  "regional_note": "In Bali, where Hindu customs prevail, shoe removal is also standard, especially when entering temples or family compounds.",
+  "explanation": "Removing shoes before entering an Indonesian home is a widely observed sign of respect and cleanliness. Even if a host says it isn't necessary, that's often just politeness, and guests are still expected to take their shoes off. The custom extends to many mosques and temples, which require bare or socked feet to keep the space clean.",
+  "local_tip": "Remove your shoes at the door even if your host waves it off as unnecessary, and look for a pile of shoes at the entrance as your cue.",
+  "regional_note": "The custom also applies at many mosques and temples, which require visitors to remove shoes to keep the place of worship clean.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is nearly universal indoors, with specific slippers for different rooms."
+      "note": "Shoe removal indoors is near-universal, often with dedicated indoor slippers."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; many hosts do not expect it."
+      "note": "Shoe removal is optional and varies by household; many hosts don't expect it."
     },
     {
       "country": "Thailand",
       "verdict": "polite",
-      "note": "Shoes are removed before entering homes and temples, but not typically in shops or offices."
+      "note": "Shoes come off before entering homes and temples, though not usually in shops or offices."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Basic Communications in Indonesia (Five Colleges)",
+      "url": "https://langmedia.fivecolleges.edu/resources/indonesia/basic-communications/greetings-and-partings",
+      "kind": "reference"
+    },
+    {
+      "title": "Indonesian Culture - Etiquette (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

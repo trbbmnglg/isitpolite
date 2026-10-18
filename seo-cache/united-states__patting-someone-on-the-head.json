@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally considered intrusive",
-  "confidence": "high",
-  "explanation": "In the United States, patting someone on the head is typically reserved for children or intimate relationships and can be perceived as condescending or a violation of personal space when done to an adult, especially in a social gathering. It may also be seen as patronizing or infantilizing, as the head is considered a personal and sensitive area. Exceptions exist for close friends or family in playful contexts, but it is not a standard polite gesture.",
-  "local_tip": "Avoid patting anyone on the head unless you have a very close relationship and are certain they would welcome it; instead, offer a handshake or a friendly nod.",
-  "regional_note": "In some African American communities, touching someone's hair or head without permission can be particularly sensitive due to cultural and historical reasons.",
+  "verdict_label": "Okay for kids, not adults",
+  "confidence": "medium",
+  "explanation": "In the US, patting a child on the head is a common, affectionate gesture, but doing the same to an adult you're not close to can come across as condescending or overly familiar - Americans generally keep greetings to handshake-level contact and reserve head-touching for close relationships. It isn't taboo or deeply offensive, just socially awkward outside family or close-friend contexts.",
+  "local_tip": "Stick to a handshake, high-five, or a pat on the shoulder with adults; save head-pats for children or people you know very well.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred part of the body, and touching it is highly disrespectful."
+      "note": "The head is considered the most sacred part of the body; touching anyone's head, including children's, is a serious offense."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting a child's head is often affectionate, but doing so to an adult, especially an elder, is disrespectful."
+      "note": "Patting a child's head can be affectionate, but doing so to an adult, especially an elder, is seen as disrespectful."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact is minimal in public, and patting someone's head is seen as overly familiar or condescending."
+      "verdict": "caution",
+      "note": "Public physical contact is minimal; patting someone's head is seen as overly familiar rather than a serious offense."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "12 American Habits That Come Off as Rude Overseas",
+      "url": "https://www.aol.com/articles/12-american-habits-come-off-163616069.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Personal space - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Personal_space",
+      "kind": "reference"
     }
   ]
 }

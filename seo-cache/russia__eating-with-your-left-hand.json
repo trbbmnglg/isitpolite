@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Avoid if possible",
+  "verdict": "polite",
+  "verdict_label": "No taboo, Continental style",
   "confidence": "high",
-  "explanation": "In Russia, eating with the left hand is not inherently rude, but it is considered awkward or unrefined in formal dining settings because the right hand is traditionally used for eating and the left for holding bread or a napkin. This stems from European table manners adopted by Russian aristocracy, where the fork is held in the left hand and the knife in the right, but using the left hand alone for direct eating (e.g., picking up food) may draw negative attention. In casual contexts, it is generally overlooked, but in restaurants, especially upscale ones, it is best to use your right hand for eating.",
-  "local_tip": "When dining in a Russian restaurant, hold your fork in your left hand and knife in your right, and avoid using your left hand alone to bring food to your mouth.",
-  "regional_note": "In Muslim-majority regions of Russia (e.g., Tatarstan, Chechnya), eating with the left hand is considered unclean and rude due to Islamic customs, so the caution is stronger there.",
+  "explanation": "Russia follows Continental European table manners, where the fork stays in the left hand and the knife in the right throughout the meal — there is no cultural rule against using the left hand at the table. This differs from South Asian or Middle Eastern customs, where the left hand is considered unclean and avoided for eating.",
+  "local_tip": "Hold your fork in your left hand and your knife in your right in the Continental style, rather than switching the fork to your right hand between bites as in American-style dining.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is considered highly impolite as the left hand is reserved for hygiene tasks."
+      "note": "Eating with the left hand is considered impolite since the left hand is reserved for hygiene tasks."
     },
     {
-      "country": "Japan",
-      "verdict": "caution",
-      "note": "Using the left hand alone is not rude, but chopstick etiquette is far more important; left-handedness is accepted."
+      "country": "Indonesia",
+      "verdict": "rude",
+      "note": "The left hand is considered unclean and should not be used for eating or passing food."
     },
     {
-      "country": "France",
-      "verdict": "caution",
-      "note": "Similar to Russia, the left hand should not be used alone for eating; the fork stays in the left hand, knife in the right."
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Food and drink should be handled only with the right hand, as the left is reserved for personal hygiene."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "9 Countries With Dining Etiquette Rules That May Surprise You",
+      "url": "https://www.wasserstrom.com/blog/2021/06/28/9-countries-with-dining-etiquette-rules-that-may-surprise-you/",
+      "kind": "reference"
+    },
+    {
+      "title": "Social etiquette",
+      "url": "https://expatica.com/ru/living/integration/russian-etiquette-106460",
+      "kind": "reference"
     }
   ]
 }

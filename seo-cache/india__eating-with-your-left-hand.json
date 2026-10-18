@@ -2,24 +2,37 @@
   "verdict": "rude",
   "verdict_label": "Avoid the left hand",
   "confidence": "high",
-  "explanation": "The left hand is traditionally associated with personal hygiene in India, so using it to eat or to pass food and items is considered unclean and impolite. The right hand is used for eating and giving.",
-  "local_tip": "Eat, pass dishes, and hand over money or gifts with your right hand; it is fine to use the left only for holding a drink or serving spoon.",
-  "regional_note": "The taboo is strongest in traditional and rural settings and more relaxed among younger people in big cities.",
+  "explanation": "The left hand is traditionally associated with personal hygiene (bathroom use) in India, so eating, passing food, or handing over money, gifts, or other items with it is considered unclean and disrespectful. The right hand is used for eating, giving, and receiving; the left hand is reserved for secondary tasks, like holding your own drink or a serving utensil.",
+  "local_tip": "Eat, pass dishes, and hand over money or gifts with your right hand; it's fine to use the left hand only for things like holding your own glass or a serving spoon.",
+  "regional_note": "The taboo is strongest in traditional, religious, and rural settings, and somewhat relaxed — though still broadly observed — among younger people in big cities.",
   "also_check": [
     {
       "country": "United Arab Emirates",
       "verdict": "rude",
-      "note": "The same left-hand taboo applies strongly when eating or greeting."
+      "note": "The same left-hand taboo applies strongly when eating, greeting, or giving/receiving items."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "No distinction — left-handed eating is completely normal."
+      "note": "No distinction is made — eating or writing with the left hand is completely normal."
     },
     {
       "country": "Thailand",
       "verdict": "caution",
-      "note": "Most eating is done with a spoon in the right hand, fork in the left."
+      "note": "Eating is typically done with a spoon in the right hand and a fork in the left, used only to push food onto the spoon."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "India Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/india-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Hygiene in Islam",
+      "url": "https://en.wikipedia.org/wiki/Hygiene_in_Islam",
+      "kind": "community"
     }
   ]
 }

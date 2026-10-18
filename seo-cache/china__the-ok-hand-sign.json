@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally harmless gesture",
-  "confidence": "high",
-  "explanation": "In China, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'good,' similar to its use in many Western countries. It does not carry any offensive connotations in everyday contexts, though it is less commonly used than in the West. The gesture is generally safe for casual interactions, such as indicating agreement or that something is fine.",
-  "local_tip": "Use the OK sign to show approval or agreement in informal settings, but avoid overusing it as it may seem unfamiliar to older generations.",
-  "regional_note": "In some rural areas or among older Chinese, the gesture may be less recognized, but it is not considered rude.",
+  "verdict_label": "Harmless, but can mean 'three'",
+  "confidence": "medium",
+  "explanation": "The OK hand sign isn't offensive in China, but it isn't purely an 'approval' gesture either: the same thumb-and-finger ring shape is also one of the ways to represent the number three in Chinese hand-counting gestures. In practice this means it's generally safe to use but can occasionally cause mild confusion rather than being read as a thumbs-up-style compliment.",
+  "local_tip": "Use the OK sign for agreement or approval if you like, but don't be surprised if an older or rural person reads it as the number three rather than 'okay.'",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "The OK sign is considered a vulgar insult, equivalent to giving the middle finger."
+      "note": "The gesture is a well-known vulgar insult, comparable to an obscene gesture rather than a sign of approval."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "The gesture is offensive and can imply homosexuality or an insult."
+      "note": "The gesture can be read as a crude insult in some contexts, so it's best avoided."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "While often positive, it can mean 'zero' or 'worthless' in some contexts, so use with care."
+      "note": "It can be understood to mean 'zero' or 'worthless' rather than approval, depending on context."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Guide to Chinese Hand Gestures - Mandarin Blueprint",
+      "url": "https://www.mandarinblueprint.com/blog/guide-to-chinese-hand-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "Use Your Body Gestures to Communicate in Chinese - ChineseClass101",
+      "url": "https://www.chineseclass101.com/blog/?p=2919",
+      "kind": "community"
     }
   ]
 }

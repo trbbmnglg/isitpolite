@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In the Philippines, beckoning someone with a curled index finger is considered extremely rude and is typically used only for calling animals or inferiors. It is seen as a sign of disrespect, especially toward elders or those in authority, and can cause serious offense.",
-  "local_tip": "To call someone politely, extend your hand with the palm facing down and gently wave all four fingers toward you.",
-  "regional_note": "This is consistent across most regions and generations, though younger urban Filipinos may be more lenient in informal settings.",
+  "verdict_label": "Seen as demeaning, not illegal",
+  "confidence": "medium",
+  "explanation": "Curling the index finger to call someone over is strongly associated in the Philippines with calling animals, not people, so using it on a person — especially an elder or stranger — reads as demeaning and disrespectful. A widely repeated claim that this gesture is 'punishable by law' in the Philippines appears to be an internet myth: no actual statute or credible legal source backs it up. The offense is a matter of social custom, not criminal law.",
+  "local_tip": "To call someone over, extend your hand palm-down and wave your fingers toward yourself in a scratching motion, instead of curling one finger upward.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered vulgar and animal-like; use a full-hand wave with palm down."
+      "note": "Beckoning with a single finger is considered vulgar and animal-like; a palm-down hand wave is used instead."
     },
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Beckoning with a finger is seen as condescending and is reserved for calling dogs."
+      "note": "Beckoning with a finger is seen as condescending and is associated with calling dogs."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual contexts, it can be perceived as aggressive or dismissive in formal or professional settings."
+      "note": "Common in casual contexts, but can be perceived as aggressive or dismissive in formal or professional settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "List of gestures",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "6 hand gestures in different cultures (& what they mean)",
+      "url": "https://blog.busuu.com/what-hand-gestures-mean-in-different-countries/",
+      "kind": "community"
     }
   ]
 }

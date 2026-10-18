@@ -1,25 +1,33 @@
 {
   "verdict": "rude",
-  "verdict_label": "Refusing food is rude",
-  "confidence": "high",
-  "explanation": "In Italy, offering food is a fundamental expression of hospitality and affection, especially when meeting family. Refusing it can be perceived as rejecting the host's generosity and warmth, potentially causing offense. It is customary to at least taste the food offered, even if you are not hungry.",
-  "local_tip": "Always accept a small portion and compliment the host; if you must decline, offer a sincere compliment and a plausible excuse like 'I just ate, but it looks wonderful.'",
-  "regional_note": "In Southern Italy, the pressure to accept food is even stronger, while in Northern Italy, a polite refusal may be more easily accepted but still generally discouraged.",
+  "verdict_label": "Seen as rejecting hospitality",
+  "confidence": "medium",
+  "explanation": "Offering food is a core expression of Italian hospitality, and declining it — especially an invitation to share a meal — can genuinely come across as rejecting someone's generosity. It's customary to at least accept a small portion or taste what's offered; if you must refuse, do it warmly and with a clear reason rather than a flat no.",
+  "local_tip": "If you must decline, say something like 'Ho già mangiato, ma sembra delizioso' (I've already eaten, but it looks delicious) rather than just saying no.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Refusing food is generally polite to avoid imposing, but it can be seen as rejecting hospitality; a polite refusal with explanation is acceptable."
+      "note": "A polite refusal with a brief explanation is acceptable and won't be seen as rejecting hospitality outright."
     },
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Refusing food, especially in a family setting, is often considered disrespectful as it implies rejection of the host's care and generosity."
+      "note": "Refusing food, especially in a family setting, is often seen as disrespectful."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "While it is polite to accept, a gracious refusal with compliments is acceptable in formal settings, but in family contexts, it may still be seen as slightly impolite."
+      "note": "A gracious refusal with compliments is acceptable in formal settings, though still slightly impolite in family contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Italy",
+      "url": "https://en.wikivoyage.org/wiki/Italy",
+      "kind": "community"
     }
   ]
 }

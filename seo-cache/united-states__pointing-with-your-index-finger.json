@@ -1,25 +1,33 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Acceptable but often rude",
+  "verdict": "polite",
+  "verdict_label": "Normal, but not at faces",
   "confidence": "medium",
-  "explanation": "In the United States, pointing with the index finger is common but can be perceived as aggressive or accusatory in formal or sensitive contexts. It is generally acceptable in casual settings like giving directions, but many Americans prefer using an open hand or nodding to avoid seeming confrontational.",
-  "local_tip": "Use an open hand with palm up or a chin nod to indicate direction or a person instead of pointing.",
-  "regional_note": "In the Southern U.S., pointing is often considered more impolite, while in urban Northeast areas it may be more tolerated.",
+  "explanation": "Pointing with your index finger to indicate a direction, object, or person across a room is normal and unremarkable in the US, unlike in many Asian cultures where it's considered rude. The main exception is pointing directly at someone's face up close, which can come across as aggressive or accusatory.",
+  "local_tip": "Point freely for directions or objects; when gesturing toward a person, especially up close, an open hand feels less confrontational than a pointed finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered very rude; use an open hand instead."
+      "note": "Pointing with the index finger at a person is considered rude; gesturing with an open hand, palm up, is preferred."
     },
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or a closed fist."
+      "note": "Pointing with the index finger is considered impolite; people often point with the thumb instead."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Pointing is acceptable but can be seen as blunt; a nod or open hand is more polite."
+      "note": "Pointing is acceptable but can come across as blunt; many Germans still consider it a bit impolite toward people."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Pointing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pointing",
+      "kind": "reference"
     }
   ]
 }

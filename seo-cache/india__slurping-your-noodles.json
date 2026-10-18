@@ -1,25 +1,33 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite in formal settings",
-  "confidence": "medium",
-  "explanation": "In India, slurping noodles is widely considered rude or uncouth, especially in formal dining or restaurant settings, as it violates the cultural norm of eating quietly and with restraint. While some younger generations or urban areas may be more tolerant due to global influences, traditional etiquette strongly discourages loud eating noises. The practice is associated with lack of self-control and poor table manners.",
-  "local_tip": "To be safe, eat noodles silently by twirling them around your fork or using a spoon and fork, avoiding any audible slurping.",
-  "regional_note": "In South India, where eating with hands is common and certain sounds (like sipping soup) are more accepted, slurping noodles may still be frowned upon; in North India, the expectation for quiet eating is even stronger.",
+  "verdict_label": "More tolerated than in the West",
+  "confidence": "low",
+  "explanation": "Slurping isn't the dining faux pas in India that it is under Western fine-dining norms — one etiquette comparison groups India with Korea as places where it's 'acceptable or even expected' to slurp soup or noodles, unlike Europe and North America where it's considered impolite. That said, loud chewing or other mouth noises are still seen as poor manners, and in upscale restaurants or formal business meals it's safer to eat quietly and at a moderate pace.",
+  "local_tip": "Don't worry about a little noise while eating soup, chai, or noodles in casual settings, but keep chewing quiet and avoid exaggerated slurping at upscale or formal business meals.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef, and is considered good manners."
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the dish, and is considered good manners."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping noodles is generally acceptable and indicates that you are savoring the meal, though it can vary by region."
+      "note": "Slurping noodles is generally acceptable and can signal that you're enjoying the meal."
     },
     {
       "country": "United States",
       "verdict": "rude",
-      "note": "Slurping noodles is considered impolite and disruptive in most dining settings, especially in formal restaurants."
+      "note": "Slurping is considered impolite and disruptive in most dining settings, especially formal ones."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "community"
     }
   ]
 }

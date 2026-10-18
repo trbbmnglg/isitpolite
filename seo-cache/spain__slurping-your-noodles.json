@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid slurping noodles",
-  "confidence": "high",
-  "explanation": "In Spain, slurping noodles is considered impolite and disruptive in a restaurant setting, as Spanish dining culture values quiet, refined table manners. Unlike in some East Asian countries where slurping signals appreciation, in Spain it is seen as a lack of self-control or disrespect to fellow diners.",
-  "local_tip": "Eat noodles silently by winding them around your fork and bringing them to your mouth without noise.",
+  "verdict": "caution",
+  "verdict_label": "Not complimentary, but not scandalous",
+  "confidence": "medium",
+  "explanation": "Spanish meals are lively and conversational — loud talk across the table is completely normal — but that's different from making noise while eating. General table manners in Spain (closed-mouth chewing, proper manners expected at the family table) suggest audible slurping would be seen as a minor lapse rather than fine the way it can be in Japan or China. It's unlikely to cause real offense, especially outside a formal setting, but it's not a complimentary gesture either.",
+  "local_tip": "Wind noodles onto your fork and eat quietly; a little noise at a casual dinner won't scandalize anyone, but there's no upside to slurping either.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a compliment to the chef and enhances flavor."
+      "note": "Slurping noodles, especially ramen or soba, is seen as a compliment to the chef and even said to enhance the flavor."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is common and indicates enjoyment, especially in casual settings."
+      "note": "Slurping noodles or soup is common and generally read as enjoying the meal rather than being impolite."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very bad manners and is avoided."
+      "note": "Audibly slurping pasta is considered poor table manners and is something Italians generally avoid."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Spanish table manners: do you know the rules?",
+      "url": "https://notesfromspain.com/2007/03/29/spanish-table-manners-do-you-know-the-rules/",
+      "kind": "reference"
+    },
+    {
+      "title": "Syracuse University Madrid homestay FAQ",
+      "url": "https://suabroad.syr.edu/madrid/wp-json/wp/v2/pages/71",
+      "kind": "reference"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "verdict": "caution",
-  "verdict_label": "Depends on region and relationship",
+  "verdict_label": "Not the default greeting",
   "confidence": "medium",
-  "explanation": "In the United States, cheek kissing is not a universal greeting; it is common in certain social circles (e.g., coastal urban areas, among friends or family) but may be seen as overly familiar or invasive in more reserved or rural settings. It is generally reserved for close acquaintances or celebratory occasions, not for first meetings or formal business contexts.",
-  "local_tip": "When in doubt, offer a handshake or a friendly wave first, and only initiate a cheek kiss if the other person leans in.",
-  "regional_note": "More common in metropolitan areas like New York, Los Angeles, and Miami, especially among younger, multicultural groups; less common in the Midwest and South, where a handshake or hug is preferred.",
+  "explanation": "Cheek kissing isn't the standard American greeting - a handshake or hug is far more typical, even among acquaintances. Where it does happen, it's usually between people who already know each other well, or in cities with strong European or Latin American immigrant influence, where a single cheek kiss has become more common socially.",
+  "local_tip": "Don't initiate a cheek kiss with someone you're meeting for the first time or in a business setting; offer a handshake and let the other person lead if they want to cheek-kiss instead.",
+  "regional_note": "Miami is a notable exception, where a single cheek kiss is a much more common social greeting than in most of the US, reflecting the city's large Latin American and European immigrant communities.",
   "also_check": [
     {
       "country": "France",
@@ -13,13 +13,21 @@
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact is minimal; bowing is the norm, and cheek kissing is considered inappropriate in most social settings."
+      "verdict": "caution",
+      "note": "Bowing is the standard greeting, and cheek kissing is unusual enough that it can feel out of place rather than warmly received."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "Cheek kissing is common, often one kiss on each cheek, even among new acquaintances in social gatherings."
+      "note": "Cheek kissing is a common greeting, often one kiss per cheek, even among people meeting for the first time socially."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cheek kissing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cheek_kissing",
+      "kind": "reference"
     }
   ]
 }

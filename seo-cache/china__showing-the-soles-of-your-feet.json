@@ -1,25 +1,43 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In China, showing the soles of your feet is considered deeply insulting because the foot is viewed as the lowest and dirtiest part of the body. This gesture, especially when directed at someone, implies that the person is beneath you or unclean. It is a strong taboo in social settings, particularly when sitting with legs crossed or pointing feet at others.",
-  "local_tip": "Always sit with both feet flat on the floor or crossed at the ankles, and never point your feet toward anyone, especially elders or hosts.",
-  "regional_note": "In Tibetan Buddhist areas of China, such as Tibet, showing soles is also offensive but may be less strictly observed among younger generations.",
+  "verdict_label": "Seen as disrespectful",
+  "confidence": "medium",
+  "explanation": "Chinese etiquette guides consistently describe feet as the 'lowest' part of the body, so deliberately showing the soles of your feet or pointing your feet at someone is considered disrespectful. This is treated less severely than in Thailand, where it intersects with Buddhist sacred-space rules, but it's still something hosts and etiquette guides flag as impolite.",
+  "local_tip": "When sitting, especially with elders or hosts nearby, keep your feet flat on the floor or crossed at the ankle rather than propped up or pointed at anyone.",
+  "regional_note": "Younger, more Western-influenced urban Chinese tend to be more relaxed about this than older or more traditional households.",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "Pointing feet at people or Buddha images is a major insult, as feet are considered the lowest part of the body."
+      "note": "Pointing feet at people or at Buddha images is a serious insult, since the foot is the lowest and head the highest part of the body."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is highly offensive, as it is seen as a sign of contempt and disrespect."
+      "note": "Showing the soles of your feet is considered a clear sign of contempt."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While not as severe, putting feet on furniture or pointing soles at others can be seen as rude or overly casual in formal settings."
+      "note": "Propping feet on furniture or toward others is seen as casual or rude in formal settings but isn't a major taboo."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "9 Chinese Hand Gestures You Can Learn Today - FluentU",
+      "url": "https://www.fluentu.com/blog/chinese/2017/12/04/chinese-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "7 Gestures to Avoid in China - Listen & Learn USA",
+      "url": "https://www.listenandlearnusa.com/blog/7-gestures-to-avoid-in-china",
+      "kind": "community"
+    },
+    {
+      "title": "Chinese Etiquette Guide (PDF) - University of Exeter",
+      "url": "https://exeter.ac.uk/media/universityofexeter/internationalexeter/pdfs/Chinese%20Etiquette%20Guide.pdf",
+      "kind": "reference"
     }
   ]
 }

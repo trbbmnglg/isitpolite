@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally welcome but subtle",
+  "verdict_label": "Welcome, with a few taboos",
   "confidence": "medium",
-  "explanation": "In Brazilian business culture, gift-giving is polite and appreciated, especially as a gesture of gratitude or to strengthen relationships, but it should not be too expensive to avoid suspicion of bribery. Small, thoughtful gifts like a book, wine, or company-branded items are safe, while personal gifts like perfume or clothing may be seen as too intimate. Timing matters: gifts are best given after a deal is closed or at the end of a meeting, not at the first encounter.",
-  "local_tip": "Choose a modest, high-quality gift (e.g., a fine pen or local craft) and present it with both hands or the right hand, avoiding anything in sets of 13 or black/purple colors, which are associated with mourning.",
-  "regional_note": "In São Paulo and Rio de Janeiro, business gift-giving is more common and formal, while in the Northeast, personal warmth may make gifts more casual; younger professionals may prefer digital or experience-based gifts.",
+  "explanation": "Gift-giving is a warm, appreciated gesture in Brazil, both socially and in business, though business gifts should stay modest to avoid any appearance of bribery. A few specific things to avoid: wrapping a gift in purple (associated with mourning), giving anything sharp like knives (seen as symbolically 'cutting' the relationship), and giving a gift to someone of the opposite gender outside of a birthday, which can be misread as a romantic gesture rather than simple courtesy.",
+  "local_tip": "Choose a modest, thoughtful gift, avoid purple wrapping paper and sharp objects, and be mindful that opposite-gender gifts outside of birthdays can send an unintended romantic signal.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; avoid white flowers or sets of four, and present with both hands."
+      "note": "Gift-giving is highly ritualized; avoid white flowers or sets of four, and present gifts with both hands."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even inappropriate in business; if given, keep it small and practical."
+      "note": "Gifts are often unnecessary in business contexts; if given, keep them small and practical."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gifts are expected but avoid alcohol or pigskin products; use the right hand only."
+      "note": "Gifts are welcomed, but avoid alcohol or pigskin products, and use the right hand to give and receive."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Latin America - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Latin_America",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use with discretion",
-  "confidence": "medium",
-  "explanation": "In Spain, pointing with the index finger is generally considered impolite or aggressive in everyday social interactions, especially when directed at a person. Spaniards often prefer to gesture with an open hand or nod their head to indicate direction or a person. This is rooted in a cultural emphasis on personal space and indirect communication.",
-  "local_tip": "Instead of pointing, gesture with your whole hand (palm up or open) or use a slight head tilt to indicate a person or direction.",
-  "regional_note": "In more rural or older generations, pointing may be seen as ruder, while in younger, urban circles it is sometimes tolerated but still not preferred.",
+  "verdict_label": "Common but can seem blunt",
+  "confidence": "low",
+  "explanation": "Pointing directly at a person with your index finger is widely used in Spain but can come across as blunt or aggressive, especially when aimed at someone during a disagreement — soft etiquette advice favors gesturing with an open hand instead. Unlike in East Asia, there's no strong, well-documented taboo against it, so it's more a matter of manners than a hard rule.",
+  "local_tip": "When indicating a person, use an open hand rather than a single finger, especially with someone you don't know well.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered very rude; use an open hand instead."
+      "note": "Pointing with a single finger is considered impolite; gesturing with an open hand is the norm."
     },
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or an open hand."
+      "note": "Pointing with the index finger is seen as offensive; people often point with the thumb instead."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Pointing with the index finger is common and generally acceptable in casual contexts."
+      "note": "Pointing with the index finger is common and unremarkable in everyday casual conversation."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Insider's Guide to Understanding Spanish Hand Gestures",
+      "url": "https://worldstrides.com/blog/2012/02/insiders-guide-understanding-spanish-hand-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "Offensive International Travel Hand Gestures",
+      "url": "https://www.globalrescue.com/es/common/blog/detail/offensive-international-travel-hand-gestures/",
+      "kind": "reference"
     }
   ]
 }

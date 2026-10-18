@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Subtle and restrained",
+  "verdict_label": "Fine in moderation",
   "confidence": "high",
-  "explanation": "In Germany, public displays of affection are generally acceptable but should be subtle, such as holding hands or a brief kiss on the cheek. Overt or prolonged intimate behavior, especially in formal social gatherings, can be seen as inappropriate and disrespectful to others. Germans value privacy and personal space, so discretion is key.",
-  "local_tip": "Keep physical affection minimal and brief; a quick hug or handshake is safer than kissing or embracing in a social gathering.",
-  "regional_note": "In more conservative areas of Bavaria or rural regions, displays may be viewed more critically, while in cosmopolitan cities like Berlin, they are more accepted.",
+  "explanation": "Holding hands, hugging, or a brief kiss between couples is normal and accepted in German public life, but Germans are generally more reserved than Mediterranean cultures and view prolonged or intense displays as inappropriate, especially in professional settings. Workplaces in particular expect a clear line between affection and professional conduct.",
+  "local_tip": "Keep physical affection brief and low-key in public, and avoid it altogether at work or in business settings.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Public displays of affection are highly discouraged and considered embarrassing in most social settings."
+      "note": "Public displays of affection are discouraged and can embarrass onlookers in most everyday settings."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheeks as a greeting and moderate PDA are common and socially accepted."
+      "note": "Kissing as a greeting and moderate affection between couples in public are common and socially accepted."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public displays of affection between unmarried couples are illegal and severely frowned upon."
+      "note": "Public affection between unmarried couples is culturally and legally unacceptable."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Public displays of affection - Expatica",
+      "url": "https://www.expatica.com/living/love/public-displays-of-affection-108636",
+      "kind": "reference"
+    },
+    {
+      "title": "German Culture - Communication - Cultural Atlas",
+      "url": "https://theculturalatlas.org/german-culture/german-culture-communication",
+      "kind": "reference"
     }
   ]
 }

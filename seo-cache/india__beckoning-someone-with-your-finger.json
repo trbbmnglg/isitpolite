@@ -1,25 +1,33 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful and demeaning",
-  "confidence": "high",
-  "explanation": "In India, beckoning someone with a curled index finger is considered rude and condescending, as it is often used to call animals or servants. The gesture implies a lack of respect and is seen as a command rather than a polite request. Instead, use an open hand with palm facing down and a gentle waving motion to summon someone.",
-  "local_tip": "To call someone politely, extend your arm with palm facing down and wiggle your fingers together in a soft, downward motion.",
-  "regional_note": "In some rural areas or among older generations, even the open-hand gesture may be considered too direct; a verbal call or a nod is preferred.",
+  "verdict": "caution",
+  "verdict_label": "Use an open hand instead",
+  "confidence": "low",
+  "explanation": "Beckoning with a single curled index finger (the Western 'come here' gesture) is generally less common in India and much of Asia; a more typical polite way to call someone over is an open hand, palm facing down, with the fingers scratching inward together. No strong India-specific evidence was found that single-finger beckoning is a severe insult there the way it is in some neighboring cultures, but it can still come across as abrupt or commanding rather than respectful.",
+  "local_tip": "To call someone over, extend your hand with the palm facing down and bring your fingers in together, rather than curling a single finger toward yourself.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude and is used only for animals; use an open hand with palm down and a gentle waving motion."
+      "note": "The polite beckoning form uses a palm facing the recipient at head height; reversing it is considered impolite."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a curled finger is highly offensive and can be interpreted as a challenge or insult; use a hand gesture with palm down and fingers together."
+      "note": "Beckoning with a curled finger is considered highly offensive and has historically been associated with calling animals."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "While not as offensive as in Asia, beckoning with the index finger is still seen as abrupt and impolite; a more neutral gesture is to wave with an open hand."
+      "note": "Less taboo than in parts of Asia, but curling a single finger to beckon can still feel abrupt; an open-hand wave is more neutral."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "List of gestures",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "community"
     }
   ]
 }

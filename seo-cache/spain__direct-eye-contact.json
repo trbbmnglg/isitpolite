@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected in business",
+  "verdict_label": "Expected, especially in business",
   "confidence": "high",
-  "explanation": "In Spanish business culture, direct eye contact signals confidence, sincerity, and engagement. It is considered a sign of respect and trustworthiness, especially during negotiations or meetings.",
-  "local_tip": "Maintain steady but not aggressive eye contact, and avoid prolonged staring as it may be perceived as a challenge.",
-  "regional_note": "In the Basque Country and Catalonia, direct eye contact is similarly valued, though some older generations may find very intense eye contact slightly confrontational.",
+  "explanation": "Direct eye contact is valued in Spain as a sign of honesty, confidence, and engagement, both socially and in business meetings. Avoiding it or checking your phone while someone is speaking is seen as rude or disinterested, while steady (not aggressive) eye contact during a handshake or negotiation signals sincerity.",
+  "local_tip": "Hold eye contact when greeting and during conversation, but soften it rather than staring fixedly, which can come across as confrontational.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact is often seen as intimidating or disrespectful; brief glances or looking at the necktie area is more polite."
+      "note": "Prolonged direct eye contact can feel intimidating or disrespectful; brief eye contact with glances away is more typical."
     },
     {
-      "country": "Nigeria",
+      "country": "South Korea",
       "verdict": "caution",
-      "note": "Direct eye contact with elders or superiors can be considered disrespectful or a sign of defiance, especially in traditional settings."
+      "note": "Sustained eye contact with elders or superiors can be read as defiant in a culture that values hierarchical respect."
     },
     {
-      "country": "Finland",
+      "country": "Netherlands",
       "verdict": "polite",
-      "note": "Direct eye contact is expected and valued in business, reflecting honesty and directness, similar to Spain."
+      "note": "Direct eye contact is expected and tied to the Dutch value of blunt, honest communication, much like in Spain."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global — Spain Business Etiquette Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/spain-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Spanish Etiquette: The Ultimate Guide for Expats",
+      "url": "https://www.uniplaces.com/city-explorer/spanish-etiquette-the-ultimate-guide-for-expats-in-2025/",
+      "kind": "reference"
     }
   ]
 }

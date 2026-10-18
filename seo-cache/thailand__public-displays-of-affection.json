@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Minimal PDA expected",
+  "verdict_label": "Hand-holding okay, more is not",
   "confidence": "high",
-  "explanation": "In Thailand, public displays of affection, especially in social gatherings, are generally considered impolite due to the cultural value of maintaining a modest and reserved demeanor. While holding hands is sometimes acceptable among couples, kissing, hugging, or intimate touching in public is frowned upon and can cause discomfort or embarrassment to others. This stems from traditional Buddhist-influenced norms that prioritize social harmony and non-confrontation.",
-  "local_tip": "Avoid any physical affection beyond a brief hand-hold or a respectful wai greeting, and always observe the behavior of locals around you.",
-  "regional_note": "In more cosmopolitan areas like Bangkok, younger generations may be slightly more accepting of subtle PDA, but in rural or conservative regions, even hand-holding can be seen as inappropriate.",
+  "explanation": "Public affection beyond simple hand-holding is traditionally frowned upon in Thailand; kissing and hugging in public, even between married couples, can draw stares or social disapproval. Attitudes are loosening somewhat, especially among younger couples in Bangkok, where hand-holding or an arm around a partner is now common, but overt kissing or prolonged hugging in public remains discouraged almost everywhere, and temple grounds are stricter still.",
+  "local_tip": "Holding hands is generally fine, but save kissing and prolonged hugging for private spaces, and avoid any physical affection at all on temple grounds.",
+  "regional_note": "Younger couples in Bangkok and other urban centers are increasingly open about hand-holding, but kissing or hugging in public is still discouraged nationwide, and temples hold a stricter standard than everyday public spaces.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "PDA such as kissing in public is widely accepted and considered normal."
+      "note": "Public kissing and affection between couples is widely accepted and normal."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "rude",
-      "note": "Public displays of affection are illegal and can lead to fines or arrest."
+      "note": "Public displays of affection are illegal and can result in fines or arrest."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "PDA is generally avoided in public, though holding hands is sometimes acceptable among young couples."
+      "note": "PDA is generally avoided in public, though hand-holding is increasingly accepted among young couples."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "A Tom and Dee Scolded on the BTS – A Breaking Point of Thai Norms",
+      "url": "https://8limbsus.com/blog/tom-dee-scolded-bts-breaking-point-thai-sexuality-norms",
+      "kind": "community"
+    },
+    {
+      "title": "Etiquette in Thailand",
+      "url": "https://www.frommers.com/destinations/thailand/in-depth/etiquette/",
+      "kind": "reference"
+    },
+    {
+      "title": "PDA in Thai Culture: 4 Dos and Don'ts",
+      "url": "https://pinkpangea.com/?p=15376",
+      "kind": "community"
     }
   ]
 }

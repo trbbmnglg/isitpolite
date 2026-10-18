@@ -2,24 +2,42 @@
   "verdict": "rude",
   "verdict_label": "Disrespectful foot display",
   "confidence": "high",
-  "explanation": "In Turkey, showing the soles of your feet is considered highly disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture can imply that you view the other person as beneath you, especially in social or formal settings.",
-  "local_tip": "Always sit with your feet flat on the floor or crossed at the ankles, and avoid pointing your foot or shoe toward anyone.",
-  "regional_note": "In more conservative or religious circles, this taboo is even stronger, while in very liberal urban settings it may be overlooked among close friends.",
+  "explanation": "Showing the sole of your foot or shoe to someone in Turkey is a real insult, especially while seated in a home, restaurant, or coffee shop — it implies the other person is beneath you. Locals avoid pointing their feet at others or propping shoes up where soles are visible.",
+  "local_tip": "Keep your feet flat on the floor or crossed at the ankle, and never point the sole of your foot or shoe toward another person.",
+  "regional_note": "The taboo is strongest in traditional homes and religious settings; very casual gatherings among close friends may be more relaxed.",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and most impure part of the body; pointing them at someone or at a Buddha image is a serious offense."
+      "note": "The feet are the lowest and most impure part of the body; pointing them at someone or a Buddha image is a serious offense."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the sole of your foot is a grave insult, as it implies the person is beneath you; it is avoided in all social and business interactions."
+      "note": "Showing the sole of your foot is a grave insult implying the person is beneath you."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Putting feet up on furniture or showing soles is generally casual and acceptable in informal settings, though it may be seen as rude in formal or professional contexts."
+      "note": "Putting feet up or showing soles is generally casual and acceptable informally, though it can seem rude in formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Customs and etiquette in Turkey",
+      "url": "https://www.roughguides.com/destinations/europe/turkey/culture-etiquette/",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish cultural taboos",
+      "url": "https://www.crownrelo.com/article/turkish-cultural-taboos",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey — Wikivoyage travel guide",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
     }
   ]
 }

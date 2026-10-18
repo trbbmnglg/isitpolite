@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Gift giving valued",
-  "confidence": "high",
-  "explanation": "In Chinese business culture, gift-giving is a common and polite gesture that builds guanxi (relationships) and shows respect. However, it must follow strict rules: avoid clocks, umbrellas, or sharp objects, and always present and receive gifts with both hands. Gifts should be modest in value to avoid appearing as bribery, and they are typically not opened in front of the giver.",
-  "local_tip": "Give a high-quality tea or regional specialty in a red or gold wrapper, and always refuse the gift once or twice before accepting graciously.",
-  "regional_note": "In southern China (e.g., Guangdong), gifts of citrus fruits are especially favored, while in northern regions, alcohol or tobacco may be more common; younger urban professionals may be less formal about gift refusal rituals.",
+  "verdict_label": "Valued, but with real rules",
+  "confidence": "medium",
+  "explanation": "Gift-giving is a warmly regarded way to build relationships (guanxi) in China, but it comes with specific taboos: avoid clocks (the phrase for 'giving a clock' sounds like a funeral-related phrase), avoid sets of four (the word for 'four' sounds like 'death'), and skip white or black wrapping, which are associated with funerals, in favor of red or gold. In business and especially government contexts, keep gifts modest—since Xi Jinping's 2012 'eight-point' anti-corruption rules, giving lavish gifts or cash to officials carries real legal and career risk, not just a social misstep.",
+  "local_tip": "Give something modest like fine tea wrapped in red or gold, present it with both hands, and don't be surprised if the recipient initially waves it off once or twice before accepting—that's a polite ritual on their end, not a cue for you to withdraw the gift.",
+  "regional_note": "Hong Kong and Taiwan share the same clock and number-four taboos, since both stem from Mandarin/Cantonese homophones rather than being mainland-specific superstitions.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; avoid white or brightly colored wrapping, and never give in sets of four or nine."
+      "note": "Gift-giving is highly ritualized, with sets of four or nine avoided and plain or subdued wrapping generally preferred over flashy colors."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+      "note": "Business gifts are often unnecessary or seen as slightly inappropriate; if given at all, something small and practical is best."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gifts are appreciated but must be halal-compliant; avoid alcohol or pork products, and never give with the left hand."
+      "note": "Gifts are welcomed but should avoid alcohol or pork, and should be given with the right hand or both hands, not the left."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Culture - Etiquette (Cultural Atlas, SBS / Multicultural NSW)",
+      "url": "https://culturalatlas.sbs.com.au/chinese-culture/chinese-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Eight-point Regulation - background coverage - IDN Financials",
+      "url": "https://www.idnfinancials.com/cn/news/59912/john-ross-china-is-more-detailed-in-dealing-with-corruption-than-west",
+      "kind": "reference"
+    },
+    {
+      "title": "Crack the Code: China's Unspoken Gift Etiquette Revealed - Classy Mandarin",
+      "url": "https://classymandarin.substack.com/p/the-unspoken-chinese-gift-etiqutte",
+      "kind": "community"
     }
   ]
 }

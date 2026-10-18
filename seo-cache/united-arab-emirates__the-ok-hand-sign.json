@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Potentially offensive gesture",
-  "confidence": "high",
-  "explanation": "In the United Arab Emirates, the 'OK' hand sign (thumb and index finger forming a circle) is not universally understood as positive and can be interpreted as a vulgar gesture implying 'zero' or 'worthless,' especially among some Arab and South Asian expatriate communities. It may also be associated with the 'evil eye' in local superstition. While younger, globally-connected Emiratis might recognize its Western meaning, using it in general or everyday settings carries a risk of causing unintended offense.",
-  "local_tip": "To avoid any misunderstanding, use a thumbs-up or a verbal 'good' instead of the OK hand sign in everyday interactions.",
-  "regional_note": "The gesture is more likely to be misinterpreted by older generations and conservative locals; in Dubai's international business environment, it may be tolerated but still not recommended.",
+  "verdict_label": "Not safely 'OK' here",
+  "confidence": "low",
+  "explanation": "The Western 'all good' meaning of the OK sign doesn't reliably carry over to the Gulf: general references on obscene gestures note it carries vulgar or offensive connotations in parts of the Middle East, and at least one UAE-focused etiquette source describes it locally as evoking the 'evil eye' rather than approval. Because interpretations vary by generation and audience, and solid country-specific evidence is thin, treat it as genuinely unpredictable rather than safe.",
+  "local_tip": "Use a verbal 'great' or a simple nod of approval instead of the OK sign.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a highly offensive, vulgar gesture similar to a middle finger."
+      "note": "The gesture is considered a serious obscene insult."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly means 'money' or 'OK,' but context matters; avoid with older people in formal settings."
+      "note": "It commonly signals 'money' or 'OK', though context still matters in very formal settings."
     },
     {
       "country": "France",
-      "verdict": "polite",
-      "note": "Generally means 'OK' or 'zero,' but can be rude if used to mean 'worthless' in some contexts."
+      "verdict": "caution",
+      "note": "It can mean 'zero' or 'worthless' in some contexts rather than straightforward approval."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Obscene gesture",
+      "url": "https://en.wikipedia.org/wiki/Obscene_gesture",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Dubai – Important Tips",
+      "url": "https://www.dhowcruiseindubai.com/blog/?p=170",
+      "kind": "community"
     }
   ]
 }

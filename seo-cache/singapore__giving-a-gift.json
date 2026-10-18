@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Gift giving requires care",
-  "confidence": "medium",
-  "explanation": "In Singapore's business culture, gift-giving is generally polite but must be handled with sensitivity to avoid perceptions of bribery, especially in government or regulated sectors. Gifts should be modest, well-presented, and given after a relationship is established, not at the first meeting. Avoid items that may be seen as extravagant or that carry negative symbolism, such as clocks or sharp objects.",
-  "local_tip": "Present a small, high-quality corporate gift like a branded pen or local delicacy with both hands, and avoid giving anything that could be interpreted as a bribe.",
-  "regional_note": "Chinese-majority Singaporeans may prefer red or gold wrapping, while Malay and Indian colleagues may have religious restrictions on alcohol or pork-related items.",
+  "verdict_label": "Know the community-specific rules",
+  "confidence": "high",
+  "explanation": "Gift-giving customs in Singapore vary sharply by community rather than following one uniform rule. Chinese Singaporeans avoid clocks, items in sets of four, and white or yellow flowers (funeral associations); Malay Muslims require halal gifts and avoid alcohol or pork; Indian/Hindu Singaporeans avoid leather and alcohol. Across all groups, gifts are usually given and received with both hands (or the right hand) and not opened in front of the giver.",
+  "local_tip": "When in doubt, a high-quality food gift (confirmed halal if for a Malay host) or a nicely presented item in red/gold wrapping for a Chinese host is a safe default; avoid clocks, sets of four, leather, and alcohol unless you know your host well.",
+  "regional_note": "Chinese Singaporeans: avoid clocks, sets of four, sharp objects, and white/yellow flowers (funeral associations), and favor red or gold wrapping. Malay Muslims: avoid alcohol and pork, ensure gifts are halal, and give with the right hand. Indian/Hindu Singaporeans: avoid leather and alcohol, and use bright wrapping.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized and expected in business, with strict rules on wrapping and presentation."
+      "note": "Gift-giving is highly ritualized, with strict expectations on wrapping, presentation, and reciprocation."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as inappropriate in formal business settings and may be viewed as an attempt to influence."
+      "note": "Business gifts are often unnecessary or even viewed with suspicion as an attempt to curry favor."
     },
     {
       "country": "United Arab Emirates",
-      "verdict": "polite",
-      "note": "Gift-giving is common but must respect Islamic customs, such as avoiding alcohol and using the right hand."
+      "verdict": "caution",
+      "note": "Gift-giving is welcomed but must avoid alcohol and pork and should be given with the right hand, per Islamic custom."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singapore Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/singapore-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Singaporean Culture - Etiquette (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

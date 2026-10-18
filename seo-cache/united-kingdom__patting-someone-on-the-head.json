@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid head patting",
-  "confidence": "high",
-  "explanation": "In the United Kingdom, patting someone on the head is generally considered patronizing or overly familiar, especially among adults. It invades personal space and can be seen as condescending, akin to treating the person like a child or a pet. This gesture is reserved for very close relationships or young children, and even then it is uncommon in public social settings.",
-  "local_tip": "Instead of a head pat, offer a firm handshake or a brief nod to show friendliness and respect.",
+  "verdict": "caution",
+  "verdict_label": "Patronizing, not taboo",
+  "confidence": "medium",
+  "explanation": "The UK has no sacred or spiritual taboo around the head, unlike cultures such as Thailand. Patting an adult on the head isn't forbidden, but it reads as patronizing or overly familiar - similar to how you'd treat a child or a pet - so most adults would find it condescending or odd outside of close family relationships.",
+  "local_tip": "Stick to a handshake, a nod, or a light touch on the arm or shoulder with people you know well; avoid patting an adult's head even as a joke.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred part of the body; touching it is a serious breach of etiquette."
+      "note": "The head is considered sacred; touching anyone's head, including a child's, is a serious breach of etiquette."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting a child's head may be acceptable, but doing so to an adult is disrespectful and intrusive."
+      "note": "Patting a child's head affectionately is common, but doing so to an adult is seen as disrespectful and intrusive."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact is minimal in public; head patting is seen as overly intimate and inappropriate."
+      "verdict": "caution",
+      "note": "Public physical contact is minimal in general, so head-patting between adults is seen as overly familiar."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "List of gestures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Personal space - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Personal_space",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Keep PDA minimal",
-  "confidence": "high",
-  "explanation": "In Russia, public displays of affection such as kissing or hugging are generally reserved for private settings; while holding hands or a brief peck on the cheek may be tolerated among close friends or couples, more intimate gestures in social gatherings are considered inappropriate and may draw negative attention.",
-  "local_tip": "Limit physical contact to a handshake or a light hug with acquaintances, and avoid any prolonged or romantic displays in mixed company.",
-  "regional_note": "In major cities like Moscow or St. Petersburg, younger generations are more relaxed about mild PDA, but conservative attitudes prevail in rural areas and among older generations.",
+  "verdict_label": "Moderate affection generally tolerated",
+  "confidence": "medium",
+  "explanation": "Hand-holding or a quick kiss between partners is commonly seen in Russian cities, and surveys suggest Russians have grown more tolerant of public affection over time. However, Russia's 'gay propaganda' laws impose real legal penalties specifically on public displays of affection between same-sex couples, so the risk is significantly higher for LGBTQ+ travelers.",
+  "local_tip": "Casual affection like hand-holding is generally fine in cities, but same-sex couples should be aware Russian law specifically targets public same-sex affection with fines or worse.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "United Arab Emirates",
       "verdict": "rude",
-      "note": "PDA is strictly forbidden in public, even between married couples, and can lead to legal penalties."
+      "note": "Public displays of affection can lead to legal penalties, even between married couples."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheek as a greeting and casual PDA are widely accepted and common."
+      "note": "Cheek kissing as a greeting and casual PDA like hand-holding are widely accepted and common."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "PDA is generally avoided in public; even holding hands can be seen as immodest in formal settings."
+      "note": "PDA is generally avoided in public; even hand-holding can feel immodest in more formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Kissing Games in Moscow",
+      "url": "https://www.rferl.org/a/kissing_games_in_moscow/24274661.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Russia is actually considering jailing gays who kiss in public",
+      "url": "https://thepinknews.com/2016/01/18/russia-is-actually-considering-jailing-gays-who-kiss-in-public",
+      "kind": "reference"
     }
   ]
 }

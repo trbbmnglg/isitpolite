@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid left hand use",
-  "confidence": "high",
-  "explanation": "In the Philippines, eating with the left hand is generally considered impolite because the left hand is traditionally associated with unclean tasks, such as personal hygiene. While many Filipinos use utensils (fork and spoon) in restaurants, if eating with hands (kamayan), the right hand is always used. This custom is rooted in Islamic and Malay cultural influences, though it is less strictly observed in urban or Westernized settings.",
-  "local_tip": "Always use your right hand for eating, especially in kamayan-style meals, and keep your left hand on your lap or used only for holding a glass.",
-  "regional_note": "In Muslim-majority areas of Mindanao, the left-hand taboo is strictly observed; in Metro Manila and among younger generations, it is less rigid but still advisable to avoid.",
+  "verdict_label": "Contested, not a strict taboo",
+  "confidence": "low",
+  "explanation": "Sources genuinely disagree here. Wikipedia's description of kamayan (traditional hand-eating) says the left hand is used to gather food from a shared dish while the right hand brings it to the mouth — not a strict 'left hand is unclean' rule. Other travel guides and forum posts claim Filipinos avoid the left hand entirely for eating and for passing objects, closer to South Asian or Gulf customs. In daily life, most Filipinos eat with a spoon and fork, so the question rarely even comes up.",
+  "local_tip": "At a kamayan-style meal, watch what your host does and mirror it; day-to-day, eating with a fork and spoon in either hand is completely normal and won't be noticed.",
+  "regional_note": "In Muslim-majority communities in Mindanao, the stronger Islamic convention of reserving the left hand for hygiene and the right for eating is more likely to be observed.",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is considered unclean and is avoided in traditional dining."
+      "note": "Eating or passing food with the left hand is considered unclean and is avoided in traditional dining."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Left-hand use is acceptable as long as chopsticks are handled properly; no strong stigma."
+      "note": "Left-hand use is unremarkable as long as chopsticks are handled properly; there is no stigma."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "The left hand is strictly reserved for hygiene; eating and passing food must be done with the right hand."
+      "note": "The left hand is reserved strictly for hygiene; eating and passing food must be done with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Filipino cuisine",
+      "url": "https://en.wikipedia.org/wiki/Filipino_cuisine",
+      "kind": "reference"
+    },
+    {
+      "title": "Kamayan",
+      "url": "https://en.wikipedia.org/wiki/Kamayan",
+      "kind": "reference"
     }
   ]
 }

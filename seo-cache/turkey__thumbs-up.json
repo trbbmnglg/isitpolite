@@ -1,15 +1,15 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Generally positive but ambiguous",
+  "verdict": "polite",
+  "verdict_label": "Generally positive, not taboo",
   "confidence": "medium",
-  "explanation": "In Turkey, the thumbs-up gesture is widely understood as a positive sign meaning 'good' or 'okay,' especially among younger and urban populations. However, it can carry a vulgar connotation in some rural or conservative contexts, where it may be interpreted as an offensive phallic symbol. The gesture is safest in casual, modern settings but should be avoided in formal or traditional interactions.",
-  "local_tip": "Use a simple nod or smile instead of thumbs-up when in doubt, especially with older or rural individuals.",
-  "regional_note": "In conservative eastern and rural areas, the gesture is more likely to be seen as rude; in western cities like Istanbul or Izmir, it is generally accepted.",
+  "explanation": "Although some round-ups claim thumbs-up is an offensive 'phallic' gesture across a broadly defined 'Middle East,' Turkey-specific sources that do catalogue real taboo gestures (the OK sign, the fig gesture) never flag thumbs-up, and it's commonly used and read positively in Turkey, much like in the West.",
+  "local_tip": "Thumbs-up is safe to use in everyday and business settings in Turkey; it's understood the same positive way as in the West.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
       "verdict": "rude",
-      "note": "Thumbs-up is a severe insult, equivalent to a raised middle finger."
+      "note": "Thumbs-up is a severe insult, roughly equivalent to a raised middle finger."
     },
     {
       "country": "Iran",
@@ -19,7 +19,25 @@
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Thumbs-up means 'good' or 'man' and is positive, though not used for 'okay' as in the West."
+      "note": "Thumbs-up means 'good' and is read positively, though less used for 'okay' than in the West."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish Culture: Communication",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Not bad intentions, it's just etiquette in Turkey",
+      "url": "https://www.dailysabah.com/life/2015/01/07/not-bad-intentions-its-just-etiquette-in-turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Gestures — Wikivoyage",
+      "url": "https://en.wikivoyage.org/wiki/Gestures",
+      "kind": "reference"
     }
   ]
 }

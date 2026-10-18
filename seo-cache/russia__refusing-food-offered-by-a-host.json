@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Refusing is disrespectful",
-  "confidence": "high",
-  "explanation": "In Russian culture, especially when meeting family, offering food is a deep expression of hospitality and care. Refusing can be seen as rejecting the host's generosity and may offend them, as it implies distrust or lack of appreciation for their effort.",
-  "local_tip": "Always accept at least a small portion and compliment the food, even if you are not hungry.",
-  "regional_note": "In more urban and younger generations, a polite refusal with a clear reason (e.g., dietary restriction) may be accepted, but it is still safer to accept.",
+  "verdict_label": "Insulting to host's hospitality",
+  "confidence": "medium",
+  "explanation": "Russian hospitality places strong importance on offering food and drink, and turning down a toast or a drink in particular can be seen as rejecting the host's friendship and goodwill. Refusing food outright, especially in a home setting, can come across as distrustful or ungrateful even if that's not the intent.",
+  "local_tip": "Accept at least a small portion of what's offered, or if you truly can't, decline warmly and explain why rather than simply saying no.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Refusing food is generally polite if done with proper excuses, but accepting is still appreciated."
+      "note": "Politely refusing food with a clear excuse is generally acceptable, though accepting is still appreciated."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food from a host, especially in a family setting, is often seen as an insult to their cooking and hospitality."
+      "note": "Refusing food from a host, especially in a family setting, can be seen as an insult to their cooking and hospitality."
     },
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Refusing food is considered impolite and may hurt the host's feelings; it's better to accept and eat a little."
+      "note": "Refusing food is considered impolite and can hurt the host's feelings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Social etiquette",
+      "url": "https://expatica.com/ru/living/integration/russian-etiquette-106460",
+      "kind": "reference"
+    },
+    {
+      "title": "9 Countries With Dining Etiquette Rules That May Surprise You",
+      "url": "https://www.wasserstrom.com/blog/2021/06/28/9-countries-with-dining-etiquette-rules-that-may-surprise-you/",
+      "kind": "reference"
     }
   ]
 }

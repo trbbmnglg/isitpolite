@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally rude, avoid",
-  "confidence": "high",
-  "explanation": "In Germany, showing the soles of your feet is considered disrespectful, as feet are viewed as unclean body parts. This gesture is particularly frowned upon in social settings like gatherings, where it may be interpreted as a sign of arrogance or disregard for others.",
-  "local_tip": "Keep your feet flat on the floor or crossed at the ankles, and never point your soles toward anyone during conversation.",
-  "regional_note": "This norm is consistent across Germany, though younger generations in urban areas may be slightly more relaxed about it in informal settings.",
+  "verdict_label": "Impolite, not taboo",
+  "confidence": "medium",
+  "explanation": "Pointing the soles of your feet at someone or propping your feet on furniture reads as careless or disrespectful in Germany, more a matter of posture and consideration for shared spaces than any belief about feet being unclean. It is a far milder issue than in cultures where feet carry a strong symbolic taboo.",
+  "local_tip": "Keep both feet on the floor when sitting in company, especially in formal settings, and avoid resting your shoes on tables or chairs.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and most impure part of the body; pointing them at people or sacred objects is a major offense."
+      "note": "Feet are considered the lowest and most impure part of the body, so pointing them at people or at Buddha images is a serious offense."
     },
     {
       "country": "United States",
-      "verdict": "polite",
-      "note": "Showing the soles of your feet is generally acceptable and not considered offensive in most casual social settings."
+      "verdict": "caution",
+      "note": "Feet on furniture is often fine casually at home among family, but is considered inconsiderate in someone else's home or in formal settings."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is highly insulting, as feet are seen as unclean and the gesture conveys contempt."
+      "note": "Showing the soles of your feet is highly insulting, since feet are regarded as unclean and the gesture conveys contempt."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Navigating German Etiquette: What Gestures Are Rude in Germany? - en.fmyly.com",
+      "url": "https://en.fmyly.com/article/what-gestures-are-rude-in-germany/",
+      "kind": "community"
+    },
+    {
+      "title": "German Culture - Etiquette - Cultural Atlas",
+      "url": "https://culturalatlas.sbs.com.au/german-culture/german-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

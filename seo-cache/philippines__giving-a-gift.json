@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Gift-giving is welcome",
-  "confidence": "high",
-  "explanation": "In the Philippines, gift-giving in a business context is a common and appreciated gesture that builds trust and strengthens relationships, reflecting the cultural value of 'pakikisama' (smooth interpersonal relations). It is polite to offer a gift, especially during initial meetings or after closing a deal, but avoid giving anything too expensive as it may be seen as a bribe.",
-  "local_tip": "Present the gift with both hands or the right hand, and avoid giving anything in sets of four (associated with bad luck) or sharp objects (symbolizing cutting ties).",
-  "regional_note": "In predominantly Muslim areas of Mindanao, avoid alcohol and pork-related gifts, and consider halal-certified items.",
+  "verdict_label": "Welcome, but keep it modest",
+  "confidence": "medium",
+  "explanation": "Giving a thoughtful, modest gift helps build the personal rapport ('pakikisama') that underlies good relationships in the Philippines, whether visiting someone's home or after an initial business meeting. Avoid anything expensive enough to look like a bribe, and don't be surprised if it's set aside to open later rather than in front of you — gifts are often opened privately.",
+  "local_tip": "Bring a modest, well-wrapped gift (local sweets, fruit, or a small specialty item) when invited to a Filipino home or for a first business meeting, and don't take it personally if it isn't opened right away.",
+  "regional_note": "In Muslim-majority communities in Mindanao, avoid alcohol or pork-based gifts and favor halal-friendly items instead.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; always present and receive with both hands and refuse once before accepting."
+      "note": "Gift-giving is highly ritualized; gifts are presented and received with both hands, often with a polite initial refusal before accepting."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+      "note": "Gifts are less central to business dealings; if given, keep them small and practical."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Gifts are appreciated but must avoid alcohol, pork, and anything with religious or intimate connotations; use right hand only."
+      "note": "Gifts are appreciated but should avoid alcohol, pork, or anything with intimate connotations; use the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Philippines Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/philippines-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Filipino Superstitions",
+      "url": "https://filipiknow.net/filipino-superstitions/",
+      "kind": "reference"
     }
   ]
 }

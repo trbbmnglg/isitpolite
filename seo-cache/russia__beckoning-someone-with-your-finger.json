@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Considered disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In Russia, beckoning someone with your finger is generally perceived as rude and dismissive, akin to calling a dog. It is associated with a lack of respect and is rarely used in polite or formal interactions.",
-  "local_tip": "Instead, use a palm-down hand gesture with all fingers moving together to beckon someone politely.",
+  "verdict": "caution",
+  "verdict_label": "Reads as condescending, commanding",
+  "confidence": "low",
+  "explanation": "Curling your index finger to call someone over — the common Western 'come here' gesture — can come across as condescending or overly commanding in Russia, similar to summoning a child or a pet. Russians themselves more typically beckon with the palm facing down and fingers waving inward, rather than curling one finger upward.",
+  "local_tip": "To call someone over, use a palm-down hand with fingers waving inward rather than crooking a single finger.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude and is used only for animals."
+      "note": "Beckoning with the index finger is considered very rude and used only for animals."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture is highly offensive and can be seen as a challenge or insult."
+      "note": "This gesture can be seen as a serious insult or challenge."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual settings, it can be seen as condescending in formal or professional contexts."
+      "note": "Common in casual settings but can seem condescending in formal or professional contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Non-verbal confusion #2: Once more unto the breach",
+      "url": "https://trans-siberian.co.uk/blog/russian-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "Non-verbal confusion #3: International Incidents",
+      "url": "https://www.trans-siberian.co.uk/blog/russian-people-gestures/",
+      "kind": "community"
     }
   ]
 }

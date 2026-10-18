@@ -1,25 +1,33 @@
 {
   "verdict": "rude",
-  "verdict_label": "Considered disrespectful",
-  "confidence": "high",
-  "explanation": "In Indonesia, beckoning someone with a single finger is considered rude and associated with calling animals or showing disrespect. The culturally appropriate way to summon someone is to use the whole hand with a gentle downward motion of the fingers. This gesture is widely understood across the archipelago, especially in everyday interactions.",
-  "local_tip": "Instead, extend your arm with the palm facing down and curl all four fingers inward repeatedly to beckon someone politely.",
-  "regional_note": "In more traditional or rural areas, the offense may be stronger, while younger urban Indonesians might be slightly more tolerant but still perceive it as impolite.",
+  "verdict_label": "Use a downward hand wave",
+  "confidence": "medium",
+  "explanation": "Indonesians typically beckon with a downward motion of the hand or fingers, rather than curling a single raised index finger toward themselves as is common in Western countries. A single-finger beckon can come across as impolite or overly commanding, similar to norms in several neighboring Southeast Asian countries. Using the whole hand, palm down, is the safer, more familiar gesture.",
+  "local_tip": "Beckon with your whole hand, palm facing down, in a scratching or waving motion toward yourself, rather than curling a single finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered very rude and is used only for animals; use the whole hand with palm down."
+      "note": "Finger-beckoning is considered rude and used mainly for animals; the whole hand, palm down, is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a finger is extremely offensive and can be punishable by law in some contexts; use a hand gesture with palm down."
+      "note": "Finger-beckoning is considered highly offensive; a palm-down hand gesture is used instead."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Beckoning with a finger is common and generally acceptable in casual settings, though it can be seen as slightly aggressive in formal contexts."
+      "note": "Finger-beckoning is common and generally acceptable in casual settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Indonesian Culture - Gestures (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-gestures",
+      "kind": "reference"
     }
   ]
 }

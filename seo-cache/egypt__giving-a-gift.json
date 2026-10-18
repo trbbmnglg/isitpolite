@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally welcome with care",
+  "verdict_label": "Welcome, skip the flowers",
   "confidence": "medium",
-  "explanation": "In Egyptian business culture, gift-giving is appreciated as a gesture of goodwill, but it should be modest and not given at the first meeting to avoid appearing as a bribe. Gifts are typically opened in private to respect modesty, and items like high-quality food, sweets, or small office accessories are safe choices.",
-  "local_tip": "Avoid gifts containing alcohol or pork, and present the gift with the right hand or both hands, never the left.",
-  "regional_note": "In more conservative or religious circles, especially in Upper Egypt, gifts should be gender-appropriate and avoid any personal or intimate items.",
+  "explanation": "Gift-giving is appreciated in Egyptian business and social settings as a gesture of goodwill, with quality chocolates or pastries as safe, well-regarded choices — but flowers are best avoided since they're associated with weddings or illness rather than casual gift-giving. Gifts should be given with the right hand or both hands, and avoiding alcohol or pork products is a safe default.",
+  "local_tip": "Bring chocolates or pastries rather than flowers, and present the gift with your right hand.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; wrapping and presentation matter greatly, and gifts are often refused once or twice before acceptance."
+      "note": "Gift-giving is highly ritualized, with careful attention to wrapping and presentation."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts in business are often seen as inappropriate or potentially corrupting, especially if given before a deal is signed."
+      "note": "Business gifts can seem inappropriate, especially if given before a deal is finalized."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gift-giving is common, but avoid alcohol or pork; gifts should be modest and given with the right hand."
+      "note": "Gift-giving is common, with the same right-hand presentation and alcohol/pork avoidance rules."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Travel advice for Egypt",
+      "url": "https://roughguides.com/egypt/customs-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Gift Giving Etiquette in the Middle East",
+      "url": "https://commisceo-global.com/blog/gift-giving-in-the-middle-east",
+      "kind": "reference"
     }
   ]
 }

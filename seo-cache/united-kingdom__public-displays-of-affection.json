@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Subtle and restrained",
-  "confidence": "high",
-  "explanation": "In the United Kingdom, public displays of affection at social gatherings are generally acceptable but should be subtle and restrained. A brief kiss on the cheek or holding hands is fine, but prolonged or passionate displays can make others uncomfortable, as British social norms value personal space and understated behavior.",
-  "local_tip": "Keep any physical affection brief and low-key, such as a quick hug or a peck on the cheek, and read the room to match the group's comfort level.",
-  "regional_note": "In more conservative rural areas or among older generations, even mild PDA may be viewed with slight disapproval, while in cosmopolitan cities like London it is widely accepted.",
+  "verdict_label": "Keep it brief and low-key",
+  "confidence": "medium",
+  "explanation": "Public displays of affection such as holding hands or a quick kiss are generally accepted across Western Europe, including the UK, and most Britons won't react to mild affection. However, British social norms favor reserve and understatement, so prolonged kissing or very visible affection in public can make bystanders uncomfortable.",
+  "local_tip": "Keep physical affection brief and low-key in public - holding hands or a quick kiss is fine, but save anything more passionate for private.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on both cheeks as a greeting is standard, and moderate PDA is common in social settings."
+      "note": "Cheek-kissing as a greeting and moderate PDA are culturally normal and common in public."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public display of affection between unmarried couples is illegal and severely frowned upon."
+      "note": "Public affection between unmarried couples is against the law and can lead to arrest."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "PDA is very rare; even holding hands can be seen as immodest in many social contexts."
+      "note": "PDA is uncommon and even hand-holding can draw attention in many social contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Public display of affection - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Public_display_of_affection",
+      "kind": "reference"
+    },
+    {
+      "title": "Cheek kissing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cheek_kissing",
+      "kind": "reference"
     }
   ]
 }

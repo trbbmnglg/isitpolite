@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful foot display",
-  "confidence": "high",
-  "explanation": "In Greece, showing the soles of your feet is considered highly disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture can be interpreted as a sign of contempt or insult, especially in social gatherings where respect for others is paramount.",
-  "local_tip": "Always keep your feet flat on the ground or crossed at the ankles when seated, and never point your feet at someone.",
+  "verdict": "caution",
+  "verdict_label": "Casual faux pas, not a major taboo",
+  "confidence": "medium",
+  "explanation": "Greece does not have the strict foot taboo found in Thai/Buddhist or Gulf Arab cultures, where feet are viewed as spiritually unclean; comprehensive Greek etiquette guides do not list foot display among the country's notable taboos. That said, propping your feet on furniture or pointing the soles directly at someone is still seen as casual or mildly impolite in formal settings or someone else's home, similar to general Western manners.",
+  "local_tip": "Keep your feet off tables and furniture in someone's home or in formal settings, but don't worry that an accidental foot gesture will be read as a deep insult the way it would be in Thailand.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest part of the body; pointing them at someone or showing soles is a major insult."
+      "note": "Feet are considered the lowest and spiritually 'dirtiest' part of the body; showing soles or pointing feet at someone is a real insult."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is offensive as it implies you are unclean and disrespectful."
+      "note": "Showing the soles of your feet is seen as disrespectful and implying uncleanliness."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Generally not a major issue, but in formal settings it can be seen as casual or slightly rude if done deliberately."
+      "note": "Not a taboo, but propping feet up in formal settings can be seen as overly casual or rude."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greece Guide (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/greece-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Culture of Thailand",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_Thailand",
+      "kind": "reference"
     }
   ]
 }

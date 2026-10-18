@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not mandatory",
-  "confidence": "high",
-  "explanation": "In Russia, tipping at restaurants is considered polite and a sign of appreciation for good service, though it is not obligatory. The practice has become common in urban areas and upscale establishments, with 10% being the standard amount. However, many locals still tip only when they feel the service was exceptional.",
-  "local_tip": "Leave 10% in cash directly on the table or hand it to the server, as some restaurants may not include it on the card payment.",
-  "regional_note": "In Moscow and Saint Petersburg, tipping is more expected, while in smaller towns or rural areas, it is less common and may be met with surprise.",
+  "verdict_label": "Welcomed but not mandatory",
+  "confidence": "medium",
+  "explanation": "Tipping in Russian restaurants is appreciated but remains voluntary rather than a strict social rule, with roughly 5-10% being a common urban norm for good service. Some restaurants already add a service charge to the bill, and many locals only tip extra when the service was genuinely excellent.",
+  "local_tip": "Leave about 10% in cash directly with the server, since card terminals often can't add a tip and you should check whether a service charge is already included.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting as good service is expected without extra payment."
+      "note": "Tipping is considered unnecessary or even insulting since good service is expected without extra payment."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is mandatory and socially expected for sit-down service."
+      "note": "Tipping 15-20% is the strong social norm and expected for sit-down restaurant service."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "Service charge is included, but leaving small change is polite; overtipping can be seen as gauche."
+      "note": "A service charge is usually included by law, so tipping is optional and small change is the norm rather than a large extra tip."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Moscow Lifehack: What's the Deal With Tipping",
+      "url": "https://www.themoscowtimes.com/archive/moscow-lifehack-whats-the-deal-with-tipping",
+      "kind": "reference"
+    },
+    {
+      "title": "Global Tipping Guide - Russia",
+      "url": "https://www.arabianbusiness.com/lists/global-tipping-guide-how-gulf-states-compare-512703-htmlitemid512689",
+      "kind": "reference"
     }
   ]
 }

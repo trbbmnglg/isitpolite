@@ -1,10 +1,10 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Generally impolite, use alternatives",
+  "verdict": "rude",
+  "verdict_label": "Seen as rude and aggressive",
   "confidence": "high",
-  "explanation": "In Turkey, pointing directly at someone or something with the index finger is considered rude and aggressive, especially in formal or everyday interactions. It is often associated with accusing or scolding, and locals prefer more subtle gestures like a chin lift or an open hand. This norm is deeply rooted in Turkish culture, where indirectness and respect for personal space are valued.",
-  "local_tip": "Instead of pointing, gesture with your whole hand (palm up or down) or use a slight nod of the head to indicate direction or a person.",
-  "regional_note": "In more conservative or rural areas, the taboo is stronger; younger generations in Istanbul may be slightly more tolerant but still avoid it.",
+  "explanation": "Pointing directly at someone with your index finger is considered rude in Turkey — multiple Turkish-focused etiquette sources state plainly that 'it is rude to point at someone here,' often associating the gesture with accusation. Turks typically indicate people or directions with an open hand or a nod instead.",
+  "local_tip": "Gesture with an open hand (palm up or down) instead of your index finger when indicating a person or direction.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
@@ -19,7 +19,25 @@
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered impolite; use the thumb or a closed fist with thumb extended."
+      "note": "Pointing with the index finger is impolite; use the thumb or a closed fist with thumb extended instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Not bad intentions, it's just etiquette in Turkey",
+      "url": "https://www.dailysabah.com/life/2015/01/07/not-bad-intentions-its-just-etiquette-in-turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Culture: Communication",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish cultural taboos",
+      "url": "https://www.crownrelo.com/article/turkish-cultural-taboos",
+      "kind": "reference"
     }
   ]
 }

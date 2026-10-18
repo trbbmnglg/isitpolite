@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Left hand is fine",
+  "verdict_label": "No taboo, use either hand",
   "confidence": "high",
-  "explanation": "In Spain, unlike in many Middle Eastern or South Asian cultures, there is no stigma attached to eating with the left hand. Spanish dining etiquette focuses on using utensils properly—knife in the right hand, fork in the left—but if you switch hands or eat finger foods with your left, it is perfectly acceptable. The left-hand taboo is not part of Spanish custom, so you need not worry about causing offense.",
-  "local_tip": "Just focus on using your utensils correctly and avoid eating with your hands for main courses unless it's tapas like patatas bravas or croquetas.",
+  "explanation": "Unlike in parts of the Middle East, Africa, and South Asia where the left hand is reserved for hygiene and seen as unclean, Spain has no such taboo. Spanish table manners follow the continental European style — fork in the left hand, knife in the right, both hands visible on the table — but switching hands or using your left hand for bread or finger food causes no offense.",
+  "local_tip": "Eat normally with either hand; just keep both hands visible on the table rather than in your lap, which is the real Spanish table-manners rule to know.",
   "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is considered unclean, as the left hand is traditionally used for hygiene purposes."
+      "note": "The left hand is traditionally reserved for hygiene, so eating or passing food with it is considered unclean."
     },
     {
-      "country": "Morocco",
+      "country": "Egypt",
       "verdict": "rude",
-      "note": "The left hand is reserved for bathroom hygiene; always eat and pass food with the right hand."
+      "note": "As in much of the Arab world, the left hand is used for washing, so eating or offering food with it is frowned upon."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Strict Islamic etiquette forbids using the left hand for eating or offering food."
+      "note": "Islamic etiquette calls for eating and passing dishes with the right hand only."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Spanish table manners: do you know the rules?",
+      "url": "https://notesfromspain.com/2007/03/29/spanish-table-manners-do-you-know-the-rules/",
+      "kind": "reference"
+    },
+    {
+      "title": "GW Blog Abroad — Spain",
+      "url": "https://blogs.gwu.edu/gwblogabroad/?p=5479",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Considered impolite and dismissive",
-  "confidence": "high",
-  "explanation": "In the United Kingdom, beckoning someone with a curled index finger is perceived as condescending and disrespectful, as it is often associated with summoning a dog or a servant. This gesture can cause offense in both formal and casual settings, as it implies a power imbalance and lack of respect for the other person's dignity.",
-  "local_tip": "To call someone over politely, use a subtle nod of the head or an open-handed gesture with palm facing upward, accompanied by a friendly smile.",
-  "regional_note": "While the gesture is broadly considered rude across the UK, some younger or more informal groups may use it jokingly among close friends, but it remains risky in professional or unfamiliar social contexts.",
+  "verdict": "caution",
+  "verdict_label": "Comes across as bossy",
+  "confidence": "medium",
+  "explanation": "There's no legal or sacred taboo around this gesture in the UK, but beckoning someone with a crooked index finger (palm up) is widely seen as brusque or condescending when used on an adult, since the same gesture is typically used for calling children, pets, or in similarly Western Anglo cultures. It can come across as rude, especially toward a stranger or in a professional setting, more because it feels bossy than because it's a cultural taboo.",
+  "local_tip": "To call someone over politely, use an open hand with the palm up, a small wave, or simply say their name.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered very rude and is used only for animals; instead, wave all four fingers with palm down."
+      "note": "Considered very rude and associated with calling animals; the polite version waves the fingers with the palm facing down."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture can be seen as offensive and may even lead to legal trouble; it is reserved for calling animals or showing contempt."
+      "note": "Seen as highly offensive when directed at a person and is reserved for calling animals; using it on someone can even cause real trouble."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "While not as severe as in some cultures, it is still considered impolite in formal settings; a hand wave or verbal call is preferred."
+      "note": "Less severe than in some cultures, but still seen as impolite in formal settings, where a hand wave or verbal call is preferred."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Beckoning sign - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beckoning_sign",
+      "kind": "reference"
+    },
+    {
+      "title": "List of gestures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
     }
   ]
 }

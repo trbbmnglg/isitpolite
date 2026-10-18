@@ -1,15 +1,15 @@
 {
   "verdict": "caution",
-  "verdict_label": "Slightly late is tolerated",
-  "confidence": "high",
-  "explanation": "In Italian business culture, arriving exactly on time is appreciated but a 5-10 minute delay is generally acceptable, especially in the South. However, arriving more than 15 minutes late without a valid reason or prior notice is considered disrespectful and unprofessional. Punctuality signals reliability and respect for others' time, particularly in Northern Italy.",
-  "local_tip": "Aim to arrive no more than 5 minutes late, and if delayed, call or message ahead with a brief apology.",
-  "regional_note": "In Southern Italy (e.g., Naples, Sicily), a 10-15 minute delay is more common and less frowned upon, while in the North (e.g., Milan, Turin) punctuality is stricter.",
+  "verdict_label": "Slight delay tolerated",
+  "confidence": "medium",
+  "explanation": "Italian business culture values relationships and flexibility, so being a few minutes late to a meeting is generally tolerated and not seen as a serious breach, especially once rapport is established. That said, punctuality is still respected, particularly in northern business centers, and habitual lateness without notice can hurt your credibility.",
+  "local_tip": "Aim to arrive on time, but don't panic over a short, unannounced delay — a brief apology on arrival is usually enough.",
+  "regional_note": "Flexibility around time tends to be more pronounced in the south than in business-focused northern cities like Milan.",
   "also_check": [
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Punctuality is a strict cultural norm; even 5 minutes late is seen as disrespectful."
+      "note": "Punctuality is a strict cultural norm; even a few minutes late is seen as disrespectful."
     },
     {
       "country": "Japan",
@@ -19,7 +19,20 @@
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "A 15-30 minute delay is common and often expected in business meetings, especially in Rio or São Paulo."
+      "note": "A 15-30 minute delay is common and often expected in business meetings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Italy Guide - Commisceo Global",
+      "url": "https://commisceo-global.com/resources/country-guides/italy-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Culture Around the World: Italy",
+      "url": "https://www.skyminder.com/blog/analysis-studies/business-culture-around-the-world-italy/",
+      "kind": "community"
     }
   ]
 }

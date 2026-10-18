@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Offensive and disrespectful",
+  "verdict_label": "Seen as a gesture for animals",
   "confidence": "high",
-  "explanation": "In the United Arab Emirates, beckoning someone with your finger is considered highly insulting, as it mimics a gesture used to call dogs or servants. This action is seen as demeaning and disrespectful, especially in formal or everyday social interactions. Instead, use an open hand with palm down to gesture someone toward you, which is the culturally appropriate method.",
-  "local_tip": "To call someone politely, extend your hand with palm facing downward and make a gentle scooping motion with all fingers together.",
-  "regional_note": "While this rule is consistent across most Emirati communities, older generations and those in more traditional settings may find the finger beckoning even more offensive than younger, urbanized individuals.",
+  "explanation": "Beckoning with a single raised finger is seen across much of the Arab world, including the UAE, as a gesture used to call animals or servants, which makes it demeaning when directed at a person. The accepted alternative is to turn your palm face-down and make a gentle scooping motion with your fingers toward yourself.",
+  "local_tip": "To call someone over, turn your palm face-down and wave your fingers toward yourself rather than curling one finger upward.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered very rude and is used only for calling animals; use a gentle hand wave with palm down instead."
+      "note": "The same upright-finger beckon is used only for animals and is considered very rude directed at a person."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "The finger beckon is seen as vulgar and is reserved for summoning inferiors; use a polite hand wave with palm facing down."
+      "note": "A single raised finger to beckon is seen as crude; a palm-down wave is the polite alternative."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "While not as offensive as in some cultures, the finger beckon can be seen as condescending; it's safer to use a verbal call or open hand gesture."
+      "note": "The gesture isn't taboo but can come across as condescending in a formal setting."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Traditional Gestures Around The World That Mean The Opposite In The US",
+      "url": "https://www.worldatlas.com/articles/traditional-gestures-around-the-world-that-mean-the-opposite-in-the-us.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Saudi Arabian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

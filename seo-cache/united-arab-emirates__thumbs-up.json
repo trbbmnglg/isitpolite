@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Ambiguous, context-dependent",
-  "confidence": "medium",
-  "explanation": "In the UAE, the thumbs-up gesture is generally understood as positive or affirming, especially among younger, globally connected Emiratis and expatriates. However, in some traditional or conservative contexts, it can be interpreted as an offensive or vulgar insult, akin to raising the middle finger in Western cultures. This risk is higher in more religious or older circles, so caution is advised in formal or unfamiliar settings.",
-  "local_tip": "When in doubt, use a verbal 'yes' or a nod instead of the thumbs-up, especially with older Emiratis or in religious settings.",
-  "regional_note": "In Sharjah and more conservative areas, the gesture is more likely to be seen as rude; in Dubai and Abu Dhabi, it's usually safe among younger or international crowds.",
+  "verdict_label": "Riskier than it looks",
+  "confidence": "low",
+  "explanation": "Western visitors often treat a thumbs-up as universally positive, but established UAE business-etiquette guidance specifically warns against it (grouped with crossing your legs) as a gesture that can cause offence. At the same time, decades of Western media exposure mean many Emiratis, especially younger ones, now read it as simply 'good' or 'OK', so the real-world reaction is genuinely inconsistent.",
+  "local_tip": "In business settings or with older Emiratis, use a verbal thank-you or a nod instead of a thumbs-up.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "Thumbs up is considered a grave insult, equivalent to 'up yours'."
+      "note": "The thumbs-up is widely considered an obscene insult, roughly equivalent to the middle finger elsewhere."
     },
     {
       "country": "Thailand",
       "verdict": "polite",
-      "note": "Generally positive, but avoid using it with feet or in a mocking tone."
+      "note": "The gesture generally reads as positive, though it carries no special emphasis the way a wai does."
     },
     {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "Considered a rude, insulting gesture in many parts of the country."
+      "country": "Greece",
+      "verdict": "caution",
+      "note": "Older Greeks in particular may read an abrupt thumbs-up as closer to a rude dismissal than a compliment."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Culture and etiquette tips when doing business in the UAE",
+      "url": "https://commisceo-global.com/blog/culture-etiquette-tips-when-doing-business-in-the-uae",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Dubai – Important Tips",
+      "url": "https://www.dhowcruiseindubai.com/blog/?p=170",
+      "kind": "community"
     }
   ]
 }

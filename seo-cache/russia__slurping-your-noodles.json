@@ -1,10 +1,10 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
-  "confidence": "medium",
-  "explanation": "In Russia, slurping noodles is typically considered impolite in formal dining settings, as it goes against the cultural norm of eating quietly. However, in casual or home settings, especially when eating Asian cuisine, some Russians may be more lenient, though it is still not a native custom.",
-  "local_tip": "To be safe, avoid slurping in restaurants and instead use your spoon or fork to twirl the noodles quietly.",
-  "regional_note": "In regions with significant Asian influence, such as the Russian Far East (e.g., Vladivostok), slurping may be more accepted in casual noodle shops.",
+  "verdict_label": "Not customary, keep it quiet",
+  "confidence": "low",
+  "explanation": "Russian table manners follow a quieter, Continental European style where eating audibly isn't generally appreciated, but noodle- or soup-slurping specifically isn't documented as a distinct, well-known Russian rule, since it isn't a noodle-centric food culture the way East Asia is. It's best understood as part of a general 'eat quietly' expectation rather than a specific taboo about noodles.",
+  "local_tip": "Eat soup and noodle dishes quietly with a spoon or fork rather than slurping, in line with general European-style table manners.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
@@ -14,12 +14,25 @@
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is often acceptable and can indicate that the food is delicious, though it varies by region."
+      "note": "Slurping is often acceptable and can signal that the food is delicious, though norms vary by region."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+      "note": "Slurping pasta is considered poor table manners."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "9 Countries With Dining Etiquette Rules That May Surprise You",
+      "url": "https://www.wasserstrom.com/blog/2021/06/28/9-countries-with-dining-etiquette-rules-that-may-surprise-you/",
+      "kind": "reference"
+    },
+    {
+      "title": "Entertaining Etiquette: The Dining Traditions of the World",
+      "url": "https://www.sheknows.com/entertainment/articles/1074432/entertaining-etiquette-the-dining-traditions-of-the-world/",
+      "kind": "reference"
     }
   ]
 }

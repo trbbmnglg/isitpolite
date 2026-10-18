@@ -1,25 +1,33 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use with care",
+  "verdict_label": "Fine casually, risky with staff",
   "confidence": "medium",
-  "explanation": "In the United States, beckoning someone with your index finger can be seen as condescending or demanding, especially if done abruptly or in a formal setting. It is generally acceptable among close friends or in casual contexts, but in professional or public situations, it may be perceived as rude or disrespectful. A more polite alternative is to use a hand gesture with all fingers or to verbally invite someone over.",
-  "local_tip": "Instead of curling your index finger, use an open palm with fingers together and motion toward yourself, or simply say 'Could you come here, please?'",
-  "regional_note": "In the Southern U.S., beckoning with a finger may be considered more offensive due to stronger emphasis on politeness, while in urban areas it is often seen as neutral or informal.",
+  "explanation": "Curling your index finger to wave someone over is a normal, widely understood 'come here' gesture among friends and family in the US. It reads as demanding or disrespectful in more formal situations, though, particularly if used on a waiter, employee, or stranger, since it can feel like the gesture people use to call an animal.",
+  "local_tip": "With friends, it's fine; to get a server's or stranger's attention, make eye contact, raise a hand, or say 'excuse me' instead.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is highly offensive, as it is used to call animals; use a wave with all fingers pointing down."
+      "note": "Beckoning with the index finger is associated with calling animals and is considered rude when directed at a person; a palm-down wave is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered very disrespectful and may be seen as a challenge; use a gentle hand wave with palm down."
+      "note": "Beckoning with a curled finger toward a person is considered disrespectful and historically associated with calling dogs; a palm-down hand wave is preferred."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "While not as offensive as in some cultures, it can still be seen as abrupt or informal; a verbal request is preferred in formal settings."
+      "note": "Not as loaded as in some cultures, but still seen as abrupt; a verbal request is preferred in formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Hand gesture - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hand_gesture",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected in business",
+  "verdict_label": "Signals sincerity and confidence",
   "confidence": "high",
-  "explanation": "In Italian business culture, direct eye contact signals confidence, sincerity, and engagement. It is considered a sign of respect and attentiveness, especially during negotiations or meetings.",
-  "local_tip": "Maintain steady but not aggressive eye contact, and be prepared to hold it slightly longer than in some Northern European cultures to convey trustworthiness.",
-  "regional_note": "In southern Italy (e.g., Sicily, Naples), eye contact may be even more intense and prolonged as a sign of warmth and connection, while in the north (e.g., Milan, Turin) it remains important but slightly less prolonged.",
+  "explanation": "Direct eye contact is valued in Italy as a sign of sincerity, confidence, and engagement, especially during greetings and business meetings. It's standard practice during introductions and conversations, and avoiding it can come across as evasive or disinterested.",
+  "local_tip": "Hold a steady, friendly gaze during greetings and conversation, without staring fixedly.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are preferred."
+      "note": "Prolonged direct eye contact can be seen as intimidating; brief glances are preferred."
     },
     {
       "country": "Finland",
       "verdict": "polite",
-      "note": "Direct eye contact is valued as a sign of honesty, but it is typically less intense than in Italy."
+      "note": "Direct eye contact is valued as a sign of honesty, typically less intense than in Italy."
     },
     {
       "country": "Nigeria",
       "verdict": "caution",
-      "note": "Sustained direct eye contact with a superior may be considered challenging or disrespectful; younger or junior individuals often lower their gaze."
+      "note": "Sustained eye contact with a superior may be seen as challenging; juniors often lower their gaze."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Italy Guide - Commisceo Global",
+      "url": "https://commisceo-global.com/resources/country-guides/italy-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Culture Around the World: Italy",
+      "url": "https://www.skyminder.com/blog/analysis-studies/business-culture-around-the-world-italy/",
+      "kind": "community"
     }
   ]
 }

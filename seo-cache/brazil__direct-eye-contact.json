@@ -2,24 +2,37 @@
   "verdict": "polite",
   "verdict_label": "Expected in business",
   "confidence": "high",
-  "explanation": "In Brazilian business culture, direct eye contact signals trustworthiness, sincerity, and engagement. Brazilians often maintain longer and more intense eye contact than in many other cultures, especially during negotiations or meetings.",
-  "local_tip": "Maintain steady eye contact when speaking and listening, but soften your gaze slightly to avoid appearing confrontational.",
-  "regional_note": "In more conservative or rural areas of the Northeast, prolonged eye contact with a superior may be seen as challenging, but in urban business hubs like São Paulo and Rio, it is standard.",
+  "explanation": "Direct eye contact is valued in Brazil as a sign of honesty, confidence, and engagement, especially in business meetings and negotiations, where looking away can read as evasive or disinterested. Brazilians commonly combine steady eye contact with closer physical proximity and expressive body language compared to North American norms.",
+  "local_tip": "Maintain comfortable, steady eye contact in both business and social conversations — avoiding it can come across as uninterested or untrustworthy.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact is often considered rude or intimidating; brief glances or looking at the necktie area is preferred."
+      "note": "Prolonged direct eye contact can feel intimidating; brief glances are often preferred, especially toward superiors."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact is expected in business, but it is typically less intense and held for shorter durations than in Brazil."
+      "note": "Direct eye contact is expected in business, though typically less intense and held for shorter durations than in Brazil."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Direct eye contact between men is common, but between men and women it should be brief and respectful to avoid impropriety."
+      "note": "Eye contact between men is common, but between unrelated men and women it should stay brief and respectful."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil Business Culture Guide, Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/brazil-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Portuguese cultural gestures & body language, Kaiwa",
+      "url": "https://trykaiwa.com/blog/portuguese-cultural-gestures-body-language-realistic",
+      "kind": "community"
     }
   ]
 }

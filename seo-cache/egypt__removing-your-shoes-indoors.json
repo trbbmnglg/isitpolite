@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Respectful and expected",
-  "confidence": "high",
-  "explanation": "In Egypt, removing shoes indoors is a common sign of respect, especially in homes, to keep floors clean and honor the host's space. It is deeply rooted in Islamic and cultural practices where shoes are seen as carrying outside dirt. While not mandatory in all settings, it is widely appreciated and often expected in private residences.",
-  "local_tip": "Always remove your shoes when entering an Egyptian home, but wait for the host to indicate where to place them or if slippers are offered.",
-  "regional_note": "In rural or conservative areas, shoe removal is more strictly observed, while in urban or modern homes, some hosts may allow shoes in certain areas.",
+  "verdict_label": "Expected in most homes",
+  "confidence": "medium",
+  "explanation": "It is customary to remove your shoes before entering an Egyptian home, reflecting respect for the host's space and the practice of floor seating, though it is not a strict universal rule enforced everywhere. The safest approach is to follow your host's lead at the door.",
+  "local_tip": "Watch what your host and other guests do at the entrance, and remove your shoes if you see a shoe rack or others barefoot.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Not removing shoes indoors is considered highly disrespectful and unhygienic, with strict customs for entry."
+      "verdict": "polite",
+      "note": "Shoe removal before entering a home is mandatory and expected, not optional."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; it is often seen as informal or personal preference."
+      "note": "Shoe removal is optional and depends on the individual household's preference."
     },
     {
-      "country": "Brazil",
-      "verdict": "caution",
-      "note": "Shoe removal is uncommon in most homes unless explicitly requested, and it may be seen as odd or overly formal."
+      "country": "Turkey",
+      "verdict": "polite",
+      "note": "Removing shoes at the door is standard practice in most homes."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Egyptian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Countries That Always Take Their Shoes Off Inside",
+      "url": "https://dailypassport.com/countries-always-take-shoes-off-inside/",
+      "kind": "community"
     }
   ]
 }

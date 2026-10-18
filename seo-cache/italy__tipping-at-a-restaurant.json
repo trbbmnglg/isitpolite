@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not expected, small gesture",
-  "confidence": "high",
-  "explanation": "In Italy, tipping is not mandatory or expected as service charge (coperto) is usually included in the bill. Leaving a small amount (5-10%) is seen as a generous gesture for exceptional service, but overtipping can be awkward or mistaken for ignorance.",
-  "local_tip": "Round up the bill or leave a few euros in cash on the table, but never tip more than 10%.",
-  "regional_note": "In tourist-heavy areas (Rome, Venice, Florence) tipping is more common and accepted, while in smaller towns or the south it may be less expected.",
+  "verdict_label": "Optional, rounding up only",
+  "confidence": "medium",
+  "explanation": "Tipping is not obligatory in Italian restaurants; the bill usually includes a small per-person 'coperto' (a cover charge for bread, table setting, and your seat) and sometimes a separate 'servizio' (an actual service charge), which already covers service when present. When no service charge is listed and you received good service, Italians typically just round up the bill or leave a couple of euros in cash rather than calculating a percentage.",
+  "local_tip": "Check the bill for 'coperto' or 'servizio' lines, and if neither is shown, leave a few euros in cash for good service rather than a percentage tip.",
+  "regional_note": "Tourist-heavy cities like Rome, Venice, and Florence see more service charges and tipping than small towns.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting; excellent service is the norm."
+      "note": "Tipping is considered insulting; excellent service is the norm without extra payment."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is standard and expected for service staff."
+      "note": "Tipping 15-20% is standard and expected for restaurant service staff."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "Service is included, but leaving small change is appreciated for good service."
+      "note": "Service is included by law, but leaving small change for good service is appreciated."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Explained: The etiquette around paying your restaurant bill in Italy",
+      "url": "https://www.thelocal.it/20240612/explained-the-etiquette-around-paying-your-restaurant-bill-in-italy",
+      "kind": "reference"
+    },
+    {
+      "title": "Italian Tipping Etiquette: Why You Mostly Shouldn't, and When You Should",
+      "url": "https://migaku.com/blog/language-fun/italian-tipping-etiquette-why-you-mostly-shouldnt-and-when-you-should",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Punctuality is expected",
+  "verdict_label": "Punctuality signals respect",
   "confidence": "high",
-  "explanation": "In the United Kingdom, punctuality is a sign of respect and professionalism in business settings. Arriving late to a meeting is generally considered rude and can be interpreted as a lack of interest or poor time management. While a few minutes' delay might be forgiven with a sincere apology, habitual lateness damages professional reputation.",
-  "local_tip": "Always aim to arrive 5 minutes early to a business meeting in the UK, and if you are delayed, notify the host as soon as possible with an apology.",
-  "regional_note": "In London, punctuality is especially strict due to the fast-paced business environment, while in more rural areas or Scotland, a slightly more relaxed attitude may be observed, but lateness is still frowned upon.",
+  "explanation": "Punctuality is taken seriously in UK business culture and is seen as a sign of professionalism and respect for other people's time. Turning up late to a meeting without warning comes across as rude and can suggest poor planning; a few minutes' delay is usually forgiven if you apologise and give advance notice, but persistent lateness damages your professional reputation.",
+  "local_tip": "Aim to arrive on time or a few minutes early for a business meeting, and message or call ahead the moment you know you'll be late.",
+  "regional_note": "",
   "also_check": [
-    {
-      "country": "Brazil",
-      "verdict": "caution",
-      "note": "In Brazil, arriving 15-30 minutes late to a business meeting is often acceptable and can be seen as a sign of flexibility, though it varies by region and company culture."
-    },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "In Japan, punctuality is extremely important; even being one minute late is considered disrespectful and can damage business relationships."
+      "note": "Punctuality is taken even more seriously than in the UK; arriving even a minute late is considered disrespectful."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Arriving 15-30 minutes late to a business meeting is often tolerated and can be normal, though this varies by company and region."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "In Saudi Arabia, business meetings may start late due to cultural norms around time, but it is still advisable to arrive on time as a sign of respect."
+      "note": "Meetings may start later than scheduled due to a more flexible cultural approach to time, though punctuality from visitors is still appreciated."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global - United Kingdom Country Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/uk-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Punctuality - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Punctuality",
+      "kind": "reference"
     }
   ]
 }

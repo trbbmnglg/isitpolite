@@ -1,15 +1,15 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite gesture",
-  "confidence": "high",
-  "explanation": "In Russia, pointing with the index finger is considered rude and aggressive, especially when directed at a person. It is associated with accusatory or commanding behavior, and polite Russians prefer to gesture with an open hand or nod their head to indicate a direction or person.",
-  "local_tip": "Instead of pointing, use your whole hand with palm facing up or simply tilt your head in the desired direction.",
+  "verdict_label": "Can come across as aggressive",
+  "confidence": "medium",
+  "explanation": "Pointing directly at a person with your index finger is generally seen as impolite and overly aggressive in Russia, similar to many European cultures, since it can feel accusatory rather than neutral. It's more acceptable to point at objects or directions than directly at a person.",
+  "local_tip": "Gesture with an open hand or nod your head toward someone instead of pointing your index finger at them.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is very rude; use an open hand instead."
+      "note": "Pointing with the index finger at a person is considered very impolite; an open hand is used instead."
     },
     {
       "country": "United States",
@@ -19,7 +19,20 @@
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered impolite; use the thumb or a closed fist with thumb extended."
+      "note": "Pointing with the index finger is considered impolite; the thumb is used instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Non-verbal confusion #2: Once more unto the breach",
+      "url": "https://trans-siberian.co.uk/blog/russian-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "Six Surprising International Etiquette Rules",
+      "url": "https://exhibitcitynews.com/six-surprising-intl-etiquette-rules/",
+      "kind": "community"
     }
   ]
 }

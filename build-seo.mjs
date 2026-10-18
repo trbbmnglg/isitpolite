@@ -37,7 +37,7 @@ const OUT_DIR   = join(DIST, 'etiquette');
 
 // Public files copied verbatim into ./dist (the app shell).
 // app.js and style.css are NOT listed here — they are assembled from src/js/ and src/css/.
-const STATIC_FILES = ['index.html', '404.html', 'privacy.html', '_headers', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'favicon.ico', 'og-image.png', 'gcash-qr.png', 'icon-192.png', 'icon-512.png'];
+const STATIC_FILES = ['index.html', '404.html', 'privacy.html', '_headers', 'sw.js', 'manifest.json', 'robots.txt', 'favicon.svg', 'favicon.ico', 'og-image.png', 'icon-192.png', 'icon-512.png'];
 
 // JS source modules — concatenated into a single IIFE-wrapped dist/app.js.
 // Order matters: later modules call functions defined in earlier ones.
@@ -251,9 +251,8 @@ async function main() {
   await pool(pairs, SAMPLE ? 12 : CONCURRENCY, async (p) => {
     const key = `${p.countrySlug}|${p.gestureSlug}`;
     if (SAMPLE) {
-      const rec = SAMPLE_RECORDS[key];
-      writeCache(p.countrySlug, p.gestureSlug, rec); // persist so no-key reruns keep them
-      records.set(key, rec);
+      // Never persist samples: they would overwrite the reviewed seo-cache records.
+      records.set(key, SAMPLE_RECORDS[key]);
       return;
     }
     const cached = readCache(p.countrySlug, p.gestureSlug);
@@ -308,10 +307,10 @@ async function main() {
     sitemapEntries.push({ url: `/etiquette/${countrySlug(country)}/`, priority: '0.8', changefreq: 'monthly' });
   for (const p of pairs)
     if (records.get(`${p.countrySlug}|${p.gestureSlug}`))
-      sitemapEntries.push({ url: `/etiquette/${p.countrySlug}/${p.gestureSlug}/`, priority: '0.7', changefreq: 'monthly' });
+      sitemapEntries.push({ url: `/etiquette/${p.countrySlug}/${p.gestureSlug}/`, priority: '0.7', changefreq: 'monthly', lastmod: records.get(`${p.countrySlug}|${p.gestureSlug}`).reviewed });
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     sitemapEntries.map(e =>
-      `  <url><loc>${BASE_URL}${e.url}</loc><lastmod>${today}</lastmod><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority></url>`
+      `  <url><loc>${BASE_URL}${e.url}</loc><lastmod>${e.lastmod || today}</lastmod><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority></url>`
     ).join('\n') +
     `\n</urlset>\n`;
   writeFileSync(join(DIST, 'sitemap.xml'), sitemap);

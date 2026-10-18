@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
   "verdict_label": "Ambiguous, avoid in public",
-  "confidence": "medium",
-  "explanation": "In Saudi Arabia, the OK hand sign is not inherently offensive but can be misinterpreted due to its association with Western gestures or, in some contexts, linked to the 'evil eye' or negative connotations. It is generally understood as 'okay' among younger, globally exposed Saudis, but older or more conservative individuals may view it with suspicion or as a sign of disrespect. To be safe, avoid using it in formal or traditional settings.",
-  "local_tip": "Use a thumbs-up or a verbal 'tamam' (fine) instead to convey agreement clearly.",
-  "regional_note": "In the Eastern Province, where expatriate influence is stronger, the sign is more accepted, while in rural Najd or conservative areas, it is less common and may cause confusion.",
+  "confidence": "low",
+  "explanation": "The Western 'OK' meaning of this gesture doesn't reliably carry over in Saudi Arabia: general references on obscene gestures note it carries vulgar or offensive connotations in parts of the Middle East, and some Gulf sources associate the gesture, especially when shaken toward someone, with invoking the evil eye. Evidence specific to Saudi Arabia is thin, so treat the gesture as genuinely unpredictable rather than clearly safe or clearly offensive.",
+  "local_tip": "Use a thumbs-up-free verbal 'tamam' (fine) instead of the OK hand sign to avoid ambiguity.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a highly offensive gesture, equivalent to an obscene insult."
+      "note": "The gesture is considered a serious obscene insult."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly used to mean 'money' or 'OK', but context matters."
+      "note": "It commonly signals 'money' or 'OK', though context still matters."
     },
     {
-      "country": "France",
-      "verdict": "polite",
-      "note": "Generally means 'zero' or 'worthless', but not offensive in everyday use."
+      "country": "Turkey",
+      "verdict": "rude",
+      "note": "It can be read as a vulgar insult rather than a sign of approval there."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Obscene gesture",
+      "url": "https://en.wikipedia.org/wiki/Obscene_gesture",
+      "kind": "reference"
+    },
+    {
+      "title": "OK gesture",
+      "url": "https://en.dharmapedia.net/wiki/OK_gesture",
+      "kind": "community"
     }
   ]
 }

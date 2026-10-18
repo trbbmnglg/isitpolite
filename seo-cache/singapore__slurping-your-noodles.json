@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Accepted noodle slurping",
-  "confidence": "high",
-  "explanation": "In Singapore, slurping noodles is generally considered a sign of enjoyment and appreciation for the food, especially in hawker centers and casual eateries. It is not seen as rude but rather as a practical way to eat hot noodles and savor the broth. This practice is influenced by Chinese and Japanese dining cultures, which are prevalent in Singapore.",
-  "local_tip": "Slurp confidently but avoid excessive noise in upscale restaurants or when dining with conservative elders.",
-  "regional_note": "Older generations may view loud slurping as slightly uncouth in formal settings, but it is widely accepted in everyday dining.",
+  "verdict_label": "Not frowned upon, informal",
+  "confidence": "low",
+  "explanation": "Singapore's hawker and noodle-dish culture (influenced heavily by Chinese and Malay food traditions) is informal, and no etiquette source specifically flags slurping noodles as rude. It isn't treated as a special compliment to the cook the way it is in Japan, but it isn't a breach of manners either, especially at hawker centres.",
+  "local_tip": "Eat noodle soups however feels natural at a hawker centre - nobody will bat an eye at a bit of noise; just dial it back in a quiet, upscale restaurant.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a compliment to the chef and enhances flavor, though silence is expected in other contexts."
+      "note": "Slurping noodles is a genuine compliment to the chef and considered normal, even in nicer restaurants."
     },
     {
       "country": "United States",
-      "verdict": "rude",
-      "note": "Slurping is generally considered impolite and associated with poor table manners in most dining settings."
+      "verdict": "caution",
+      "note": "Audible slurping is generally seen as poor table manners, especially outside very casual settings."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping any food, including pasta, is seen as disrespectful and a breach of dining etiquette."
+      "note": "Slurping pasta or any food is seen as a clear breach of table manners."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Foodie Culture - Visit Singapore",
+      "url": "https://www.visitsingapore.com/editorials/foodie-culture/",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Singapore - Frommer's (chopstick/noodle dining customs)",
+      "url": "https://www.frommers.com/destinations/singapore/in-depth/etiquette/",
+      "kind": "reference"
     }
   ]
 }

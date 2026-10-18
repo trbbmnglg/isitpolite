@@ -1,25 +1,43 @@
 {
-  "verdict": "polite",
-  "verdict_label": "Flexible punctuality expected",
-  "confidence": "high",
-  "explanation": "In Spanish business culture, arriving 5–15 minutes late to a meeting is generally acceptable and often expected, as relationships and informal conversation take precedence over strict punctuality. This reflects a polychronic time orientation where schedules are seen as flexible. However, for very formal meetings or with foreign executives, punctuality may be more valued.",
-  "local_tip": "Arrive 5–10 minutes late to a meeting, but always apologize briefly and warmly to show respect.",
-  "regional_note": "In Catalonia and the Basque Country, punctuality is often taken more seriously, especially in international or corporate settings.",
+  "verdict": "caution",
+  "verdict_label": "Be on time for business",
+  "confidence": "medium",
+  "explanation": "For a BUSINESS meeting, punctuality is expected and genuinely valued in Spain — guides consistently advise arriving on time or a few minutes early, even though Spanish colleagues themselves sometimes run five or ten minutes behind. Arriving deliberately late sends the wrong message about professionalism. The real flexibility in Spanish time culture shows up socially: dinners, parties, and casual get-togethers routinely start later than planned, and nobody minds.",
+  "local_tip": "Arrive on time (or a few minutes early) for a business meeting, but don't be surprised or offended if your Spanish counterpart shows up a little late — that flexibility doesn't extend to you as the visitor.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Punctuality is strictly observed; even 5 minutes late is considered disrespectful."
+      "note": "Punctuality is strictly observed; arriving even five minutes late to a meeting is seen as disrespectful."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Arriving late is a serious breach of etiquette; being early is expected."
+      "note": "Arriving late to any meeting is a serious breach of etiquette; arriving early is the norm."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "Similar to Spain, a 10–15 minute delay is common and seen as normal in business meetings."
+      "note": "Similar to Spain's social norms, a 10-15 minute delay is common and unremarkable, especially outside formal business settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "A short guide to business etiquette in Spain",
+      "url": "https://www.lingoda.com/blog/en/business-etiquette-spain/",
+      "kind": "reference"
+    },
+    {
+      "title": "Business etiquette in Spain and other Spanish-speaking countries",
+      "url": "https://www.spanishexpress.co.uk/business-etiquette-in-spain-and-other-spanish-speaking-countries/",
+      "kind": "reference"
+    },
+    {
+      "title": "Spanish Culture — Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/spanish-culture/spanish-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

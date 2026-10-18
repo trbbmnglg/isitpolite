@@ -1,25 +1,48 @@
 {
-  "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
-  "confidence": "high",
-  "explanation": "In Brazil, the OK hand sign is widely understood as a positive gesture meaning 'good' or 'okay,' similar to its use in many other cultures. It is commonly used in everyday conversation and is not considered offensive in most contexts.",
-  "local_tip": "Use the OK sign to express agreement or that something is fine, but avoid it in formal or business settings where verbal confirmation is preferred.",
+  "verdict": "rude",
+  "verdict_label": "Considered a vulgar insult",
+  "confidence": "medium",
+  "explanation": "The circular 'OK' hand sign is a well-documented obscene gesture in Brazil, historically equivalent to the middle finger — most famously when it caused a diplomatic incident after then-Vice President Richard Nixon flashed it to a crowd in Rio de Janeiro in 1958 and was met with boos. Awareness of the American 'okay' meaning has spread, especially among younger, internationally-connected Brazilians, so the gesture is somewhat less universally shocking today, but it still carries the vulgar meaning for most locals and is best avoided.",
+  "local_tip": "Avoid making the circular OK sign in Brazil — use a thumbs-up instead to signal approval or that something is fine.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Considered a vulgar insult implying homosexuality."
+      "note": "The sign is read as a vulgar insult, historically implying homosexuality as a slur."
     },
     {
       "country": "Germany",
       "verdict": "polite",
-      "note": "Commonly used to mean 'okay' or 'good,' but can be seen as dismissive in some contexts."
+      "note": "Commonly used to mean 'okay' or 'good,' though it can look dismissive if used in place of a verbal answer."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Often used to mean 'money' or 'OK,' but context matters to avoid confusion."
+      "note": "Often understood as 'okay' or 'money,' with no offensive meaning."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazilian Culture - Communication, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Latin America - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Latin_America",
+      "kind": "reference"
+    },
+    {
+      "title": "List of gestures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Portuguese cultural gestures & body language, Kaiwa",
+      "url": "https://trykaiwa.com/blog/portuguese-cultural-gestures-body-language-realistic",
+      "kind": "community"
     }
   ]
 }

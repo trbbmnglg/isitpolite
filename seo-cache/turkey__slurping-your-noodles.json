@@ -1,10 +1,10 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
-  "confidence": "medium",
-  "explanation": "In Turkey, slurping noodles is considered impolite because it violates the cultural norm of eating quietly and with restraint. Loud eating sounds, including slurping, are associated with a lack of table manners and respect for fellow diners. However, in casual or street-food settings, especially with younger generations, it may be overlooked.",
-  "local_tip": "To be safe, eat noodles silently by twirling them around your fork or spoon, and avoid making audible sucking noises.",
-  "regional_note": "In more traditional or conservative households, especially in rural areas, slurping is strongly frowned upon, while in cosmopolitan Istanbul among younger crowds it may be more tolerated.",
+  "verdict_label": "Likely seen as poor manners",
+  "confidence": "low",
+  "explanation": "There's little direct, Turkey-specific guidance on slurping noodles or soup, since noodles aren't a dominant part of Turkish cuisine the way they are in East Asia. General Turkish etiquette guidance discourages audible eating and other mouth noises at the table, suggesting slurping would likely read as mildly poor manners rather than the sign of enjoyment it is in Japan — but this is inferred from broader table-manners norms rather than confirmed by a gesture-specific source.",
+  "local_tip": "Eat soup or noodle dishes quietly with a spoon or fork; a little noise likely won't draw comment, but keep it minimal in formal settings.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
@@ -14,12 +14,25 @@
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is common and shows you are savoring the food, though it varies by region."
+      "note": "Slurping is common and shows you're savoring the food, though it varies by region."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very bad manners and a sign of poor upbringing."
+      "note": "Slurping pasta is considered very bad table manners."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkey — Wikivoyage travel guide (Things to avoid)",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey — Business Etiquette, Manners, and Culture",
+      "url": "https://www.cyborlink.com/besite/turkey.htm",
+      "kind": "reference"
     }
   ]
 }

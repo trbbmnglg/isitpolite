@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Customary and respectful",
-  "confidence": "high",
-  "explanation": "In Russia, removing your shoes indoors is a widespread and expected practice, especially in private homes, to keep floors clean from mud, snow, and salt during long winters. Hosts typically provide slippers or house shoes for guests, and it is considered polite to accept them. Failing to remove shoes can be seen as inconsiderate or unhygienic, particularly in urban apartments where street dirt is a major concern.",
-  "local_tip": "Always ask 'Should I take off my shoes?' if unsure, and accept offered slippers without protest.",
-  "regional_note": "In rural homes or during summer gatherings, some hosts may wave off shoe removal, but it's safer to default to removing them.",
+  "verdict_label": "Standard, expected guest practice",
+  "confidence": "medium",
+  "explanation": "Taking your shoes off when entering a Russian home is standard practice, largely to keep floors clean of mud, snow, and street grime, especially during winter. Hosts commonly offer guests slippers (tapochki) to wear instead, and it's polite to accept them.",
+  "local_tip": "Remove your shoes just inside the door unless your host specifically tells you to keep them on, and accept any slippers offered.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is mandatory and deeply ritualized, with specific slippers for bathrooms."
+      "note": "Shoe removal is mandatory and ritualized, with separate slippers often used just for the bathroom."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal varies by household; many hosts do not expect it unless specified."
+      "note": "Shoe removal varies by household; many hosts don't expect it unless asked."
     },
     {
       "country": "Brazil",
-      "verdict": "rude",
-      "note": "Removing shoes indoors is often seen as too intimate or inappropriate in most social settings."
+      "verdict": "caution",
+      "note": "Shoe-removal customs vary by household and aren't as consistently expected as in Russia or Japan."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette in Russia",
+      "url": "https://www.frommers.com/destinations/russia/in-depth/etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "What to Expect When Visiting a Russian Home: Hospitality Dos and Don'ts",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/4/13/what-to-expect-when-visiting-a-russian-home-hospitality-dos-and-donts",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected and respectful",
+  "verdict_label": "Expected sign of honesty",
   "confidence": "high",
-  "explanation": "In Dutch business culture, direct eye contact is a sign of honesty, confidence, and engagement. It is expected during conversations and meetings, as avoiding eye contact may be interpreted as evasiveness or lack of interest.",
-  "local_tip": "Maintain steady but natural eye contact when speaking and listening, and avoid staring intensely to prevent coming across as aggressive.",
+  "explanation": "Direct eye contact is expected and valued in the Netherlands, seen as a sign of honesty, confidence, and engagement in both business and social conversation. Avoiding eye contact can come across as evasive or disinterested rather than respectful.",
+  "local_tip": "Maintain steady, natural eye contact when speaking and listening, without staring fixedly.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are preferred."
+      "note": "Prolonged direct eye contact can feel intimidating; brief, softer eye contact is generally preferred, especially with someone senior."
     },
     {
-      "country": "Nigeria",
+      "country": "South Korea",
       "verdict": "caution",
-      "note": "Direct eye contact with elders or superiors may be considered disrespectful in many ethnic groups."
+      "note": "Prolonged direct eye contact with elders or superiors can be seen as challenging or disrespectful in hierarchical settings."
     },
     {
-      "country": "Finland",
+      "country": "Germany",
       "verdict": "polite",
-      "note": "Direct eye contact is similarly valued as a sign of sincerity, though Finns may be more reserved in duration."
+      "note": "Direct eye contact is similarly valued as a sign of honesty and confidence in business and social settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Are there any cultural do's and don'ts in the Netherlands?",
+      "url": "https://debollenstreek.com/general-questions/cultural-dos-and-donts-the-netherlands/",
+      "kind": "community"
     }
   ]
 }

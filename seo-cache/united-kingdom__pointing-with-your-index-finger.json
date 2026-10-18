@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use with discretion",
+  "verdict_label": "Fine for objects, not people",
   "confidence": "medium",
-  "explanation": "In the United Kingdom, pointing with your index finger is generally considered impolite or aggressive in social settings, especially when directed at a person. It is more acceptable in informal contexts or when pointing at objects, but many Britons prefer a nod or an open hand gesture to avoid appearing rude.",
-  "local_tip": "Instead of pointing, gesture with your whole hand or nod your head in the direction you mean.",
-  "regional_note": "In more formal or conservative circles (e.g., older generations or rural areas), pointing is seen as particularly rude; younger urbanites may be more relaxed.",
+  "explanation": "Pointing at objects or directions with your index finger is unremarkable in the UK, but pointing your finger directly at a person - especially while making a point in an argument - can come across as aggressive or accusatory. Many Britons will use an open hand or a nod instead when gesturing toward someone, particularly during a disagreement.",
+  "local_tip": "Point at things freely, but gesture toward a person with an open hand or a nod rather than a jabbing index finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered very rude; use an open hand instead."
-    },
-    {
-      "country": "United States",
-      "verdict": "polite",
-      "note": "Pointing with the index finger is common and generally acceptable in casual settings."
+      "note": "Pointing at a person with the index finger is considered impolite; an open hand is used instead."
     },
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or an open hand."
+      "note": "Pointing with the index finger is considered offensive; the thumb is often used instead."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Similar to the UK, pointing at objects is fine but pointing at a person can seem confrontational."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Pointing - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pointing",
+      "kind": "reference"
+    },
+    {
+      "title": "List of gestures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not required",
+  "verdict_label": "Appreciated, often included already",
   "confidence": "high",
-  "explanation": "In the Philippines, tipping at restaurants is not mandatory but is widely appreciated as a gesture of gratitude for good service. Many locals leave spare change or 10% of the bill, especially in mid-range to upscale establishments, while fast-food and budget eateries typically do not expect tips.",
-  "local_tip": "Leave 10% of the bill or simply round up the amount as a tip, and hand it directly to the server if possible.",
-  "regional_note": "In tourist-heavy areas like Boracay or Cebu, tipping is more common and sometimes expected, while in rural provinces it is rare and may even be refused.",
+  "explanation": "Many larger Philippine restaurants already add a mandatory service charge (commonly 10%) under Republic Act 11360 (2019), which effectively functions as the tip, so no extra payment is expected on top of it. If no service charge appears on the bill, leaving about 10% in cash is a welcome but optional gesture of appreciation.",
+  "local_tip": "Check the bill for an existing 'service charge' line before tipping extra; if there isn't one, leave roughly 10% in cash directly with the server.",
+  "regional_note": "In tourist hubs like Boracay or Cebu, extra tipping on top of the service charge is more common than in small provincial eateries, where it is rare and sometimes refused.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting as service is already included and staff may refuse the money."
+      "note": "Tipping is considered unnecessary and can embarrass staff, who may refuse the money since service is already included."
     },
     {
       "country": "United States",
@@ -19,7 +19,20 @@
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Service charge is included by law, but leaving small change is a polite gesture."
+      "note": "Service charge is included by law, but leaving small change for good service is a nice gesture."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tip or not to tip",
+      "url": "https://www.philstar.com/business/2024/06/19/2363792/tip-or-not-tip",
+      "kind": "reference"
+    },
+    {
+      "title": "How much do Pinoys tip in restaurants?",
+      "url": "https://tribune.net.ph/2023/05/26/how-much-do-pinoys-tip-in-restaurants",
+      "kind": "reference"
     }
   ]
 }

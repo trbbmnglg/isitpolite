@@ -2,24 +2,37 @@
   "verdict": "caution",
   "verdict_label": "Slightly late is tolerated",
   "confidence": "high",
-  "explanation": "In French business culture, arriving exactly on time is expected for important meetings, but a delay of 5–10 minutes is often acceptable if you apologize briefly. However, arriving more than 15 minutes late without a valid reason is considered disrespectful and may harm your professional reputation. Punctuality signals respect for others' time, especially in formal or hierarchical settings.",
-  "local_tip": "Aim to arrive 5 minutes early, but if delayed, send a quick message and apologize upon arrival.",
-  "regional_note": "In Paris, punctuality is stricter than in southern regions like Provence, where a more relaxed attitude may prevail.",
+  "explanation": "On-time arrival is expected and valued in French business culture, but a short delay of 5-10 minutes is usually tolerated, especially if you let someone know. In Paris specifically, up to about 15 minutes is sometimes excused due to traffic ('le quart d'heure parisien'). Beyond that without explanation can look disorganized or disrespectful, particularly with senior contacts.",
+  "local_tip": "Aim to arrive on time or a few minutes early, and send a quick message if you expect to be more than 10 minutes late.",
+  "regional_note": "Punctuality norms loosen somewhat further south in France, and arriving around 15 minutes late to a dinner party or social gathering is generally seen as fine, unlike for a business meeting.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Arriving even one minute late is seen as disrespectful; punctuality is paramount."
-    },
-    {
-      "country": "Brazil",
-      "verdict": "polite",
-      "note": "Arriving 15–30 minutes late to a business meeting is common and often expected."
+      "note": "Arriving even a few minutes late is seen as disrespectful; punctuality is treated as essential."
     },
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Punctuality is strictly observed; lateness is considered a sign of poor planning and disrespect."
+      "note": "Punctuality is strictly observed in business; lateness is viewed as poor planning and a lack of respect."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Arriving 15-30 minutes late to a meeting is common and generally expected, especially outside very formal corporate settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The 15-minute rule: is it OK to be late in France?",
+      "url": "https://www.thelocal.fr/20251003/the-15-minute-rule-is-it-ok-to-be-late-in-france",
+      "kind": "reference"
+    },
+    {
+      "title": "Building business relationships in France — Aetna International",
+      "url": "https://aetnainternational.com/en/individuals/destination-guides/movers-guide-to-france/building-business-relationships.html",
+      "kind": "reference"
     }
   ]
 }

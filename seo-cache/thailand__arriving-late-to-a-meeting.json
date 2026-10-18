@@ -1,25 +1,43 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful and unprofessional",
-  "confidence": "high",
-  "explanation": "In Thai business culture, punctuality is a sign of respect and professionalism. Arriving late to a meeting can be perceived as a lack of consideration for others' time and may damage your credibility, as Thais value hierarchy and saving face.",
-  "local_tip": "Always arrive 5–10 minutes early to show respect, and if you are delayed, call ahead to apologize and inform your host.",
-  "regional_note": "In more rural areas or among older generations, a slightly more relaxed attitude toward time may exist, but in formal business settings, punctuality is strictly observed.",
+  "verdict": "caution",
+  "verdict_label": "Expected, but often tolerated",
+  "confidence": "medium",
+  "explanation": "Punctuality is formally valued in Thai business culture, and arriving on time is seen as a sign of respect, especially expected of foreign visitors. In practice, Thai meetings often start late, and Thais themselves may run late due to 'kreng jai' — a reluctance to cut off a prior conversation or inconvenience someone else — usually without serious offense or professional consequence. Showing visible frustration about a late start is considered worse manners than the lateness itself.",
+  "local_tip": "Aim to arrive on time or a few minutes early yourself, but stay relaxed and don't show irritation if your Thai counterparts or the meeting itself runs late.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is critical; even one minute late is seen as disrespectful."
+      "note": "Punctuality is critical, and even a one-minute delay can be seen as disrespectful."
     },
     {
       "country": "Brazil",
       "verdict": "caution",
-      "note": "In São Paulo and Brasília, punctuality is expected, but in Rio de Janeiro and other cities, a 10–15 minute delay is often acceptable."
+      "note": "Arriving 15-30 minutes late to informal plans is common and tolerated, though punctuality is more expected for formal business meetings."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "caution",
-      "note": "While punctuality is valued, meetings may start late due to flexible scheduling; however, foreigners are expected to arrive on time."
+      "note": "Meetings may start late due to flexible local scheduling, but foreign visitors are still expected to arrive on time."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thai Culture: Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/thai-culture/thai-culture-business-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Etiquette in Thailand",
+      "url": "https://reiseliv.innovasjonnorge.no/artikkel/business-etiquette-in-thailand",
+      "kind": "reference"
+    },
+    {
+      "title": "Punctuality in Thailand – Why are Thais Late?",
+      "url": "https://mysakonnakhon.com/punctuality-in-thailand-why-are-thais-late",
+      "kind": "community"
     }
   ]
 }

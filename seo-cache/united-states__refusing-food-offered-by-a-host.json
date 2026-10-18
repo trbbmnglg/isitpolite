@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Often polite if gentle",
+  "verdict_label": "Fine if polite about it",
   "confidence": "medium",
-  "explanation": "In the United States, refusing food offered by a host is generally acceptable if done politely, especially if you have a dietary restriction or are full. However, in family settings, a direct refusal without explanation can be seen as slightly rude or unappreciative, so it's better to offer a brief, honest reason or accept a small portion.",
-  "local_tip": "If you must refuse, say 'No thank you, I'm full but it looks delicious' or 'I have an allergy' to show appreciation without offending.",
-  "regional_note": "In the Southern U.S., refusing food is more likely to be met with insistence, so a gentle 'maybe later' can be more effective.",
+  "explanation": "In the US, you can decline food a host offers without major offense, especially citing fullness, dietary restrictions, or allergies - a polite 'no thank you' is generally respected. In some households, especially in the South, a host may insist once or twice out of hospitality, but a warm, clear decline is still accepted.",
+  "local_tip": "Decline with a brief reason and a compliment, e.g., 'No thank you, I'm stuffed, but that looks amazing' - it shows appreciation without obligating you to eat.",
+  "regional_note": "Southern US hosts are more likely to press food on guests out of a strong regional hospitality tradition centered on generously feeding visitors, so a gentle 'maybe later' can smooth things over.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Refusing food offered by a host is often considered impolite; it's better to accept a small amount even if you don't eat it."
+      "note": "Refusing food outright can seem impolite; accepting at least a small amount, even if you don't finish it, is the safer approach."
     },
     {
       "country": "India",
-      "verdict": "rude",
-      "note": "Refusing food, especially in a family setting, can be seen as rejecting hospitality; a polite 'I'm full' may still lead to insistence."
+      "verdict": "caution",
+      "note": "Declining food, especially in a family setting, may prompt repeated insistence, since offering food is closely tied to hospitality."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "Refusing food is acceptable if you explain politely, but refusing a homemade dish may be taken as a slight to the cook's effort."
+      "note": "It's fine to decline if you explain politely, but refusing a dish someone cooked themselves can be taken as a slight to their effort."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "USAHello - Be Polite in the US",
+      "url": "https://usahello.org/life-in-usa/culture/be-polite/",
+      "kind": "reference"
+    },
+    {
+      "title": "Southern hospitality - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Southern_hospitality",
+      "kind": "reference"
     }
   ]
 }

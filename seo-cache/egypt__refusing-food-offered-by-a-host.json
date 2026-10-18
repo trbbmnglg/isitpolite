@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Refusing hospitality is offensive",
-  "confidence": "high",
-  "explanation": "In Egypt, offering food is a deeply ingrained sign of generosity and hospitality, especially when meeting family. Refusing is seen as rejecting the host's goodwill and can cause embarrassment or offense. It is customary to accept at least a small portion, even if you are not hungry, to show respect and gratitude.",
-  "local_tip": "Always accept a small amount of food or drink, and if you must decline, do so gently with a polite excuse like 'I just ate, but thank you so much' while still taking a token bite or sip.",
-  "regional_note": "In more conservative or rural areas, refusal is even more strongly discouraged; in urban or younger circles, a polite decline may be more accepted but still best avoided.",
+  "verdict_label": "Accept some, don't finish the plate",
+  "confidence": "medium",
+  "explanation": "Declining food offered by an Egyptian host is seen as rejecting their hospitality and can cause genuine offense, so it's customary to accept at least a small portion. Interestingly, completely finishing your plate can be read as a sign you're still hungry and prompt your host to keep refilling it, so leaving a little food behind is actually the polite way to signal you've had enough.",
+  "local_tip": "Accept what's offered, and leave a small amount on your plate when you're done rather than scraping it clean.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Refusing food is generally polite if done with proper excuses, but accepting is still preferred to show appreciation."
+      "note": "A polite decline with a brief apology is acceptable, though hosts may insist once or twice first."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food offered by a host is considered impolite and a rejection of their generosity."
+      "note": "Refusing food offered by a host is seen as rejecting their generosity."
     },
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Refusing food is seen as disrespectful; hosts insist multiple times, and accepting is a sign of respect."
+      "note": "Refusing food is often seen as disrespectful, with hosts expected to insist multiple times before guests accept."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Travel advice for Egypt",
+      "url": "https://roughguides.com/egypt/customs-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "How To Follow Business Etiquette in Egypt",
+      "url": "https://clickup.com/p/business-etiquette/egypt",
+      "kind": "community"
     }
   ]
 }

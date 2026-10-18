@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid pointing with finger",
-  "confidence": "high",
-  "explanation": "In Saudi Arabia, pointing directly at someone with the index finger is considered aggressive and disrespectful, as it can be interpreted as an accusation or a challenge. Instead, Saudis typically gesture with the whole hand or use the right hand with palm open to indicate direction or call someone. This norm is rooted in Islamic and Bedouin traditions that emphasize indirectness and respect in interpersonal communication.",
-  "local_tip": "Use your entire right hand with palm facing up to gesture toward someone or something, or nod your head in the desired direction.",
-  "regional_note": "In more conservative regions like Najd or rural areas, pointing is especially frowned upon, while in cosmopolitan cities like Jeddah or Riyadh, younger generations may be slightly more tolerant but still avoid it.",
+  "verdict": "caution",
+  "verdict_label": "Use your whole hand instead",
+  "confidence": "medium",
+  "explanation": "Pointing directly at someone with a single index finger is widely described as impolite across Arab countries, including Saudi Arabia, because it can read as accusatory. Saudis typically gesture with the whole hand, consistent with the broader custom of using both hands together to offer or indicate things rather than a single finger.",
+  "local_tip": "Gesture with your whole hand, palm open, rather than pointing with a single finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered rude; use an open hand or gesture with the chin instead."
+      "note": "Pointing with a single finger is impolite; gesturing with the whole hand is preferred."
     },
     {
       "country": "Indonesia",
       "verdict": "caution",
-      "note": "Pointing with the index finger is acceptable in informal settings but seen as impolite in formal or rural contexts; use the thumb or open hand."
+      "note": "Single-finger pointing is tolerated informally but seen as impolite in more formal settings."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Pointing with the index finger is generally acceptable in casual and professional settings, though it can be seen as blunt in very formal situations."
+      "note": "Pointing with the index finger is common and mostly unremarkable in casual contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Common Gestures People Use in Arab Countries",
+      "url": "https://www.theculturetrip.com/asia/united-arab-emirates/articles/11-common-gestures-people-use-in-arab-countries",
+      "kind": "reference"
     }
   ]
 }

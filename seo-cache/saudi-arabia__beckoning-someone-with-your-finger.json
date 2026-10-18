@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
+  "verdict_label": "Seen as a gesture for animals",
   "confidence": "high",
-  "explanation": "In Saudi Arabia, beckoning someone with your finger is considered extremely rude and demeaning, as it mimics the gesture used to call a dog or a servant. This action is deeply offensive in Arab culture, where respect and honor are paramount in social interactions. Instead, use an open hand or a subtle nod to signal someone to approach.",
-  "local_tip": "To call someone politely, extend your right hand with the palm facing down and wave your fingers toward you gently.",
-  "regional_note": "While the taboo is consistent across the country, older generations and more conservative regions (e.g., Najd) may find it even more offensive than younger, urban Saudis.",
+  "explanation": "Beckoning with a single raised finger is seen across much of the Arab world, including Saudi Arabia, as a gesture used to call animals or servants, making it demeaning when directed at a person. This fits the broader Saudi custom of offering or gesturing with the whole hand, or both hands together, rather than a single finger.",
+  "local_tip": "To call someone over, turn your palm face-down and wave your fingers toward yourself rather than curling one finger upward.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered rude and dog-like; use a gentle wave with all fingers together."
+      "note": "A single raised finger to beckon is seen as crude; a palm-down wave is the polite alternative."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture is highly offensive and can be seen as a challenge or insult, especially when directed at someone older."
+      "note": "The same gesture is used only for animals and is considered very offensive directed at a person."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual settings, it can be perceived as condescending or aggressive in formal or professional contexts."
+      "note": "It's common casually but can seem condescending in a formal or professional setting."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Traditional Gestures Around The World That Mean The Opposite In The US",
+      "url": "https://www.worldatlas.com/articles/traditional-gestures-around-the-world-that-mean-the-opposite-in-the-us.html",
+      "kind": "reference"
     }
   ]
 }

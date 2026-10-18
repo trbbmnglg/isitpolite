@@ -2,9 +2,9 @@
   "verdict": "polite",
   "verdict_label": "Appreciated but modest",
   "confidence": "high",
-  "explanation": "In Turkish business culture, gift-giving is considered polite and a gesture of goodwill, especially when building relationships. It is common to offer a modest, thoughtful gift (e.g., quality local sweets, a small decorative item) at the first meeting or after a successful deal. Avoid expensive or personal gifts, as they may be misinterpreted as bribery or create awkwardness.",
-  "local_tip": "Choose a gift that reflects your home country's culture, such as a specialty food or craft, and present it with both hands or your right hand to show respect.",
-  "regional_note": "In more conservative or religious circles (e.g., eastern Anatolia), avoid alcohol or items with pig imagery; in secular urban centers like Istanbul, such restrictions are less strict.",
+  "explanation": "Gift-giving is a well-regarded gesture of goodwill in Turkey, whether visiting someone's home (flowers, chocolates, or pastries are safe choices) or in business (something representative of your home country, good-quality sweets, etc.). Alcohol is best avoided as a gift unless you're confident your host drinks, since many Turks abstain for religious reasons.",
+  "local_tip": "Bring flowers, chocolates, or a small item from your home country when invited somewhere, and skip alcohol as a gift unless you already know your host drinks.",
+  "regional_note": "Avoiding alcohol and pork-related gifts matters more in religious or conservative circles and is less of a concern in secular, urban settings.",
   "also_check": [
     {
       "country": "Japan",
@@ -14,12 +14,25 @@
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even suspicious in formal business; if given, keep it small and practical."
+      "note": "Gifts can seem unnecessary or suspicious in formal business; if given, keep them small and practical."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Gifts are appreciated but must align with Islamic values (no alcohol, no pigskin); avoid giving to the opposite gender directly."
+      "note": "Gifts are appreciated but should align with Islamic values (no alcohol or pigskin); avoid giving directly to the opposite gender."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkey — Wikivoyage travel guide (Respect section)",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey — Business Etiquette, Manners, and Culture",
+      "url": "https://www.cyborlink.com/besite/turkey.htm",
+      "kind": "reference"
     }
   ]
 }

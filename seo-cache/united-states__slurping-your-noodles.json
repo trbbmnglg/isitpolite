@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Generally considered impolite",
+  "verdict_label": "Loud eating is poor manners",
   "confidence": "high",
-  "explanation": "In the United States, slurping noodles is widely regarded as bad table manners because it produces loud, disruptive sounds that are associated with a lack of self-control and respect for fellow diners. American dining etiquette emphasizes quiet eating, and slurping is often seen as unrefined or even disgusting in most social settings.",
-  "local_tip": "If you must eat noodles, use a fork or spoon to twirl them quietly, and take small, silent bites to avoid drawing negative attention.",
-  "regional_note": "Uniform across the U.S., though some younger or more globally exposed individuals may be more tolerant in casual settings.",
+  "explanation": "American table manners strongly favor quiet eating - chewing with your mouth closed and avoiding noise from food or cutlery is a basic expectation taught from childhood. Slurping noodles or soup loudly is seen as careless or poor manners, the opposite of the social approval the same sound gets in Japan or China.",
+  "local_tip": "Twirl noodles onto a fork or spoon and eat quietly; the rule relaxes a bit at a ramen or pho shop among people who expect slurping, but quiet eating is the safe default elsewhere.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is considered a compliment to the chef and enhances the flavor; it is expected in ramen and soba shops."
+      "note": "Slurping noodles is seen as a compliment to the chef and is expected at ramen and soba shops."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping noodles is common and shows enjoyment, though it is less formal in fine dining contexts."
+      "note": "Slurping noodles is common and signals enjoyment, though it's toned down in more formal dining."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is seen as very rude and uncivilized; Italians eat pasta silently, using a fork to twirl without noise."
+      "note": "Pasta is eaten quietly, twirled onto a fork without noise; slurping is seen as uncivilized."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "USAHello - Be Polite in the US",
+      "url": "https://usahello.org/life-in-usa/culture/be-polite/",
+      "kind": "reference"
     }
   ]
 }

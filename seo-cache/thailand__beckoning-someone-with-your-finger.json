@@ -1,25 +1,43 @@
 {
   "verdict": "rude",
-  "verdict_label": "Disrespectful and aggressive",
+  "verdict_label": "Use palm-down wave instead",
   "confidence": "high",
-  "explanation": "In Thailand, beckoning someone with a curled index finger is considered rude and aggressive, as it is typically used to call animals or inferiors. The proper way to summon someone is to extend your hand palm down and wave all fingers together in a gentle motion. This gesture is deeply rooted in Thai social hierarchy and respect for personal dignity.",
-  "local_tip": "Instead, use a soft downward wave of the whole hand with palm facing down to call someone politely.",
-  "regional_note": "In more rural or traditional areas, the offense may be stronger; in very touristy zones, locals may overlook it but still find it impolite.",
+  "explanation": "Beckoning someone with a curled index finger, palm up, is considered rude and aggressive in Thailand — it's associated with calling animals and can come across as an aggressive challenge. The respectful way to call someone over is a palm-down wave or scooping motion with the fingers, which can look backwards to Western eyes but is the normal, polite way to summon a server or get someone's attention.",
+  "local_tip": "To call a server or get someone's attention, wave with your palm facing down rather than curling an upturned finger toward yourself.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered rude and animal-like; use a gentle wave with palm down."
+      "note": "Beckoning with an upturned, curled finger is seen as rude and animal-like; a gentle palm-down wave is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture is highly offensive and can be seen as a challenge or insult."
+      "note": "This gesture is considered highly offensive and can be taken as a serious insult or challenge."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual contexts, it can be seen as condescending or bossy in formal settings."
+      "note": "The curled-finger beckon is common in casual settings but can seem bossy or condescending in formal ones."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "6 Little Differences in Thailand",
+      "url": "https://www.peacecorps.gov/connect/blog/6-little-differences-in-thailand/",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Protocol",
+      "url": "https://www.unthsc.edu/about-us/wp-content/uploads/sites/17/Thaiprotocol.docx",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Gestures Body Language",
+      "url": "https://www.thaiholidayguide.com/thai-gestures-body-language/",
+      "kind": "community"
     }
   ]
 }

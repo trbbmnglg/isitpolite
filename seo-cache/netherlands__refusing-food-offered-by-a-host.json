@@ -1,25 +1,43 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Refusing is impolite",
-  "confidence": "high",
-  "explanation": "In the Netherlands, refusing food offered by a host, especially during a family meeting, is considered impolite because it can be seen as rejecting the host's hospitality and effort. Dutch culture values directness but also appreciates gracious acceptance of food as a sign of respect and connection. Even a small taste is expected to acknowledge the host's generosity.",
-  "local_tip": "If you must refuse due to dietary restrictions, politely explain briefly and offer to try a small portion or accept a drink instead.",
-  "regional_note": "In more traditional or older generations, refusal may be taken more personally, while younger urban families might be more understanding of dietary preferences.",
+  "verdict": "caution",
+  "verdict_label": "A direct decline is fine",
+  "confidence": "medium",
+  "explanation": "Dutch culture places a high value on directness, and that extends to hospitality — a simple, polite 'no, thank you' to an offer of food is generally taken at face value rather than seen as an insult, unlike in more insistence-driven hosting cultures. That said, once food has actually been served to you, leaving a lot of it on your plate can read as wasteful, so it's better to decline upfront if you don't want it rather than accept and not finish it.",
+  "local_tip": "If you don't want something, say a direct 'no, thank you' when it's offered rather than taking a small portion and leaving it unfinished.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Refusing food is often polite to show modesty, though hosts may insist; it's common to initially decline."
+      "note": "It's common and often expected to initially decline food out of modesty before accepting, with hosts sometimes insisting."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food is seen as rejecting the host's love and care; always accept at least a small portion."
+      "note": "Declining food is often seen as rejecting the host's generosity; accepting at least a small portion is expected."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Refusing food can be seen as rude, but it's acceptable if you explain religious or dietary reasons; hosts may still insist."
+      "note": "Declining food can seem impolite, but explaining dietary or religious reasons is accepted, and hosts may still insist you try something."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Dutch customs and etiquette",
+      "url": "https://en.wikipedia.org/wiki/Dutch_customs_and_etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Dutch Business Etiquette Guide",
+      "url": "https://trykaiwa.com/blog/dutch-business-etiquette-guide-2026",
+      "kind": "community"
     }
   ]
 }

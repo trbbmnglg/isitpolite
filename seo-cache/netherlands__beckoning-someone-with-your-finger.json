@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Rude if used imperiously",
-  "confidence": "high",
-  "explanation": "In the Netherlands, beckoning someone with a curled index finger is considered condescending and disrespectful, as it mimics how one would call a dog. The gesture is seen as overly direct and presumptuous in a culture that values egalitarianism and personal space.",
-  "local_tip": "Instead, use an open hand with palm up and fingers together in a gentle scooping motion, or simply make eye contact and nod toward the desired direction.",
-  "regional_note": "In more cosmopolitan areas like Amsterdam or Rotterdam, younger generations may be more tolerant of the gesture, but it remains widely frowned upon in formal or older circles.",
+  "verdict": "polite",
+  "verdict_label": "Standard everyday gesture",
+  "confidence": "medium",
+  "explanation": "Beckoning with a curled index finger, palm up, is the ordinary way people in the Netherlands and the rest of Northern Europe wave someone over — it is not seen as rude or dismissive the way it is in parts of Asia. It's best reserved for peers and casual situations rather than used toward someone senior or a stranger, where it can come across as a bit too familiar.",
+  "local_tip": "Use it normally with friends, family, or colleagues, but opt for a simple wave or open hand when beckoning someone more senior or a stranger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a curled finger is extremely offensive, as it is used for calling animals; use a gentle hand wave with palm down instead."
+      "note": "Beckoning with a curled finger is highly offensive, as it's associated with calling animals; a hand wave with the palm down is used instead."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Beckoning with the index finger is considered rude and childlike; use an open hand with palm down and a gentle waving motion."
+      "note": "The index-finger, palm-up beckon can be seen as rude or childish; a palm-down waving motion is preferred."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual settings, it can be seen as aggressive or dismissive in formal or professional contexts."
+      "note": "Common in casual settings, but it can come across as aggressive or dismissive in more formal or professional contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "List of gestures",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
     }
   ]
 }

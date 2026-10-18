@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid slurping noodles",
-  "confidence": "high",
-  "explanation": "In Greece, eating quietly and with restraint is valued in dining settings; slurping noodles is considered noisy and disrespectful, as it disrupts the meal's social harmony. Greek table manners emphasize clean, silent eating, and slurping is associated with a lack of self-control or poor upbringing.",
-  "local_tip": "When eating noodles or pasta in Greece, twirl them quietly around your fork and bring them to your mouth without making noise.",
-  "regional_note": "In some rural areas or among older generations, the expectation for silent eating may be even stricter, but the rule against slurping is uniform across the country.",
+  "verdict": "caution",
+  "verdict_label": "Generally seen as poor manners",
+  "confidence": "medium",
+  "explanation": "Greece follows the broader European norm that eating noisily — including slurping — is considered poor table manners, in contrast to countries like Japan, China, or Korea where slurping noodles can be acceptable or even a compliment to the cook. It isn't singled out as a uniquely Greek taboo in etiquette guides, but quiet eating is generally expected, especially in more formal settings.",
+  "local_tip": "Eat pasta or soup quietly, the way you would in most European dining settings, rather than assuming Asian noodle-slurping norms apply.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a sign of appreciation and enjoyment, indicating the food is delicious."
+      "note": "Slurping noodles shows appreciation and enjoyment of the food."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping noodles is often acceptable and can show you are savoring the meal, though it varies by region."
+      "note": "Slurping noodles or soup is generally acceptable and can show you're savoring the meal."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very impolite and a breach of proper dining etiquette."
+      "note": "Slurping pasta is considered a breach of proper table manners, similar to Greece."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Greece Guide (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/greece-guide",
+      "kind": "reference"
     }
   ]
 }

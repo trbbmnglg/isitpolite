@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Beckoning is offensive",
-  "confidence": "high",
-  "explanation": "In China, beckoning someone with a single finger, especially with the palm facing up, is considered highly disrespectful and is often associated with calling a dog or a servant. The proper way to beckon is to use all four fingers with the palm facing down, in a gentle waving motion.",
-  "local_tip": "To call someone politely, extend your hand with palm down and wave all fingers together toward you.",
-  "regional_note": "Younger urban Chinese may be more tolerant of the finger gesture due to Western influence, but it remains widely offensive in formal and rural settings.",
+  "verdict_label": "Use palm-down, not one finger",
+  "confidence": "medium",
+  "explanation": "Beckoning someone with a single upturned index finger is associated with calling an animal and is considered disrespectful in China. The accepted alternative is to extend the hand palm-down and curl the fingers toward yourself in a waving motion.",
+  "local_tip": "To call someone over, wave with your palm facing down and fingers curling inward, rather than crooking a single raised index finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a single finger is extremely rude and can be seen as a challenge or insult."
+      "note": "Beckoning with a single finger is considered very rude and can even be treated as a provocation."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Beckoning with the index finger is considered rude; use a gentle wave with all fingers and palm down."
+      "note": "Beckoning with the index finger is seen as impolite; a palm-down wave with all fingers is the accepted alternative."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Beckoning with the index finger is common and generally acceptable in casual settings."
+      "note": "Beckoning with the index finger is common and unremarkable in casual settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "9 Chinese Hand Gestures You Can Learn Today - FluentU",
+      "url": "https://www.fluentu.com/blog/chinese/2017/12/04/chinese-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "Additional Etiquette Tip (study abroad blog) - Missouri State University",
+      "url": "https://blogs.missouristate.edu/studyaway-cpham/2014/04/20/additional-etiquette-tip/",
+      "kind": "reference"
     }
   ]
 }

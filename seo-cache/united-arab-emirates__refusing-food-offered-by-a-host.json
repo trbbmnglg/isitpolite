@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Refusing food is offensive",
+  "verdict_label": "Accept at least a little",
   "confidence": "high",
-  "explanation": "In Emirati culture, offering food is a profound gesture of hospitality and generosity, especially when meeting family. Refusing it can be seen as rejecting the host's kindness and may cause embarrassment or offense. It is customary to accept at least a small portion, even if you are not hungry, to show respect and gratitude.",
-  "local_tip": "Always accept the offer with a smile and take a small bite, then praise the food to honor the host.",
-  "regional_note": "Among more conservative or Bedouin families, refusal may be taken even more seriously; in urban areas, a polite explanation (e.g., 'I am full, but thank you') may be tolerated but still not ideal.",
+  "explanation": "Hospitality is central to Emirati culture, and refusing food or drink offered by a host is considered impolite — business etiquette guidance for the UAE states outright that an offered drink should always be accepted. Declining outright, especially on a first offer, can come across as rejecting the host's generosity.",
+  "local_tip": "Accept at least a small portion or a sip of whatever is offered before politely declining more.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "polite",
-      "note": "Refusing food is often polite to avoid imposing, though hosts may insist; a gentle decline is acceptable."
+      "verdict": "caution",
+      "note": "A polite decline is acceptable if done with a brief apology, though hosts may still insist once or twice."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food from a host is considered impolite, as it rejects their hospitality and effort."
+      "note": "Refusing food from a host is seen as rejecting their hospitality and effort."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Refusing food can be seen as rude, but a polite 'no, thank you' after initial insistence is sometimes acceptable in urban settings."
+      "note": "An initial refusal is expected to be followed by insistence from the host; accepting eventually is the polite norm."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Culture and etiquette tips when doing business in the UAE",
+      "url": "https://commisceo-global.com/blog/culture-etiquette-tips-when-doing-business-in-the-uae",
+      "kind": "reference"
+    },
+    {
+      "title": "Greeting | Abu Dhabi Business Culture",
+      "url": "https://visitabudhabi.ae/en/abu-dhabi-convention-and-exhibition-bureau/business-culture/greeting",
+      "kind": "reference"
     }
   ]
 }

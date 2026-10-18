@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Disrespectful and commanding",
-  "confidence": "high",
-  "explanation": "In Singapore, beckoning someone with a curled index finger is considered impolite and condescending, as it is associated with calling a dog or a servant. This gesture is seen as disrespectful, especially in a multicultural society where maintaining face and showing mutual respect are highly valued. A more acceptable way to summon someone is to use an open hand with a gentle waving motion.",
-  "local_tip": "Instead of using your finger, wave your hand with the palm facing down and fingers together to beckon someone politely.",
-  "regional_note": "Among older generations and in traditional Chinese families, this gesture is particularly offensive, while younger Singaporeans may be more tolerant but still view it as rude.",
+  "verdict_label": "Seen as disrespectful, even hostile",
+  "confidence": "medium",
+  "explanation": "Beckoning someone with a curled index finger (palm up) is considered rude and even aggressive in Singapore, similar to Japan, since the gesture is associated with calling animals or, in some tellings, has a connotation linked to death. A polite alternative is to wave with the palm facing down.",
+  "local_tip": "To call someone over, wave with your whole hand, palm facing down, rather than curling a single finger toward yourself.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered vulgar and is used only for animals; use an open hand with palm down instead."
+      "note": "The same curled-finger beckoning gesture is considered rude and is associated with calling animals rather than people."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture can be seen as a challenge or insult, and may even lead to legal trouble if used toward authorities."
+      "note": "Beckoning with a curled finger can be seen as a serious insult and is even linked to past legal trouble when used toward police."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While often used informally among friends, it can be perceived as arrogant or dismissive in formal or professional settings."
+      "note": "The gesture is used casually among friends but can come across as arrogant or demanding in formal settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "10 Innocent Hand Gestures You Should Never Use Abroad - Boston.com",
+      "url": "https://boston.com/travel/travel/2014/03/26/10-innocent-hand-gestures-you-should-never-use-abroad",
+      "kind": "reference"
+    },
+    {
+      "title": "Hand gesture cross-cultural guides (aggregated web search)",
+      "url": "https://acutrans.com/understanding-non-verbal-communication-gestures-that-vary-across-cultures/",
+      "kind": "community"
     }
   ]
 }

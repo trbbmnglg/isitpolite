@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Not expected, but appreciated",
+  "verdict": "polite",
+  "verdict_label": "Often expected, not rude",
   "confidence": "medium",
-  "explanation": "In Brazil, removing shoes indoors is not a universal custom and is generally reserved for homes where the host explicitly requests it or where floors are very clean. Most Brazilians wear shoes inside, especially in urban areas, but doing so can be seen as respectful in certain households, particularly those with light-colored floors or carpets. It is always best to follow the host's lead or ask upon entering.",
-  "local_tip": "When visiting a Brazilian home, keep your shoes on unless you see a pile of shoes at the door or the host removes theirs first.",
-  "regional_note": "In some southern states with colder climates or in homes with stricter cleanliness norms, removing shoes may be more common, but it is not the national standard.",
+  "explanation": "Contrary to the idea that Brazilians always keep their shoes on indoors, many households — most clearly documented in the Northeast — expect guests to remove their shoes before entering, and doing so is seen as considerate. Practice varies by family and region, so the safest approach is to watch for a shoe pile by the door or simply follow your host's lead.",
+  "local_tip": "When visiting a Brazilian home, offer to remove your shoes at the door or ask your host what they prefer — it's a common, appreciated courtesy, never an insult to offer.",
+  "regional_note": "Shoe removal is most explicitly expected in northeastern Brazil, though many urban households nationwide also prefer it, especially with light-colored floors.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Removing shoes is mandatory before entering any home, and often indicated by a genkan entryway."
+      "note": "Removing shoes is mandatory before entering a home, usually at a dedicated genkan entryway."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal varies widely by household and region; it is polite to ask or follow the host's cue."
+      "note": "Shoe removal varies widely by household; it's polite to ask or follow the host's cue."
     },
     {
       "country": "Sweden",
       "verdict": "polite",
-      "note": "It is standard practice to remove shoes indoors, especially in winter or when entering a private home."
+      "note": "Removing shoes indoors is standard practice, especially in winter or when visiting a private home."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette in Latin America - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Latin_America",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

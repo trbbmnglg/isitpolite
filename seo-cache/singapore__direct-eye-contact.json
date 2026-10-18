@@ -1,25 +1,33 @@
 {
   "verdict": "caution",
-  "verdict_label": "Moderate eye contact",
+  "verdict_label": "Moderate, respectful eye contact",
   "confidence": "medium",
-  "explanation": "In Singapore's business context, direct eye contact is generally acceptable but should be moderate and respectful, especially when interacting with older or more senior colleagues, as prolonged or intense staring can be seen as confrontational or aggressive. The multicultural nature of Singapore means that Chinese, Malay, and Indian colleagues may have slightly different norms, with some preferring less direct eye contact as a sign of deference. Maintaining brief, steady eye contact while speaking and listening is considered professional, but avoid staring or challenging gazes.",
-  "local_tip": "When meeting a senior business partner, hold eye contact for a few seconds at a time, then glance away briefly to show respect.",
-  "regional_note": "Among older Malay and Indian colleagues, especially in more traditional settings, slightly lowered eyes can signal respect, while younger professionals in global firms may expect more direct eye contact.",
+  "explanation": "Eye contact in Singapore generally signals confidence and attentiveness, similar to Western norms, but prolonged or intense eye contact can come across as challenging or confrontational, especially with someone senior. Some Malay Muslims and Hindus may lower or avert their eyes more when speaking with elders or superiors as a sign of respect, not disinterest.",
+  "local_tip": "Keep eye contact natural and intermittent, especially with older or more senior people; don't read a lowered gaze from a Malay or Indian colleague as disengagement.",
+  "regional_note": "Muslim Malay and some Hindu Singaporeans may avert their eyes more often with superiors or elders as a mark of deference; this is a sign of respect, not avoidance or dishonesty.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact is often considered rude or intimidating; brief glances are preferred."
+      "note": "Prolonged direct eye contact can feel confrontational; brief, intermittent eye contact is preferred, especially with seniors."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct, steady eye contact is expected as a sign of confidence and honesty."
+      "note": "Steady eye contact is expected and read as a sign of confidence and honesty."
     },
     {
-      "country": "Saudi Arabia",
+      "country": "South Korea",
       "verdict": "caution",
-      "note": "Direct eye contact between men is common, but between genders it should be brief and respectful."
+      "note": "Lowering the eyes with elders or superiors is a sign of respect rather than dishonesty or disinterest."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Communication (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-communication",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid touching the head",
-  "confidence": "high",
-  "explanation": "In France, the head is considered a private and somewhat sacred part of the body, and patting someone on the head—especially an adult—is seen as condescending or infantilizing. This gesture is reserved for very young children or pets, and doing it to another adult in a social gathering would likely be perceived as disrespectful or overly familiar.",
-  "local_tip": "If you want to show friendliness, use a light touch on the arm or shoulder instead, and always respect personal space.",
+  "verdict": "caution",
+  "verdict_label": "Overly familiar, not taboo",
+  "confidence": "medium",
+  "explanation": "France doesn't treat the head as sacred the way some Southeast and South Asian cultures do, so there's no religious or spiritual taboo against touching it. Still, French physical contact is generally reserved for people you already know well, so patting an adult's head — especially a stranger's — would read as condescending or overly familiar, even though it's common and affectionate with young children.",
+  "local_tip": "Avoid touching an adult's head; a hand on the shoulder or arm is the more normal, lower-risk way to show warmth among people who already know each other.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred body part; touching it is a major taboo."
+      "note": "The head is considered the most sacred part of the body; touching anyone's head, adult or child, is a serious taboo."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting the head of a child is sometimes affectionate, but touching an adult's head is generally avoided, especially among Hindus."
+      "note": "Patting a child's head can be affectionate, but touching an adult's head is generally avoided out of respect, especially in Hindu contexts."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Patting someone's head can be seen as playful or condescending depending on context; it's best reserved for close friends or children."
+      "note": "Patting someone's head can come across as playful or condescending depending on context; it's best reserved for close friends or children."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "French people don't hug",
+      "url": "https://thegoodlifefrance.com/french-people-dont-hug/",
+      "kind": "reference"
     }
   ]
 }

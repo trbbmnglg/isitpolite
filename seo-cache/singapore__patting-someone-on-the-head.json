@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Avoid touching heads",
-  "confidence": "high",
-  "explanation": "In Singapore, the head is considered sacred in many Asian cultures, particularly among the Chinese, Malay, and Indian communities. Patting someone on the head, especially a child or an adult, is seen as disrespectful because it invades personal space and implies dominance. This taboo is rooted in Buddhist and Hindu beliefs where the head is the highest part of the body and the seat of the soul.",
-  "local_tip": "If you need to get someone's attention or show affection, use a light touch on the shoulder or arm instead.",
-  "regional_note": "Among younger, more Westernized Singaporeans, the taboo may be slightly relaxed, but it remains widely observed across all ethnic groups.",
+  "verdict_label": "Don't touch anyone's head",
+  "confidence": "medium",
+  "explanation": "Touching or patting someone's head, including a child's, is considered disrespectful in Singapore across all ethnic communities, since the head is viewed as the most sacred, highest part of the body. It carries extra religious weight for Malay-Muslim and Indian-Hindu Singaporeans, but general etiquette guides treat it as a no-go regardless of who you're with.",
+  "local_tip": "Even an affectionate pat on a child's head can cause offense; if you want to show warmth, smile, wave, or lightly touch a shoulder instead.",
+  "regional_note": "The religious weight is strongest for Malay-Muslim and Indian-Hindu Singaporeans (the head as spiritually sacred), but general etiquette guidance treats head-touching as impolite for all groups, not just these two.",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred body part; touching it is a major offense."
+      "note": "The head is the most sacred part of the body; touching it, even a child's, is a serious offense."
     },
     {
       "country": "India",
       "verdict": "rude",
-      "note": "The head is considered the seat of the soul; patting it is disrespectful, especially for elders."
+      "note": "The head is considered sacred, especially in Hindu tradition, and touching it without reason is disrespectful."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Patting a child's head is often seen as a friendly, affectionate gesture, though context matters."
+      "note": "Patting a child's head is usually seen as a harmless, friendly gesture."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Communication (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Shoving incident in Singapore over man patting girl's head stirs heated debate - SCMP / The Vibes",
+      "url": "https://www.thevibes.com/articles/world/126263/singapore-police-probe-assault-of-73-year-old-man-after-he-patted-toddlers-head-at-food-court",
+      "kind": "reference"
     }
   ]
 }

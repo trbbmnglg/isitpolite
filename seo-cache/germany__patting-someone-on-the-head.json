@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid head patting",
-  "confidence": "high",
-  "explanation": "In Germany, patting someone on the head is considered patronizing and invasive of personal space, especially among adults. It is often associated with treating someone like a child or a pet, which can cause offense in social settings. Physical contact is generally reserved for handshakes or brief touches on the arm among friends.",
-  "local_tip": "Instead of a head pat, offer a firm handshake or a friendly nod to show respect and warmth.",
-  "regional_note": "In some parts of southern Germany (e.g., Bavaria), older generations may be slightly more tolerant of affectionate head touches with close family, but it remains inappropriate with acquaintances or strangers.",
+  "verdict": "caution",
+  "verdict_label": "Overly familiar, not taboo",
+  "confidence": "medium",
+  "explanation": "Germans keep a reserved physical distance and generally reserve touch for people they know well, so an unsolicited head-pat on an adult acquaintance or stranger comes across as patronizing or overly familiar rather than a strict cultural taboo. It's treated like other uninvited touching - awkward and presumptuous, not a serious insult.",
+  "local_tip": "Stick to a handshake or, with people you know well, a brief touch on the arm or shoulder - skip patting an adult's head altogether.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred body part, and touching it is a serious breach of etiquette."
+      "note": "The head is considered the most sacred part of the body, so touching it, even on a child, is a serious breach of etiquette."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting a child's head is often acceptable, but doing so to an adult can be seen as condescending or disrespectful."
+      "note": "Patting a child's head is often affectionate, but doing so to an adult, especially an elder, can be seen as disrespectful."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Head patting is generally reserved for children or close friends; with adults it can be seen as patronizing or overly familiar."
+      "note": "Head-patting is generally reserved for children or close friends; doing it to an unfamiliar adult can seem patronizing."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "German Culture - Communication - Cultural Atlas",
+      "url": "https://theculturalatlas.org/german-culture/german-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "8 Key German Gestures - FluentU",
+      "url": "https://www.fluentu.com/blog/german/german-gestures/",
+      "kind": "community"
     }
   ]
 }

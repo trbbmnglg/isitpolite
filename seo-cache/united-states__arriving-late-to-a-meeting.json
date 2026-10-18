@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Punctuality is expected",
+  "verdict": "caution",
+  "verdict_label": "Punctuality expected, minor exceptions",
   "confidence": "high",
-  "explanation": "In the United States, punctuality is a sign of respect and professionalism in business settings. Arriving late to a meeting is generally considered rude and can imply disorganization or lack of regard for others' time.",
-  "local_tip": "Always aim to arrive 5 minutes early to a meeting, and if you are delayed, notify the organizer immediately with an estimated arrival time.",
-  "regional_note": "In some parts of the South or in more relaxed industries (e.g., tech startups), a 5–10 minute grace period may be tolerated, but it is still safer to be on time.",
+  "explanation": "In US business culture, punctuality signals respect and professionalism, and arriving late to a meeting without notice is widely seen as unprofessional and inconsiderate of others' time. A few minutes' grace is usually tolerated if you communicate proactively, but showing up late repeatedly or without warning damages your credibility.",
+  "local_tip": "Aim to arrive a few minutes early, and if you're running late, message the organizer as soon as you know, with an updated arrival time.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is extremely important; arriving even a minute late can be seen as disrespectful."
+      "note": "Punctuality is taken very seriously; arriving even a minute late is seen as disrespectful and poorly organized."
     },
     {
       "country": "Brazil",
       "verdict": "caution",
-      "note": "In São Paulo and Rio, business meetings often start 10–15 minutes late, but it is safer to arrive on time."
+      "note": "In cities like Sao Paulo and Rio, meetings often start 10-15 minutes late by custom, though visitors should still aim to arrive on time."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "While some business meetings may start late due to traffic or flexible scheduling, arriving on time is still appreciated."
+      "note": "Traffic and flexible scheduling mean meetings may start late, but arriving on time is still appreciated and expected of visitors."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global USA Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/usa-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "USAHello - Be Polite in the US",
+      "url": "https://usahello.org/life-in-usa/culture/be-polite/",
+      "kind": "reference"
     }
   ]
 }

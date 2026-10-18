@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected but not mandatory",
-  "confidence": "high",
-  "explanation": "In Egypt, tipping (known as 'baksheesh') is a deeply ingrained cultural practice, and leaving a tip of 10-15% at a restaurant is considered polite and customary, especially in tourist areas and upscale establishments. It is seen as a way to show appreciation for service, and many service workers rely on tips as a significant part of their income. However, in very local or budget eateries, rounding up the bill or leaving a small amount is more common than a percentage-based tip.",
-  "local_tip": "Leave 10-15% of the bill in cash directly to the server, as credit card tips may not always reach them.",
-  "regional_note": "In more conservative or rural areas, tipping is still expected but may be smaller (e.g., 5-10 LE), while in Cairo and resort towns like Sharm el-Sheikh, the 10-15% norm is stronger.",
+  "verdict_label": "Baksheesh is expected, flexible",
+  "confidence": "medium",
+  "explanation": "Tipping, known locally as baksheesh, is deeply embedded in Egyptian service culture and meaningfully supplements low service wages. Restaurants commonly add a service charge (often around 12%) plus VAT to the bill, but a separate cash tip of around 10% directly to the server is still customary since the printed service charge doesn't always reach staff.",
+  "local_tip": "Tip roughly 10% of the bill in cash directly to the server, even if a service charge already appears on the receipt.",
+  "regional_note": "Baksheesh culture is especially pronounced in Cairo and tourist-heavy resort areas, where tipping is actively expected for small services beyond just dining.",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Tipping is generally considered insulting as it implies the service was not already included; excellent service is the standard."
+      "verdict": "caution",
+      "note": "Tipping isn't local custom and can confuse staff, since good service is already the norm without extra payment."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is expected and considered part of the server's wage, not optional."
+      "note": "Tipping 15-20% is expected and forms a real part of server income."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "A service charge is included, but leaving small change (5-10%) is polite for good service."
+      "note": "Service is included by law, but leaving a little extra for good service is still a polite gesture."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Travel advice for Egypt",
+      "url": "https://roughguides.com/egypt/customs-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Tipping in Egypt: What to Expect, When to Tip & How Much to Give",
+      "url": "https://www.egypttoursplus.com/tipping-in-egypt/",
+      "kind": "community"
     }
   ]
 }

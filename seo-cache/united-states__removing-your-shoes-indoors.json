@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Optional, not expected",
+  "verdict_label": "Host's preference, not a rule",
   "confidence": "medium",
-  "explanation": "In the United States, removing shoes indoors is generally a matter of personal preference rather than a strict rule. While many hosts appreciate it for cleanliness, especially in homes with light-colored carpets or during inclement weather, it is not a universal expectation and can sometimes make guests feel awkward if not offered the choice.",
-  "local_tip": "Always ask the host if they prefer you to remove your shoes, or watch for a shoe rack or pile of shoes near the door as a cue.",
-  "regional_note": "More common in the Midwest and Pacific Northwest, and in households with young children or strict cleanliness norms; less common in the South and Northeast.",
+  "explanation": "Unlike in many Asian households, there's no national expectation to remove your shoes when entering a US home - it comes down to the individual host. Many Americans do ask guests to take shoes off, for cleanliness or to protect floors and carpets, especially in bad weather, but plenty of households don't mind either way.",
+  "local_tip": "Look for a shoe pile or rack by the door, or simply ask your host, 'Should I take my shoes off?' when you arrive.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Removing shoes is mandatory before entering a home, with slippers often provided."
+      "note": "Removing shoes before entering a home is mandatory, with slippers typically provided for indoor use."
     },
     {
       "country": "Canada",
       "verdict": "polite",
-      "note": "Very common to remove shoes indoors, especially in winter or in homes with carpets."
+      "note": "Very common to remove shoes indoors, especially in winter when floors and carpets need protecting from snow and salt."
     },
     {
       "country": "Brazil",
-      "verdict": "rude",
-      "note": "Removing shoes is generally considered too intimate or unhygienic in most social settings."
+      "verdict": "polite",
+      "note": "In northeastern Brazil especially, guests are expected to remove their shoes before entering a home; keeping them on can be seen as rude."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette in Brazil - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Brazil",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_the_United_States",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Use with care",
+  "verdict": "polite",
+  "verdict_label": "Understood as positive or neutral",
   "confidence": "medium",
-  "explanation": "In India, the OK hand sign (thumb and index finger forming a circle) is generally understood as a positive gesture meaning 'okay' or 'fine' in urban and younger populations, especially in professional or casual settings. However, it can be misinterpreted in some rural or traditional contexts as a vulgar or insulting gesture, similar to its meaning in parts of the Middle East and South America. The gesture is not universally polite, so it's safer to use verbal affirmations or a simple nod instead.",
-  "local_tip": "When in doubt, avoid the hand sign and say 'theek hai' (okay) or nod your head with a smile.",
-  "regional_note": "In southern India, especially Tamil Nadu, the gesture may be seen as more neutral, while in northern rural areas it could carry negative connotations; younger Indians are more likely to accept it as harmless.",
+  "explanation": "The OK hand sign (thumb and index finger forming a circle) doesn't carry a documented negative or vulgar meaning in India, unlike in parts of the Middle East, the Mediterranean, or Brazil. The same hand shape appears in Indian corporate logos (including Piramal Group, Bharat Petroleum, and Adlabs Studios) and echoes the vitarka mudra, a teaching/explanation gesture from Buddhist and Hindu iconography, both of which point to a neutral-to-positive reading rather than an offensive one.",
+  "local_tip": "Using the OK hand sign to mean 'fine' or 'got it' is generally safe in India; if you want to be extra clear, you can also just say 'theek hai' (okay) or nod.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a highly offensive gesture, equivalent to an obscene insult."
+      "note": "Considered a highly offensive, obscene gesture."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly used to mean 'OK' or 'money' in a neutral, positive way."
+      "note": "Commonly understood to mean 'okay' or 'money' in a neutral, positive way."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a vulgar insult, similar to the middle finger."
+      "note": "Can be read as a vulgar insult in some contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "OK sign",
+      "url": "https://en.wikipedia.org/wiki/OK_sign",
+      "kind": "reference"
+    },
+    {
+      "title": "Vitarka mudra",
+      "url": "https://en.wikipedia.org/wiki/Vitarka_mudra",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,48 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Left hand is unclean",
-  "confidence": "high",
-  "explanation": "In Turkey, the left hand is traditionally associated with hygiene tasks and is considered unclean for eating. Using it to handle food, especially in shared dishes, is seen as disrespectful and unhygienic. This custom is rooted in Islamic and cultural practices observed across the country.",
-  "local_tip": "Always use your right hand for eating, even for bread or small items, and if you are left-handed, still try to use your right hand in formal or traditional settings.",
-  "regional_note": "In highly secular or urban areas, especially among younger generations in Istanbul or Ankara, the rule may be relaxed in casual dining, but it remains the norm in conservative and rural regions.",
+  "verdict": "caution",
+  "verdict_label": "Real custom, weaker taboo",
+  "confidence": "medium",
+  "explanation": "Turkey's Directorate of Religious Affairs (Diyanet) has publicly discouraged eating with the left hand on religious grounds, and many Turks favor the right hand for bread and shared dishes. But a 2018 Diyanet statement calling left-handed eaters 'demons' sparked public mockery and criticism, showing the custom is more contested than the stronger taboo seen in Gulf countries, and secular/urban Turks follow it less strictly.",
+  "local_tip": "Use your right hand for shared dishes and bread to be safe, but don't worry about it if you're left-handed eating your own plate in casual, secular settings.",
+  "regional_note": "The custom is observed most strictly in religious and rural households and is often relaxed in secular, urban circles.",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Similarly, the left hand is considered unclean and reserved for bathroom use; always eat with the right hand."
+      "note": "The left hand is considered unclean and reserved for bathroom use; eat with the right hand."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Left-hand use is generally acceptable, though chopstick etiquette is more important; no strong taboo against the left hand."
+      "note": "No strong taboo against the left hand; chopstick etiquette matters far more."
     },
     {
       "country": "Morocco",
       "verdict": "rude",
-      "note": "Eating with the left hand is also considered unclean; use the right hand, especially when sharing from a communal dish."
+      "note": "Eating with the left hand is also considered unclean; use the right hand, especially from communal dishes."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Demons use their left hand to eat: Turkey's top religious body",
+      "url": "https://www.hurriyetdailynews.com/demons-use-their-left-hand-to-eat-turkeys-top-religious-body-126760",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey's religious chiefs brand left-handed eaters as demons",
+      "url": "https://www.euronews.com/2018/02/05/turkey-s-religious-chiefs-brand-left-handed-eaters-as-demons-",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Culture: Etiquette",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey: religious affairs officials serve as distraction tool",
+      "url": "https://www.al-monitor.com/originals/2018/02/turkey-religious-affairs-officials-serve-as-distraction-tool.html",
+      "kind": "reference"
     }
   ]
 }

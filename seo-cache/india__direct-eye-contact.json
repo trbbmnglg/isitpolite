@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use with discretion",
-  "confidence": "medium",
-  "explanation": "In Indian business settings, direct eye contact is generally acceptable and often expected from men to convey confidence, but prolonged or intense staring can be perceived as aggressive or disrespectful, especially toward women or senior figures. Many Indians, particularly in hierarchical or traditional environments, may avoid sustained eye contact as a sign of deference. Younger, urban professionals are more comfortable with direct eye contact, mirroring Western norms.",
-  "local_tip": "Maintain brief, soft eye contact when speaking, but break it periodically and avoid staring; if your counterpart looks away, follow their lead.",
-  "regional_note": "In South India and among older generations, avoiding direct eye contact with superiors or elders is more common; in metropolitan offices, younger workers may expect direct eye contact.",
+  "verdict_label": "Context and hierarchy dependent",
+  "confidence": "low",
+  "explanation": "India is generally described as a high-context, relationship-oriented culture where communication relies heavily on tone and nonverbal cues, and more reserved eye contact toward elders or superiors can be a sign of deference in some settings. Norms vary widely by region, generation, and whether you're in a traditional or Westernized urban professional environment, so there isn't one fixed rule, and direct eye contact between peers is generally normal and unremarkable.",
+  "local_tip": "Keep eye contact natural and moderate; don't force intense or prolonged eye contact with someone senior to you, and take cues from how your counterpart engages.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is considered intimidating or rude; brief glances or looking at the neck is polite."
+      "note": "Prolonged direct eye contact can feel intimidating; brief, softer eye contact is preferred, especially toward superiors."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact is expected to show honesty and confidence in business."
+      "note": "Direct eye contact is generally expected as a sign of honesty and confidence, including in business."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Men may use direct eye contact with other men, but prolonged eye contact with women is avoided; gender dynamics are key."
+      "note": "Eye contact norms differ by gender; prolonged eye contact between unrelated men and women is often avoided."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "High-context and low-context cultures",
+      "url": "https://en.wikipedia.org/wiki/High-context_and_low-context_cultures",
+      "kind": "community"
+    },
+    {
+      "title": "Eye contact",
+      "url": "https://en.wikipedia.org/wiki/Eye_contact",
+      "kind": "community"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally rude, especially for adults",
-  "confidence": "high",
-  "explanation": "In Turkey, patting someone on the head is considered condescending and disrespectful, as the head is viewed as a sacred and private part of the body. This gesture is typically reserved for young children or very close family members, and doing it to an adult or acquaintance can cause offense.",
-  "local_tip": "Avoid touching anyone's head entirely; instead, use a handshake or a slight nod to greet or show affection.",
-  "regional_note": "In more conservative or religious circles, the head is especially sacred, and any touching is even more strongly discouraged.",
+  "verdict_label": "Can feel condescending to adults",
+  "confidence": "medium",
+  "explanation": "Patting an adult on the head in Turkey isn't a strict sacred-body taboo like in Buddhist Southeast Asia — Turkey and the wider Middle East are actually a 'high-contact' culture where casual touch between acquaintances is common. The real issue is that patting an adult's head can feel condescending or overly familiar, especially from a stranger; general guidance is to avoid touching people without clear rapport, particularly women.",
+  "local_tip": "Save head-patting for children or close family, and greet adults with a handshake instead.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
@@ -14,12 +14,25 @@
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting the head is generally reserved for children or close family; doing so to an adult may be seen as patronizing."
+      "note": "Patting the head is generally reserved for children or close family; doing so to an adult may seem patronizing."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Patting someone on the head is often seen as friendly or affectionate, especially among friends or family."
+      "note": "Patting someone on the head is often seen as friendly, especially among friends or family."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkey — Wikivoyage travel guide (Respect section)",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Haptic communication",
+      "url": "https://en.wikipedia.org/wiki/Haptic_communication",
+      "kind": "reference"
     }
   ]
 }

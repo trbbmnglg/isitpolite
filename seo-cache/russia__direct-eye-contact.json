@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected in business",
-  "confidence": "high",
-  "explanation": "In Russian business culture, direct eye contact signals confidence, honesty, and engagement; avoiding it can be interpreted as evasiveness or lack of interest. This is rooted in a cultural preference for direct communication and respect for hierarchy, where maintaining eye contact with superiors shows attentiveness.",
-  "local_tip": "Maintain steady, but not aggressive, eye contact during meetings and negotiations to convey sincerity and professionalism.",
-  "regional_note": "In the North Caucasus republics (e.g., Chechnya, Dagestan), prolonged direct eye contact between men and women may be considered disrespectful due to local Islamic customs.",
+  "verdict_label": "Signals honesty and respect",
+  "confidence": "medium",
+  "explanation": "Maintaining direct eye contact in Russia — during a handshake, in conversation, and especially when clinking glasses for a toast — is read as a sign of sincerity, and looking away can come across as evasive. This applies in both everyday social situations and business settings.",
+  "local_tip": "Make steady eye contact during greetings and toasts; it's expected there and signals honesty rather than confrontation.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact is often seen as intimidating or disrespectful, especially with superiors; brief glances are preferred."
+      "note": "Prolonged direct eye contact can feel intimidating, especially with superiors; brief glances are more common."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact is expected in business as a sign of confidence and honesty, though intensity varies by region."
+      "note": "Direct eye contact is expected in business as a sign of confidence and honesty."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Direct eye contact between men is acceptable, but between men and women it should be brief and respectful to avoid impropriety."
+      "note": "Eye contact between unrelated men and women is typically kept brief out of modesty."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Social etiquette",
+      "url": "https://expatica.com/ru/living/integration/russian-etiquette-106460",
+      "kind": "reference"
+    },
+    {
+      "title": "Non-verbal confusion #2: Once more unto the breach",
+      "url": "https://trans-siberian.co.uk/blog/russian-gestures/",
+      "kind": "community"
     }
   ]
 }

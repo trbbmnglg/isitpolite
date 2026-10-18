@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Ambiguous, often negative",
-  "confidence": "medium",
-  "explanation": "In Egypt, the OK hand sign (thumb and index finger forming a circle) is not universally understood as positive; it can be interpreted as a threat or a vulgar gesture implying 'you are zero' or 'I will harm you,' especially in informal or tense settings. While younger, globally connected Egyptians may recognize its Western meaning, older or more traditional individuals may find it offensive.",
-  "local_tip": "Avoid using the OK hand sign entirely in Egypt; instead, use a thumbs-up or a verbal affirmation like 'tayyib' (okay) to convey agreement.",
-  "regional_note": "In rural areas and among older generations, the sign is more likely to be seen as rude or threatening, whereas in urban, cosmopolitan Cairo it may be tolerated among youth.",
+  "verdict_label": "Ambiguous, avoid relying on it",
+  "confidence": "low",
+  "explanation": "The Western 'OK' meaning of this gesture doesn't reliably carry over in Egypt: general references on obscene gestures confirm it carries vulgar or offensive connotations in parts of the Middle East, though solid Egypt-specific evidence is thin. Because interpretations vary by generation and audience, the safest approach is to avoid relying on it rather than assume it reads as approval.",
+  "local_tip": "Use a thumbs-up-free verbal affirmation instead of the OK hand sign to avoid ambiguity.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered a highly offensive gesture equivalent to an obscene insult."
+      "note": "The gesture is considered a serious obscene insult."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly used to mean 'OK' or 'money' (coins), and is generally positive."
+      "note": "It commonly signals 'money' or 'OK' and is generally positive."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a vulgar reference to homosexuality or an insult."
+      "note": "It can be read as a vulgar insult there rather than a sign of approval."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Obscene gesture",
+      "url": "https://en.wikipedia.org/wiki/Obscene_gesture",
+      "kind": "reference"
+    },
+    {
+      "title": "OK gesture",
+      "url": "https://en.dharmapedia.net/wiki/OK_gesture",
+      "kind": "community"
     }
   ]
 }

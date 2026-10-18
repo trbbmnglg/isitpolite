@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Gift giving requires care",
-  "confidence": "medium",
-  "explanation": "In Dutch business culture, gift giving is not expected and can create awkwardness if too lavish or personal, as it may be perceived as an attempt to influence decisions. Modest, practical gifts (e.g., good quality chocolates, wine, or a book) are acceptable after a deal is closed or as a thank-you, but should be presented without ceremony. Avoid overly expensive items, as Dutch professionals value egalitarianism and directness.",
-  "local_tip": "If you bring a gift, keep it simple and unpretentious, and present it at the end of a meeting with a brief, matter-of-fact explanation like 'This is a small token of appreciation for your time.'",
-  "regional_note": "In more international or corporate settings in Amsterdam or Rotterdam, gift giving may be slightly more common, but the same caution applies; in rural areas or traditional companies, it is even less expected.",
+  "verdict_label": "Modest gifts, mind the flowers",
+  "confidence": "high",
+  "explanation": "Gift-giving isn't a strong expectation in Dutch business culture and is more at home in social settings, like being invited to someone's house. When a gift is given, it should be modest and presented without ceremony — lavish or very personal gifts can feel like they're buying influence rather than showing appreciation.",
+  "local_tip": "If you bring flowers, give an odd number (never 13) and avoid white lilies or chrysanthemums, which are associated with funerals; present any gift simply and open it right away to thank the giver.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift giving is a deeply ingrained ritual in Japanese business culture, with strict rules on wrapping, presentation, and reciprocity."
+      "note": "Gift-giving is a deeply ingrained ritual in Japanese business culture, with strict rules on wrapping, presentation, and reciprocity."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Similar to the Netherlands, gifts are not expected in German business settings; if given, they should be modest and professional, avoiding personal items."
+      "note": "Similar to the Netherlands, business gifts aren't expected; if given, they should be modest and professional rather than personal."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gift giving is common and appreciated in UAE business culture, but must respect Islamic customs (e.g., no alcohol, avoid pork products, and use right hand)."
+      "note": "Gift-giving is common and appreciated in UAE business culture, but should respect Islamic customs, such as avoiding alcohol and pork and using the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Are there any cultural do's and don'ts in the Netherlands?",
+      "url": "https://debollenstreek.com/general-questions/cultural-dos-and-donts-the-netherlands/",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, not offensive",
-  "confidence": "high",
-  "explanation": "In the United States, showing the soles of your feet is not a major taboo but is considered mildly impolite or disrespectful in social settings, especially if your feet are dirty or pointed directly at someone. It is often seen as a sign of casualness or lack of consideration, particularly in formal gatherings or when seated with others. The gesture does not carry the strong religious or cultural offense found in some other countries.",
-  "local_tip": "Keep your feet flat on the floor or crossed at the ankles, and avoid pointing the soles of your shoes or bare feet toward anyone during conversations.",
+  "verdict_label": "Informal, not a real taboo",
+  "confidence": "medium",
+  "explanation": "In the US, propping your feet up or letting the soles of your shoes face someone reads as very casual or overly relaxed rather than disrespectful - it's common to see people, including public figures, put their feet up to seem approachable. The main objection most Americans would have is practical (dirty shoes on furniture), not a belief that feet are symbolically unclean.",
+  "local_tip": "Keep your feet on the floor in formal settings or around people you don't know well; it's fine to relax more with close friends or family.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and dirtiest part of the body; showing soles is highly offensive, especially toward Buddha images or elders."
+      "note": "Feet are considered the lowest, dirtiest part of the body; pointing soles at a person or a Buddha image is a serious insult."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is a serious insult, as feet are considered unclean and pointing them at someone is disrespectful."
+      "note": "Showing the soles of your feet or resting them on furniture is considered a genuine insult, not just casual."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Pointing the soles of your feet toward someone, especially in a formal setting or while seated, is considered rude and disrespectful."
+      "verdict": "caution",
+      "note": "Pointing your feet at someone, especially an elder or in a formal setting, is seen as poor manners, though a milder breach than in Thailand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "12 American Habits That Come Off as Rude Overseas",
+      "url": "https://www.aol.com/articles/12-american-habits-come-off-163616069.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Foot - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Foot",
+      "kind": "reference"
     }
   ]
 }

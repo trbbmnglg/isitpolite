@@ -1,25 +1,43 @@
 {
   "verdict": "rude",
-  "verdict_label": "Punctuality is expected",
+  "verdict_label": "Punctuality expected, lateness unprofessional",
   "confidence": "high",
-  "explanation": "In the Netherlands, punctuality is highly valued in business settings; arriving late is seen as disrespectful and unprofessional. Dutch culture emphasizes efficiency and respect for others' time, so even a few minutes' delay can create a negative impression. It is standard practice to arrive exactly on time or a few minutes early.",
-  "local_tip": "Arrive 5 minutes early to the meeting to show respect and reliability.",
+  "explanation": "Punctuality is taken seriously in Dutch business culture and is viewed as a basic sign of respect and reliability. Meetings are structured and expected to start and end on time, so arriving late — even by a few minutes — can genuinely damage your credibility with Dutch colleagues or clients.",
+  "local_tip": "Aim to arrive a few minutes early, and message ahead immediately if you expect even a slight delay.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Extreme punctuality is expected; lateness is a serious breach of etiquette."
+      "note": "Extreme punctuality is expected in business; even a few minutes' lateness is a serious breach of etiquette."
     },
     {
       "country": "Brazil",
       "verdict": "caution",
-      "note": "Lateness of up to 15 minutes is often tolerated in business, but it varies by region and company."
+      "note": "Lateness of up to 15-30 minutes is often tolerated in business settings, though this varies by region and company."
     },
     {
-      "country": "Saudi Arabia",
+      "country": "Spain",
       "verdict": "caution",
-      "note": "Meetings may start late due to flexible time perception, but it is still respectful to arrive on time."
+      "note": "Business meetings may start a little later than scheduled, and brief delays are tolerated more than in the Netherlands."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Are there any cultural do's and don'ts in the Netherlands?",
+      "url": "https://debollenstreek.com/general-questions/cultural-dos-and-donts-the-netherlands/",
+      "kind": "community"
+    },
+    {
+      "title": "Dutch Business Etiquette Guide",
+      "url": "https://trykaiwa.com/blog/dutch-business-etiquette-guide-2026",
+      "kind": "community"
     }
   ]
 }

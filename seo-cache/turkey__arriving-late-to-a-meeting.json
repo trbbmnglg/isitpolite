@@ -1,15 +1,15 @@
 {
   "verdict": "caution",
-  "verdict_label": "Slight delay acceptable",
+  "verdict_label": "Visitors expected to be punctual",
   "confidence": "high",
-  "explanation": "In Turkish business culture, punctuality is valued but a 5-10 minute delay is often tolerated, especially if traffic is cited. However, arriving more than 15 minutes late without prior notice is considered disrespectful and may harm your professional reputation.",
-  "local_tip": "Always call or message ahead if you anticipate being more than 10 minutes late, and apologize briefly upon arrival.",
-  "regional_note": "In more conservative or traditional settings (e.g., eastern Anatolia), punctuality may be more relaxed, but in Istanbul and major business hubs, strict punctuality is increasingly expected.",
+  "explanation": "For business meetings in Turkey, visitors are expected to arrive on time even though their Turkish counterparts may themselves run a little late — arriving late as a guest can still read as a lack of respect. Social gatherings are far more flexible about timing.",
+  "local_tip": "Plan to arrive on time or a few minutes early for business meetings, and message ahead if you'll be delayed.",
+  "regional_note": "Expectations are strictest in formal business settings in major cities; informal social get-togethers are much more relaxed about timing nationwide.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is critical; even one minute late can be seen as disrespectful."
+      "note": "Punctuality is critical; even a few minutes late can be seen as disrespectful."
     },
     {
       "country": "Brazil",
@@ -20,6 +20,19 @@
       "country": "Germany",
       "verdict": "rude",
       "note": "Punctuality is a sign of respect; lateness is generally unacceptable."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkey — Business Etiquette, Manners, and Culture",
+      "url": "https://www.cyborlink.com/besite/turkey.htm",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey — Wikivoyage travel guide (Business etiquette)",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
     }
   ]
 }

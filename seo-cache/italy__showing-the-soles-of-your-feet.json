@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful and insulting",
-  "confidence": "high",
-  "explanation": "In Italy, showing the soles of your feet is considered highly disrespectful because the foot is viewed as a dirty body part, and exposing the sole to someone—especially in a social setting—implies contempt or a wish to bring bad luck. This gesture is deeply rooted in Italian superstition and etiquette, where the foot is associated with negative energy.",
-  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and never point the sole of your shoe toward anyone during conversation or while seated.",
-  "regional_note": "This rule is consistent across all regions of Italy, though older generations may be particularly sensitive to it.",
+  "verdict": "caution",
+  "verdict_label": "Keep feet off furniture",
+  "confidence": "low",
+  "explanation": "There's no documented Italian superstition specifically about showing the soles of your feet (that taboo is strongest in Thailand and parts of the Middle East). The real sensitivity in Italy is more about hygiene: resting shoed feet on furniture, tables, or seats is seen as inconsiderate because street shoes are considered dirty.",
+  "local_tip": "Keep your feet on the floor and avoid resting your shoes on chairs, tables, or sofas, especially in someone's home.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is extremely offensive, as the foot is considered the lowest and dirtiest part of the body in Thai culture."
+      "note": "Showing the soles of your feet is extremely offensive, as the foot is considered the lowest and dirtiest part of the body."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Generally not considered rude; casual foot placement is acceptable in most social settings, though some may find it informal."
+      "note": "Casual foot placement is generally acceptable in most social settings."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is a grave insult, as the foot is seen as unclean and pointing it at someone is a sign of disrespect."
+      "note": "Showing the soles of your feet or pointing them at someone is a grave insult."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Unspoken Etiquette Rules To Know Before Striking Up A Conversation With Locals In Italy",
+      "url": "https://www.islands.com/1602684/tips-for-starting-conversations-with-locals-in-italy/",
+      "kind": "community"
+    },
+    {
+      "title": "My Italian habits that foreigners just don't get",
+      "url": "https://www.thelocal.com/20150410/my-italian-habits-that-foreigners-just-dont-get",
+      "kind": "reference"
     }
   ]
 }

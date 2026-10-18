@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Appropriate but restrained",
+  "verdict_label": "Welcome, but mind the rules",
   "confidence": "high",
-  "explanation": "In German business culture, gift-giving is acceptable but must be modest and professional to avoid any perception of bribery or undue influence. Small, thoughtful gifts like quality pens, books, or local specialties are appreciated, but expensive or overly personal items can create discomfort. Gifts are typically exchanged after a deal is concluded or at the end of a meeting, not at the first encounter.",
-  "local_tip": "Choose a modest, high-quality gift (e.g., a branded pen or regional food) and present it without elaborate wrapping or ceremony, as Germans value practicality and directness.",
-  "regional_note": "In southern Germany (Bavaria, Baden-Württemberg), business gift-giving may be slightly more formal and traditional, while in northern regions (Hamburg, Berlin) it tends to be more reserved and pragmatic.",
+  "explanation": "When invited to a German home, bringing a small gift such as an odd number of flowers (unwrapped before handing them over) or a bottle of wine is customary and appreciated - but avoid red roses, which signal romantic interest, and skip flowers like lilies or chrysanthemums that are associated with funerals. In business settings, gifts should stay modest and practical, since anything lavish can raise concerns about bribery under Germany's strict anti-corruption rules.",
+  "local_tip": "If bringing flowers, pick an odd number, skip red roses, and remove the wrapping paper before handing them to your host.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is a deeply ingrained ritual in Japanese business; presentation and reciprocity are critical, and gifts are often exchanged at the first meeting."
+      "note": "Gift-giving is a deeply ingrained business ritual where presentation and reciprocity matter, often exchanged at the first meeting."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "caution",
-      "note": "Gifts are appreciated but must respect Islamic customs (no alcohol, no pork products); avoid giving with the left hand and be mindful of modesty."
+      "note": "Gifts are welcome but should respect Islamic customs - avoid alcohol or pork products and offer with the right hand."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Business gifts are common but should be modest (under $25–$50) to comply with corporate anti-bribery policies; gifts are often given at the end of a successful negotiation."
+      "note": "Business gifts are common but usually kept modest in value to stay within typical corporate anti-bribery policies."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Germany Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/germany-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Flowers as a gift: do's and don'ts - Regions Florist",
+      "url": "https://www.regionsflorist.de/en/blog/flowers-as-a-gift-dos-and-donts",
+      "kind": "reference"
+    },
+    {
+      "title": "German Gift Giving Etiquette: What You Need to Know - BM Magazine",
+      "url": "https://bmmagazine.co.uk/business/german-gift-giving-etiquette-what-you-need-to-know/",
+      "kind": "reference"
     }
   ]
 }

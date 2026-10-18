@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Left hand is unclean",
+  "verdict_label": "Right hand for eating",
   "confidence": "high",
-  "explanation": "In Egypt, the left hand is traditionally considered unclean because it is used for personal hygiene, so eating with it is highly impolite, especially in formal or religious contexts. This custom is rooted in Islamic teachings and is widely observed across the country, even among non-Muslims in mixed settings. Using the right hand for eating is the expected norm in restaurants and homes alike.",
-  "local_tip": "Always use your right hand to eat, and if you are left-handed, still make an effort to use your right hand for food to avoid causing offense.",
-  "regional_note": "In more cosmopolitan areas like Cairo or Alexandria, younger generations or those in international settings may be more lenient, but the rule remains strong in traditional and rural areas.",
+  "explanation": "The right hand is used for eating and handling food in Egypt, while the left is reserved for less clean, personal tasks — a distinction most sources trace to Islamic practice that is widely observed, including by many non-Muslim Egyptians in mixed settings. Directly putting food into your mouth with the left hand is seen as unhygienic and can cause offense.",
+  "local_tip": "Eat and pass food with your right hand, and if you're left-handed, make a deliberate effort to switch at the table.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Similarly, the left hand is considered unclean for eating, and the right hand is used for all dining."
+      "note": "The left hand is reserved for toilet hygiene, so eating or passing food with it is considered unclean."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Left-handed eating is generally acceptable, though chopstick etiquette is more important; no stigma against the left hand."
+      "note": "There is no stigma around which hand you use; chopstick technique matters far more."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "No cultural taboo against the left hand; left-handedness is fully accepted in dining."
+      "note": "There is no cultural taboo against eating with the left hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Travel advice for Egypt",
+      "url": "https://roughguides.com/egypt/customs-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Why Left-Handed Eating Is Frowned Upon In The Middle East",
+      "url": "https://www.foodrepublic.com/1573656/why-left-handed-eating-frowned-upon-middle-east",
+      "kind": "reference"
     }
   ]
 }

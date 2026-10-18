@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not customary, avoid",
+  "verdict_label": "Not customary, can feel awkward",
   "confidence": "high",
-  "explanation": "In China, the standard greeting is a nod, handshake, or slight bow; cheek kissing is not part of traditional etiquette and can be seen as overly intimate or awkward, especially in a social gathering. It is generally reserved for very close friends or family in Western-influenced contexts, but even then it's rare and may cause discomfort. Stick to a polite handshake or verbal greeting to avoid misunderstanding.",
-  "local_tip": "When meeting Chinese people at a social gathering, offer a slight nod and a handshake (or a simple 'ni hao') instead of any cheek kissing.",
-  "regional_note": "In major international cities like Shanghai or Beijing, younger or expat-heavy circles may occasionally accept cheek kissing among close friends, but it remains uncommon nationwide.",
+  "explanation": "A handshake or a simple verbal greeting, not a cheek kiss, is the norm when meeting someone in China. Physical greetings like hugging or kissing are generally avoided, even among acquaintances, because they can feel overly intimate by local standards.",
+  "local_tip": "Greet with a handshake and a verbal 'ni hao' rather than attempting a cheek kiss, even in social settings.",
+  "regional_note": "In expat-heavy circles of cities like Shanghai or Beijing, cheek kissing among close Western friends is sometimes tolerated, but it's still far from the norm.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Cheek kissing (la bise) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
+      "note": "La bise (cheek kissing) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Physical contact like cheek kissing is highly unusual and can be perceived as invasive; bowing is the expected greeting."
+      "note": "Physical greetings like cheek kissing are unusual and can feel invasive; a bow is the expected greeting."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "Cheek kissing is common in social settings, often one kiss on each cheek, even among new acquaintances."
+      "note": "Cheek kissing, often once on each cheek, is a common greeting even among new acquaintances."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Etiquette Essentials: 10 Tips to Good Manners in China - China Tours",
+      "url": "https://www.chinatours.com/chinese-etiquette-good-manners",
+      "kind": "reference"
+    },
+    {
+      "title": "The Ultimate Guide to Chinese Etiquette: 25 Cultural Tips - LC Chinese School",
+      "url": "https://lcchineseschool.com/?p=12355",
+      "kind": "community"
     }
   ]
 }

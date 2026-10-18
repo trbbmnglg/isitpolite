@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Avoid pointing gestures",
-  "confidence": "high",
-  "explanation": "In India, pointing with the index finger is considered impolite and aggressive, as it is associated with accusing or summoning someone like an inferior. The culturally appropriate alternative is to use the chin, an open hand, or a head tilt to indicate direction or a person. This norm is deeply rooted in hierarchical respect and non-verbal communication traditions.",
-  "local_tip": "Instead of pointing, gesture with your chin slightly upward or use your whole hand with palm facing down to indicate a person or object.",
-  "regional_note": "In South India, pointing with the index finger may be slightly more tolerated among younger generations in urban areas, but it remains generally disrespectful in rural and traditional settings.",
+  "verdict_label": "Use chin or open hand instead",
+  "confidence": "medium",
+  "explanation": "Pointing at a person with a single index finger is traditionally considered rude in India; many people instead point with the chin, an open hand, or the whole hand. Pointing with two fingers is sometimes reserved specifically for addressing someone considered inferior, underscoring why single-finger pointing reads as commanding rather than neutral.",
+  "local_tip": "Gesture with an open hand or a slight chin-tilt to indicate a direction or person, rather than pointing with one finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with the index finger is considered rude; use an open hand instead."
+      "note": "Pointing with the index finger is considered impolite; gesturing with an open hand is preferred."
     },
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or a closed fist with thumb extended."
+      "note": "Pointing with the index finger is seen as impolite; the thumb is commonly used instead."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Pointing with the index finger is common and acceptable in most casual contexts."
+      "note": "Pointing with the index finger is common and unremarkable in most casual contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Pointing",
+      "url": "https://en.wikipedia.org/wiki/Pointing",
+      "kind": "community"
+    },
+    {
+      "title": "Index finger",
+      "url": "https://en.wikipedia.org/wiki/Index_finger",
+      "kind": "community"
     }
   ]
 }

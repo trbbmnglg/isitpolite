@@ -1,10 +1,10 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not expected, but respected",
+  "verdict_label": "Host-dependent, not required",
   "confidence": "medium",
-  "explanation": "In Greece, removing shoes indoors is not a standard custom; most Greeks wear outdoor shoes inside. However, it is increasingly seen as a sign of respect in homes with clean floors or when visiting someone with a no-shoes policy, especially in urban or modern households.",
-  "local_tip": "Wait for the host to indicate whether to remove shoes, or politely ask 'Should I take off my shoes?' before entering.",
-  "regional_note": "In rural areas and older generations, keeping shoes on is the norm, while younger, urban Greeks may adopt the practice, especially if they have hardwood floors or rugs.",
+  "explanation": "Removing shoes before entering a home is not a standard Greek custom the way it is in Japan, Scandinavia, or many Asian households; Greeks commonly wear shoes indoors. It is increasingly common in modern homes with rugs or hardwood floors for a host to prefer guests remove their shoes, so it's best to take the host's cue rather than assume either way.",
+  "local_tip": "Watch what the host and other guests do, or simply ask 'should I take my shoes off?' when entering someone's home.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
@@ -12,14 +12,27 @@
       "note": "Shoes are always removed at the entrance; wearing outdoor shoes inside is considered unclean."
     },
     {
-      "country": "United States",
-      "verdict": "caution",
-      "note": "Varies by household; many keep shoes on, but some expect removal, especially in colder regions or with light-colored carpets."
-    },
-    {
       "country": "Turkey",
       "verdict": "polite",
-      "note": "Shoes are typically removed at the door, and slippers are offered to guests as a sign of hospitality."
+      "note": "Shoes are typically removed at the door, and slippers are often offered to guests."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Varies by household; some expect shoes off, many don't mind either way."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greece Guide (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/greece-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Greece (Wikivoyage, Respect section)",
+      "url": "https://en.wikivoyage.org/wiki/Greece",
+      "kind": "community"
     }
   ]
 }

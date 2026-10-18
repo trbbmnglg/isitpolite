@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected and respectful",
+  "verdict_label": "Expected and valued",
   "confidence": "high",
-  "explanation": "In German business culture, direct eye contact signals sincerity, confidence, and respect. Avoiding it can be interpreted as evasiveness or lack of interest. This norm is consistent across most professional settings in Germany.",
-  "local_tip": "Maintain steady but not aggressive eye contact when speaking and listening, especially during greetings and negotiations.",
-  "regional_note": "In some rural or older conservative circles, prolonged eye contact may feel slightly confrontational, but in business contexts it remains standard.",
+  "explanation": "Germans treat direct eye contact as a sign of honesty, confidence, and engagement, and it is expected both in everyday conversation and in business settings; looking away can read as evasive or disinterested. The custom is especially strict when clinking glasses for a toast ('Prost') - breaking eye contact at that moment is considered rude, and a well-known superstition warns it brings seven years of bad luck in your love life.",
+  "local_tip": "Hold steady eye contact when greeting, speaking, and especially the instant your glasses touch during a toast.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are preferred."
+      "note": "Prolonged direct eye contact can feel intimidating or confrontational; briefer glances, especially toward superiors, are preferred."
     },
     {
-      "country": "Nigeria",
+      "country": "South Korea",
       "verdict": "caution",
-      "note": "Direct eye contact with elders or superiors may be considered challenging; younger people often look down."
+      "note": "Sustained eye contact with elders or superiors can be seen as a challenge to hierarchy; a more lowered gaze is often expected."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact is similarly valued as a sign of honesty and engagement, though intensity may vary by region."
+      "note": "Direct eye contact is similarly valued as a sign of honesty and engagement, though intensity expectations vary by region."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "German Culture - Communication - Cultural Atlas",
+      "url": "https://theculturalatlas.org/german-culture/german-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Eye Contact Following a Toast in Germany - USC Digital Folklore Archive",
+      "url": "https://folklore.usc.edu/eye-contact-following-a-toast-in-germany/",
+      "kind": "reference"
+    },
+    {
+      "title": "Prost! Why do Germans make eye contact when they clink glasses? - The Local",
+      "url": "https://www.thelocal.de/20180404/why-do-germans-look-each-other-in-the-eye-when-they-clink-glasses",
+      "kind": "reference"
     }
   ]
 }

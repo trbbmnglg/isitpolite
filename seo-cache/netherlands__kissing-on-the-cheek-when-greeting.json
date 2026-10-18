@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Common but not universal",
+  "verdict_label": "Common among friends, not strangers",
   "confidence": "medium",
-  "explanation": "In the Netherlands, cheek kissing (usually three alternating kisses) is a common greeting among friends and acquaintances at social gatherings, but it is not expected in formal or business settings. It is typically reserved for people you already know or are being introduced to in a social context, and men often shake hands instead of kissing. The practice is more prevalent among women and between women and men, while men greeting men usually opt for a handshake.",
-  "local_tip": "When in doubt, extend your hand for a handshake and follow the other person's lead; if they lean in for kisses, offer your right cheek first.",
-  "regional_note": "In more conservative or rural areas, cheek kissing may be less common, and younger generations in cities may be more casual about it.",
+  "explanation": "Three alternating cheek kisses are a common greeting between friends, family, and acquaintances in the Netherlands, especially on birthdays and other celebratory occasions, but it isn't used with strangers or in business settings. Men typically shake hands with other men and with people they don't know well, while women more often exchange cheek kisses with both women and men they're already acquainted with.",
+  "local_tip": "Offer a handshake by default, and only move to cheek kisses if the other person initiates it or you already know them socially.",
+  "regional_note": "Cheek kissing is somewhat more common in the southern Netherlands than in the north.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Cheek kissing is standard, but the number of kisses varies by region (typically two to four)."
+      "note": "Cheek kissing is a standard greeting, though the number of kisses varies by region, typically two to four."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact is avoided; bowing is the traditional greeting."
+      "verdict": "caution",
+      "note": "Physical greetings like cheek kissing are uncommon; a bow is the traditional and expected greeting instead."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "One or two cheek kisses are common, even among men in some regions, but always start with the right cheek."
+      "note": "One or two cheek kisses are common even among people who've just met, typically starting with the right cheek."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cheek kissing",
+      "url": "https://en.wikipedia.org/wiki/Cheek_kissing",
+      "kind": "reference"
+    },
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
     }
   ]
 }

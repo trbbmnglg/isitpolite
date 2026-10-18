@@ -1,25 +1,43 @@
 {
-  "verdict": "polite",
-  "verdict_label": "Generally harmless gesture",
-  "confidence": "high",
-  "explanation": "In Germany, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive signal meaning 'everything is fine' or 'okay,' with no offensive connotations in everyday contexts. It is commonly used in casual conversation and business settings without causing offense.",
-  "local_tip": "Use it freely to indicate agreement or that something is satisfactory, but avoid overusing it in formal situations where verbal confirmation is preferred.",
+  "verdict": "caution",
+  "verdict_label": "Can read as a vulgar insult",
+  "confidence": "medium",
+  "explanation": "The thumb-and-index-finger circle can be read in Germany as a crude insult rather than approval - an older, still-recognized usage - though many younger Germans now understand it as the international 'OK' sign through social media and English-language influence. Because interpretation splits by generation and context, it shouldn't be assumed to read as simple agreement.",
+  "local_tip": "Avoid the OK sign with older Germans or in formal settings; a thumbs-up or a verbal 'ja, passt' is a safer way to signal agreement.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered an offensive gesture similar to a certain body part."
+      "note": "The gesture is a well-known vulgar insult and should be avoided entirely."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a vulgar insult implying homosexuality."
+      "note": "It is often read as a crude insult implying homosexuality, which carries strong offense in many social contexts."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Universally understood as 'OK' or 'money' in some contexts, but not offensive."
+      "note": "Understood as 'OK' and historically also as a symbol for money; not considered offensive."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "German Culture - Communication - Cultural Atlas",
+      "url": "https://theculturalatlas.org/german-culture/german-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Common hand gestures to avoid abroad - Babbel",
+      "url": "https://www.babbel.com/en/magazine/common-hand-gestures-to-avoid-abroad",
+      "kind": "community"
+    },
+    {
+      "title": "8 Key German Gestures - FluentU",
+      "url": "https://www.fluentu.com/blog/german/german-gestures/",
+      "kind": "community"
     }
   ]
 }

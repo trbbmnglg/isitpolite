@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally disrespectful",
-  "confidence": "high",
-  "explanation": "In India, the head is considered the seat of the soul and a sacred part of the body, so patting someone on the head—especially a child or an adult—can be seen as condescending or intrusive. This is rooted in Hindu beliefs and general social norms that emphasize respect for personal space and hierarchy. Even with close friends, it's safer to avoid this gesture unless you are certain of the relationship.",
-  "local_tip": "Instead of patting the head, offer a respectful namaste with palms together or a light touch on the shoulder if appropriate.",
-  "regional_note": "In some South Indian communities, touching the head of elders is strictly avoided, while in certain rural areas, a gentle head pat on a child by a family elder may be acceptable.",
+  "verdict_label": "Blessing from elders; risky otherwise",
+  "confidence": "medium",
+  "explanation": "In Hindu-influenced Indian culture, touch customs around the head run in both directions: a younger person touching an elder's or guru's feet (charan sparsh) is a request for blessing, and an elder placing a hand on a younger person's head in return is understood as giving a blessing (ashirvad) — this is normal and welcome. A casual head-pat from a peer, stranger, or anyone outside that elder role is a different matter and can come across as condescending, especially toward an adult.",
+  "local_tip": "Only touch someone's head if you're in an elder or parental role blessing a child or much younger relative; otherwise avoid it, even with kids you don't know well.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred body part; touching it is a major taboo."
+      "note": "The head is considered the most sacred part of the body; touching it, even a child's, is a significant taboo regardless of who does it."
     },
     {
       "country": "China",
       "verdict": "caution",
-      "note": "Patting a child's head is often seen as affectionate, but on an adult it can be perceived as patronizing."
+      "note": "Patting a child's head is often seen as affectionate, but doing the same to an adult can come across as patronizing."
     },
     {
       "country": "United States",
       "verdict": "polite",
       "note": "Patting someone on the head is generally seen as playful or affectionate, especially with children or close friends."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Pranama",
+      "url": "https://en.wikipedia.org/wiki/Pranama",
+      "kind": "community"
+    },
+    {
+      "title": "Blessing",
+      "url": "https://en.wikipedia.org/wiki/Blessing",
+      "kind": "community"
     }
   ]
 }

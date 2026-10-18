@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Generally acceptable but avoid",
-  "confidence": "medium",
-  "explanation": "In France, eating with the left hand is not inherently rude, as both hands are typically used at the table (fork in left, knife in right). However, using the left hand alone to bring food to your mouth may be seen as awkward or less refined in formal dining settings, where the fork is traditionally held in the left hand and the knife in the right.",
-  "local_tip": "Keep your fork in your left hand and knife in your right when cutting food, and avoid switching hands to eat with your left hand alone.",
-  "regional_note": "In Corsica and some rural areas, older generations may still associate the left hand with unclean tasks, but this is rare in modern France.",
+  "verdict": "polite",
+  "verdict_label": "No taboo, but mind utensils",
+  "confidence": "high",
+  "explanation": "France has no cultural taboo around the left hand — that association comes from South Asian and Islamic hygiene customs, not French ones. In fact, Continental (French) dining etiquette keeps the fork in the left hand and the knife in the right for the whole meal, including bites, rather than switching the fork to the right hand after cutting as is common in the US.",
+  "local_tip": "Keep your fork in your left hand and knife in your right throughout the meal — don't switch the fork to your right hand to take bites, as Americans often do.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "The left hand is considered unclean and used for hygiene; always eat with the right hand."
+      "note": "The left hand is considered unclean and reserved for hygiene tasks; always eat and pass food with the right hand."
     },
     {
-      "country": "Morocco",
+      "country": "Egypt",
       "verdict": "rude",
-      "note": "Eating with the left hand is taboo, especially when sharing communal dishes."
+      "note": "As in much of the Arab world, the left hand is seen as unclean; eating or handing food with it is frowned upon."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Both hands are acceptable, but chopsticks are the norm; left-hand use is not stigmatized."
+      "note": "Chopstick etiquette is the main concern, not hand choice; left-handed use isn't stigmatized."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Knife And Fork Rule To Keep In Mind When Dining In Europe",
+      "url": "https://www.foodrepublic.com/1284236/knife-fork-rule-dining-europe-utensils",
+      "kind": "reference"
+    },
+    {
+      "title": "Why Europeans Hold Forks Differently Than Americans",
+      "url": "https://www.aol.com/why-europeans-hold-forks-differently-131000984.html",
+      "kind": "reference"
     }
   ]
 }

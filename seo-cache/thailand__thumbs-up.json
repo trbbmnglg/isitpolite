@@ -1,25 +1,43 @@
 {
-  "verdict": "polite",
-  "verdict_label": "Generally accepted as positive",
-  "confidence": "high",
-  "explanation": "In Thailand, the thumbs-up gesture is widely understood as a sign of approval, agreement, or 'good job,' similar to its use in many Western cultures. It is considered polite and friendly in everyday contexts, such as expressing thanks or acknowledging a job well done. However, it is not used for counting (e.g., 'one') as in some cultures, and it should be avoided in very formal or hierarchical settings where a wai is more appropriate.",
-  "local_tip": "Use the thumbs-up casually with friends or in informal settings, but always pair it with a smile to ensure warmth and avoid any perception of sarcasm.",
-  "regional_note": "In more traditional or rural areas, older generations may be less familiar with the gesture, but it is still not offensive; the wai remains the safest default for showing respect.",
+  "verdict": "caution",
+  "verdict_label": "Modern approval, old insult",
+  "confidence": "low",
+  "explanation": "Traditionally in Thailand the thumbs-up was an obscene, derogatory gesture roughly equivalent to the middle finger, and it's still sometimes exchanged by children as a mild taunt. Younger, urbanized Thais and many in tourism and hospitality now use it the same way Westerners do, as casual approval or 'good job,' but the older insulting meaning hasn't fully disappeared. Sources genuinely disagree on how settled this shift is, so it's safest to treat the gesture as situational rather than a safe default.",
+  "local_tip": "Use the thumbs-up casually with younger people, tourism staff, or close contacts, but rely on a smile or a wai instead in formal settings or with older, more traditional Thais.",
+  "regional_note": "The positive, Western-style meaning is most established among younger, urban Thais; it's more likely to be read as childish or confusing in traditional or rural settings.",
   "also_check": [
     {
-      "country": "Iran",
-      "verdict": "rude",
-      "note": "The thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
-    },
-    {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "The gesture is highly offensive and vulgar, especially in the northern regions."
-    },
-    {
-      "country": "Australia",
+      "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly used as a positive sign, but can be interpreted as sarcastic or dismissive in some contexts."
+      "note": "The thumbs-up is a standard, widely used positive approval gesture."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "A raised thumb alone is used to count 'one,' so holding one up to order a drink can cause mix-ups, though it isn't offensive."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "The thumbs-up is a classic, unambiguous sign of approval or agreement."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Your Complete Guide To Thai Gestures",
+      "url": "https://theculturetrip.com/asia/thailand/articles/your-complete-guide-to-thai-gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Is thumbs up rude in Thailand?",
+      "url": "https://www.calendar-uk.co.uk/frequently-asked-questions/is-thumbs-up-rude-in-thailand",
+      "kind": "community"
+    },
+    {
+      "title": "Module 2: Awareness of ASEAN Cultures",
+      "url": "https://www.stou.ac.th/schools/sla/modules/module2/presentation2.html",
+      "kind": "reference"
     }
   ]
 }

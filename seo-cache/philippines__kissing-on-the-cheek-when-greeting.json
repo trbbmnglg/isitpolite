@@ -2,14 +2,14 @@
   "verdict": "polite",
   "verdict_label": "Common among friends and family",
   "confidence": "medium",
-  "explanation": "In the Philippines, cheek-to-cheek kissing (often called 'beso-beso') is a common greeting among women and between men and women in social gatherings, but it is less common between two men, who typically use a handshake or a pat on the back. The gesture is a sign of warmth and respect, though it is generally reserved for people who know each other well. It is not expected in formal or first-time introductions, where a smile and nod or handshake are safer.",
-  "local_tip": "If you are a woman greeting a Filipino woman or a man greeting a woman, lean in for a light cheek-to-cheek contact without actually kissing the skin, and make a soft 'mwah' sound.",
-  "regional_note": "In more conservative or rural areas, especially among older generations or in Muslim-majority regions like Mindanao, cheek kissing may be avoided between unrelated men and women.",
+  "explanation": "Cheek-to-cheek greeting (locally called 'beso-beso') is common among Filipino women and between men and women who know each other socially, though less common between two men, who typically shake hands or pat each other on the back. It's a sign of warmth reserved for people you already know, not usually used in a first, formal introduction.",
+  "local_tip": "If greeting a Filipino woman (or a man greeting a woman) you already know, lean in for a light cheek-to-cheek touch without actually kissing the skin, often with a soft 'mwah' sound.",
+  "regional_note": "In more conservative or rural areas, and in Muslim-majority regions like parts of Mindanao, cheek kissing between unrelated men and women may be avoided.",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Cheek kissing is not customary and can be seen as invasive; bowing is the standard greeting."
+      "verdict": "caution",
+      "note": "Cheek kissing isn't customary and can feel overly familiar to a Japanese counterpart; a bow or handshake is the standard greeting."
     },
     {
       "country": "France",
@@ -19,7 +19,20 @@
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Cheek kissing between men is common, but between unrelated men and women it is strictly avoided in public."
+      "note": "Cheek kissing between men is common, but between unrelated men and women it is avoided in public."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Filipino Etiquette Tips",
+      "url": "https://thesmartlocal.ph/filipino-etiquette-tips/",
+      "kind": "reference"
+    },
+    {
+      "title": "Filipino Culture and Traditions: Complete Guide",
+      "url": "https://bestphilippinestravelguide.com/filipino-culture-and-traditions/",
+      "kind": "community"
     }
   ]
 }

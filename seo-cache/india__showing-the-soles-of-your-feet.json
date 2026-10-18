@@ -1,10 +1,10 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In India, the feet are considered the lowest and most impure part of the body, and showing the soles of your feet to others is seen as a sign of disrespect, especially in social or formal settings. This stems from cultural and religious beliefs where feet are associated with dirt and inferiority, and pointing them at someone, particularly elders or deities, is offensive.",
-  "local_tip": "Always sit with your feet flat on the floor or tucked under you, and avoid pointing your feet toward anyone or any sacred object.",
-  "regional_note": "In some South Indian households, the rule is even stricter, while in urban or younger circles, accidental sole exposure may be overlooked but still considered impolite.",
+  "verdict_label": "Feet are treated as impure",
+  "confidence": "medium",
+  "explanation": "Feet are treated as the least pure part of the body in Hindu-influenced Indian culture, reflected in the widespread custom of charan sparsh — younger people touching an elder's or guru's feet to receive a blessing, which underscores how much spiritual weight is placed on feet. By the same logic, carelessly pointing the soles of your feet at a person, an idol, or religious objects, or touching someone with your foot, reads as disrespectful.",
+  "local_tip": "Sit with your feet tucked under you or flat on the floor; if you accidentally touch someone or something sacred with your foot, a quick touch of your hand to that person/object followed by touching your own chest is a commonly understood apology gesture.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
@@ -14,12 +14,25 @@
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is highly offensive, as feet are seen as unclean."
+      "note": "Showing the soles of your feet is considered offensive, as feet are seen as unclean."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Generally neutral or casual; putting feet up on furniture may be seen as relaxed rather than offensive."
+      "note": "Generally neutral; putting feet up on furniture may be seen as too casual rather than offensive."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Pranama",
+      "url": "https://en.wikipedia.org/wiki/Pranama",
+      "kind": "community"
+    },
+    {
+      "title": "Blessing",
+      "url": "https://en.wikipedia.org/wiki/Blessing",
+      "kind": "community"
     }
   ]
 }

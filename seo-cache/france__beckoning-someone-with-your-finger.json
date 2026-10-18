@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Considered disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In France, beckoning someone with your finger (especially the index finger curling toward you) is seen as a gesture used for calling animals or inferiors, and is therefore considered rude and demeaning when directed at a person. It implies a lack of respect and can cause offense in everyday social or professional interactions.",
-  "local_tip": "Instead, use a subtle nod of the head or an open-handed wave with palm facing down to politely invite someone over.",
-  "regional_note": "This is consistent across mainland France, though younger generations in urban areas may be slightly more tolerant of informal gestures among friends.",
+  "verdict": "caution",
+  "verdict_label": "Seen as brusque, not a grave insult",
+  "confidence": "medium",
+  "explanation": "Curling your index finger to beckon someone is seen in France as a bit brusque, reminiscent of summoning a waiter, child, or animal. It's considered impolite, especially toward someone you should treat with respect, but it isn't a severe social taboo. A palm-down wave or simply calling the person's name is the more common, polite alternative.",
+  "local_tip": "To call someone over, use a palm-down hand wave or just say their name rather than curling a single finger toward yourself.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude and is used only for animals; instead, wave all fingers together with palm down."
+      "note": "Beckoning with a curled index finger is considered quite rude and is associated with calling animals; a palm-down wave of all fingers is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a curled index finger can be seen as an insult or a gesture for calling a dog; use a gentle hand wave with palm down."
+      "note": "A curled-finger beckon is strongly associated with calling animals and is considered a serious insult toward a person."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While often acceptable among friends in casual settings, it can be perceived as condescending or aggressive in formal or professional contexts."
+      "note": "Often fine among friends in casual settings, but can come across as condescending or aggressive in formal or professional contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Must-Know French Gestures and Body Language for Travelers",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/6/21/must-know-french-gestures-and-body-language-for-travelers",
+      "kind": "community"
     }
   ]
 }

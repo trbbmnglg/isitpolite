@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not expected",
+  "verdict_label": "Appreciated, never required",
   "confidence": "high",
-  "explanation": "In Spain, tipping at restaurants is considered a polite gesture but is not mandatory or socially required. Locals typically leave small change (5-10% of the bill) only for exceptional service, as service charges are included in the price. It is more common to tip in tourist-heavy areas or upscale establishments than in casual local eateries.",
-  "local_tip": "Leave a few euros or round up the bill to the nearest 5 or 10 euros if you are satisfied with the service.",
-  "regional_note": "In Catalonia and the Basque Country, tipping is slightly less common than in Madrid or coastal tourist regions.",
+  "explanation": "Tipping in Spain is a personal reward for good service, not a social obligation — menu prices already include service, and waitstaff don't depend on tips as part of their wage. Most locals round up the bill or leave roughly 5-10% only when service was notably good, and it's more common in sit-down restaurants than bars or cafés. Skipping a tip entirely is not considered rude.",
+  "local_tip": "Round up to the next few euros or leave about 5-10% for great service; a tip isn't expected for quick coffees or bar drinks.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting as it implies the staff is not paid fairly."
+      "note": "Tipping can confuse or even offend staff, since excellent service is already the norm and isn't paid for separately."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is standard and expected for good service."
+      "note": "Tipping 15-20% at restaurants is the norm and servers rely on it as part of their income."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Service charge is included, but leaving small change is appreciated."
+      "note": "A service charge is built into the bill by law, but rounding up or leaving small change for good service is appreciated."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "What are the rules on tipping in Spain?",
+      "url": "https://www.thelocal.es/20200109/dining-in-spain-how-much-should-you-tip",
+      "kind": "reference"
+    },
+    {
+      "title": "Spanish Culture — Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/spanish-culture/spanish-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "To tip or not to tip? The ins and outs of tipping in Spain",
+      "url": "https://www.fascinatingspain.com/articulo/spanish-culture/tips-tipping-in-spain/20230412101036070482.html",
+      "kind": "community"
     }
   ]
 }

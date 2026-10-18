@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
-  "confidence": "high",
-  "explanation": "In Brazil, slurping noodles is considered impolite because it violates the local dining etiquette that values quiet, discreet eating. Brazilian culture typically views loud eating noises as a lack of manners, especially in formal or semi-formal restaurant settings.",
-  "local_tip": "If you must eat noodles, twirl them quietly on your fork and avoid making any slurping sounds to show respect for local customs.",
+  "verdict_label": "Quiet eating is the norm",
+  "confidence": "medium",
+  "explanation": "Noodles are not a traditional staple of Brazilian cuisine, but general table manners there follow Western/European conventions favoring quiet, closed-mouth eating. Audible slurping — of noodles, soup, or coffee — is typically seen as a minor lapse in manners rather than a serious offense, especially outside formal settings.",
+  "local_tip": "When eating noodle dishes (increasingly common via Japanese-Brazilian and Italian-Brazilian food culture), eat quietly as you would any other dish — slurping isn't expected or appreciated.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef in Japan."
+      "note": "Slurping noodles is a sign of enjoyment and appreciation for the dish."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping noodles is common and indicates you are savoring the meal, though very loud slurping may be seen as crude in formal settings."
+      "note": "Slurping is common and signals you're savoring the meal, though very loud slurping can seem crude in formal settings."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping any pasta is considered extremely rude and uncivilized in Italy, where quiet, deliberate eating is the norm."
+      "note": "Slurping pasta is considered quite uncivilized; quiet, deliberate eating is the norm."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Latin America - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Latin_America",
+      "kind": "reference"
     }
   ]
 }

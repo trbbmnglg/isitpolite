@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally polite with norms",
+  "verdict_label": "Welcome, with a few rules",
   "confidence": "medium",
-  "explanation": "Gift-giving in UAE business settings is polite and appreciated, but must respect Islamic customs—avoid alcohol or pork, and always use the right hand. Gifts are typically opened privately to avoid embarrassment, and modest, high-quality items like dates or office accessories are safe choices.",
-  "local_tip": "Present the gift with your right hand or both hands, and never give a gift containing alcohol or pigskin leather.",
-  "regional_note": "In Dubai and Abu Dhabi, business gift-giving is more common and Westernized, while in Sharjah or more conservative areas, it may be less expected and should be more modest.",
+  "explanation": "Gift-giving is welcomed in UAE business and social settings as long as it follows a few consistent rules: avoid alcohol, pork products, or imagery of dogs, and give with the right hand or both hands together rather than the left. Common, safe choices are dates, chocolates, or pastries, and gifts are typically opened in private rather than in front of the giver.",
+  "local_tip": "Offer the gift with your right hand or both hands, and don't be offended if it isn't opened in front of you.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Gift-giving is highly ritualized; avoid giving in sets of four or nine, and present with both hands."
+      "note": "Gift-giving is highly ritualized; sets of four are avoided, and gifts are presented with both hands."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even inappropriate in formal business settings; if given, keep it small and practical."
+      "note": "Business gifts are often unnecessary and should stay small and practical if given at all."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Similar Islamic norms apply but gift-giving is less common in initial meetings; avoid any religious or personal items."
+      "note": "Similar rules around alcohol, pork, and hand use apply, but gift-giving is less common at a first meeting."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Gift Giving Etiquette in the Middle East",
+      "url": "https://commisceo-global.com/blog/gift-giving-in-the-middle-east",
+      "kind": "reference"
+    },
+    {
+      "title": "UAE Customs & Etiquette Sheet",
+      "url": "https://www.wtca.org/news/uae-customs-etiquette-sheet",
+      "kind": "reference"
     }
   ]
 }

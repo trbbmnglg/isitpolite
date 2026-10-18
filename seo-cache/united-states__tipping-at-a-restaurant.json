@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected social norm",
+  "verdict_label": "Expected, tied to wage law",
   "confidence": "high",
-  "explanation": "In the United States, tipping at restaurants is a deeply ingrained social custom, not optional; it is how service staff earn their primary income because federal law allows a sub-minimum wage for tipped workers. Failing to tip 15-20% of the pre-tax bill is widely considered rude and a breach of etiquette.",
-  "local_tip": "Always tip 15-20% of the pre-tax total for sit-down service, and never leave a zero tip even for poor service—instead, speak to a manager.",
-  "regional_note": "Tipping norms are nearly uniform across the U.S., though in very rural areas or at some fast-casual chains, a lower tip (10-15%) may be accepted, but 15% remains the baseline.",
+  "explanation": "In the US, tipping 15-20% of the pre-tax bill at a sit-down restaurant is a deeply embedded social norm, not a bonus: federal law lets employers pay tipped workers a direct cash wage of just $2.13/hour (versus the $7.25 federal minimum), with tips expected to make up the difference. Skipping or significantly under-tipping for normal service is widely seen as a breach of etiquette, since servers' income structurally depends on tips.",
+  "local_tip": "Tip 15-20% of the pre-tax total for sit-down service, and if service was genuinely poor, speak to a manager rather than leaving no tip.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is seen as insulting; excellent service is expected without extra payment."
+      "note": "Tipping is not practiced and can be seen as insulting; excellent service is already the baseline expectation."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "A service charge is included, but leaving small change (5-10%) is appreciated for good service."
+      "note": "A service charge is included by law, but rounding up or leaving small change for good service is appreciated."
     },
     {
       "country": "South Korea",
       "verdict": "caution",
-      "note": "Tipping is not customary and can be awkward; high-end restaurants may include a service charge."
+      "note": "Tipping is not customary and can confuse or embarrass staff; upscale restaurants may add a service charge instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Fact Sheet #15: Tipped Employees Under the FLSA",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/15-tipped-employees-flsa",
+      "kind": "reference"
+    },
+    {
+      "title": "The Finer Points of Tipping - Emily Post Institute",
+      "url": "https://emilypost.com/advice/finer-points-of-tipping",
+      "kind": "reference"
+    },
+    {
+      "title": "Commisceo Global USA Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/usa-guide",
+      "kind": "reference"
     }
   ]
 }

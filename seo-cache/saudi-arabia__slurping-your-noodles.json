@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid slurping noodles",
-  "confidence": "high",
-  "explanation": "In Saudi Arabia, slurping noodles is considered impolite and disruptive, as it violates the cultural norm of eating quietly and with restraint. Dining etiquette emphasizes modesty and respect for others, especially in shared or public settings. Loud eating sounds are generally frowned upon across the kingdom.",
-  "local_tip": "Eat noodles silently by using a spoon and fork, or twirling them discreetly without making noise.",
-  "regional_note": "In more cosmopolitan cities like Jeddah or Riyadh, younger Saudis may be more tolerant of foreign habits, but traditional etiquette still strongly discourages slurping.",
+  "verdict": "caution",
+  "verdict_label": "No specific rule, stay modest",
+  "confidence": "low",
+  "explanation": "Noodles aren't part of traditional Saudi cuisine, and no source documents a specific Saudi rule about slurping them. General Gulf dining etiquette favors restrained, quiet eating over loud table noises, so audible slurping would likely be seen as a minor lapse in manners rather than a serious offence.",
+  "local_tip": "If eating noodles at a restaurant, favor quiet bites over loud slurping, since restrained table manners are generally valued.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a compliment to the chef and enhances flavor, considered good manners."
+      "note": "Slurping noodles is read as a compliment to the chef and is expected in ramen shops."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is often acceptable and shows enjoyment, though it varies by region and formality."
+      "note": "Slurping is common and often read as enjoying the food."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very impolite and a sign of poor table manners."
+      "note": "Slurping pasta is considered a clear breach of table manners."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Arab Table Manners: Business Lunch Etiquette in Arabic Countries",
+      "url": "https://www.arabicpod101.com/blog/2018/11/27/arab-table-manners/",
+      "kind": "community"
     }
   ]
 }

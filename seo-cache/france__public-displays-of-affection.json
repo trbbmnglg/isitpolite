@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Subtle affection is fine",
+  "verdict": "polite",
+  "verdict_label": "Relatively relaxed about PDA",
   "confidence": "medium",
-  "explanation": "In France, light public displays of affection like a kiss on the cheek or holding hands are generally accepted in social gatherings, but passionate kissing or prolonged embraces can be seen as overly intimate and inappropriate in mixed company. The French value discretion and elegance in public behavior, so moderation is key to avoid making others uncomfortable.",
-  "local_tip": "Stick to a quick bise (cheek kiss) or a brief hug when greeting, and save more intimate gestures for private moments.",
-  "regional_note": "In more conservative rural areas or older generations, even mild PDA may be frowned upon, while in Paris and younger circles it is more relaxed.",
+  "explanation": "France is one of the more relaxed European countries about public affection — holding hands, hugging, and kissing between couples are common and unremarkable, especially in cities like Paris. More explicit or prolonged intimacy draws more notice outside big cities or among older, more conservative generations.",
+  "local_tip": "Normal affection (hand-holding, a kiss hello or goodbye) is fine almost anywhere in France; save more intense displays for private moments, especially in smaller towns.",
+  "regional_note": "Expect more tolerance in Paris and other large cities than in smaller, more traditional towns.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Public displays of affection are highly discouraged in Japan, even among couples, as they are considered disruptive to social harmony."
+      "note": "Public displays of affection are discouraged even between couples, as they're seen as disruptive to social harmony."
     },
     {
       "country": "Italy",
       "verdict": "polite",
-      "note": "In Italy, passionate kissing and hugging in public are common and seen as a natural expression of affection, especially among younger people."
+      "note": "Like France, Italy is generally relaxed about public affection, with hugging and kissing between couples seen as a natural expression."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public displays of affection between unmarried couples are illegal and strictly forbidden, with severe penalties."
+      "note": "Public affection between unmarried couples is illegal and strictly enforced, with serious legal consequences."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Public displays of affection — Expatica",
+      "url": "https://www.expatica.com/living/love/public-displays-of-affection-108636",
+      "kind": "reference"
+    },
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Refusing food is disrespectful",
-  "confidence": "high",
-  "explanation": "In Indian culture, offering food is a fundamental gesture of hospitality and affection, especially when meeting family. Refusing is seen as rejecting the host's care and goodwill, and can cause embarrassment or offense. It is customary to accept at least a small portion to honor the relationship.",
-  "local_tip": "If you are full or have dietary restrictions, accept a small amount and leave it on your plate rather than refusing outright.",
-  "regional_note": "In some South Indian households, hosts may insist more strongly, but refusal is still considered impolite; in urban or younger families, dietary restrictions (e.g., vegan, gluten-free) are increasingly understood, but a polite explanation is still expected.",
+  "verdict": "caution",
+  "verdict_label": "Hosts insist; outright refusal is awkward",
+  "confidence": "medium",
+  "explanation": "Hospitality in India is often summed up by the principle Atithi Devo Bhava ('the guest is God'), and hosts take real pride in feeding guests well, commonly offering food more than once as an expression of care. Flatly refusing everything can feel like rejecting that hospitality, but a polite decline — especially one explained by being full or having dietary needs — is generally understood rather than treated as a serious insult.",
+  "local_tip": "If you're full or can't eat something, accept a small token portion or explain briefly rather than flatly saying no — it preserves the spirit of hospitality without you overeating.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Refusing food can be polite if done modestly, but it may also cause the host to insist; it's better to accept a small portion."
+      "note": "A modest, polite refusal is acceptable, but hosts may insist once or twice before taking no for an answer."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food, especially from a family host, is often seen as rejecting their generosity and can be deeply offensive."
+      "note": "Refusing food from a host, especially a home-cooked meal, is often seen as rejecting their hospitality and can cause real offense."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "It is generally acceptable to politely decline food, especially if you have dietary restrictions or are full, without causing offense."
+      "note": "Politely declining food, especially for dietary reasons or because you're full, is generally accepted without offense."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Atithi Devo Bhava",
+      "url": "https://en.wikipedia.org/wiki/Atithi_Devo_Bhava",
+      "kind": "community"
+    },
+    {
+      "title": "Hospitality",
+      "url": "https://en.wikipedia.org/wiki/Hospitality",
+      "kind": "community"
     }
   ]
 }

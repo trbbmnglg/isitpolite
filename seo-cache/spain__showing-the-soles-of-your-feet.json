@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In Spain, showing the soles of your feet is considered disrespectful because feet are seen as dirty and lowly. This gesture can be interpreted as a sign of contempt or disregard, especially in social or formal settings.",
-  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and avoid pointing your soles toward anyone.",
-  "regional_note": "This norm is consistent across mainland Spain, though in the Canary Islands and some coastal areas, casual settings may be slightly more relaxed.",
+  "verdict": "caution",
+  "verdict_label": "Not taboo, but keep it tidy",
+  "confidence": "medium",
+  "explanation": "Spain has no cultural taboo against showing the soles of your feet the way Thailand or Gulf countries do — there's no belief that feet are spiritually 'low' or impure. That said, Spaniards are particular about feet generally: going barefoot indoors, even in someone's own home, is seen as a bit odd, and propping feet up on furniture in someone's house still comes across as overly casual.",
+  "local_tip": "Don't worry about which way your feet point, but keep your shoes or slippers on and your feet off the furniture when visiting someone's home.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and most impure part of the body; pointing them at someone is a grave insult."
+      "note": "Feet are considered the lowest, most impure part of the body, so pointing soles at a person, a monk, or a Buddha image is genuinely offensive."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Generally not a major issue, but putting feet on furniture or pointing soles at others can be seen as rude or overly casual."
+      "note": "There's no strong taboo, but propping feet on furniture or a table in someone's home can read as disrespectful or overly casual."
     },
     {
       "country": "Egypt",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is highly offensive, as feet are considered unclean in Arab culture."
+      "note": "Feet are considered unclean, so showing the soles of your shoes to someone, especially elders, is seen as insulting."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "13 things foreigners do that make Spaniards feel really awkward",
+      "url": "https://www.thelocal.es/20170407/things-foreigners-do-that-make-spaniards-feel-awkward",
+      "kind": "reference"
+    },
+    {
+      "title": "Syracuse University Madrid homestay FAQ",
+      "url": "https://suabroad.syr.edu/madrid/wp-json/wp/v2/pages/71",
+      "kind": "reference"
     }
   ]
 }

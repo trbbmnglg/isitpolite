@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Respectful and customary",
+  "verdict_label": "Expected sign of respect",
   "confidence": "high",
-  "explanation": "In India, removing shoes before entering a home is a deeply ingrained sign of respect and hygiene, rooted in the belief that footwear carries dirt from outside. This practice is especially common in living areas, bedrooms, and places of worship, and is expected in most traditional households. Even in modern urban settings, it is considered polite to ask or follow the host's lead.",
-  "local_tip": "Always remove your shoes at the entrance if you see a shoe rack or other shoes placed there, and never step onto a prayer mat or carpet with shoes on.",
-  "regional_note": "In some rural areas or traditional homes, the rule is stricter, while in very modern or Westernized urban apartments, hosts may occasionally allow shoes, but it's safer to remove them.",
+  "explanation": "Removing your shoes before entering a home is widely expected in India and seen as a sign of respect and cleanliness, and the same norm applies at temples and other religious sites. Most households will have a shoe rack or a spot of shoes near the entrance as a visual cue.",
+  "local_tip": "If you see a shoe rack, slippers left at the door, or your host removing their own shoes, follow suit without waiting to be asked.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Removing shoes is mandatory before entering any home, and often slippers are provided."
+      "note": "Removing shoes before entering a home is mandatory, and house slippers are often provided."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is not universal; it depends on the household, so always ask or observe."
+      "note": "Shoe removal isn't a universal norm; it depends on the household, so it's best to ask or observe."
     },
     {
       "country": "Thailand",
       "verdict": "polite",
       "note": "Shoes are removed before entering homes and temples, similar to India."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "India Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/india-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Foot",
+      "url": "https://en.wikipedia.org/wiki/Foot",
+      "kind": "community"
     }
   ]
 }

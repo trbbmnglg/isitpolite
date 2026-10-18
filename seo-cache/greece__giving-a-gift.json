@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally appreciated but modest",
+  "verdict_label": "Welcome but kept modest",
   "confidence": "high",
-  "explanation": "In Greek business culture, gift-giving is seen as a kind gesture that builds personal rapport, though it is not expected. Avoid overly expensive gifts, as they may create awkwardness or be perceived as bribery; instead, opt for something small like quality wine, olives, or a book about your region.",
-  "local_tip": "Present the gift with your right hand or both hands, and downplay its value when offering it to avoid making the recipient feel obligated.",
-  "regional_note": "In more traditional or older business circles, gifts may be opened in private rather than in front of others to avoid showing favoritism.",
+  "explanation": "Bringing a gift when invited to a Greek home or for a business relationship is a warmly received gesture, though not strictly required; it's best kept modest (good wine, sweets, flowers, or something from your home region), since an overly expensive gift can create pressure to reciprocate or appear like an attempt at influence. In business, gifts are more about relationship-building than ritual.",
+  "local_tip": "Bring a modest, thoughtful gift — wine, sweets, or flowers — when invited to someone's home, and present or receive it with your right hand or both hands rather than the left hand alone.",
+  "regional_note": "Among more traditional or older business circles, gifts may be opened privately rather than in front of others.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Gift-giving is highly ritualized; avoid white or red wrapping and never give four of anything."
+      "note": "Gift-giving is highly ritualized; avoid certain colors, numbers, and overly lavish gifts."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary in formal business settings and may be viewed with suspicion."
+      "note": "Gifts in formal business settings can be seen as unnecessary or viewed with suspicion."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gifts are welcome but must not contain alcohol or pork, and should be offered with the right hand only."
+      "note": "Gifts are welcome but should avoid alcohol or pork and are offered with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greece Guide (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/greece-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Greece: Cultural Differences (CIS Abroad)",
+      "url": "https://go.greece.cisabroad.com/cultural-differences",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Generally acceptable but avoid",
+  "verdict": "polite",
+  "verdict_label": "Not a cultural issue here",
   "confidence": "medium",
-  "explanation": "In Brazil, eating with the left hand is not inherently rude, but it can be seen as unhygienic or careless in formal dining settings, as the left hand is traditionally associated with handling non-food items like napkins or glasses. Most Brazilians are right-handed and use utensils, so using the left hand for eating might draw mild attention but is not a major faux pas. The rule is more relaxed compared to Middle Eastern or South Asian norms, where the left hand is strictly avoided for eating.",
-  "local_tip": "If you're dining formally, stick to using your right hand for utensils and keep your left hand on your lap or lightly resting on the table edge.",
-  "regional_note": "In more rural or traditional areas of the Northeast, older generations may view left-hand eating as slightly improper, but this is fading among younger urban populations.",
+  "explanation": "Brazil has no religious or cultural rule against eating or handling food with the left hand, unlike India or parts of the Middle East where the left hand is reserved for hygiene. Brazilian table manners, rooted in European/Portuguese tradition, focus on general politeness (napkins, not reaching across the table) rather than which hand touches food.",
+  "local_tip": "Eat however feels natural — using your left hand for utensils or food is not considered rude or unhygienic in Brazil.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "The left hand is considered unclean and reserved for bathroom hygiene; always eat with the right hand."
+      "note": "The left hand is considered unclean and reserved for bathroom hygiene; food is eaten with the right hand."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Eating with the left hand is strictly forbidden in Islamic tradition; use only the right hand for food."
+      "note": "Eating with the left hand is avoided under Islamic custom; the right hand is used for food."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Left-hand use is perfectly fine; chopsticks are the main concern, not which hand holds them."
+      "note": "Which hand holds chopsticks is a non-issue; left-handed eating draws no attention."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Latin America - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Latin_America",
+      "kind": "reference"
     }
   ]
 }

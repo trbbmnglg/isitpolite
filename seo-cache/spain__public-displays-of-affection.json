@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable but moderate",
-  "confidence": "medium",
-  "explanation": "In Spain, public displays of affection such as hugging, kissing on the cheeks, and holding hands are common and socially accepted, especially in social gatherings. However, more intimate gestures like passionate kissing may be seen as inappropriate in formal or mixed-age settings. The culture is warm and tactile, but discretion is appreciated in conservative circles.",
-  "local_tip": "Greet with two kisses (right then left) among friends and acquaintances, but avoid prolonged or overly intimate embraces in formal social gatherings.",
-  "regional_note": "In more conservative regions like Andalusia or rural areas, older generations may be more reserved, while in cosmopolitan cities like Madrid or Barcelona, younger crowds are very open.",
+  "verdict_label": "Common and widely accepted",
+  "confidence": "high",
+  "explanation": "Spain is a famously tactile, affectionate culture — couples kissing, hugging, and holding hands in public draws little to no attention, and this applies across age groups and to same-sex couples as well. Compared to the more reserved norms in the US or parts of Northern Europe, Spaniards are generally relaxed about public affection, though it's dialed back in formal settings like a business meeting.",
+  "local_tip": "Don't hold back on hand-holding, hugging, or a kiss hello/goodbye in public — it's completely normal, just default to a handshake in business settings.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Public displays of affection are rare and considered impolite, even between couples."
+      "note": "Public affection beyond handholding is rare and can draw disapproving looks, even between married couples."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheeks as a greeting is standard, but more intimate PDA is common and accepted."
+      "note": "Cheek-kiss greetings are standard and couples kissing or embracing in public is common and unremarkable."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public displays of affection between unrelated men and women are illegal and severely frowned upon."
+      "note": "Public displays of affection between unrelated men and women are against the law and can lead to real legal consequences."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Economics and Social Politics of Spanish PDA",
+      "url": "https://berkleycenter.georgetown.edu/posts/the-economics-and-social-politics-of-spanish-pda",
+      "kind": "reference"
+    },
+    {
+      "title": "Barcelona's Burning Passion",
+      "url": "https://thecictravels.cic.sc.edu/barcelonas-burning-passion/",
+      "kind": "reference"
     }
   ]
 }

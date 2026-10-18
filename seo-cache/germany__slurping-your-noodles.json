@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
   "verdict_label": "Avoid loud slurping",
-  "confidence": "high",
-  "explanation": "In Germany, dining etiquette emphasizes quiet and controlled eating; loud slurping of noodles is considered impolite and a sign of poor manners. Unlike in some East Asian cultures where slurping signals appreciation, in Germany it disrupts the meal's decorum and may draw disapproving looks.",
-  "local_tip": "If you must eat noodles, twirl them quietly on your fork and take small, silent bites.",
+  "confidence": "medium",
+  "explanation": "German table manners favor quiet, controlled eating, so audibly slurping noodles or soup reads as a lapse in manners rather than the sign of enjoyment it can be in East Asian dining culture. It stands out most in formal settings or restaurants.",
+  "local_tip": "Twirl noodles onto your fork and sip soup quietly from the spoon rather than straight from the bowl.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a compliment to the chef and enhances flavor."
+      "note": "Slurping noodles is normal and can signal enjoyment of the meal rather than poor manners."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is common and shows enjoyment, especially with noodles."
+      "note": "Slurping noodles is common and generally unremarkable, especially in casual settings."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very impolite and uncivilized."
+      "note": "Audibly slurping pasta is considered a clear breach of table manners."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Study Abroad Etiquette: Germany - OnCall International",
+      "url": "https://blog.oncallinternational.com/?p=6143",
+      "kind": "community"
+    },
+    {
+      "title": "Table manners around the world - Lingoda",
+      "url": "https://www.lingoda.com/blog/en/table-manners-across-the-world/",
+      "kind": "community"
     }
   ]
 }

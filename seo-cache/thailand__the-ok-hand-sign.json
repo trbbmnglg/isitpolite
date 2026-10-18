@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable gesture",
-  "confidence": "high",
-  "explanation": "In Thailand, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay' or 'good,' similar to its use in many Western countries. It does not carry any offensive connotations in everyday Thai interactions, though it is less common than the traditional 'wai' for greetings. The gesture is generally safe for casual use among friends, colleagues, or in service settings.",
-  "local_tip": "Use the OK sign sparingly in formal or hierarchical situations; a smile and nod are often more culturally appropriate.",
-  "regional_note": "In southern Thailand near the Malaysian border, some Muslim communities may interpret the sign differently due to regional influences, but this is rare.",
+  "verdict_label": "Reads as 'that's okay'",
+  "confidence": "medium",
+  "explanation": "In everyday Thai use, forming a circle with the thumb and index finger is understood straightforwardly as 'this is okay' or approval, much like in the US, and it doesn't carry an offensive meaning the way it does in Brazil or Turkey. It isn't a traditional Thai gesture and is less common than a smile, a nod, or a wai, so it can feel slightly out of place in more formal or hierarchical interactions.",
+  "local_tip": "The OK sign is safe for casual use, but a smile, nod, or small wai is the more natural choice in formal or respectful contexts.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered an obscene gesture, similar to the middle finger."
+      "note": "The circle made with thumb and finger is considered an obscene gesture there."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a homosexual slur or insult."
+      "note": "The same gesture can be read there as a vulgar insult."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly means 'OK' or 'money' (when fingers form a circle)."
+      "note": "The gesture commonly means 'OK' or can represent money, since the circle shape suggests a coin."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Your Complete Guide To Thai Gestures",
+      "url": "https://theculturetrip.com/asia/thailand/articles/your-complete-guide-to-thai-gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Module 2: Awareness of ASEAN Cultures",
+      "url": "https://www.stou.ac.th/schools/sla/modules/module2/presentation2.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Communicate Like a Native Using Thai Hand Gestures and More",
+      "url": "https://www.thaipod101.com/blog/2019/08/16/thai-body-gestures/",
+      "kind": "community"
     }
   ]
 }

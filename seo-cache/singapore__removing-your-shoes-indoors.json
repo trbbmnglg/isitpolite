@@ -1,25 +1,33 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected in homes",
+  "verdict_label": "Expected in most homes",
   "confidence": "high",
-  "explanation": "In Singapore, removing shoes before entering a home is a near-universal sign of respect and cleanliness, rooted in both Asian cultural norms and the practical need to keep floors free of tropical dirt and rain. It is considered rude to wear outdoor shoes inside, especially in carpeted or tiled living areas.",
-  "local_tip": "Always ask 'Shoes off?' at the doorstep, and look for a shoe rack or pile of shoes as a clear cue to remove yours.",
-  "regional_note": "In Malay and Indian households, shoe removal is strictly observed due to prayer areas; in some modern HDB flats, hosts may allow shoes in the kitchen or corridor.",
+  "explanation": "Removing your shoes before entering someone's home is standard practice across Singapore's communities, reflecting both cultural norms and practicality in a tropical climate. It's considered rude to walk into a home in outdoor shoes unless your host explicitly tells you not to bother.",
+  "local_tip": "Look for a shoe rack or a pile of shoes by the door as your cue, and if in doubt, just ask \"should I take my shoes off?\" before stepping inside.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is mandatory before entering any home, with specific slippers for different rooms."
+      "note": "Shoe removal is mandatory before entering any home, with indoor slippers often provided."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; many hosts do not expect it unless specified."
+      "note": "Shoe removal is optional and varies by household; many hosts don't expect it unless asked."
     },
     {
       "country": "Thailand",
       "verdict": "polite",
-      "note": "Shoes are always removed before entering a home, and also before entering temples or certain shops."
+      "note": "Shoes are removed before entering homes and most temples, following the same feet-related cleanliness norms."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Etiquette (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not expected",
+  "verdict_label": "Welcomed but optional",
   "confidence": "medium",
-  "explanation": "Tipping in Saudi Arabia is not mandatory but is seen as a generous gesture, especially in upscale restaurants in major cities like Riyadh and Jeddah. Many locals and expats leave 10-15% for good service, though a service charge is sometimes included in the bill. In more traditional or conservative settings, tipping may be less common but still welcomed.",
-  "local_tip": "Check your bill for a service charge first; if none, leaving 10% in cash directly to the server is a safe and appreciated practice.",
-  "regional_note": "In rural areas or smaller, family-run eateries, tipping is less customary, while in Western-style hotels and restaurants in urban centers it is more expected.",
+  "explanation": "Tipping is not mandatory in Saudi Arabia and service-sector wages aren't structured around gratuities, but leaving roughly 10-15% in cash is increasingly common and appreciated, especially where no service charge is listed. Reporting on local attitudes notes views are genuinely mixed — some Saudis see it as generous hospitality, others as closer to alms for foreign workers, and Saudis rarely tip fellow Saudis.",
+  "local_tip": "Check the bill for a service charge first; if there isn't one, leaving 10-15% in cash is a safe, appreciated amount.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+      "verdict": "caution",
+      "note": "Tipping is not local custom and can confuse staff, since excellent service is already expected without extra payment."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is standard and often expected for good service in restaurants."
+      "note": "Tipping 15-20% is standard and forms a real part of server income."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "Service is included by law, but leaving small change (5-10%) is polite for exceptional service."
+      "note": "Service is included by law, but leaving a little extra for exceptional service is a polite touch."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tips for women travelling to Saudi",
+      "url": "https://visitsaudi.com/en/stories/tips-for-women-traveling-to-saudi",
+      "kind": "reference"
+    },
+    {
+      "title": "www.arabnews.com (tipping in Saudi restaurants)",
+      "url": "https://www.arabnews.com/node/380632",
+      "kind": "reference"
     }
   ]
 }

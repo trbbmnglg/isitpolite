@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally welcome but modest",
+  "verdict_label": "Welcome, keep it modest",
   "confidence": "medium",
-  "explanation": "In Spanish business culture, gift-giving is polite but should be modest and not overly expensive to avoid appearing as a bribe. A small, thoughtful gift like a quality pen, a book, or regional food/drink is appreciated, especially after a successful meeting or deal. Gifts are typically opened in private, not in front of colleagues.",
-  "local_tip": "If invited to a Spanish colleague's home, bring a bottle of good wine, chocolates, or flowers (avoid dahlias and chrysanthemums, which are associated with funerals).",
-  "regional_note": "In Catalonia and the Basque Country, business gift-giving is slightly more reserved; a simple, high-quality item is preferred over anything flashy.",
+  "explanation": "Gift-giving is appreciated in Spain in both business and social settings, but the emphasis is on quality and thoughtfulness over expense — an overly lavish business gift can look like you're trying to influence someone rather than build a relationship. If you're invited to someone's home for dinner, bring wine, chocolates, or flowers; just steer clear of flowers tied to funerals or superstition.",
+  "local_tip": "For a dinner invitation, bring a good bottle of wine, chocolates, or a small bouquet — avoid chrysanthemums, white lilies, dahlias, red roses, and bouquets of exactly 13 flowers, since these carry funeral or superstitious associations.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; wrapping and presentation are critical, and gifts are exchanged with both hands and a bow."
+      "note": "Gift-giving is highly ritualized, with careful wrapping and presenting gifts with both hands as part of the custom."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts in business are often seen as unnecessary or even inappropriate; if given, keep it small and practical, like a book or desk accessory."
+      "note": "Business gifts are often seen as unnecessary or even suspicious; if given at all, keep them small and practical."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gifts are common but must respect Islamic customs—avoid alcohol, pork products, and items with religious symbolism; use the right hand only."
+      "note": "Gifts are welcome but should avoid alcohol and pork products in keeping with Islamic customs, and are best offered with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global — Spain Business Etiquette Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/spain-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Don't Make These 18 Gift Giving Mistakes Abroad",
+      "url": "https://www.globelink.co.uk/articles/travel-information/dont-make-these-18-gift-giving-mistakes-abroad.html",
+      "kind": "community"
     }
   ]
 }

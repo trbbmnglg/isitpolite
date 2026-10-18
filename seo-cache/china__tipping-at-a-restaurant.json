@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not expected, can confuse",
-  "confidence": "high",
-  "explanation": "Tipping is not customary in China and can be seen as confusing or even insulting, as it implies the server needs extra money. In most restaurants, service is included in the bill, and leaving cash may be refused or chased after you. The practice is mainly limited to high-end international hotels or tourist spots where foreign guests tip, but locals rarely do.",
-  "local_tip": "Do not leave a tip at regular restaurants; if you feel compelled, round up the bill slightly or leave a small amount only at luxury establishments.",
-  "regional_note": "In Hong Kong and Macau, tipping is more common due to Western influence, but in mainland China it remains rare.",
+  "verdict_label": "Not customary, often declined",
+  "confidence": "medium",
+  "explanation": "Tipping is not part of mainland Chinese restaurant culture; menu prices are final and there is no built-in service charge being pointed to. Staff may refuse a tip outright or chase you down to return it, and some locals read an offered tip as implying they're underpaid, though this isn't universally seen as outright insulting. The real exceptions are tour guides and drivers, who commonly expect a tip, and a handful of international luxury hotels catering to Western guests.",
+  "local_tip": "Skip tipping at everyday restaurants, but set aside a modest cash tip for a tour guide or driver at the end of a trip, since that's the one context where it's genuinely expected.",
+  "regional_note": "Hong Kong and Macau, shaped by longer British and Portuguese influence, have normalized tipping (often ~10%) far more than mainland China.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting; excellent service is the norm and no extra payment is expected."
+      "note": "Tipping is not practiced and can be seen as confusing or even insulting; excellent service is simply the norm."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is standard and expected for good service."
+      "note": "Tipping 15-20% at restaurants is standard and service staff rely on it as part of their income."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Service charge is included, but leaving small change is a polite gesture."
+      "note": "A service charge is legally included in the bill, but rounding up or leaving small change is a nice gesture."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Culture - Etiquette (Cultural Atlas, SBS / Multicultural NSW)",
+      "url": "https://culturalatlas.sbs.com.au/chinese-culture/chinese-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Tipping in China - Intrepid Travel",
+      "url": "https://www.intrepidtravel.com/ca/china/tipping-in-china",
+      "kind": "reference"
+    },
+    {
+      "title": "Tipping in China - China Xian Tour",
+      "url": "https://www.chinaxiantour.com/travel-guide/tipping-in-china",
+      "kind": "community"
     }
   ]
 }

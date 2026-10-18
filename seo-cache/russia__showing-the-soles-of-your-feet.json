@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful foot display",
-  "confidence": "high",
-  "explanation": "In Russia, showing the soles of your feet is considered disrespectful because the foot is seen as the lowest and dirtiest part of the body. This gesture can be interpreted as a sign of contempt or disregard, especially in social settings where mutual respect is expected.",
-  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and avoid pointing the sole of your shoe or foot toward anyone.",
-  "regional_note": "This norm is consistent across most of Russia, though younger generations in urban areas may be slightly more relaxed about it in informal settings.",
+  "verdict": "caution",
+  "verdict_label": "Mildly careless, not taboo",
+  "confidence": "medium",
+  "explanation": "Showing the soles of your feet in Russia isn't treated as a serious insult the way it is in Thailand — it reads more as careless or inconsiderate, since feet are associated with street dirt. Propping your feet on furniture, armrests, or an opposite seat on public transport is the main thing locals object to.",
+  "local_tip": "Keep your feet on the floor and off furniture or seats, especially if they'd be pointed toward another person.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The foot is considered the lowest part of the body, and pointing the sole at someone is a grave insult."
+      "note": "The foot is the lowest part of the body, and pointing the sole at someone is a grave insult."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Showing the soles of your feet is generally not offensive, though it may be seen as casual or relaxed."
+      "note": "Showing the soles of your feet is generally not offensive, though it can read as very casual."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the sole of your foot to someone is highly disrespectful, as the foot is considered unclean."
+      "note": "Showing the sole of your foot to someone is considered disrespectful, as the foot is seen as unclean."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Russian Etiquette 3D",
+      "url": "https://blogs.transparent.com/russian/russian-etiquette-3d/",
+      "kind": "community"
+    },
+    {
+      "title": "5 Things NOT to do in Russia",
+      "url": "https://coffeeandcaminos.com/travel/guide-to-russian-etiquette/",
+      "kind": "community"
     }
   ]
 }

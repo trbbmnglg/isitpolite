@@ -2,24 +2,37 @@
   "verdict": "polite",
   "verdict_label": "Generally positive gesture",
   "confidence": "high",
-  "explanation": "In France, the thumbs-up gesture is widely understood as a positive sign meaning 'okay' or 'good job,' similar to its use in many Western cultures. It is considered polite and friendly in everyday contexts, such as expressing approval or agreement. However, avoid using it in very formal situations where verbal communication is preferred.",
-  "local_tip": "Use the thumbs-up casually with friends or colleagues to show approval, but in formal meetings or with elders, opt for a verbal compliment instead.",
+  "explanation": "In France, a thumbs-up is a well-understood, positive sign of approval or 'good job,' the same as in most of North America and Western Europe. It's fine in casual and most everyday contexts, though a verbal response is more natural in very formal settings.",
+  "local_tip": "Use it freely with friends, service staff, or colleagues to show approval; in formal business settings, pair it with (or replace it with) a verbal acknowledgment.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
       "verdict": "rude",
-      "note": "In Greece, the thumbs-up is an offensive insult equivalent to a raised middle finger."
+      "note": "The thumbs-up is widely considered an offensive, dismissive insult, roughly equivalent to the middle finger."
     },
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "In Iran, the thumbs-up is considered a vulgar insult, similar to showing the middle finger."
+      "note": "The thumbs-up is traditionally seen as a vulgar gesture, similar in effect to showing the middle finger."
     },
     {
       "country": "Nigeria",
-      "verdict": "rude",
-      "note": "In parts of Nigeria, the thumbs-up can be interpreted as a rude or dismissive gesture."
+      "verdict": "caution",
+      "note": "In some parts of Nigeria and West Africa, a thumbs-up can be read as rude or dismissive rather than purely positive."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "The Common Gesture You Should Never Make At A French Restaurant",
+      "url": "https://www.tastingtable.com/1953001/never-make-ok-gesture-french-restaurant",
+      "kind": "reference"
     }
   ]
 }

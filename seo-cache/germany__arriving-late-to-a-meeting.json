@@ -2,24 +2,37 @@
   "verdict": "rude",
   "verdict_label": "Punctuality is paramount",
   "confidence": "high",
-  "explanation": "In German business culture, punctuality is a sign of respect and professionalism; arriving late to a meeting is considered discourteous and suggests poor planning or disregard for others' time. Even a few minutes' delay can be seen as a breach of etiquette, and it is expected that you arrive a few minutes early or exactly on time.",
-  "local_tip": "Always plan to arrive 5–10 minutes early to a meeting, and if you anticipate any delay, call or message immediately with an apology and an updated arrival time.",
-  "regional_note": "In southern Germany (e.g., Bavaria), punctuality is equally strict, though social gatherings may allow a slightly more relaxed 15-minute grace period, but never for business.",
+  "explanation": "In German business culture, punctuality is a core sign of respect and professionalism; arriving late to a meeting without warning is seen as discourteous and suggests poor planning or disregard for others' time. Arriving a few minutes early is well regarded, and meetings tend to start and end on schedule.",
+  "local_tip": "Aim to arrive 5-10 minutes early, and if you expect any delay, call or message ahead with an apology and your updated arrival time.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "caution",
-      "note": "Arriving 15–30 minutes late to a business meeting is often acceptable and even expected in some contexts, as relationships and flexibility are valued over strict punctuality."
+      "note": "Arriving 15-30 minutes late to a business meeting is often tolerated and sometimes expected, as relationship-building is valued alongside punctuality."
     },
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is extremely important; arriving late is a serious breach of etiquette and can damage trust and business relationships."
+      "note": "Punctuality is taken extremely seriously; arriving late is a serious breach that can damage trust and business relationships."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "While punctuality is appreciated, meetings may start later than scheduled due to cultural norms around hospitality and prayer times; however, as a foreigner, arriving on time shows respect."
+      "note": "Meetings may start later than scheduled due to hospitality norms and prayer times, but foreign visitors arriving on time is still seen as respectful."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Germany Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/germany-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "German business culture and etiquette - WeAreDevelopers",
+      "url": "https://wearedevelopers.com/magazine/german-business-culture-and-etiquette",
+      "kind": "community"
     }
   ]
 }

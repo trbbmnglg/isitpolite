@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally accepted in social settings",
+  "verdict_label": "Warm, openly affectionate culture",
   "confidence": "medium",
-  "explanation": "In Brazil, public displays of affection such as hugging, kissing on the cheek, and holding hands are common and considered polite in social gatherings, reflecting the country's warm and expressive culture. However, more intimate acts like prolonged kissing or groping may be seen as inappropriate in formal or conservative settings. Brazilians typically greet with a kiss on the cheek (one or two, depending on the region) and maintain close physical proximity during conversations.",
-  "local_tip": "When greeting at a social gathering, offer a light kiss on the right cheek (or one kiss in most of the Southeast, two in Rio de Janeiro) and maintain friendly physical contact like touching an arm or shoulder.",
-  "regional_note": "In the Northeast and Rio de Janeiro, two kisses are common, while in São Paulo and the South, one kiss is typical; older or more conservative individuals may prefer a handshake.",
+  "explanation": "Brazil is a tactile, affectionate culture — hugging, cheek-kissing, hand-holding, and standing close while talking are all normal in social settings, reflecting a much smaller personal-space bubble than in the US or Northern Europe. Brazilians also generally hold relaxed attitudes toward the body (seen in beachwear and Carnival costumes), so moderate PDA attracts little attention; very formal or professional settings call for more restraint.",
+  "local_tip": "Don't be surprised by close physical contact when greeting — reciprocate warmly with a cheek kiss or hug rather than stepping back, which can come across as cold.",
+  "regional_note": "Cheek-kiss greetings vary by region: one kiss is typical in São Paulo, two in Rio de Janeiro, and three or more in Bahia and other parts of the Northeast.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Public displays of affection are highly restrained; even holding hands can be considered inappropriate in formal settings."
+      "note": "Public affection is highly restrained; even hand-holding can feel out of place in formal settings."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "rude",
-      "note": "Public displays of affection, especially between unmarried couples, are illegal and culturally taboo."
+      "note": "Public affection between unmarried couples is culturally taboo and can carry legal risk."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on both cheeks (la bise) is a standard greeting, and moderate PDA is widely accepted in social settings."
+      "note": "Cheek-kissing (la bise) is a standard greeting, and moderate PDA is widely accepted socially."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian kissing culture, The Discoveries Of",
+      "url": "https://www.thediscoveriesof.com/brazilian-kissing-culture/",
+      "kind": "community"
     }
   ]
 }

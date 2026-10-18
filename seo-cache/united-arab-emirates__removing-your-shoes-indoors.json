@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected in homes",
-  "confidence": "high",
-  "explanation": "In the United Arab Emirates, removing your shoes before entering a home is a deeply ingrained sign of respect and cleanliness, rooted in Islamic tradition and local hospitality customs. It is considered impolite to walk into a living area with outdoor shoes, as floors are often used for sitting and dining. This practice is nearly universal in private residences, though less common in public buildings or offices.",
-  "local_tip": "Always remove your shoes at the entrance if you see a pile of shoes or a shoe rack, and follow your host's lead if they offer slippers.",
-  "regional_note": "In more traditional or religious households, especially in Sharjah or rural areas, the rule is stricter; in ultra-modern Dubai apartments, some hosts may allow shoes if they have a separate guest area.",
+  "verdict_label": "Expected in most homes",
+  "confidence": "medium",
+  "explanation": "Removing your shoes before entering a home is a widely observed sign of respect and cleanliness in the UAE, tied to Emirati hospitality customs and the practice of sitting and dining on floor seating. It is not a universal legal or religious requirement, so the safest approach is simply to follow your host's lead at the door.",
+  "local_tip": "Watch what your host and other guests do at the entrance, and remove your shoes if you see a shoe rack or pile of shoes.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is mandatory before entering any home, and often in traditional inns and some restaurants."
+      "note": "Shoe removal before entering a home is mandatory and extends to many traditional inns and some restaurants."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; many hosts do not expect it unless the home has a 'no shoes' policy."
+      "note": "Shoe removal is optional and depends entirely on the individual household's preference."
     },
     {
-      "country": "Sweden",
+      "country": "Turkey",
       "verdict": "polite",
-      "note": "It is standard to remove shoes at the door in most homes, especially during winter or wet weather."
+      "note": "Removing shoes at the door is standard in most homes, and hosts often provide guest slippers."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greeting | Abu Dhabi Business Culture",
+      "url": "https://visitabudhabi.ae/en/abu-dhabi-convention-and-exhibition-bureau/business-culture/greeting",
+      "kind": "reference"
+    },
+    {
+      "title": "Countries That Always Take Their Shoes Off Inside",
+      "url": "https://dailypassport.com/countries-always-take-shoes-off-inside/",
+      "kind": "community"
     }
   ]
 }

@@ -2,24 +2,37 @@
   "verdict": "caution",
   "verdict_label": "Not expected, not rude",
   "confidence": "high",
-  "explanation": "In Singapore, a 10% service charge is automatically added to most restaurant bills, and tipping is not customary or expected. While leaving a small tip is not considered rude, it is unnecessary and may be seen as unusual or even awkward by locals.",
-  "local_tip": "Check your bill for a service charge; if none is added, rounding up the total or leaving a small amount (e.g., $2–$5) is fine but never required.",
-  "regional_note": "In high-end or tourist-oriented restaurants, tipping may be more common among expatriates, but locals generally do not tip.",
+  "explanation": "Singapore has no real tipping culture; many sit-down restaurants already add a 10% service charge (shown as \"++\" on menus) plus GST, so an extra tip is not expected. Leaving a small amount for great service is not rude, just unnecessary, and it is never expected at hawker centres, cafes, or bars.",
+  "local_tip": "Check your bill for the \"++\" service charge before adding anything extra; if you do want to tip for excellent service, hand it directly to the staff member rather than leaving it on the table.",
+  "regional_note": "Hawker centres, food courts, and casual cafes rarely add a service charge and tipping there is unusual; upscale restaurants and hotels catering to tourists or expats see occasional voluntary tipping.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting as service is included; leaving money can cause confusion."
+      "note": "Tipping is considered confusing or insulting since good service is already the standard; servers may try to return the money."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15–20% is standard and expected for good service."
+      "note": "Tipping 15-20% at sit-down restaurants is standard and service staff rely on it as part of their income."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "Service charge is included by law, but leaving small change is a polite gesture."
+      "note": "A service charge is included by law, so extra tipping is optional but rounding up or leaving small change is appreciated."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tipping Etiquette - Visit Singapore",
+      "url": "https://www.visitsingapore.com/travel-guide-tips/essential-information/tipping-etiquette/",
+      "kind": "reference"
+    },
+    {
+      "title": "How to Tip in Singapore - Tripmasters",
+      "url": "https://www.tripmasters.com/tipping_in_singapore/cms?cms=6326",
+      "kind": "reference"
     }
   ]
 }

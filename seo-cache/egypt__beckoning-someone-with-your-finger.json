@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Offensive hand gesture",
+  "verdict_label": "Seen as a gesture for animals",
   "confidence": "high",
-  "explanation": "In Egypt, beckoning someone with your finger is considered highly impolite and is often interpreted as a gesture used to call a dog or a servant. It can be seen as demeaning and disrespectful, especially in formal or everyday interactions.",
-  "local_tip": "Instead, use the entire hand with palm facing down and wave your fingers toward you in a gentle scooping motion.",
-  "regional_note": "In more rural or conservative areas, the offense may be stronger, while younger, urban Egyptians might be slightly more tolerant but still avoid it.",
+  "explanation": "Beckoning with a single raised finger is seen across much of the Arab world, including Egypt, as a gesture used to call animals or servants, making it demeaning when directed at a person. The accepted alternative is to turn your palm face-down and make a gentle scooping motion with your fingers toward yourself.",
+  "local_tip": "To call someone over, turn your palm face-down and wave your fingers toward yourself rather than curling one finger upward.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered rude and animal-like; use a hand wave with palm down."
+      "note": "A single raised finger to beckon is seen as crude; a palm-down wave is the polite alternative."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture is used for calling dogs and is highly offensive when directed at a person."
+      "note": "The same gesture is used only for animals and is considered very offensive directed at a person."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common and informal, it can be seen as condescending or aggressive in professional or formal settings."
+      "note": "It's common casually but can seem condescending in a formal or professional setting."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Egyptian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Traditional Gestures Around The World That Mean The Opposite In The US",
+      "url": "https://www.worldatlas.com/articles/traditional-gestures-around-the-world-that-mean-the-opposite-in-the-us.html",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Widely positive, no offense",
   "confidence": "high",
-  "explanation": "In China, the thumbs-up gesture is widely understood as a sign of approval, agreement, or 'good job,' similar to its use in many Western cultures. It is commonly used in everyday interactions, including social media and casual conversation, and is considered polite and encouraging. However, it is less formal than a verbal compliment and should be used in appropriate contexts.",
-  "local_tip": "Use a thumbs-up to praise a friend's cooking or to agree with a colleague's idea in a casual setting, but avoid using it in very formal business meetings where a verbal nod is more appropriate.",
-  "regional_note": "In some older generations or rural areas, the gesture may be less common, but it is still understood as positive; no significant regional variation exists.",
+  "explanation": "In China, a thumbs-up is understood the same way as in most Western countries: praise, agreement, or 'well done.' It's used casually by ordinary people and even by officials as a sign of approval, and carries no negative or vulgar meaning.",
+  "local_tip": "Use a thumbs-up freely to compliment food, a performance, or someone's work; it reads as warm in both casual and semi-formal settings.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "Thumbs-up is considered an offensive insult, equivalent to showing the middle finger."
+      "note": "Thumbs-up is considered an obscene insult rather than a positive gesture."
     },
     {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "Thumbs-up is seen as a rude or dismissive gesture, especially in northern regions."
+      "country": "Greece",
+      "verdict": "caution",
+      "note": "The gesture has historically carried a vulgar connotation there, though global familiarity has softened this among younger people."
     },
     {
-      "country": "Australia",
+      "country": "United States",
       "verdict": "polite",
-      "note": "Thumbs-up is a common positive gesture, though in some contexts it can be seen as overly casual."
+      "note": "Thumbs-up is a common, everyday sign of approval with no negative connotation."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Dos and Don'ts of Chinese Hand Gestures - The Chairman's Bao",
+      "url": "https://www.thechairmansbao.com/gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "What does a thumbs up in China mean? - Calendar UK",
+      "url": "https://www.calendar-uk.co.uk/frequently-asked-questions/what-does-a-thumbs-up-in-china-mean",
+      "kind": "community"
     }
   ]
 }

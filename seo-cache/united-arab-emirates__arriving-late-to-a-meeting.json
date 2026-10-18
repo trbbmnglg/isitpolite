@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Flexible but not encouraged",
+  "verdict_label": "Locals flexible, you shouldn't be",
   "confidence": "medium",
-  "explanation": "In the UAE, business meetings often start a few minutes late due to a relaxed attitude toward punctuality, especially in more traditional or family-run firms. However, foreign-owned or multinational companies typically expect punctuality, and arriving more than 10-15 minutes late without a valid excuse can be seen as disrespectful. The practice varies widely based on the company culture and the Emirati versus expatriate composition of the team.",
-  "local_tip": "Always call or message ahead if you will be more than 10 minutes late, and apologize briefly upon arrival.",
-  "regional_note": "In Dubai's fast-paced business environment, punctuality is more strictly observed than in Abu Dhabi or smaller emirates, where a looser approach may prevail.",
+  "explanation": "Gulf business culture tends to be relaxed about strict scheduling, and it's common for Emirati counterparts to run a little late or extend small talk and coffee before getting to business. Foreign visitors, however, are still expected to arrive on time themselves as a sign of respect, since the relaxed local pace doesn't extend the same way to guests.",
+  "local_tip": "Arrive on time yourself even if you expect to wait, and don't show irritation if your host is delayed.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is critical; arriving even one minute late is considered disrespectful."
+      "note": "Punctuality is taken very seriously, and arriving even a few minutes late is considered disrespectful."
     },
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Germans value strict punctuality; lateness is seen as unprofessional and inconsiderate."
+      "note": "Strict punctuality is the norm, and lateness is viewed as unprofessional."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "In Brazil, arriving 15-30 minutes late to business meetings is common and often expected."
+      "note": "Arriving 15-30 minutes late to a business meeting is common and generally unremarkable."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Culture and etiquette tips when doing business in the UAE",
+      "url": "https://commisceo-global.com/blog/culture-etiquette-tips-when-doing-business-in-the-uae",
+      "kind": "reference"
+    },
+    {
+      "title": "Six adjustments Western bankers need to make when working in the Gulf",
+      "url": "https://www.efinancialcareers.com/news/2010/07/six-adjustments-western-bankers-need-to-make-when-working-in-the-gulf",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Use sparingly with same gender",
-  "confidence": "high",
-  "explanation": "In Saudi Arabian business culture, direct eye contact between men is a sign of respect and sincerity, but prolonged or intense eye contact with women (including female colleagues) can be seen as disrespectful or intrusive due to conservative gender norms. Among mixed-gender settings, it is safer to lower your gaze slightly to avoid causing discomfort. This reflects the broader cultural emphasis on modesty and hierarchical respect.",
-  "local_tip": "Maintain brief, soft eye contact with male counterparts, but avoid direct eye contact with women unless they initiate it.",
-  "regional_note": "In more liberal urban centers like Jeddah or Riyadh's expatriate circles, direct eye contact with women may be more accepted, but it remains safer to err on the side of caution.",
+  "verdict_label": "Gender-dependent, use sparingly",
+  "confidence": "medium",
+  "explanation": "Between men, direct eye contact in Saudi Arabia is a normal sign of sincerity and respect. Muslims generally avoid physical contact with the opposite gender, and the same caution extends to eye contact: prolonged eye contact between men and women who are not closely related can be seen as inappropriately forward, so a softer gaze is the safer default in mixed-gender settings.",
+  "local_tip": "Maintain normal eye contact with people of your own gender; with the opposite gender, keep it brief and polite, especially in business settings.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is considered confrontational or rude; brief glances or looking at the necktie area is preferred."
+      "note": "Prolonged eye contact can feel confrontational; a softer, briefer gaze is preferred."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact is expected as a sign of confidence and honesty in business settings."
+      "note": "Direct eye contact is expected as a sign of confidence and honesty in business."
     },
     {
       "country": "Nigeria",
       "verdict": "caution",
-      "note": "Sustained eye contact with elders or superiors can be seen as disrespectful or challenging."
+      "note": "Sustained eye contact with an elder or superior can be read as a challenge rather than respect."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian Culture – Greetings",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-greetings",
+      "kind": "reference"
+    },
+    {
+      "title": "Saudi Arabian Culture – Communication",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-communication",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Moderate eye contact",
+  "verdict_label": "Confident, not with everyone",
   "confidence": "medium",
-  "explanation": "In UAE business settings, direct eye contact is generally seen as a sign of confidence and sincerity, but it should be moderate and not prolonged, especially when interacting with senior colleagues or those of the opposite gender, where it may be perceived as challenging or disrespectful.",
-  "local_tip": "Maintain brief, respectful eye contact when speaking, but lower your gaze occasionally to show deference, particularly with older or higher-status Emiratis.",
-  "regional_note": "In more traditional or conservative circles, especially among older generations or in Sharjah, avoiding prolonged eye contact with the opposite gender is strongly advised.",
+  "explanation": "Among people of the same gender, steady eye contact in the UAE is read as sincere and engaged, consistent with the warm, direct greeting style described in Emirati hospitality customs. Between men and women who are not closely related, however, prolonged eye contact can be seen as overly forward, so a more measured gaze is the safer default in mixed-gender business settings.",
+  "local_tip": "Hold steady eye contact with someone of your own gender, but keep it brief and polite when speaking with the opposite gender in a business setting.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is considered confrontational; brief glances or looking at the necktie area is polite."
+      "note": "Sustained eye contact can feel confrontational; brief, softer eye contact is the norm."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct, steady eye contact is expected as a sign of honesty and engagement in business."
+      "note": "Steady eye contact is expected in business as a signal of confidence and honesty."
     },
     {
       "country": "South Korea",
       "verdict": "caution",
-      "note": "Avoid intense eye contact with superiors; it is seen as disrespectful or challenging."
+      "note": "Prolonged eye contact with someone senior or older can be read as a challenge rather than respect."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greeting | Abu Dhabi Business Culture",
+      "url": "https://visitabudhabi.ae/en/abu-dhabi-convention-and-exhibition-bureau/business-culture/greeting",
+      "kind": "reference"
+    },
+    {
+      "title": "A Handshake is Worth 1000 Words: Body Language in Dubai Business Culture",
+      "url": "https://www.arabicpod101.com/blog/2019/02/14/body-language-in-dubai-business-culture/",
+      "kind": "community"
     }
   ]
 }

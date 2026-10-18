@@ -1,27 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Moderate, not sustained",
+  "verdict_label": "Positive in greetings, moderate in business",
   "confidence": "medium",
-  "explanation": "In Egyptian business settings, direct eye contact is generally expected as a sign of honesty and engagement, but it should be moderate—not prolonged or intense, as that can be perceived as aggressive or challenging. This is especially true when interacting with someone of higher status or older age, where a slightly softer gaze shows respect.",
-  "local_tip": "Maintain direct eye contact when speaking, but break it occasionally and soften your gaze when listening to a senior colleague.",
-  "regional_note": "In more conservative or religious circles, particularly with mixed-gender interactions, sustained eye contact may be avoided out of modesty.",
+  "explanation": "In everyday greetings, Cultural Atlas describes Egyptian handshakes as often prolonged and accompanied by a wide smile and direct eye contact, making it a positive, expected part of a warm introduction. In business or mixed-gender settings, however, sustained eye contact should be moderated, particularly with someone senior or of the opposite gender, where a softer gaze signals respect rather than challenge.",
+  "local_tip": "Use warm, direct eye contact when greeting someone, but soften it when listening to a senior colleague or interacting across genders.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is considered rude or confrontational; brief glances are preferred."
+      "note": "Prolonged eye contact can feel confrontational; a softer, briefer gaze is preferred."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "verdict_label": "Expected and confident",
-      "note": "Direct, steady eye contact is seen as a sign of confidence and honesty in business."
+      "note": "Direct, steady eye contact is expected in business as a sign of confidence and honesty."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "verdict_label": "Gender-dependent",
-      "note": "Men should avoid prolonged eye contact with women; among men, moderate eye contact is respectful."
+      "note": "Direct eye contact between men is normal, but prolonged eye contact between men and women is avoided."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Egyptian Culture – Greetings",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-greetings",
+      "kind": "reference"
+    },
+    {
+      "title": "Egyptian Culture – Business Culture",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-business-culture",
+      "kind": "reference"
     }
   ]
 }

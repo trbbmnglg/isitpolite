@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid prolonged direct eye contact",
-  "confidence": "high",
-  "explanation": "In Thai business culture, direct eye contact is generally considered confrontational or disrespectful, especially with superiors or elders, as it challenges the hierarchical social order rooted in respect (kreng jai). A brief glance followed by looking down or away signals deference and politeness. Sustained eye contact may be interpreted as a sign of aggression or lack of humility.",
-  "local_tip": "When speaking with a senior colleague or client, maintain soft, intermittent eye contact and occasionally lower your gaze to show respect.",
-  "regional_note": "In Bangkok's international business settings, younger professionals may be more accustomed to Western norms, but the traditional rule still applies in formal meetings and with older counterparts.",
+  "verdict_label": "Context-dependent, genuinely mixed",
+  "confidence": "low",
+  "explanation": "Guidance on eye contact in Thai business culture is genuinely inconsistent: some sources describe steady eye contact as important for building trust, while others warn that sustained, intense eye contact can come across as a challenge, especially toward someone senior. The safer practice described across sources is attentive but softened eye contact — glancing away periodically rather than holding a fixed stare — particularly with elders or higher-ranking colleagues.",
+  "local_tip": "Make eye contact to show you're engaged, but break it naturally every so often rather than holding a fixed stare, especially with someone senior to you.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is seen as intimidating; brief glances or looking at the necktie area is preferred."
+      "note": "Prolonged eye contact can feel intimidating, so brief, softer eye contact is more common."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct, steady eye contact signals confidence, honesty, and engagement in business contexts."
+      "note": "Steady eye contact is read as confidence and honesty in business settings."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Eye contact between men is acceptable but should be brief with women; prolonged gaze can be seen as disrespectful or flirtatious."
+      "note": "Eye contact between men is fine but should be brief and less direct with women."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thai Culture: Communication",
+      "url": "https://culturalatlas.sbs.com.au/thai-culture/thai-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Thailand Cultural Considerations",
+      "url": "https://rivermate.com/guides/thailand/cultural-considerations",
+      "kind": "community"
+    },
+    {
+      "title": "Understanding Business Etiquette: Thailand",
+      "url": "https://www.aetnainternational.com/en/health-wellness/destination-guides/guide-to-life-in-thailand/understanding-business-etiquette.html",
+      "kind": "community"
     }
   ]
 }

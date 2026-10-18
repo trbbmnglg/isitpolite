@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable with care",
+  "verdict_label": "Welcome gesture, mind flowers",
   "confidence": "medium",
-  "explanation": "In Italian business culture, gift-giving is polite but must be modest and not appear as a bribe. High-quality items like wine, gourmet food, or elegant office accessories are appreciated, but expensive gifts can create discomfort or be seen as inappropriate.",
-  "local_tip": "Present the gift without ostentation, and if it is wine or food, suggest it be shared with the team to avoid singling out the recipient.",
-  "regional_note": "In Southern Italy, gifts may be more warmly received, while in the North (e.g., Milan, Turin) business relationships are more formal and gifts are less expected.",
+  "explanation": "Gift-giving is a welcome, friendly gesture in Italy as long as it's modest rather than ostentatious — in business settings, an overly expensive gift can feel like a bribe, while quality wine, food, or elegant small items are well received. If giving flowers, avoid chrysanthemums, which are strongly associated with funerals and cemeteries, and skip the number 17, considered unlucky in Italy much like 13 elsewhere.",
+  "local_tip": "For flowers, choose a cheerful variety other than chrysanthemums and avoid bundles of 17.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; wrapping and presentation are crucial, and gifts are often exchanged at first meetings."
+      "note": "Gift-giving is highly ritualized; careful wrapping and presentation matter as much as the gift itself."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are rarely given in initial business meetings; a small token is acceptable only after a relationship is established."
+      "note": "Gifts are rarely given at initial business meetings; a small token is more appropriate once a relationship is established."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gifts are common, but avoid alcohol or items with pig imagery; use the right hand and respect Islamic customs."
+      "note": "Gifts are welcome, but avoid alcohol or pig-related items and present with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Italy Guide - Commisceo Global",
+      "url": "https://commisceo-global.com/resources/country-guides/italy-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Chrysanthemum",
+      "url": "https://en.wikipedia.org/wiki/Chrysanthemum",
+      "kind": "reference"
+    },
+    {
+      "title": "Italian Superstitions",
+      "url": "https://www.theintrepidguide.com/italian-superstitions/",
+      "kind": "community"
     }
   ]
 }

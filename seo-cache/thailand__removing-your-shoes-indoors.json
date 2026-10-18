@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected in homes",
+  "verdict_label": "Expected before entering homes",
   "confidence": "high",
-  "explanation": "In Thailand, removing shoes before entering a home is a deeply ingrained custom rooted in respect for cleanliness and the belief that the feet are the lowest and most unclean part of the body. It is considered impolite to track outdoor dirt inside, and most Thai homes will have a designated area for shoe removal at the entrance. This practice extends to many temples and some shops or guesthouses as well.",
-  "local_tip": "Always look for a pile of shoes at the entrance or ask 'Should I take off my shoes?' before stepping inside.",
-  "regional_note": "In rural areas or traditional homes, the rule is even stricter, while some modern urban condos may be more relaxed, but it's safer to always remove them.",
+  "explanation": "Removing shoes before entering a Thai home is a strongly observed custom, rooted in keeping outdoor dirt off indoor floors (where people traditionally sit) and the broader belief that feet and footwear are 'low' and unclean. It is considered disrespectful to keep shoes on indoors even if a host says it's fine. The same rule commonly applies to temples and many small shops, cafes, and guesthouses.",
+  "local_tip": "Look for a pile of shoes at the entrance as your cue, and take your shoes off even if your host tells you not to bother.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Shoe removal is mandatory in most homes, traditional inns, and temples; indoor slippers are often provided."
+      "note": "Shoe removal is mandatory in most homes and traditional inns, with indoor slippers often provided."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal is optional and varies by household; many hosts will say 'keep them on' unless you see a shoe rack."
+      "note": "Shoe removal is optional and varies household to household."
     },
     {
-      "country": "Sweden",
+      "country": "Germany",
       "verdict": "polite",
-      "note": "It is standard etiquette to remove shoes at the door in private homes, especially during winter or wet weather."
+      "note": "Taking off shoes at the door is standard household etiquette, especially to keep floors clean."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "7 Customs in Thailand You Must Know Before Visiting",
+      "url": "https://samujana.com/7-customs-in-thailand-you-must-know-before-visiting/",
+      "kind": "community"
+    },
+    {
+      "title": "Thai Culture",
+      "url": "https://en.psu.ac.th/international/arts-and-culture/thai-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Customs, Beliefs and Habits that Baffle Visitors to Thailand",
+      "url": "https://www.expique.com/article/customs-and-habits-that-baffle-first-time-visitors-to-thailand/",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid touching heads",
-  "confidence": "high",
-  "explanation": "In China, the head is considered the most sacred part of the body, as it houses the soul and is associated with dignity. Patting someone on the head, especially an adult or elder, is deeply disrespectful and can be seen as a violation of personal space and authority. This taboo is rooted in Confucian values and traditional beliefs about bodily hierarchy.",
-  "local_tip": "Never touch a Chinese person's head, even playfully; instead, offer a slight nod or handshake as a greeting.",
-  "regional_note": "In some rural or ethnic minority areas (e.g., Tibetan or Muslim communities), head touching may carry even stronger religious or cultural prohibitions.",
+  "verdict": "caution",
+  "verdict_label": "Fine for kids, odd for adults",
+  "confidence": "medium",
+  "explanation": "China doesn't carry the strict Buddhist head-sacredness taboo found in Thailand or Laos; it's common, even affectionate, for an adult to pat a child's head. Touching an adult's or stranger's head, though, is still generally seen as an invasive overstep of personal space rather than a deep spiritual offense.",
+  "local_tip": "Patting a friend's or stranger's child on the head as a friendly gesture is generally fine; avoid doing the same to adults you don't know well.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the highest and most sacred body part; touching it is a major offense."
+      "note": "The head is considered the most sacred part of the body in Buddhist belief, so touching anyone's head, including a child's, is a serious offense."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Touching the head of an elder or stranger is disrespectful, but patting a child's head is sometimes acceptable among close family."
+      "note": "Touching an elder's or stranger's head is disrespectful, though patting a child's head is often acceptable among close family."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Patting someone on the head is often seen as friendly or affectionate, especially with children or close friends."
+      "note": "Patting a child's head or a close friend's head affectionately is generally seen as warm rather than offensive."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "9 Ways to Avoid Offending Anyone When Traveling in Asia - Afar Magazine",
+      "url": "https://www.afar.com/magazine/9-things-that-are-surprisingly-offensive-in-asia",
+      "kind": "reference"
+    },
+    {
+      "title": "Culture question - touching a child's head (forum thread) - Chinese-Forums.com",
+      "url": "https://www.chinese-forums.com/forums/topic/7557-culture-question-touching-a-childs-head/",
+      "kind": "community"
     }
   ]
 }

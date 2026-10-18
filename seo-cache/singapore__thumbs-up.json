@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable gesture",
-  "confidence": "high",
-  "explanation": "In Singapore, the thumbs-up gesture is widely understood as a positive sign of approval, agreement, or encouragement, largely due to Western influence and its use in local media. It is commonly used in everyday interactions, including among friends, colleagues, and in service settings, without causing offense. However, it is always advisable to use it with a friendly demeanor to avoid any misinterpretation.",
-  "local_tip": "Use the thumbs-up to express agreement or praise, but pair it with a smile to ensure your intent is clear and friendly.",
-  "regional_note": "Among older generations or in more traditional settings, the gesture may be less common, but it is still not considered rude.",
+  "verdict_label": "Normal friendly gesture",
+  "confidence": "medium",
+  "explanation": "In Singapore the thumbs-up is understood the same way as in the West: approval, agreement, or encouragement. It is used casually in daily life, service settings, and on social media without causing offense.",
+  "local_tip": "Use it freely for everyday approval (food, service, agreement) - there's no need to avoid it the way you might in parts of the Middle East or West Africa.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "In Iran, the thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+      "note": "The thumbs-up is an obscene insult there, comparable to the middle finger in the US."
     },
     {
       "country": "Greece",
-      "verdict": "rude",
-      "note": "In Greece, the thumbs-up can be interpreted as a vulgar gesture, especially when thrust forward."
+      "verdict": "caution",
+      "note": "A thrust-forward thumbs-up can read as a vulgar gesture rather than simple approval."
     },
     {
-      "country": "Nigeria",
-      "verdict": "caution",
-      "note": "In Nigeria, the thumbs-up is generally positive but can be seen as rude if used in a dismissive or overly casual manner with elders."
+      "country": "Thailand",
+      "verdict": "polite",
+      "note": "The thumbs-up is understood as positive and causes no offense, similar to Singapore."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Communication (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Offensive Gestures by Country - World Population Review",
+      "url": "https://worldpopulationreview.com/country-rankings/offensive-gestures-in-other-countries",
+      "kind": "community"
     }
   ]
 }

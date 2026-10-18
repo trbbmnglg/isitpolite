@@ -2,24 +2,37 @@
   "verdict": "polite",
   "verdict_label": "Generally positive gesture",
   "confidence": "high",
-  "explanation": "In Germany, the thumbs-up gesture is widely understood as a positive sign meaning 'okay,' 'good,' or 'agreement,' and is commonly used in everyday interactions without causing offense. It is considered polite and friendly, especially among younger generations and in casual settings.",
-  "local_tip": "Use a thumbs-up to express approval or agreement in informal conversations, but avoid using it in very formal or hierarchical situations where a verbal response might be more appropriate.",
+  "explanation": "A thumbs-up is widely understood in Germany as a friendly, informal signal of approval or agreement, just as in most Western countries, and it's used comfortably in everyday life and casual business settings. One quirk: Germans also raise the thumb to mean 'one' when counting on their fingers, so it can briefly read as a number rather than approval out of context.",
+  "local_tip": "Use it freely for casual agreement, but in very formal settings a nod or spoken confirmation comes across as more professional.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "Thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+      "note": "The gesture is considered a serious obscene insult, roughly equivalent to showing the middle finger."
     },
     {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "Thumbs-up is seen as a rude or insulting gesture in some regions."
+      "country": "Greece",
+      "verdict": "caution",
+      "note": "Among older generations it can be read as a vulgar insult similar to 'up yours,' though younger Greeks mostly take it as 'OK' today."
     },
     {
-      "country": "Australia",
+      "country": "United States",
       "verdict": "polite",
-      "note": "Thumbs-up is generally positive, but can be considered sarcastic or dismissive in certain contexts."
+      "note": "Thumbs-up is a universally positive, casual gesture with no real risk of offense."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "8 Key German Gestures - FluentU",
+      "url": "https://www.fluentu.com/blog/german/german-gestures/",
+      "kind": "community"
+    },
+    {
+      "title": "German Culture - Communication - Cultural Atlas",
+      "url": "https://theculturalatlas.org/german-culture/german-culture-communication",
+      "kind": "reference"
     }
   ]
 }

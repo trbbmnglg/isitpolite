@@ -1,10 +1,10 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid touching heads",
-  "confidence": "high",
-  "explanation": "In Italy, patting someone on the head is considered patronizing or disrespectful, as the head is viewed as a personal and inviolable space. This gesture is typically reserved for children or pets, and doing it to an adult at a social gathering can be seen as condescending. Italians value personal boundaries and physical contact is generally limited to handshakes, cheek kisses, or friendly shoulder touches among acquaintances.",
-  "local_tip": "Instead of patting the head, offer a firm handshake or a light touch on the arm to show friendliness.",
-  "regional_note": "In southern Italy, where physical contact is more common among friends, head patting is still avoided as it carries the same negative connotation.",
+  "verdict": "caution",
+  "verdict_label": "Overly familiar, not rude",
+  "confidence": "medium",
+  "explanation": "Patting an adult's head in Italy isn't a strong taboo, but it can read as patronizing or overly familiar outside of close family or affectionate contexts with children. Italians are warm and tactile with people they know well, but unsolicited touching — especially to the head — can make someone uncomfortable if you're not close.",
+  "local_tip": "Save head-pats for children or very close family, and stick to a handshake or light arm touch with everyone else.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
@@ -14,12 +14,25 @@
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting the head of an adult is generally seen as disrespectful, though it may be acceptable for close family or children."
+      "note": "Patting an adult's head is generally seen as disrespectful, though it may be fine for close family or children."
     },
     {
       "country": "United States",
-      "verdict": "polite",
-      "note": "In casual settings, a light pat on the head can be a friendly gesture, though it may still be seen as overly familiar by some."
+      "verdict": "caution",
+      "note": "A light pat can be friendly among close acquaintances but may feel overly familiar otherwise."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Italy",
+      "url": "https://en.wikivoyage.org/wiki/Italy",
+      "kind": "community"
+    },
+    {
+      "title": "Personal space",
+      "url": "https://en.wikipedia.org/wiki/Personal_space",
+      "kind": "reference"
     }
   ]
 }

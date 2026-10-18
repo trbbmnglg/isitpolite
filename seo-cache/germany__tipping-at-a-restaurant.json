@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Expected but not mandatory",
+  "verdict_label": "Appreciated, not obligatory",
   "confidence": "high",
-  "explanation": "In Germany, tipping (Trinkgeld) is a polite gesture showing appreciation for good service, but it is not obligatory. Service charges are always included in the bill, so tips are given directly to the server, typically by rounding up the bill or adding 5-10% for excellent service.",
-  "local_tip": "Round up the bill to the nearest euro or add 5-10% when paying, and hand the cash directly to the server while saying 'stimmt so' (keep the change).",
-  "regional_note": "In eastern Germany, tipping is slightly less common and amounts may be smaller, but the practice is still appreciated.",
+  "explanation": "Tipping (Trinkgeld) in Germany is a polite way to reward good service but is never mandatory, since staff earn a regular wage and service is already built into menu prices. Most diners round the bill up or add roughly 5-10%, handing the cash directly to the server rather than leaving it on the table.",
+  "local_tip": "When paying in cash, round up or add about 10% and tell the server the total you want to pay while saying 'Stimmt so' ('keep the change').",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Tipping is considered insulting as good service is expected without extra payment."
+      "note": "Tipping is considered unnecessary and can even seem insulting, since excellent service is already the baseline expectation."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is mandatory and socially enforced, as servers rely on tips for income."
+      "note": "Tipping 15-20% is the norm and socially expected, since many servers rely on tips to make up a large share of their income."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Service is included, but leaving small change (5-10%) is customary for good service."
+      "note": "A service charge is included by law, but rounding up or leaving small change for good service is still a common courtesy."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "How to tip in Germany - allaboutberlin.com",
+      "url": "https://allaboutberlin.com/guides/tipping",
+      "kind": "reference"
+    },
+    {
+      "title": "Tipping In Germany - smartergerman.com",
+      "url": "https://go.smartergerman.com/blog/tipping-in-germany/",
+      "kind": "community"
+    },
+    {
+      "title": "Tipping in Berlin - berlinwalk.com",
+      "url": "https://www.berlinwalk.com/post/tipping-in-berlin",
+      "kind": "community"
     }
   ]
 }

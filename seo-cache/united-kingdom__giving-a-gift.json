@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Gift giving requires care",
-  "confidence": "high",
-  "explanation": "In UK business culture, gift-giving is acceptable but must be modest and not appear as bribery; expensive or lavish gifts can create awkwardness or be seen as inappropriate. It is common to exchange small, thoughtful items like quality chocolates, wine, or branded merchandise, especially after a successful deal or as a thank-you. Always ensure the gift is not overly personal and is presented without ceremony to avoid making the recipient uncomfortable.",
-  "local_tip": "If invited to a colleague's home, bring a bottle of wine, flowers, or a box of chocolates, but avoid red roses or lilies (romantic or funeral connotations).",
-  "regional_note": "In Scotland and Northern Ireland, business gift etiquette is similar, but in more traditional settings (e.g., older generations), gifts may be refused politely to avoid obligation; always follow the recipient's lead.",
+  "verdict_label": "Keep it modest, skip lilies",
+  "confidence": "medium",
+  "explanation": "Gift-giving isn't a standard part of UK business culture, and an expensive or elaborate gift can come across as inappropriate or even like an attempted bribe; a modest gesture like good chocolates or a bottle of wine is more common than a formal gift exchange. If you're invited to someone's home, bringing wine, flowers, or chocolates for the host is a thoughtful touch - many people avoid all-white or lily arrangements due to their strong association with funerals, and very romantic gestures like red roses, when the occasion is simply a dinner invitation.",
+  "local_tip": "If invited to a colleague's home, bring a bottle of wine, a box of chocolates, or a seasonal bouquet - skip lilies and keep any gift modest rather than lavish.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized and expected in business; presentation and wrapping are crucial."
+      "note": "Gift-giving is a highly ritualized and expected part of business culture; careful presentation and wrapping matter a great deal."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even suspicious in formal business settings; small, practical items are acceptable only after a relationship is established."
+      "note": "Gifts can seem unnecessary or even slightly suspicious in formal business settings until a relationship is well established."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gift-giving is common and appreciated, but must respect Islamic customs (e.g., no alcohol, no pork, use right hand)."
+      "note": "Gift-giving is common and appreciated, but should respect Islamic customs - avoid alcohol and pork, and give with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Commisceo Global - United Kingdom Country Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/uk-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Chrysanthemum - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chrysanthemum",
+      "kind": "reference"
     }
   ]
 }

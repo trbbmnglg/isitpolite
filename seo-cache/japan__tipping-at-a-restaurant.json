@@ -1,10 +1,10 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Considered insulting",
-  "confidence": "high",
-  "explanation": "Tipping is not part of Japanese service culture and can come across as insulting, implying staff are not already paid fairly or take pride in their work. Excellent service is the standard, not something that needs a bonus.",
-  "local_tip": "Skip the tip entirely — a sincere \"gochisousama deshita\" after a meal is the polite way to show appreciation.",
-  "regional_note": "Some high-end international hotels and tour guides catering to foreigners now quietly accept tips, but it remains unusual.",
+  "verdict": "caution",
+  "verdict_label": "Not customary, politely declined",
+  "confidence": "medium",
+  "explanation": "Tipping isn't part of Japanese service culture — excellent service is already the standard (omotenashi), so offering extra cash can come across as confusing or even imply staff aren't paid enough, and servers will often try to refuse or return it. It's less a deep insult than an unfamiliar, slightly awkward gesture in most everyday settings.",
+  "local_tip": "Skip the tip and thank your server with a genuine \"gochisōsama deshita\" after the meal; to reward a tour guide, offer a small amount discreetly in an envelope rather than handing over cash directly.",
+  "regional_note": "Exceptions exist: ryokan guests sometimes give staff a small 'kokorozuke' envelope for extra care, and some upscale hotels or international-style restaurants add a service charge to the bill instead of accepting tips.",
   "also_check": [
     {
       "country": "United States",
@@ -20,6 +20,24 @@
       "country": "China",
       "verdict": "caution",
       "note": "Traditionally not expected and sometimes refused, though changing in tourist hubs."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tipping in Japan",
+      "url": "https://www.japan.travel/en/plan/tipping-in-japan/",
+      "kind": "reference"
+    },
+    {
+      "title": "Why You Would Be Considered Rude For Tipping In This Popular Country",
+      "url": "https://matadornetwork.com/read/never-tip-japan/",
+      "kind": "reference"
+    },
+    {
+      "title": "Do you Tip in Japan? Japanese Tipping Etiquette",
+      "url": "https://www.insidejapantours.com/blog/2013/09/22/do-you-tip-in-japan-japanese-tipping-etiquette/",
+      "kind": "reference"
     }
   ]
 }

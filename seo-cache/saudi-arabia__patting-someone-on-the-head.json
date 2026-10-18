@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Highly disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In Saudi Arabia, the head is considered the most sacred part of the body, associated with dignity and the seat of the soul. Patting someone on the head, especially an adult or elder, is deeply offensive and implies treating them like a child or animal. This applies across all social gatherings, regardless of gender or familiarity.",
-  "local_tip": "Avoid any physical contact with the head; instead, greet with a right-hand handshake (if same gender) and a verbal 'As-salamu alaykum'.",
-  "regional_note": "Uniform across the kingdom, though younger Saudis in urban settings may be slightly more tolerant of accidental head touches, but it remains strongly discouraged.",
+  "verdict": "caution",
+  "verdict_label": "Fine for kids, not adults",
+  "confidence": "medium",
+  "explanation": "There's no basis for treating the head as 'the seat of the soul' in Islamic teaching — a well-known hadith actually encourages gently stroking an orphan's head as an act of kindness, so the gesture toward children reads as affectionate rather than offensive. Toward an adult, patting the head is more about overfamiliarity and perceived disrespect for someone's dignity or status than any religious violation.",
+  "local_tip": "Keep head-patting to children you know, and greet adults with a handshake (same gender) or a verbal greeting instead.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the highest and most sacred part of the body; touching it is a major breach of etiquette."
+      "note": "The head is considered the most sacred part of the body, so touching it, child or adult, is a serious breach of etiquette."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting a child's head is often affectionate, but touching an adult's head is disrespectful, especially if done by a stranger."
+      "note": "Patting a child's head is often affectionate, but touching an adult's head is seen as disrespectful, especially by a stranger."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Patting an adult's head is generally seen as condescending or overly familiar, but may be acceptable among close friends or in playful contexts."
+      "note": "Patting an adult's head generally reads as condescending outside of close friendships."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Hadith on Orphans: Be kind to orphans for a soft heart",
+      "url": "https://www.abuaminaelias.com/dailyhadithonline/2019/12/15/be-kind-to-orphans/",
+      "kind": "reference"
+    },
+    {
+      "title": "Sunnah.com – Kindness, Mercy and Compassion Towards Children",
+      "url": "https://sunnah.com/adab/19",
+      "kind": "reference"
     }
   ]
 }

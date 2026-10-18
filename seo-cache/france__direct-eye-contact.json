@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Respectful engagement signal",
+  "verdict_label": "Signals sincerity and confidence",
   "confidence": "high",
-  "explanation": "In French business culture, direct eye contact is expected and conveys sincerity, confidence, and respect for the person you are speaking with. Avoiding eye contact can be interpreted as disinterest, evasiveness, or lack of confidence. This norm is consistent across most professional settings in France.",
-  "local_tip": "Maintain steady but not aggressive eye contact during conversations, especially when greeting and discussing key points.",
+  "explanation": "Direct eye contact is expected in France and reads as sincerity, confidence, and engagement, both socially and in business. Avoiding it can come across as evasive or disinterested; French communication norms treat steady eye contact as a basic sign of respect for the person speaking.",
+  "local_tip": "Maintain steady eye contact during greetings and key points of conversation, but don't make it an unbroken stare — brief natural breaks are normal.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged direct eye contact can be seen as intimidating or disrespectful; brief glances are preferred."
+      "note": "Prolonged direct eye contact can feel intense or disrespectful; briefer glances, especially toward superiors, are more comfortable."
     },
     {
-      "country": "Nigeria",
+      "country": "South Korea",
       "verdict": "caution",
-      "note": "Direct eye contact with elders or superiors may be considered challenging or rude in some ethnic groups."
+      "note": "Sustained eye contact with elders or superiors can be seen as challenging; a more deferential, softer gaze is preferred in hierarchical settings."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Direct eye contact is generally seen as a sign of honesty and attentiveness, though intensity can vary by context."
+      "note": "Direct eye contact is generally read as honesty and attentiveness, similar to France."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Culture — Communication (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Cyborlink — International Business Etiquette: France",
+      "url": "https://cyborlink.com/besite/france.htm",
+      "kind": "reference"
     }
   ]
 }

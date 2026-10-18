@@ -2,24 +2,42 @@
   "verdict": "polite",
   "verdict_label": "Common and expected",
   "confidence": "high",
-  "explanation": "In Brazil, cheek kissing (beijo no rosto) is the standard greeting in social gatherings, typically one kiss on each cheek (or just one in some regions). It is used between men and women, women and women, and occasionally between men in more informal or family settings. The gesture signals warmth and friendliness, and failing to offer a kiss may be perceived as cold or distant.",
-  "local_tip": "When greeting a Brazilian, lean in for a cheek kiss starting with your right cheek to avoid bumping noses, and make a light kissing sound without actually pressing lips to the skin.",
-  "regional_note": "In São Paulo and Rio de Janeiro, one kiss is common; in Minas Gerais and the Northeast, two kisses are typical; in some rural areas or among older generations, a handshake may be preferred.",
+  "explanation": "Cheek-kissing (beijo no rosto) is the standard social greeting in Brazil, typically between women, and between men and women, starting on the right cheek. It signals warmth and is expected even among new acquaintances in social settings; declining it outright can come across as cold, though a handshake is the norm in formal business contexts.",
+  "local_tip": "Lean in starting with the right cheek and make a light kissing sound without pressing your lips to the skin, and follow the local kiss count rather than assuming it's always just one.",
+  "regional_note": "The number of kisses varies by region: one is typical in São Paulo, two in Rio de Janeiro, and three or more in Bahia and other parts of the Northeast.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Cheek kissing is not customary; bowing or a handshake is the polite greeting."
+      "note": "Cheek kissing is not customary; a bow or handshake is the standard greeting."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Cheek kissing (la bise) is common, but the number of kisses varies by region (typically two to four)."
+      "note": "Cheek kissing (la bise) is common, though the number of kisses varies by region (typically two to four)."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Kissing between unrelated men and women is forbidden; same-gender cheek kissing among close friends is acceptable, but always follow local gender norms."
+      "note": "Kissing between unrelated men and women is not done; follow local gender norms closely."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian Culture - Greetings, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-greetings",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian kissing culture, The Discoveries Of",
+      "url": "https://www.thediscoveriesof.com/brazilian-kissing-culture/",
+      "kind": "community"
     }
   ]
 }

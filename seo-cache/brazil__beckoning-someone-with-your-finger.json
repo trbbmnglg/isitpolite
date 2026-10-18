@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Considered aggressive and disrespectful",
-  "confidence": "high",
-  "explanation": "In Brazil, beckoning someone with your finger—especially with the palm facing up—is widely perceived as a rude, commanding gesture often associated with calling a dog or a servant. It conveys impatience and disrespect, and is avoided in everyday social and professional interactions. Brazilians typically use a more open-handed wave or a verbal call instead.",
-  "local_tip": "To call someone politely, extend your hand with palm facing down and make a gentle scooping motion toward yourself, or simply say 'com licença' and wave discreetly.",
-  "regional_note": "In some rural areas or among older generations, the gesture may be slightly less offensive, but it remains generally frowned upon nationwide.",
+  "verdict": "caution",
+  "verdict_label": "Can seem brusque, not severe",
+  "confidence": "medium",
+  "explanation": "Beckoning with a single crooked index finger can come across as curt or overly commanding in Brazil, particularly toward strangers or in professional settings — Brazilians more commonly wave someone over with the whole hand. That said, it is not treated as the severe insult it is in places like the Philippines; even calling a waiter over with a raised hand is completely normal and expected in Brazilian restaurants.",
+  "local_tip": "To call someone over politely, wave with your whole hand rather than crooking a single finger, especially with someone you don't know well.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude, akin to calling an animal; use a hand wave with palm down instead."
+      "note": "Beckoning with the index finger is seen as rude, closer to calling an animal; a palm-down hand wave is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a finger is highly offensive and can be interpreted as a challenge; use a gentle hand wave with palm down."
+      "note": "Beckoning with a finger is considered highly offensive and can be seen as a challenge; a gentle palm-down wave is used instead."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual settings, it can be seen as dismissive or condescending in formal or professional contexts."
+      "note": "Common in casual settings, but can seem dismissive or condescending in formal or professional contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "List of gestures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
     }
   ]
 }

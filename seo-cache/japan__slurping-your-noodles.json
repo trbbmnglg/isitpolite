@@ -1,10 +1,10 @@
 {
   "verdict": "polite",
   "verdict_label": "Slurping shows appreciation",
-  "confidence": "high",
-  "explanation": "In Japan, slurping noodles (especially ramen, soba, or udon) is considered a compliment to the chef, as it indicates you are enjoying the meal and enhances the flavor by aerating the broth. It is also practical for eating hot noodles quickly. This custom is widely accepted and even encouraged in casual to mid-range dining settings.",
-  "local_tip": "Slurp audibly but not aggressively, and avoid dripping broth on your clothes or the table.",
-  "regional_note": "In very formal kaiseki or high-end ryotei settings, slurping may be less common, but it remains acceptable for noodle dishes.",
+  "confidence": "medium",
+  "explanation": "Slurping noodles like ramen, soba, or udon is traditionally seen as a sign of enjoying the meal, and it also helps cool hot noodles as you eat. It's widely accepted in casual and mid-range noodle shops, though a modern sensitivity — half-jokingly called 'nuudoru harasumento' (noodle harassment) — has emerged around whether loud slurping bothers nearby diners, especially tourists.",
+  "local_tip": "Feel free to slurp noodles audibly in a casual noodle shop — it's a compliment to the chef, not bad manners — but don't force it if it doesn't feel natural.",
+  "regional_note": "The slurping norm applies mainly to noodle dishes, not dining generally, and very formal kaiseki meals tend to be quieter overall.",
   "also_check": [
     {
       "country": "China",
@@ -20,6 +20,19 @@
       "country": "Italy",
       "verdict": "rude",
       "note": "Slurping pasta is strongly frowned upon; it is seen as uncivilized and disrespectful to the food."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Soba",
+      "url": "https://en.wikipedia.org/wiki/Soba",
+      "kind": "reference"
+    },
+    {
+      "title": "Japanese cuisine",
+      "url": "https://en.wikipedia.org/wiki/Japanese_cuisine",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid pointing directly",
-  "confidence": "high",
-  "explanation": "In China, pointing directly at someone or something with your index finger is considered impolite and aggressive, as it resembles a gesture of accusation or blame. Instead, use an open hand or a subtle nod of the head to indicate direction or refer to people. This rule applies broadly across Chinese society, though younger generations in urban areas may be more lenient in casual settings.",
-  "local_tip": "When you need to indicate a person or object, gesture with your whole hand (palm up or slightly cupped) rather than a single finger.",
-  "regional_note": "In rural or traditional communities, pointing with a finger is even more strongly frowned upon, while in cosmopolitan cities like Shanghai or Beijing, younger people may accept it among friends.",
+  "verdict_label": "Open hand is more polite",
+  "confidence": "medium",
+  "explanation": "Pointing directly at a person with a single extended index finger can come across as aggressive or accusatory in China; the more polite convention is to gesture with an open hand, palm up, toward the person or object. It's a matter of perceived rudeness rather than a severe taboo, and younger, more casual settings are more forgiving of it.",
+  "local_tip": "When indicating a person or direction, use an open hand gesture instead of a single pointed finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Pointing with a finger is considered very rude; use an open hand or a gentle wave instead."
+      "verdict": "caution",
+      "note": "Pointing with a finger is seen as impolite; gesturing with an open hand is preferred."
     },
     {
       "country": "Indonesia",
-      "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or an open hand to indicate direction."
+      "verdict": "caution",
+      "note": "Index-finger pointing is considered impolite; using the thumb to indicate direction is the common alternative."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Pointing with the index finger is generally acceptable in casual contexts, though it can be seen as blunt in formal settings."
+      "note": "Pointing with the index finger is common and generally unremarkable in casual settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Dos and Don'ts of Chinese Hand Gestures - The Chairman's Bao",
+      "url": "https://www.thechairmansbao.com/gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "Chinese Pointing Explained: Meaning, Culture, Usage - Prepedu",
+      "url": "https://prepedu.com/en/blog/chinese-pointing",
+      "kind": "community"
     }
   ]
 }

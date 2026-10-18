@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid if possible",
-  "confidence": "high",
-  "explanation": "In Thailand, the left hand is traditionally considered unclean because it is used for personal hygiene. While modern Thais are generally understanding of foreigners, using the left hand to eat, especially in formal or rural settings, can be seen as disrespectful. It is best to use the right hand or utensils.",
-  "local_tip": "If you must use your left hand, pair it with a utensil like a fork or spoon to avoid causing offense.",
-  "regional_note": "In southern Thailand, where Muslim communities are larger, the left-hand taboo is more strictly observed due to Islamic customs.",
+  "verdict_label": "Use your right hand",
+  "confidence": "medium",
+  "explanation": "The left hand is traditionally considered unclean in Thailand, so food eaten directly by hand (like sticky rice) and anything passed or received, such as money, should use the right hand. This mainly matters when eating without utensils; at an ordinary meal Thais conventionally hold the fork in the left hand and the spoon in the right, so using your left hand to push food onto the spoon is completely normal.",
+  "local_tip": "Use your right hand for anything eaten by hand or passed to someone, but don't worry about which hand holds your fork — spoon in the right, fork in the left, is standard Thai table manners.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is considered highly impolite, as it is reserved for bathroom use."
+      "note": "Eating with the left hand is considered highly impolite, as it is reserved for personal hygiene."
     },
     {
-      "country": "Morocco",
+      "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "The left hand is avoided for eating, especially in traditional settings, for the same hygiene reasons."
+      "note": "The left hand is reserved for hygiene and should not be used for eating or passing food."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Using the left hand is generally acceptable, as chopsticks are the norm and hand use is rare."
+      "note": "Hand-eating is rare and chopstick use makes which hand you favor largely irrelevant."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thai Culture: Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/thai-culture/thai-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Table Manners",
+      "url": "https://mythailand.blog/2018/12/13/thai-table-manners/",
+      "kind": "community"
+    },
+    {
+      "title": "Bizarre dining etiquette rules around the world",
+      "url": "https://www.foxnews.com/travel/bizarre-dining-etiquette-rules-around-the-world",
+      "kind": "reference"
     }
   ]
 }

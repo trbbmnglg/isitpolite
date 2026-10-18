@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "No left-hand stigma",
+  "verdict_label": "No stigma on either hand",
   "confidence": "high",
-  "explanation": "In the United Kingdom, there is no cultural taboo against eating with the left hand. British dining etiquette focuses on using utensils properly, with the fork held in the left hand and knife in the right while cutting, then switching the fork to the right hand to eat (the 'zigzag' method), but the hand itself carries no stigma.",
-  "local_tip": "Hold your fork in your left hand and knife in your right when cutting, then either switch the fork to your right hand to eat or keep it in your left—both are acceptable in modern UK dining.",
+  "explanation": "There is no cultural taboo in the UK against eating or handling food with the left hand. British table manners focus on using the knife and fork correctly: fork in the left hand and knife in the right while cutting, then either keeping the fork in the left hand ('Continental' style) or switching it to the right hand to eat ('American' style) - both are acceptable, and the choice of hand carries no stigma.",
+  "local_tip": "Hold your fork in your left hand and knife in your right when cutting; either keep the fork in your left hand to eat or switch it to your right - both styles are normal in the UK.",
   "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "The left hand is considered unclean for eating; always use the right hand for handling food."
+      "note": "The left hand is traditionally considered unclean for eating; the right hand is used for handling and eating food."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Eating with the left hand is strongly discouraged; the right hand is used for all eating and greeting."
+      "note": "Eating or passing food with the left hand is discouraged; the right hand is used for eating and greeting."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "No hand preference for eating; chopsticks are used, and left-handedness is accepted without stigma."
+      "note": "There is no hand taboo; chopsticks are used with either hand and left-handedness carries no stigma."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Commisceo Global - United Kingdom Country Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/uk-guide",
+      "kind": "reference"
     }
   ]
 }

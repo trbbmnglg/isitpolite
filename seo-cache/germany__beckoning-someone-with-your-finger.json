@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Considered impolite gesture",
-  "confidence": "high",
-  "explanation": "In Germany, beckoning someone with your index finger is seen as condescending and disrespectful, akin to calling a dog. It is generally reserved for summoning animals or children, not adults in social or professional settings.",
-  "local_tip": "To call someone over politely, use an open hand with palm facing down and wave all fingers together, or simply approach them directly.",
+  "verdict": "caution",
+  "verdict_label": "Can seem brusque or rude",
+  "confidence": "medium",
+  "explanation": "Curling a single finger to call someone over can come across as brusque, commanding, or rude in Germany - more like summoning a pet than a person - but it isn't the severe taboo it is in parts of Asia. Germans more commonly wave with an open hand or simply call out to the person.",
+  "local_tip": "Wave with an open hand, palm toward the person, or just say their name, instead of curling a single finger to beckon them.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with the index finger is considered very rude; instead, use an open hand with palm down and a gentle waving motion."
+      "note": "Beckoning with a single curled finger is considered very rude; an open hand with the palm down and fingers waved together is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "Beckoning with a finger is highly offensive and can be seen as a challenge; use a hand gesture with palm down and fingers moving together."
+      "note": "Beckoning with a finger is seen as highly offensive and is even historically associated with calling animals; an open-hand, palm-down wave is the polite alternative."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common among friends, it can be perceived as rude or dismissive in formal contexts; a verbal invitation is safer."
+      "note": "Common among friends, but it can come across as rude or dismissive in formal settings; a verbal invitation is safer."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Traditional Gestures Around The World That Mean The Opposite In The US - WorldAtlas",
+      "url": "https://www.worldatlas.com/articles/traditional-gestures-around-the-world-that-mean-the-opposite-in-the-us.html",
+      "kind": "community"
+    },
+    {
+      "title": "Common hand gestures to avoid abroad - Babbel",
+      "url": "https://www.babbel.com/en/magazine/common-hand-gestures-to-avoid-abroad",
+      "kind": "community"
     }
   ]
 }

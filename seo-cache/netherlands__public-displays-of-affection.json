@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Subtle affection is fine",
-  "confidence": "medium",
-  "explanation": "In the Netherlands, public displays of affection such as hand-holding or a quick kiss are generally acceptable in social gatherings, but more intimate or prolonged gestures can make locals uncomfortable due to the Dutch value of personal space and modesty. The culture is pragmatic and reserved, so overt romantic displays are often seen as unnecessary or attention-seeking.",
-  "local_tip": "Keep physical affection brief and low-key—a light hug or a peck on the cheek is fine, but avoid passionate kissing or prolonged embraces in group settings.",
-  "regional_note": "In more conservative rural areas or among older generations, even mild PDA may be frowned upon, while in cosmopolitan cities like Amsterdam it is more relaxed.",
+  "verdict_label": "Mild affection fine, not overt",
+  "confidence": "low",
+  "explanation": "Light affection such as hand-holding or a quick kiss between couples is unremarkable in Dutch public life, consistent with a generally relaxed, pragmatic culture. More prolonged or overt displays aren't illegal or shocking, but can draw a little more attention in a culture that otherwise favors reserved, understated public behavior.",
+  "local_tip": "Keep public affection brief and low-key, and take your cues from how comfortable the locals around you seem.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "United Arab Emirates",
       "verdict": "rude",
-      "note": "Public displays of affection, even hand-holding, are illegal and can lead to fines or arrest."
+      "note": "Public displays of affection, even hand-holding, can be illegal and lead to fines or arrest."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheeks as a greeting and casual PDA are widely accepted and common."
+      "note": "Cheek kissing as a greeting and casual affection between couples are widely accepted and common in public."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Public displays of affection are rare and considered impolite; even hand-holding is discreet."
+      "note": "Public displays of affection are uncommon and can draw attention; even hand-holding tends to be discreet."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Netherlands Guide (Business Culture)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/netherlands-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Dutch Business Etiquette Guide",
+      "url": "https://trykaiwa.com/blog/dutch-business-etiquette-guide-2026",
+      "kind": "community"
+    },
+    {
+      "title": "Foreign travel advice: Netherlands - local laws and customs",
+      "url": "https://www.gov.uk/foreign-travel-advice/netherlands/local-laws-and-customs",
+      "kind": "reference"
     }
   ]
 }

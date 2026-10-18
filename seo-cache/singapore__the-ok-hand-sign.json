@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable gesture",
-  "confidence": "high",
-  "explanation": "In Singapore, the OK hand sign is widely understood as a positive gesture meaning 'good' or 'okay,' influenced by Western media and English usage. It is commonly used in everyday interactions without negative connotations. However, it is not deeply rooted in local culture and may be seen as informal or casual.",
-  "local_tip": "Use the OK sign in casual settings like hawker centers or with friends, but avoid it in formal business meetings where a verbal confirmation is preferred.",
-  "regional_note": "Among older generations or in more traditional Chinese contexts, the gesture is neutral but less common; no significant regional variation exists.",
+  "verdict_label": "Understood as positive",
+  "confidence": "medium",
+  "explanation": "The OK hand sign is understood in Singapore the same way as in most Western countries - meaning \"okay\" or \"good\" - without the offensive connotations it carries in places like Brazil or Turkey. It's used casually and isn't flagged as a taboo gesture in Singapore-specific etiquette guides.",
+  "local_tip": "Feel free to use the OK sign casually; it's not considered rude or vulgar in Singapore the way it is in some other countries.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "Considered an offensive gesture equivalent to a vulgar insult."
+      "note": "The OK sign is a vulgar insult, roughly equivalent to showing the middle finger."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "Often interpreted as a homophobic insult."
+      "note": "The gesture can be read as a derogatory insult in some contexts."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Commonly used to mean 'OK' or 'money,' but context matters."
+      "note": "Commonly understood to mean 'okay' or sometimes 'money,' with no offensive connotation."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Communication (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Offensive Gestures by Country - World Population Review",
+      "url": "https://worldpopulationreview.com/country-rankings/offensive-gestures-in-other-countries",
+      "kind": "community"
     }
   ]
 }

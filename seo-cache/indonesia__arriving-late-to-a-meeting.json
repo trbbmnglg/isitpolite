@@ -1,10 +1,10 @@
 {
   "verdict": "caution",
-  "verdict_label": "Tolerated but not ideal",
+  "verdict_label": "Punctuality valued, some flexibility",
   "confidence": "medium",
-  "explanation": "In Indonesian business culture, punctuality is valued for formal meetings, especially with senior officials or foreign partners, but a relaxed attitude toward time (often called 'jam karet' or rubber time) is common in less formal settings. Arriving 5–15 minutes late may be forgiven, but habitual lateness or arriving more than 15 minutes late without prior notice is considered disrespectful and unprofessional.",
-  "local_tip": "Always aim to arrive on time for meetings with government officials or senior executives, but if you are running late, send a brief apology via message or call at least 10 minutes before the scheduled start.",
-  "regional_note": "In Java, especially Yogyakarta and Surakarta, a more hierarchical and formal approach to time may be expected, while in Bali or outer islands, punctuality may be more relaxed.",
+  "explanation": "Formal meetings, especially with government officials, senior executives, or foreign partners, call for punctuality in Indonesia, while a more relaxed attitude toward time — often nicknamed 'jam karet' (rubber time) — is common in informal or social settings. Hierarchy also matters: being late to meet someone senior is viewed less favorably than minor lateness among peers. It's safest to aim for on-time arrival and give notice if delayed.",
+  "local_tip": "Arrive on time for formal or government meetings, and if you're running late, send a brief message ahead rather than showing up without warning.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
@@ -14,12 +14,25 @@
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Germans value punctuality highly; lateness is seen as disrespectful."
+      "note": "Punctuality is highly valued; lateness is seen as disrespectful."
     },
     {
       "country": "Brazil",
       "verdict": "caution",
-      "note": "Lateness of 15–30 minutes is common in social settings but less acceptable for formal business meetings."
+      "note": "Lateness of 15-30 minutes is common socially but less acceptable for formal business meetings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Indonesian Work Culture: A Practical Guide for Foreign Businesses and Founders",
+      "url": "https://www.zenind.com/help/post/indonesian-work-culture-a-practical-guide-for-foreign-businesses-and-founders",
+      "kind": "community"
+    },
+    {
+      "title": "Indonesia Cultural Protocol: These Etiquette Rules Will Help Advance Your Business",
+      "url": "https://silkroadtoday.com/business/indonesia-cultural-protocol-etiquette-business",
+      "kind": "community"
     }
   ]
 }

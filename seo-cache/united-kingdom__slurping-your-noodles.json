@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Avoid slurping noodles",
+  "verdict_label": "Quiet eating expected",
   "confidence": "high",
-  "explanation": "In the United Kingdom, eating quietly is considered good table manners, and slurping noodles is generally viewed as impolite and disruptive in dining settings. British dining etiquette emphasizes minimal noise while eating, so slurping is associated with a lack of refinement. This norm is consistent across most restaurants, from casual to formal.",
-  "local_tip": "To eat noodles politely in the UK, twirl them discreetly around your fork or spoon and take small, quiet bites.",
+  "explanation": "Eating quietly is a core part of British table manners, and slurping noodles or soup is generally seen as impolite and a bit uncouth. This isn't specific to noodles - Western table manners broadly discourage making noise with food or cutlery - so the norm applies in both casual and formal UK dining settings.",
+  "local_tip": "Twirl noodles discreetly around your fork or spoon and eat quietly, as you would with any other dish in the UK.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a sign of appreciation and enhances the flavor, especially for ramen and soba."
+      "note": "Slurping noodles like ramen or soba is a sign of enjoyment and is not considered rude."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping noodles is common and indicates enjoyment, though it may be less acceptable in very formal settings."
+      "note": "Slurping noodles is common and seen as showing appreciation, though it may be toned down in very formal settings."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very bad manners; pasta should be eaten silently by twirling it on a fork."
+      "note": "Slurping pasta is considered poor manners; pasta is twirled onto a fork and eaten quietly."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette",
+      "kind": "reference"
     }
   ]
 }

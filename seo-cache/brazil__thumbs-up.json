@@ -1,25 +1,43 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Common positive gesture",
   "confidence": "high",
-  "explanation": "In Brazil, the thumbs-up gesture is widely used and understood as a positive sign of approval, agreement, or 'okay.' It is common in everyday interactions, from casual conversations to business settings, and is considered friendly and polite.",
-  "local_tip": "Use the thumbs-up freely to express agreement or satisfaction, but avoid pairing it with an overly aggressive or sarcastic tone.",
+  "explanation": "Thumbs-up is one of the safest, most widely used positive gestures in Brazil, signaling approval or that everything is fine, in both casual and business settings. It has also become the preferred way to say 'okay' precisely because the circular OK hand sign is considered vulgar in Brazil.",
+  "local_tip": "Use a thumbs-up freely to show approval or agreement — it is understood and welcomed in almost any context, from traffic to business meetings.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
       "verdict": "rude",
-      "note": "The thumbs-up is considered an offensive insult, similar to a middle finger."
+      "note": "The thumbs-up can be read as an insult comparable to the middle finger."
     },
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "It is interpreted as an obscene gesture, equivalent to 'up yours.'"
+      "note": "The gesture is widely seen as obscene, roughly equivalent to 'up yours'."
     },
     {
-      "country": "Nigeria",
-      "verdict": "rude",
-      "note": "In some regions, it is seen as a rude or dismissive gesture, though usage varies."
+      "country": "Afghanistan",
+      "verdict": "caution",
+      "note": "The gesture can be seen as rude or offensive by some, particularly older generations, so a nod or verbal thanks is safer."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thumb signal - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian Culture - Communication, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Portuguese cultural gestures & body language, Kaiwa",
+      "url": "https://trykaiwa.com/blog/portuguese-cultural-gestures-body-language-realistic",
+      "kind": "community"
     }
   ]
 }

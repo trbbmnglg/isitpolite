@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid head patting",
-  "confidence": "high",
-  "explanation": "In Russia, patting someone on the head is considered patronizing and disrespectful, as the head is viewed as a sacred part of the body. This gesture is typically reserved for small children or pets, and doing it to an adult can be seen as an insult to their dignity.",
-  "local_tip": "Instead of touching the head, offer a firm handshake or a nod to show respect in social gatherings.",
+  "verdict": "caution",
+  "verdict_label": "Informal, can seem patronizing",
+  "confidence": "low",
+  "explanation": "Unlike Buddhist cultures such as Thailand, where the head is considered spiritually sacred, Russian culture has no documented religious or folk taboo against touching the head. That said, patting an adult on the head is still generally seen as overly familiar or condescending outside of close relationships, much as it would be in most Western countries.",
+  "local_tip": "Avoid patting an adult's head unless you're close friends or family; a handshake or a pat on the shoulder is a safer default.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred part of the body in Thai culture, and touching it is a major taboo."
+      "note": "The head is considered the most sacred part of the body, and touching it is a major taboo."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "While patting a child's head may be acceptable, touching an adult's head is generally avoided due to spiritual beliefs about the head being sacred."
+      "note": "Touching an adult's head is generally avoided due to spiritual beliefs about the head, though patting a child's head is common."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Patting someone on the head can be seen as condescending or overly familiar, though it may be acceptable among close friends or in playful contexts."
+      "note": "Patting someone on the head can read as condescending outside of close friendships or family."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Russian Culture: Do's and Don'ts",
+      "url": "https://culturalatlas.sbs.com.au/russian-culture/russian-culture-do-s-and-don-ts",
+      "kind": "reference"
+    },
+    {
+      "title": "Non-verbal confusion #2: Once more unto the breach",
+      "url": "https://trans-siberian.co.uk/blog/russian-gestures/",
+      "kind": "community"
     }
   ]
 }

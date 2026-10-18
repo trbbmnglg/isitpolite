@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Common social greeting",
+  "verdict_label": "Standard between friends",
   "confidence": "high",
-  "explanation": "In Spain, kissing on both cheeks (starting with the left) is the standard greeting among friends, family, and acquaintances at social gatherings. It is a warm, informal gesture that signifies closeness and is widely practiced across the country.",
-  "local_tip": "When greeting, lean in and lightly touch cheeks while making a kissing sound—actual lip contact is not required.",
-  "regional_note": "In more formal or business settings, a handshake may be preferred, and some younger generations in urban areas may opt for a single cheek kiss or a hug.",
+  "explanation": "Two light cheek-to-cheek kisses are the standard greeting in Spain between women, and between men and women, once you're past a first, formal introduction. In business or when meeting someone for the first time, a handshake is the norm, and it tends to stay that way for men meeting men, though colleagues often shift to cheek kisses once a working relationship becomes personal.",
+  "local_tip": "Lean in and touch cheeks on both sides with a light kissing sound — no actual lip contact — and default to a handshake in a first business meeting or with men you don't know well.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Kissing on the cheek is not customary; bowing or a handshake is the norm."
+      "note": "Cheek kissing isn't customary; a bow or handshake is the standard greeting instead."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "La bise (cheek kissing) is common, but the number of kisses varies by region (typically two to four)."
+      "note": "La bise is standard, though the number of kisses (typically two to four) varies by region."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Kissing on the cheek between men is acceptable among close friends, but between opposite genders in public is generally avoided."
+      "note": "Cheek kissing between men who are close friends is common, but any greeting involving touch between unrelated men and women in public is generally avoided."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Getting the kisses wrong",
+      "url": "https://www.thelocal.es/20210329/the-most-common-mistakes-foreigners-make-when-greeting-people-in-spain",
+      "kind": "reference"
+    },
+    {
+      "title": "Spanish Social Etiquette",
+      "url": "https://www.expatica.com/es/living/integration/spanish-humor-108526",
+      "kind": "reference"
     }
   ]
 }

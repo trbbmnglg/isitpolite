@@ -2,24 +2,37 @@
   "verdict": "polite",
   "verdict_label": "Left hand is fine",
   "confidence": "high",
-  "explanation": "In Germany, there is no cultural stigma against eating with the left hand; both hands are used interchangeably at the table, and cutlery is the norm for most meals. The left-hand taboo is primarily associated with Islamic and Hindu cultures, not German customs.",
-  "local_tip": "Feel free to use either hand for bread or snacks, but always use a knife and fork for main courses, holding the fork in your left hand and knife in your right.",
+  "explanation": "There is no stigma around the left hand in German dining. German table manners follow the Continental style, where the fork stays in the left hand and the knife in the right for the whole meal, unlike the American habit of switching utensils between hands. The left-hand taboo found in parts of South Asia, the Middle East, and Africa simply doesn't apply in Germany.",
+  "local_tip": "Keep your fork in your left hand and knife in your right throughout the meal rather than switching hands American-style, and keep both hands visible above the table.",
   "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Using the left hand for eating is considered unclean, as it is traditionally used for hygiene purposes."
+      "note": "The left hand is traditionally reserved for hygiene tasks, so eating or passing food with it is considered unclean."
     },
     {
-      "country": "Morocco",
+      "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Eating with the left hand is avoided in traditional settings, especially when sharing communal dishes."
+      "note": "The left hand is seen as impure, so using it to eat or share food, especially from a communal dish, is disrespectful."
     },
     {
       "country": "Indonesia",
       "verdict": "caution",
-      "note": "In Muslim-majority areas, the left hand is considered impure for eating, though in urban or non-religious contexts it may be overlooked."
+      "note": "In Muslim-majority areas the left hand is considered unsuitable for eating, though attitudes are more relaxed in secular, urban settings."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Oh fork: The German dining etiquette Americans might struggle with - The Local",
+      "url": "https://www.thelocal.com/20191016/oh-fork-the-joys-and-shocks-of-german-dining-customs-as-an-american",
+      "kind": "reference"
+    },
+    {
+      "title": "Germany Guide - Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/germany-guide",
+      "kind": "reference"
     }
   ]
 }

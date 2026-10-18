@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful and offensive",
-  "confidence": "high",
-  "explanation": "In France, showing the soles of your feet is considered disrespectful because the foot is viewed as a low, unclean part of the body. This gesture can be interpreted as a sign of contempt or dismissal, especially in social or formal settings. It is generally avoided to maintain polite body language.",
-  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and never point your soles toward anyone during conversation.",
+  "verdict": "caution",
+  "verdict_label": "Keep feet off furniture",
+  "confidence": "medium",
+  "explanation": "France has no taboo about the soles of the feet specifically — that belief comes from Thai, South Asian, and Middle Eastern cultures, where the foot is considered unclean. In France it's simply a matter of general manners: propping your feet on a table, chair, or the seat across from you (e.g. on a train) is seen as inconsiderate and a little crude, not a deep insult.",
+  "local_tip": "Keep your feet on the floor in social, dining, and public-transport settings, and don't put them up on furniture — but don't worry about which way your soles happen to point.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and most unclean part of the body; pointing soles at someone or touching them with feet is a grave insult."
-    },
-    {
-      "country": "United States",
-      "verdict": "polite",
-      "note": "Showing the soles of your feet (e.g., putting feet up on a coffee table) is generally casual and not offensive, though context matters."
+      "note": "The feet are considered the lowest, most unclean part of the body; pointing the soles at someone or touching them with a foot is a serious insult."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Showing the soles of your feet is highly disrespectful as the foot is considered unclean; it can be seen as an insult or provocation."
+      "note": "Showing the soles of your feet to someone is considered highly disrespectful, as the foot is viewed as unclean."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Putting feet up casually (e.g. on a coffee table at home) is generally unremarkable, though it depends on the setting and whose furniture it is."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Most Interesting Etiquette Facts from Around the World",
+      "url": "https://luxebeatmag.com/interesting-etiquette-facts-around-world",
+      "kind": "community"
+    },
+    {
+      "title": "French Culture — Etiquette (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/french-culture/french-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

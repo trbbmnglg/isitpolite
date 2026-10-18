@@ -2,24 +2,37 @@
   "verdict": "rude",
   "verdict_label": "Punctuality is expected",
   "confidence": "high",
-  "explanation": "In Singapore's business culture, punctuality is a sign of respect and professionalism. Arriving late to a meeting is generally considered rude and can damage your credibility, as Singaporeans value efficiency and time management. This standard applies across most industries, though a few minutes' grace may be given for unforeseen circumstances if communicated in advance.",
-  "local_tip": "Always aim to arrive 5–10 minutes early for a meeting, and if you are delayed, notify the host immediately via message or call.",
+  "explanation": "Singapore's business culture places a high value on punctuality, and arriving late to a meeting is seen as a lack of respect for the other person's time. If you're unavoidably delayed, calling or messaging ahead is expected and softens the impact considerably.",
+  "local_tip": "Aim to arrive 5-10 minutes early, and if you're running late, notify your host as soon as you know rather than waiting until the meeting time has passed.",
   "regional_note": "",
   "also_check": [
     {
-      "country": "Brazil",
-      "verdict": "caution",
-      "note": "In Brazil, arriving 15–30 minutes late to a business meeting is often tolerated, especially in more relaxed settings, but it's safer to be punctual for first meetings."
-    },
-    {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Japan has an even stricter punctuality norm; arriving even one minute late can be seen as disrespectful and may require a formal apology."
+      "note": "Punctuality norms are even stricter; arriving even a few minutes late is seen as disrespectful and often requires a sincere apology."
     },
     {
-      "country": "Saudi Arabia",
+      "country": "Brazil",
       "verdict": "caution",
-      "note": "In Saudi Arabia, business meetings may start later than scheduled due to flexible time perceptions, but it's still respectful to arrive on time and wait patiently."
+      "note": "Social gatherings allow more flexibility, but arriving late to a first business meeting is still risky."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "caution",
+      "note": "Social events often start later than scheduled, but business meetings generally still expect punctuality."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Singaporean Culture - Etiquette (Cultural Atlas)",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Laws and Etiquette to Keep in Mind on a Business Trip to Singapore",
+      "url": "https://smbceo.com/2020/09/22/laws-and-etiquette-to-keep-in-mind-on-a-business-trip-to-singapore/",
+      "kind": "reference"
     }
   ]
 }

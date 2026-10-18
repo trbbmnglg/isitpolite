@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not expected, rarely required",
-  "confidence": "high",
-  "explanation": "In the United Kingdom, removing shoes indoors is not a universal custom and is generally reserved for specific situations such as when entering someone's home with visibly muddy or wet footwear, or if the host explicitly requests it. Most British people keep their shoes on indoors, and automatically removing them without being asked can sometimes be seen as odd or overly familiar. The practice is more common in households with young children, new carpets, or among certain regional or generational groups, but it is not a standard expectation.",
-  "local_tip": "Always wait for the host to indicate whether they prefer shoes off or on, and follow their lead without assuming.",
-  "regional_note": "In Scotland and Northern Ireland, shoe removal is slightly more common in rural homes or during bad weather, but still not a default rule.",
+  "verdict_label": "Depends on the household",
+  "confidence": "medium",
+  "explanation": "There's no single UK-wide rule on shoes indoors - it depends on the household, and the split is more generational than universal. A 2025 survey found 78% of 18-34 year-olds have a 'shoes-off' rule at home, compared with only 51% of those over 55, so younger and more recently-renovated homes increasingly expect shoes off, while others genuinely don't mind. Removing your shoes unprompted is never wrong, but insisting on it when a host waves it off can feel oddly formal.",
+  "local_tip": "If unsure, ask 'Should I take my shoes off?' when you arrive, or simply follow what the host and other guests do.",
+  "regional_note": "Shoe removal is somewhat less common in rural homes, partly because cold stone floors and frequent trips between the house and garden make it less practical.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Removing shoes at the entrance is a strict cultural rule, and indoor slippers are often provided."
-    },
-    {
-      "country": "United States",
-      "verdict": "caution",
-      "note": "Shoe removal is common in many homes, especially in colder regions or with light-colored carpets, but not universal."
+      "note": "Removing shoes at the entrance is a strict, near-universal rule, and indoor slippers are usually provided."
     },
     {
       "country": "Germany",
       "verdict": "polite",
-      "note": "Most Germans remove shoes upon entering a home, and hosts often offer house slippers."
+      "note": "Most Germans remove shoes on entering a home, and hosts often offer house slippers."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Similarly variable by household and region - common in many homes, especially colder areas, but not universal."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Shoes in the house - Wikipedia (citing The Daily Telegraph, 2025)",
+      "url": "https://en.wikipedia.org/wiki/Shoes_in_the_house",
+      "kind": "reference"
+    },
+    {
+      "title": "Commisceo Global - United Kingdom Country Guide",
+      "url": "https://www.commisceo-global.com/resources/country-guides/uk-guide",
+      "kind": "reference"
     }
   ]
 }

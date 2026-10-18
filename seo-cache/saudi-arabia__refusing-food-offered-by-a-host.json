@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Refusing is disrespectful",
+  "verdict_label": "Accept first, shake cup to stop",
   "confidence": "high",
-  "explanation": "In Saudi Arabian culture, especially when meeting a family, offering food is a profound gesture of hospitality and generosity. Refusing it can be seen as a rejection of the host's goodwill and may cause offense, as sharing meals is central to building trust and social bonds.",
-  "local_tip": "Always accept at least a small portion of food or drink, and if you must decline, do so gently with a polite excuse like 'I just ate, but thank you so much.'",
-  "regional_note": "In more conservative or traditional families, especially in rural areas or among older generations, refusal is even more strongly frowned upon; in urban or younger circles, a polite decline may be more tolerated but still best avoided.",
+  "explanation": "Declining a host's initial offer of food or coffee in Saudi Arabia is seen as rejecting their hospitality (hafawa) and can cause real offense, so it's customary to accept at least a token amount. For Arabic coffee specifically, there's a built-in way to stop refills politely: gently shake your empty cup from side to side as you hand it back, rather than verbally declining.",
+  "local_tip": "Accept the first offer of coffee or food, and when you've had enough coffee, shake the cup lightly as you return it instead of saying no.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Refusing food is generally impolite, but it can be acceptable if done with elaborate apologies and a clear reason, as hosts often insist multiple times."
+      "note": "A polite decline with a brief apology is acceptable, though hosts may insist once or twice first."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Refusing food offered by a host, especially in a family setting, is considered very rude because it rejects the host's care and generosity."
+      "note": "Refusing food from a host is seen as rejecting their hospitality and effort."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "It is generally polite to politely refuse if you are full or have dietary restrictions, and hosts often expect guests to feel free to decline without offense."
+      "note": "Politely declining if full or restricted by diet is generally fine, and hosts don't typically take offense."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tips for women travelling to Saudi",
+      "url": "https://visitsaudi.com/en/stories/tips-for-women-traveling-to-saudi",
+      "kind": "reference"
+    },
+    {
+      "title": "Brewing a tradition of honour and trust",
+      "url": "https://gulf-times.com/story/416875/brewing-a-tradition-of-honour-and-trust",
+      "kind": "reference"
     }
   ]
 }

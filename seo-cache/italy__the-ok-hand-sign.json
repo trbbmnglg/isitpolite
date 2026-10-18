@@ -1,25 +1,33 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally acceptable gesture",
-  "confidence": "high",
-  "explanation": "In Italy, the OK hand sign (thumb and index finger forming a circle) is widely understood as a positive gesture meaning 'okay', 'good', or 'perfect', and is considered polite in everyday contexts. It is commonly used in casual conversation, dining, and business settings without causing offense. Unlike in some other cultures, it does not carry vulgar or negative connotations in Italy.",
-  "local_tip": "Use the OK sign confidently when agreeing with someone or indicating that something is fine, but avoid making it too large or exaggerated to maintain naturalness.",
-  "regional_note": "",
+  "verdict_label": "Positive, means okay or perfect",
+  "confidence": "medium",
+  "explanation": "The OK hand sign is understood positively in Italy, meaning 'fine,' 'perfect,' or agreement, with no vulgar connotation of the kind found in some neighboring Mediterranean countries. It's used comfortably in casual, dining, and business contexts alike.",
+  "local_tip": "Use the OK sign naturally to confirm agreement or approval — it won't cause offense the way it might in Turkey or Brazil.",
+  "regional_note": "In Naples it also has an old folk meaning: an upturned circle once symbolized love or marriage, a downturned one justice, though this is largely historical trivia today.",
   "also_check": [
     {
       "country": "Brazil",
       "verdict": "rude",
-      "note": "The OK sign is considered offensive and vulgar, similar to an obscene gesture."
+      "note": "The OK sign is considered vulgar, resembling an obscene gesture."
     },
     {
       "country": "Turkey",
       "verdict": "rude",
-      "note": "It can be interpreted as a homophobic insult or a vulgar reference to a body part."
+      "note": "It can be read as a homophobic insult or vulgar reference."
     },
     {
       "country": "France",
-      "verdict": "polite",
-      "note": "Generally means 'zero' or 'okay', but context matters; it is not offensive."
+      "verdict": "caution",
+      "note": "In the south it can mean 'zero' or 'worthless'; the positive 'OK' meaning is more common in the north."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "OK gesture",
+      "url": "https://en.wikipedia.org/wiki/OK_gesture",
+      "kind": "reference"
     }
   ]
 }

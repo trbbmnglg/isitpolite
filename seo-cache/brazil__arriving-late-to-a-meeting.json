@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Flexible but not encouraged",
+  "verdict_label": "Flexible socially, less so at work",
   "confidence": "medium",
-  "explanation": "In Brazilian business culture, arriving 10–15 minutes late to a meeting is often tolerated, especially in Rio de Janeiro and São Paulo, due to a more relaxed view of time. However, for important meetings with senior executives or foreign partners, punctuality is expected to show respect and professionalism. The practice varies by industry and region, with the Northeast tending to be more relaxed than the South.",
-  "local_tip": "Aim to arrive on time or within 5 minutes for first meetings or with high-level contacts, but expect some flexibility from local counterparts.",
-  "regional_note": "In São Paulo and the South, punctuality is more valued; in the Northeast and Rio, lateness up to 15 minutes is more common.",
+  "explanation": "Brazil is often described as running on 'hora brasileira' (Brazilian time) — for a social gathering or a visit to someone's home, arriving 15-30 minutes after the stated time is normal and not considered rude, and arriving exactly on time can even seem premature. Business meetings are different: Brazilians typically schedule in advance and increasingly expect punctuality, especially with senior executives, international partners, or in more formal industries.",
+  "local_tip": "For business, aim to arrive on time or within a few minutes; for a purely social invitation to a home, treat the stated time as a loose guideline rather than a deadline.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Punctuality is strictly observed; even one minute late is considered disrespectful."
+      "note": "Punctuality is strictly observed; even a few minutes late is considered disrespectful."
     },
     {
       "country": "Germany",
       "verdict": "rude",
-      "note": "Being late is seen as unprofessional and a sign of poor planning."
+      "note": "Being late is seen as unprofessional and reflects poorly on planning."
     },
     {
       "country": "Mexico",
       "verdict": "polite",
-      "note": "Arriving 15–30 minutes late to social or business meetings is often expected and not seen as rude."
+      "note": "Arriving somewhat late to social gatherings is common and generally not seen as rude."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Polychronicity - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Polychronicity",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazil Business Culture Guide, Commisceo Global",
+      "url": "https://www.commisceo-global.com/resources/country-guides/brazil-guide",
+      "kind": "reference"
     }
   ]
 }

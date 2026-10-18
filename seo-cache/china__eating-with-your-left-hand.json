@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Left hand not preferred",
-  "confidence": "high",
-  "explanation": "In China, eating with the left hand is not inherently rude, but it may be seen as awkward or less hygienic because the left hand is traditionally associated with personal hygiene tasks in many cultures, including China. However, this is not a strict rule, and most Chinese people use their right hand for eating, especially when using chopsticks, as the left hand is often used to hold the bowl. The practice is more about convenience and habit than a deep taboo.",
-  "local_tip": "If you are right-handed, use your right hand to hold chopsticks and your left hand to hold the bowl; if left-handed, it is generally acceptable to use your left hand, but be mindful that some older or more traditional individuals may find it unusual.",
-  "regional_note": "In Muslim-majority regions like Xinjiang, eating with the left hand is considered impolite due to Islamic customs, where the left hand is reserved for cleaning.",
+  "verdict": "polite",
+  "verdict_label": "Fine, no real taboo",
+  "confidence": "medium",
+  "explanation": "China has no hygiene-based taboo on the left hand like South Asia or the Middle East. Chopsticks were traditionally held in the right hand mainly to avoid elbows and sticks colliding with neighbors at a shared table, not because the left hand was considered unclean, and left-handed chopstick use is increasingly common and accepted today.",
+  "local_tip": "Use whichever hand feels natural for your chopsticks; if you're left-handed, just be mindful of your elbow room at a crowded table.",
+  "regional_note": "In Xinjiang and other Muslim-majority areas of China, broader Islamic custom can make the left hand less preferred for eating, similar to Muslim practice elsewhere.",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is considered unclean as it is used for bathroom hygiene; always use the right hand for eating."
+      "note": "The left hand is reserved for bathroom hygiene, so eating or passing food with it is considered unclean."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "The left hand is strictly for unclean tasks; eating, passing food, or greeting with the left hand is highly offensive."
+      "note": "The left hand is reserved for unclean tasks; eating or passing food with it is considered offensive."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "There is no specific stigma against the left hand; chopstick etiquette focuses on other rules, like not pointing with chopsticks."
+      "note": "There's no stigma on the left hand; chopstick etiquette instead focuses on rules like not pointing or stabbing food with chopsticks."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chopsticks - Ninchanese Blog",
+      "url": "https://ninchanese.com/blog/2013/01/16/chopsticks/",
+      "kind": "community"
+    },
+    {
+      "title": "Chopstick etiquette article - italki",
+      "url": "https://www.italki.com/fr/article/129",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid unless very close",
-  "confidence": "high",
-  "explanation": "In Brazil, patting someone on the head is generally considered condescending or overly intimate, as the head is viewed as a personal and almost sacred space. This gesture is typically reserved for very close family members or romantic partners, and using it in a social gathering can be seen as disrespectful or infantilizing.",
-  "local_tip": "Instead of patting the head, offer a friendly handshake, a light touch on the shoulder, or a hug (abraço) if you know the person well.",
-  "regional_note": "In some Afro-Brazilian religious communities (e.g., Candomblé), the head is considered sacred and touching it without permission is especially offensive.",
+  "verdict_label": "Can seem condescending",
+  "confidence": "medium",
+  "explanation": "Brazil has no special taboo around the head the way Thailand does. Patting an adult you don't know well on the head can still come across as patronizing or overly familiar, much as it would in most Western cultures, but it is not treated as a deep cultural offense. It's fine with children or very close friends.",
+  "local_tip": "Save head-pats for children or close friends; greet adults with a handshake, cheek kiss, or a pat on the shoulder/back instead.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The head is considered the most sacred part of the body; touching it is a major taboo."
+      "note": "The head is considered the most sacred part of the body, and touching it is a serious taboo."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Patting a child's head is often affectionate, but doing so to an adult can be seen as patronizing or disrespectful."
+      "note": "Patting a child's head is often affectionate, but doing so to an adult can read as patronizing."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Patting an adult's head is usually reserved for close friends or family; in professional settings it can be perceived as condescending."
+      "note": "Patting an adult's head is normally reserved for close friends or family; in professional settings it can seem condescending."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

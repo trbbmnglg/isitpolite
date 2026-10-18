@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful gesture",
-  "confidence": "high",
-  "explanation": "In Brazil, showing the soles of your feet is considered highly disrespectful because feet are seen as dirty and lowly. This gesture can be interpreted as an insult, especially in social or formal settings, where it implies contempt or disregard for others.",
-  "local_tip": "Always keep your feet flat on the floor or crossed at the ankles, and avoid pointing your soles toward anyone during conversations or gatherings.",
+  "verdict": "caution",
+  "verdict_label": "Informal, not taboo",
+  "confidence": "medium",
+  "explanation": "Brazil has no cultural taboo around feet being 'unclean,' unlike Thailand or parts of the Middle East. Propping your feet up, sitting cross-legged, or letting your shoe sole show is simply informal body language — fine among friends, but better avoided in a business meeting or someone's home out of general politeness rather than any specific foot-related offense.",
+  "local_tip": "Don't worry about where your soles point; just keep your feet off furniture and tables in formal settings as ordinary good manners.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Thailand",
       "verdict": "rude",
-      "note": "The feet are considered the lowest and most impure part of the body; pointing them at people or sacred objects is a major offense."
+      "note": "The feet are considered the lowest, most impure part of the body; pointing them at people or sacred objects is a serious offense."
     },
     {
       "country": "Egypt",
       "verdict": "rude",
-      "note": "Showing the sole of your foot or shoe is a grave insult, often associated with dirt and disrespect."
+      "note": "Showing the sole of your foot or shoe is a real insult, associated with dirt and disrespect."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While generally not a major issue, putting feet on furniture or pointing soles at someone can be seen as informal or rude in formal settings."
+      "note": "Putting feet on furniture is generally just seen as informal or impolite in formal settings, not deeply offensive."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Brazil - Countries and Their Cultures (everyculture.com)",
+      "url": "https://www.everyculture.com/Bo-Co/Brazil.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Brazilian Culture - Etiquette, The Cultural Atlas",
+      "url": "https://theculturalatlas.org/brazilian-culture/brazilian-culture-etiquette",
+      "kind": "reference"
     }
   ]
 }

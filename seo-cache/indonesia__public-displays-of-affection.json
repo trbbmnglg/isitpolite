@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Avoid in public",
-  "confidence": "high",
-  "explanation": "In Indonesia, public displays of affection such as kissing or prolonged hugging are considered impolite, especially in social gatherings where conservative norms prevail. The country is predominantly Muslim, and modesty in public behavior is highly valued. Even holding hands may be acceptable among married couples, but anything more intimate is likely to draw disapproval.",
-  "local_tip": "At a social gathering, limit physical contact to a polite handshake or a nod, and avoid any romantic gestures until you are in a private setting.",
-  "regional_note": "In more liberal areas like Bali or Jakarta's expat circles, brief displays may be tolerated, but in conservative regions such as Aceh or rural areas, even hand-holding between unmarried couples can be seen as offensive.",
+  "verdict_label": "Keep it modest in public",
+  "confidence": "medium",
+  "explanation": "Indonesia is a conservative, Muslim-majority country where public affection beyond hand-holding is generally frowned upon and norms vary sharply by region. In Aceh, the only province enforcing Islamic sharia law, public affection between unmarried couples can be punished with public caning under the local criminal code. Separately, Indonesia's new national Criminal Code (KUHP), in force from January 2, 2026, criminalizes extramarital sex and cohabitation nationwide, though prosecution requires a formal complaint from a spouse, parent, or child — officials have said it is not intended to target tourists.",
+  "local_tip": "Stick to handshakes, smiles, or at most brief hand-holding in public, and save anything more affectionate for private settings — and be extra cautious in Aceh.",
+  "regional_note": "In Aceh, public affection between unmarried couples can be punished with public caning (up to around 100 strokes under the Qanun Jinayat) because the province enforces its own sharia-based criminal code.",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Kissing on the cheek as a greeting and casual PDA are common and socially accepted."
+      "note": "Casual PDA, including kissing in public, is common and socially accepted."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Any public display of affection between unrelated men and women is strictly forbidden and can lead to legal penalties."
+      "note": "Public affection between unrelated men and women is prohibited and can carry legal penalties."
     },
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "PDA is generally avoided in public; even holding hands may be reserved for private moments."
+      "note": "PDA is generally avoided in public; even hand-holding is often reserved for more private moments."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Indonesia: Unmarried couples caned for public affection",
+      "url": "https://www.amnesty.org.uk/knowledge-hub/all-resources/indonesia-unmarried-couples-caned-public-affection-act-utmost-cruelty/",
+      "kind": "reference"
+    },
+    {
+      "title": "New Criminal Code will come into effect on January 2, 2026",
+      "url": "https://www.idnfinancials.com/cn/news/60036/new-criminal-code-will-come-into-effect-on-january-2-2026",
+      "kind": "reference"
+    },
+    {
+      "title": "Indonesia Criminal Code 2026: Sex Outside Marriage and What Tourists Need to Know",
+      "url": "https://eturbonews.com/indonesia-criminal-code-2026-sex-outside-marriage-and-what-tourists-need-to-know/",
+      "kind": "reference"
     }
   ]
 }

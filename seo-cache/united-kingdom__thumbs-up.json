@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Positive, casual approval sign",
   "confidence": "high",
-  "explanation": "In the United Kingdom, the thumbs-up gesture is widely understood as a positive sign of approval, agreement, or encouragement in everyday contexts. It is commonly used in casual conversation, social media, and even in some professional settings without causing offense.",
-  "local_tip": "Use the thumbs-up freely in informal situations, but avoid it in very formal or traditional settings where a verbal acknowledgment might be more appropriate.",
+  "explanation": "The thumbs-up is understood across the UK as a casual, positive signal of approval, agreement, or encouragement, used in everyday conversation and most professional contexts without causing offense. Its positive use in English-speaking countries is long-established, dating at least to the First World War.",
+  "local_tip": "Use the thumbs-up freely in casual and most professional settings in the UK; it is almost never read as rude.",
   "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
-      "verdict": "rude",
-      "note": "In Greece, the thumbs-up can be interpreted as an offensive insult equivalent to a raised middle finger."
-    },
-    {
-      "country": "Iran",
-      "verdict": "rude",
-      "note": "In Iran, the thumbs-up is considered a vulgar and insulting gesture."
-    },
-    {
-      "country": "Nigeria",
       "verdict": "caution",
-      "note": "In Nigeria, the thumbs-up is generally positive but can be seen as rude if directed at a superior or in certain northern regions."
+      "note": "Historically read by some older Greeks as a vulgar gesture rather than approval, though the positive Western meaning is now widely understood, especially among younger people."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Often used to mean the number 'one' when counting on fingers, which can cause brief confusion rather than offense."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Can be seen as impolite by some in more conservative or older circles, though it is now widely understood and used positively, especially among younger people."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thumb signal - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "kind": "reference"
+    },
+    {
+      "title": "List of gestures - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_gestures",
+      "kind": "reference"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid slurping noodles",
-  "confidence": "high",
-  "explanation": "In Italy, dining etiquette emphasizes quiet, composed eating; slurping noodles is considered disruptive and disrespectful to both the chef and fellow diners. Italian cuisine values savoring flavors without noisy distractions, and loud eating is associated with a lack of manners.",
-  "local_tip": "Twirl pasta quietly on your fork against the plate, and take small, silent bites.",
-  "regional_note": "In some southern regions, louder eating may be slightly more tolerated among close family, but in formal or public dining it remains unacceptable.",
+  "verdict": "caution",
+  "verdict_label": "Quiet eating is preferred",
+  "confidence": "low",
+  "explanation": "Italy doesn't have a culture of celebratory noodle-slurping the way Japan or China does; quiet, unhurried eating is the general norm at the table, similar to most Western dining etiquette. Loud slurping of pasta would likely draw a glance in a formal setting, but it's a minor faux pas rather than a serious offense.",
+  "local_tip": "Twirl pasta neatly on your fork and eat without excessive noise, especially in a restaurant or someone's home.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a sign of appreciation and enhances flavor."
+      "note": "Slurping noodles is a sign of appreciation and considered normal."
     },
     {
       "country": "China",
@@ -19,7 +19,20 @@
     {
       "country": "United States",
       "verdict": "rude",
-      "note": "Slurping is generally considered impolite and noisy eating is frowned upon."
+      "note": "Slurping and loud eating are generally considered impolite."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Italy",
+      "url": "https://en.wikivoyage.org/wiki/Italy",
+      "kind": "community"
     }
   ]
 }

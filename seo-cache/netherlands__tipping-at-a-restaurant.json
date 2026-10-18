@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Optional but appreciated",
+  "verdict_label": "Optional, modest tip appreciated",
   "confidence": "high",
-  "explanation": "In the Netherlands, tipping at restaurants is considered polite but not obligatory, as service charges are typically included in the bill. A small tip of 5-10% or rounding up the total is a common way to show appreciation for good service, especially in sit-down dining. It is not expected for poor service, and leaving no tip is socially acceptable without causing offense.",
-  "local_tip": "Round up the bill or add 5-10% in cash, handing it directly to the server, as this is more personal and ensures they receive it.",
-  "regional_note": "In Amsterdam and other tourist-heavy areas, tipping may be slightly more expected due to international norms, but the same general etiquette applies nationwide.",
+  "explanation": "Service costs have been folded into Dutch menu prices since the 1970s, so restaurants rarely add a separate service charge and tipping is not required. Most people leave around 5-10% of the bill, or simply round up, when they're happy with the service, while leaving nothing for average service is completely normal and not seen as rude.",
+  "local_tip": "Round up the bill or leave 5-10% in cash directly with the server if the service was good; otherwise, don't feel obligated to tip.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Tipping is considered insulting as service is included and staff are paid a living wage."
+      "verdict": "caution",
+      "note": "Tipping isn't expected in Japan and can confuse or embarrass staff since good service is already assumed and included in the price."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is mandatory for service staff, as they rely on tips for income."
+      "note": "Tipping 15-20% is standard practice in US restaurants, where service staff often rely on tips to supplement a lower base wage."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "A service charge is included, but leaving small change (5-10%) is customary for good service."
+      "note": "A service charge is legally included in French bills, but rounding up or leaving small change for good service is a common courtesy."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Tipping in Amsterdam: all you need to know",
+      "url": "https://dutchreview.com/culture/a-guide-to-tipping-culture-in-the-netherlands/",
+      "kind": "reference"
+    },
+    {
+      "title": "Tipping in Amsterdam",
+      "url": "https://radicalstorage.com/travel/tipping-in-amsterdam/",
+      "kind": "community"
     }
   ]
 }

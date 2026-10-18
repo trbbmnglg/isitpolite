@@ -1,25 +1,38 @@
 {
   "verdict": "rude",
-  "verdict_label": "Avoid left hand for eating",
+  "verdict_label": "Right hand for eating",
   "confidence": "high",
-  "explanation": "In Saudi Arabia, the left hand is traditionally considered unclean and is reserved for hygiene tasks. Using it to eat, especially in a restaurant or when sharing food, is seen as disrespectful and unhygienic. This custom is rooted in Islamic teachings and deeply observed across the country.",
-  "local_tip": "Always use your right hand for eating, even for picking up bread or small items, and keep your left hand under the table or resting on your lap.",
+  "explanation": "The left hand is reserved for personal hygiene in Saudi custom, rooted in Islamic practice, while the right hand is used for eating, passing food, and greeting. Using the left hand to eat or hand someone something is considered unhygienic and disrespectful, including when sharing food from a communal dish.",
+  "local_tip": "Always eat and pass food with your right hand, even for small items like bread, and keep your left hand in your lap.",
   "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Left hand is considered unclean and used for toilet purposes; eat with right hand only."
+      "note": "The left hand is reserved for toilet hygiene, so eating or passing food with it is considered unclean."
     },
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Chopsticks are used with either hand, but left-handedness is socially accepted."
+      "note": "Either hand is acceptable; chopstick technique matters far more than hand preference."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "No stigma against left-handed eating; both hands are considered equally acceptable."
+      "note": "There is no stigma against eating with the left hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/saudi-arabian-culture/saudi-arabian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Why Left-Handed Eating Is Frowned Upon In The Middle East",
+      "url": "https://www.foodrepublic.com/1573656/why-left-handed-eating-frowned-upon-middle-east",
+      "kind": "reference"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Gift giving is delicate",
+  "verdict_label": "Rare in business, handle with care",
   "confidence": "medium",
-  "explanation": "In French business culture, gift-giving is acceptable but must be handled with care to avoid appearing as bribery or excessive familiarity. A modest, tasteful gift (e.g., quality chocolates, wine, or a book) is appropriate after a deal is signed or at the end of a meeting, but not during initial encounters. Avoid overly personal or expensive items, as they can create awkwardness or be misconstrued.",
-  "local_tip": "Present the gift discreetly, without ostentation, and consider a high-quality regional product from your own country as a conversation starter.",
-  "regional_note": "In Paris and other major business hubs, corporate gift policies may be stricter; in southern France, the approach can be slightly more relaxed.",
+  "explanation": "Business gift-giving isn't a strong French tradition — it's uncommon outside the December holiday season, and giving something at a first meeting can look like you're trying to curry favor. If you do give a gift (for example, after a deal closes), keep it modest and tasteful; books or music tied to your contact's interests are safer choices than wine, since the French take pride in their own wine and may not welcome a foreign bottle.",
+  "local_tip": "Save any gift for after a relationship is established rather than a first meeting, and lean toward books, music, or a quality item from your home region rather than wine.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is an essential ritual in business; presentation and wrapping are as important as the gift itself."
+      "note": "Gift-giving is an important business ritual; careful presentation and wrapping matter as much as the gift itself."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as unnecessary or even suspicious in formal business settings; a small token after a successful partnership is acceptable."
+      "note": "Gifts in formal business settings can seem unnecessary or even raise suspicion; a small token after a successful deal is more acceptable."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gift-giving is common and appreciated, but avoid alcohol and ensure gifts respect Islamic customs; use the right hand."
+      "note": "Gift-giving is common and appreciated, but alcohol should be avoided and gifts should be given and received with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Etiquette Around the World: France — On Call International",
+      "url": "https://blog.oncallinternational.com/?p=4259",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Gift Giving and Etiquette in France",
+      "url": "https://www.annieandre.com/a-guide-to-gift-giving-and-etiquette-in-france/",
+      "kind": "reference"
     }
   ]
 }

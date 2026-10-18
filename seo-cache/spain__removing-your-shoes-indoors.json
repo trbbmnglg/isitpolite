@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not expected, but accepted",
+  "verdict_label": "Not expected, follow the host",
   "confidence": "medium",
-  "explanation": "In Spain, removing shoes indoors is not a standard custom and may be seen as odd or overly familiar in most homes, though it is generally tolerated if you explain you prefer to do so. It is more common in coastal or rural areas where sandy or muddy floors make it practical, but in urban settings it is rarely expected unless the host explicitly requests it.",
-  "local_tip": "Wait to see if the host removes their shoes first, or ask politely if they prefer you to keep them on.",
-  "regional_note": "In the Canary Islands and some coastal Andalusia homes, removing shoes is more common due to sand and dust, but still not a strict rule.",
+  "explanation": "Removing shoes when entering someone's home isn't a strict guest custom in Spain the way it is in Japan or Korea — most Spanish homes have tile or hardwood floors, and families typically switch into slippers at home for comfort rather than out of a rule for visitors. As a guest, you're not expected to take your shoes off unless your host does, or asks you to.",
+  "local_tip": "Watch what your host does — if they're in slippers and offer you a pair, take the hint; otherwise it's fine to keep your shoes on.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Removing shoes is mandatory before entering the genkan (entryway) and is a deeply ingrained custom."
+      "note": "Removing shoes before stepping past the genkan (entryway) is mandatory and deeply ingrained."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Shoe removal varies by household and region; it is common in some homes but not expected in others, and guests should follow the host's lead."
+      "note": "Norms vary by household; some families expect shoes off, others don't mind, so it's best to follow the host's lead."
     },
     {
-      "country": "Sweden",
+      "country": "South Korea",
       "verdict": "polite",
-      "note": "It is standard etiquette to remove shoes upon entering a home, especially in winter or wet weather, and hosts often provide slippers."
+      "note": "As in Japan, removing shoes before entering a home is a firmly established, non-negotiable custom."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Why Some Countries Take Off Their Shoes Indoors",
+      "url": "https://www.remitly.com/blog/lifestyle-culture/why-some-countries-take-off-their-shoes-indoors/",
+      "kind": "community"
+    },
+    {
+      "title": "Syracuse University Madrid homestay FAQ",
+      "url": "https://suabroad.syr.edu/madrid/wp-json/wp/v2/pages/71",
+      "kind": "reference"
     }
   ]
 }

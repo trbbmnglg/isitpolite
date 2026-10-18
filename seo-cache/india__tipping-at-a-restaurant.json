@@ -1,10 +1,10 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not expected",
-  "confidence": "medium",
-  "explanation": "In India, tipping at restaurants is considered a polite gesture for good service, but it is not mandatory or deeply ingrained in the culture. Many middle-class and budget restaurants include a service charge (often 5-10%) on the bill, which reduces the expectation of an additional tip. However, in upscale or tourist-oriented restaurants, leaving 10-15% of the bill as a tip is common and appreciated.",
-  "local_tip": "If no service charge is added, leave 10% of the bill in cash or round up the amount as a tip.",
-  "regional_note": "In smaller towns and rural areas, tipping is less common, while in metropolitan cities like Mumbai, Delhi, and Bangalore, it is more expected in fine-dining establishments. Some religious or conservative families may avoid tipping due to beliefs about charity or modesty.",
+  "verdict_label": "Discretionary, not a legal charge",
+  "confidence": "high",
+  "explanation": "Tipping in India is appreciated but entirely discretionary. In July 2022 the Central Consumer Protection Authority (CCPA) explicitly barred restaurants from adding a 'service charge' automatically or by default, and in March 2025 the Delhi High Court upheld those guidelines, ruling that service charges and tips are voluntary payments that cannot be made mandatory. Many bills still show a suggested service charge line, but customers are legally entitled to have it removed and tip separately (or not) instead.",
+  "local_tip": "If a 'service charge' is already on your bill, you can ask to have it removed since it's optional by law — then leave roughly 5-10% in cash if the service was good.",
+  "regional_note": "Tipping is more customary in upscale or tourist-heavy restaurants in big cities like Mumbai and Delhi than in small local eateries, where it is rare.",
   "also_check": [
     {
       "country": "Japan",
@@ -14,12 +14,25 @@
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is mandatory and expected for service staff, as they rely on tips for income."
+      "note": "Tipping 15-20% at restaurants is a strong social expectation since many service workers rely on tips for income."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "A service charge is included in the bill (service compris), so additional tipping is optional but rounding up is polite."
+      "note": "A service charge is included in the bill (service compris) by law, so extra tipping is optional, though rounding up is appreciated."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Delhi HC rules restaurants can't impose mandatory service charge in bills",
+      "url": "https://newsonair.gov.in/delhi-hc-rules-restaurants-cant-impose-mandatory-service-charge-in-bills",
+      "kind": "reference"
+    },
+    {
+      "title": "Service Charge Is Voluntary Payment By Consumers, Can't Be Made Mandatory On Food Bills: Delhi High Court",
+      "url": "https://www.livelaw.in/amp/high-court/delhi-high-court/delhi-high-court-restaurant-service-charge-on-food-not-mandatory-287836",
+      "kind": "reference"
     }
   ]
 }

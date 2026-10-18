@@ -1,10 +1,10 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appreciated but not required",
+  "verdict_label": "Appreciated, roughly 10%",
   "confidence": "high",
-  "explanation": "In Turkey, tipping at restaurants is considered a polite gesture to show appreciation for good service, though it is not mandatory. A tip of around 10% is customary in tourist-oriented or upscale establishments, while locals often leave small change or round up the bill in casual eateries. Service charges are rarely included, so leaving a tip directly acknowledges the server's effort.",
-  "local_tip": "Leave 5-10% in cash on the table or hand it directly to the server, as credit card tips may not always reach staff.",
-  "regional_note": "In more conservative or rural areas, tipping is less common and may be seen as unnecessary, while in tourist hubs like Istanbul or Antalya, it is expected.",
+  "explanation": "Tipping (bahşiş) is discretionary in Turkey but widely practiced to reward good service, with about 10% being typical at restaurants (more at upscale places). Some restaurants already add a service charge, in which case extra tipping isn't required, and cash is preferred since card tips don't always reach staff.",
+  "local_tip": "Leave around 10% in cash on the table or hand it to the server directly, and check the bill first for an already-included service charge.",
+  "regional_note": "Tipping is lighter and more informal (rounding up the bill) outside tourist areas, while in hubs like Istanbul and Antalya closer to 10-15% is expected.",
   "also_check": [
     {
       "country": "Japan",
@@ -14,12 +14,30 @@
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "Tipping 15-20% is mandatory for service staff, as wages are often below minimum."
+      "note": "Tipping 15-20% is expected for service staff, as wages are often below minimum."
     },
     {
       "country": "France",
       "verdict": "caution",
-      "note": "A service charge is included by law, but leaving small change is polite; overtipping can be seen as showy."
+      "note": "A service charge is included by law, but leaving small change is polite; overtipping can seem showy."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkey — Wikivoyage travel guide (Tipping section)",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Do You Tip In Turkey? Yes, Here Is Your Tipping Etiquette Guide",
+      "url": "https://www.chasingthedonkey.com/tipping-in-turkey-how-to-tip-in-turkey/",
+      "kind": "community"
+    },
+    {
+      "title": "Tipping in Turkey: Who, How Much and When (Complete Guide)",
+      "url": "https://myturkeyadventure.com/blog/tipping-in-turkey-complete-guide",
+      "kind": "community"
     }
   ]
 }

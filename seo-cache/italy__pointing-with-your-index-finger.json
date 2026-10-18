@@ -1,15 +1,15 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite gesture",
-  "confidence": "high",
-  "explanation": "In Italy, pointing with the index finger is considered rude and aggressive, as it is often associated with accusing or summoning someone like a dog. Italians typically use an open hand or a chin tilt to indicate direction or people. This is a well-established social norm across the country.",
-  "local_tip": "Instead of pointing, gesture with your whole hand (palm up or sideways) or nod your chin in the direction you mean.",
-  "regional_note": "Uniform across Italy, though older generations may be more sensitive to it.",
+  "verdict_label": "Can seem brusque or rude",
+  "confidence": "medium",
+  "explanation": "Pointing directly at a person with your index finger can come across as brusque or accusatory in Italy, similar to the general Western norm, though it's far from a severe taboo. Italians are expressive with their hands and commonly gesture with an open palm or a nod instead when indicating people or directions.",
+  "local_tip": "When indicating a person, use an open hand or a nod rather than a single pointed finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Pointing with a finger is very rude; use an open hand instead."
+      "note": "Pointing with a finger is considered rude; an open hand is used instead."
     },
     {
       "country": "United States",
@@ -19,7 +19,20 @@
     {
       "country": "Indonesia",
       "verdict": "rude",
-      "note": "Pointing with the index finger is offensive; use the thumb or an open hand."
+      "note": "Pointing with the index finger is offensive; the thumb or an open hand is used instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Pointing",
+      "url": "https://en.wikipedia.org/wiki/Pointing",
+      "kind": "reference"
+    },
+    {
+      "title": "Italy",
+      "url": "https://en.wikivoyage.org/wiki/Italy",
+      "kind": "community"
     }
   ]
 }

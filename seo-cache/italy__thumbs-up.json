@@ -1,15 +1,15 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
+  "verdict_label": "Positive and widely understood",
   "confidence": "high",
-  "explanation": "In Italy, the thumbs-up gesture is widely understood as a positive sign meaning 'okay' or 'good job,' similar to its use in many other Western cultures. It is commonly used in everyday conversation and is not considered offensive. However, it is less formal than a verbal compliment and best reserved for casual settings.",
-  "local_tip": "Use thumbs-up to show approval among friends or in informal situations, but avoid it in very formal business meetings where a verbal 'perfetto' is more appropriate.",
-  "regional_note": "No significant regional variation; the gesture is uniformly positive across Italy.",
+  "explanation": "The thumbs-up is understood across Italy as a positive, informal sign of approval or agreement, much like in most Western countries. It's commonly used among friends and in casual settings, though it's best reserved for informal contexts rather than very formal business meetings.",
+  "local_tip": "Use it freely in casual situations, but opt for a verbal 'perfetto' or 'va bene' in formal business settings.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Greece",
       "verdict": "rude",
-      "note": "Thumbs-up is an insult equivalent to a raised middle finger in Greece."
+      "note": "Thumbs-up is widely cited as an insult similar to a raised middle finger."
     },
     {
       "country": "Iran",
@@ -19,7 +19,20 @@
     {
       "country": "Nigeria",
       "verdict": "rude",
-      "note": "Thumbs-up is viewed as a rude or insulting gesture in Nigeria, especially in the northern regions."
+      "note": "Thumbs-up can be viewed as rude or insulting in parts of Nigeria."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thumb signal",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "kind": "reference"
+    },
+    {
+      "title": "Is thumbs up offensive in Italy?",
+      "url": "https://lacocinadegisele.com/knowledgebase/is-thumbs-up-offensive-in-italy",
+      "kind": "community"
     }
   ]
 }

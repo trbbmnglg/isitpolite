@@ -1,25 +1,43 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not customary, avoid",
+  "verdict_label": "Not customary; wai instead",
   "confidence": "high",
-  "explanation": "In Thailand, the traditional greeting is the wai (palms pressed together with a slight bow), and kissing on the cheek is not a standard or expected greeting, even at social gatherings. Public displays of affection are generally reserved for very close family or romantic partners, and initiating a cheek kiss can be seen as intrusive or disrespectful, especially across genders or with elders. Foreigners are usually forgiven, but it's best to follow local norms to avoid causing discomfort.",
-  "local_tip": "Greet with a wai (hands together at chest level, slight bow) and a smile, and wait for the other person to initiate any closer contact.",
-  "regional_note": "In more Westernized urban settings like Bangkok, younger generations may be more accepting of cheek kisses among close friends, but it remains uncommon and should not be assumed.",
+  "explanation": "The standard Thai greeting is the wai — palms pressed together with a slight bow — not a cheek kiss, and public physical greetings like kissing are generally not part of Thai custom even among acquaintances. Initiating a cheek kiss, especially across genders or with someone older, can feel intrusive or cause mild discomfort, though foreign visitors are usually given latitude for not knowing the norm.",
+  "local_tip": "Greet with a wai (palms together, slight bow, with a smile) and let the other person set the tone if anything more familiar is appropriate.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "France",
       "verdict": "polite",
-      "note": "La bise (cheek kissing) is a standard greeting among friends and acquaintances, with the number of kisses varying by region."
+      "note": "La bise, cheek kissing, is a standard greeting among friends and acquaintances."
     },
     {
       "country": "Japan",
-      "verdict": "rude",
-      "note": "Physical contact in greetings is avoided; bowing is the norm, and cheek kissing would be considered highly inappropriate."
+      "verdict": "caution",
+      "note": "Physical contact in greetings is generally avoided in favor of bowing, so a cheek kiss would feel out of place."
     },
     {
       "country": "Brazil",
       "verdict": "polite",
-      "note": "Cheek kissing (beijo) is common in social greetings, even among people meeting for the first time, typically one kiss per cheek."
+      "note": "Cheek kissing is a common social greeting, though the number of kisses can vary by region."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Folk Gesture: ไหว้ or Wai",
+      "url": "https://folklore.usc.edu/?p=70849",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Thailand",
+      "url": "https://www.frommers.com/destinations/thailand/in-depth/etiquette/",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Culture",
+      "url": "https://en.psu.ac.th/international/arts-and-culture/thai-culture",
+      "kind": "reference"
     }
   ]
 }

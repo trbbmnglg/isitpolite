@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Appropriate with etiquette",
-  "confidence": "high",
-  "explanation": "In Indonesian business culture, gift-giving is a common and polite gesture that builds relationships and shows respect, especially when done modestly and with the right hand. It is customary to present gifts with both hands or the right hand, and to avoid overly expensive items that might create obligation. Gifts are often not opened in front of the giver to avoid embarrassment or perceived greed.",
-  "local_tip": "Wrap gifts in green or gold (favorable colors) and avoid wrapping in white or black, which are associated with mourning.",
-  "regional_note": "In strongly Muslim areas like Aceh, gifts should be halal (e.g., no alcohol or pork), and during Ramadan, daytime gift-giving is avoided.",
+  "verdict_label": "Modest gifts, right hand",
+  "confidence": "medium",
+  "explanation": "Gift-giving is a welcomed, relationship-building gesture in Indonesia, and gifts should be given and received with the right hand or both hands, since the left hand is considered unclean for offering items. Given Indonesia's large Muslim-majority population, it's also safest to avoid alcohol and pork products as gifts and to keep gifts modest rather than lavish. The halal-gift guidance is a reasonable extension of well-documented Islamic-influenced norms, though a source addressing gift-giving in Indonesia specifically wasn't found this session.",
+  "local_tip": "Offer and receive gifts with your right hand or both hands, keep them modest, and avoid alcohol or pork products for Muslim recipients.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Gift-giving is highly ritualized; use both hands and avoid giving four items (unlucky number)."
+      "note": "Gift-giving is highly ritualized; use both hands and avoid sets of four items (an unlucky number)."
     },
     {
       "country": "Germany",
       "verdict": "caution",
-      "note": "Gifts are often seen as inappropriate in formal business settings unless a relationship is established; avoid overly personal items."
+      "note": "Gifts in formal business settings can seem inappropriate unless a relationship is already established."
     },
     {
       "country": "United Arab Emirates",
       "verdict": "polite",
-      "note": "Gifts are appreciated but must be halal; avoid alcohol or pork, and use the right hand only."
+      "note": "Gifts are appreciated but should be halal, avoiding alcohol or pork, and given with the right hand."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Why visitors to Indonesia should avoid using their left hand",
+      "url": "https://www.scmp.com/lifestyle/article/3035767/why-visitors-indonesia-should-avoid-using-their-left-hand-it-may-cause",
+      "kind": "reference"
+    },
+    {
+      "title": "Indonesian Culture - Gestures (Cultural Atlas)",
+      "url": "https://culturalatlas.sbs.com.au/indonesian-culture/indonesian-culture-gestures",
+      "kind": "reference"
     }
   ]
 }

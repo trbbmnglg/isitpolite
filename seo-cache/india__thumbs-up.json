@@ -1,25 +1,38 @@
 {
   "verdict": "polite",
-  "verdict_label": "Generally positive gesture",
-  "confidence": "high",
-  "explanation": "In India, the thumbs-up gesture is widely understood as a positive sign of approval, agreement, or encouragement, similar to its use in many Western cultures. It is commonly used in everyday interactions, including among friends, colleagues, and in casual settings. However, it is not used in formal or hierarchical contexts where a verbal acknowledgment or a namaste is more appropriate.",
-  "local_tip": "Use thumbs-up with a smile to show approval in casual conversations, but avoid it in formal meetings or with elders, where a respectful nod or namaste is better.",
-  "regional_note": "In some rural areas or among older generations, the gesture may be less familiar, but it is still generally perceived as positive.",
+  "verdict_label": "Positive, widely understood gesture",
+  "confidence": "medium",
+  "explanation": "The thumbs-up is a well-established positive gesture in India, roughly equivalent to the Western 'okay' or 'good job' sign — it even features on India's one-rupee coin and gave its name to the popular Thums Up cola brand. It is used casually across ages and most everyday contexts without being seen as rude, unlike in a handful of other countries where the same gesture is an insult.",
+  "local_tip": "A thumbs-up to show approval or agreement reads as positive in India in both casual and most everyday situations.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Iran",
       "verdict": "rude",
-      "note": "Thumbs-up is considered an obscene insult, equivalent to showing the middle finger."
+      "note": "The thumbs-up is an insult in Iran, roughly equivalent to an obscene gesture."
     },
     {
-      "country": "Nigeria",
+      "country": "Afghanistan",
       "verdict": "rude",
-      "note": "Often interpreted as a rude or offensive gesture, especially in the northern regions."
+      "note": "Considered offensive in Afghanistan, similar to its negative meaning in Iran and parts of the Middle East."
     },
     {
       "country": "Thailand",
       "verdict": "polite",
-      "note": "Generally positive, but used mainly among younger people; older Thais may prefer a wai."
+      "note": "Generally positive, especially among younger people; older Thais may prefer a wai greeting instead."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Thumb signal",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "kind": "reference"
+    },
+    {
+      "title": "Thums Up",
+      "url": "https://en.wikipedia.org/wiki/Thums_Up",
+      "kind": "community"
     }
   ]
 }

@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Not expected, but appreciated",
+  "verdict_label": "Shoes-on is the default",
   "confidence": "medium",
-  "explanation": "In France, removing shoes indoors is not a standard custom and can sometimes be seen as odd or overly intimate in everyday settings. It is more common in private homes where the host explicitly requests it, especially to protect delicate floors or in rural areas. Doing so without being asked may imply the floor is dirty, which could be taken as a mild insult.",
-  "local_tip": "Always wait for the host to suggest removing shoes, or politely ask 'Dois-je enlever mes chaussures?' before doing so.",
-  "regional_note": "In some rural or older homes with carpet or tiled floors, hosts may expect it, while in urban apartments it is less common.",
+  "explanation": "Keeping shoes on indoors is actually the French norm — hosts rarely ask guests to remove them, especially in a home you don't know well, and doing so unprompted can feel presumptuous. That said, many French people remove their own shoes inside their own home, so if you see a pile of shoes by the door, follow suit, and it's always fine to offer.",
+  "local_tip": "Default to keeping your shoes on unless your host asks you to remove them or you notice other shoes already lined up at the door.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Removing shoes is mandatory before entering the genkan entryway."
+      "note": "Removing shoes before stepping up from the genkan entryway is mandatory, not optional."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "polite",
+      "note": "Removing shoes before entering a home is standard, basic etiquette, much like in Japan."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "Generally not expected unless the host specifies or the home has white carpets."
+      "note": "Generally not expected unless the host asks or the home clearly has a shoes-off household (e.g. light carpets, shoes piled at the door)."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Society & Social Issues in France — Visiting a Home (Five Colleges)",
+      "url": "https://www.langmedia.fivecolleges.edu/resources/france/society-social-issues/visiting-home",
+      "kind": "reference"
     },
     {
-      "country": "Sweden",
-      "verdict": "polite",
-      "note": "It is standard to remove shoes at the door in most homes, regardless of weather."
+      "title": "Removal of footwear indoors — France",
+      "url": "https://en.wikipedia.org/wiki/Removal_of_footwear_indoors",
+      "kind": "reference"
     }
   ]
 }

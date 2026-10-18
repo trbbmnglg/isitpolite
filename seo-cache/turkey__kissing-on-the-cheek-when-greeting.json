@@ -2,24 +2,37 @@
   "verdict": "polite",
   "verdict_label": "Common among friends",
   "confidence": "medium",
-  "explanation": "In Turkey, cheek kissing is a common greeting among friends and acquaintances of the same gender, typically one kiss on each cheek. However, between men and women in more conservative or formal settings, a handshake or nod is preferred. It is less common among strangers or in very formal business contexts.",
-  "local_tip": "When in doubt, wait for the other person to initiate the cheek kiss, and mirror their gesture.",
-  "regional_note": "In more conservative or religious circles, especially in rural areas, opposite-gender cheek kissing may be avoided; among younger, urban populations it is more accepted.",
+  "explanation": "Cheek kissing is a common greeting in Turkey, especially between men in the same social circle (typically twice) and between closer acquaintances generally; between men and women it depends on familiarity and setting, with a handshake preferred in formal or conservative contexts. Hand-kissing — bringing an elder's hand to your forehead — is also a well-regarded way to greet older relatives.",
+  "local_tip": "Let the other person initiate; mirror a cheek kiss if offered, and default to a handshake with new or more formal acquaintances.",
+  "regional_note": "Opposite-gender cheek kissing is more accepted in secular, urban circles and less common in conservative or rural settings.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Cheek kissing is not customary; bowing is the standard greeting."
+      "note": "Cheek kissing isn't customary; bowing is the standard greeting."
     },
     {
       "country": "France",
       "verdict": "polite",
-      "note": "Cheek kissing (la bise) is common, but the number of kisses varies by region."
+      "note": "Cheek kissing (la bise) is common, though the number of kisses varies by region."
     },
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Cheek kissing between men is common, but between unrelated men and women it is generally avoided."
+      "note": "Cheek kissing between men is common, but between unrelated men and women it's generally avoided."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkey — Wikivoyage travel guide (Respect section)",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Gestures — Wikivoyage",
+      "url": "https://en.wikivoyage.org/wiki/Gestures",
+      "kind": "reference"
     }
   ]
 }

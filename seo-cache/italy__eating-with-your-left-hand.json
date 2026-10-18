@@ -1,25 +1,38 @@
 {
-  "verdict": "caution",
-  "verdict_label": "Generally impolite in formal dining",
+  "verdict": "polite",
+  "verdict_label": "No left-hand taboo exists",
   "confidence": "high",
-  "explanation": "In Italy, eating with the left hand is considered impolite because the left hand is traditionally associated with unclean tasks (e.g., wiping after using the toilet). While many Italians are now tolerant of left-handedness in casual settings, using the left hand to eat in a formal restaurant or with older generations is still seen as a breach of table manners.",
-  "local_tip": "Always use your right hand to bring food to your mouth, even if you are left-handed, and keep your left hand resting on your lap or lightly holding the edge of the plate.",
-  "regional_note": "In southern Italy and among older generations, the rule is more strictly observed; in northern cities like Milan, younger people may be more relaxed.",
+  "explanation": "Italy has no taboo against the left hand; in fact, Continental European table manners keep the fork in the left hand (knife in the right) throughout the entire meal, unlike the American style of switching hands. The old Western stigma against left-handedness itself (once called 'the devil's hand') was about forcing children to write right-handed, not about food hygiene like the toilet-related taboo found in parts of South Asia or the Middle East.",
+  "local_tip": "Eat Continental-style with the fork in your left hand and knife in your right — switching hands repeatedly looks more unusual than left-hand use itself.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "Eating with the left hand is universally rude; the left hand is reserved for bathroom hygiene."
+      "note": "Eating with the left hand is widely seen as rude; the left hand is reserved for bathroom hygiene."
     },
     {
       "country": "Morocco",
       "verdict": "rude",
-      "note": "The left hand is considered unclean; always eat with the right hand, especially from shared dishes."
+      "note": "The left hand is considered unclean; eat with the right hand, especially from shared dishes."
     },
     {
       "country": "United States",
       "verdict": "polite",
-      "note": "No stigma against left-handed eating; left-handedness is fully accepted in all dining contexts."
+      "note": "No stigma against left-handed eating; left-handedness is fully accepted at the table."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Table manners",
+      "url": "https://en.wikipedia.org/wiki/Table_manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Italian Superstitions",
+      "url": "https://www.theintrepidguide.com/italian-superstitions/",
+      "kind": "community"
     }
   ]
 }

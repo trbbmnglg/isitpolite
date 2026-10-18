@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Disrespectful and dismissive",
-  "confidence": "high",
-  "explanation": "In Italy, beckoning someone with your finger (especially with the palm up and index finger curling) is considered highly disrespectful, as it is associated with calling a dog or a servant. Italians typically use a hand gesture with all fingers waving downward or a nod of the head to summon someone politely.",
-  "local_tip": "Instead, extend your hand with palm facing down and wave all fingers toward you, or simply say 'Vieni qui' (come here) with a welcoming tone.",
-  "regional_note": "This gesture is universally frowned upon across Italy, though older generations in the South may be particularly offended.",
+  "verdict": "caution",
+  "verdict_label": "Informal, not a grave insult",
+  "confidence": "low",
+  "explanation": "The palm-up, finger-curling beckon is common in Italy and the wider West; it can read as a bit abrupt or overly casual, especially toward a stranger, elder, or server, but there's no evidence it carries the severe 'calling an animal' insult it does in parts of Asia. It's best avoided with people you don't know well or in formal situations.",
+  "local_tip": "With people you don't know well, say 'vieni qui' or wave with an open hand rather than curling a single finger.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "rude",
-      "note": "Beckoning with a finger is considered vulgar and animal-like; use a gentle wave with all fingers pointing down."
+      "note": "Beckoning with a curled finger is considered vulgar and animal-like; a gentle wave with fingers down is used instead."
     },
     {
       "country": "Philippines",
       "verdict": "rude",
-      "note": "This gesture is used only for calling animals and can be seen as an insult or even lead to legal trouble."
+      "note": "This gesture is used only for calling animals and can be seen as a serious insult."
     },
     {
       "country": "United States",
       "verdict": "caution",
-      "note": "While common in casual settings, it can be perceived as condescending or aggressive in formal or professional contexts."
+      "note": "Common in casual settings, but can seem condescending or aggressive in formal or professional contexts."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Beckoning sign",
+      "url": "https://en.wikipedia.org/wiki/Beckoning_sign",
+      "kind": "reference"
+    },
+    {
+      "title": "Italy",
+      "url": "https://en.wikivoyage.org/wiki/Italy",
+      "kind": "community"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "verdict": "rude",
-  "verdict_label": "Highly disrespectful",
+  "verdict_label": "Highly disrespectful gesture",
   "confidence": "high",
   "explanation": "In Thailand the feet are seen as the lowest and least clean part of the body, both literally and spiritually. Pointing your soles at a person, a Buddha image, or a portrait of the king is a serious sign of disrespect.",
   "local_tip": "Sit with your feet tucked behind you or flat on the floor, and never use your foot to point at people or objects.",
@@ -20,6 +20,24 @@
       "country": "Japan",
       "verdict": "caution",
       "note": "Less charged, but pointing feet at someone is still seen as ill-mannered."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Feet Low, Head High: A Guide to Thai Etiquettes",
+      "url": "https://thailandfoundation.or.th/?p=518467",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Culture: Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/thai-culture/thai-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Must-Know Cultural Etiquette in Thailand: 15 Do's and Don'ts",
+      "url": "https://www.theinvisibletourist.com/etiquette-in-thailand/",
+      "kind": "community"
     }
   ]
 }

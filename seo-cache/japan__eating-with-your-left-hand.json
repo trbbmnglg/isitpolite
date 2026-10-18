@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Avoid left hand use",
-  "confidence": "high",
-  "explanation": "In Japan, eating with your left hand is considered impolite because the left hand is traditionally associated with unclean tasks, such as using the toilet. While modern Japanese dining etiquette focuses more on proper chopstick use, the left-hand taboo persists in formal settings and older generations. It is safest to use your right hand for eating and passing dishes.",
-  "local_tip": "Always use your right hand to pick up chopsticks or pass food, and if you are left-handed, discreetly switch to your right hand during formal meals.",
-  "regional_note": "Younger urban Japanese are more relaxed about this rule, but it remains strict in traditional ryokan, kaiseki restaurants, and when dining with elders.",
+  "verdict": "caution",
+  "verdict_label": "No taboo, but mind chopsticks",
+  "confidence": "medium",
+  "explanation": "Japan has no toilet-related taboo against the left hand like South Asia or the Middle East — being left-handed at the table isn't considered unclean or offensive. The real etiquette concerns are chopstick-specific: use whichever hand is dominant, and avoid taboos like standing chopsticks upright in rice or passing food chopstick-to-chopstick, both of which mimic funeral rites.",
+  "local_tip": "If you're left-handed, it's fine to hold chopsticks in your left hand — just never stand them upright in a rice bowl or pass food directly between chopsticks, since both gestures echo funeral rituals.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "India",
       "verdict": "rude",
-      "note": "The left hand is considered unclean and used for bathroom hygiene; always eat and pass food with the right hand."
+      "note": "The left hand is considered unclean from bathroom hygiene; always eat and pass food with the right hand."
     },
     {
-      "country": "Morocco",
+      "country": "Saudi Arabia",
       "verdict": "rude",
-      "note": "Eating with the left hand is taboo in Islamic culture; use only the right hand for communal meals."
+      "note": "Eating or passing food with the left hand is taboo; use the right hand, especially for shared dishes."
     },
     {
       "country": "United States",
       "verdict": "polite",
       "note": "No stigma against left-hand use; left-handed diners are accommodated without issue."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "A Basic Guide to Japanese Etiquette",
+      "url": "https://www.nippon.com/en/guide-to-japan/gu020010/",
+      "kind": "reference"
+    },
+    {
+      "title": "Japanese etiquette",
+      "url": "https://en.wikipedia.org/wiki/Japanese_etiquette",
+      "kind": "reference"
     }
   ]
 }

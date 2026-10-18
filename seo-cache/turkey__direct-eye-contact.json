@@ -1,15 +1,15 @@
 {
   "verdict": "caution",
-  "verdict_label": "Moderate eye contact",
+  "verdict_label": "Expected, but not prolonged",
   "confidence": "medium",
-  "explanation": "In Turkish business settings, direct eye contact is generally expected as a sign of sincerity and confidence, but it should be moderate—prolonged or intense staring can be perceived as aggressive or disrespectful, especially when interacting with senior colleagues or those of the opposite gender.",
-  "local_tip": "Maintain steady but soft eye contact, and occasionally glance away to show deference, particularly when speaking with someone older or higher in rank.",
-  "regional_note": "In more conservative or religious circles, especially in eastern and rural areas, sustained eye contact between men and women who are not closely related may be avoided.",
+  "explanation": "Direct eye contact is expected in Turkish greetings and conversation as a sign of sincerity and engagement, and Turks often hold eye contact during serious discussions. However, devout or conservative individuals may look away from someone of the opposite gender out of modesty, and women may avoid eye contact with unfamiliar men to discourage unwanted attention.",
+  "local_tip": "Offer natural, direct eye contact when greeting or talking with Turks, but don't force it with someone of the opposite gender who seems to be avoiding it.",
+  "regional_note": "This modesty-based eye-contact avoidance is most common among devout or conservative Turks and far less of a factor in secular, urban, mixed-gender settings.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "caution",
-      "note": "Prolonged eye contact is often seen as confrontational or intimidating; brief glances are preferred."
+      "note": "Prolonged eye contact can feel confrontational or intimidating; brief glances are preferred."
     },
     {
       "country": "United States",
@@ -19,7 +19,25 @@
     {
       "country": "Saudi Arabia",
       "verdict": "caution",
-      "note": "Eye contact between men is common, but between men and women it is typically brief or avoided out of modesty."
+      "note": "Eye contact between men is common, but between men and women it's typically brief or avoided out of modesty."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish Culture: Communication",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-communication",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey — Business Etiquette, Manners, and Culture",
+      "url": "https://www.cyborlink.com/besite/turkey.htm",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Cultural Gestures & Body Language",
+      "url": "https://trykaiwa.com/blog/turkish-cultural-gestures-body-language-realistic",
+      "kind": "community"
     }
   ]
 }

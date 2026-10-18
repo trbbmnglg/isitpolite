@@ -1,25 +1,38 @@
 {
-  "verdict": "rude",
-  "verdict_label": "Refusal is offensive",
-  "confidence": "high",
-  "explanation": "In Greek culture, offering food is a fundamental expression of hospitality and affection, especially during family gatherings. Refusing is seen as rejecting the host's generosity and can cause embarrassment or offense. It is customary to accept at least a small portion, even if you are not hungry.",
-  "local_tip": "If you must decline due to dietary restrictions, politely explain with a brief reason and accept a symbolic taste or a small piece of bread to honor the gesture.",
-  "regional_note": "In more traditional rural areas and older generations, refusal is even more strongly discouraged; in urban or younger circles, a polite explanation may be more accepted.",
+  "verdict": "caution",
+  "verdict_label": "Expected to accept, politely",
+  "confidence": "medium",
+  "explanation": "Greek hospitality (rooted in the ancient tradition of xenia/philoxenia) places strong value on guests accepting food, and etiquette guides note that accepting second helpings and finishing what's on your plate is seen as a compliment to the host. A flat refusal can come across as rejecting the host's generosity, but a polite decline with a brief, genuine reason (allergy, diet, fullness) is generally understood and accepted in modern Greek life, especially in urban settings.",
+  "local_tip": "If you need to decline, do so warmly and briefly ('I'm so full, it was delicious') rather than a flat no, and try to accept at least a small taste if you can.",
+  "regional_note": "In traditional rural households and with older generations, hosts may insist more persistently, while urban or younger hosts are generally more accepting of a polite decline.",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Refusing food is often polite to show modesty, though hosts will insist; a gentle initial refusal is expected."
+      "note": "A gentle initial refusal is often expected as modesty, though hosts will insist."
     },
     {
       "country": "India",
       "verdict": "caution",
-      "note": "Refusing food can be seen as rejecting hospitality, but it is acceptable if you cite religious or health reasons."
+      "note": "Declining is acceptable if you cite religious or health reasons, though hosts may insist you take at least something."
     },
     {
       "country": "France",
       "verdict": "rude",
-      "note": "Refusing food offered by a host is generally considered impolite, as it undermines the host's effort and culinary pride."
+      "note": "Refusing a host's food is generally seen as impolite, since it can undermine the host's culinary effort."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greece Guide (Commisceo Global)",
+      "url": "https://www.commisceo-global.com/resources/country-guides/greece-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Philoxenia",
+      "url": "https://en.wikipedia.org/wiki/Philoxenia",
+      "kind": "reference"
     }
   ]
 }

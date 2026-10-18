@@ -1,25 +1,38 @@
 {
   "verdict": "caution",
-  "verdict_label": "Generally impolite, but tolerated",
-  "confidence": "medium",
-  "explanation": "In Egypt, slurping noodles is considered impolite in most dining settings because it violates the local expectation of eating quietly and with restraint. While some younger or more cosmopolitan Egyptians may be more lenient, traditional etiquette strongly discourages loud eating noises as a sign of poor manners.",
-  "local_tip": "If you must eat noodles, use a spoon and fork to twirl them quietly, and avoid making audible slurping sounds.",
-  "regional_note": "In Upper Egypt and more conservative rural areas, slurping is more strongly frowned upon, while in cosmopolitan Cairo or Alexandria, younger generations may be slightly more tolerant.",
+  "verdict_label": "No specific rule, stay modest",
+  "confidence": "low",
+  "explanation": "Noodles aren't part of traditional Egyptian cuisine, and no source documents a specific Egyptian rule about slurping them. General Egyptian dining etiquette values modest, composed table manners over loud eating noises, so audible slurping would likely read as a minor lapse rather than a serious offence.",
+  "local_tip": "If eating noodles at a restaurant, favor quiet bites over loud slurping, since restrained table manners are generally valued.",
+  "regional_note": "",
   "also_check": [
     {
       "country": "Japan",
       "verdict": "polite",
-      "note": "Slurping noodles is a sign of enjoyment and appreciation for the chef."
+      "note": "Slurping noodles is read as a sign of enjoyment and appreciation for the chef."
     },
     {
       "country": "China",
       "verdict": "polite",
-      "note": "Slurping is common and indicates you are savoring the food, especially in noodle soups."
+      "note": "Slurping is common and often indicates you're savoring the food."
     },
     {
       "country": "Italy",
       "verdict": "rude",
-      "note": "Slurping pasta is considered very rude and uncivilized in Italian dining culture."
+      "note": "Slurping pasta is considered uncivilized in Italian dining culture."
+    }
+  ],
+  "reviewed": "2026-10-18",
+  "sources": [
+    {
+      "title": "Egyptian Culture – Etiquette",
+      "url": "https://culturalatlas.sbs.com.au/egyptian-culture/egyptian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Arab Table Manners: Business Lunch Etiquette in Arabic Countries",
+      "url": "https://www.arabicpod101.com/blog/2018/11/27/arab-table-manners/",
+      "kind": "community"
     }
   ]
 }
