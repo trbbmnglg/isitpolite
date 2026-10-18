@@ -43,6 +43,12 @@ async function tavilySearch(env, query) {
   }
 }
 
+// Forums and social posts are useful colour but never the only evidence.
+const COMMUNITY_HOST = /(^|\.)(reddit\.com|facebook\.com|quora\.com|tripadvisor\.[a-z.]+|stackexchange\.com|x\.com|twitter\.com|tiktok\.com|youtube\.com|instagram\.com)$/i;
+export function sourceKind(url) {
+  try { return COMMUNITY_HOST.test(new URL(url).hostname) ? 'community' : 'reference'; } catch (_) { return 'community'; }
+}
+
 function sourcesBlock(sources, count, chars) {
   if (!sources || !sources.length) return '';
   return sources.slice(0, count || 4)
@@ -164,10 +170,26 @@ export const LOOKUP_MODES = {
         : '';
       const homeField = p.home ? ',"home_contrast":"one sentence or empty string"' : '';
       return 'Question: is "' + p.gesture + '" polite in ' + p.country + '? Context: ' + cl + '.\n' +
-        'Be specific to ' + p.country + '; explanation factual (2-3 sentences); local_tip actionable; confidence reflects how universal the norm is; regional_note flags variation or empty; also_check = 3 countries where it lands differently.' + home + ground(src) + '\n\n' +
-        'Respond ONLY with JSON: {"verdict":"polite"|"caution"|"rude","verdict_label":"3-5 words","confidence":"high"|"medium"|"low","explanation":"2-3 sentences","local_tip":"one sentence","regional_note":"one sentence or empty string"' + homeField + ',"also_check":[{"country":"..","verdict":"polite"|"caution"|"rude","note":".."},{"country":"..","verdict":"..","note":".."},{"country":"..","verdict":"..","note":".."}]}';
+        'Be specific to ' + p.country + '; explanation factual (2-3 sentences); local_tip actionable; also_check = 3 countries where it lands differently.' +
+        ' regional_note: only regional or generational variation that the sources mention or that is well documented; never invent a region, city or group; otherwise an empty string.' +
+        ' Confidence: "high" = widely documented and consistent across sources; "medium" = generally true but varies by region, generation or setting; "low" = sources are thin or disagree. Use "low" whenever that is the honest answer.' +
+        (src ? ' In "cited", list the numbers of the web sources that directly support the verdict (empty array if none do).' : ' Set "cited" to an empty array.') +
+        home + ground(src) + '\n\n' +
+        'Respond ONLY with JSON: {"verdict":"polite"|"caution"|"rude","verdict_label":"3-5 words","confidence":"high"|"medium"|"low","explanation":"2-3 sentences","local_tip":"one sentence","regional_note":"one sentence or empty string"' + homeField + ',"cited":[1],"also_check":[{"country":"..","verdict":"polite"|"caution"|"rude","note":".."},{"country":"..","verdict":"..","note":".."},{"country":"..","verdict":"..","note":".."}]}';
     },
     valid: function (d) { return d && ['polite', 'caution', 'rude'].indexOf(String(d.verdict).toLowerCase()) !== -1 && d.explanation && Array.isArray(d.also_check); },
+    // Replace the model's source numbers with the real titles and URLs it was given.
+    finalize: function (d, p, sources) {
+      const used = sources.slice(0, 4);
+      const seen = new Set();
+      const cited = (Array.isArray(d.cited) ? d.cited : []).map(function (n) { return used[(parseInt(n, 10) || 0) - 1]; })
+        .filter(function (s) { return s && /^https:\/\//.test(s.url) && !seen.has(s.url) && seen.add(s.url); })
+        .slice(0, 3)
+        .map(function (s) { return { title: String(s.title || s.url).slice(0, 140), url: s.url, kind: sourceKind(s.url) }; });
+      const out = Object.assign({}, d, { sources: cited });
+      delete out.cited;
+      return out;
+    },
   },
   guide: {
     tokens: 1600,
