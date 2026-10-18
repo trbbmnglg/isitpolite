@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Standard, respectful business practice",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is standard Indian business etiquette, typically done at the beginning of a meeting. Indian business culture is somewhat less formal about the exchange itself, but showing respect and briefly acknowledging the card is customary.",
+  "local_tip": "Offer and receive the card with your right hand (or both hands) and take a moment to read it before placing it respectfully away, rather than pocketing it immediately.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Exchanged at the initial meeting with a formal introduction, using the right hand or both hands."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Relaxed but respectful; cards are casually exchanged during or after the initial conversation."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "Straightforward and unceremonious, similar to the US; one-handed presentation is normal."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "How to Follow Proper Business Etiquette in India",
+      "url": "https://www.youtube.com/watch?v=u4dmfmerw0c",
+      "kind": "community"
+    },
+    {
+      "title": "Going Global: Business Card Etiquette in Different Countries | UPrinting",
+      "url": "https://www.uprinting.com/blog/business-card-etiquette-in-different-countries",
+      "kind": "reference"
+    }
+  ]
+}

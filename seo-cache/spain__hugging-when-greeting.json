@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine with friends, not strangers",
+  "confidence": "medium",
+  "explanation": "In Spain, physical greetings like hugs are common among friends, family, and acquaintances once familiarity exists, but public greetings with strangers or in professional settings are more restrained. The standard greeting is the double cheek kiss between women or a man and a woman who know each other fairly well, while men who are familiar tend to hug and/or shake hands. Hugging a stranger or new acquaintance at a social gathering can therefore feel overly familiar.",
+  "local_tip": "At a social gathering, follow the other person's lead: offer a handshake to new people and save hugs for friends and family who initiate them.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise is the norm; hugs are reserved for close friends and family."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is standard; hugging is uncommon and can feel intrusive, especially with strangers."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugs are common and generally acceptable in casual social settings, though context matters."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Spanish Etiquette 101: A Guide for Students",
+      "url": "https://gogoespana.com/en/blog/spanish-etiquette-101",
+      "kind": "reference"
+    },
+    {
+      "title": "Spanish culture: social etiquette in Spain | Expatica",
+      "url": "https://www.expatica.com/es/living/integration/etiquette-in-spain-108364",
+      "kind": "reference"
+    }
+  ]
+}

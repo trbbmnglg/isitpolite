@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Normal, even expected",
+  "confidence": "high",
+  "explanation": "Splitting the bill is standard practice in the Netherlands and fits the Dutch egalitarian, frugal ethos known as 'going Dutch'. Friends commonly divide bills precisely, and you can ask for separate cheques ('apart') or split evenly. Even on dates, splitting is generally accepted rather than awkward.",
+  "local_tip": "Say 'mogen we apart afrekenen?' (can we pay separately?) or simply 'apart, alstublieft' when the server comes, and expect to wave for the bill since Dutch staff won't rush you.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Splitting is not the norm and can seem impolite; friends often take turns treating, though casual even splits happen."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites typically pays the whole bill."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It's considered polite to let companions split the bill rather than insist on covering it all."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Dutch Culture & Etiquette for Tourists 2026",
+      "url": "https://www.amsterdamtourism.org/dutch-culture-customs-etiquette-tourists",
+      "kind": "reference"
+    },
+    {
+      "title": "The phrase 'Going Dutch' (splitting the bill) is famous ...",
+      "url": "https://www.facebook.com/inthenetherlandss/posts/the-phrase-going-dutch-splitting-the-bill-is-famous-worldwide-in-your-culture-is/122235457052276235",
+      "kind": "community"
+    }
+  ]
+}

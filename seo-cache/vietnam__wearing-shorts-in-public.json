@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Fine in casual settings",
+  "confidence": "high",
+  "explanation": "In Vietnam, wearing shorts in public is generally acceptable in cities, coastal destinations and casual tourist areas, especially given the hot climate. The main exception is sacred sites such as temples, pagodas, memorials and communal houses, where covering shoulders and knees is expected and very short shorts are considered disrespectful.",
+  "local_tip": "Carry a light scarf or long trousers to slip on before entering temples or memorials, since very short shorts there can cause real offense.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "Shorts are common at beaches and cities, but temples require covering knees and shoulders."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Casual shorts are fine in tourist areas, but are seen as too casual in temples, shrines and formal settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Shorts are normal in summer streets, but churches such as St. Peter's enforce covered shoulders and knees."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Do and Don't in Vietnam: Essential Travel Etiquette Tips",
+      "url": "https://www.yourvietnamtravel.com/do-and-dont-in-vietnam",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural etiquette in Vietnam: essential customs travelers should know - TNK Travel",
+      "url": "https://www.tnktravel.com/blogs/vietnam-blogs/cultural-etiquette-in-vietnam-essential-customs-travelers-should-know",
+      "kind": "reference"
+    },
+    {
+      "title": "Do's and Don'ts - Travel Tips for Vietnam, know before you go",
+      "url": "https://hvgtravel.com/dos-and-donts",
+      "kind": "reference"
+    }
+  ]
+}

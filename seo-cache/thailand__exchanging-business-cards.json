@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite with two hands",
+  "confidence": "medium",
+  "explanation": "Exchanging business cards is a normal and welcome part of business dealings in Thailand, though it is done with more ceremony than in the West. Cards are typically offered and received with both hands (or the right hand with the left supporting the forearm) as a mark of respect, and it is polite to take a moment to read the card rather than pocketing it immediately. The greeting context matters: Thais often use the wai rather than a handshake, so a slight bow of the head while presenting the card fits local norms.",
+  "local_tip": "Offer and receive cards with both hands, hold the card briefly to read it, and never put it straight into a back pocket or write on it in front of the giver.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly formal card exchange with bows; writing on or stuffing a card away is a serious faux pas."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "Relaxed exchange, often at the end of a meeting; ask for the other person's card first."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Less ceremony, but use the right hand and carry two-sided Arabic-English cards."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Card Etiquette Around the World - MOO Blog",
+      "url": "https://www.moo.com/blog/business-tips/international-business-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "What You Should Know About International Business Etiquette",
+      "url": "https://www.business.com/articles/so-international-business-etiquette-from-around-the-world",
+      "kind": "reference"
+    }
+  ]
+}

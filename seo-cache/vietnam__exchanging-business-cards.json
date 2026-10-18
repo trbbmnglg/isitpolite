@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful practice",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a standard and expected part of business interactions in Vietnam, and it is done with care to show respect. Cards should be given and received with both hands (or the right hand), with the writing facing the recipient, and should be read carefully rather than pocketed immediately. Hierarchy matters, so cards are typically offered to the most senior person first.",
+  "local_tip": "Present and receive cards with both hands, read the card for a moment before placing it on the table, and ideally have one side translated into Vietnamese.",
+  "regional_note": "Sources note subtle etiquette differences between northern and southern Vietnam, such as hot tea served in the North versus other arrangements in the South, but they do not describe differing card-exchange rules by region.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly formal two-handed exchange with a bow; the card is treated as an extension of the person."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Two-handed exchange is standard, with the card presented in Chinese and read before being put away."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Casual one-handed exchange is common; reading the card briefly is courteous but formality is much lower."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Etiquette Vietnam",
+      "url": "https://bizasean.com/business-etiquette-vietnam",
+      "kind": "reference"
+    },
+    {
+      "title": "Vietnamese - Business Culture — Cultural Atlas",
+      "url": "https://theculturalatlas.org/vietnamese-culture/vietnamese-culture-business-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Etiquette in Vietnam - Customs and Tips - Vietnam Briefing News",
+      "url": "https://www.vietnam-briefing.com/news/business-etiquette-vietnam-customs-and-tips.html",
+      "kind": "reference"
+    }
+  ]
+}

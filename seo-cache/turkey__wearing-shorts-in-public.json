@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine in resorts, cover up elsewhere",
+  "confidence": "medium",
+  "explanation": "Shorts are completely normal daywear in Turkey's coastal resort towns like Antalya, Bodrum, and Marmaris, where Western summer clothing is expected. In conservative districts, smaller inland towns, and religious settings such as mosques, however, modest dress covering shoulders and knees is expected, and men are specifically advised to avoid shorts in mosques. Context therefore determines whether shorts read as unremarkable or as disrespectful.",
+  "local_tip": "Wear shorts freely at the beach or resort, but switch to longer trousers when visiting mosques, villages, or conservative neighborhoods.",
+  "regional_note": "Coastal tourist areas (Antalya, Bodrum, Marmaris, Belek) are notably more relaxed about shorts than smaller towns and conservative districts.",
+  "also_check": [
+    {
+      "country": "Morocco",
+      "verdict": "caution",
+      "note": "Shorts are common in coastal tourist areas but can draw unwanted attention in inland medinas and conservative neighborhoods."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shorts are ordinary casual summer wear in cities and resorts, though long trousers are preferred in formal or business settings."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Shorts are acceptable in beach and tourist areas but are often seen as too casual or immodest in temples and smaller towns."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish Culture & Etiquette for Foreigners 2026: Expat Guide - RestProperty",
+      "url": "https://restproperty.com/article-en/statioturcii/turkish-culture-etiquette-foreigners-2026-expat-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkey Cultural Guide: Etiquette, Customs, and Tips",
+      "url": "https://www.travelwithhello.com/blog/turkey-cultural-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Etiquette: The Cultural Guide I Wish I Had Before My First Day in Turkey",
+      "url": "https://medium.com/@simplitty/turkish-etiquette-the-cultural-guide-i-wish-i-had-before-my-first-day-in-turkey-839d4eb383d9",
+      "kind": "reference"
+    }
+  ]
+}

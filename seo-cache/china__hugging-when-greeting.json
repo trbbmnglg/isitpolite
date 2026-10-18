@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid with strangers",
+  "confidence": "high",
+  "explanation": "In China, hugging is not a common greeting and is generally reserved for close friends or family; sources note that touching strangers is disliked and that hugging someone you are not close to can overwhelm them. A handshake is the standard greeting, though young people may hug each other in Western style. At a social gathering, hugging a new acquaintance would likely feel intrusive.",
+  "local_tip": "At a social gathering, offer a handshake or a slight nod instead of a hug, and only hug if a close Chinese friend initiates it.",
+  "regional_note": "Sources note a generational split: younger Chinese may say \"Hi\" or hug each other as in the West, while older generations generally avoid body contact.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging strangers is uncommon and can feel awkward."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugging friends and even new acquaintances is common and often welcomed."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is standard among acquaintances; full hugs are more reserved for close friends."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette with Chinese Characteristics",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122949",
+      "kind": "reference"
+    },
+    {
+      "title": "Chinese Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.chineseclass101.com/blog/2020/01/06/chinese-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

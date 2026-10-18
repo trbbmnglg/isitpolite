@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine casually, not everywhere",
+  "confidence": "medium",
+  "explanation": "Filipinos generally dress modestly in public, and shorts are common and acceptable in everyday casual settings such as malls, streets, and beaches. However, shorts are considered inappropriate in churches, formal venues, and some government or institutional buildings, where dress codes or expectations of modesty apply.",
+  "local_tip": "Keep shorts casual and knee-length for everyday wear, but carry long pants or a cover-up for church visits, formal events, and offices.",
+  "regional_note": "Modesty expectations are often described as stricter in rural areas and when visiting churches, while urban and beach settings are more relaxed.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are common casually but can feel too informal in temples, offices, and upscale settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Shorts are fine on the beach but may draw disapproval at churches and formal venues."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "Modest dress is expected in public, and shorts are discouraged in malls and religious sites."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Philippines Etiquette: Understanding Filipino Customs and Culture | AirTkt",
+      "url": "https://www.airtkt.com/my-world/philippines_etiquette_understanding_filipino_customs_and_culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Filipino - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/filipino-culture/filipino-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "The Ultimate Guide to Philippine Culture: Travel Etiquette, Customs, and Key Phrases | WordCamp Asia 2025",
+      "url": "https://asia.wordcamp.org/2025/ultimate-guide-philippine-culture-travel-etiquette-phrases",
+      "kind": "reference"
+    }
+  ]
+}

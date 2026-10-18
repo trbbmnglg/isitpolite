@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Context-dependent, often frowned upon",
+  "confidence": "medium",
+  "explanation": "Russian dining etiquette places strong emphasis on hospitality and communal drinking, and sources note that men typically pour drinks for women seated next to them, so pouring only for yourself can read as inattentive or selfish. At toasts, refusing or ignoring the shared ritual is considered impolite, and opened bottles are usually finished together rather than nursed individually. That said, informal settings and younger urban groups are more relaxed, so the reaction depends heavily on context.",
+  "local_tip": "Pour for the women and neighbors at your table before filling your own glass, and never pour backhanded.",
+  "regional_note": "Sources describe the custom of men pouring for women seated beside them as general Russian practice, but do not document regional or generational variation.",
+  "also_check": [
+    {
+      "country": "Georgia",
+      "verdict": "rude",
+      "note": "Tamada-led toasts make self-pouring and drinking before the toast look disrespectful."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "You normally pour for others and let them refill you; pouring your own can seem slightly off."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Pouring your own wine at the table is generally acceptable and unremarkable."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Russian - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/russian-culture/russian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Russia Etiquette | International Dining Etiquette | Etiquette Scholar",
+      "url": "https://www.etiquettescholar.com/dining_etiquette/table-etiquette/europe-e_dinner_etiquette/russian.html",
+      "kind": "reference"
+    }
+  ]
+}

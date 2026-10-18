@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common and generally accepted",
+  "confidence": "medium",
+  "explanation": "Splitting the bill is common in Brazil, especially among younger people and groups of friends, who often divide evenly or pay for what each consumed. However, etiquette shifts when someone is hosting or inviting you: a Brazilian host may insist on paying for everyone as a gesture of hospitality, and refusing too firmly can seem rude. A polite offer to contribute is appropriate, but don't push hard if they decline.",
+  "local_tip": "Offer to pay your share, but if a Brazilian host insists on covering the bill, thank them graciously and let them pay rather than arguing.",
+  "regional_note": "The host-pays custom is more frequent in family contexts and among older people, while younger Brazilians tend to split the bill more casually.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Splitting is common among friends, but a senior person often pays and dividing precisely can feel transactional."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Separate bills and precise splitting are normal and expected in restaurants."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Splitting is routine, though groups often divide evenly rather than itemizing."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Most Interesting, Useful Brazilian Customs & Etiquette",
+      "url": "https://www.portuguesepod101.com/blog/2020/01/06/portuguese-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Navigating Brazilian Social Customs: A Visitor's Friendly ...",
+      "url": "https://cometobrazil.net/navigating-brazilian-social-customs-a-visitors-friendly-guide",
+      "kind": "reference"
+    }
+  ]
+}

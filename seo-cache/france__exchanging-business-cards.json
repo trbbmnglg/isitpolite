@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is common and expected in French business settings, typically done during introductions. Cards should ideally be bilingual (your language plus French) and include academic titles and professional qualifications. Receive and present cards with the right hand (or both hands), and take a moment to study the card to show interest.",
+  "local_tip": "Have bilingual cards printed with your academic and professional titles, and pause to read each card before placing it on the table.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly ritualized: present and receive with both hands, bow slightly, and study the card carefully."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "Acceptable but more casual; cards are often exchanged after a conversation rather than at introductions."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Exchanged before a meeting with the right hand and maintained eye contact; titles are expected."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "A Guide to French Business Etiquette",
+      "url": "https://cibtvisas.com/blog/business-etiquette-france",
+      "kind": "reference"
+    },
+    {
+      "title": "International Business Card Etiquette for Business Travelers",
+      "url": "https://www.all-ett.com/blogs/blog/international-business-card-etiquette-for-business-travelers",
+      "kind": "reference"
+    },
+    {
+      "title": "French business etiquette – practical rules for meetings, email, and dress",
+      "url": "https://preply.com/en/blog/french-business-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

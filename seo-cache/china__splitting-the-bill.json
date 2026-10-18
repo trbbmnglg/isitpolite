@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Splitting is not customary",
+  "confidence": "high",
+  "explanation": "In China, the host or the person who invited others typically pays the whole bill, and reaching for the bill is a customary gesture of generosity and honor. Openly splitting the bill can seem impersonal or stingy, especially at business or hosted meals, though younger friends and casual peers may sometimes go Dutch.",
+  "local_tip": "If you are the guest, make a polite show of reaching for the bill but let the host pay; if you are the host, insist on covering it and decline offers to split.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "Splitting the bill is normal among friends and colleagues."
+    },
+    {
+      "country": "Bolivia",
+      "verdict": "polite",
+      "note": "Splitting is common in casual dining settings."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Going Dutch is widely accepted, though hosts may still treat."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Travel Tips: Dining Etiquette in China/Hong Kong - Planet Depos",
+      "url": "https://planetdepos.com/travel-tips-dining-etiquette-china-hong-kong",
+      "kind": "reference"
+    },
+    {
+      "title": "Dining Etiquette: Why Do Some Asians Fight To Pay The Bill? – Mabel Kwong",
+      "url": "https://mabelkwong.com/2016/02/18/dining-etiquette-why-do-some-asians-fight-to-pay-the-bill",
+      "kind": "reference"
+    }
+  ]
+}

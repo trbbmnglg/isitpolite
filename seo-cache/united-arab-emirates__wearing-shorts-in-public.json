@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Modest dress preferred; shorts risky",
+  "confidence": "medium",
+  "explanation": "In the UAE, modest dress is generally expected in public, and even men wearing shorts can raise eyebrows since locals may see it as akin to walking around in underwear. Enforcement is inconsistent: some long-term residents report wearing shorts routinely without issue, while others note that the law technically calls for knee-length shorts at minimum. Shorts are therefore tolerated in tourist and expat-heavy settings but best avoided in conservative or non-tourist areas.",
+  "local_tip": "If you wear shorts, keep them knee-length and reserve them for beach, pool, or tourist areas rather than malls, souks, or government buildings.",
+  "regional_note": "Expectations are stricter during Ramadan and in less touristy emirates, while Dubai's expat-heavy zones are more relaxed.",
+  "also_check": [
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Public dress codes are stricter; shorts for men are generally discouraged outside tourist resorts."
+    },
+    {
+      "country": "Qatar",
+      "verdict": "caution",
+      "note": "Modest dress is expected in public; shorts are best limited to hotels and beaches."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "polite",
+      "note": "Shorts are widely worn by tourists and locals in coastal and urban areas, though modest dress helps in rural regions."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Customs and etiquette in United Arab Emirates | Rough Guides",
+      "url": "https://www.roughguides.com/united-arab-emirates/customs-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Dress Codes for the UAE: What Can Travelers Wear Here?",
+      "url": "https://www.worldnomads.com/travel-safety/middle-east/united-arab-emirates/what-can-i-wear-uae",
+      "kind": "reference"
+    }
+  ]
+}

@@ -58,7 +58,9 @@ const DIRECT_URL = 'https://api.deepseek.com/v1/chat/completions';
 // There is intentionally NO deployed proxy fallback — exposing the key via a
 // public /api/ask endpoint made it an open, billable AI relay (removed). Builds
 // WITHOUT a key still work fully from ./seo-cache (no new pages are generated).
-const CAN_GENERATE = !!API_KEY;
+// Unsourced, model-memory generation is opt-in only; new pages should come from
+// scripts/generate-pages.mjs, which grounds every page in cited sources.
+const CAN_GENERATE = !!API_KEY && args.includes('--legacy-generate');
 
 // ── Built-in sample records (used by --sample, no API needed) ────────────
 const SAMPLE_RECORDS = {
@@ -331,7 +333,7 @@ async function main() {
     sitemapEntries.push({ url: `/etiquette/${countrySlug(country)}/`, priority: '0.8', changefreq: 'monthly' });
   for (const p of pairs)
     if (records.get(`${p.countrySlug}|${p.gestureSlug}`))
-      sitemapEntries.push({ url: `/etiquette/${p.countrySlug}/${p.gestureSlug}/`, priority: '0.7', changefreq: 'monthly', lastmod: records.get(`${p.countrySlug}|${p.gestureSlug}`).reviewed });
+      sitemapEntries.push({ url: `/etiquette/${p.countrySlug}/${p.gestureSlug}/`, priority: '0.7', changefreq: 'monthly', lastmod: records.get(`${p.countrySlug}|${p.gestureSlug}`).reviewed || records.get(`${p.countrySlug}|${p.gestureSlug}`).grounded });
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     sitemapEntries.map(e =>
       `  <url><loc>${BASE_URL}${e.url}</loc><lastmod>${e.lastmod || today}</lastmod><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority></url>`

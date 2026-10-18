@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserve hugs for intimates",
+  "confidence": "medium",
+  "explanation": "Egypt is a warm but conservative society where public displays of affection, including hugging, are generally frowned upon, especially between men and women who are not close relatives. In a social gathering, greetings usually involve a handshake or a light cheek kiss between same-sex acquaintances, so a full hug can feel overly intimate or draw unwanted attention. Waiting for the other person to initiate contact is the safest approach.",
+  "local_tip": "Offer a handshake first and let your Egyptian host or acquaintance decide whether a cheek kiss or hug is appropriate.",
+  "regional_note": "Same-sex friends and relatives may exchange hugs or cheek kisses more freely, while mixed-gender hugging is more restricted, particularly in conservative or religious settings.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Hugging is common between same-sex friends but mixed-gender public affection is restrained."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "La bise cheek kisses and light hugs among friends are routine greetings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging is uncommon and can feel intrusive in formal greetings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural Etiquette in Egypt: What Every Traveller Should Know - Timeless Travel",
+      "url": "https://timeless.tours/cultural-etiquette-in-egypt-what-every-traveller-should-know",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Culture and Etiquette in Egypt | Today Translations",
+      "url": "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-egypt",
+      "kind": "reference"
+    }
+  ]
+}

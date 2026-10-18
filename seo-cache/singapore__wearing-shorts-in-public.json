@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Normal, weather-driven everyday wear",
+  "confidence": "high",
+  "explanation": "Singapore has no official dress code, and locals commonly wear shorts, t-shirts, and other light clothing in public because of the tropical climate. Shorts are standard everyday attire for casual settings, though more covered or formal dress is expected in business, fine dining, and some religious venues.",
+  "local_tip": "Wear shorts freely for everyday errands and hawker centres, but carry a light layer for heavily air-conditioned malls and switch to trousers or a skirt for business meetings and upscale venues.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are common in summer but can look too casual in business, temple, and formal dining settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Shorts are fine at the beach and casual spots, but churches and upscale venues often expect covered knees and shoulders."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Shorts are acceptable in tourist and beach areas, but modest dress is expected in malls, government buildings, and religious sites."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Culture and social etiquette in Singapore | Expatica",
+      "url": "https://www.expatica.com/sg/about/culture/singapore-etiquette-2172775",
+      "kind": "reference"
+    },
+    {
+      "title": "Singaporean - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

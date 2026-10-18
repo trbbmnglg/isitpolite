@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid; soles risk offense",
+  "confidence": "high",
+  "explanation": "In UAE business settings, crossing your legs is best avoided because it can inadvertently point a shoe sole or foot toward an Emirati colleague, which is considered extremely insulting. Sources consistently advise keeping feet firmly on the floor during meetings. The gesture itself is not the issue; the risk of exposing soles or directing a foot at someone is.",
+  "local_tip": "Keep both feet flat on the floor during meetings, and if you must cross your legs, angle your feet away from others so no sole is visible.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Showing soles or pointing a foot at someone is similarly offensive in Gulf business settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Crossing legs is common, but showing soles toward others or resting an ankle on the knee can seem casual or rude in formal meetings."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Crossing legs is normal and generally acceptable in business meetings, though foot-pointing may still seem casual."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "UAE Business Culture: 10 Things You Need to Know | RemoFirst",
+      "url": "https://www.remofirst.com/post/uae-business-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Communication, Posture and Business in the UAE - Training CQ",
+      "url": "https://www.trainingcq.com/communication-posture-and-business-in-the-uae-2-2-2-2-2-2",
+      "kind": "reference"
+    },
+    {
+      "title": "UAE business etiquette: doing business in the UAE",
+      "url": "https://asianabsolute.co.uk/blog/uae-business-etiquette-doing-business-in-the-uae",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Rude, intrusive in U.S.",
+  "confidence": "high",
+  "explanation": "In the United States, asking a new acquaintance about salary, age, or marital status at a social gathering is widely treated as intrusive and rude. These are considered private matters to be volunteered rather than asked about directly, especially by someone who is not a close friend or family member. U.S. workplace culture reinforces this boundary, with many companies discouraging salary discussions even among colleagues.",
+  "local_tip": "At a U.S. social gathering, let people volunteer personal details like age or income and steer conversation toward work interests, hobbies, or where they live instead.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Age, marital status, and sometimes salary are common icebreakers and help establish the right terms of address and formality."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "rude",
+      "note": "Like the U.S., income, age, and relationship status are treated as private matters that should be volunteered, not asked about."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Age can be asked indirectly or in appropriate contexts to determine politeness levels, but salary questions remain sensitive."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural Etiquettes: Do’s and Don’ts in Different Countries — The World in Us",
+      "url": "https://www.theworldinus.org/blog/cultural-etiquettes-dos-and-donts-in-different-countries",
+      "kind": "reference"
+    },
+    {
+      "title": "Rude in one country, polite in another: 20 examples",
+      "url": "https://qz.com/rude-in-one-country-polite-in-another",
+      "kind": "reference"
+    }
+  ]
+}

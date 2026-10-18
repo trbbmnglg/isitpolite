@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Uncommon; host usually pays",
+  "confidence": "high",
+  "explanation": "Splitting the bill is uncommon in Mexico; whoever invites friends or family out to a meal is generally the one who pays. Many restaurants outside resort areas don't split bills, and asking for separate checks can confuse or irritate servers. Settling up among friends after leaving the restaurant is the usual workaround.",
+  "local_tip": "Offer to pay or at least make a sincere gesture to cover the check, and if you truly want to split, quietly settle shares with your companions after you leave the table.",
+  "regional_note": "Resort areas are noted as somewhat more accommodating to separate checks, though even there it isn't guaranteed.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Splitting is not the norm and can be seen as impolite; friends take turns treating, though casual even splits sometimes happen."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "Allowing companions to split the bill is considered polite rather than insisting on covering it all."
+    },
+    {
+      "country": "Scotland",
+      "verdict": "polite",
+      "note": "Splitting is common, and telling the restaurant in advance that you'll pay separately is especially courteous."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "8 Tips For Dining Like A Local In Mexico",
+      "url": "https://www.travelawaits.com/2486100/dining-like-a-local-in-mexico",
+      "kind": "reference"
+    }
+  ]
+}

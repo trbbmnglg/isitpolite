@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Treating in turns is the norm",
+  "confidence": "high",
+  "explanation": "In Greece, asking to split the bill can come across as rude or overly transactional, since hosts typically consider it their duty to cover the meal for friends or family. The usual custom is for one person to offer to pay the whole check, with others reciprocating by treating at a later meal.",
+  "local_tip": "Offer to cover the full bill yourself and let your Greek companions return the favor next time, rather than proposing to split it.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Iceland",
+      "verdict": "polite",
+      "note": "Splitting the bill is completely acceptable and unremarkable."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites the group pays."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It is considered polite to let companions split the bill rather than insist on paying alone."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Splitting a restaurant bill is a relatively common custom in ...",
+      "url": "https://www.instagram.com/p/DXM89kckoUm",
+      "kind": "community"
+    }
+  ]
+}

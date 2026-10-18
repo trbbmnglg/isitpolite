@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Pour for others first",
+  "confidence": "high",
+  "explanation": "In Japan, pouring your own drink is traditionally seen as lonely or bad luck, and the polite norm is to pour for companions and let them refill your glass. You should pour for others first before refilling your own glass, holding the bottle or teapot with both hands. Self-pouring is therefore not rude, but it is mildly awkward and best avoided in group dining.",
+  "local_tip": "Keep an eye on others' glasses and refill them, then lift your own glass slightly when someone offers to pour for you.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Similar communal pouring norm; pouring your own drink is generally avoided among seniors."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Toasting and pouring for others is valued, but self-pouring is common and not considered rude."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pouring your own drink is normal and unremarkable in casual dining."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Secret Etiquette Of Dining In Japan That Tourists Get Wrong",
+      "url": "https://www.gamintraveler.com/2025/11/07/the-secret-etiquette-of-dining-in-japan-that-tourists-get-wrong",
+      "kind": "reference"
+    },
+    {
+      "title": "The Japanese Dining Etiquette: A Guide to Table Manners in Japan | Tomo Japanese Restaurant",
+      "url": "https://tomorestaurant.com/japanese-dining-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

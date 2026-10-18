@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, formal, not casual",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is standard practice in German business culture, typically done at the start of a meeting after a formal introduction with a firm handshake. Cards are not handed out as freely as in the U.S.; giving one signals permission to make future contact, so treat collected cards as confidential. Receive a card with a brief look of respect before putting it away carefully.",
+  "local_tip": "Offer your card with your right hand (or both hands) at the initial introduction, and take a moment to read any card you receive before pocketing it.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "India",
+      "verdict": "polite",
+      "note": "Less formal exchange, but a brief respectful acknowledgment of the card is customary."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Relaxed but respectful; cards are exchanged casually during or after the initial conversation."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "Acceptable to exchange cards after a conversation rather than at the formal introduction."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "A Guide to German Business Etiquette",
+      "url": "https://cibtvisas.com/blog/business-etiquette-germany",
+      "kind": "reference"
+    },
+    {
+      "title": "Going Global: Business Card Etiquette in Different Countries | UPrinting",
+      "url": "https://www.uprinting.com/blog/business-card-etiquette-in-different-countries",
+      "kind": "reference"
+    },
+    {
+      "title": "German Business Customs And Practices",
+      "url": "https://mdna.com/customs.pdf",
+      "kind": "reference"
+    }
+  ]
+}

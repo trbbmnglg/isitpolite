@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Salary rude, age situational",
+  "confidence": "medium",
+  "explanation": "Mexican social gatherings are warm and personal, and people often ask about family and personal life to build rapport, so some personal questions are expected. However, asking directly about salary is generally considered rude and intrusive, while asking an adult's age can also come across as tactless, especially with older people or new acquaintances. The safest approach is to let others volunteer such details and mirror their openness.",
+  "local_tip": "Stick to family, food, travel and culture for small talk, and let salary or age come up only if the other person raises it first.",
+  "regional_note": "Etiquette sources note that younger, informal gatherings tolerate more personal banter than formal or older-adult settings, where usted and greater reserve are expected.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Salary is a strong taboo; age is asked more casually but still sensitive."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Salary questions are considered private, though age is less fraught in casual chat."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "polite",
+      "note": "Age and even income are commonly asked in friendly conversation without offense."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "12 Mexican No-Nos - Mexico Relocation Guide",
+      "url": "https://mexicorelocationguide.com/12-mexican-no-nos-to-avoid",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Business Etiquette in Mexico",
+      "url": "https://cibtvisas.com/blog/business-etiquette-mexico",
+      "kind": "reference"
+    }
+  ]
+}

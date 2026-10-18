@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, relaxed exchange",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is polite and expected in UAE business settings, usually done at the start of a meeting. The approach is relaxed due to the country's international business culture, but you should always offer and receive cards with your right hand, as using the left is considered impolite.",
+  "local_tip": "Carry two-sided cards with Arabic on one side and English on the other, and present them with your right hand at the beginning of the meeting.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly formal two-handed exchange with a bow and careful reading of the card."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Offer and receive with both hands; study the card before putting it away."
+    },
+    {
+      "country": "Finland",
+      "verdict": "polite",
+      "note": "Casual exchange, often without ceremony; no strict hand protocol."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Work culture and business etiquette in the UAE | Expatica",
+      "url": "https://www.expatica.com/ae/working/employment-basics/business-culture-in-the-united-arab-emirates-72283",
+      "kind": "reference"
+    },
+    {
+      "title": "REAB - Business traditions and mentality - Business culture in the UAE",
+      "url": "https://reab.pro/en/info/business-traditions-and-mentality/business-culture-in-the-uae",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Card Etiquette Around the World - MOO Blog",
+      "url": "https://www.moo.com/blog/business-tips/international-business-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

@@ -27,16 +27,31 @@ with the query pre-filled (`/?g=…&c=…&ctx=…`).
 
 `dist/` is what gets deployed. Build tooling and `seo-cache/` never ship.
 
+## Adding new pages (sourced by construction)
+
+Add gestures to `GESTURES` in `seo/seo-data.mjs`, then generate the missing pairs with the
+same grounded pipeline as live Check (web search → draft → validate):
+
+```powershell
+node scripts/generate-pages.mjs --dry       # list missing pairs
+node scripts/generate-pages.mjs --limit 10  # generate a few and read them first
+node scripts/generate-pages.mjs             # fill the rest
+```
+
+Keys come from `.dev.vars` (`DEEPSEEK_API_KEY`, `TAVILY_API_KEY`). A page is written only
+if the answer cites at least one non-forum source; Reddit/Facebook/Quora-style links are
+kept as "traveler discussions" but never carry a page alone. Generated records carry
+`grounded: <date>` (not `reviewed`), and the page says it is "not yet independently reviewed"
+until a fact-check pass adds `reviewed`.
+
 ## Build & deploy
 
 ```powershell
-# 1. set your DeepSeek key for this shell (only needed to generate NEW pages)
-$env:DEEPSEEK_API_KEY = "sk-..."
-
-# 2. generate + assemble dist  (first full run ≈ 144 API calls, a few minutes)
+# 1. assemble dist from seo-cache (no key needed; never generates pages from model memory
+#    unless DEEPSEEK_API_KEY is set — prefer scripts/generate-pages.mjs for new pages)
 node build-seo.mjs
 
-# 3. test, then deploy the Worker (serves dist/ as static assets)
+# 2. test, then deploy the Worker (serves dist/ as static assets)
 npm test
 npx wrangler deploy
 ```

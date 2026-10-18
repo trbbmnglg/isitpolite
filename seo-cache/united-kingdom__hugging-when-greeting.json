@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved; reserve hugs for intimates",
+  "confidence": "high",
+  "explanation": "In the UK, greetings are friendly but reserved: a handshake, nod or simple hello is the norm, and hugs are generally reserved for close friends and family rather than new acquaintances. Brits also value personal space, typically keeping about an arm's length, so an unsolicited hug at a social gathering can feel intrusive. Hugging is not rude per se, but it is a caution move with people you do not know well.",
+  "local_tip": "At a social gathering, offer a handshake or a warm verbal greeting first and let a hug come from the other person, especially if they are a close friend.",
+  "regional_note": "Sources note generational and setting variation: hugs and cheek-kissing are more accepted among close friends and in informal social contexts, while business and first meetings remain handshake territory.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Cheek-kissing (la bise) is common among acquaintances, but the number of kisses varies by region and hugs are less standard."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugging is widely accepted in casual social greetings, though handshakes remain common in formal or business settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Greetings typically use bows and handshakes; hugging is uncommon and can feel uncomfortable outside close relationships."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "United Kingdom Cultural Guide: Etiquette, Customs, and Tips",
+      "url": "https://www.travelwithhello.com/blog/united-kingdom-cultural-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "British Etiquette: A Guide for Expats in 2026 | Adleo",
+      "url": "https://adleorelo.com/british-etiquette-a-guide-for-expats",
+      "kind": "reference"
+    },
+    {
+      "title": "Rules, Britannia: A Guide to UK Manners and Mannerisms",
+      "url": "https://www.insightvacations.com/blog/guide-to-uk-manners",
+      "kind": "reference"
+    }
+  ]
+}

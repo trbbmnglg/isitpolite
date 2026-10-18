@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Mind the soles",
+  "confidence": "medium",
+  "explanation": "In Thailand the feet are considered the lowest and dirtiest part of the body, so sitting with legs crossed in a way that shows the soles of your feet toward others is considered extremely impolite. In a business setting, a tucked or closed leg position is safer, and shaking your foot or leg while seated is not rude but makes you look unprofessional.",
+  "local_tip": "Keep both feet flat on the floor or tuck them discreetly to the side so your soles never face a colleague or client.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Crossing legs at the ankle is common, but sitting with an ankle on the knee or showing soles can read as casual or disrespectful in formal meetings."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Crossing legs is common among men, but exposing the sole of your shoe toward a senior person is frowned upon."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "Showing the soles of your feet, including by crossing legs, is offensive in Gulf business settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Do & Don’t in Thailand | How to Act in Thailand",
+      "url": "https://www.khaolakexplorer.com/do-dont-in-thailand",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.thaipod101.com/blog/2020/01/06/thai-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

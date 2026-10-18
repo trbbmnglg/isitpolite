@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite and relationship-building",
+  "confidence": "high",
+  "explanation": "In Egypt, exchanging business cards is a warm gesture that lends credibility and legitimacy to a business contact, and cards may be handed over at any point during the meeting rather than following a strict ritual. Cards are commonly printed in English on one side and Arabic on the other, and presenting or receiving with the right hand (or both hands) is expected.",
+  "local_tip": "Print your card with English on one side and Arabic on the other, and offer and receive it with your right hand or both hands.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly ceremonial: present and receive with both hands, bow slightly, and study the card before putting it away."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Use both hands and present with the text facing the recipient; never stuff a card straight into a pocket."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "polite",
+      "note": "Cards are not strictly required, but if used one side should be in Arabic and offered with the right hand."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Consider it Culture: The Rituals of Business Cards - North Dakota Trade Office",
+      "url": "https://ndto.com/consider-it-culture-the-rituals-of-business-cards",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Culture and Etiquette in Egypt | Today Translations",
+      "url": "https://www.todaytranslations.com/consultancy-services/business-culture-and-etiquette/doing-business-in-egypt",
+      "kind": "reference"
+    },
+    {
+      "title": "Tips for Business Card Etiquette Around the World - Golden MFG",
+      "url": "https://goldenmfg.com/blog/business-card-etiquette-around-world",
+      "kind": "reference"
+    }
+  ]
+}

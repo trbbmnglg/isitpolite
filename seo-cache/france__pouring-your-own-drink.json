@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Wait to be served",
+  "confidence": "medium",
+  "explanation": "In France, wine is traditionally poured by the host or whoever is nearest the bottle, and guests generally wait to be served rather than helping themselves. Pouring your own drink can read as impatient or as bypassing the host's role, though in casual restaurants and among younger diners it is increasingly relaxed. The stronger rule is to wait until everyone is served and a toast (\"Santé!\") is made before drinking.",
+  "local_tip": "Keep your glass still and let the host or a neighbor refill it; if the bottle is clearly out of reach and no one is serving, offer to pour for others before topping up your own glass.",
+  "regional_note": "Sources note a generational and gender dimension: in formal settings, men traditionally pour wine for women, and some consider it impolite for a woman to pour her own wine when men are present.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Self-pouring is common and unremarkable, especially in casual settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "You pour for others and they pour for you; filling your own glass is seen as self-serving."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "rude",
+      "note": "Similar to Japan, elders and others pour for you, and self-pouring can seem inconsiderate."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Table Etiquette: A Quick Guide | Taste of France®",
+      "url": "https://tasteoffrancemag.com/featured/french-table-etiquette-a-quick-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "French Dining Etiquette Rules DO's & DON'Ts for Eating ...",
+      "url": "https://www.facebook.com/groups/778856816691214/posts/1607185363858351",
+      "kind": "community"
+    }
+  ]
+}

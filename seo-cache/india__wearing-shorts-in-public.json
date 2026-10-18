@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Acceptable in cities, not temples",
+  "confidence": "medium",
+  "explanation": "Indian men generally don't wear shorts, even in hot weather, and India as a whole is fairly conservative about clothing, though metropolitan cities like Mumbai and Goa are more relaxed. Shorts are widely tolerated for foreigners in urban and beach settings, but they are regarded as unacceptable in temples, mosques and many rural areas.",
+  "local_tip": "In cities shorts are usually fine, but carry long trousers or a sarong to cover your legs before entering any temple, mosque or village area.",
+  "regional_note": "Sources note Goa and Mumbai are more relaxed about shorts and dresses, while the countryside is more conservative; men in particular rarely wear shorts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are common in summer cities but can look casual in formal or traditional settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Fine at beaches and casual spots, but shorts may be refused at churches and upscale venues."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "rude",
+      "note": "Modest dress is expected in public; shorts are best limited to beaches and resorts."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "India’s etiquette for travellers - Conscious Explorer",
+      "url": "https://conscious-explorer.com/magazine/india-etiquette-for-travellers",
+      "kind": "reference"
+    },
+    {
+      "title": "INDIAN CUSTOMS, ETIQUETTE AND MANNERS | Facts and Details",
+      "url": "https://factsanddetails.com/india/people_and_life/sub7_3c/entry-4168.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquette in India for Foreigners: Do’s and Don’ts - India Someday Travels",
+      "url": "https://indiasomeday.com/en/cultural-etiquette-in-india-for-foreigners",
+      "kind": "reference"
+    }
+  ]
+}

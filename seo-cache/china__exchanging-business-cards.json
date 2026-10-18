@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, with ritual care",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a long-established and expected part of Chinese business culture, and most contacts will want to exchange cards with you. The card represents the person, so it should be presented and received with both hands, Chinese side facing the recipient, then studied and kept respectfully rather than pocketed or tossed. Note that WeChat contact exchange has increasingly become the everyday standard, especially among younger professionals.",
+  "local_tip": "Bring ample Simplified Chinese cards, present and receive with both hands, and place the card face up on the table or in a card case rather than in a trouser pocket.",
+  "regional_note": "Sources note a generational shift: electronic exchange via WeChat is increasingly replacing paper cards, particularly among younger business contacts.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange (meishi) is highly ritualized, with bows and careful reading of the card."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Casual and common, but little ceremony; cards may be handed one-handed or briefly glanced at."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Use the right hand only; offering a card with the left hand can cause offense."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Culture & Etiquette Tips - Exchanging Business Cards in China",
+      "url": "https://www.asianbusinesscards.com/business-card-exchange-etiquette-guide-culture-tips-for-china",
+      "kind": "reference"
+    },
+    {
+      "title": "How to Deal with Business Card Exchange in China | C2W",
+      "url": "https://www.china2west.com/how-to-deal-with-business-card-exchange-in-china",
+      "kind": "reference"
+    },
+    {
+      "title": "A guide to Chinese business etiquette | CIBTvisas",
+      "url": "https://cibtvisas.com/blog/business-etiquette-china",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Host pours, not you",
+  "confidence": "low",
+  "explanation": "Turkish hospitality strongly favors the host serving and offering drinks, and refusing or bypassing an offer can read as rejecting the host's welcome. Pouring your own drink at a restaurant table is not a documented grave insult, but it can seem impatient or as if you are not letting others play host. The sources do not directly address self-pouring, so this is inferred from broader hospitality norms.",
+  "local_tip": "Let your host or the server pour first, and if you want more, offer to pour for others before filling your own glass.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Pouring for others is the norm; filling your own glass can seem slightly self-focused."
+    },
+    {
+      "country": "Georgia",
+      "verdict": "caution",
+      "note": "The tamada or host leads toasts and pouring; self-pouring can disrupt the ritual."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Elders and hosts pour; pouring your own drink is often seen as a sign that others are neglecting you."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish Etiquette: The Cultural Guide I Wish I Had Before My First Day in Turkey",
+      "url": "https://medium.com/@simplitty/turkish-etiquette-the-cultural-guide-i-wish-i-had-before-my-first-day-in-turkey-839d4eb383d9",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally fine, watch the context",
+  "confidence": "medium",
+  "explanation": "In Vietnam, dining is fairly casual and hosts often pour for guests as a gesture of hospitality, so pouring your own drink is not inherently rude. However, at shared or ceremonial drinking — especially rice wine from a communal cup — the eldest is served first and the cup is refilled for the next person, so grabbing or self-pouring in that setting can seem impolite. Foreigners are usually given leeway, but offering to pour for others before yourself is the safer habit.",
+  "local_tip": "At a shared table, pour for the eldest and others first and let someone pour for you; only pour your own if no one is serving and the meal is casual.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Pouring for others is expected; filling your own glass is seen as slightly self-serving."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Similar to Japan — pour for elders and receive from others rather than self-pouring."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Toasting customs favor pouring for others, but self-pouring at casual meals is common and accepted."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Vietnamese - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/vietnamese-culture/vietnamese-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Asian Food Etiquette – How to Eat, Drink and Dine Like the Locals",
+      "url": "https://grantourismotravels.com/asian-food-etiquette-eating-drinking-dining-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

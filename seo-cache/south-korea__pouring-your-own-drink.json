@@ -1,0 +1,43 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid pouring your own",
+  "confidence": "high",
+  "explanation": "In South Korea, pouring your own drink is generally considered impolite, especially in formal settings and with elders, because it signals that no one is attending to your glass. The norm is that others refill your glass when it is less than half full, and you reciprocate by pouring for them, typically using two hands for elders. Pouring your own drink can even cause a neighbor to lose face for failing to notice your empty glass.",
+  "local_tip": "Keep your glass less than half full and pour for neighbors first; if yours sits empty, pour a little into a neighbor's glass to prompt a refill rather than filling your own.",
+  "regional_note": "In casual friend groups, self-pouring sometimes happens and a friend may tap your glass lightly as informal acknowledgment, but this does not extend to elders or formal situations.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Pouring for others is the norm, but self-pouring is more tolerated than in Korea, especially in casual settings."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Toasting and refilling others' glasses is valued, but pouring your own is not strongly taboo."
+    },
+    {
+      "country": "Vietnam",
+      "verdict": "polite",
+      "note": "Pouring your own drink is generally acceptable, though offering to pour for others is appreciated."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Korean Eating Etiquette: 8 Rules Before You Sit Down – The Soul of Seoul",
+      "url": "https://thesoulofseoul.net/korean-table-manners",
+      "kind": "reference"
+    },
+    {
+      "title": "South Korean Dining Etiquette",
+      "url": "https://www.etiquettescholar.com/dining_etiquette/table-etiquette/pacific_dinner_etiquette/south_korean.html",
+      "kind": "reference"
+    },
+    {
+      "title": "6 Korean Drinking Traditions",
+      "url": "https://matadornetwork.com/read/korean-drinking-traditions",
+      "kind": "reference"
+    }
+  ]
+}

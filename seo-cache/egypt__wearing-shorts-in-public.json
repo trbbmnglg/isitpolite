@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Acceptable but dress modestly",
+  "confidence": "medium",
+  "explanation": "In Egypt, shorts are generally tolerated in tourist resorts and some upscale urban settings, but they are not considered polite in most everyday public contexts. Sources advise covering shoulders and knees and avoiding revealing outfits in local neighborhoods, conservative areas, and religious sites, and men are specifically told not to wear shorts in formal spots like government buildings or fancy restaurants.",
+  "local_tip": "In cities and local neighborhoods, wear light trousers or a skirt below the knee instead of shorts, and save shorts for beach resorts or private pools.",
+  "regional_note": "Sources note that major cities like Cairo and Sharm El-Sheikh are more liberal, while rural areas and conservative neighborhoods expect more modest dress.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Shorts are common in Dubai malls and resorts but frowned upon in mosques and traditional areas."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "Shorts are widely accepted in everyday public settings, though some restaurants and churches prefer smarter dress."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are common in casual city settings but may be seen as too casual in temples, business districts, and formal venues."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural Etiquette for Travelers in Egypt | Guide 2026",
+      "url": "https://pureniletours.com/cultural-etiquette-for-travelers-in-egypt",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquette in Egypt: Do’s & Don’ts for International Tourists | Granada Travel Blog",
+      "url": "https://www.granadatravelagency.com/en/blog/egyptian-cultural-etiquette-guide",
+      "kind": "reference"
+    }
+  ]
+}

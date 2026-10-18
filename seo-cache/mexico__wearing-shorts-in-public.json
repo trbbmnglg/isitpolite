@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Uncommon, not strictly rude",
+  "confidence": "medium",
+  "explanation": "In most Mexican cities, wearing shorts in everyday public settings is uncommon rather than offensive; locals typically reserve them for the beach, hot-weather towns, the gym, or sports. In urban areas like Mexico City, shorts in the street are a strong tourist giveaway, though nobody will confront you about it.",
+  "local_tip": "In cities, wear long trousers for everyday errands and save shorts for beach towns, gyms, or very hot climates where locals also wear them.",
+  "regional_note": "Sources note that in urban areas such as Mexico City, locals generally avoid shorts in the streets except for gym or sports, while beach and warm-climate areas are more relaxed.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are common in summer but considered too casual for business or formal settings."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "Shorts are widely accepted casually in public, though not for formal occasions."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Shorts above the knee are frowned upon in public for men, especially outside tourist resorts."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "12 Mexican No-Nos - Mexico Relocation Guide",
+      "url": "https://mexicorelocationguide.com/12-mexican-no-nos-to-avoid",
+      "kind": "reference"
+    },
+    {
+      "title": "10 Unwritten Rules in Mexico You NEED TO KNOW Ep17",
+      "url": "https://www.youtube.com/watch?v=0VN3LhXkCnQ",
+      "kind": "community"
+    }
+  ]
+}

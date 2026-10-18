@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Discreet, not at the table",
+  "confidence": "medium",
+  "explanation": "Singapore is a multicultural society with strong East Asian and Western influences, so there is no single hard rule, but open nose-blowing, especially at a dining table or in a crowded public space, is generally seen as unhygienic and inconsiderate. The Cultural Atlas notes that public behaviour in Singapore is held to fairly strict standards, with spitting and littering both frowned upon and illegal, which reflects a broader expectation of public cleanliness and consideration. A quiet, discreet tissue use is tolerated; a loud or conspicuous blow is not.",
+  "local_tip": "Step away from the table or turn aside, use a tissue, and keep it quiet and brief — never blow into the air or sniffle loudly for long stretches.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Blowing your nose openly, especially at the table, is considered rude and unhygienic; discreet tissue use or stepping away is preferred."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Blowing your nose when needed is treated as basic hygiene, and a quick quiet blow is preferred over prolonged sniffing."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Generally acceptable as hygiene, but doing it loudly at a shared dining table is still considered poor manners."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Rude in one country, polite in another: 20 examples",
+      "url": "https://qz.com/rude-in-one-country-polite-in-another",
+      "kind": "reference"
+    },
+    {
+      "title": "Singaporean - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

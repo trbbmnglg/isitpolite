@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine, mind elders and soles",
+  "confidence": "medium",
+  "explanation": "Crossing your legs while sitting is generally acceptable in Indonesia, and sources note there is no broad stigma against leg-crossing for either men or women. However, etiquette guides advise not crossing your legs in front of older or senior people, and you should avoid pointing the soles of your feet at others. In a business setting with senior counterparts, keep your posture modest and feet grounded.",
+  "local_tip": "In meetings with senior Indonesian colleagues, keep both feet flat on the floor and avoid displaying your soles; cross your legs only casually among peers.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "rude",
+      "note": "Feet and soles are the lowest, most disrespectful part of the body; pointing them at people is offensive."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Crossing legs is common, but formal business settings favor upright, modest posture, especially before superiors."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Leg-crossing is common among peers, but showing soles or slouching before elders and superiors is frowned upon."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Indonesian Gestures and Body Language You Need to Know",
+      "url": "https://www.indonesianpod101.com/blog/2019/08/16/indonesian-body-gestures",
+      "kind": "reference"
+    },
+    {
+      "title": "ETIQUETTE AND CUSTOMS IN INDONESIA | Facts and Details",
+      "url": "https://factsanddetails.com/indonesia/People_and_Life/sub6_2a/entry-3988.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Indonesia | Travel Etiquette",
+      "url": "https://www.traveletiquette.co.uk/IndonesianEtiquette.html",
+      "kind": "reference"
+    }
+  ]
+}

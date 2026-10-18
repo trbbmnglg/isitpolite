@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and well received",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a common and expected practice in Spanish business circles, typically done right after introductions and handshakes. Cards should be printed with Spanish on one side and your native language on the other, and presenting the Spanish side facing your counterpart shows cultural awareness. Presenting the card with both hands is the documented local norm.",
+  "local_tip": "Have bilingual cards ready and offer them with both hands, Spanish side up, immediately after the handshake and before small talk begins.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange is a formal ritual: present with both hands, bow slightly, and study the card rather than pocketing it."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Common but casual; a one-handed exchange is fine and no bilingual printing is expected."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Present and receive cards with both hands, often with a slight bow, and read the card before putting it away."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Etiquette in Spain | Cultural Tips for Success 2026",
+      "url": "https://altios.com/publication/business-etiquette-in-spain",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Business Etiquette in Spain",
+      "url": "https://cibtvisas.com/blog/business-etiquette-spain",
+      "kind": "reference"
+    }
+  ]
+}

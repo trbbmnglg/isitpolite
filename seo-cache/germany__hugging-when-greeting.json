@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserve hugs for close friends",
+  "confidence": "medium",
+  "explanation": "In Germany, the standard greeting at social gatherings is a handshake with each person, including on social occasions, while hugs are generally reserved for close friends and family. Hugging an acquaintance or someone you have just met can feel overly familiar or intrusive. At work, a handshake is clearly the appropriate choice.",
+  "local_tip": "At a social gathering, offer a handshake and a clear \"Hallo\" or \"Guten Tag\" to each person; save hugs for friends you already know well.",
+  "regional_note": "Sources note a generational and setting-based split: younger people and close-friend circles hug more readily, while formal and business contexts remain handshake territory.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is common among friends, but hugs with strangers are uncommon; handshakes are the default in formal settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Cheek kisses and warm greetings are common among acquaintances, but a full hug is usually reserved for friends and family."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugging is widely accepted in casual social greetings, though handshakes remain standard in professional settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "German Etiquette - Do's and Don'ts | expatrio.com",
+      "url": "https://www.expatrio.com/about-germany/german-etiquette-dos-and-donts",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to German Business Etiquette",
+      "url": "https://cibtvisas.com/blog/business-etiquette-germany",
+      "kind": "reference"
+    }
+  ]
+}

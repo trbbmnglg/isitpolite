@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Acceptable, but watch your soles",
+  "confidence": "medium",
+  "explanation": "Crossing your legs is not itself offensive in Egyptian business settings, but the gesture risks exposing the sole of your shoe, which is widely considered disrespectful in Egypt. Sources consistently advise keeping both feet flat on the ground as the safest posture, especially in traditional or formal settings. In a work meeting, a modest knee-over-knee cross is usually tolerated, but avoid ankle-on-knee or any position that points a foot toward others.",
+  "local_tip": "In meetings, sit with both feet flat on the floor; if you cross, keep it low and never let a sole face anyone.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Crossing legs while seated in a chair is strongly discouraged, regardless of gender."
+    },
+    {
+      "country": "India",
+      "verdict": "caution",
+      "note": "Showing the soles of the feet is disrespectful, so crossed legs carry the same risk."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Crossing legs is common and unremarkable in business settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Egypt Travel Etiquette Tips for UK Travellers",
+      "url": "https://www.classicholidays.co.uk/blog/egypt-travel-etiquette-tips-for-uk-travellers",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquette in Egypt: Essential Tips for Tourists",
+      "url": "https://visitegypt.com/news-blog/cultural-etiquette-in-egypt-what-tourists-should-know",
+      "kind": "reference"
+    }
+  ]
+}

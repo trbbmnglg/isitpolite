@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not the default; tread carefully",
+  "confidence": "high",
+  "explanation": "In South Korea, splitting the bill is not the default at meals; the person who invited others, or the eldest in the group, is expected to pay. Among friends, one person typically covers the check and others reciprocate by treating next time, though norms are shifting and younger diners may be more open to splitting. Offering to split can come across as a goodwill gesture, but insisting too hard against a host's offer may seem awkward.",
+  "local_tip": "Let the inviter or eldest pay the first round, then warmly offer to treat everyone next time rather than pushing to divide the bill.",
+  "regional_note": "Sources note generational change—younger Koreans show more willingness to split—but no specific regional variation is documented.",
+  "also_check": [
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "Accepting companions' offer to split is considered polite rather than insisting on covering it all."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites friends or family is expected to pay."
+    },
+    {
+      "country": "Scotland",
+      "verdict": "polite",
+      "note": "Splitting is common practice, and telling the restaurant in advance that you'll pay separately is even more polite."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Korean Table Manners // The Do’s and Don’t of Dining in Korea",
+      "url": "https://flexiclasses.com/korean/table-manners",
+      "kind": "reference"
+    },
+    {
+      "title": "How To Split Bill in Some Countries",
+      "url": "https://mywowtravel.com/view/article/193025-how-to-split-bill-in-some-countries.html",
+      "kind": "reference"
+    }
+  ]
+}

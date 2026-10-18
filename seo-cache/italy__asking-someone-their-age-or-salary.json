@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Too personal, avoid it",
+  "confidence": "high",
+  "explanation": "In Italy, asking about someone's salary or age at a social gathering is generally considered impolite, since finances and personal matters are treated as private. Italians are warm and open within their close social circle but tend to be reserved with acquaintances, so prying questions can come across as rude. Source [1] explicitly names discussing finances or asking about salary as impolite, and source [2] advises avoiding overly personal questions unless you are with close friends.",
+  "local_tip": "Stick to neutral topics like food, travel, football or local culture, and let money or age come up only if the other person raises them first.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Netherlands",
+      "verdict": "caution",
+      "note": "Directness is valued, but salary questions are still usually reserved for friends or colleagues."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Salary is often a taboo at social gatherings, while age is asked more casually than in Italy."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Age and salary can be asked fairly openly as small talk, though younger urban Italians-style sensitivities are growing."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "15 Things Tourists Do That Italians Find Rude ...",
+      "url": "https://www.instagram.com/reel/DY7Xv5GtVYB?hl=en",
+      "kind": "community"
+    },
+    {
+      "title": "Italian etiquette and social culture | Expatica",
+      "url": "https://www.expatica.com/it/living/integration/italian-etiquette-79488",
+      "kind": "reference"
+    }
+  ]
+}

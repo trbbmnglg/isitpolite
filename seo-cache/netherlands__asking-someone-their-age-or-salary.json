@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Direct but still sensitive",
+  "confidence": "medium",
+  "explanation": "Dutch culture prizes directness and bespreekbaarheid, the idea that almost anything can be discussed openly, so a blunt question is less taboo than in many cultures. However, salary and age remain personal matters, and egalitarian norms that frown on showing off wealth make salary talk feel boastful or intrusive at a social gathering. Age is the milder of the two and is more acceptable among friends than in first meetings.",
+  "local_tip": "At a borrel or party, ask about work or life in general first; only raise age or income if the conversation naturally goes there and the other person volunteers it.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Directness is valued, but salary is rarely discussed socially; age is somewhat more acceptable."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Salary talk is often considered rude, while asking age is acceptable among adults in casual settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Both questions are strongly avoided in social settings, especially salary."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Dutch Culture & Etiquette for Tourists 2026",
+      "url": "https://www.amsterdamtourism.org/dutch-culture-customs-etiquette-tourists",
+      "kind": "reference"
+    },
+    {
+      "title": "Dutch customs etiquette 2026 | Directness 3-kiss greeting",
+      "url": "https://www.nlcompass.com/guides/dutch-customs-etiquette-expats-students",
+      "kind": "reference"
+    }
+  ]
+}

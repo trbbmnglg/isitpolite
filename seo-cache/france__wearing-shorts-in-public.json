@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Casual but context-dependent",
+  "confidence": "medium",
+  "explanation": "French dress norms lean toward understated smart-casual, and sources note that dressed-down items like shorts, flip-flops and tank tops can look out of place at public gatherings. In everyday summer settings, however, shorts are common and generally acceptable, so the issue is context and neatness rather than shorts themselves.",
+  "local_tip": "Choose well-fitted, clean shorts and pair them with a smart-casual top; avoid sporty or beach-style shorts in town, restaurants or when visiting someone's home.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Shorts are common in summer resorts but can be frowned upon in churches, fine restaurants and city centers."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "polite",
+      "note": "Shorts are widely accepted in casual public settings, though not in formal venues or some clubs."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are fine in casual and hot-weather contexts but are often seen as too casual for business or formal settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Etiquette: Manners & Tips to Know Before Visiting | VacationRenter",
+      "url": "https://www.vacationrenter.com/guides/france-travel-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "French Etiquette Rules to Learn for a Smoother Trip to France - Frenchly",
+      "url": "https://frenchly.us/french-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

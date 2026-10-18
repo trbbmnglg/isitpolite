@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Generally avoid; locals may ask",
+  "confidence": "medium",
+  "explanation": "Sources disagree in emphasis: one guide says it is considered impolite to ask about someone's age, and another lists income and age (especially of women) among topics best not raised. Yet locals may ask foreigners these questions out of curiosity and concern, so being asked is common even though initiating the question yourself is risky.",
+  "local_tip": "If asked, answer briefly or deflect with humor like \"Enough to get by,\" and avoid asking others about salary or a woman's age.",
+  "regional_note": "Younger, urban Chinese and those with international exposure tend to find such questions more intrusive than older or rural acquaintances, though sources note this only generally.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Age and salary are treated as private matters, especially at casual social gatherings."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Direct questions about income or age are considered intrusive and are rarely asked socially."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Age is less taboo than salary, but both are usually avoided in polite conversation."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Culture 101: A Guide to China's Business Culture & Etiquette",
+      "url": "https://twomr.com/chinese-culture-101-a-guide-to-chinas-business-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "China Travel Culture Guide: Etiquette, Taboos, and Tips for Foreigners",
+      "url": "https://www.tourhq.com/article/china-travel-culture-guide-etiquette-taboos-and-tips-for-foreigners",
+      "kind": "reference"
+    },
+    {
+      "title": "Do and Don'ts in China — A Guide to Chinese Etiquette",
+      "url": "https://www.chinahighlights.com/travelguide/guidebook/etiquette.htm",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid hugging; bow instead",
+  "confidence": "high",
+  "explanation": "In Japan, hugging is not a normal greeting and is generally reserved for people you know very well after a long separation or for highly emotional moments. Japanese people prefer personal space and traditionally avoid intimate physical contact in public, so hugging someone you have just met can startle or offend them. Bowing, or sometimes a handshake in work settings, is the expected greeting.",
+  "local_tip": "At a social gathering, bow lightly and offer a handshake only if the other person extends a hand first; save hugs for close friends who initiate them.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugging is a common friendly greeting, especially among acquaintances and friends."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kissing) is common among friends, but hugging is less standard and can feel overly intimate in formal settings."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Warm physical contact, including hugs, is common in social greetings, though formality varies by setting."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Japanese Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.japanesepod101.com/blog/2020/01/06/japanese-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Japanese Social Etiquette and Manners - Tea Ceremony Japan Experiences MAIKOYA",
+      "url": "https://mai-ko.com/travel/culture-in-japan/manners-in-japan/etiquette-in-japan-moral-behavior-rules-in-japan-manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette Differences Between Japan and the US - Business Insider",
+      "url": "https://www.businessinsider.com/etiquette-differences-between-japan-and-us-2018-6",
+      "kind": "reference"
+    }
+  ]
+}

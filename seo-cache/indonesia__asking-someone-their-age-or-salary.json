@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Age okay, salary intrusive",
+  "confidence": "medium",
+  "explanation": "Indonesian culture is strongly hierarchical and respectful of age, so asking someone's age is common and often expected to determine the right terms of address and level of deference. Asking about salary or personal finances, however, is generally treated as rude and an invasion of privacy, even at a social gathering.",
+  "local_tip": "If you need to know someone's age to choose the right greeting (Mas/Mbak, Bapak/Ibu), ask indirectly or let them volunteer it, and avoid salary questions entirely.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Age, salary and marital status are common icebreaker questions."
+    },
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Such questions are considered intrusive among new acquaintances."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "rude",
+      "note": "Asking age or salary of a new acquaintance is seen as prying."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Etiquette in Indonesia - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Indonesia",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquettes: Do’s and Don’ts in Different Countries — The World in Us",
+      "url": "https://www.theworldinus.org/blog/cultural-etiquettes-dos-and-donts-in-different-countries",
+      "kind": "reference"
+    }
+  ]
+}

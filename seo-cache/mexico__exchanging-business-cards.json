@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and courteous practice",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a standard and important part of formal business introductions in Mexico, and cards are typically given to everyone present at a meeting. Including a Spanish translation on one side and presenting that side facing the recipient is considered courteous. Cards often carry professional titles and qualifications, reflecting the status-conscious nature of Mexican business culture.",
+  "local_tip": "Bring plenty of cards with Spanish on one side and your cellphone number included, and hand them out to everyone present, Spanish side facing the recipient.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange is highly ritualized; present and receive with both hands and study the card carefully."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Offer and receive cards with both hands, often with a slight bow, and present the Chinese side up."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Common but casual; a brief handshake and quick card swap is usually sufficient."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Doing Business In Mexico: Business Culture Guide - Commisceo Global",
+      "url": "https://commisceo-global.com/country-guides/mexico-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "What You Need to Know about Business Culture in Mexico | Global Business Culture",
+      "url": "https://www.globalbusinessculture.com/mexico/what-you-need-to-know-about-business-culture-in-mexico",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Business Etiquette in Mexico",
+      "url": "https://cibtvisas.com/blog/business-etiquette-mexico",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved for close friends",
+  "confidence": "high",
+  "explanation": "In Vietnam, hugging is usually reserved for close friends or relatives, so hugging someone you have just met or an acquaintance at a social gathering can feel overly familiar. Standard greetings rely on a smile, nod, handshake or verbal 'Xin chào', with deference shown to elders. Public displays of affection, including hugging, are generally kept modest, especially in traditional or rural settings.",
+  "local_tip": "At a gathering, greet the oldest person first with a smile and slight nod or handshake, and only hug if a close friend or relative initiates it.",
+  "regional_note": "Rural and more traditional areas tend to be more reserved about public hugging than urban settings, and younger generations may be more relaxed among close peers.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "The wai greeting is standard; hugging is common among friends but avoid touching the head or hugging monks."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Bowing is the norm; hugging is uncommon in formal or first-time greetings and reserved for close relationships."
+    },
+    {
+      "country": "France",
+      "verdict": "polite",
+      "note": "La bise (cheek kisses) or hugs among friends are common greetings, though handshakes suit formal or first meetings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural etiquette in Vietnam: essential customs travelers should know - TNK Travel",
+      "url": "https://www.tnktravel.com/blogs/vietnam-blogs/cultural-etiquette-in-vietnam-essential-customs-travelers-should-know",
+      "kind": "reference"
+    },
+    {
+      "title": "Vietnamese - Greetings — Cultural Atlas",
+      "url": "https://theculturalatlas.org/vietnamese-culture/vietnamese-culture-greetings",
+      "kind": "reference"
+    }
+  ]
+}

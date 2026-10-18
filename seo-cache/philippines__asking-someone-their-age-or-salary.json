@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Common but increasingly sensitive",
+  "confidence": "medium",
+  "explanation": "In the Philippines, asking about age, salary, or marital status is a familiar small-talk move rooted in warm, family-oriented social norms, and older Filipinos often treat such questions as friendly interest rather than intrusion. However, younger and urban professionals increasingly find salary questions prying, so the safest read is that age is usually acceptable while salary is best avoided unless the other person volunteers it.",
+  "local_tip": "At a social gathering, ask about family, hometown, or work in general terms first, and let the other person bring up age or income themselves.",
+  "regional_note": "Generational variation is the main documented split: older Filipinos tend to treat these questions as normal friendly interest, while younger urban professionals are more likely to see salary questions as intrusive.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Salary, age, and marital status questions are widely treated as intrusive with new acquaintances."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Age and marital status come up in small talk, but income is generally avoided as too personal."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Direct questions about salary or age are considered private and inappropriate in casual social settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Philippines Etiquette: Understanding Filipino Customs and Culture | AirTkt",
+      "url": "https://www.airtkt.com/my-world/philippines_etiquette_understanding_filipino_customs_and_culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Philippines Cultural Guide: Etiquette, Customs, and Tips",
+      "url": "https://www.travelwithhello.com/blog/philippines-cultural-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Rude in one country, polite in another: 20 examples",
+      "url": "https://qz.com/rude-in-one-country-polite-in-another",
+      "kind": "reference"
+    }
+  ]
+}

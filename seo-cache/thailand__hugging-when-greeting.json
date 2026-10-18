@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Not done; use the wai",
+  "confidence": "high",
+  "explanation": "In Thailand, greeting someone with physical contact is very rare, and hugging as a greeting is not done; the traditional wai gesture is used instead. Thai communication is generally reserved, and public displays of affection are limited to contexts like couples or parents and children, not casual greetings. At a social gathering, a foreigner hugging a Thai acquaintance can therefore feel intrusive or awkward.",
+  "local_tip": "Offer a wai with a slight bow and a soft \"sawatdee\" instead of extending a hand or arms, and follow the other person's lead if they offer a handshake.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise cheek-kissing is common among friends, but handshakes are safer with strangers and in business settings."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugging is common and generally welcome among friends and acquaintances, though context and familiarity matter."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging is uncommon in greetings and can feel uncomfortable, especially with strangers or in formal settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Culture and social etiquette in Thailand | Expatica",
+      "url": "https://www.expatica.com/th/about/culture/thailand-etiquette-2172850",
+      "kind": "reference"
+    },
+    {
+      "title": "Thai Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.thaipod101.com/blog/2020/01/06/thai-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

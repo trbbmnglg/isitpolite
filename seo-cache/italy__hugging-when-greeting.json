@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved for friends, not strangers",
+  "confidence": "medium",
+  "explanation": "In Italy, the standard greeting with new acquaintances or in formal settings is a handshake, while the cheek kiss (two light air kisses) is reserved for friends and family. Hugging is generally not a typical greeting in social gatherings unless you already know the person well, so initiating a hug with a stranger or casual acquaintance can feel overly familiar. Once a relationship is established, Italians are openly affectionate and hugging becomes natural.",
+  "local_tip": "At a social gathering, offer a handshake and a smile to people you're meeting for the first time, and save hugs for friends you already know well.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is the norm among acquaintances; hugs are reserved for close friends and family."
+    },
+    {
+      "country": "Spain",
+      "verdict": "caution",
+      "note": "Two cheek kisses are common between acquaintances, while hugs are more typical among friends and relatives."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Hugging is a common, friendly greeting even among casual acquaintances, especially in informal settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Italian Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.italianpod101.com/blog/2020/01/06/italian-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Italian etiquette and social culture | Expatica",
+      "url": "https://www.expatica.com/it/living/integration/italian-etiquette-79488",
+      "kind": "reference"
+    }
+  ]
+}

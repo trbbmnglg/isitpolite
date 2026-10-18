@@ -129,7 +129,9 @@ function verdictCard(rec) {
       </div>
       <div class="result-footnote">${rec.reviewed
         ? 'AI-drafted and fact-checked against the sources below — customs vary between people and regions.'
-        : 'AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.'}</div>
+        : rec.grounded
+          ? 'AI-drafted from the sources below and not yet independently reviewed — customs vary between people and regions.'
+          : 'AI-generated guidance — customs evolve and vary between people. Treat as a helpful starting point, not absolute rules.'}</div>
     </article>`;
 }
 
@@ -145,14 +147,15 @@ function sourceItem(s, rel) {
 }
 
 function sourcesBlock(rec) {
-  if (!rec.reviewed || !Array.isArray(rec.sources) || rec.sources.length === 0) return '';
+  const dated = rec.reviewed || rec.grounded;
+  if (!dated || !Array.isArray(rec.sources) || rec.sources.length === 0) return '';
   const refs = rec.sources.filter(s => s.kind !== 'community').map(s => sourceItem(s, 'noopener')).join('');
   const community = rec.sources.filter(s => s.kind === 'community').map(s => sourceItem(s, 'nofollow ugc noopener')).join('');
   return `<section class="seo-sources" aria-labelledby="sources-title">
       <h2 class="seo-related-title" id="sources-title">Sources</h2>
       ${refs ? `<ul class="seo-source-list">${refs}</ul>` : ''}
       ${community ? `<h3 class="seo-sources-sub">Traveler discussions</h3><ul class="seo-source-list">${community}</ul>` : ''}
-      <p class="seo-reviewed">Last reviewed <time datetime="${esc(rec.reviewed)}">${esc(humanDate(rec.reviewed))}</time></p>
+      <p class="seo-reviewed">${rec.reviewed ? 'Last reviewed' : 'Drafted from these sources on'} <time datetime="${esc(dated)}">${esc(humanDate(dated))}</time></p>
     </section>`;
 }
 
@@ -199,10 +202,10 @@ export function renderPairPage(pair, rec) {
       mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     },
   ];
-  if (rec.reviewed) {
+  if (rec.reviewed || rec.grounded) {
     jsonld.push({
       '@context': 'https://schema.org', '@type': 'WebPage',
-      url: canonical, name: title, dateModified: rec.reviewed,
+      url: canonical, name: title, dateModified: rec.reviewed || rec.grounded,
       ...(Array.isArray(rec.sources) && rec.sources.length
         ? { citation: rec.sources.filter(s => s.kind !== 'community').map(s => s.url) } : {}),
     });

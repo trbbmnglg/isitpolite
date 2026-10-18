@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Generally fine in everyday settings",
+  "confidence": "medium",
+  "explanation": "Wearing shorts in public is normal and widely accepted in everyday South Korean life, especially in warm weather, and is not considered rude or disrespectful. Modesty expectations tighten mainly at religious or traditional sites, where covering shoulders and avoiding very short or revealing shorts is advised.",
+  "local_tip": "Wear shorts freely day to day, but carry a light layer or longer pants if your plans include temples, palaces, or traditional villages.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shorts are common casually, but neat, covered-up dress is preferred at temples and formal settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Shorts are fine casually, but churches and Vatican sites often require covered shoulders and knees."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Shorts are acceptable in malls and tourist areas, but modest dress is expected in public and religious spaces."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Wearing Shorts in South Korea Cultural Norms",
+      "url": "https://www.facebook.com/fb-answers/wearing-shorts-in-south-korea-cultural-norms",
+      "kind": "community"
+    },
+    {
+      "title": "South Korea Cultural Guide: Etiquette, Customs, and Tips",
+      "url": "https://www.travelwithhello.com/blog/south-korea-cultural-guide",
+      "kind": "reference"
+    }
+  ]
+}

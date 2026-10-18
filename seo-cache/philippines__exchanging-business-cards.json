@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, informal exchange",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a standard procedure in Philippine business settings, though the exchange tends to be more informal than in other Asian cultures. Cards are commonly given when meeting new contacts, and the practice supports the relationship-building that underpins Filipino business culture.",
+  "local_tip": "Offer and receive cards with a brief smile and a moment of attention, but don't worry about the formal two-handed rituals used in Japan or Korea.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly formal: present and receive cards with both hands, bow, and study the card carefully."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Common but casual; a quick glance and pocketing the card is generally acceptable."
+    },
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Use only the right hand and avoid offering a card to the opposite gender unless they extend first."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Culture",
+      "url": "https://um.dk/filippinerne/en/trade-council/philippines-as-a-promising-market/business-culture-and-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Tips for Business Card Etiquette Around the World - Golden MFG",
+      "url": "https://goldenmfg.com/blog/business-card-etiquette-around-world",
+      "kind": "reference"
+    }
+  ]
+}

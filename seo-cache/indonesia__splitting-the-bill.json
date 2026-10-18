@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Common casually, sensitive formally",
+  "confidence": "medium",
+  "explanation": "In Indonesia, splitting the bill is generally acceptable among friends and in casual dining, and many younger Indonesians now simply pay for their own share. However, when someone has explicitly invited others out, the inviter is usually expected to cover the meal, and insisting on splitting can seem to refuse their generosity. The common ritual of politely offering to pay and letting the host win means splitting should be handled tactfully rather than assumed.",
+  "local_tip": "If a friend or senior invites you, offer once to pay your share, then graciously let them treat you and plan to reciprocate at a future meal.",
+  "regional_note": "Sources note a generational shift, with younger Indonesians increasingly paying for their own bills, while invitation-based treating remains common depending on the occasion.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "Splitting is common among friends, but the oldest or host often pays, and arguing over the check can be rude."
+    },
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Splitting is not the norm and is considered impolite; friends take turns treating, though casual even splits sometimes happen."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It is considered polite to let companions split the bill rather than insist on covering it all."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "How To Split Bill in Some Countries",
+      "url": "https://mywowtravel.com/view/article/193025-how-to-split-bill-in-some-countries.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Dining Etiquette: Why Do Some Asians Fight To Pay The Bill? – Mabel Kwong",
+      "url": "https://mabelkwong.com/2016/02/18/dining-etiquette-why-do-some-asians-fight-to-pay-the-bill",
+      "kind": "reference"
+    }
+  ]
+}

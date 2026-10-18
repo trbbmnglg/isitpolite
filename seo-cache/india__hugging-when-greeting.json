@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved for close relationships",
+  "confidence": "high",
+  "explanation": "In India, hugging as a casual greeting is generally not expected and can make people uncomfortable, since physical contact like hugging is typically reserved for close relationships. Public displays of affection, including hugging, are widely frowned upon, especially in rural and conservative settings. The customary greeting is Namaste or a handshake, and it is polite to wait for a woman to offer her hand first.",
+  "local_tip": "At a social gathering, greet with a Namaste or a light handshake and reserve hugs for close friends or family who initiate them.",
+  "regional_note": "Sources note that public affection is more strongly frowned upon in rural areas and conservative settings, and that same-gender hugging is more accepted than mixed-gender hugging.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Common among friends and casual acquaintances, but many prefer a handshake on first meeting."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is standard among acquaintances, but hugging is less common than in the US."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging is uncommon and can feel intrusive in formal or unfamiliar settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "India’s etiquette for travellers - Conscious Explorer",
+      "url": "https://conscious-explorer.com/magazine/india-etiquette-for-travellers",
+      "kind": "reference"
+    },
+    {
+      "title": "Indian Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.hindipod101.com/blog/2020/01/06/hindi-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquette in India for Foreigners: Do’s and Don’ts - India Someday Travels",
+      "url": "https://indiasomeday.com/en/cultural-etiquette-in-india-for-foreigners",
+      "kind": "reference"
+    }
+  ]
+}

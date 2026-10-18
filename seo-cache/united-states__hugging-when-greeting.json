@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine with friends, not strangers",
+  "confidence": "high",
+  "explanation": "In the United States, hugging is common and acceptable at social gatherings among friends and family, but it is not the default greeting for new acquaintances or formal contacts. Americans typically shake hands firmly and briefly when meeting someone for the first time or in a formal situation, and hugs are usually reserved for people with an established close relationship. Because comfort with hugging varies by person, it is best to read cues and let the other person initiate.",
+  "local_tip": "At a social gathering, offer a handshake to new people and save hugs for friends who move in first or open their arms.",
+  "regional_note": "Younger Americans are more likely to hug when greeting than older generations, and some international students report initial surprise at casual hugs from American peers.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the standard greeting; hugging is uncommon and can feel intrusive outside close relationships."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is the norm among friends, while hugs are less standard and a handshake is expected in formal settings."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Hugs are common among same-gender close friends but can carry romantic meaning across genders, so greetings are more reserved."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "In the USA, is it normal to hug someone as a greeting?",
+      "url": "https://www.quora.com/In-the-USA-is-it-normal-to-hug-someone-as-a-greeting",
+      "kind": "community"
+    },
+    {
+      "title": "An International Student's Guide to American Culture and Etiquette | Penn State Harrisburg",
+      "url": "https://harrisburg.psu.edu/global/international-students/guide-american-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

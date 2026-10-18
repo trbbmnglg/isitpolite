@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Hugging is common and warm",
+  "confidence": "high",
+  "explanation": "In Brazilian social gatherings, hugging is a normal and often expected greeting, even between people who are not especially close. Etiquette sources distinguish a full warm hug from a lighter half-hug or handshake-plus-shoulder-tap, which suits formal or business settings. Refusing all physical warmth can read as distant or arrogant by local standards.",
+  "local_tip": "At a social gathering, greet each person individually with at least a half-hug or handshake and brief small talk rather than rushing past anyone.",
+  "regional_note": "Sources note a generational and setting-based variation: full hugs are typical in informal social contexts, while handshakes and half-hugs are preferred in formal or business environments.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Handshakes dominate first meetings; hugs are common among friends but can feel intrusive in professional or new-acquaintance settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the standard greeting; unsolicited hugging is unusual and can make people uncomfortable, especially in formal contexts."
+    },
+    {
+      "country": "Finland",
+      "verdict": "caution",
+      "note": "Handshakes are the norm even among acquaintances; hugs are reserved for close friends and family and may feel overly familiar otherwise."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "The Most Interesting, Useful Brazilian Customs & Etiquette",
+      "url": "https://www.portuguesepod101.com/blog/2020/01/06/portuguese-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquette in Brazil: Do’s and Don’ts for Travelers",
+      "url": "https://drifttravel.com/cultural-etiquette-in-brazil-dos-and-donts-for-travelers",
+      "kind": "reference"
+    }
+  ]
+}

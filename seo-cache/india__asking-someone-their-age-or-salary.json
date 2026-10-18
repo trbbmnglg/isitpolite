@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Context-dependent, often intrusive",
+  "confidence": "medium",
+  "explanation": "In India, asking about age or salary at a social gathering is generally not considered polite small talk, though it is more tolerated than in many Western countries, especially among relatives or close family friends. The sources stress that Indian etiquette values respect for elders and family, and that initial conversation should focus on family, interests and hobbies rather than personal finances. Salary questions in particular can feel intrusive or status-driven, so it is safer to let the other person volunteer such details.",
+  "local_tip": "Stick to family, work in general terms, hobbies and food; if you must ask about age, do so only with elders or relatives and frame it as a mark of respect.",
+  "regional_note": "Etiquette varies across India's regions, linguistic groups and generations, so tolerance for personal questions differs by setting and company.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Age and salary are widely treated as private matters, especially at social gatherings."
+    },
+    {
+      "country": "Germany",
+      "verdict": "rude",
+      "note": "Direct personal questions about income or age are generally considered intrusive."
+    },
+    {
+      "country": "Philippines",
+      "verdict": "caution",
+      "note": "Age is commonly asked and less sensitive, but salary questions remain intrusive outside close circles."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "India Cultural Etiquette",
+      "url": "https://web.sut.ac.th/cia/2017/CulturalEtiquette/IndiaCulturalEtiquette.pdf",
+      "kind": "reference"
+    },
+    {
+      "title": "Indian - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/indian-culture/indian-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

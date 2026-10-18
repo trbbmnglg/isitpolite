@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Accepted among friends, KKB",
+  "confidence": "medium",
+  "explanation": "Splitting the bill is widely accepted in the Philippines, especially among groups of friends and even on first dates, and is commonly called \"KKB\" (kaniya-kaniyang bayad, \"each pays their own\"). However, when someone hosts or invites others out, the inviter is usually expected to pay, though guests still make a show of offering to pay. So splitting is polite in casual peer settings but can be awkward in hosted or hierarchical ones.",
+  "local_tip": "With friends, say \"KKB na lang\" to propose splitting; if you were the one who invited or you're senior in rank, offer to cover the bill first and let others insist.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "Splitting is common among friends, but the oldest or host often pays; arguing over the check can be rude."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites is expected to pay the whole bill."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It's considered polite to let companions split rather than insist on covering everything."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "How To Split Bill in Some Countries",
+      "url": "https://mywowtravel.com/view/article/193025-how-to-split-bill-in-some-countries.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Philippine Dining Etiquette",
+      "url": "https://www.etiquettescholar.com/dining_etiquette/table-etiquette/pacific_dinner_etiquette/filipino.html",
+      "kind": "reference"
+    }
+  ]
+}

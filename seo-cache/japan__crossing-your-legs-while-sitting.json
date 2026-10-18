@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Rude in formal business settings",
+  "confidence": "high",
+  "explanation": "In Japan, crossing your legs while sitting is considered rude in formal and business situations because it can read as self-important or overly casual. Proper posture — back straight, legs together, hands on knees, or seiza in traditional settings — signals humble listening and respect. The custom has deep roots in Japanese etiquette, where body positioning reflects respect for others and the situation.",
+  "local_tip": "In meetings and interviews, keep both feet flat on the floor with your back straight and hands resting on your knees rather than crossing your legs.",
+  "regional_note": "International companies in Japan often blend Japanese and Western norms, and awareness of generational differences matters in client meetings, so expectations can be looser in some workplaces.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Crossing legs is common and generally read as relaxed or confident, not disrespectful."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Formal settings favor upright, respectful posture; crossing legs can seem casual, especially with elders."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the sole of your shoe or crossing legs toward others is offensive in formal and social settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "7 Unique Japanese Customs You Should Be Mindful of Before Coming to Japan | tsunagu Japan",
+      "url": "https://www.tsunagujapan.com/7-mysterious-japanese-customs",
+      "kind": "reference"
+    },
+    {
+      "title": "Japanese Sitting Etiquette: Never Cross Your Legs",
+      "url": "https://www.japanetic.com/rules/dont-cross-legs",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Acceptable but dress modestly",
+  "confidence": "medium",
+  "explanation": "Shorts are tolerated in touristy and laid-back areas, especially for men, but Indonesian etiquette generally favors long pants and sleeved shirts, and modest dress covering shoulders and knees is appreciated in many parts of the country, particularly where Islam predominates. Wearing shorts is therefore not outright rude in everyday public settings, but it can be seen as too casual or culturally insensitive outside beach and tourist zones.",
+  "local_tip": "Pack light long pants or a sarong for non-tourist areas and religious sites, and save shorts for beaches and resorts.",
+  "regional_note": "Modest dress is more strongly expected in areas where Islam is predominant, while touristy parts of the country are more flexible, especially for men.",
+  "also_check": [
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "Shorts are common in tourist areas but long pants are expected at temples and formal settings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are fine casually but are considered too informal for many public and business contexts."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Modest dress covering the legs is expected in public, and shorts are generally inappropriate for men and women."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Indonesian etiquette for tourists - Conscious Explorer",
+      "url": "https://conscious-explorer.com/magazine/indonesian-etiquette-for-tourists",
+      "kind": "reference"
+    },
+    {
+      "title": "Cultural Etiquettes: Do’s and Don’ts in Different Countries — The World in Us",
+      "url": "https://www.theworldinus.org/blog/cultural-etiquettes-dos-and-donts-in-different-countries",
+      "kind": "reference"
+    }
+  ]
+}

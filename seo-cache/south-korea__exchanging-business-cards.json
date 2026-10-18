@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected formal business ritual",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a formal, expected ritual in South Korean business culture, and skipping or rushing it is seen as disrespectful. Present your card with both hands (or right hand supported), study the card you receive, and keep it on the table rather than pocketing it. Cards with Korean translations are appreciated as extra consideration.",
+  "local_tip": "Offer your card with both hands, read the received card carefully, and leave it face up on the table during the meeting instead of putting it away.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange (meishi) is a highly formal ritual with bows and two-handed presentation."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Two-handed exchange is respectful, though the ritual is generally less rigid than in Korea or Japan."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "A quick one-handed exchange is common; elaborate two-handed rituals can seem overly formal."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "A Guide to South Korean Business Etiquette",
+      "url": "https://cibtvisas.com/blog/business-etiquette-south-korea",
+      "kind": "reference"
+    },
+    {
+      "title": "Korean Culture & Etiquette Tips - Exchanging Business Cards in Korea",
+      "url": "https://www.asianbusinesscards.com/business-card-exchange-etiquette-guide-culture-tips-for-korea",
+      "kind": "reference"
+    }
+  ]
+}

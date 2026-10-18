@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common and widely accepted",
+  "confidence": "medium",
+  "explanation": "Splitting the bill is generally accepted in Germany, especially among friends, colleagues and casual meals, and asking the waiter to pay separately is routine. However, Germans often prefer paying individually for what each person ordered rather than dividing the total evenly, and in more formal or hosted settings one person may treat. The sources on German dining etiquette focus on tipping and payment mechanics rather than flagging bill-splitting as rude.",
+  "local_tip": "Tell the waiter up front that you want to pay separately (\"getrennt zahlen, bitte\") and state your amount plus tip together, e.g. \"Siebzehn bitte\" for a 15.70 euro bill.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Splitting is not the norm and can seem impolite; friends take turns treating, though casual even splits happen."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "Accepting companions' offer to split is considered polite rather than insisting on paying alone."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "caution",
+      "note": "Splitting is uncommon; whoever invites typically pays the whole bill."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "How do you ask for the bill in Germany? German restaurant ...",
+      "url": "https://www.facebook.com/woltersworld/posts/how-do-you-ask-for-the-bill-in-germany-german-restaurant-culture-germany-visitge/1645771730481408",
+      "kind": "community"
+    },
+    {
+      "title": "Table Manners and Customs - Germanfoods.org",
+      "url": "https://germanfoods.org/german-food-facts/table-manners-customs",
+      "kind": "reference"
+    }
+  ]
+}

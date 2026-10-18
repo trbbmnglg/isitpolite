@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Possible but often inconvenient",
+  "confidence": "medium",
+  "explanation": "In Italy, splitting the bill is not the default custom, and many restaurants find it inconvenient, especially when payment is mixed between cash and cards. Groups often pay together or split the total evenly rather than requesting separate itemized bills. Asking politely in advance is the practical approach, but expecting individual bills may be seen as unusual.",
+  "local_tip": "Before ordering, ask the server once whether they can do separate bills or an even split, and be ready to pay a single total in cash if they cannot.",
+  "regional_note": "Restaurants in tourist-heavy areas such as the Amalfi Coast are reportedly more willing to accommodate separate bills than places in Naples, though staff may still dislike it.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Splitting is not the norm and is considered impolite; friends take turns treating, though casual even splits sometimes happen."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It is considered polite to let companions split the bill rather than insist on paying alone."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites friends or family is expected to pay."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Eating out in Southern Italy, Part I: Who Pays What, When | My Bella Vita",
+      "url": "https://mybellavita.com/eating-southern-italy-paying-the-bill",
+      "kind": "reference"
+    }
+  ]
+}

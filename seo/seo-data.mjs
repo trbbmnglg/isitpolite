@@ -24,6 +24,15 @@ export const GESTURES = [
   { display: 'Kissing on the cheek when greeting', short: 'Cheek-kiss greeting',     context: 'social'   },
   { display: 'Beckoning someone with your finger', short: 'Beckoning with a finger', context: 'general'  },
   { display: 'Giving a gift',                  short: 'Giving a gift',               context: 'business' },
+  // Long-tail additions (2026-10-18): generated with sources by scripts/generate-pages.mjs.
+  { display: 'Crossing your legs while sitting', short: 'Crossing your legs',        context: 'business' },
+  { display: 'Blowing your nose in public',    short: 'Blowing your nose in public', context: 'general'  },
+  { display: 'Splitting the bill',             short: 'Splitting the bill',          context: 'dining'   },
+  { display: 'Pouring your own drink',         short: 'Pouring your own drink',      context: 'dining'   },
+  { display: 'Hugging when greeting',          short: 'Hugging hello',               context: 'social'   },
+  { display: 'Exchanging business cards',      short: 'Business cards',              context: 'business' },
+  { display: 'Wearing shorts in public',       short: 'Wearing shorts',              context: 'general'  },
+  { display: 'Asking someone their age or salary', short: 'Asking age or salary',    context: 'social'   },
 ];
 
 export const COUNTRIES = [

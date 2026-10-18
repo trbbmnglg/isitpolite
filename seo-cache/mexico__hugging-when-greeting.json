@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Warm but context-dependent",
+  "confidence": "high",
+  "explanation": "In Mexico, hugging (an abrazo) is a warm greeting shared between friends and acquaintances, and women who know each other typically hug and kiss on the cheek. However, with strangers, new contacts, or in formal settings, a handshake is the polite norm, so hugging at a first meeting can feel overly familiar. At a social gathering, follow the lead of your host or the person you're greeting.",
+  "local_tip": "Greet each person individually rather than waving hello to the group, and start with a handshake until the other person signals a hug is welcome.",
+  "regional_note": "Hugging is more common among younger people and in informal settings, while older generations and formal or business contexts favor handshakes.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Handshakes are standard for new acquaintances; hugs are usually reserved for friends and family."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging is uncommon and can feel intrusive, especially with strangers or elders."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is common among acquaintances, but hugs are less typical outside close relationships."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Guide to Social Etiquette and Local Customs in Mexico – Mexperience",
+      "url": "https://www.mexperience.com/guide-to-social-etiquette-and-local-customs-in-mexico",
+      "kind": "reference"
+    },
+    {
+      "title": "How Do People Greet Each Other in Mexico? | Remitly",
+      "url": "https://www.remitly.com/blog/lifestyle-culture/how-to-greet-people-in-mexico",
+      "kind": "reference"
+    }
+  ]
+}

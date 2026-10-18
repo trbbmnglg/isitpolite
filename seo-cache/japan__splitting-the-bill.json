@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Normal in casual dining",
+  "confidence": "high",
+  "explanation": "Splitting the bill, often called warikan, is completely normal in Japan for casual meals among friends, coworkers at lunch, and izakaya groups, so asking to pay separately (betsu betsu) is not rude. The main exceptions are business dinners with a significantly senior person or a date, where insisting on splitting can embarrass the other party in front of staff. In those cases, offering to pay your portion or asking 'Hontou ni ii desu ka?' is the graceful move.",
+  "local_tip": "For casual group meals, ask staff 'betsu betsu de onegai shimasu' and carry some cash, since separate payment is easiest at the register.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Splitting is routine among friends, though one person may offer to treat."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Splitting is accepted but can feel transactional; hosts often prefer to treat."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Group meals often follow one-person-pays norms, with splitting less expected among seniors."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Who Pays the Bill at Japanese Restaurants? Dining Etiquette for Tourists - Japan Experience Hub | English Restaurant Reservation Support in ",
+      "url": "https://www.japan-experience-hub.com/2026/05/22/who-pays-the-bill-at-japanese-restaurants-dining-etiquette-for-tourists",
+      "kind": "reference"
+    },
+    {
+      "title": "DINING ETIQUETTE JAPAN \"RULES\" NOT TO WORRY ABOUT",
+      "url": "https://www.thetokyochapter.com/dining-etiquette-japan-rules-not-to-worry-about",
+      "kind": "reference"
+    }
+  ]
+}

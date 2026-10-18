@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserve hugs for close kin",
+  "confidence": "medium",
+  "explanation": "In the UAE, public displays of affection are frowned upon, and greetings between men and women typically avoid physical contact altogether. Even among men, the standard polite greeting is a handshake, sometimes followed by placing the right hand over the heart, rather than a hug. Hugging is generally acceptable only between close family members or very familiar same-sex friends in private settings.",
+  "local_tip": "At a mixed social gathering, offer a handshake only if the other person extends a hand first, and otherwise greet with a smile and a respectful nod or a hand over the heart.",
+  "regional_note": "Greeting norms vary by generation and setting: younger, Westernized Emiratis may be more relaxed in private social circles, while conservative and older circles expect greater formality and gender separation.",
+  "also_check": [
+    {
+      "country": "Saudi Arabia",
+      "verdict": "caution",
+      "note": "Same-sex friends may exchange cheek kisses or hugs, but unrelated men and women do not touch in public."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is common among friends, but hugging is less standard and reserved for closer relationships."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "polite",
+      "note": "Physical greetings like hugs and cheek kisses are common and valued among friends and acquaintances."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural Etiquette Around the World: Polite or Rude?",
+      "url": "https://www.youtube.com/watch?v=HLtI3PoRzPI",
+      "kind": "community"
+    },
+    {
+      "title": "UAE business etiquette: doing business in the UAE",
+      "url": "https://asianabsolute.co.uk/blog/uae-business-etiquette-doing-business-in-the-uae",
+      "kind": "reference"
+    }
+  ]
+}

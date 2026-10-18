@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Rude, especially first meetings",
+  "confidence": "high",
+  "explanation": "British social etiquette treats money and age as private matters, and asking about salary or age at a social gathering is widely considered bad manners, particularly with people you have just met. Sources note that personal questions about salary, relationship status, weight or age are frowned upon, and that overfamiliarity is a major faux pas.",
+  "local_tip": "At a UK social gathering, let people volunteer personal details themselves and steer conversation to neutral topics like weather, travel or sport.",
+  "regional_note": "Sources note a reputation for more open, direct communication in northern England and Scotland, though the privacy norm on money and age still broadly applies.",
+  "also_check": [
+    {
+      "country": "Netherlands",
+      "verdict": "caution",
+      "note": "Directness is valued, but salary questions still feel intrusive to many; age is asked more casually than in the UK."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Salary is often taboo, while age is asked somewhat more freely, especially among younger adults."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Age is less sensitive and can be asked in some contexts, but income remains a private matter."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "British culture: social etiquette in the UK | Expatica",
+      "url": "https://www.expatica.com/uk/living/integration/british-etiquette-106556",
+      "kind": "reference"
+    },
+    {
+      "title": "English Etiquette and good manners",
+      "url": "https://www.historic-uk.com/CultureUK/British-Etiquette",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid facing others",
+  "confidence": "medium",
+  "explanation": "Turkish etiquette sources advise against crossing your legs in a way that points the sole of your shoe toward another person, since showing a shoe sole is considered insulting. One source also states it is improper for a woman to cross her legs while sitting, though this reflects more traditional norms. In business settings, crossing legs is common, but keep feet flat and soles away from others.",
+  "local_tip": "If you cross your legs, tuck your feet back and keep shoe soles pointed at the floor, never toward a colleague.",
+  "regional_note": "Guidance is more conservative in traditional and religious settings; in modern Istanbul business environments, leg-crossing is widely accepted as long as soles are not directed at anyone.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Crossing legs is common, but showing soles or pointing feet at others is impolite."
+    },
+    {
+      "country": "Saudi Arabia",
+      "verdict": "rude",
+      "note": "Showing the sole of your shoe or crossing an ankle over the knee toward someone is offensive."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Crossing legs is generally acceptable, but avoid facing your foot or sole toward seniors."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Customs and Etiquette - Istanbul Insider -",
+      "url": "https://theistanbulinsider.com/turkish-customs-and-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

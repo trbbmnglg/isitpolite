@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, relaxed US norm",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is considered polite and normal in US business settings, and etiquette is notably relaxed compared with Europe or Asia. Cards are commonly offered at the start of a meeting or during networking to share names and roles, though you should not force cards on uninterested people or hand them out indiscriminately.",
+  "local_tip": "Offer your card naturally during conversation or at the start of a meeting, and skip it outside work contexts where it can seem tacky.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange is a formal, ritualized two-handed gesture with a bow and careful reading of the card."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Cards are typically presented and received with both hands, often with the text facing the recipient."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Exchange is common but more formal and reserved than in the US, usually at the start of a meeting."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "5 Tips on Business Card Etiquette in the USA – GotPrint Blog",
+      "url": "https://blog.gotprint.com/tips-inspirations/5-tips-on-business-card-etiquette-in-the-usa",
+      "kind": "reference"
+    },
+    {
+      "title": "Tips for Business Card Etiquette Around the World - Golden MFG",
+      "url": "https://goldenmfg.com/blog/business-card-etiquette-around-world",
+      "kind": "reference"
+    }
+  ]
+}

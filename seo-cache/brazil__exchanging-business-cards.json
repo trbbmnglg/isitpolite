@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful ritual",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a standard and important ritual in Brazilian business culture, usually done during introductions or at the start of meetings. It is considered polite to briefly look at the card before putting it away, and presenting a card with one side translated into Portuguese is helpful.",
+  "local_tip": "Hand your card with the Portuguese side facing up and take a moment to read the card you receive before pocketing it.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Formal exchange at first meeting, using the right hand or both hands."
+    },
+    {
+      "country": "India",
+      "verdict": "polite",
+      "note": "Less formal, but a brief respectful acknowledgment of the card is customary."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly ritualized two-handed exchange with a bow and careful reading of the card."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Doing Business In Brazil: Business Culture Guide - Commisceo Global",
+      "url": "https://commisceo-global.com/country-guides/brazil-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Brazilian Business Etiquette",
+      "url": "https://cibtvisas.com/blog/business-etiquette-brazil",
+      "kind": "reference"
+    }
+  ]
+}

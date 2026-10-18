@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and respectful ritual",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a standard and important part of business etiquette in Singapore, much as in many other Asian countries. The way you treat a card is read as a sign of the respect you will show the person, so cards should be given and received with both hands (or the right hand only) and studied rather than pocketed.",
+  "local_tip": "Present and receive cards with both hands with the writing facing the recipient, pause to read each card, and keep it on the table or in a cardholder rather than stuffing it into a pocket.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange (meishi) is a formal ritual with bows and careful reading of the card."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Two-handed exchange is expected, though casual pocketing is more tolerated than in Japan."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Cards are exchanged casually and one-handed; elaborate two-handed rituals can seem overly formal."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "A Guide To Business Etiquette in Asia: Singapore",
+      "url": "https://asianabsolute.co.uk/blog/a-guide-to-business-etiquette-in-asia-singapore",
+      "kind": "reference"
+    },
+    {
+      "title": "Singaporean - Business Culture — Cultural Atlas",
+      "url": "https://theculturalatlas.org/singaporean-culture/singaporean-culture-business-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Business Etiquette in Singapore",
+      "url": "https://cibtvisas.com/blog/business-etiquette-singapore",
+      "kind": "reference"
+    }
+  ]
+}

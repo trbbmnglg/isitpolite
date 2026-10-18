@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not customary; host pays",
+  "confidence": "high",
+  "explanation": "In Vietnam it is not customary to split the bill, even among friends; the person who issued the invitation, or the most senior diner, is generally expected to pay. Vietnamese restaurants also typically will not issue separate checks, so any attempt to split usually means dividing the total evenly rather than paying only for what you ate.",
+  "local_tip": "If you are the guest, offer a sincere thank-you and plan to host or treat the group at a later meal rather than pushing to split the check.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Mexico",
+      "verdict": "caution",
+      "note": "Splitting is uncommon; whoever invites friends or family typically pays."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It is considered polite to let companions split the bill rather than insist on covering it all."
+    },
+    {
+      "country": "Scotland",
+      "verdict": "polite",
+      "note": "Splitting is common practice, and telling the restaurant in advance makes paying separately smoother."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Vietnamese etiquette for travellers | Vietnam Tourism",
+      "url": "https://vietnam.travel/things-to-do/vietnamese-etiquette-travellers",
+      "kind": "reference"
+    },
+    {
+      "title": "Vietnamese - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/vietnamese-culture/vietnamese-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

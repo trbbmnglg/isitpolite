@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Common but can feel intrusive",
+  "confidence": "medium",
+  "explanation": "In Singapore, asking about age, salary or marital status is generally treated as acceptable small talk rather than a taboo, especially among older or Chinese-background Singaporeans, and questioners rarely intend offence. However, younger and more Westernised Singaporeans, and expatriates, may find salary questions intrusive, so the safest approach is to let the other person lead.",
+  "local_tip": "At a social gathering, answer briefly and deflect with a light joke, and never press a Singaporean on salary unless they raise it first, so neither of you loses face.",
+  "regional_note": "Older and Chinese-background Singaporeans tend to treat these questions as normal icebreakers, while younger Singaporeans are more likely to see salary questions as private.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Salary, age and marital status questions are widely seen as intrusive."
+    },
+    {
+      "country": "United Kingdom",
+      "verdict": "rude",
+      "note": "Similar to the US, these are considered prying among new acquaintances."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Common icebreakers that help establish age-based terms of address and social standing."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural Clues, Communication Guidelines for SINGAPORE | Circles of Excellence",
+      "url": "https://www.circlesofexcellence.com/cultural-clues-communication-guidelines-for-singapore-2",
+      "kind": "reference"
+    },
+    {
+      "title": "Rude in one country, polite in another: 20 examples",
+      "url": "https://qz.com/rude-in-one-country-polite-in-another",
+      "kind": "reference"
+    }
+  ]
+}

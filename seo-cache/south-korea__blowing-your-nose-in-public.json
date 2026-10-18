@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Rude in public settings",
+  "confidence": "high",
+  "explanation": "In South Korea, blowing your nose in public is widely regarded as highly offensive, and at the table it is considered deeply unpleasant and disrespectful. The accepted practice is to excuse yourself and handle it discreetly in a restroom.",
+  "local_tip": "If you feel a sniffle coming on, step away to a restroom rather than blowing your nose where others can see or hear it.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Blowing your nose in public is generally frowned upon; sniffing is often tolerated more than loud nose-blowing."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Public nose-blowing is common and less stigmatized than in Korea or Japan, though loud or messy blowing can still draw glances."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Discreet nose-blowing in public is generally acceptable, but doing so at the dining table is considered poor manners."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "CUSTOMS, MANNERS AND ETIQUETTE IN KOREA | Facts and Details",
+      "url": "https://factsanddetails.com/korea/South_Korea/People_2/entry-7229.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Korea | Customs, Etiquette, & More | Korea By Bike",
+      "url": "https://koreabybike.com/tips/culture/etiquette-in-korea",
+      "kind": "reference"
+    }
+  ]
+}

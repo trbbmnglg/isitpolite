@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Discreet, not outright rude",
+  "confidence": "low",
+  "explanation": "Vietnamese public etiquette emphasizes modesty and avoiding behavior that draws attention, so openly blowing your nose in a crowd is generally seen as unrefined rather than strictly forbidden. The sources on Vietnamese manners do not address nose-blowing directly, so this verdict rests on the broader documented norm of public modesty and restraint. In practice, people tend to turn away or step aside rather than make a show of it.",
+  "local_tip": "If you must clear your nose, turn away from others, use a tissue discreetly, and avoid loud honking sounds or inspecting the tissue afterward.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Blowing your nose loudly in public is frowned upon; sniffing or excusing yourself privately is preferred."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Public nose-blowing is common and tolerated, though spitting and loud clearing of the throat draw more disapproval."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Discreet nose-blowing with a tissue is acceptable, but loud or conspicuous blowing is considered poor manners."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Vietnam Cultural Etiquette Guide: Respectful Travel Tips",
+      "url": "https://www.friendstravelvietnam.com/vietnam-cultural-etiquette-guide-how-to-travel-respectfully",
+      "kind": "reference"
+    },
+    {
+      "title": "Vietnamese - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/vietnamese-culture/vietnamese-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

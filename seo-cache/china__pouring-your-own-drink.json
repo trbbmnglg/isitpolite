@@ -1,0 +1,38 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Pour for others, not yourself",
+  "confidence": "high",
+  "explanation": "In Chinese dining etiquette, pouring your own drink (tea or alcohol) is considered impolite because it signals that no one else is attending to you; instead, you should pour for others at the table, especially elders and guests. Source [1] states plainly \"Never pour your own drink\" and notes guests are not supposed to pour their own tea, while source [2] confirms that pouring tea for others around the table is the polite act.",
+  "local_tip": "Keep others' cups topped up first and let someone else fill yours; if your cup is empty, a nearby companion or the host will usually notice and pour for you.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Pouring for others is the norm and self-pouring can seem slightly awkward, though it is tolerated in casual settings."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "You generally pour for elders and superiors and let them pour for you, but self-pouring is less strictly frowned upon than in China."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Pouring your own drink is normal and unremarkable; hosts may pour for guests, but self-service is not rude."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Travel Tips: Dining Etiquette in China/Hong Kong - Planet Depos",
+      "url": "https://planetdepos.com/travel-tips-dining-etiquette-china-hong-kong",
+      "kind": "reference"
+    },
+    {
+      "title": "A Simple Guide to Chinese Dining: Etiquette and Manners - Ocean Palace",
+      "url": "https://www.oceanpalacehouston.com/a-simple-guide-to-chinese-dining-etiquette-and-manners",
+      "kind": "reference"
+    }
+  ]
+}

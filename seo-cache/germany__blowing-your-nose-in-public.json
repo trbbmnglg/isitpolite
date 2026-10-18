@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Normal, often preferred to sniffling",
+  "confidence": "medium",
+  "explanation": "In Germany, blowing your nose in public is generally accepted and is often seen as more polite than repeatedly sniffling. Germans tend to do it openly and audibly on trains, in restaurants and even mid-conversation, which surprises many visitors. It is not treated as a serious breach of etiquette, though basic discretion still applies.",
+  "local_tip": "If you need to blow your nose, do it rather than sniffle repeatedly, but turn away and use a tissue.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Blowing your nose openly, especially at the table, is considered rude and unhygienic; people typically step away or discreetly use a tissue."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "caution",
+      "note": "Blowing your nose in public can be seen as disgusting; many prefer to do it in the bathroom."
+    },
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Blowing your nose when needed is accepted, but doing it loudly or at the table draws disapproval."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Instagram",
+      "url": "https://www.instagram.com/reel/DWsbGgyioVc",
+      "kind": "community"
+    },
+    {
+      "title": "Rude in one country, polite in another: 20 examples",
+      "url": "https://qz.com/rude-in-one-country-polite-in-another",
+      "kind": "reference"
+    }
+  ]
+}

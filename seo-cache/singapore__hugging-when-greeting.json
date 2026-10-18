@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Handshake first, hug selectively",
+  "confidence": "medium",
+  "explanation": "In Singapore the standard greeting is a firm right-handed handshake, and hugging is uncommon between acquaintances, especially in business or first meetings. Hugging is more accepted in informal social settings and among friends, but public displays of affection are generally restrained, so it is best to follow the other person's lead.",
+  "local_tip": "Offer a handshake first and only hug if the other person initiates or you already know them well.",
+  "regional_note": "Greeting customs vary somewhat across Singapore's Chinese, Malay and Indian communities, but the handshake-first norm applies broadly.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is standard; hugging is reserved for close relationships and can feel intrusive."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is common among friends, but hugging is less typical outside informal settings."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Hugging and cheek kisses are common greetings among friends and acquaintances."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greeting Customs in Singapore: A Cultural Overview | Remitly",
+      "url": "https://www.remitly.com/blog/lifestyle-culture/how-to-greet-people-in-singapore",
+      "kind": "reference"
+    },
+    {
+      "title": "Culture and social etiquette in Singapore | Expatica",
+      "url": "https://www.expatica.com/sg/about/culture/singapore-etiquette-2172775",
+      "kind": "reference"
+    }
+  ]
+}

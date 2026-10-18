@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, right hand preferred",
+  "confidence": "medium",
+  "explanation": "Exchanging business cards is acceptable and often expected in Saudi business settings, though sources differ on how essential it is: one calls cards optional, another says they are very important. Present and receive cards with the right hand, and ideally print an Arabic translation on one side.",
+  "local_tip": "Offer your card right-handed with the Arabic side facing the recipient, and take a moment to read any card you receive before placing it on the table rather than pocketing it immediately.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Cards are exchanged formally with both hands and reviewed carefully; titles and rank matter."
+    },
+    {
+      "country": "Israel",
+      "verdict": "polite",
+      "note": "Card etiquette is more casual and closer to Western norms, with less ceremony."
+    },
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly ritualized two-handed exchange with a bow; treating a card casually can offend."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Saudi Arabian - Business Culture — Cultural Atlas",
+      "url": "https://theculturalatlas.org/saudi-arabian-culture/saudi-arabian-culture-business-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Business Etiquette in Saudi Arabia",
+      "url": "https://cibtvisas.com/blog/business-etiquette-saudi-arabia",
+      "kind": "reference"
+    },
+    {
+      "title": "A Brief Guide to History and Culture of Business Cards | Mobilo Card",
+      "url": "https://www.mobilocard.com/post/your-guide-to-business-card-history-culture",
+      "kind": "reference"
+    }
+  ]
+}

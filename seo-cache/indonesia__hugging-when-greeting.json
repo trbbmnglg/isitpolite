@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid hugging; handshake preferred",
+  "confidence": "medium",
+  "explanation": "In Indonesia, public displays of affection such as hugging are generally considered inappropriate and disrespectful, especially in social gatherings. The standard polite greeting is a smile with a soft handshake (salam) and a slight nod, and a firm grip should be avoided. Hugging is therefore best reserved for close friends or family rather than casual greetings.",
+  "local_tip": "Greet with a warm smile and a gentle handshake, and follow a Muslim host's lead if they offer the two-handed salam.",
+  "regional_note": "Observance varies by generation and setting: younger, urban Indonesians may hug among close friends, while conservative or older circles tend to keep greetings more formal.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging is uncommon and can feel intrusive in greetings."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is standard among acquaintances, but full hugs are usually reserved for close friends and family."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "A hug or embrace is a common, warm greeting among friends and acquaintances."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural Etiquettes: Do’s and Don’ts in Different Countries — The World in Us",
+      "url": "https://www.theworldinus.org/blog/cultural-etiquettes-dos-and-donts-in-different-countries",
+      "kind": "reference"
+    },
+    {
+      "title": "Etiquette in Indonesia - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Etiquette_in_Indonesia",
+      "kind": "reference"
+    }
+  ]
+}

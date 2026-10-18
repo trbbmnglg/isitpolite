@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Not the French default",
+  "confidence": "medium",
+  "explanation": "French dining culture favors hosting and taking turns treating rather than itemized splitting, and many consider asking to divide the bill impolite, especially when someone has invited you. In casual settings locals do split, usually evenly, and restaurants will accommodate separate payments, but the gesture is not the social default. Sources disagree on how acceptable it is, so context matters.",
+  "local_tip": "If you suggested the meal, expect to pay; otherwise offer to cover the whole bill and let your host decline, or propose an even split only in casual company.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites pays the bill."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "Accepting companions' offer to split is considered polite rather than insisting on paying alone."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Separate or itemized checks are routine and restaurants handle them without fuss."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "French Dining Etiquette: 8 Rules for Dining Out in France - Luxe Adventure Traveler",
+      "url": "https://luxeadventuretraveler.com/french-dining-etiquette-8-rules-for-dining-out-in-france",
+      "kind": "reference"
+    }
+  ]
+}

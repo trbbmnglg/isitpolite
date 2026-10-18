@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Intimate, not casual",
+  "confidence": "medium",
+  "explanation": "In Russia, asking about age or salary at a social gathering is generally not a light, polite opener; such questions are considered personal and can feel intrusive, especially with people you have just met. Russians tend to value a clear line between formal and familiar relations, and acting too casual or assuming familiarity with a stranger can be seen as rude. Once a genuine friendship is established, direct personal questions become more acceptable.",
+  "local_tip": "At a first meeting, ask about work in general terms or shared interests rather than exact salary or age, and let closer personal questions come after trust is built.",
+  "regional_note": "Older Russians tend to be more conservative and traditional than younger Russians, so generational differences can affect how personal such questions feel.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Salary questions are widely considered intrusive, while age is somewhat less sensitive but still often avoided."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Direct questions are common in conversation, but salary remains a private matter usually discussed only with close contacts."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Age and income are relatively common getting-acquainted questions, though reactions vary by generation and setting."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Etiquette Rules for Russia - Planet Depos",
+      "url": "https://planetdepos.com/business-etiquette-rules-russia",
+      "kind": "reference"
+    },
+    {
+      "title": "Russian - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/russian-culture/russian-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

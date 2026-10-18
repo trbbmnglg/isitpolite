@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserved for close friends",
+  "confidence": "high",
+  "explanation": "In France, hugging is reserved for close relationships and is generally uncomfortable for people who are not intimate friends or family. At a social gathering, the standard greeting is la bise among friends or a handshake in more formal or unfamiliar settings, and you should wait for the French person to initiate physical contact.",
+  "local_tip": "Offer a handshake or wait to follow the other person's lead with la bise rather than going in for a hug.",
+  "regional_note": "La bise itself varies regionally, from typically two kisses in Paris to up to four in other parts of France, but the reserved attitude toward hugging is described nationally.",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Brief hugs are common and generally welcomed in casual social greetings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Cheek kisses and handshakes dominate; hugging is warmer than in France but still mostly for friends."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm and physical contact in greetings is generally avoided."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "French Social Rituals Americans Often Misunderstand | Polyglottist Language Academy",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/8/20/french-social-rituals-americans-often-misunderstand",
+      "kind": "reference"
+    },
+    {
+      "title": "French culture: social etiquette in France | Expatica",
+      "url": "https://www.expatica.com/fr/living/integration/french-etiquette-101246",
+      "kind": "reference"
+    }
+  ]
+}

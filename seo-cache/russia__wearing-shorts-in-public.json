@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Casual shorts draw notice",
+  "confidence": "medium",
+  "explanation": "Russian public dress norms favor neat, considered outfits, and athletic shorts or 'just ran out' looks are widely seen as too casual for everyday street wear. Shorts are acceptable in clearly recreational settings such as parks, dachas, or summer resorts, but in city centers, cafés, and cultural venues they can attract disapproving attention.",
+  "local_tip": "In cities, swap shorts for neat trousers or jeans for errands and dining out, and save shorts for parks, dachas, or beach resorts.",
+  "regional_note": "Resort areas like the Black Sea coast are notably more relaxed about summer shorts than Moscow or St. Petersburg, and younger urban Russians tend to be less strict than older generations.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Shorts are common in summer but considered too casual for many restaurants and formal settings."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Beachwear and shorts are fine at the coast but can be frowned upon in city centers and churches."
+    },
+    {
+      "country": "Australia",
+      "verdict": "polite",
+      "note": "Shorts are standard everyday wear in warm weather, including in many casual dining settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Russian - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/russian-culture/russian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "What Not to Wear in Russia (If You Don’t Want to Stand Out) | Polyglottist Language Academy",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2026/1/30/what-not-to-wear-in-russia-if-you-dont-want-to-stand-out",
+      "kind": "reference"
+    }
+  ]
+}

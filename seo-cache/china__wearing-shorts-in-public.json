@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine in cities, modest elsewhere",
+  "confidence": "medium",
+  "explanation": "Mainland China has no general dress code, and in tier-one cities like Shanghai, Beijing, or Shenzhen, shorts in everyday public settings are common and unremarkable. However, etiquette sources stress modest dress with covered shoulders and knees, especially in rural areas, temples, and religious sites, where shorts may draw disapproval.",
+  "local_tip": "Wear longer, loose shorts in cities and switch to trousers or a skirt below the knee before visiting temples or smaller towns.",
+  "regional_note": "Urban tier-one cities are far more casual about shorts than tier-three towns, villages, and temple settings, where modest dress is still expected.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Shorts are common in cities in summer, though more conservative dress is preferred at temples and formal settings."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "Shorts are fine at beaches and casually, but knees and shoulders must be covered at temples."
+    },
+    {
+      "country": "Italy",
+      "verdict": "caution",
+      "note": "Shorts are normal in tourist areas, but churches and formal venues often require covered shoulders and knees."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Chinese Etiquette Guide for Tourists (2026)",
+      "url": "https://mychina.guide/blog/chinese-etiquette-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "10 China Outfit Rules for 2026 Travelers (Avoid These Mistakes)｜China Travel Know-How",
+      "url": "https://www.youtube.com/watch?v=KPAjfaua-4M",
+      "kind": "community"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, low-ritual exchange",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is polite and expected in Greek business settings, but it is done without elaborate ritual or ceremony. Cards are typically exchanged during introductions, and a clear title and role help establish credibility in a relationship-driven culture. Having one side translated into Greek and presenting it Greek-side up makes a positive impression.",
+  "local_tip": "Print your card with Greek on one side, hand it over Greek-side facing the recipient, and pause to read the card you receive before putting it away.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Highly ritualized two-handed exchange with a bow and careful reading of the card; casual handling is rude."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Often offered and received with both hands, and it is polite to study the card before pocketing it."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Casual, often exchanged at meeting start or end with little ceremony and no translation expected."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greek Business Culture Guide : Doing Business In Greece",
+      "url": "https://commisceo-global.com/country-guides/greece-guide",
+      "kind": "reference"
+    },
+    {
+      "title": "Tips for Business Card Etiquette Around the World - Golden MFG",
+      "url": "https://goldenmfg.com/blog/business-card-etiquette-around-world",
+      "kind": "reference"
+    }
+  ]
+}

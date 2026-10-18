@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Accepted, but not the default",
+  "confidence": "medium",
+  "explanation": "Splitting the bill is not the traditional default in Spain, where inviting someone usually means you pay, and etiquette guides advise against itemised splitting except in casual settings. In practice, though, groups of friends and colleagues commonly split evenly, and the practice is even nicknamed \"a la Catalana\" in some parts of the country. So it is acceptable among peers but can seem stingy or awkward at a hosted or formal meal.",
+  "local_tip": "With friends, offer to split evenly (a escote) rather than itemising each person's order, and let the person who extended the invitation pay if it was clearly a treat.",
+  "regional_note": "Source [1] notes that paying customs vary by region and that splitting is nicknamed \"a la Catalana\" in some parts of Spain, implying stronger acceptance in Catalonia.",
+  "also_check": [
+    {
+      "country": "France",
+      "verdict": "rude",
+      "note": "Splitting is not the norm and can be seen as impolite; friends take turns treating, though casual even splits happen."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "Companions are expected to split rather than one person insisting on covering the whole bill."
+    },
+    {
+      "country": "Mexico",
+      "verdict": "caution",
+      "note": "Splitting is uncommon; whoever invites typically pays."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Spanish Dining Etiquette: What to Know Before Eating Out ...",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2025/3/8/spanish-dining-etiquette-what-to-know-before-eating-out-in-spain",
+      "kind": "reference"
+    }
+  ]
+}

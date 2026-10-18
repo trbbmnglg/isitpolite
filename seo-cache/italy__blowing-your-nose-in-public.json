@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Acceptable but keep it discreet",
+  "confidence": "medium",
+  "explanation": "In Italy, blowing your nose in public is generally normal and not considered rude, unlike belching or other loud bodily noises, which are strongly frowned upon. However, Italian etiquette values avoiding loud or attention-drawing sounds, so a discreet nose blow is fine while a noisy, prolonged one may draw disapproving looks. The sources are thin on nose-blowing specifically, so treat this as a general norm rather than a hard rule.",
+  "local_tip": "If you must blow your nose, do it quietly and briefly, and turn away or step aside rather than making a performance of it.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Blowing your nose in public is widely considered poor manners; sniffing or excusing yourself discreetly is preferred."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Generally tolerated but discretion is expected, and loud nose-blowing can attract disapproving glances."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Blowing your nose in public is common and generally accepted, though spitting is the more sensitive issue."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Blow your nose? : r/CasualIT",
+      "url": "https://www.reddit.com/r/CasualIT/comments/1iy33ls/soffiare_il_naso?tl=en",
+      "kind": "community"
+    },
+    {
+      "title": "Italian Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.italianpod101.com/blog/2020/01/06/italian-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

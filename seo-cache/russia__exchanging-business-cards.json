@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Customary and expected in business",
+  "confidence": "high",
+  "explanation": "Russian business culture is formal, and a formal introduction followed by exchanging business cards is customary. Bilingual cards with one side in Russian and one in English are strongly recommended. The exchange is treated as a professional gesture rather than a casual swap.",
+  "local_tip": "Print cards with Russian on one side and English on the other, and present them during a formal introduction rather than casually mid-conversation.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Australia",
+      "verdict": "polite",
+      "note": "Informal; cards can be exchanged during or after a conversation with no strict protocol."
+    },
+    {
+      "country": "Germany",
+      "verdict": "polite",
+      "note": "Exchanged at the initial meeting after a formal introduction, using the right hand or both hands."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Relaxed but respectful; cards are casually exchanged during or after the initial conversation."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Going Global: Business Card Etiquette in Different Countries | UPrinting",
+      "url": "https://www.uprinting.com/blog/business-card-etiquette-in-different-countries",
+      "kind": "reference"
+    },
+    {
+      "title": "Russia — Business Etiquette, Culture & Manners | International Business Etiquette",
+      "url": "https://www.cyborlink.com/besite/russia.htm",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Avoid hugging acquaintances",
+  "confidence": "high",
+  "explanation": "In South Korean social gatherings, hugging or cheek-kissing, especially between acquaintances, is generally considered inappropriate; bowing and handshaking are the expected greetings. Public displays of affection between opposite-sex people are seen as rude, though same-sex hugging and hand-holding are acceptable. Greeting strangers with familiarity such as a hug is viewed as too forward.",
+  "local_tip": "At a social gathering, offer a slight bow and a handshake (supporting your right forearm with your left hand when greeting someone older or senior) instead of a hug.",
+  "regional_note": "Same-sex hugging is generally acceptable, while opposite-sex hugging is considered rude; formality increases with age and seniority.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is standard; hugging acquaintances is uncommon and can feel intrusive."
+    },
+    {
+      "country": "Thailand",
+      "verdict": "caution",
+      "note": "The wai greeting is preferred; hugging is reserved for close friends and family."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kisses) is common among acquaintances, but hugging is less standard and varies by region and relationship."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "CUSTOMS, MANNERS AND ETIQUETTE IN KOREA | Facts and Details",
+      "url": "https://factsanddetails.com/korea/South_Korea/People_2/entry-7229.html",
+      "kind": "reference"
+    },
+    {
+      "title": "Korean Social Etiquette: The Do’s and Don’ts You Should Know",
+      "url": "https://www.goodjobkorean.com/blog/korean-social-etiquette-and-manners",
+      "kind": "reference"
+    },
+    {
+      "title": "Korean Communication, Culture, Style, and Etiquette | EHLION",
+      "url": "https://ehlion.com/magazine/how-to-greet-in-korean",
+      "kind": "reference"
+    }
+  ]
+}

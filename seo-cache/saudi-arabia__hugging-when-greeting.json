@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Reserve hugs for close relations",
+  "confidence": "medium",
+  "explanation": "In Saudi social gatherings, greetings are warm but usually expressed through handshakes, eye contact, and verbal salaams rather than hugging, especially between men and women. Public displays of affection and cross-gender physical contact are culturally and religiously sensitive, so hugging is generally reserved for close same-sex relatives or friends who have not seen each other for a long time. With strangers or new acquaintances, a handshake (or a hand over the heart when a handshake is declined) is the safer, more respectful choice.",
+  "local_tip": "Wait for the other person to extend a hand or initiate any physical contact, and greet elders or senior guests first with 'As-Salamu Alaykum'.",
+  "regional_note": "Sources note that same-sex greetings can include more warmth, such as cheek kisses for those who are very close, while cross-gender physical contact remains avoided in public settings.",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Handshakes are standard; hugs are usually limited to close friends or relatives, and cross-gender contact should be initiated by the woman."
+    },
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm, and hugging is uncommon and can feel intrusive in formal or first-time greetings."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "La bise (cheek kissing) is common among acquaintances, but hugging is less standard and varies by region and relationship."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Greetings & Introductions in Saudi Arabia: Practical Guide",
+      "url": "https://www.arabia-interculture.com/en/social-etiquette-and-cultural-norms-in-saudi-arabia",
+      "kind": "reference"
+    },
+    {
+      "title": "A Guide to Business Etiquette in Saudi Arabia",
+      "url": "https://cibtvisas.com/blog/business-etiquette-saudi-arabia",
+      "kind": "reference"
+    },
+    {
+      "title": "How to Greet in Saudi Arabia for Men & Women",
+      "url": "https://www.youtube.com/watch?v=1TDQ3yYwJVI",
+      "kind": "community"
+    }
+  ]
+}

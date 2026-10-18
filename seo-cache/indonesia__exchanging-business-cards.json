@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, but handle with care",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is a standard and expected part of business introductions in Indonesia, typically done after the initial handshake and greetings. Cards are treated as a representation of the person and their company, so they must be presented and received with both hands and handled with visible respect. Failing to do so—such as tossing a card with one hand—can cause real offense.",
+  "local_tip": "Present and receive cards with both hands, give a slight bow, and take a moment to read the card with genuine interest before placing it respectfully on the table or in a card case—never in a back pocket.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "polite",
+      "note": "Card exchange (meishi) is highly ritualized; present with both hands, bow, and read carefully—casual handling is disrespectful."
+    },
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Exchange with both hands and receive with both hands; study the card briefly before putting it away."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Casual one-handed exchange is normal; elaborate two-handed rituals may seem overly formal but are not offensive."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "REAB - Business traditions and mentality - Indonesian business culture",
+      "url": "https://reab.pro/en/info/business-traditions-and-mentality/indonesian-business-culture",
+      "kind": "reference"
+    },
+    {
+      "title": "Business Etiquette Indonesia",
+      "url": "https://bizasean.com/business-etiquette-indonesia",
+      "kind": "reference"
+    }
+  ]
+}

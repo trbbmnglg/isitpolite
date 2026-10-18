@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Common, but split evenly",
+  "confidence": "high",
+  "explanation": "In the United States, splitting the bill is a normal and accepted practice among friends and colleagues, and the bill is often divided evenly rather than item by item. Nickel-and-diming every item can come across as tacky, and asking for many separate checks can annoy servers because some restaurant systems make it cumbersome. It is generally fine to pay only for what you ordered, but the smoothest approach is to agree on the method up front.",
+  "local_tip": "Agree on how you'll split before ordering, and if you shared dishes or the difference is small, just split evenly and tip evenly to keep things smooth.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Mexico",
+      "verdict": "rude",
+      "note": "Splitting is uncommon; whoever invites the group typically pays the whole bill."
+    },
+    {
+      "country": "Norway",
+      "verdict": "polite",
+      "note": "It's considered polite to let companions split the bill rather than insist on covering it all yourself."
+    },
+    {
+      "country": "Scotland",
+      "verdict": "polite",
+      "note": "Splitting is common, and it's even more polite to tell the restaurant in advance that you'll pay separately."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Splitting the Bill Etiquette in 26 Countries Around the World",
+      "url": "https://matadornetwork.com/read/splitting-the-bill-etiquette-around-the-world",
+      "kind": "reference"
+    },
+    {
+      "title": "Is it actually rude to suggest splitting the bill evenly when ...",
+      "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1kcjmfj/is_it_actually_rude_to_suggest_splitting_the_bill",
+      "kind": "community"
+    },
+    {
+      "title": "Dining etiquette: How to split the bill without getting shafted",
+      "url": "https://www.beonpath.org/blog/the-polite-persons-guide-to-splitting-the-bill",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Acceptable, not impolite",
+  "confidence": "medium",
+  "explanation": "In Germany, crossing your legs while sitting carries no real negative meaning and is not considered impolite, even in formal or business settings. It is common for women especially to cross their legs in formal situations such as a job interview, while men do so less often; at most it can read as cool and reserved rather than rude. German etiquette guides also describe crossing one knee over the other as normal sitting behavior.",
+  "local_tip": "In a German business meeting, crossing your legs at the knee is fine, but keep your posture upright and avoid resting your feet on furniture, which is considered impolite.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Crossing legs can signal casualness or disrespect in formal meetings, especially with senior people."
+    },
+    {
+      "country": "Eastern Europe",
+      "verdict": "caution",
+      "note": "In formal situations crossing legs may be seen as disrespectful, and is often reserved for friends or intimate settings."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Crossing legs in formal or business settings can be read as overly casual or disrespectful toward seniors."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Crossing legs in non-J countries - japan-guide.com forum",
+      "url": "https://www.japan-guide.com/forum/quereadisplay.html?0+15375=",
+      "kind": "reference"
+    },
+    {
+      "title": "German - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/german-culture/german-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

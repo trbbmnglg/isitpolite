@@ -1,0 +1,43 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Discreet, not at the table",
+  "confidence": "medium",
+  "explanation": "In Turkey, blowing your nose is not forbidden in public, but doing it at the table or during a meal is considered very rude and disgusting, especially while others are eating. The sources consistently focus on mealtime and shared settings rather than all public spaces, so the practical rule is to be discreet and step away when food is involved.",
+  "local_tip": "If you need to blow your nose, turn away, use a tissue, and excuse yourself to the bathroom rather than doing it at a shared table or during a meal.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Blowing your nose in public is strongly frowned upon; sniffing is more tolerated, and people often step away or wait."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Loud nose-blowing and spitting in public draw disapproval, though attitudes vary by setting and generation."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Discreet nose-blowing is acceptable, but doing it loudly or at the table is considered poor manners."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Turkish Etiquette: The Cultural Guide I Wish I Had Before My First Day in Turkey",
+      "url": "https://medium.com/@simplitty/turkish-etiquette-the-cultural-guide-i-wish-i-had-before-my-first-day-in-turkey-839d4eb383d9",
+      "kind": "reference"
+    },
+    {
+      "title": "13 unspoken Turkish rules you might not know",
+      "url": "https://www.propertyturkey.com/blog-turkey/13-unspoken-turkish-rules-you-might-not-know",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/turkish-culture/turkish-culture-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

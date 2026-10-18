@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Expected and highly respectful",
+  "confidence": "high",
+  "explanation": "Exchanging meishi is a standard and important ritual in Japanese business culture, where the card represents the person's professional identity. Cards should be presented and received with both hands, examined carefully, and treated with respect rather than pocketed carelessly.",
+  "local_tip": "Carry clean cards in a dedicated case, present them with both hands and a slight bow, and take a moment to read each card before placing it respectfully on the table or in your case.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "China",
+      "verdict": "polite",
+      "note": "Two-handed exchange is also standard, though cards are often received with less ritual reading than in Japan."
+    },
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Exchanging cards is normal but casual; no bowing or formal two-handed ritual is expected."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "polite",
+      "note": "Two-handed exchange with respect is customary, similar to Japan but with local variations in bowing."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Japanese Culture & Etiquette Tips - Exchanging Business Cards in Japan",
+      "url": "https://www.asianbusinesscards.com/business-card-exchange-etiquette-guide-culture-tips-for-japan",
+      "kind": "reference"
+    },
+    {
+      "title": "DSEI Japan 2025 | Business Culture & Etiquette in Japan",
+      "url": "https://www.dsei-japan.com/exhibit/why-exhibit/business-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

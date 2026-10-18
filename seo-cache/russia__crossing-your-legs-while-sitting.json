@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Avoid wide leg-crossing",
+  "confidence": "medium",
+  "explanation": "Russian business etiquette frowns on sitting with legs spread wide, which is seen as vulgar dominance display rather than relaxed comfort. Crossing the legs at the knee is generally tolerated in offices, but a wide, space-occupying posture reads as bad manners. Keep legs together or at a natural distance in meetings.",
+  "local_tip": "In meetings, sit with knees together or feet flat and close; avoid the wide, ankle-on-knee 'manspreading' pose entirely.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Crossing at the knee is common, but ankle-on-knee or showing the sole of your shoe toward others is impolite."
+    },
+    {
+      "country": "South Korea",
+      "verdict": "caution",
+      "note": "Leg-crossing is common among men, but crossing in front of elders or superiors can seem overly casual."
+    },
+    {
+      "country": "Turkey",
+      "verdict": "caution",
+      "note": "Crossing legs is normal, but showing the sole of your foot toward someone is considered disrespectful."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Russian - Etiquette — Cultural Atlas",
+      "url": "https://theculturalatlas.org/russian-culture/russian-culture-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "Russian Etiquette Rules: The Do’s and Don’ts",
+      "url": "https://www.russianpod101.com/blog/2020/01/06/russian-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Better avoided in public",
+  "confidence": "medium",
+  "explanation": "Saudi public dress norms favor loose, modest clothing that covers the shoulders and knees, and one etiquette guide specifically advises men to avoid shorts in public. Other guidance is softer, saying knee-length shorts are acceptable in many settings but that very short shorts are best avoided. So shorts are not universally offensive, but they are risky in everyday public settings and safest kept for private or resort contexts.",
+  "local_tip": "If you wear shorts, choose loose knee-length styles and save anything shorter for hotel grounds, beaches, or private spaces.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United Arab Emirates",
+      "verdict": "caution",
+      "note": "Shorts are common in malls and tourist areas, but modest dress is still expected in government buildings and religious sites."
+    },
+    {
+      "country": "Morocco",
+      "verdict": "polite",
+      "note": "Shorts are widely worn by locals and tourists in cities and coastal areas, though more modest dress is appreciated in rural and religious settings."
+    },
+    {
+      "country": "Iran",
+      "verdict": "rude",
+      "note": "Public dress rules require covering the legs, and shorts are not acceptable for men or women in public."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "13 Dos and Don'ts in Saudi Arabia: A Guide to Cultural Etiquette",
+      "url": "https://www.traveloka.com/en-en/explore/destination/pl-dos-donts-saudi-arabia/271991",
+      "kind": "reference"
+    },
+    {
+      "title": "Dos and Don’ts: Saudi Arabia Rules Every Traveller Should Know",
+      "url": "https://all.accor.com/a/en/limitless/thematics/travel-tips-guides/saudi-arabia-rules.html",
+      "kind": "reference"
+    }
+  ]
+}

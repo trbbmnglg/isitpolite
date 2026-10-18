@@ -1,0 +1,43 @@
+{
+  "verdict": "rude",
+  "verdict_label": "Rude in public settings",
+  "confidence": "high",
+  "explanation": "In Japan, blowing your nose in public is widely considered bad manners, especially in quiet shared spaces like trains, offices, classrooms, or elevators, because the sound is seen as disruptive and draws unwanted attention. Many Japanese people associate nose-blowing with illness or lack of self-restraint and instead sniffle quietly until they can find a private spot. The behavior conflicts with the cultural value of not causing trouble or disturbance to others (meiwaku).",
+  "local_tip": "If your nose is running, quietly step away to a restroom or stairwell to blow it, and consider wearing a mask during cold or hay fever season.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "polite",
+      "note": "Blowing your nose into a tissue is generally seen as good hygiene and normal public behavior."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Public nose-blowing is common and often tolerated, though loud or messy blowing can still draw disapproving looks in formal settings."
+    },
+    {
+      "country": "France",
+      "verdict": "caution",
+      "note": "Discreet nose-blowing with a tissue is generally acceptable, but loud or attention-drawing blowing is considered poor manners."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "10 Unspoken Rules in Japan (That You’ll Probably Break) - GaijinPot",
+      "url": "https://blog.gaijinpot.com/10-unspoken-rules-in-japan-that-youll-probably-break",
+      "kind": "reference"
+    },
+    {
+      "title": "The 8 things you should never do in Japan if you want to be a respectful tourist | Herald Sun",
+      "url": "https://www.delicious.com.au/travel/international/gallery/japanese-etiquette-things-you-shouldnt-tourist/l6y161ef",
+      "kind": "reference"
+    },
+    {
+      "title": "A Surprising Rule – Understanding Japan",
+      "url": "https://understanding-japan.com/the-runny-nose-dilemma-a-surprising-rule-of-japanese-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

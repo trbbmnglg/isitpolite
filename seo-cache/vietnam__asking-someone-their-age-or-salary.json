@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Normal, not intrusive",
+  "confidence": "high",
+  "explanation": "In Vietnam, asking about age, marital status, or occupation at a social gathering is common and generally not seen as invasive; these questions help establish social context and determine the proper forms of address and respect. Age in particular matters because Vietnamese communication and hierarchy depend heavily on relative age, so the question is functional rather than nosy. Salary is a bit more sensitive than age, but asking about work and income is still far more accepted than in many Western countries.",
+  "local_tip": "Answer age and job questions cheerfully and, if you like, turn the question back — but deflect salary with a smile and a vague answer if you'd rather not share.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "caution",
+      "note": "Age and especially salary questions are often considered intrusive at casual social gatherings."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Age can be asked indirectly through context, but direct salary questions are usually avoided."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Salary is treated as private; age is less sensitive but still not a typical opener."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Cultural etiquette in Vietnam: essential customs travelers should know - TNK Travel",
+      "url": "https://www.tnktravel.com/blogs/vietnam-blogs/cultural-etiquette-in-vietnam-essential-customs-travelers-should-know",
+      "kind": "reference"
+    },
+    {
+      "title": "A Beginner’s Guide to Vietnamese Culture, Etiquette, and Everyday Life | Polyglottist Language Academy",
+      "url": "https://www.polyglottistlanguageacademy.com/language-culture-travelling-blog/2026/6/19/a-beginners-guide-to-vietnamese-culture-etiquette-and-everyday-life",
+      "kind": "reference"
+    }
+  ]
+}

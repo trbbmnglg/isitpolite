@@ -1,0 +1,38 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Age yes, salary no",
+  "confidence": "high",
+  "explanation": "In South Korea, asking someone's age shortly after meeting is a normal social contract that establishes hierarchy and determines which speech forms and honorifics to use. Salary, however, is a different matter: it is not part of that same age-based etiquette and is generally treated as more intrusive, especially at a casual social gathering. So the question is only half polite — age is expected, salary is not.",
+  "local_tip": "At a social gathering, it is fine to ask age or birth year early, but let salary come up only if the other person raises it first.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "United States",
+      "verdict": "rude",
+      "note": "Asking age or salary of a new acquaintance is generally considered intrusive small talk."
+    },
+    {
+      "country": "Germany",
+      "verdict": "caution",
+      "note": "Age is less sensitive, but salary questions are typically reserved for close relationships."
+    },
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Age may be asked indirectly through context, but direct salary questions are usually avoided."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Where asking someone's age isn't rude",
+      "url": "https://www.bbc.com/travel/article/20211214-where-asking-someones-age-isnt-rude",
+      "kind": "reference"
+    },
+    {
+      "title": "Korean Social Etiquette: The Do’s and Don’ts You Should Know",
+      "url": "https://www.goodjobkorean.com/blog/korean-social-etiquette-and-manners",
+      "kind": "reference"
+    }
+  ]
+}

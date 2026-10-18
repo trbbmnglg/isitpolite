@@ -1,0 +1,38 @@
+{
+  "verdict": "caution",
+  "verdict_label": "Fine with friends, not strangers",
+  "confidence": "medium",
+  "explanation": "Hugging is common among close friends and family in Turkey, especially in coastal areas and big cities, but it is not a standard greeting for people you have just met. Handshaking is described as the safest greeting, and with conservative women or in more conservative regions, even handshakes and cheek kisses between the sexes may be avoided.",
+  "local_tip": "At a social gathering, offer a handshake first and only hug if the other person initiates or you already know them well.",
+  "regional_note": "Coastal and southwestern regions and big cities are more relaxed about hugs and cheek kisses, while conservative regions are more reserved, especially between men and women.",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "rude",
+      "note": "Bowing is the norm; hugging is reserved for intimate situations and can feel intrusive."
+    },
+    {
+      "country": "Finland",
+      "verdict": "caution",
+      "note": "Handshakes are standard; hugs are common among friends but not on first meeting."
+    },
+    {
+      "country": "Brazil",
+      "verdict": "polite",
+      "note": "Hugs and cheek kisses are routine greetings among acquaintances in many settings."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Culture and Social Etiquette in Turkey — Ikamet",
+      "url": "https://ikamet.com/blog/culture-and-social-etiquette-in-turkey",
+      "kind": "reference"
+    },
+    {
+      "title": "Turkish Customs and Etiquette - Istanbul Insider -",
+      "url": "https://theistanbulinsider.com/turkish-customs-and-etiquette",
+      "kind": "reference"
+    }
+  ]
+}

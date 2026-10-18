@@ -1,0 +1,43 @@
+{
+  "verdict": "polite",
+  "verdict_label": "Polite, relaxed exchange",
+  "confidence": "high",
+  "explanation": "Exchanging business cards is polite and common in UK business settings, but the approach is relaxed and unceremonious rather than ritualised. Cards are often exchanged after a conversation or towards the end of a meeting as a way to share details and close things out. One-handed presentation is normal, though basic courtesy such as asking for the other person's card first is still appreciated.",
+  "local_tip": "Wait until the conversation or meeting is winding down, then ask for your counterpart's card before offering yours, and hand it over with one hand without fanfare.",
+  "regional_note": "",
+  "also_check": [
+    {
+      "country": "Japan",
+      "verdict": "caution",
+      "note": "Card exchange is a formal ritual: present and receive with both hands, bow slightly, and study the card rather than pocketing it immediately."
+    },
+    {
+      "country": "China",
+      "verdict": "caution",
+      "note": "Present and receive cards with both hands, and offer your card before asking for theirs; treating the card carelessly can cause offence."
+    },
+    {
+      "country": "Middle East (e.g., UAE)",
+      "verdict": "caution",
+      "note": "Use the right hand or both hands, never the left, and respect religious and cultural customs when presenting cards."
+    }
+  ],
+  "grounded": "2026-10-18",
+  "sources": [
+    {
+      "title": "Business Card Etiquette Around the World - MOO Blog",
+      "url": "https://www.moo.com/blog/business-tips/international-business-etiquette",
+      "kind": "reference"
+    },
+    {
+      "title": "International Business Card Etiquette for Business Travelers",
+      "url": "https://www.all-ett.com/blogs/blog/international-business-card-etiquette-for-business-travelers",
+      "kind": "reference"
+    },
+    {
+      "title": "Going Global: Business Card Etiquette in Different Countries | UPrinting",
+      "url": "https://www.uprinting.com/blog/business-card-etiquette-in-different-countries",
+      "kind": "reference"
+    }
+  ]
+}
