@@ -38,7 +38,7 @@ async function lookup(body) {
   return { res, params: seen[0] };
 }
 
-const CHECK = { mode: 'check', gesture: 'Tipping', country: 'Japan', context: 'dining' };
+const CHECK = { mode: 'check', gesture: 'Whistling indoors', country: 'Japan', context: 'dining' };
 
 test('the shared country list is the full app list and rejects anything else', () => {
   assert.equal(COUNTRIES.length, 195);

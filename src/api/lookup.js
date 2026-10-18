@@ -4,6 +4,8 @@ import { consumeSearchCredit, refundSearchCredit, FREE_SEARCH_PER_DAY } from '..
 import { runLookupAgent } from '../_agent.js';
 import { recordAnswered } from '../_usage.js';
 import { isCountry, CONTEXT_LABELS } from '../_countries.js';
+import { matchReviewed, instantAnswer } from '../_reviewed-match.js';
+import { recordEvent } from '../_events.js';
 
 export function onRequestGet() {
   return json({ error: 'Method not allowed.' }, 405);
@@ -61,6 +63,17 @@ export async function onRequestPost(context) {
   if (!named.every(isCountry)) return json({ error: 'Invalid request.' }, 400);
   if (mode === 'brief' && (!params.from || !params.to || params.from === params.to)) {
     return json({ error: 'Pick two different countries for your briefing.' }, 400);
+  }
+
+  // Fact-checked answers are served instantly and for free: no AI call, no credit.
+  if (mode === 'check') {
+    const match = matchReviewed(params);
+    if (match) {
+      const res = json(instantAnswer(match));
+      recordAnswered(context, mode, res);
+      recordEvent(context, 'instant_answer');
+      return res;
+    }
   }
 
   // ── 4. Credit gate ────────────────────────────────────────────────────────

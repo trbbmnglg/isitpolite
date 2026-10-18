@@ -302,6 +302,22 @@ export async function runLookupAgent(env, mode, params) {
   return cfg.finalize ? cfg.finalize(res.draft, params, res.sources || []) : res.draft;
 }
 
+// ── Home-country note for an instant (fact-checked) answer ───────────────
+// One short call, no web search: grounded in the reviewed record and, when we
+// have one, the home country's reviewed record for the same gesture.
+export async function homeContrast(env, item, country, home, homeItem) {
+  const model = getModel(env, 220);
+  const fact = function (c, i) { return c + ': ' + i.verdict + ' (' + i.label + '). ' + i.explanation + ' Tip: ' + i.tip; };
+  const out = await jsonLLM(model,
+    'You are a cross-cultural etiquette expert. Respond ONLY with valid JSON, no markdown.',
+    'Behavior: "' + item.gesture + '".\nReviewed fact for ' + fact(country, item) +
+    (homeItem ? '\nReviewed fact for ' + fact(home, homeItem) : '') +
+    '\n\nThe traveler is from ' + home + '. In one sentence, say how this differs from what someone from ' + home +
+    ' would expect at home and what to adjust. Do not invent norms; if it is essentially the same, return an empty string.' +
+    '\nRespond ONLY with JSON: {"home_contrast":"one sentence or empty string"}');
+  return String((out && out.home_contrast) || '').trim().slice(0, 300);
+}
+
 // ── Feedback sanitizer (LangChain single call) ───────────────────────────
 export async function sanitizeFeedback(env, message) {
   const model = getModel(env);
