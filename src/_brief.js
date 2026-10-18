@@ -3,6 +3,7 @@
 // guide records, then in web sources. Registered in LOOKUP_MODES (_agent.js).
 import { CONTEXT_LABELS, MONTHS } from './_countries.js';
 import { REVIEWED } from './_reviewed.js';
+import { holidaysFor } from './_holidays.js';
 
 const SEVERITY = ['high', 'medium', 'low'];
 const SOURCE_COUNT = 8;
@@ -118,14 +119,23 @@ export function finalizeBrief(d, p, sources) {
     return sourceMentions(raw, s.title);
   }).slice(0, 3);
 
+  // Verified movable holidays come first; drop model notes about the same event.
+  const year = p.month ? briefYear(p.month) : 0;
+  const verified = holidaysFor(p.to, p.month, year);
+  const verifiedWords = verified.map(function (h) { return h.title.toLowerCase().split(/\s+/)[0]; });
+  const modelNotes = season.filter(function (s) {
+    const t = s.title.toLowerCase();
+    return !verifiedWords.some(function (w) { return t.indexOf(w) !== -1; });
+  });
+
   return {
     from: p.from,
     to: p.to,
     contexts: p.contexts,
     month: p.month || 0,
-    year: p.month ? briefYear(p.month) : 0,
+    year: year,
     headline: clip(d.headline, 240),
     watch_outs: watchOuts,
-    season: season,
+    season: verified.concat(modelNotes).slice(0, 4),
   };
 }
