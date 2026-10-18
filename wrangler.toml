@@ -9,6 +9,9 @@ compatibility_flags = ["nodejs_compat"]
 directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "404-page"   # serves dist/404.html
+# Guide pages go through the Worker so its permanentRedirect() can turn the
+# assets layer's temporary 307s (no trailing slash, /index.html) into 301s.
+run_worker_first = ["/etiquette", "/etiquette/*", "/index.html", "/privacy.html"]
 
 # Browser Rendering — requires Workers Paid plan.
 # Used by src/_render.js (htmlToPng / htmlToPdf) for premium artifact generation.
