@@ -23,7 +23,7 @@ with the query pre-filled (`/?g=…&c=…&ctx=…`).
 - `seo/template.mjs` — the HTML templates (reuse `/style.css`).
 - `build-seo.mjs` — generates content via DeepSeek, **caches each result in `seo-cache/`**
   (so re-runs are incremental and free), renders pages, and assembles a clean
-  **`dist/`** containing only public assets + `functions/` + the generated pages + `sitemap.xml`.
+  **`dist/`** containing only public assets + the bundled `app.js` / `style.css` + the generated pages + `sitemap.xml`. The Worker code lives in `src/` and is deployed by Wrangler, not copied into `dist/`.
 
 `dist/` is what gets deployed. Build tooling and `seo-cache/` never ship.
 
@@ -36,14 +36,15 @@ $env:DEEPSEEK_API_KEY = "sk-..."
 # 2. generate + assemble dist  (first full run ≈ 144 API calls, a few minutes)
 node build-seo.mjs
 
-# 3. deploy the assembled folder
-npx wrangler pages deploy dist --project-name isitpolite --branch main
+# 3. test, then deploy the Worker (serves dist/ as static assets)
+npm test
+npx wrangler deploy
 ```
 
 Useful flags:
 
 ```powershell
-node build-seo.mjs --sample      # no API — renders 3 built-in sample pages (for testing)
+node build-seo.mjs --sample      # no API — renders built-in sample pages (for testing; never written to seo-cache/)
 node build-seo.mjs --limit 20    # only make 20 new API calls this run (cost control / resume)
 ```
 
