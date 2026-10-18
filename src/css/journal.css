@@ -102,6 +102,63 @@ input.field-error, select.field-error { border-color: var(--rude); box-shadow: 0
 .home-contrast { background: var(--surface-alt); border-radius: 8px; padding: 0.85rem 1rem; }
 .card-body > .card-section.home-contrast { border-top: 0; padding-top: 0.85rem; }
 
+/* ── Trip briefing ───────────────────────────────────────────────────── */
+fieldset.form-field { border: 0; padding: 0; margin: 0; min-width: 0; }
+fieldset.form-field legend { font-size: 0.875rem; font-weight: 600; color: var(--ink); margin-bottom: 0.4rem; }
+.chip-checks { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip-check {
+  display: inline-flex; align-items: center; gap: 0.4rem; min-height: 40px; padding: 0 0.85rem;
+  border: 1px solid var(--field-border); border-radius: 999px; background: var(--surface);
+  font-size: 0.875rem; color: var(--ink); cursor: pointer;
+}
+.chip-check input { accent-color: var(--teal-solid); width: 16px; height: 16px; margin: 0; }
+.chip-check:has(input:checked) { background: var(--teal-tint); border-color: var(--teal); color: var(--teal-dark); font-weight: 600; }
+.chip-check:has(input:focus-visible) { outline: 3px solid var(--teal); outline-offset: 2px; }
+.brief-month-hint { display: block; }
+.view-back, .guide-quiz-link { margin: 0 0 1rem; font-size: 0.9375rem; }
+.guide-quiz-link { margin: 0.75rem 0 0; }
+.view-back a, .guide-quiz-link a { color: var(--teal-dark); font-weight: 600; }
+
+.brief-saved { margin-bottom: 1rem; }
+.trip-chip { display: inline-flex; align-items: center; }
+.trip-chip .pack-chip { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.trip-chip-remove {
+  min-height: 36px; min-width: 32px; border: 1px solid var(--line); border-left: 0; border-radius: 0 999px 999px 0;
+  background: var(--surface); color: var(--ink-muted); cursor: pointer; font-size: 1.1rem; line-height: 1;
+}
+.trip-chip-remove:hover { color: var(--rude); }
+
+.brief-wrap { margin-bottom: 2rem; }
+.brief-head { margin-bottom: 1rem; }
+.brief-route { font-size: 0.8125rem; font-weight: 600; color: var(--teal-dark); text-transform: uppercase; letter-spacing: 0.04em; }
+.brief-headline { font-size: clamp(1.25rem, 3.5vw, 1.6rem); font-weight: 600; line-height: 1.3; margin: 0.35rem 0; }
+.brief-meta { font-size: 0.8125rem; color: var(--ink-faint); }
+.brief-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.brief-item { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; box-shadow: var(--clay-shadow-sm); }
+.brief-item-head { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
+.sev-chip { font-size: 0.75rem; font-weight: 600; padding: 0.15rem 0.6rem; border-radius: 999px; border: 1px solid; }
+.sev-chip.rude    { color: var(--rude);    background: var(--rude-bg);    border-color: var(--rude-border); }
+.sev-chip.caution { color: var(--caution); background: var(--caution-bg); border-color: var(--caution-border); }
+.sev-chip.polite  { color: var(--polite);  background: var(--polite-bg);  border-color: var(--polite-border); }
+.brief-cat { font-size: 0.75rem; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.05em; }
+.brief-item h4 { font-family: var(--font-serif); font-size: 1.0625rem; font-weight: 600; margin-bottom: 0.5rem; }
+.brief-compare { display: grid; grid-template-columns: 1fr; gap: 0.5rem; margin: 0 0 0.6rem; }
+@media (min-width: 560px) { .brief-compare { grid-template-columns: 1fr 1fr; } }
+.brief-compare div { background: var(--surface-alt); border-radius: 8px; padding: 0.55rem 0.75rem; }
+.brief-compare dt { font-size: 0.75rem; font-weight: 600; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.04em; }
+.brief-compare dd { margin: 0.15rem 0 0; font-size: 0.9rem; color: var(--ink); line-height: 1.5; }
+.brief-do, .brief-avoid { font-size: 0.9rem; line-height: 1.55; margin-top: 0.25rem; }
+.brief-do strong { color: var(--polite); }
+.brief-avoid strong { color: var(--rude); }
+.brief-src { display: inline-block; margin-top: 0.5rem; font-size: 0.875rem; font-weight: 600; color: var(--teal-dark); }
+.brief-season { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 2px dotted var(--line); }
+.brief-season h3 { font-size: 1.125rem; margin-bottom: 0.6rem; }
+.brief-season ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.brief-season li p { font-size: 0.9rem; line-height: 1.55; margin: 0.2rem 0; }
+.brief-season li a { font-size: 0.8125rem; color: var(--teal-dark); overflow-wrap: anywhere; }
+.date-tag { font-size: 0.75rem; font-weight: 600; color: var(--caution); background: var(--caution-bg); border: 1px solid var(--caution-border); border-radius: 999px; padding: 0.05rem 0.5rem; margin-left: 0.35rem; }
+.brief-season-none { font-size: 0.9rem; color: var(--ink-muted); }
+
 /* ── The one primary action: terracotta ──────────────────────────────── */
 .btn-cta {
   background: var(--terracotta); border: 0; border-radius: 8px; box-shadow: none;

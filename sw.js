@@ -1,4 +1,4 @@
-const CACHE = 'isitpolite-v22';
+const CACHE = 'isitpolite-v23';
 const ASSETS = ['./', './index.html', './style.css', './app.js', './manifest.json'];
 
 self.addEventListener('install', function (e) {

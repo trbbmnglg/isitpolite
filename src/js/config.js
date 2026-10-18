@@ -1,6 +1,6 @@
 
   // ── Configuration ──────────────────────────────────────────────────────
-  var API_LOOKUP  = '/api/lookup';  // retrieval-augmented agent (Check/Compare/Trip/Guide/Quiz)
+  var API_LOOKUP  = '/api/lookup';  // retrieval-augmented agent (Check/Trip/Compare/Guide/Quiz)
   var PRIVACY_KEY = 'isitpolite_privacy_accepted';
   var HISTORY_KEY = 'isitpolite_history';
   var HISTORY_MAX = 50;
@@ -57,5 +57,5 @@
       historyList, historyBadge,
       offlineBanner, cachedBanner, cachedBannerText,
       compareGestureEl, compareC1, compareC2, compareC3, compareBtn, compareResult,
-      tripFromEl, tripToEl, tripBtn, tripResult;
+      briefFromEl, briefToEl, briefMonthEl, briefContextsEl, briefBtn, briefResult, briefSavedEl;
 

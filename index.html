@@ -69,6 +69,10 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         Check
       </button>
+      <button class="nav-tab" data-view="trip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+        Trip
+      </button>
       <button class="nav-tab" data-view="compare">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
         Compare
@@ -76,10 +80,6 @@
       <button class="nav-tab" data-view="guide">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
         Guide
-      </button>
-      <button class="nav-tab" data-view="quiz">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-        Quiz
       </button>
       <button class="nav-tab" data-view="history">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -258,6 +258,44 @@
 
     </div><!-- /view-check -->
 
+    <!-- ── VIEW: TRIP BRIEFING ───────────────────────────────── -->
+    <div id="view-trip" class="view">
+      <div class="inner-view-wrap">
+        <div class="inner-view-hero">
+          <div class="view-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></div>
+          <h2>Trip briefing</h2>
+          <p>Tell us where you're from and where you're going. You'll get the etiquette points most likely to catch <strong>you</strong> out, saved on this device for offline use.</p>
+        </div>
+        <div id="brief-saved" class="brief-saved hidden" aria-label="Your saved trip briefings"></div>
+        <div class="inner-controls form-card">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="brief-from">I'm from</label>
+              <select id="brief-from" aria-label="Your home country"><option value="">— Home country —</option></select>
+            </div>
+            <div class="form-field">
+              <label for="brief-to">Going to</label>
+              <select id="brief-to" aria-label="Destination country"><option value="">— Destination —</option></select>
+            </div>
+          </div>
+          <fieldset class="form-field brief-acts">
+            <legend>What will you be doing? <span class="label-opt">(pick any)</span></legend>
+            <div class="chip-checks" id="brief-contexts"></div>
+          </fieldset>
+          <div class="form-field">
+            <label for="brief-month">When <span class="label-opt">(optional)</span></label>
+            <select id="brief-month" aria-label="Travel month"><option value="0">Any time</option></select>
+            <span class="field-hint brief-month-hint">Adds holidays and festivals that affect visitors that month, with sources.</span>
+          </div>
+          <button id="brief-btn" class="btn-cta btn-check" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17" aria-hidden="true"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+            Get my briefing
+          </button>
+        </div>
+        <div id="brief-result" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </div><!-- /view-trip -->
+
     <!-- ── VIEW: COUNTRY GUIDE ───────────────────────────────── -->
     <div id="view-guide" class="view">
       <div class="inner-view-wrap">
@@ -267,6 +305,7 @@
           </div>
           <h2>Country Guide</h2>
           <p>Get a cultural cheat sheet before your trip — 8 essential etiquette tips for any country. Save it for offline use on the plane.</p>
+          <p class="guide-quiz-link"><a href="#/quiz">Test yourself with a 5-question quiz →</a></p>
         </div>
         <div id="offline-packs" class="offline-packs hidden" aria-label="Your saved offline country packs"></div>
         <div class="inner-controls form-card">
@@ -295,13 +334,7 @@
           </div>
           <h2>Compare</h2>
         </div>
-        <div class="seg-wrap">
-          <div class="seg" role="tablist" aria-label="Compare mode">
-            <button type="button" role="tab" id="seg-across" aria-controls="cmp-panel-across" aria-selected="true">Across countries</button>
-            <button type="button" role="tab" id="seg-trip" aria-controls="cmp-panel-trip" aria-selected="false" tabindex="-1">My trip</button>
-          </div>
-        </div>
-        <div id="cmp-panel-across" class="cmp-panel" role="tabpanel" aria-labelledby="seg-across">
+        <div id="cmp-panel-across" class="cmp-panel">
           <p class="seg-lead">See how the same gesture lands in different countries, side by side.</p>
           <div class="inner-controls form-card">
           <div class="form-field">
@@ -332,35 +365,6 @@
         </div>
         <div id="compare-result" aria-live="polite" aria-atomic="true"></div>
         </div>
-        <div id="cmp-panel-trip" class="cmp-panel" role="tabpanel" aria-labelledby="seg-trip" hidden>
-          <p class="seg-lead">Traveling abroad? See what changes for you between home and destination.</p>
-          <div class="inner-controls form-card">
-          <div class="form-row trip-row">
-            <div class="form-field">
-              <label for="trip-from">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M3 12h18M3 12l4-4M3 12l4 4"/></svg>
-                I'm from
-              </label>
-              <select id="trip-from" aria-label="Home country"><option value="">— Home country —</option></select>
-            </div>
-            <div class="trip-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </div>
-            <div class="form-field">
-              <label for="trip-to">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                Traveling to
-              </label>
-              <select id="trip-to" aria-label="Destination country"><option value="">— Destination —</option></select>
-            </div>
-          </div>
-          <button id="trip-btn" class="btn-cta btn-check" type="button">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="17" height="17" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            Show me the differences
-          </button>
-        </div>
-        <div id="trip-result" aria-live="polite" aria-atomic="true"></div>
-        </div>
       </div>
     </div><!-- /view-compare -->
 
@@ -369,6 +373,7 @@
     <!-- ── VIEW: QUIZ ────────────────────────────────────────── -->
     <div id="view-quiz" class="view">
       <div class="inner-view-wrap">
+        <p class="view-back"><a href="#/guide">← Back to Country Guide</a></p>
         <div class="inner-view-hero">
           <div class="view-icon-wrap" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>

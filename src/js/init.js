@@ -20,10 +20,13 @@
     compareC3        = document.getElementById('compare-c3');
     compareBtn       = document.getElementById('compare-btn');
     compareResult    = document.getElementById('compare-result');
-    tripFromEl       = document.getElementById('trip-from');
-    tripToEl         = document.getElementById('trip-to');
-    tripBtn          = document.getElementById('trip-btn');
-    tripResult       = document.getElementById('trip-result');
+    briefFromEl      = document.getElementById('brief-from');
+    briefToEl        = document.getElementById('brief-to');
+    briefMonthEl     = document.getElementById('brief-month');
+    briefContextsEl  = document.getElementById('brief-contexts');
+    briefBtn         = document.getElementById('brief-btn');
+    briefResult      = document.getElementById('brief-result');
+    briefSavedEl     = document.getElementById('brief-saved');
     quizSetup        = document.getElementById('quiz-setup');
     quizCountryEl    = document.getElementById('quiz-country');
     quizStartBtn     = document.getElementById('quiz-start-btn');
@@ -55,7 +58,9 @@
     guideBtnEl.addEventListener('click', handleGuideGenerate);
     quizStartBtn.addEventListener('click', handleQuizStart);
     compareBtn.addEventListener('click', handleCompare);
-    tripBtn.addEventListener('click', handleTrip);
+    briefBtn.addEventListener('click', function () { handleBrief(); });
+    briefResult.addEventListener('click', onBriefResultClick);
+    briefSavedEl.addEventListener('click', onBriefSavedClick);
     compareGestureEl.addEventListener('keydown', function (e) { if (e.key === 'Enter') handleCompare(); });
     document.getElementById('clear-history-btn').addEventListener('click', clearHistory);
 
@@ -110,14 +115,16 @@
   // ═══════════════════════════════════════════════════════════════════════
   // VIEW ROUTER
   // ═══════════════════════════════════════════════════════════════════════
-  // Routes: #/check  #/compare  #/compare/trip  #/guide  #/quiz  #/history
-  // Old links (#/trip, #/community) are mapped onto their new homes.
-  var ROUTE_VIEWS = ['check', 'compare', 'guide', 'quiz', 'history'];
+  // Routes: #/check  #/trip  #/compare  #/guide  #/quiz  #/history
+  // Old links (#/compare/trip, #/community) are mapped onto their new homes.
+  // Quiz has no tab of its own; it is reached from Guide and highlights it.
+  var ROUTE_VIEWS = ['check', 'trip', 'compare', 'guide', 'quiz', 'history'];
+  var TAB_FOR_VIEW = { quiz: 'guide' };
 
   function parseRoute() {
     var parts = (location.hash || '').replace(/^#\/?/, '').split('/');
     var view = parts[0] || 'check', sub = parts[1] || '';
-    if (view === 'trip') { view = 'compare'; sub = 'trip'; }
+    if (view === 'compare' && sub === 'trip') { view = 'trip'; sub = ''; }
     if (view === 'community') { view = 'check'; sub = 'accuracy'; }
     if (ROUTE_VIEWS.indexOf(view) === -1) { view = 'check'; sub = ''; }
     return { view: view, sub: sub };
@@ -137,10 +144,6 @@
     document.querySelectorAll('.nav-tab').forEach(function (tab) {
       tab.addEventListener('click', function () { navigate(tab.dataset.view); });
     });
-    var segAcross = document.getElementById('seg-across');
-    var segTrip = document.getElementById('seg-trip');
-    if (segAcross) segAcross.addEventListener('click', function () { navigate('compare'); });
-    if (segTrip) segTrip.addEventListener('click', function () { navigate('compare', 'trip'); });
     window.addEventListener('hashchange', applyRoute);
     applyRoute();
   }
@@ -158,20 +161,12 @@
     var el = document.getElementById('view-' + view);
     if (el) el.classList.add('view-active');
 
-    var tab = document.querySelector('.nav-tab[data-view="' + view + '"]');
+    var tab = document.querySelector('.nav-tab[data-view="' + (TAB_FOR_VIEW[view] || view) + '"]');
     if (tab) { tab.classList.add('nav-active'); tab.setAttribute('aria-current', 'page'); }
-
-    if (view === 'compare') {
-      var trip = sub === 'trip';
-      [['seg-across', 'cmp-panel-across', !trip], ['seg-trip', 'cmp-panel-trip', trip]].forEach(function (row) {
-        var btn = document.getElementById(row[0]), panel = document.getElementById(row[1]);
-        if (btn) { btn.setAttribute('aria-selected', row[2] ? 'true' : 'false'); btn.tabIndex = row[2] ? 0 : -1; }
-        if (panel) panel.hidden = !row[2];
-      });
-    }
 
     if (view === 'history') renderHistoryView();
     if (view === 'guide') renderPacksStrip();
+    if (view === 'trip') renderBriefSaved();
 
     var anchor = view === 'check' && sub === 'accuracy' ? document.getElementById('accuracy') : null;
     if (anchor) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -315,7 +310,7 @@
     var home = getHome();
     if (!home) return;
     if (compareC1 && !compareC1.value) compareC1.value = home;
-    if (tripFromEl && !tripFromEl.value) tripFromEl.value = home;
+    if (briefFromEl && !briefFromEl.value) briefFromEl.value = home;
   }
 
   function populateAllSelects() {
@@ -325,8 +320,7 @@
     populateSelectWithCountries(compareC1);
     populateSelectWithCountries(compareC2);
     populateSelectWithCountries(compareC3);
-    populateSelectWithCountries(tripFromEl);
-    populateSelectWithCountries(tripToEl);
+    populateBriefControls();
     var homeSel = document.getElementById('home-select');
     if (homeSel) populateSelectWithCountries(homeSel);
   }
