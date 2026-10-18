@@ -92,6 +92,10 @@
 
     addShareButton(gesture, country, context, data.verdict_label);
     addReportControls(gesture, country, context, data.verdict, data.verdict_label);
+    // Keep the disclaimer as the card's last line, below the actions.
+    var card = resultArea.querySelector('.result-card');
+    var note = card && card.querySelector(':scope > .result-footnote');
+    if (note) card.appendChild(note);
 
     if (fromCache && cacheTs) {
       cachedBannerText.textContent = 'Cached result from ' + timeAgo(cacheTs) + ' — you\'re offline or it\'s saved locally.';

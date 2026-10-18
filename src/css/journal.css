@@ -198,6 +198,13 @@ fieldset.form-field legend { font-size: 0.875rem; font-weight: 600; color: var(-
 .error-icon { color: var(--rude); display: flex; justify-content: center; }
 .retry-btn { border: 1px solid var(--field-border); box-shadow: none; }
 .retry-btn:hover { transform: none; }
+.share-row { margin: 0; padding: 1rem 1.25rem; border-top: 1px solid var(--line); }
+.accuracy-bar { padding: 1rem 1.25rem; border-top: 1px solid var(--line); }
+.result-footnote {
+  margin-top: 0; padding: 0.85rem 1.25rem; border-top: 1px solid var(--line);
+  background: none; font-size: 0.8125rem; color: var(--ink-faint);
+}
+.card-body + .result-footnote { margin-top: 0.25rem; }
 .acc-btn, .share-btn { border: 1px solid var(--field-border); border-radius: 8px; min-height: 40px; box-shadow: none; }
 .acc-btn:hover, .share-btn:hover { transform: none; }
 .chip-enter { animation: none; }
