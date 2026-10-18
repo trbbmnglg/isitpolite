@@ -49,7 +49,16 @@ Hash routes: `#/check`, `#/compare`, `#/compare/trip`, `#/guide`, `#/quiz`, `#/h
 3. Modals need nothing extra: `initModalA11y()` in `src/js/init.js` handles scroll lock, focus in and out, Escape, backdrop click and the Tab trap for any `.modal-overlay`.
 4. No emoji in UI. Use the inline SVG icons.
 
+## Dark mode
+
+Automatic from the system setting (`prefers-color-scheme: dark`); there is no manual toggle. The dark palette is a second token block in `src/css/base.css`, and the page also sets `color-scheme: light dark` and a dark `theme-color`. Components only reference tokens, so the few exceptions live at the end of `journal.css`.
+
+Rules that keep it working: use `--teal-solid` (not `--teal`) for fills that carry white text, `--inverse-bg` / `--inverse-fg` for the dark-on-light pill, and `--terracotta-text` for terracotta used as text. All dark pairs were computed to pass AA (text 4.5:1, UI 3:1).
+
+## Premium artifacts
+
+The PNG/PDF templates in `src/_templates.js` use the same palette, Fraunces and Inter (Noto Sans JP/Arabic/SC remain as fallbacks for non-Latin phrases), solid teal headers, dotted dividers and a stamp-style certificate grade. They are always light, since they are meant to be printed or shared.
+
 ## Not done yet
 
-- Dark mode (the tokens make it a swap, but it needs a visual pass and the app has some hardcoded light values).
-- Restyling the server-rendered premium PNG/PDF artifacts in `src/_templates.js`, and regenerating `og-image.png` and the app icons.
+- A manual light/dark toggle.
