@@ -172,19 +172,8 @@ export function validateScenario(d) {
 }
 
 // ── 4. Etiquette Certificate ─────────────────────────────────────────────────
-// Server re-derives the pass gate from the submitted answers — never trusts
-// a client-supplied "passed" flag.
-export function verifyQuizPass(answers, questions) {
-  // answers: array of 0-based selected indices; questions: array from the quiz result
-  if (!Array.isArray(answers) || !Array.isArray(questions)) return false;
-  if (answers.length !== questions.length) return false;
-  let correct = 0;
-  for (let i = 0; i < questions.length; i++) {
-    if (answers[i] === questions[i].correct) correct++;
-  }
-  return correct >= 4; // 4/5 pass threshold
-}
-
+// The pass gate lives in /api/generate: it re-scores the answers against the
+// signed quiz token (src/_quiztoken.js), and country/score here come from that.
 export async function buildCertificate(env, params) {
   const { country, score, totalQuestions, recipientName } = params;
   if (!country) throw new Error('missing_country');

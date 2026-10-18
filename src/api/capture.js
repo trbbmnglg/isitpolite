@@ -75,12 +75,18 @@ export async function onRequestPost(context) {
   }
 
   const captured = await captureRes.json();
-  if (captured.status !== 'COMPLETED') {
-    return json({ error: 'Payment not completed. Status: ' + (captured.status || 'unknown') }, 402);
+  // The ORDER can be COMPLETED while the money itself is still under review, so
+  // decide on the CAPTURE status: COMPLETED → active credits; PENDING → a code
+  // whose credits switch on when PayPal's PAYMENT.CAPTURE.COMPLETED webhook arrives.
+  const cap = captured.purchase_units?.[0]?.payments?.captures?.[0];
+  const capStatus = cap && cap.status;
+  if (captured.status !== 'COMPLETED' || (capStatus !== 'COMPLETED' && capStatus !== 'PENDING')) {
+    return json({ error: 'Payment not completed. Status: ' + (capStatus || captured.status || 'unknown') }, 402);
   }
+  const licenseStatus = capStatus === 'COMPLETED' ? 'active' : 'pending';
 
   // Extract the opaque capture id (no buyer PII in this field).
-  const captureId = captured.purchase_units?.[0]?.payments?.captures?.[0]?.id || orderID;
+  const captureId = (cap && cap.id) || orderID;
 
   // ── Read tier from the captured order (server-trusted, never from the client) ──
   const customId = captured.purchase_units?.[0]?.custom_id || '';
@@ -114,8 +120,8 @@ export async function onRequestPost(context) {
     } else {
       code = newUnlockCode();
       await env.DB.prepare(
-        'INSERT OR IGNORE INTO licenses (code, credits_total, credits_used, search_total, search_used, gen_total, gen_used, order_ref, created_day) VALUES (?, 0, 0, ?, 0, ?, 0, ?, ?)'
-      ).bind(code, tier.search, tier.gen, captureId, today()).run();
+        'INSERT OR IGNORE INTO licenses (code, credits_total, credits_used, search_total, search_used, gen_total, gen_used, order_ref, created_day, status) VALUES (?, 0, 0, ?, 0, ?, 0, ?, ?, ?)'
+      ).bind(code, tier.search, tier.gen, captureId, today(), licenseStatus).run();
 
       // If the INSERT lost a race, read back the winner.
       const check = await env.DB.prepare('SELECT code FROM licenses WHERE order_ref = ?').bind(captureId).first();
@@ -135,12 +141,21 @@ export async function onRequestPost(context) {
         <p style="margin:0 0 12px">Thank you for your purchase. Here is your <strong>${tier.label} credit pack</strong> unlock code:</p>
         <div style="font-size:26px;font-weight:700;letter-spacing:0.15em;color:#3730A3;background:#EEF2FF;border-radius:10px;padding:16px 24px;display:inline-block;margin:0 0 16px">${code}</div>
         <p style="color:#6B7280;font-size:13px;margin:0 0 8px">Enter this code on <a href="https://isitpolite.com" style="color:#4F46E5">IsItPolite.com</a> when prompted. Your pack includes <strong>${tier.search} search credits</strong> and <strong>${tier.gen} creation credits</strong>.</p>
+        ${licenseStatus === 'pending' ? '<p style="color:#92400E;font-size:13px;font-weight:600;margin:0 0 8px">PayPal is still reviewing this payment. Your credits switch on automatically once it clears.</p>' : ''}
         <p style="color:#6B7280;font-size:13px;margin:0 0 8px">Credits never expire and are used only after your free daily allowance runs out.</p>
         <p style="color:#E53E3E;font-size:13px;font-weight:600;margin:0 0 16px">Save this code — it is your only receipt. No account is needed.</p>
         <hr style="border:none;border-top:1px solid #E5E7EB;margin:20px 0">
         <p style="color:#9CA3AF;font-size:11px">IsItPolite.com · Cultural intelligence for curious travelers<br>Your code is stored in your browser — save it somewhere safe.</p>
       </div>`,
     }).catch(() => {})); // email is best-effort; code is returned in the response regardless
+  }
+
+  if (licenseStatus === 'pending') {
+    return json({
+      code, pending: true,
+      message: 'Payment received. PayPal is still reviewing it, so your credits will switch on automatically once it clears (usually within minutes, sometimes a day). Your code is saved on this device.',
+      search: { remaining: 0, total: tier.search }, generation: { remaining: 0, total: tier.gen }, remaining: 0, total: tier.gen,
+    });
   }
 
   return json({

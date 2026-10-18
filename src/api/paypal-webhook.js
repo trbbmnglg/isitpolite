@@ -1,13 +1,15 @@
-﻿// POST /api/paypal-webhook — backstop / reconciliation listener.
-// Verifies the event with PayPal's server-side signature API, then
-// idempotently mints a tiered license if the capture path somehow missed it.
-// PII-FREE: only stores the opaque event id + capture id + coarse day.
-//
-// NOTE: the capture endpoint is primary — the webhook only runs if capture failed.
-// The tier is derived from the event's custom_id (set at order creation) so no
-// client value is ever trusted.
-import { json, today, sendEmail, newUnlockCode, paypalBase } from '../_shared.js';
-import { tierById } from '../_credits.js';
+﻿// POST /api/paypal-webhook — keeps unlock codes in step with PayPal.
+// Verifies each event with PayPal's server-side signature API, then:
+//   PAYMENT.CAPTURE.COMPLETED                    → activate a pending code, or mint one
+//                                                  if /api/capture never got to (backstop)
+//   PAYMENT.CAPTURE.DENIED / REVERSED / REFUNDED → revoke the code's credits
+// An event is recorded as processed only AFTER it succeeds, so a failure is
+// retried by PayPal instead of being silently skipped.
+// PII-FREE: only the opaque event id, capture id and coarse day are stored.
+import { json, today, newUnlockCode, paypalBase } from '../_shared.js';
+import { tierById, TIER_CURRENCY } from '../_credits.js';
+
+const REVOKE_EVENTS = ['PAYMENT.CAPTURE.DENIED', 'PAYMENT.CAPTURE.REVERSED', 'PAYMENT.CAPTURE.REFUNDED'];
 
 async function getAccessToken(env) {
   const base = paypalBase(env);
@@ -23,11 +25,9 @@ async function getAccessToken(env) {
 }
 
 async function verifyWebhook(env, request, rawBody) {
-  // PayPal uses a server-side verification API instead of a shared HMAC secret.
   const base = paypalBase(env);
   let token;
   try { token = await getAccessToken(env); } catch (_) { return false; }
-
   const verify = await fetch(`${base}/v1/notifications/verify-webhook-signature`, {
     method: 'POST',
     headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
@@ -41,10 +41,33 @@ async function verifyWebhook(env, request, rawBody) {
       webhook_event:     JSON.parse(rawBody),
     }),
   }).catch(() => null);
-
   if (!verify || !verify.ok) return false;
   const result = await verify.json().catch(() => ({}));
   return result.verification_status === 'SUCCESS';
+}
+
+// Capture events carry the capture as `resource`; refund events carry the refund
+// and link back to the capture with rel="up".
+export function captureIdOf(event) {
+  const r = (event && event.resource) || {};
+  if (event.event_type === 'PAYMENT.CAPTURE.REFUNDED') {
+    const up = (r.links || []).find((l) => l && l.rel === 'up' && /\/captures\/([A-Z0-9]+)/.test(l.href || ''));
+    return up ? up.href.match(/\/captures\/([A-Z0-9]+)/)[1] : '';
+  }
+  return String(r.id || '');
+}
+
+// Pure decision for an event, given whether a code already exists for the capture.
+export function planWebhook(event, existing) {
+  const type = String(event.event_type || '');
+  if (REVOKE_EVENTS.indexOf(type) !== -1) return existing ? { action: 'revoke' } : { action: 'none' };
+  if (type !== 'PAYMENT.CAPTURE.COMPLETED') return { action: 'none' };
+  if (existing) return existing.status === 'pending' ? { action: 'activate' } : { action: 'none' };
+  const r = event.resource || {};
+  const tier = tierById(r.custom_id || '');
+  if (!tier) return { action: 'none' };
+  if (!r.amount || r.amount.value !== tier.price || r.amount.currency_code !== TIER_CURRENCY) return { action: 'none', reason: 'amount_mismatch' };
+  return { action: 'mint', tier: tier };
 }
 
 export function onRequestGet() {
@@ -53,72 +76,44 @@ export function onRequestGet() {
 
 export async function onRequestPost(context) {
   const { request, env } = context;
-
-  // Read raw body BEFORE json() — needed for signature verification.
   const rawBody = await request.text().catch(() => '');
-  if (!rawBody) return new Response('', { status: 200 }); // ack empty body
+  if (!rawBody) return new Response('', { status: 200 });
 
-  // Verify signature.
   const valid = await verifyWebhook(env, request, rawBody).catch(() => false);
-  if (!valid) {
-    return new Response('', { status: 400 }); // tell PayPal to retry (don't 200 bad sigs)
-  }
+  if (!valid) return new Response('', { status: 400 }); // PayPal retries; never 200 a bad signature
 
   let event;
   try { event = JSON.parse(rawBody); } catch (_) { return new Response('', { status: 200 }); }
+  const eventId = String(event.id || '').slice(0, 64);
 
-  const eventId   = String(event.id   || '').slice(0, 64);
-  const eventType = String(event.event_type || '');
-
-  if (eventType !== 'PAYMENT.CAPTURE.COMPLETED') {
-    return new Response('', { status: 200 }); // not interested, ack and move on
-  }
-
-  // Idempotency check on event_id.
   try {
-    const alreadyProcessed = await env.DB.prepare(
-      'SELECT 1 FROM webhook_events WHERE event_id = ?'
-    ).bind(eventId).first();
-    if (alreadyProcessed) return new Response('', { status: 200 }); // replay — already handled
-
-    await env.DB.prepare(
-      'INSERT OR IGNORE INTO webhook_events (event_id, created_day) VALUES (?, ?)'
-    ).bind(eventId, today()).run();
-  } catch (_) {
-    return new Response('', { status: 500 });
-  }
-
-  // Extract capture id (opaque, no buyer PII).
-  const captureId = event.resource?.id || '';
-  if (!captureId) return new Response('', { status: 200 });
-
-  // Read tier from the captured event's custom_id.
-  // If absent/unrecognisable, ack without minting — the capture endpoint already
-  // handled it or the event is from a pre-tier order.
-  const customId = event.resource?.custom_id || '';
-  const tier = tierById(customId);
-
-  // Idempotent mint — only if the capture endpoint didn't already create it.
-  try {
-    const existing = await env.DB.prepare(
-      'SELECT code FROM licenses WHERE order_ref = ?'
-    ).bind(captureId).first();
-
-    if (!existing) {
-      if (tier) {
-        // New tiered mint.
-        const code = newUnlockCode();
-        await env.DB.prepare(
-          'INSERT OR IGNORE INTO licenses (code, credits_total, credits_used, search_total, search_used, gen_total, gen_used, order_ref, created_day) VALUES (?, 0, 0, ?, 0, ?, 0, ?, ?)'
-        ).bind(code, tier.search, tier.gen, captureId, today()).run();
-      }
-      // If tier is null (legacy pre-tier order), ack without minting.
-      // The capture endpoint is primary; the webhook is a backstop only.
+    if (eventId) {
+      const seen = await env.DB.prepare('SELECT 1 FROM webhook_events WHERE event_id = ?').bind(eventId).first();
+      if (seen) return new Response('', { status: 200 }); // replay
     }
-    // If it already exists, nothing to do — code was minted by /api/capture.
-  } catch (_) {
-    return new Response('', { status: 500 });
-  }
 
+    const captureId = captureIdOf(event);
+    if (captureId) {
+      const existing = await env.DB.prepare('SELECT code, status FROM licenses WHERE order_ref = ?').bind(captureId).first();
+      const plan = planWebhook(event, existing);
+      if (plan.action === 'activate') {
+        await env.DB.prepare("UPDATE licenses SET status = 'active' WHERE order_ref = ? AND status = 'pending'").bind(captureId).run();
+      } else if (plan.action === 'revoke') {
+        await env.DB.prepare("UPDATE licenses SET status = 'revoked' WHERE order_ref = ?").bind(captureId).run();
+      } else if (plan.action === 'mint') {
+        await env.DB.prepare(
+          "INSERT OR IGNORE INTO licenses (code, credits_total, credits_used, search_total, search_used, gen_total, gen_used, order_ref, created_day, status) VALUES (?, 0, 0, ?, 0, ?, 0, ?, ?, 'active')"
+        ).bind(newUnlockCode(), plan.tier.search, plan.tier.gen, captureId, today()).run();
+      } else if (plan.reason) {
+        console.error('paypal-webhook: not minting', plan.reason, 'capture', captureId);
+      }
+    }
+
+    if (eventId) {
+      await env.DB.prepare('INSERT OR IGNORE INTO webhook_events (event_id, created_day) VALUES (?, ?)').bind(eventId, today()).run();
+    }
+  } catch (_) {
+    return new Response('', { status: 500 }); // not recorded → PayPal retries
+  }
   return new Response('', { status: 200 });
 }

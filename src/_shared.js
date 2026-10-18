@@ -3,8 +3,6 @@
 
 const ALLOWED_HOSTS = ['isitpolite.com', 'www.isitpolite.com', 'isitpolite.pages.dev', 'isitpolite.web-rbbjr.workers.dev'];
 
-export const OWNER_EMAIL = 'owner@example.invalid';
-
 // The five /api/lookup modes — single source of truth for validation + usage stats.
 export const LOOKUP_MODE_NAMES = ['check', 'compare', 'trip', 'guide', 'quiz', 'brief'];
 
@@ -50,7 +48,9 @@ export async function sendEmail(env, opts) {
   if (!env.RESEND_API_KEY) return { skipped: true };
   try {
     const body = {
-      from: opts.from || 'IsItPolite <onboarding@resend.dev>',
+      // RESEND_FROM must be an address on a domain verified in Resend; the
+      // onboarding@resend.dev fallback only delivers to the Resend account owner.
+      from: opts.from || env.RESEND_FROM || 'IsItPolite <onboarding@resend.dev>',
       to: Array.isArray(opts.to) ? opts.to : [opts.to],
       subject: opts.subject,
       html: opts.html,

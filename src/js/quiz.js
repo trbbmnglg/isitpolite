@@ -26,7 +26,7 @@
 
 
   function initQuiz(data, country) {
-    quizState = { questions: data.questions || [], current: 0, score: 0, country: country, answers: [] };
+    quizState = { questions: data.questions || [], current: 0, score: 0, country: country, answers: [], token: data.quizToken || '' };
     if (quizState.questions.length === 0) {
       quizArea.innerHTML = '<div class="error-card" role="alert"><p class="error-message">No questions were generated. Please try again.</p></div>';
       return;
@@ -153,15 +153,14 @@
 
     // Premium CTA — certificate for passing score (≥4/5).
     // Also add Scenario Coach button.
-    if (score >= 4) {
+    // The server re-scores the picks against the signed token, so no token, no certificate.
+    if (score >= 4 && quizState.token) {
       var scoreCard = quizArea.querySelector('.quiz-score-card');
       if (scoreCard) {
         addPremiumButton(scoreCard, 'Download Etiquette Certificate', 'certificate', {
           country: quizState.country,
-          score: score,
-          totalQuestions: total,
           answers: quizState.answers.map(function (a) { return a.selected; }),
-          questions: quizState.questions,
+          quizToken: quizState.token,
         });
       }
     }

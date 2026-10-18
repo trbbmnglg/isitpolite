@@ -147,7 +147,10 @@
     if (!list.length) {
       return '<div class="card-section"><h3>Sources</h3><p class="sources-none">No web source directly backed this answer, so treat it with extra care.</p></div>';
     }
-    return '<div class="card-section"><h3>Sources</h3><ol class="seo-source-list numbered">' + list.map(function (s, i) {
+    var forumOnly = list.every(function (s) { return s.kind === 'community'; });
+    return '<div class="card-section"><h3>Sources</h3>' +
+      (forumOnly ? '<p class="sources-none">Only traveler discussions backed this answer, not a guide or official source, so treat it as a lead and check locally.</p>' : '') +
+      '<ol class="seo-source-list numbered">' + list.map(function (s, i) {
       var host = '';
       try { host = new URL(s.url).hostname.replace(/^www\./, ''); } catch (_) {}
       var forum = s.kind === 'community';

@@ -27,6 +27,11 @@ function fakeDB(opts = {}) {
       if (bucket.startsWith('lookup:')) return { count: opts.burstCount || 0 };
       return { count: 0 }; // free daily allowance untouched
     }
+    // Atomic increment-and-read: returns the count after this request.
+    if (sql.startsWith('INSERT INTO rate')) {
+      const bucket = String(args[0] || '');
+      return { count: (bucket.startsWith('lookup:') ? (opts.burstCount || 0) : 0) + 1 };
+    }
     if (sql.includes('INTO usage_daily') && opts.usageFails) throw new Error('D1 unavailable');
     if (op === 'all') return { results: opts.rows ? opts.rows(sql) : [] };
     return op === 'run' ? { meta: { changes: 1 } } : null;

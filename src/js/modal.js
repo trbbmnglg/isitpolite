@@ -129,6 +129,12 @@
                 }).then(function (r) { return r.json(); }).then(function (d) {
                   if (d.error) { showPremiumError('premium-pay-error', d.error); return; }
                   setUnlockCode(d.code);
+                  if (d.pending) {
+                    // Paid, but PayPal is still reviewing: keep the code, explain, don't unlock yet.
+                    showPremiumError('premium-pay-error', d.message + ' Your code: ' + d.code);
+                    refreshAllBadges();
+                    return;
+                  }
                   // Show the "save your code" notice (it's the only receipt).
                   var saveNotice = document.getElementById('premium-save-notice');
                   if (saveNotice) saveNotice.classList.remove('hidden');

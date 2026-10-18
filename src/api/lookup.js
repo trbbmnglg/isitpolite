@@ -6,6 +6,7 @@ import { recordAnswered } from '../_usage.js';
 import { isCountry, CONTEXT_LABELS } from '../_countries.js';
 import { matchReviewed, instantAnswer } from '../_reviewed-match.js';
 import { recordEvent } from '../_events.js';
+import { signQuiz } from '../_quiztoken.js';
 
 export function onRequestGet() {
   return json({ error: 'Method not allowed.' }, 405);
@@ -106,6 +107,9 @@ export async function onRequestPost(context) {
   // ── 5. Run the lookup agent ───────────────────────────────────────────────
   try {
     const data = await runLookupAgent(env, mode, params);
+    if (mode === 'quiz' && data && Array.isArray(data.questions)) {
+      data.quizToken = await signQuiz(env, params.country, data.questions).catch(() => '');
+    }
     const res = json(data);
     // Aggregate usage count (day + mode only) — never throws, never blocks.
     recordAnswered(context, mode, res);

@@ -32,6 +32,7 @@ function fakeDB(opts = {}) {
           calls.push({ sql, args: stmt.args });
           if (sql.includes('FROM meta')) return { v: 'salt' };
           if (sql.startsWith('SELECT count FROM rate')) return { count: opts.burst || 0 };
+          if (sql.startsWith('INSERT INTO rate')) return { count: (opts.burst || 0) + 1 };
           return null;
         },
         async run() { calls.push({ sql, args: stmt.args }); return { meta: { changes: 1 } }; },

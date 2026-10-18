@@ -198,6 +198,10 @@ export const LOOKUP_MODES = {
         .replace(/(\[\d\])(?:\s*\1)+/g, '$1');
       const out = Object.assign({}, d, { explanation: explanation, sources: cited });
       delete out.cited;
+      // Forum posts alone (or no source at all) can't carry a "high" — same rule as the static pages.
+      const hasReference = cited.some(function (s) { return s.kind === 'reference'; });
+      if (!hasReference && out.confidence === 'high') out.confidence = 'medium';
+      if (cited.length && !hasReference) out.forum_only = true;
       return out;
     },
   },

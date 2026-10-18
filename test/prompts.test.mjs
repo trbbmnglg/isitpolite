@@ -32,7 +32,23 @@ test('check finalize turns cited numbers into real https sources only', () => {
   const forum = LOOKUP_MODES.check.finalize({ verdict: 'polite', explanation: 'x', also_check: [], cited: [1] }, {}, [{ title: 'r', url: 'https://www.reddit.com/r/japan/x', content: '' }]);
   assert.equal(forum.sources[0].kind, 'community');
   assert.equal('cited' in out, false);
+  assert.equal(out.forum_only, undefined);
   assert.deepEqual(LOOKUP_MODES.check.finalize({ verdict: 'polite', explanation: 'x', also_check: [] }, {}, sources).sources, []);
+});
+
+test('forum-only or unsourced answers are capped below high confidence', () => {
+  const reddit = [{ title: 'r', url: 'https://www.reddit.com/r/japan/x', content: '' }];
+  const forum = LOOKUP_MODES.check.finalize({ verdict: 'polite', confidence: 'high', explanation: 'x [1].', also_check: [], cited: [1] }, {}, reddit);
+  assert.equal(forum.confidence, 'medium');
+  assert.equal(forum.forum_only, true);
+  const none = LOOKUP_MODES.check.finalize({ verdict: 'polite', confidence: 'high', explanation: 'x', also_check: [], cited: [] }, {}, reddit);
+  assert.equal(none.confidence, 'medium');
+  assert.equal(none.forum_only, undefined);
+  const mixed = LOOKUP_MODES.check.finalize({ verdict: 'polite', confidence: 'high', explanation: 'x [1] [2].', also_check: [], cited: [1, 2] },
+    {}, reddit.concat([{ title: 'g', url: 'https://www.japan.travel/en/guide/x', content: '' }]));
+  assert.equal(mixed.confidence, 'high');
+  const low = LOOKUP_MODES.check.finalize({ verdict: 'polite', confidence: 'low', explanation: 'x', also_check: [] }, {}, []);
+  assert.equal(low.confidence, 'low');
 });
 
 test('citation markers are renumbered to the final source list; unknown ones are dropped', () => {

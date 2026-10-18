@@ -30,7 +30,8 @@ CREATE TABLE IF NOT EXISTS feedback (
   created_day TEXT NOT NULL
 );
 
--- Internal config (e.g. the random rate-limit salt). No user data.
+-- Internal config. No user data. (Production keeps the rate-limit salt in the
+-- RL_SALT Worker secret; an 'rl_salt' row here is only a local-dev fallback.)
 CREATE TABLE IF NOT EXISTS meta (k TEXT PRIMARY KEY, v TEXT);
 
 -- Rate-limit buckets. Stores ONLY name:SHA256(ip+secret_salt):window — an
@@ -70,6 +71,7 @@ CREATE TABLE IF NOT EXISTS licenses (
   gen_total     INTEGER NOT NULL DEFAULT 0,   -- paid generation credits granted by pack
   gen_used      INTEGER NOT NULL DEFAULT 0,
   order_ref     TEXT UNIQUE,                  -- PayPal capture id — idempotency key only (no PII)
+  status        TEXT NOT NULL DEFAULT 'active', -- active | pending (PayPal review) | revoked (refund/reversal)
   created_day   TEXT NOT NULL                 -- YYYY-MM-DD (coarse, non-identifying)
 );
 CREATE INDEX IF NOT EXISTS idx_licenses_order ON licenses(order_ref);

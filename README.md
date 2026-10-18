@@ -48,7 +48,7 @@ A lone report — or a troll that slips the moderation filter — **never** flip
 | Lookup endpoint | `POST /api/lookup` (mode-based) | `src/api/lookup.js` |
 | Reports / feedback / accuracy / community | Worker routes + D1 | `src/api/*.js` |
 | Community DB | Cloudflare D1 (SQLite) — verdicts, reports, feedback (PII-free by design) | `schema.sql` |
-| Rate limiting | D1 fixed-window, salted-hash of IP (never stored) | `src/_shared.js` |
+| Rate limiting | D1 fixed-window, atomic upsert; salted hash of IP (never stored), salt in the `RL_SALT` secret | `src/_rate.js` |
 | Email | Resend REST (owner notifications) | `src/_shared.js` |
 | Programmatic SEO | Build script → static `/etiquette/**` pages + sitemap | `build-seo.mjs` · `seo/` |
 | Offline / install | Service worker (network-first) + PWA manifest | `sw.js` · `manifest.json` |

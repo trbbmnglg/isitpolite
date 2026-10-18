@@ -1,5 +1,5 @@
-﻿import { originAllowed, json, vkeyOf, today, accuracyOf, sendEmail, escHtml, OWNER_EMAIL } from '../_shared.js';
-import { rateLimit } from '../_rate.js';
+﻿import { originAllowed, json, vkeyOf, today, accuracyOf, sendEmail, escHtml } from '../_shared.js';
+import { rateLimit, dailyAllowance, sha256hex } from '../_rate.js';
 import { runReportAgent } from '../_agent.js';
 
 const CORROBORATION_THRESHOLD = 3;   // accepted disputes needed before accuracy moves
@@ -37,6 +37,14 @@ export async function onRequestPost(context) {
   const vkey = vkeyOf(gesture, country, context_);
   const now = Date.now();
   const day = today();
+
+  // One vote (confirm or dispute) per visitor per verdict per day, so a single
+  // person can't stuff the count. Keyed by the salted IP token + a hash of the
+  // verdict key; nothing identifying is stored.
+  const vote = await dailyAllowance(env, ip, 'vote:' + (await sha256hex(vkey)).slice(0, 16), 1);
+  if (!vote.allowed) {
+    try { return await respondAccuracy(env, vkey, 'already_counted'); } catch (_) { return json({ ok: true, status: 'already_counted' }); }
+  }
 
   // Ensure the verdict row exists.
   try {
@@ -118,8 +126,8 @@ export async function onRequestPost(context) {
   const statusLine = promoted
     ? 'Corroborated — now counts toward the verdict\'s accuracy.'
     : 'Pending corroboration (' + pendingCount + '/' + CORROBORATION_THRESHOLD + ' independent reports).';
-  context.waitUntil(sendEmail(env, {
-    to: OWNER_EMAIL,
+  if (env.OWNER_EMAIL) context.waitUntil(sendEmail(env, {
+    to: String(env.OWNER_EMAIL).trim(),
     subject: 'IsItPolite report: "' + gesture.replace(/[\r\n]+/g, ' ') + '" in ' + country.replace(/[\r\n]+/g, ' ') + (promoted ? ' (now corroborated)' : ''),
     html:
       '<div style="font-family:Arial,Helvetica,sans-serif;max-width:560px">' +

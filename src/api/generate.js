@@ -8,9 +8,10 @@ import {
   buildInfographic, validateInfographic,
   buildDossier, validateDossier,
   buildScenario, validateScenario,
-  buildCertificate, validateCertificate, verifyQuizPass,
+  buildCertificate, validateCertificate,
   buildPhrasebook, validatePhrasebook,
 } from '../_premium.js';
+import { scoreQuiz, quizPassed } from '../_quiztoken.js';
 import {
   infographicHtml, dossierHtml, scenarioHtml, certificateHtml, phrasebookHtml,
 } from '../_templates.js';
@@ -84,7 +85,7 @@ export async function onRequestPost(context) {
     score:          parseInt(body.score)       || 0,
     totalQuestions: parseInt(body.totalQuestions) || 5,
     answers:        Array.isArray(body.answers)   ? body.answers.slice(0, 10) : [],
-    questions:      Array.isArray(body.questions) ? body.questions.slice(0, 10) : [],
+    quizToken:      String(body.quizToken      || '').slice(0, 2400),
     result:         body.result || null,  // pre-computed free-lookup JSON (reused, not re-fetched)
   };
 
@@ -94,9 +95,15 @@ export async function onRequestPost(context) {
     return json({ error: 'Please remove personal information from your scenario before submitting.' }, 400);
   }
 
-  // Certificate server-side pass gate.
-  if (kind === 'certificate' && !verifyQuizPass(params.answers, params.questions)) {
-    return json({ error: 'A passing score (4/5) is required for the certificate.' }, 403);
+  // Certificate server-side pass gate: country and score come from the signed
+  // quiz token, re-scored here — never from the client's own claims.
+  if (kind === 'certificate') {
+    const quiz = await scoreQuiz(env, params.quizToken, params.answers);
+    if (!quiz) return json({ error: 'This quiz has expired. Take it again to get your certificate.' }, 403);
+    if (!quizPassed(quiz)) return json({ error: 'A passing score (4/5) is required for the certificate.' }, 403);
+    params.country = quiz.country;
+    params.score = quiz.score;
+    params.totalQuestions = quiz.total;
   }
 
   // ── 5. Credit gate ─────────────────────────────────────────────────────────

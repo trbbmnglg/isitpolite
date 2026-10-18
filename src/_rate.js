@@ -1,7 +1,7 @@
 // Rate-limiting and Pacific-calendar daily allowance helpers.
 // All helpers are PII-free — only irreversible salted tokens are stored.
 
-async function sha256hex(str) {
+export async function sha256hex(str) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
   return Array.from(new Uint8Array(buf)).map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
 }
@@ -28,8 +28,10 @@ function dailyBucketKey(name, day, token) {
   return name + ':' + day + ':' + token;
 }
 
-// Read the rate-limit salt from D1 (creating it once if absent).
+// The salt lives in a Worker secret (RL_SALT), not in the same database as the
+// hashed tokens. The D1 fallback only exists for local development.
 export async function getRlSalt(env) {
+  if (env.RL_SALT) return env.RL_SALT;
   const row = await env.DB.prepare("SELECT v FROM meta WHERE k = 'rl_salt'").first();
   if (row && row.v) return row.v;
   const salt = crypto.randomUUID() + crypto.randomUUID();
@@ -48,12 +50,12 @@ export async function rateLimit(env, ip, name, limit, windowMs) {
     const token = await sha256hex((ip || 'unknown') + '|' + salt);
     const bucket = name + ':' + token + ':' + win;
 
-    const cur = await env.DB.prepare('SELECT count FROM rate WHERE bucket = ?').bind(bucket).first();
-    if (cur && cur.count >= limit) return false;
-
-    await env.DB.prepare(
-      'INSERT INTO rate (bucket, count, window_start) VALUES (?, 1, ?) ON CONFLICT(bucket) DO UPDATE SET count = count + 1'
-    ).bind(bucket, now).run();
+    // One atomic statement: increment and read back, so concurrent requests
+    // can't all pass a separate read-then-write check.
+    const row = await env.DB.prepare(
+      'INSERT INTO rate (bucket, count, window_start) VALUES (?, 1, ?) ON CONFLICT(bucket) DO UPDATE SET count = count + 1 RETURNING count'
+    ).bind(bucket, now).first();
+    if (row && row.count > limit) return false;
 
     // Opportunistic cleanup — scoped to this name so 24h daily buckets are never
     // wiped by a 60s-window burst cleanup (B1 fix).
@@ -78,13 +80,16 @@ export async function dailyAllowance(env, ip, name, limit) {
     const bucket = dailyBucketKey(name, day, token);
     const now   = Date.now();
 
-    const cur = await env.DB.prepare('SELECT count FROM rate WHERE bucket = ?').bind(bucket).first();
-    const count = (cur && cur.count) ? cur.count : 0;
-    if (count >= limit) return { allowed: false, remaining: 0 };
-
-    await env.DB.prepare(
-      'INSERT INTO rate (bucket, count, window_start) VALUES (?, 1, ?) ON CONFLICT(bucket) DO UPDATE SET count = count + 1'
-    ).bind(bucket, now).run();
+    // Atomic increment-and-read (see rateLimit). Over the limit → undo our
+    // increment so the stored count stays meaningful, and refuse.
+    const row = await env.DB.prepare(
+      'INSERT INTO rate (bucket, count, window_start) VALUES (?, 1, ?) ON CONFLICT(bucket) DO UPDATE SET count = count + 1 RETURNING count'
+    ).bind(bucket, now).first();
+    const count = (row && row.count) ? row.count - 1 : 0;
+    if (count >= limit) {
+      await env.DB.prepare('UPDATE rate SET count = count - 1 WHERE bucket = ? AND count > 0').bind(bucket).run();
+      return { allowed: false, remaining: 0 };
+    }
 
     if (Math.random() < 0.08) {
       try {

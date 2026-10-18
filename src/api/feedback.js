@@ -1,4 +1,4 @@
-﻿import { originAllowed, json, today, sendEmail, escHtml, OWNER_EMAIL } from '../_shared.js';
+import { originAllowed, json, today, sendEmail, escHtml } from '../_shared.js';
 import { rateLimit } from '../_rate.js';
 import { sanitizeFeedback } from '../_agent.js';
 
@@ -46,8 +46,8 @@ export async function onRequestPost(context) {
 
   // Notify the owner by email (anonymized summary only). Fire-and-forget so the
   // user's response isn't delayed by the send.
-  context.waitUntil(sendEmail(env, {
-    to: OWNER_EMAIL,
+  if (env.OWNER_EMAIL) context.waitUntil(sendEmail(env, {
+    to: String(env.OWNER_EMAIL).trim(),
     subject: 'New IsItPolite feedback (' + sentiment + ')',
     html:
       '<div style="font-family:Arial,Helvetica,sans-serif;max-width:520px">' +
