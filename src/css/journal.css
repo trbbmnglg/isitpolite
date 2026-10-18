@@ -264,6 +264,13 @@ ol.seo-source-list.numbered li:target { background: var(--teal-tint); border-rad
 .install-card .btn-cta-sm { min-height: 40px; }
 .install-dismiss { position: absolute; top: 0.4rem; right: 0.4rem; width: 36px; height: 36px; border: 0; background: none; font-size: 1.3rem; color: var(--ink-muted); cursor: pointer; }
 
+/* ── "Etiquette for <demonym>" static pages ─────────────────────────── */
+.brief-item-title { font-family: var(--font-serif); font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; }
+.brief-phrases-title { font-family: var(--font-serif); font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; }
+.seo-origin-list { margin: 1.25rem 0 0; }
+.seo-origin-note { margin-top: 1.5rem; border: 1px solid var(--line); border-radius: 10px; }
+.seo-origin-index { margin-top: 2rem; }
+
 /* ── The one primary action: terracotta ──────────────────────────────── */
 .btn-cta {
   background: var(--terracotta); border: 0; border-radius: 8px; box-shadow: none;

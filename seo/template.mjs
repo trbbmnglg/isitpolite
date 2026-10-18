@@ -4,6 +4,7 @@
 
 import { BASE_URL, SITE_NAME, DONATE_URL, GESTURES, COUNTRIES, CONTEXT_LABELS, countrySlug, gestureSlug } from './seo-data.mjs';
 import { VERDICT_LEGEND, CONFIDENCE_LEGEND } from '../src/_labels.js';
+import { withThe } from '../src/_countries.js';
 
 export function esc(s) {
   return String(s == null ? '' : s)
@@ -28,6 +29,8 @@ const GLOBE = '<svg class="logo-globe" viewBox="0 0 24 24" fill="none" stroke="c
 
 function head(opts) {
   const { title, description, canonical, jsonld } = opts;
+  const ogImage = BASE_URL + (opts.ogImage || '/og-image.png');
+  const ogSize = opts.ogImage ? '\n  <meta property="og:image:width" content="1200" />\n  <meta property="og:image:height" content="630" />' : '';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,11 +49,11 @@ function head(opts) {
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${esc(canonical)}" />
-  <meta property="og:image" content="${BASE_URL}/og-image.png" />
+  <meta property="og:image" content="${esc(ogImage)}" />${ogSize}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
-  <meta name="twitter:image" content="${BASE_URL}/og-image.png" />
+  <meta name="twitter:image" content="${esc(ogImage)}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -224,7 +227,7 @@ export function renderPairPage(pair, rec) {
     });
   }
 
-  return `${head({ title, description, canonical, jsonld })}
+  return `${head({ title, description, canonical, jsonld, ogImage: `/og/${cSlug}/${gSlug}.png` })}
 ${header()}
   <main class="seo-main">
     ${breadcrumbs([
@@ -259,7 +262,7 @@ ${footer()}`;
 }
 
 // ── Country hub: /etiquette/{country}/ ───────────────────────────────────
-export function renderCountryHub(country, records) {
+export function renderCountryHub(country, records, originLinks = []) {
   const cSlug = countrySlug(country);
   const url = `/etiquette/${cSlug}/`;
   const canonical = BASE_URL + url;
@@ -316,7 +319,7 @@ export function renderCountryHub(country, records) {
     },
   ];
 
-  return `${head({ title, description, canonical, jsonld })}
+  return `${head({ title, description, canonical, jsonld, ogImage: `/og/${cSlug}.png` })}
 ${header()}
   <main class="seo-main">
     ${breadcrumbs([
@@ -336,13 +339,14 @@ ${header()}
       <p>Have a specific question about ${esc(country)}?</p>
       <a class="btn-cta" href="/?c=${encodeURIComponent(country)}">Ask it on IsItPolite →</a>
       <p class="seo-quiz-link"><a href="/?quiz=${encodeURIComponent(country)}#/quiz">Take the 5-question ${esc(country)} quiz →</a></p>
+      ${originLinks.map(o => `<p class="seo-quiz-link"><a href="${esc(o.href)}">${esc(o.label)} →</a></p>`).join('')}
     </div>
   </main>
 ${footer()}`;
 }
 
 // ── SEO index: /etiquette/ ───────────────────────────────────────────────
-export function renderSeoIndex(countriesWithCounts) {
+export function renderSeoIndex(countriesWithCounts, originGroups = []) {
   const url = '/etiquette/';
   const canonical = BASE_URL + url;
   const title = `Cultural Etiquette Guides by Country — ${SITE_NAME}`;
@@ -364,6 +368,64 @@ ${header()}
       <p class="seo-hero-sub">Know what's polite before you go. Pick a country to see quick verdicts on the gestures and customs travelers ask about most.</p>
     </div>
     <div class="seo-country-grid">${cards}</div>
+    ${originGroups.map(g => `<section class="seo-origin-index"><h2 class="seo-related-title">Guides for ${esc(g.adjective)} travelers</h2><div class="seo-country-grid">${g.pages.map(pg => `<a class="seo-country-card" href="${esc(pg.href)}"><span class="seo-cc-name">${esc(pg.dest)}</span><span class="seo-cc-count">What changes for ${esc(g.demonym)}</span></a>`).join('')}</div></section>`).join('')}
+  </main>
+${footer()}`;
+}
+
+// ── "Etiquette for <demonym>" page: /etiquette/<slug>/<dest>/ ──────────────
+const SEV_LABEL = { high: 'Most important', medium: 'Worth knowing', low: 'Minor' };
+const SEV_CLASS = { high: 'rude', medium: 'caution', low: 'polite' };
+const TICK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>';
+const CROSS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+
+export function renderOriginPage(page, dest, rec, hasHub) {
+  const dSlug = countrySlug(dest);
+  const url = `/etiquette/${page.slug}/${dSlug}/`;
+  const canonical = BASE_URL + url;
+  const fromThe = withThe(page.origin), destThe = withThe(dest);
+  const title = `${dest} Etiquette for ${page.demonym}: What's Different From Home — ${SITE_NAME}`;
+  const description = truncate(rec.headline, 155);
+  const items = (rec.watch_outs || []).map(w => {
+    const sev = SEV_CLASS[w.severity] ? w.severity : 'medium';
+    const link = /^\/etiquette\/[a-z0-9-]+\/[a-z0-9-]+\/$/.test(w.link || '') ? w.link : '';
+    return `<li class="brief-item">
+        <div class="brief-item-head"><span class="sev-chip ${SEV_CLASS[sev]}">${SEV_LABEL[sev]}</span><span class="brief-cat">${esc(w.category)}</span></div>
+        <h3 class="brief-item-title">${esc(w.title)}</h3>
+        <dl class="brief-compare"><div><dt>In ${esc(fromThe)}</dt><dd>${esc(w.from_norm)}</dd></div><div><dt>In ${esc(destThe)}</dt><dd>${esc(w.to_norm)}</dd></div></dl>
+        <div class="dd-list dd-do"><p class="dd-head">${TICK}Do</p><p class="dd-text">${esc(w.do)}</p></div>
+        ${w.avoid ? `<div class="dd-list dd-dont"><p class="dd-head">${CROSS}Don't</p><p class="dd-text">${esc(w.avoid)}</p></div>` : ''}
+        ${link ? `<div class="brief-item-foot"><a class="brief-src" href="${esc(link)}">See the reviewed guide and sources →</a></div>` : ''}
+      </li>`;
+  }).join('');
+  const phrases = (rec.phrases || []).filter(p => p.english && p.local);
+  const phrasesHtml = phrases.length ? `<section class="brief-phrases" aria-label="Three phrases to know"><h2 class="brief-phrases-title">Three phrases to know</h2><ul>${phrases.map(p =>
+    `<li><span class="ph-en">${esc(p.english)}</span><span class="ph-local">${esc(p.local)}</span>${p.romanization ? `<span class="ph-rom">${esc(p.romanization)}</span>` : ''}</li>`).join('')}</ul><p class="ph-note">Pronunciation is approximate.</p></section>` : '';
+  const tripUrl = `/?tf=${encodeURIComponent(page.origin)}&tt=${encodeURIComponent(dest)}&tc=general#/trip`;
+  const faqs = (rec.watch_outs || []).slice(0, 3).map(w => ({ q: `${w.title}: what should ${page.demonym} know in ${destThe}?`, a: `${w.to_norm} ${w.do}` }));
+  const trail = [{ name: 'Home', url: '/' }, { name: 'Etiquette', url: '/etiquette/' }, { name: `For ${page.demonym}`, url: '/etiquette/' }, { name: dest, url }];
+  const jsonld = [
+    breadcrumbJsonLd(trail),
+    { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+    { '@context': 'https://schema.org', '@type': 'WebPage', url: canonical, name: title, dateModified: rec.grounded },
+  ];
+  return `${head({ title, description, canonical, jsonld, ogImage: `/og/${page.slug}/${dSlug}.png` })}
+${header()}
+  <main class="seo-main">
+    ${breadcrumbs(trail)}
+    <div class="seo-hero">
+      <p class="seo-kicker">For ${esc(page.adjective)} travelers</p>
+      <h1>${esc(dest)} etiquette for ${esc(page.demonym)}: what's different from home</h1>
+      <p class="seo-hero-sub">${esc(rec.headline)}</p>
+    </div>
+    ${phrasesHtml}
+    <ol class="brief-list seo-origin-list">${items}</ol>
+    <div class="seo-cta">
+      <p>Make it yours: add your dates and plans for a personal briefing you can save for offline use.</p>
+      <a class="btn-cta" href="${esc(tripUrl)}">Get my trip briefing →</a>
+      ${hasHub ? `<p class="seo-quiz-link"><a href="/etiquette/${dSlug}/">All ${esc(dest)} etiquette guides →</a></p>` : ''}
+    </div>
+    <div class="result-footnote seo-origin-note">Drafted by AI from our fact-checked country guides and web sources on <time datetime="${esc(rec.grounded)}">${esc(humanDate(rec.grounded))}</time>, and not yet independently reviewed. Customs vary between people and regions.</div>
   </main>
 ${footer()}`;
 }

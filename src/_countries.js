@@ -58,6 +58,14 @@ export const MONTHS = [
   'July', 'August', 'September', 'October', 'November', 'December',
 ];
 
+// Country names that read with "the" after "in" / "from" ("in the Philippines").
+export const THE_COUNTRIES = ['Bahamas', 'Central African Republic', 'Comoros', 'Czech Republic', 'Dominican Republic', 'Gambia',
+  'Maldives', 'Marshall Islands', 'Netherlands', 'Philippines', 'Solomon Islands', 'United Arab Emirates', 'United Kingdom', 'United States'];
+
+export function withThe(country) {
+  return THE_COUNTRIES.indexOf(country) !== -1 ? 'the ' + country : country;
+}
+
 const COUNTRY_SET = new Set(COUNTRIES);
 
 export function isCountry(name) {

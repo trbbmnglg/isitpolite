@@ -25,11 +25,12 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { createHash } from 'crypto';
 import {
-  BASE_URL, GESTURES, COUNTRIES, CONTEXT_LABELS,
+  BASE_URL, GESTURES, COUNTRIES, CONTEXT_LABELS, ORIGIN_PAGES,
   countrySlug, gestureSlug, allPairs,
 } from './seo/seo-data.mjs';
-import { renderPairPage, renderCountryHub, renderSeoIndex } from './seo/template.mjs';
-import { COUNTRIES as APP_COUNTRIES, CONTEXT_LABELS as APP_CONTEXT_LABELS, MONTHS as APP_MONTHS } from './src/_countries.js';
+import { renderPairPage, renderCountryHub, renderSeoIndex, renderOriginPage } from './seo/template.mjs';
+import { writeOgCard } from './seo/og.mjs';
+import { COUNTRIES as APP_COUNTRIES, CONTEXT_LABELS as APP_CONTEXT_LABELS, MONTHS as APP_MONTHS, THE_COUNTRIES as APP_THE_COUNTRIES, withThe } from './src/_countries.js';
 import { VERDICT_LEGEND, CONFIDENCE_LEGEND } from './src/_labels.js';
 
 const ROOT      = dirname(fileURLToPath(import.meta.url));
@@ -147,6 +148,46 @@ function readCache(cSlug, gSlug) {
   if (!existsSync(p)) return null;
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
+function capitalize(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+
+async function writeOgCards(pairs, records, byCountry, originPages) {
+  const ogDir = join(DIST, 'og');
+  let made = 0, total = 0;
+  for (const p of pairs) {
+    const rec = records.get(`${p.countrySlug}|${p.gestureSlug}`);
+    if (!rec) continue;
+    total++;
+    if (await writeOgCard({
+      kind: 'pair',
+      kicker: `${p.country} · ${CONTEXT_LABELS[p.gesture.context] || p.gesture.context}`,
+      question: `Is ${p.gesture.display.toLowerCase()} polite in ${withThe(p.country)}?`,
+      verdict: String(rec.verdict || 'caution').toLowerCase(),
+      label: rec.verdict_label,
+      confidence: capitalize(String(rec.confidence || '')),
+      note: rec.reviewed ? 'Fact-checked guide' : rec.grounded ? 'Sourced guide' : 'Etiquette guide',
+    }, join(ogDir, p.countrySlug, `${p.gestureSlug}.png`))) made++;
+  }
+  for (const [country, recs] of byCountry) {
+    total++;
+    if (await writeOgCard({
+      kind: 'hub', kicker: 'Cultural etiquette guide',
+      title: `${country} etiquette: what's polite and what's rude`,
+      subtitle: `${recs.length} everyday customs, each with a verdict, a local tip and sources.`,
+      note: recs.some((r) => r.rec.reviewed) ? 'Fact-checked guides' : 'Etiquette guides',
+    }, join(ogDir, `${countrySlug(country)}.png`))) made++;
+  }
+  for (const o of originPages) {
+    total++;
+    if (await writeOgCard({
+      kind: 'origin', kicker: `For ${o.page.adjective} travelers`,
+      title: `${o.dest} etiquette for ${o.page.demonym}`,
+      subtitle: `What's different from home: the ${o.rec.watch_outs.length} things most likely to catch you out.`,
+      note: 'Free trip briefing',
+    }, join(ogDir, o.page.slug, `${countrySlug(o.dest)}.png`))) made++;
+  }
+  console.log(`  preview cards: ${total} (${made} newly rendered)`);
+}
+
 // The Worker grounds trip briefings in the fact-checked records, so emit them
 // as a module it can import. Only reviewed records ship; unreviewed ones don't.
 function writeReviewedModule(pairs, records) {
@@ -206,7 +247,7 @@ function assembleBase() {
   // Concatenate JS source modules into a single IIFE-wrapped dist/app.js.
   const sharedData = `  var COUNTRIES = ${JSON.stringify(APP_COUNTRIES)};\n  var CONTEXT_LABELS = ${JSON.stringify(APP_CONTEXT_LABELS)};\n  var MONTHS = ${JSON.stringify(APP_MONTHS)};\n` +
   `  var VERDICT_LEGEND = ${JSON.stringify(VERDICT_LEGEND)};\n  var CONFIDENCE_LEGEND = ${JSON.stringify(CONFIDENCE_LEGEND)};\n` +
-  `  var GUIDE_COUNTRIES = ${JSON.stringify(COUNTRIES)};\n`;
+  `  var GUIDE_COUNTRIES = ${JSON.stringify(COUNTRIES)};\n  var THE_COUNTRIES = ${JSON.stringify(APP_THE_COUNTRIES)};\n`;
 const jsContent = sharedData + JS_MODULES.map(m => readPart(join(ROOT, 'src/js', m + '.js'))).join('\n');
   writeFileSync(join(DIST, 'app.js'), `(function () {\n  'use strict';\n${jsContent}\n})();\n`);
   console.log(`  built dist/app.js from ${JS_MODULES.length} modules`);
@@ -317,17 +358,34 @@ async function main() {
     byCountry.get(p.country).push({ gesture: p.gesture, rec });
   }
 
+  // "Etiquette for <demonym>" pages from seo-cache/origin/.
+  const originPages = [];
+  for (const page of ORIGIN_PAGES) {
+    for (const dest of page.destinations) {
+      const f = join(CACHE_DIR, 'origin', `${countrySlug(page.origin)}__${countrySlug(dest)}.json`);
+      if (!existsSync(f)) continue;
+      const rec = JSON.parse(readFileSync(f, 'utf8'));
+      writePage(`${page.slug}/${countrySlug(dest)}`, renderOriginPage(page, dest, rec, byCountry.has(dest)));
+      originPages.push({ page, dest, rec, href: `/etiquette/${page.slug}/${countrySlug(dest)}/` });
+    }
+  }
+
   // Country hubs.
   const countriesWithCounts = [];
   for (const [country, recs] of byCountry) {
     recs.sort((a, b) => GESTURES.indexOf(a.gesture) - GESTURES.indexOf(b.gesture));
-    writePage(`${countrySlug(country)}`, renderCountryHub(country, recs));
+    const originLinks = originPages.filter((o) => o.dest === country).map((o) => ({ href: o.href, label: `For ${o.page.adjective} travelers: what's different from home` }));
+    writePage(`${countrySlug(country)}`, renderCountryHub(country, recs, originLinks));
     countriesWithCounts.push({ country, count: recs.length });
   }
   countriesWithCounts.sort((a, b) => COUNTRIES.indexOf(a.country) - COUNTRIES.indexOf(b.country));
 
   // SEO index.
-  writePage('', renderSeoIndex(countriesWithCounts));
+  const originGroups = ORIGIN_PAGES.map((page) => ({ adjective: page.adjective, demonym: page.demonym, pages: originPages.filter((o) => o.page === page) })).filter((g) => g.pages.length);
+  writePage('', renderSeoIndex(countriesWithCounts, originGroups));
+
+  // Link-preview cards (cached in .og-cache by content hash).
+  if (!SAMPLE) await writeOgCards(pairs, records, byCountry, originPages);
 
   // Sitemap → dist/sitemap.xml
   // Entries: [{url, priority, changefreq}] — ordered high-priority first so Googlebot
@@ -339,6 +397,8 @@ async function main() {
   ];
   for (const { country } of countriesWithCounts)
     sitemapEntries.push({ url: `/etiquette/${countrySlug(country)}/`, priority: '0.8', changefreq: 'monthly' });
+  for (const o of originPages)
+    sitemapEntries.push({ url: o.href, priority: '0.8', changefreq: 'monthly', lastmod: o.rec.grounded });
   for (const p of pairs)
     if (records.get(`${p.countrySlug}|${p.gestureSlug}`))
       sitemapEntries.push({ url: `/etiquette/${p.countrySlug}/${p.gestureSlug}/`, priority: '0.7', changefreq: 'monthly', lastmod: records.get(`${p.countrySlug}|${p.gestureSlug}`).reviewed || records.get(`${p.countrySlug}|${p.gestureSlug}`).grounded });
