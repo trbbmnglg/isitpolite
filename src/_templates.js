@@ -4,7 +4,7 @@
 import { escHtml } from './_shared.js';
 
 // ── Brand tokens & shared head ────────────────────────────────────────────────
-const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;700&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap';
+const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Inter:wght@400;500;600&family=Noto+Serif+JP:wght@600;700&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;600&family=Noto+Sans+SC:wght@400;600&display=swap';
 
 function baseHead(title) {
   return `<!DOCTYPE html><html lang="en"><head>
@@ -16,33 +16,35 @@ function baseHead(title) {
 <link href="${FONTS_URL}" rel="stylesheet">
 <style>
   :root {
-    --primary: #4F46E5;
-    --primary-light: #EEF2FF;
-    --primary-dark: #3730A3;
-    --accent: #EA580C;
-    --accent-light: #FFF7ED;
-    --polite: #16A34A;
-    --polite-bg: #DCFCE7;
-    --caution: #D97706;
-    --caution-bg: #FEF3C7;
-    --rude: #DC2626;
-    --rude-bg: #FEE2E2;
-    --text: #1E1B4B;
-    --muted: #6B7280;
-    --bg: #F8F7FF;
+    --primary: #0F766E;
+    --primary-light: #E6F2F0;
+    --primary-dark: #115E59;
+    --accent: #B4532A;
+    --accent-light: #FBF1EA;
+    --polite: #166534;
+    --polite-bg: #ECF5EE;
+    --caution: #92400E;
+    --caution-bg: #FBF3E4;
+    --rude: #9F1239;
+    --rude-bg: #FBECEF;
+    --text: #1C1917;
+    --muted: #57534E;
+    --bg: #FAF7F2;
     --white: #FFFFFF;
-    --radius: 18px;
-    --shadow: 0 8px 32px rgba(79,70,229,0.13);
+    --line: #E7E1D7;
+    --surface-alt: #F3EEE6;
+    --radius: 12px;
+    --shadow: 0 1px 2px rgba(28,25,23,0.06), 0 8px 24px rgba(28,25,23,0.08);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: 'Noto Sans JP', 'Noto Sans Arabic', 'Noto Sans SC', system-ui, sans-serif;
+    font-family: 'Inter', 'Noto Sans JP', 'Noto Sans Arabic', 'Noto Sans SC', system-ui, sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3, .serif { font-family: 'Noto Serif JP', Georgia, serif; }
+  h1, h2, h3, .serif { font-family: 'Fraunces', 'Noto Serif JP', Georgia, serif; }
   .card {
     background: var(--white);
     border-radius: var(--radius);
@@ -59,16 +61,16 @@ function baseHead(title) {
   .chip-primary { background: var(--primary-light); color: var(--primary); }
   .watermark {
     text-align: center; font-size: 11px; color: var(--muted);
-    margin-top: 18px; letter-spacing: 0.04em;
+    margin-top: 18px; padding-top: 14px; border-top: 2px dotted var(--line); letter-spacing: 0.04em;
   }
-  .watermark strong { color: var(--primary); }
+  .watermark strong { color: var(--primary-dark); }
 </style>`;
 }
 
 function verdictChip(verdict) {
   const v = String(verdict || '').toLowerCase();
   const cls = v === 'polite' ? 'chip-polite' : v === 'rude' ? 'chip-rude' : 'chip-caution';
-  const icon = v === 'polite' ? '✓' : v === 'rude' ? '✗' : '⚠';
+  const icon = v === 'polite' ? '✓' : v === 'rude' ? '✗' : '!';
   return `<span class="chip ${escHtml(cls)}">${icon} ${escHtml(v.charAt(0).toUpperCase() + v.slice(1))}</span>`;
 }
 
@@ -86,7 +88,7 @@ export function infographicHtml(data, params) {
 <style>
   body { padding: 32px; max-width: 1100px; margin: 0 auto; }
   .hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: var(--primary-dark);
     border-radius: var(--radius); padding: 36px 40px; margin-bottom: 28px;
     color: var(--white);
   }
@@ -95,13 +97,13 @@ export function infographicHtml(data, params) {
   .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 28px; }
   .contrast-card {
     background: var(--white); border-radius: 14px; padding: 20px;
-    box-shadow: 0 4px 16px rgba(79,70,229,0.09);
+    box-shadow: var(--shadow);
     border-top: 3px solid var(--primary);
   }
   .contrast-card .label { font-size: 11px; font-weight: 700; text-transform: uppercase;
     letter-spacing: 0.07em; color: var(--muted); margin-bottom: 10px; }
   .contrast-card .from { color: var(--muted); font-size: 13px; padding: 7px 10px;
-    background: #F3F4F6; border-radius: 8px; margin-bottom: 8px; }
+    background: var(--surface-alt); border-radius: 8px; margin-bottom: 8px; }
   .contrast-card .to { color: var(--primary-dark); font-size: 13px; font-weight: 600;
     padding: 7px 10px; background: var(--primary-light); border-radius: 8px; }
   .tip-banner {
@@ -127,7 +129,7 @@ export function infographicHtml(data, params) {
   </div>`).join('')}
 </div>
 <div class="tip-banner">
-  <div class="label">✦ Tip of the Day</div>
+  <div class="label">Tip of the day</div>
   <p>${escHtml(data.tip_of_the_day || '')}</p>
 </div>
 ${watermark()}
@@ -139,7 +141,7 @@ ${watermark()}
 <style>
   body { padding: 32px; max-width: 1100px; margin: 0 auto; }
   .hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    background: var(--primary-dark);
     border-radius: var(--radius); padding: 32px 36px; margin-bottom: 24px; color: var(--white);
   }
   .hero h1 { font-size: 26px; margin-bottom: 6px; }
@@ -147,7 +149,7 @@ ${watermark()}
   .countries { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
   .country-card {
     background: var(--white); border-radius: 14px; padding: 20px;
-    box-shadow: 0 4px 16px rgba(79,70,229,0.09);
+    box-shadow: var(--shadow);
   }
   .country-card h3 { font-size: 16px; margin-bottom: 10px; }
   .country-card .note { font-size: 13px; color: var(--muted); margin-top: 8px; }
@@ -171,7 +173,7 @@ ${watermark()}
     <p class="note">${escHtml(c.key_note || '')}</p>
   </div>`).join('')}
 </div>
-<div class="takeaway">💡 ${escHtml(data.key_takeaway || '')}</div>
+<div class="takeaway">${escHtml(data.key_takeaway || '')}</div>
 ${watermark()}
 </body></html>`;
   }
@@ -181,14 +183,14 @@ ${watermark()}
 <style>
   body { padding: 32px; max-width: 1000px; margin: 0 auto; }
   .hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: var(--primary-dark);
     border-radius: var(--radius); padding: 32px 36px; margin-bottom: 24px; color: var(--white);
   }
   .hero h1 { font-size: 26px; margin-bottom: 6px; }
   .sections { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
   .section-card {
     background: var(--white); border-radius: 12px; padding: 18px 20px;
-    box-shadow: 0 4px 12px rgba(79,70,229,0.08);
+    box-shadow: var(--shadow);
   }
   .section-card .cat {
     font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
@@ -215,7 +217,7 @@ ${watermark()}
     <p>${escHtml(s.detail || '')}</p>
   </div>`).join('')}
 </div>
-<div class="dyk">🌟 Did you know? ${escHtml(data.did_you_know || '')}</div>
+<div class="dyk">Did you know? ${escHtml(data.did_you_know || '')}</div>
 ${watermark()}
 </body></html>`;
 }
@@ -227,7 +229,7 @@ export function dossierHtml(data) {
 <style>
   body { padding: 40px; max-width: 860px; margin: 0 auto; background: #fff; }
   .cover {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: var(--primary-dark);
     border-radius: var(--radius); padding: 48px 48px 40px; margin-bottom: 36px; color: var(--white);
     text-align: center;
   }
@@ -242,11 +244,11 @@ export function dossierHtml(data) {
   .cat-title {
     display: flex; align-items: center; gap: 10px;
     font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
-    color: var(--primary); border-bottom: 2px solid var(--primary-light);
+    color: var(--primary); border-bottom: 2px dotted var(--line);
     padding-bottom: 8px; margin-bottom: 12px;
   }
   .tips { list-style: none; padding: 0; }
-  .tips li { padding: 7px 0; font-size: 14px; border-bottom: 1px solid #F3F4F6; }
+  .tips li { padding: 7px 0; font-size: 14px; border-bottom: 1px solid var(--line); }
   .tips li:last-child { border: none; }
   .tips li::before { content: "→"; color: var(--primary); margin-right: 8px; font-weight: 700; }
   .phrases {
@@ -255,7 +257,7 @@ export function dossierHtml(data) {
   }
   .phrase-row {
     display: grid; grid-template-columns: 1.2fr 1fr 1fr;
-    gap: 10px; padding: 10px 0; border-bottom: 1px solid #F3F4F6; font-size: 13px;
+    gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 13px;
   }
   .phrase-row:last-child { border: none; }
   .phrase-local { font-weight: 700; color: var(--primary-dark); }
@@ -264,17 +266,17 @@ export function dossierHtml(data) {
     gap: 10px; margin-bottom: 24px;
   }
   .fact { background: var(--white); border-radius: 12px; padding: 14px 16px;
-    box-shadow: 0 2px 8px rgba(79,70,229,0.07); font-size: 13px; }
+    box-shadow: var(--shadow); font-size: 13px; }
   .fact .key { font-size: 10px; font-weight: 700; text-transform: uppercase;
     letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
   .emergency {
-    background: #FEF2F2; border: 1.5px solid var(--rude); border-radius: 12px;
+    background: var(--rude-bg); border: 1px solid var(--rude); border-radius: 12px;
     padding: 16px 20px; font-size: 14px; color: var(--rude); font-weight: 600;
   }
 </style>
 </head><body>
 <div class="cover">
-  <h1>🌍 ${escHtml(data.country)} Etiquette</h1>
+  <h1>${escHtml(data.country)} Etiquette</h1>
   <p class="tagline">${escHtml(data.tagline || '')}</p>
 </div>
 <div class="overview">${escHtml(data.overview || '')}</div>
@@ -308,7 +310,7 @@ ${categories.map(cat => `
   </div>`).join('')}
 </div>
 
-<div class="emergency">⚠ Never Do This: ${escHtml(data.emergency_tip || '')}</div>
+<div class="emergency">Never do this: ${escHtml(data.emergency_tip || '')}</div>
 ${watermark()}
 </body></html>`;
 }
@@ -319,12 +321,12 @@ export function scenarioHtml(data, params) {
 <style>
   body { padding: 36px; max-width: 820px; margin: 0 auto; }
   .header {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: var(--primary-dark);
     border-radius: var(--radius); padding: 28px 32px; color: var(--white); margin-bottom: 24px;
   }
   .header h1 { font-size: 22px; margin-bottom: 6px; }
   .situation {
-    background: #F9FAFB; border-radius: 12px; padding: 16px 20px;
+    background: var(--surface-alt); border-radius: 12px; padding: 16px 20px;
     font-size: 14px; color: var(--muted); margin-bottom: 20px;
     border-left: 4px solid var(--primary);
   }
@@ -357,7 +359,7 @@ export function scenarioHtml(data, params) {
 </style>
 </head><body>
 <div class="header">
-  <h1>🎯 Etiquette Coaching</h1>
+  <h1>Etiquette Coaching</h1>
   <p style="opacity:.85;font-size:14px">${escHtml(params.country || '')}</p>
 </div>
 <div class="situation">
@@ -379,7 +381,7 @@ export function scenarioHtml(data, params) {
 </div>
 ${data.local_phrase && data.local_phrase.text ? `
 <div class="phrase-box">
-  <div class="label">💬 Helpful Phrase</div>
+  <div class="label">Helpful phrase</div>
   <div class="phrase-text">${escHtml(data.local_phrase.text)}</div>
   <div class="phrase-rom">${escHtml(data.local_phrase.romanization || '')} · ${escHtml(data.local_phrase.meaning || '')}</div>
 </div>` : ''}
@@ -398,25 +400,24 @@ export function certificateHtml(data) {
     min-height: 700px;
   }
   .cert {
-    background: var(--white); border-radius: 24px;
-    box-shadow: 0 16px 64px rgba(79,70,229,0.18);
+    background: var(--white); border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(28,25,23,0.08), 0 16px 48px rgba(28,25,23,0.12);
     padding: 56px 64px; max-width: 780px; width: 100%; text-align: center;
-    border: 2.5px solid var(--primary-light);
+    border: 1px solid var(--line);
     position: relative; overflow: hidden;
   }
   .cert::before {
     content: '';
     position: absolute; top: 0; left: 0; right: 0; height: 8px;
-    background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+    background: linear-gradient(90deg, var(--primary) 0 50%, var(--accent) 50% 100%);
   }
-  .globe { font-size: 52px; margin-bottom: 8px; }
   .issuer { font-size: 13px; font-weight: 700; letter-spacing: .12em;
     text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
   .certifies { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
   .recipient {
     font-size: 32px; font-weight: 700; color: var(--primary-dark);
-    font-family: 'Noto Serif JP', Georgia, serif;
-    border-bottom: 2px solid var(--primary-light);
+    font-family: 'Fraunces', 'Noto Serif JP', Georgia, serif;
+    border-bottom: 2px dotted var(--line);
     padding-bottom: 12px; margin-bottom: 16px;
   }
   .achievement { font-size: 16px; color: var(--text); margin-bottom: 20px; }
@@ -428,16 +429,22 @@ export function certificateHtml(data) {
   .score-badge .num { font-size: 28px; font-weight: 700; color: var(--primary); }
   .score-badge .label { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; }
   .grade {
-    display: inline-block; padding: 6px 20px; border-radius: 100px;
-    background: linear-gradient(135deg, var(--primary), var(--accent));
-    color: var(--white); font-size: 13px; font-weight: 700; letter-spacing: .08em;
-    text-transform: uppercase; margin-bottom: 24px;
+    display: inline-block; margin: 6px 0 26px; padding: 6px 20px; border-radius: 6px;
+    color: var(--accent); background: var(--accent-light);
+    border: 2px solid currentColor; outline: 2px solid currentColor; outline-offset: 3px;
+    transform: rotate(-2deg);
+    font-family: 'Fraunces', 'Noto Serif JP', Georgia, serif;
+    font-size: 14px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  }
+  .badge-globe {
+    width: 56px; height: 56px; margin: 0 auto 12px; border-radius: 14px;
+    background: var(--primary); color: #fff; display: flex; align-items: center; justify-content: center;
   }
   .meta { font-size: 12px; color: var(--muted); margin-top: 8px; }
 </style>
 </head><body>
 <div class="cert">
-  <div class="globe">🌍</div>
+  <div class="badge-globe"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
   <div class="issuer">IsItPolite.com</div>
   <p class="certifies">This certifies that</p>
   <div class="recipient">${escHtml(data.recipientName || 'Explorer')}</div>
@@ -462,7 +469,7 @@ export function phrasebookHtml(data) {
 <style>
   body { padding: 36px; max-width: 1060px; margin: 0 auto; background: #fff; }
   .header {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: var(--primary-dark);
     border-radius: var(--radius); padding: 28px 36px; color: var(--white); margin-bottom: 28px;
   }
   .header h1 { font-size: 26px; margin-bottom: 4px; }
@@ -471,7 +478,7 @@ export function phrasebookHtml(data) {
   .phrase-table thead tr { background: var(--primary-light); }
   .phrase-table th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700;
     text-transform: uppercase; letter-spacing: .06em; color: var(--primary); }
-  .phrase-table td { padding: 10px 14px; border-bottom: 1px solid #F3F4F6; vertical-align: top; }
+  .phrase-table td { padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
   .phrase-table tr:last-child td { border: none; }
   .phrase-table .cat-badge { display: inline-block; font-size: 10px; font-weight: 700;
     background: var(--primary-light); color: var(--primary); padding: 2px 8px;
@@ -483,7 +490,7 @@ export function phrasebookHtml(data) {
   .dont-col h2 { color: var(--rude); font-size: 14px; text-transform: uppercase;
     letter-spacing: .07em; margin-bottom: 12px; }
   .do-col li, .dont-col li {
-    padding: 7px 0; border-bottom: 1px solid #F3F4F6; font-size: 13px;
+    padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px;
   }
   .do-col li::before { content: "✓ "; color: var(--polite); font-weight: 700; }
   .dont-col li::before { content: "✗ "; color: var(--rude); font-weight: 700; }
@@ -494,7 +501,7 @@ export function phrasebookHtml(data) {
 </style>
 </head><body>
 <div class="header">
-  <h1>📖 ${escHtml(data.country)} Phrasebook</h1>
+  <h1>${escHtml(data.country)} Phrasebook</h1>
   ${data.script_note ? `<p class="script-note">${escHtml(data.script_note)}</p>` : ''}
 </div>
 
@@ -529,7 +536,7 @@ export function phrasebookHtml(data) {
   </div>
 </div>
 
-<div class="tip-banner">🌟 Cultural tip: ${escHtml(data.cultural_tip || '')}</div>
+<div class="tip-banner">Cultural tip: ${escHtml(data.cultural_tip || '')}</div>
 ${watermark()}
 </body></html>`;
 }
